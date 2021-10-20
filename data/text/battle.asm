@@ -1,99 +1,99 @@
 BattleText:: ; used only for BANK(BattleText)
 
 BattleText_PlayerPickedUpPayDayMoney:
-	text "<PLAYER> picked up"
+	text "<PLAYER> zdvihol" ; text "<PLAYER> picked up"
 	line "¥@"
 	text_decimal wPayDayMoney, 3, 6
 	text "!"
 	prompt
 
 WildPokemonAppearedText:
-	text "Wild @"
+	text "Divoky @" ; text "Wild @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "appeared!"
+	line "sa objavil!" ; line "appeared!"
 	prompt
 
 HookedPokemonAttackedText:
-	text "The hooked"
+	text "Uloveny" ; text "The hooked"
 	line "@"
 	text_ram wEnemyMonNickname
 	text_start
-	cont "attacked!"
+	cont "utoci!" ; cont "attacked!"
 	prompt
 
 PokemonFellFromTreeText:
 	text_ram wEnemyMonNickname
-	text " fell"
-	line "out of the tree!"
+	text " spadol" ; text " fell"
+	line "zo stromu!" ; line "out of the tree!"
 	prompt
 
 WildCelebiAppearedText:
-	text "Wild @"
+	text "Divoky @" ; text "Wild @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "appeared!"
+	line "sa objavil!" ; line "appeared!"
 	prompt
 
 WantsToBattleText::
 	text "<ENEMY>"
-	line "wants to battle!"
+	line "chce bojovat!" ; line "wants to battle!"
 	prompt
 
 BattleText_WildFled:
-	text "Wild @"
+	text "Divoky @" ; text "Wild @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "fled!"
+	line "utiekol!" ; line "fled!"
 	prompt
 
 BattleText_EnemyFled:
-	text "Enemy @"
+	text "Nepriatel @" ; text "Enemy @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "fled!"
+	line "utiekol!" ; line "fled!"
 	prompt
 
 HurtByPoisonText:
 	text "<USER>"
-	line "is hurt by poison!"
+	line "je zraneny jedom!" ; line "is hurt by poison!"
 	prompt
 
 HurtByBurnText:
 	text "<USER>'s"
-	line "hurt by its burn!"
+	line "je zraneny ohnom!" ; line "hurt by its burn!"
 	prompt
 
 LeechSeedSapsText:
-	text "LEECH SEED saps"
+	text "LEECH SEED saje" ; text "LEECH SEED saps"
 	line "<USER>!"
 	prompt
 
 HasANightmareText:
 	text "<USER>"
-	line "has a NIGHTMARE!"
+	line "ma NIGHTMARE!" ; line "has a NIGHTMARE!"
 	prompt
 
 HurtByCurseText:
 	text "<USER>'s"
-	line "hurt by the CURSE!"
+	line "je zraneny CURSE!" ; line "hurt by the CURSE!"
 	prompt
 
 SandstormHitsText:
-	text "The SANDSTORM hits"
+	text "SANDSTORM zasahuje" ; text "The SANDSTORM hits"
 	line "<USER>!"
 	prompt
 
 PerishCountText:
 	text "<USER>'s"
-	line "PERISH count is @"
+	line "PERISH pocet je @" ; line "PERISH count is @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
 
 BattleText_TargetRecoveredWithItem:
 	text "<TARGET>"
-	line "recovered with"
+	line "je uzdraveny s" ; line "recovered with"
 	cont "@"
 	text_ram wStringBuffer1
 	text "."
@@ -101,7 +101,7 @@ BattleText_TargetRecoveredWithItem:
 
 BattleText_UserRecoveredPPUsing:
 	text "<USER>"
-	line "recovered PP using"
+	line "doplnil PP pomocou" ; line "recovered PP using"
 	cont "@"
 	text_ram wStringBuffer1
 	text "."
@@ -109,94 +109,94 @@ BattleText_UserRecoveredPPUsing:
 
 BattleText_TargetWasHitByFutureSight:
 	text "<TARGET>"
-	line "was hit by FUTURE"
-	cont "SIGHT!"
+	line "bol zasiahnuty" ; line "was hit by FUTURE"
+	cont "FUTURE SIGHT!" ; cont "SIGHT!"
 	prompt
 
 BattleText_SafeguardFaded:
 	text "<USER>'s"
-	line "SAFEGUARD faded!"
+	line "SAFEGUARD vyprchal!" ; line "SAFEGUARD faded!"
 	prompt
 
 BattleText_MonsLightScreenFell:
 	text_ram wStringBuffer1
 	text " #MON's"
-	line "LIGHT SCREEN fell!"
+	line "LIGHT SCREEN ustupil!" ; line "LIGHT SCREEN fell!"
 	prompt
 
 BattleText_MonsReflectFaded:
 	text_ram wStringBuffer1
 	text " #MON's"
-	line "REFLECT faded!"
+	line "REFLECT vyprchal!" ; line "REFLECT faded!"
 	prompt
 
 BattleText_RainContinuesToFall:
-	text "Rain continues to"
-	line "fall."
+	text "Dazd pada" ; text "Rain continues to"
+	line "dalej." ; line "fall."
 	prompt
 
 BattleText_TheSunlightIsStrong:
-	text "The sunlight is"
-	line "strong."
+	text "Slnko svieti" ; text "The sunlight is"
+	line "silno." ; line "strong."
 	prompt
 
 BattleText_TheSandstormRages:
-	text "The SANDSTORM"
-	line "rages."
+	text "SANDSTORM" ; text "The SANDSTORM"
+	line "zuri." ; line "rages."
 	prompt
 
 BattleText_TheRainStopped:
-	text "The rain stopped."
+	text "Prestalo prsat." ; text "The rain stopped."
 	prompt
 
 BattleText_TheSunlightFaded:
-	text "The sunlight"
-	line "faded."
+	text "Slnko prestalo" ; text "The sunlight"
+	line "svietit." ; line "faded."
 	prompt
 
 BattleText_TheSandstormSubsided:
-	text "The SANDSTORM"
-	line "subsided."
+	text "SANDSTORM" ; text "The SANDSTORM"
+	line "ustupil." ; line "subsided."
 	prompt
 
 BattleText_EnemyMonFainted:
-	text "Enemy @"
+	text "Nepriatel @" ; text "Enemy @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "fainted!"
+	line "odpadol!" ; line "fainted!"
 	prompt
 
 GotMoneyForWinningText:
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> dostal ¥@" ; text "<PLAYER> got ¥@"
 	text_decimal wBattleReward, 3, 6
 	text_start
-	line "for winning!"
+	line "za vyhru!" ; line "for winning!"
 	prompt
 
 BattleText_EnemyWasDefeated:
 	text "<ENEMY>"
-	line "was defeated!"
+	line "bol porazeny!" ; line "was defeated!"
 	prompt
 
 TiedAgainstText:
-	text "Tied against"
+	text "Remiza proti" ; text "Tied against"
 	line "<ENEMY>!"
 	prompt
 
 SentSomeToMomText:
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> dostal ¥@" ; text "<PLAYER> got ¥@"
 	text_decimal wBattleReward, 3, 6
 	text_start
-	line "for winning!"
-	cont "Sent some to MOM!"
+	line "za vyhru!" ; line "for winning!"
+	cont "Poslal nieco mame!" ; cont "Sent some to MOM!"
 	prompt
 
 SentHalfToMomText:
-	text "Sent half to MOM!"
+	text "Poslal polku mame!" ; text "Sent half to MOM!"
 	prompt
 
 SentAllToMomText:
-	text "Sent all to MOM!"
+	text "Poslal vsetko mame!" ; text "Sent all to MOM!"
 	prompt
 
 UnusedRivalLossText: ; unreferenced
@@ -208,11 +208,11 @@ UnusedRivalLossText: ; unreferenced
 BattleText_MonFainted:
 	text_ram wBattleMonNickname
 	text_start
-	line "fainted!"
+	line "odpadol!" ; line "fainted!"
 	prompt
 
 BattleText_UseNextMon:
-	text "Use next #MON?"
+	text "Pouzit dalsieho #MON?" ; text "Use next #MON?"
 	done
 
 UnusedRivalWinText: ; unreferenced
@@ -222,128 +222,129 @@ UnusedRivalWinText: ; unreferenced
 	prompt
 
 LostAgainstText:
-	text "Lost against"
+	text "Prehra proti" ; text "Lost against"
 	line "<ENEMY>!"
 	prompt
 
 BattleText_EnemyIsAboutToUseWillPlayerChangeMon:
 	text "<ENEMY>"
-	line "is about to use"
+	line "chce pouzit" ; line "is about to use"
 	cont "@"
 	text_ram wEnemyMonNickname
 	text "."
 
-	para "Will <PLAYER>"
-	line "change #MON?"
+	para "Chce <PLAYER>" ; para "Will <PLAYER>"
+	line "zmenit #MON?" ; line "change #MON?"
 	done
 
 BattleText_EnemySentOut:
 	text "<ENEMY>"
-	line "sent out"
+	line "zvolil" ; line "sent out"
 	cont "@"
 	text_ram wEnemyMonNickname
 	text "!"
 	done
 
 BattleText_TheresNoWillToBattle:
-	text "There's no will to"
-	line "battle!"
+	text "Nie je chut" ; text "There's no will to"
+	line "bojovat!" ; line "battle!"
 	prompt
 
 BattleText_AnEGGCantBattle:
-	text "An EGG can't"
-	line "battle!"
+	text "VAJICKO nemoze" ; text "An EGG can't"
+	line "zapasit!" ; line "battle!"
 	prompt
 
 BattleText_CantEscape2:
-	text "Can't escape!"
+	text "Neda sa ujst!" ; text "Can't escape!"
 	prompt
 
 BattleText_TheresNoEscapeFromTrainerBattle:
-	text "No! There's no"
-	line "running from a"
-	cont "trainer battle!"
+	text "Nie! Z" ; text "No! There's no"
+	line "trenerskeho zapasu" ; line "running from a"
+	cont "sa neuteka!" ; cont "trainer battle!"
 	prompt
 
 BattleText_GotAwaySafely:
-	text "Got away safely!"
+	text "Bezpecne si" ; text "Got away safely!"
+	line "unikol!"
 	prompt
 
 BattleText_UserFledUsingAStringBuffer1:
 	text "<USER>"
-	line "fled using a"
+	line "unikol pomocou" ; line "fled using a"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 BattleText_CantEscape:
-	text "Can't escape!"
+	text "Neda sa ujst!" ; text "Can't escape!"
 	prompt
 
 BattleText_UserHurtBySpikes:
-	text "<USER>'s"
-	line "hurt by SPIKES!"
+	text "<USER>"
+	line "zraneny SPIKES!" ; line "hurt by SPIKES!"
 	prompt
 
 RecoveredUsingText:
 	text "<TARGET>"
-	line "recovered using a"
+	line "uzdraveny pomocou" ; line "recovered using a"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 BattleText_UsersStringBuffer1Activated:
-	text "<USER>'s"
+	text "<USER>"
 	line "@"
 	text_ram wStringBuffer1
 	text_start
-	cont "activated!"
+	cont "aktivovany!" ; cont "activated!"
 	prompt
 
 BattleText_ItemsCantBeUsedHere:
-	text "Items can't be"
-	line "used here."
+	text "Tu nemozes" ; text "Items can't be"
+	line "pouzivat veci." ; line "used here."
 	prompt
 
 BattleText_MonIsAlreadyOut:
 	text_ram wBattleMonNickname
 	text_start
-	line "is already out."
+	line "uz je vonku." ; line "is already out."
 	prompt
 
 BattleText_MonCantBeRecalled:
 	text_ram wBattleMonNickname
 	text_start
-	line "can't be recalled!"
+	line "nemoze byt odvolany!" ; line "can't be recalled!"
 	prompt
 
 BattleText_TheresNoPPLeftForThisMove:
-	text "There's no PP left"
-	line "for this move!"
+	text "Nie je dost PP" ; text "There's no PP left"
+	line "pre tento utok!" ; line "for this move!"
 	prompt
 
 BattleText_TheMoveIsDisabled:
-	text "The move is"
-	line "DISABLED!"
+	text "Utok je" ; text "The move is"
+	line "VYPNUTY!" ; line "DISABLED!"
 	prompt
 
 BattleText_MonHasNoMovesLeft:
 	text_ram wBattleMonNickname
 	text_start
-	line "has no moves left!"
+	line "nema ziadne utoky!" ; line "has no moves left!"
 	done
 
 BattleText_TargetsEncoreEnded:
 	text "<TARGET>'s"
-	line "ENCORE ended!"
+	line "ENCORE skoncil!" ; line "ENCORE ended!"
 	prompt
 
 BattleText_StringBuffer1GrewToLevel:
 	text_ram wStringBuffer1
-	text " grew to"
-	line "level @"
+	text " vyrastol na" ; text " grew to"
+	line "level @" ; line "level @"
 	text_decimal wCurPartyLevel, 1, 3
 	text "!@"
 	sound_dex_fanfare_50_79
@@ -352,85 +353,85 @@ BattleText_StringBuffer1GrewToLevel:
 	text_end ; unreferenced
 
 BattleText_WildMonIsEating:
-	text "Wild @"
+	text "Divoky @" ; text "Wild @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "is eating!"
+	line "zerie!" ; line "is eating!"
 	prompt
 
 BattleText_WildMonIsAngry:
-	text "Wild @"
+	text "Wild @" ; text "Wild @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "is angry!"
+	line "je nastvany!" ; line "is angry!"
 	prompt
 
 FastAsleepText:
 	text "<USER>"
-	line "is fast asleep!"
+	line "tvrdo spi!" ; line "is fast asleep!"
 	prompt
 
 WokeUpText:
 	text "<USER>"
-	line "woke up!"
+	line "sa zobudil!" ; line "woke up!"
 	prompt
 
 FrozenSolidText:
 	text "<USER>"
-	line "is frozen solid!"
+	line "zamrzol!" ; line "is frozen solid!"
 	prompt
 
 FlinchedText:
 	text "<USER>"
-	line "flinched!"
+	line "cuvol!" ; line "flinched!"
 	prompt
 
 MustRechargeText:
 	text "<USER>"
-	line "must recharge!"
+	line "musi oddychovat!" ; line "must recharge!"
 	prompt
 
 DisabledNoMoreText:
-	text "<USER>'s"
-	line "disabled no more!"
+	text "<USER>"
+	line "uz nema vypnuty utok!" ; line "disabled no more!"
 	prompt
 
 IsConfusedText:
 	text "<USER>"
-	line "is confused!"
+	line "je zmateny!" ; line "is confused!"
 	prompt
 
 HurtItselfText:
-	text "It hurt itself in"
-	line "its confusion!"
+	text "Zranil sam seba" ; text "It hurt itself in"
+	line "kvoli zmateniu!" ; line "its confusion!"
 	prompt
 
 ConfusedNoMoreText:
-	text "<USER>'s"
-	line "confused no more!"
+	text "<USER>"
+	line "uz nie je zmateny!" ; line "confused no more!"
 	prompt
 
 BecameConfusedText:
 	text "<TARGET>"
-	line "became confused!"
+	line "zacina byt zmateny!" ; line "became confused!"
 	prompt
 
 BattleText_ItemHealedConfusion:
-	text "A @"
+	text "Vec @" ; text "A @"
 	text_ram wStringBuffer1
-	text " rid"
+	text " odstranila z" ; text " rid"
 	line "<TARGET>"
-	cont "of its confusion."
+	cont "zmatenie." ; cont "of its confusion."
 	prompt
 
 AlreadyConfusedText:
-	text "<TARGET>'s"
-	line "already confused!"
+	text "<TARGET>"
+	line "uz je zmateny!" ; line "already confused!"
 	prompt
 
 BattleText_UsersHurtByStringBuffer1:
 	text "<USER>'s"
-	line "hurt by"
+	line "je zraneny" ; line "hurt by"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -438,7 +439,7 @@ BattleText_UsersHurtByStringBuffer1:
 
 BattleText_UserWasReleasedFromStringBuffer1:
 	text "<USER>"
-	line "was released from"
+	line "sa oslobodil z" ; line "was released from"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -446,45 +447,45 @@ BattleText_UserWasReleasedFromStringBuffer1:
 
 UsedBindText:
 	text "<USER>"
-	line "used BIND on"
+	line "pouzil BIND na" ; line "used BIND on"
 	cont "<TARGET>!"
 	prompt
 
 WhirlpoolTrapText:
 	text "<TARGET>"
-	line "was trapped!"
+	line "bol uvazneny!" ; line "was trapped!"
 	prompt
 
 FireSpinTrapText:
 	text "<TARGET>"
-	line "was trapped!"
+	line "bol uvazneny!" ; line "was trapped!"
 	prompt
 
 WrappedByText:
 	text "<TARGET>"
-	line "was WRAPPED by"
+	line "bol WRAPPED od" ; line "was WRAPPED by"
 	cont "<USER>!"
 	prompt
 
 ClampedByText:
 	text "<TARGET>"
-	line "was CLAMPED by"
+	line "bol CLAMPED od" ; line "was CLAMPED by"
 	cont "<USER>!"
 	prompt
 
 StoringEnergyText:
 	text "<USER>"
-	line "is storing energy!"
+	line "setri energiu!" ; line "is storing energy!"
 	prompt
 
 UnleashedEnergyText:
 	text "<USER>"
-	line "unleashed energy!"
+	line "rozputal energiu!" ; line "unleashed energy!"
 	prompt
 
 HungOnText:
 	text "<TARGET>"
-	line "hung on with"
+	line "sa zavesil na" ; ??? line "hung on with"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -492,73 +493,73 @@ HungOnText:
 
 EnduredText:
 	text "<TARGET>"
-	line "ENDURED the hit!"
+	line "VYDRZAL utok!" ; line "ENDURED the hit!"
 	prompt
 
 InLoveWithText:
 	text "<USER>"
-	line "is in love with"
+	line "je zalubeny do" ; line "is in love with"
 	cont "<TARGET>!"
 	prompt
 
 InfatuationText:
-	text "<USER>'s"
-	line "infatuation kept"
-	cont "it from attacking!"
+	text "<USER>"
+	line "zalubenost zabranila" ; line "infatuation kept"
+	cont "utoceniu!" ; cont "it from attacking!"
 	prompt
 
 DisabledMoveText:
 	text "<USER>'s"
 	line "@"
 	text_ram wStringBuffer1
-	text " is"
-	cont "DISABLED!"
+	text " je" ; text " is"
+	cont "VYPNUTY!" ; cont "DISABLED!"
 	prompt
 
 LoafingAroundText:
 	text_ram wBattleMonNickname
-	text " is"
-	line "loafing around."
+	text " je" ; text " is"
+	line "necinny." ; line "loafing around."
 	prompt
 
 BeganToNapText:
 	text_ram wBattleMonNickname
-	text " began"
-	line "to nap!"
+	text " zacal" ; text " began"
+	line "spat!" ; line "to nap!"
 	prompt
 
 WontObeyText:
 	text_ram wBattleMonNickname
-	text " won't"
-	line "obey!"
+	text " bohuzial" ; text " won't"
+	line "neposlucha!" ; line "obey!"
 	prompt
 
 TurnedAwayText:
 	text_ram wBattleMonNickname
-	text " turned"
-	line "away!"
+	text " sa" ; text " turned"
+	line "odvratil!" ; line "away!"
 	prompt
 
 IgnoredOrdersText:
 	text_ram wBattleMonNickname
-	text " ignored"
-	line "orders!"
+	text " ignoroval" ; text " ignored"
+	line "prikaz!" ; line "orders!"
 	prompt
 
 IgnoredSleepingText:
 	text_ram wBattleMonNickname
-	text " ignored"
-	line "orders…sleeping!"
+	text " ignoroval" ; text " ignored"
+	line "prikaz…spi!" ; line "orders…sleeping!"
 	prompt
 
 NoPPLeftText:
-	text "But no PP is left"
-	line "for the move!"
+	text "Nezostal ziaden PP" ; text "But no PP is left"
+	line "na utok!" ; line "for the move!"
 	prompt
 
 HasNoPPLeftText:
 	text "<USER>"
-	line "has no PP left for"
+	line "nema ziaden PP na" ; line "has no PP left for"
 	cont "@"
 	text_ram wStringBuffer2
 	text "!"
@@ -566,93 +567,93 @@ HasNoPPLeftText:
 
 WentToSleepText:
 	text "<USER>"
-	line "went to sleep!"
+	line "zaspal!" ; line "went to sleep!"
 	done
 
 RestedText:
 	text "<USER>"
-	line "fell asleep and"
-	cont "became healthy!"
+	line "zaspal a" ; line "fell asleep and"
+	cont "uzdravil sa!" ; cont "became healthy!"
 	done
 
 RegainedHealthText:
 	text "<USER>"
-	line "regained health!"
+	line "ziskal zdravie!" ; line "regained health!"
 	prompt
 
 AttackMissedText:
-	text "<USER>'s"
-	line "attack missed!"
+	text "<USER>"
+	line "minul utok!" ; line "attack missed!"
 	prompt
 
 AttackMissed2Text:
-	text "<USER>'s"
-	line "attack missed!"
+	text "<USER>"
+	line "minul utok!" ; line "attack missed!"
 	prompt
 
 CrashedText:
 	text "<USER>"
-	line "kept going and"
-	cont "crashed!"
+	line "pokracoval a" ; line "kept going and"
+	cont "narazil!" ; cont "crashed!"
 	prompt
 
 UnaffectedText:
-	text "<TARGET>'s"
-	line "unaffected!"
+	text "<TARGET>"
+	line "neovplyvneny!" ; line "unaffected!"
 	prompt
 
 DoesntAffectText:
-	text "It doesn't affect"
+	text "Neovplyvnuje" ; text "It doesn't affect"
 	line "<TARGET>!"
 	prompt
 
 CriticalHitText:
-	text "A critical hit!"
+	text "Kriticky zasah!" ; text "A critical hit!"
 	prompt
 
 OneHitKOText:
-	text "It's a one-hit KO!"
+	text "Je to KO!" ; text "It's a one-hit KO!"
 	prompt
 
 SuperEffectiveText:
-	text "It's super-"
-	line "effective!"
+	text "Je to super-" ; text "It's super-"
+	line "ucinne!" ; line "effective!"
 	prompt
 
 NotVeryEffectiveText:
-	text "It's not very"
-	line "effective…"
+	text "Nie je to velmi" ; text "It's not very"
+	line "ucinne…" ; line "effective…"
 	prompt
 
 TookDownWithItText:
 	text "<TARGET>"
-	line "took down with it,"
+	line "zobral zo sebou," ; line "took down with it,"
 	cont "<USER>!"
 	prompt
 
 RageBuildingText:
 	text "<USER>'s"
-	line "RAGE is building!"
+	line "HNEV sa stupnuje!" ; line "RAGE is building!"
 	prompt
 
 GotAnEncoreText:
 	text "<TARGET>"
-	line "got an ENCORE!"
+	line "dostal ENCORE!" ; line "got an ENCORE!"
 	prompt
 
 SharedPainText:
-	text "The battlers"
-	line "shared pain!"
+	text "Superi" ; text "The battlers"
+	line "zdielaju bolest!" ; line "shared pain!"
 	prompt
 
 TookAimText:
 	text "<USER>"
-	line "took aim!"
+	line "zamieril!" ; line "took aim!"
 	prompt
 
 SketchedText:
 	text "<USER>"
-	line "SKETCHED"
+	line "SKETCHED" ; line "SKETCHED"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -660,168 +661,168 @@ SketchedText:
 
 DestinyBondEffectText:
 	text "<USER>'s"
-	line "trying to take its"
-	cont "opponent with it!"
+	line "skusa vziat so" ; line "trying to take its"
+	cont "sebou nepriatela!" ; cont "opponent with it!"
 	prompt
 
 SpiteEffectText:
 	text "<TARGET>'s"
 	line "@"
 	text_ram wStringBuffer1
-	text " was"
-	cont "reduced by @"
+	text " bol" ; text " was"
+	cont "znizeny o @" ; cont "reduced by @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
 
 BellChimedText:
-	text "A bell chimed!"
+	text "Zazvonil zvoncek!" ; text "A bell chimed!"
 	line ""
 	prompt
 
 FellAsleepText:
 	text "<TARGET>"
-	line "fell asleep!"
+	line "zaspal!" ; line "fell asleep!"
 	prompt
 
 AlreadyAsleepText:
 	text "<TARGET>'s"
-	line "already asleep!"
+	line "uz spi!" ; line "already asleep!"
 	prompt
 
 WasPoisonedText:
 	text "<TARGET>"
-	line "was poisoned!"
+	line "bol otraveny!" ; line "was poisoned!"
 	prompt
 
 BadlyPoisonedText:
-	text "<TARGET>'s"
-	line "badly poisoned!"
+	text "<TARGET>"
+	line "bol silne otraveny!" ; line "badly poisoned!"
 	prompt
 
 AlreadyPoisonedText:
-	text "<TARGET>'s"
-	line "already poisoned!"
+	text "<TARGET>"
+	line "uz je otraveny!" ; line "already poisoned!"
 	prompt
 
 SuckedHealthText:
-	text "Sucked health from"
+	text "Vysal HP z" ; text "Sucked health from"
 	line "<TARGET>!"
 	prompt
 
 DreamEatenText:
-	text "<TARGET>'s"
-	line "dream was eaten!"
+	text "<TARGET>"
+	line "sen bol prekazeny!" ; line "dream was eaten!"
 	prompt
 
 WasBurnedText:
 	text "<TARGET>"
-	line "was burned!"
+	line "bol popaleny!" ; line "was burned!"
 	prompt
 
 DefrostedOpponentText:
 	text "<TARGET>"
-	line "was defrosted!"
+	line "sa rozmrazil!" ; line "was defrosted!"
 	prompt
 
 WasFrozenText:
 	text "<TARGET>"
-	line "was frozen solid!"
+	line "zamrzol!" ; line "was frozen solid!"
 	prompt
 
 WontRiseAnymoreText:
-	text "<USER>'s"
+	text "<USER>"
 	line "@"
 	text_ram wStringBuffer2
-	text " won't"
-	cont "rise anymore!"
+	text " uz nemoze" ; text " won't"
+	cont "stupnut!" ; cont "rise anymore!"
 	prompt
 
 WontDropAnymoreText:
 	text "<TARGET>'s"
 	line "@"
 	text_ram wStringBuffer2
-	text " won't"
-	cont "drop anymore!"
+	text " uz nemoze" ; text " won't"
+	cont "klesnut!" ; cont "drop anymore!"
 	prompt
 
 FledFromBattleText::
 	text "<USER>"
-	line "fled from battle!"
+	line "utiekol zo zapasu!" ; line "fled from battle!"
 	prompt
 
 FledInFearText:
 	text "<TARGET>"
-	line "fled in fear!"
+	line "strachom utiekol!" ; line "fled in fear!"
 	prompt
 
 BlownAwayText:
 	text "<TARGET>"
-	line "was blown away!"
+	line "bol odfuknuty!" ; line "was blown away!"
 	prompt
 
 PlayerHitTimesText:
-	text "Hit @"
+	text "Zasiahnuty @" ; text "Hit @"
 	text_decimal wPlayerDamageTaken, 1, 1
-	text " times!"
+	text " krat!" ; text " times!"
 	prompt
 
 EnemyHitTimesText:
-	text "Hit @"
+	text "Zasiahnuty @" ; text "Hit @"
 	text_decimal wEnemyDamageTaken, 1, 1
-	text " times!"
+	text " krat!" ; text " times!"
 	prompt
 
 MistText:
 	text "<USER>'s"
-	line "shrouded in MIST!"
+	line "zahaleny do HMLY!" ; line "shrouded in MIST!"
 	prompt
 
 ProtectedByMistText:
 	text "<TARGET>'s"
-	line "protected by MIST."
+	line "ochraneny HMLOU." ; line "protected by MIST."
 	prompt
 
 GettingPumpedText:
 	text_pause
-	text "<USER>'s"
-	line "getting pumped!"
+	text "<USER>"
+	line "sa napumpoval!" ; line "getting pumped!"
 	prompt
 
 RecoilText:
 	text "<USER>'s"
-	line "hit with recoil!"
+	line "zasiahol spatnym razom!" ; line "hit with recoil!"
 	prompt
 
 MadeSubstituteText:
 	text "<USER>"
-	line "made a SUBSTITUTE!"
+	line "urobil NAHRADU!" ; line "made a SUBSTITUTE!"
 	prompt
 
 HasSubstituteText:
 	text "<USER>"
-	line "has a SUBSTITUTE!"
+	line "ma NAHRADU!" ; line "has a SUBSTITUTE!"
 	prompt
 
 TooWeakSubText:
-	text "Too weak to make"
-	line "a SUBSTITUTE!"
+	text "Prilis slaby na" ; text "Too weak to make"
+	line "NAHRADU!" ; line "a SUBSTITUTE!"
 	prompt
 
 SubTookDamageText:
-	text "The SUBSTITUTE"
-	line "took damage for"
+	text "NAHRADA" ; text "The SUBSTITUTE"
+	line "zranena miesto" ; line "took damage for"
 	cont "<TARGET>!"
 	prompt
 
 SubFadedText:
-	text "<TARGET>'s"
-	line "SUBSTITUTE faded!"
+	text "<TARGET>"
+	line "NAHRADA zmizla!" ; line "SUBSTITUTE faded!"
 	prompt
 
 MimicLearnedMoveText:
 	text "<USER>"
-	line "learned"
+	line "sa naucil" ; line "learned"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -829,277 +830,277 @@ MimicLearnedMoveText:
 
 WasSeededText:
 	text "<TARGET>"
-	line "was seeded!"
+	line "bol zasiaty!" ; line "was seeded!"
 	prompt
 
 EvadedText:
 	text "<TARGET>"
-	line "evaded the attack!"
+	line "sa uhol utoku!" ; line "evaded the attack!"
 	prompt
 
 WasDisabledText:
-	text "<TARGET>'s"
+	text "<TARGET>"
 	line "@"
 	text_ram wStringBuffer1
-	text " was"
-	cont "DISABLED!"
+	text " bol" ; text " was"
+	cont "VYPNUTY!" ; cont "DISABLED!"
 	prompt
 
 CoinsScatteredText:
-	text "Coins scattered"
-	line "everywhere!"
+	text "Mince sa vsade" ; text "Coins scattered"
+	line "rozprchli!"  ; line "everywhere!"
 	prompt
 
 TransformedTypeText:
 	text "<USER>"
-	line "transformed into"
-	cont "the @"
+	line "sa zmenil na" ; line "transformed into"
+	cont "the @" ; cont "the @"
 	text_ram wStringBuffer1
-	text "-type!"
+	text " typ!" ; text "-type!"
 	prompt
 
 EliminatedStatsText:
-	text "All stat changes"
-	line "were eliminated!"
+	text "Vsetky statusy" ; text "All stat changes"
+	line "boli eliminovane!" ; line "were eliminated!"
 	prompt
 
 TransformedText:
 	text "<USER>"
-	line "TRANSFORMED into"
+	line "sa premenil na" ; line "TRANSFORMED into"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 LightScreenEffectText:
-	text "<USER>'s"
-	line "SPCL.DEF rose!"
+	text "<USER>"
+	line "SPCL.OBR stupla!" ; line "SPCL.DEF rose!"
 	prompt
 
 ReflectEffectText:
-	text "<USER>'s"
-	line "DEFENSE rose!"
+	text "<USER>"
+	line "OBRANA stupla!" ; line "DEFENSE rose!"
 	prompt
 
 NothingHappenedText:
-	text "But nothing"
-	line "happened."
+	text "Ale nic sa" ; text "But nothing"
+	line "nestalo." ; line "happened."
 	prompt
 
 ButItFailedText:
-	text "But it failed!"
+	text "Ale neuspesne!" ; text "But it failed!"
 	prompt
 
 ItFailedText:
-	text "It failed!"
+	text "Nepodarilo sa!" ; text "It failed!"
 	prompt
 
 DidntAffect1Text:
-	text "It didn't affect"
+	text "Nemalo to efekt na" ; text "It didn't affect"
 	line "<TARGET>!"
 	prompt
 
 DidntAffect2Text:
-	text "It didn't affect"
+	text "Nemalo to efekt na" ; text "It didn't affect"
 	line "<TARGET>!"
 	prompt
 
 HPIsFullText:
-	text "<USER>'s"
-	line "HP is full!"
+	text "<USER>"
+	line "HP je plne!" ; line "HP is full!"
 	prompt
 
 DraggedOutText:
 	text "<USER>"
-	line "was dragged out!"
+	line "bol vytiahnuty!" ; line "was dragged out!"
 	prompt
 
 ParalyzedText:
-	text "<TARGET>'s"
-	line "paralyzed! Maybe"
-	cont "it can't attack!"
+	text "<TARGET>"
+	line "je paralyzovany!" ; line "paralyzed! Maybe"
+	cont "Mozno nebude utocit!" ; cont "it can't attack!"
 	prompt
 
 FullyParalyzedText:
-	text "<USER>'s"
-	line "fully paralyzed!"
+	text "<USER>"
+	line "je plne paralyzovany!" ; line "fully paralyzed!"
 	prompt
 
 AlreadyParalyzedText:
-	text "<TARGET>'s"
-	line "already paralyzed!"
+	text "<TARGET>"
+	line "je uz paralyzovany!" ; line "already paralyzed!"
 	prompt
 
 ProtectedByText:
-	text "<TARGET>'s"
-	line "protected by"
+	text "<TARGET>"
+	line "je chraneny" ; line "protected by"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 MirrorMoveFailedText:
-	text "The MIRROR MOVE"
-	next "failed!"
+	text "MIRROR MOVE" ; text "The MIRROR MOVE"
+	next "bol neuspesny!" ; next "failed!"
 	prompt
 
 StoleText:
 	text "<USER>"
-	line "stole @"
+	line "ukradol @" ; line "stole @"
 	text_ram wStringBuffer1
 	text_start
-	cont "from its foe!"
+	cont "od nepriatela!" ; cont "from its foe!"
 	prompt
 
 CantEscapeNowText:
 	text "<TARGET>"
-	line "can't escape now!"
+	line "uz nemoze ujst!" ; line "can't escape now!"
 	prompt
 
 StartedNightmareText:
 	text "<TARGET>"
-	line "started to have a"
-	cont "NIGHTMARE!"
+	line "zacal mat" ; line "started to have a"
+	cont "NOCNU MORU!" ; cont "NIGHTMARE!"
 	prompt
 
 WasDefrostedText:
 	text "<USER>"
-	line "was defrosted!"
+	line "sa rozmrazil!" ; line "was defrosted!"
 	prompt
 
 PutACurseText:
 	text "<USER>"
-	line "cut its own HP and"
+	line "obetoval polku HP a" ; line "cut its own HP and"
 
-	para "put a CURSE on"
+	para "dal KLIATBU na" ; para "put a CURSE on"
 	line "<TARGET>!"
 	prompt
 
 ProtectedItselfText:
 	text "<USER>"
-	line "PROTECTED itself!"
+	line "je OCHRANENY!" ; line "PROTECTED itself!"
 	prompt
 
 ProtectingItselfText:
-	text "<TARGET>'s"
-	line "PROTECTING itself!"
+	text "<TARGET>"
+	line "je OCHRANENY!" ; line "PROTECTING itself!"
 	done
 
 SpikesText:
-	text "SPIKES scattered"
-	line "all around"
+	text "PICHLIACE rozsypane" ; text "SPIKES scattered"
+	line "vsade okolo" ; line "all around"
 	cont "<TARGET>!"
 	prompt
 
 IdentifiedText:
 	text "<USER>"
-	line "identified"
+	line "identifikoval" ; line "identified"
 	cont "<TARGET>!"
 	prompt
 
 StartPerishText:
-	text "Both #MON will"
-	line "faint in 3 turns!"
+	text "Obaja #MON" ; text "Both #MON will"
+	line "odpadnu po 3 tahoch!" ; line "faint in 3 turns!"
 	prompt
 
 SandstormBrewedText:
-	text "A SANDSTORM"
-	line "brewed!"
+	text "SANDSTORM" ; text "A SANDSTORM"
+	line "zacala!" ; line "brewed!"
 	prompt
 
 BracedItselfText:
 	text "<USER>"
-	line "braced itself!"
+	line "sa vzchopil!" ; line "braced itself!"
 	prompt
 
 FellInLoveText:
 	text "<TARGET>"
-	line "fell in love!"
+	line "sa zalubil!" ; line "fell in love!"
 	prompt
 
 CoveredByVeilText:
-	text "<USER>'s"
-	line "covered by a veil!"
+	text "<USER>"
+	line "bol zakryty clonou!" ; line "covered by a veil!"
 	prompt
 
 SafeguardProtectText:
 	text "<TARGET>"
-	line "is protected by"
-	cont "SAFEGUARD!"
+	line "je ochraneny" ; line "is protected by"
+	cont "SAFEGUARD!" ; cont "SAFEGUARD!"
 	prompt
 
 MagnitudeText:
-	text "Magnitude @"
+	text "MAGNITUDA @" ; text "Magnitude @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
 
 ReleasedByText:
 	text "<USER>"
-	line "was released by"
+	line "bol uvolneny od" ; line "was released by"
 	cont "<TARGET>!"
 	prompt
 
 ShedLeechSeedText:
 	text "<USER>"
-	line "shed LEECH SEED!"
+	line "vysypal LEECH SEED!" ; line "shed LEECH SEED!"
 	prompt
 
 BlewSpikesText:
 	text "<USER>"
-	line "blew away SPIKES!"
+	line "odfukol PICHLIACE!" ; line "blew away SPIKES!"
 	prompt
 
 DownpourText:
-	text "A downpour"
-	line "started!"
+	text "Zacal" ; text "A downpour"
+	line "lejak!" ; line "started!"
 	prompt
 
 SunGotBrightText:
-	text "The sunlight got"
-	line "bright!"
+	text "Slnko svieti" ; text "The sunlight got"
+	line "jasne!" ; line "bright!"
 	prompt
 
 BellyDrumText:
 	text "<USER>"
-	line "cut its HP and"
-	cont "maximized ATTACK!"
+	line "obetoval HP a" ; line "cut its HP and"
+	cont "maximalizoval UTOK!" ; cont "maximized ATTACK!"
 	prompt
 
 CopiedStatsText:
 	text "<USER>"
-	line "copied the stat"
+	line "skopiroval zmeny" ; line "copied the stat"
 
-	para "changes of"
+	para "statusov" ; para "changes of"
 	line "<TARGET>!"
 	prompt
 
 ForesawAttackText:
 	text "<USER>"
-	line "foresaw an attack!"
+	line "predvidal utok!" ; line "foresaw an attack!"
 	prompt
 
 BeatUpAttackText:
 	text_ram wStringBuffer1
-	text "'s"
-	line "attack!"
+	text " " ; text "'s"
+	line "utok!" ; line "attack!"
 	done
 
 PresentFailedText:
 	text "<TARGET>"
-	line "refused the gift!"
+	line "odmietol darcek!" ; line "refused the gift!"
 	prompt
 
 IgnoredOrders2Text:
 	text "<USER>"
-	line "ignored orders!"
+	line "ignoroval prikaz!" ; line "ignored orders!"
 	prompt
 
 BattleText_LinkErrorBattleCanceled:
-	text "Link error…"
+	text "Chyba spojenia…" ; text "Link error…"
 
-	para "The battle has"
-	line "been canceled…"
+	para "Zapas bol" ; para "The battle has"
+	line "zruseny…" ; line "been canceled…"
 	prompt
 
 BattleText_NoTimeLeftToday: ; unreferenced
