@@ -1,231 +1,231 @@
 _OakText6::
-	text "Now, what did you"
-	line "say your name was?"
+	text "Now, what did you" ; text "Now, what did you"
+	line "say your name was?" ; line "say your name was?"
 	prompt
 
 _OakText7::
-	text "<PLAYER>, are you"
-	line "ready?"
+	text "<PLAYER>, are you" ; text "<PLAYER>, are you"
+	line "ready?" ; line "ready?"
 
-	para "Your very own"
-	line "#MON story is"
-	cont "about to unfold."
+	para "Your very own" ; para "Your very own"
+	line "#MON story is" ; line "#MON story is"
+	cont "about to unfold." ; cont "about to unfold."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "You'll face fun" ; para "You'll face fun"
+	line "times and tough" ; line "times and tough"
+	cont "challenges." ; cont "challenges."
 
-	para "A world of dreams"
-	line "and adventures"
+	para "A world of dreams" ; para "A world of dreams"
+	line "and adventures" ; line "and adventures"
 
-	para "with #MON"
-	line "awaits! Let's go!"
+	para "with #MON" ; para "with #MON"
+	line "awaits! Let's go!" ; line "awaits! Let's go!"
 
-	para "I'll be seeing you"
-	line "later!"
+	para "I'll be seeing you" ; para "I'll be seeing you"
+	line "later!" ; line "later!"
 	done
 
 _ClockTimeMayBeWrongText::
-	text "The clock's time"
-	line "may be wrong."
+	text "The clock's time" ; text "The clock's time"
+	line "may be wrong." ; line "may be wrong."
 
-	para "Please reset the"
-	line "time."
+	para "Please reset the" ; para "Please reset the"
+	line "time." ; line "time."
 	prompt
 
 _ClockSetWithControlPadText::
-	text "Set with the"
-	line "Control Pad."
+	text "Set with the" ; text "Set with the"
+	line "Control Pad." ; line "Control Pad."
 
-	para "Confirm: A Button"
-	line "Cancel:  B Button"
+	para "Confirm: A Button" ; para "Confirm: A Button"
+	line "Cancel:  B Button" ; line "Cancel:  B Button"
 	done
 
 _ClockIsThisOKText::
-	text "Is this OK?"
+	text "Is this OK?" ; text "Is this OK?"
 	done
 
 _ClockHasResetText::
-	text "The clock has been"
-	line "reset."
+	text "The clock has been" ; text "The clock has been"
+	line "reset." ; line "reset."
 	done
 
 _LinkTimeoutText::
-	text "Too much time has"
-	line "elapsed. Please"
-	cont "try again."
+	text "Too much time has" ; text "Too much time has"
+	line "elapsed. Please" ; line "elapsed. Please"
+	cont "try again." ; cont "try again."
 	prompt
 
 _LinkTradeCantBattleText::
-	text "If you trade that"
-	line "#MON, you won't"
-	cont "be able to battle."
+	text "If you trade that" ; text "If you trade that"
+	line "#MON, you won't" ; line "#MON, you won't"
+	cont "be able to battle." ; cont "be able to battle."
 	prompt
 
 _LinkAbnormalMonText::
-	text "Your friend's"
+	text "Your friend's" ; text "Your friend's"
 	line "@"
 	text_ram wStringBuffer1
-	text " appears"
-	cont "to be abnormal!"
+	text " appears" ; text " appears"
+	cont "to be abnormal!" ; cont "to be abnormal!"
 	prompt
 
 _LinkAskTradeForText::
-	text "Trade @"
+	text "Trade @" ; text "Trade @"
 	text_ram wBufferTrademonNickname
 	text_start
-	line "for @"
+	line "for @" ; line "for @"
 	text_ram wStringBuffer1
 	text "?"
 	done
 
 _MobileBattleMustPickThreeMonText::
-	text "To enter a mobile"
-	line "battle, you must"
+	text "To enter a mobile" ; text "To enter a mobile"
+	line "battle, you must" ; line "battle, you must"
 
-	para "pick a team of"
-	line "three #MON."
+	para "pick a team of" ; para "pick a team of"
+	line "three #MON." ; line "three #MON."
 
-	para "Is that OK?"
+	para "Is that OK?" ; para "Is that OK?"
 	done
 
 _MobileBattleMoreInfoText::
-	text "Need more info on"
-	line "mobile battles?"
+	text "Need more info on" ; text "Need more info on"
+	line "mobile battles?" ; line "mobile battles?"
 	done
 
 _MobileBattleRulesText::
-	text "For a mobile"
-	line "battle, choose"
-	cont "three #MON."
+	text "For a mobile" ; text "For a mobile"
+	line "battle, choose" ; line "battle, choose"
+	cont "three #MON." ; cont "three #MON."
 
-	para "The maximum daily"
-	line "play time is ten"
+	para "The maximum daily" ; para "The maximum daily"
+	line "play time is ten" ; line "play time is ten"
 
-	para "minutes for each"
-	line "linked player."
+	para "minutes for each" ; para "minutes for each"
+	line "linked player." ; line "linked player."
 
-	para "If a battle isn't"
-	line "finished within"
+	para "If a battle isn't" ; para "If a battle isn't"
+	line "finished within" ; line "finished within"
 
-	para "the time limit,"
-	line "the player with"
+	para "the time limit," ; para "the time limit,"
+	line "the player with" ; line "the player with"
 
-	para "the fewest fainted"
-	line "#MON wins."
+	para "the fewest fainted" ; para "the fewest fainted"
+	line "#MON wins." ; line "#MON wins."
 
-	para "If tied, the team"
-	line "that lost the"
+	para "If tied, the team" ; para "If tied, the team"
+	line "that lost the" ; line "that lost the"
 
-	para "least amount of HP"
-	line "wins."
+	para "least amount of HP" ; para "least amount of HP"
+	line "wins." ; line "wins."
 	done
 
 _WouldYouLikeToMobileBattleText::
-	text "Today's remaining"
-	line "time is @"
+	text "Today's remaining" ; text "Today's remaining"
+	line "time is @" ; line "time is @"
 	text_decimal wStringBuffer2, 1, 2
-	text " min."
+	text " min." ; text " min."
 
-	para "Would you like to"
-	line "battle?"
+	para "Would you like to" ; para "Would you like to"
+	line "battle?" ; line "battle?"
 	done
 
 _WantAQuickMobileBattleText::
-	text "There are only @"
+	text "There are only @" ; text "There are only @"
 	text_decimal wStringBuffer2, 1, 2
 	text_start
-	line "min. left today."
+	line "min. left today." ; line "min. left today."
 
-	para "Want a quick"
-	line "battle?"
+	para "Want a quick" ; para "Want a quick"
+	line "battle?" ; line "battle?"
 	done
 
 _WantToRushThroughAMobileBattleText::
-	text "There is only"
-	line "1 min. left today!"
+	text "There is only" ; text "There is only"
+	line "1 min. left today!" ; line "1 min. left today!"
 
-	para "Want to rush"
-	line "through a battle?"
+	para "Want to rush" ; para "Want to rush"
+	line "through a battle?" ; line "through a battle?"
 	done
 
 _PleaseTryAgainTomorrowText::
-	text "There is less than"
-	line "1 min. left today!"
+	text "There is less than" ; text "There is less than"
+	line "1 min. left today!" ; line "1 min. left today!"
 
-	para "Please try again"
-	line "tomorrow."
+	para "Please try again" ; para "Please try again"
+	line "tomorrow." ; line "tomorrow."
 	done
 
 _TryAgainUsingSameSettingsText::
-	text "Try again using"
-	line "the same settings?"
+	text "Try again using" ; text "Try again using"
+	line "the same settings?" ; line "the same settings?"
 	done
 
 _MobileBattleLessThanOneMinuteLeftText::
-	text "There is less than"
-	line "1 min. left today!"
+	text "There is less than" ; text "There is less than"
+	line "1 min. left today!" ; line "1 min. left today!"
 	done
 
 _MobileBattleNoTimeLeftForLinkingText::
-	text "No time left for"
-	line "linking today."
+	text "No time left for" ; text "No time left for"
+	line "linking today." ; line "linking today."
 	done
 
 _PickThreeMonForMobileBattleText::
-	text "Pick three #MON"
-	line "for battle."
+	text "Pick three #MON" ; text "Pick three #MON"
+	line "for battle." ; line "for battle."
 	done
 
 _MobileBattleRemainingTimeText::
-	text "Today's remaining"
-	line "time is @"
+	text "Today's remaining" ; text "Today's remaining"
+	line "time is @" ; line "time is @"
 	text_decimal wStringBuffer2, 1, 2
-	text " min."
+	text " min." ; text " min."
 	done
 
 _WouldYouLikeToSaveTheGameText::
-	text "Would you like to"
-	line "save the game?"
+	text "Would you like to" ; text "Would you like to"
+	line "save the game?" ; line "save the game?"
 	done
 
 _SavingDontTurnOffThePowerText::
-	text "SAVING… DON'T TURN"
-	line "OFF THE POWER."
+	text "SAVING… DON'T TURN" ; text "SAVING… DON'T TURN"
+	line "OFF THE POWER." ; line "OFF THE POWER."
 	done
 
 _SavedTheGameText::
-	text "<PLAYER> saved"
-	line "the game."
+	text "<PLAYER> saved" ; text "<PLAYER> saved"
+	line "the game." ; line "the game."
 	done
 
 _AlreadyASaveFileText::
-	text "There is already a"
-	line "save file. Is it"
-	cont "OK to overwrite?"
+	text "There is already a" ; text "There is already a"
+	line "save file. Is it" ; line "save file. Is it"
+	cont "OK to overwrite?" ; cont "OK to overwrite?"
 	done
 
 _AnotherSaveFileText::
-	text "There is another"
-	line "save file. Is it"
-	cont "OK to overwrite?"
+	text "There is another" ; text "There is another"
+	line "save file. Is it" ; line "save file. Is it"
+	cont "OK to overwrite?" ; cont "OK to overwrite?"
 	done
 
 _SaveFileCorruptedText::
-	text "The save file is"
-	line "corrupted!"
+	text "The save file is" ; text "The save file is"
+	line "corrupted!" ; 	line "corrupted!"
 	prompt
 
 _ChangeBoxSaveText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved. OK?"
+	text "When you change a" ; text "When you change a"
+	line "#MON BOX, data" ; line "#MON BOX, data"
+	cont "will be saved. OK?" ; cont "will be saved. OK?"
 	done
 
 _MoveMonWOMailSaveText::
-	text "Each time you move"
-	line "a #MON, data"
-	cont "will be saved. OK?"
+	text "Each time you move" ; text "Each time you move"
+	line "a #MON, data" ; line "a #MON, data"
+	cont "will be saved. OK?" ; cont "will be saved. OK?"
 	done
 
 _WindowAreaExceededErrorText:: ; unreferenced
@@ -234,8 +234,8 @@ _WindowAreaExceededErrorText:: ; unreferenced
 	done
 
 _WindowPoppingErrorText::
-	text "No windows avail-"
-	line "able for popping."
+	text "No windows avail-" ; text "No windows avail-"
+	line "able for popping." ; line "able for popping."
 	done
 
 _CorruptedEventText:: ; unreferenced
@@ -255,81 +255,81 @@ _CoordinatesEventText::
 	done
 
 _ReceivedItemText::
-	text "<PLAYER> received"
+	text "<PLAYER> received" ; text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 	done
 
 _PutItemInPocketText::
-	text "<PLAYER> put the"
+	text "<PLAYER> put the" ; text "<PLAYER> put the"
 	line "@"
 	text_ram wStringBuffer1
-	text " in"
-	cont "the @"
+	text " in" ; text " in"
+	cont "the @" ; cont "the @"
 	text_ram wStringBuffer3
 	text "."
 	prompt
 
 _PocketIsFullText::
-	text "The @"
+	text "The @" ; text "The @"
 	text_ram wStringBuffer3
 	text_start
-	line "is full…"
+	line "is full…" ; line "is full…"
 	prompt
 
 _SeerSeeAllText::
-	text "I see all."
-	line "I know all…"
+	text "I see all." ; text "I see all."
+	line "I know all…" ; line "I know all…"
 
-	para "Certainly, I know"
-	line "of your #MON!"
+	para "Certainly, I know" ; para "Certainly, I know"
+	line "of your #MON!" ; line "of your #MON!"
 	done
 
 _SeerCantTellAThingText::
-	text "Whaaaat? I can't"
-	line "tell a thing!"
+	text "Whaaaat? I can't" ; text "Whaaaat? I can't"
+	line "tell a thing!" ; line "tell a thing!"
 
-	para "How could I not"
-	line "know of this?"
+	para "How could I not" ; para "How could I not"
+	line "know of this?" ; line "know of this?"
 	done
 
 _SeerNameLocationText::
-	text "Hm… I see you met"
+	text "Hm… I see you met" ; text "Hm… I see you met"
 	line "@"
 	text_ram wSeerNickname
-	text " here:"
+	text " here:" ; text " here:"
 	cont "@"
 	text_ram wSeerCaughtLocation
 	text "!"
 	prompt
 
 _SeerTimeLevelText::
-	text "The time was"
+	text "The time was" ; text "The time was"
 	line "@"
 	text_ram wSeerTimeOfDay
 	text "!"
 
-	para "Its level was @"
+	para "Its level was @" ; para "Its level was @"
 	text_ram wSeerCaughtLevelString
 	text "!"
 
-	para "Am I good or what?"
+	para "Am I good or what?" ; para "Am I good or what?"
 	prompt
 
 _SeerTradeText::
 	text "Hm… @"
 	text_ram wSeerNickname
 	text_start
-	line "came from @"
+	line "came from @" ; line "came from @"
 	text_ram wSeerOT
 	text_start
-	cont "in a trade?"
+	cont "in a trade?" ; cont "in a trade?"
 
 	para "@"
 	text_ram wSeerCaughtLocation
 	text_start
-	line "was where @"
+	line "was where @" ; line "was where @"
 	text_ram wSeerOT
 	text_start
 	cont "met @"
