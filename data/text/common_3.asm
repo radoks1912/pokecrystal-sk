@@ -1,231 +1,232 @@
 _OakText6::
-	text "Now, what did you" ; text "Now, what did you"
-	line "say your name was?" ; line "say your name was?"
+	text "Tak, ako si hovoril" ; text "Now, what did you"
+	line "ze sa volas?" ; line "say your name was?"
 	prompt
 
 _OakText7::
-	text "<PLAYER>, are you" ; text "<PLAYER>, are you"
-	line "ready?" ; line "ready?"
+	text "<PLAYER>, si" ; text "<PLAYER>, are you"
+	line "pripraveny?" ; line "ready?"
 
-	para "Your very own" ; para "Your very own"
-	line "#MON story is" ; line "#MON story is"
-	cont "about to unfold." ; cont "about to unfold."
+	para "Tvoj vlastny" ; para "Your very own"
+	line "#MON pribeh" ; line "#MON story is"
+	cont "sa prave zacina." ; cont "about to unfold."
 
-	para "You'll face fun" ; para "You'll face fun"
-	line "times and tough" ; line "times and tough"
-	cont "challenges." ; cont "challenges."
+	para "Caka ta zabava" ; para "You'll face fun"
+	line "ale aj tazke" ; line "times and tough"
+	cont "vyzvy." ; cont "challenges."
 
-	para "A world of dreams" ; para "A world of dreams"
-	line "and adventures" ; line "and adventures"
+	para "Svet snov" ; para "A world of dreams"
+	line "a dobrodruzstva" ; line "and adventures"
 
-	para "with #MON" ; para "with #MON"
-	line "awaits! Let's go!" ; line "awaits! Let's go!"
+	para "s #MON" ; para "with #MON"
+	line "caka! Podme na to!" ; line "awaits! Let's go!"
 
-	para "I'll be seeing you" ; para "I'll be seeing you"
-	line "later!" ; line "later!"
+	para "Uvidime sa" ; para "I'll be seeing you"
+	line "neskor!" ; line "later!"
 	done
 
 _ClockTimeMayBeWrongText::
-	text "The clock's time" ; text "The clock's time"
-	line "may be wrong." ; line "may be wrong."
+	text "Cas moze byt" ; text "The clock's time"
+	line "nespravny." ; line "may be wrong."
 
-	para "Please reset the" ; para "Please reset the"
-	line "time." ; line "time."
+	para "Resetni prosim" ; para "Please reset the"
+	line "cas." ; line "time."
 	prompt
 
 _ClockSetWithControlPadText::
-	text "Set with the" ; text "Set with the"
+	text "Nastav s" ; text "Set with the"
 	line "Control Pad." ; line "Control Pad."
 
-	para "Confirm: A Button" ; para "Confirm: A Button"
-	line "Cancel:  B Button" ; line "Cancel:  B Button"
+	para "Potvrdit: A " ; para "Confirm: A Button"
+	line "Zrusit:  B" ; line "Cancel:  B Button"
 	done
 
 _ClockIsThisOKText::
-	text "Is this OK?" ; text "Is this OK?"
+	text "Je to OK?" ; text "Is this OK?"
 	done
 
 _ClockHasResetText::
-	text "The clock has been" ; text "The clock has been"
-	line "reset." ; line "reset."
+	text "Cas bol" ; text "The clock has been"
+	line "nastaveny." ; line "reset."
 	done
 
 _LinkTimeoutText::
-	text "Too much time has" ; text "Too much time has"
-	line "elapsed. Please" ; line "elapsed. Please"
-	cont "try again." ; cont "try again."
+	text "Cas spojenia" ; text "Too much time has"
+	line "vyprsal. Skus" ; line "elapsed. Please"
+	cont "prosim znova." ; cont "try again."
 	prompt
 
 _LinkTradeCantBattleText::
-	text "If you trade that" ; text "If you trade that"
-	line "#MON, you won't" ; line "#MON, you won't"
-	cont "be able to battle." ; cont "be able to battle."
+	text "Ak vymenis toho" ; text "If you trade that"
+	line "#MON, nebudes" ; line "#MON, you won't"
+	cont "moct zapasit." ; cont "be able to battle."
 	prompt
 
 _LinkAbnormalMonText::
-	text "Your friend's" ; text "Your friend's"
+	text "Priatelov" ; text "Your friend's"
 	line "@"
 	text_ram wStringBuffer1
-	text " appears" ; text " appears"
-	cont "to be abnormal!" ; cont "to be abnormal!"
+	text " sa zda" ; text " appears"
+	cont "byt abnormalny!" ; cont "to be abnormal!"
 	prompt
 
 _LinkAskTradeForText::
-	text "Trade @" ; text "Trade @"
+	text "Vymenit @" ; text "Trade @"
 	text_ram wBufferTrademonNickname
 	text_start
-	line "for @" ; line "for @"
+	line "za @" ; line "for @"
 	text_ram wStringBuffer1
 	text "?"
 	done
 
 _MobileBattleMustPickThreeMonText::
-	text "To enter a mobile" ; text "To enter a mobile"
-	line "battle, you must" ; line "battle, you must"
+	text "Na vstup do" ; text "To enter a mobile"
+	line "zapasu si musis" ; line "battle, you must"
 
-	para "pick a team of" ; para "pick a team of"
-	line "three #MON." ; line "three #MON."
+	para "zvolit" ; para "pick a team of"
+	line "troch #MON." ; line "three #MON."
 
-	para "Is that OK?" ; para "Is that OK?"
+	para "Je to OK?" ; para "Is that OK?"
 	done
 
 _MobileBattleMoreInfoText::
-	text "Need more info on" ; text "Need more info on"
-	line "mobile battles?" ; line "mobile battles?"
+	text "Zobrazit viac info" ; text "Need more info on"
+	line "o zapasoch?" ; line "mobile battles?"
 	done
 
 _MobileBattleRulesText::
-	text "For a mobile" ; text "For a mobile"
-	line "battle, choose" ; line "battle, choose"
-	cont "three #MON." ; cont "three #MON."
+	text "Na zapas" ; text "For a mobile"
+	line "si zvol" ; line "battle, choose"
+	cont "troch #MON." ; cont "three #MON."
 
-	para "The maximum daily" ; para "The maximum daily"
-	line "play time is ten" ; line "play time is ten"
+	para "Maximalny denny" ; para "The maximum daily"
+	line "limit je 10" ; line "play time is ten"
 
-	para "minutes for each" ; para "minutes for each"
-	line "linked player." ; line "linked player."
+	para "minut pre kazdeho" ; para "minutes for each"
+	line "pripojeneho hraca." ; line "linked player."
 
-	para "If a battle isn't" ; para "If a battle isn't"
-	line "finished within" ; line "finished within"
+	para "Ak zapas neskonci" ; para "If a battle isn't"
+	line "pocas casoveho" ; line "finished within"
 
-	para "the time limit," ; para "the time limit,"
-	line "the player with" ; line "the player with"
+	para "limitu, hrac" ; para "the time limit,"
+	line "s najmensim poctom" ; line "the player with"
 
-	para "the fewest fainted" ; para "the fewest fainted"
+	para "odpadnutych" ; para "the fewest fainted"
 	line "#MON wins." ; line "#MON wins."
 
-	para "If tied, the team" ; para "If tied, the team"
-	line "that lost the" ; line "that lost the"
+	para "Pri remize, tym," ; para "If tied, the team"
+	line "ktory stratil" ; line "that lost the"
 
-	para "least amount of HP" ; para "least amount of HP"
-	line "wins." ; line "wins."
+	para "najmensie mnozstvo" ; para "least amount of HP"
+	line "HP, vyhrava." ; line "wins."
 	done
 
 _WouldYouLikeToMobileBattleText::
-	text "Today's remaining" ; text "Today's remaining"
-	line "time is @" ; line "time is @"
+	text "Dnesny zostavajuci" ; text "Today's remaining"
+	line "cas je @" ; line "time is @"
 	text_decimal wStringBuffer2, 1, 2
 	text " min." ; text " min."
 
-	para "Would you like to" ; para "Would you like to"
-	line "battle?" ; line "battle?"
+	para "Chces" ; para "Would you like to"
+	line "zapasit?" ; line "battle?"
 	done
 
 _WantAQuickMobileBattleText::
-	text "There are only @" ; text "There are only @"
+	text "Zostavaju @" ; text "There are only @"
 	text_decimal wStringBuffer2, 1, 2
 	text_start
-	line "min. left today." ; line "min. left today."
+	line "min. pre dnesok." ; line "min. left today."
 
-	para "Want a quick" ; para "Want a quick"
-	line "battle?" ; line "battle?"
+	para "Chces rychly" ; para "Want a quick"
+	line "zapas?" ; line "battle?"
 	done
 
 _WantToRushThroughAMobileBattleText::
-	text "There is only" ; text "There is only"
-	line "1 min. left today!" ; line "1 min. left today!"
+	text "Zostava posledna" ; text "There is only"
+	line "minuta pre dnesok!" ; line "1 min. left today!"
 
-	para "Want to rush" ; para "Want to rush"
-	line "through a battle?" ; line "through a battle?"
+	para "Chces expresny" ; para "Want to rush"
+	line "zapas?" ; line "through a battle?"
 	done
 
 _PleaseTryAgainTomorrowText::
-	text "There is less than" ; text "There is less than"
-	line "1 min. left today!" ; line "1 min. left today!"
+	text "Zostava menej ako" ; text "There is less than"
+	line "jedna minuta!" ; line "1 min. left today!"
 
-	para "Please try again" ; para "Please try again"
-	line "tomorrow." ; line "tomorrow."
+	para "Skus to prosim" ; para "Please try again"
+	line "zajtra." ; line "tomorrow."
 	done
 
 _TryAgainUsingSameSettingsText::
-	text "Try again using" ; text "Try again using"
-	line "the same settings?" ; line "the same settings?"
+	text "Skusit znova s" ; text "Try again using"
+	line "rovnakymi" ; line "the same settings?"
+	cont "nastaveniami ?" 
 	done
 
 _MobileBattleLessThanOneMinuteLeftText::
-	text "There is less than" ; text "There is less than"
-	line "1 min. left today!" ; line "1 min. left today!"
+	text "Zostava menej ako" ; text "There is less than"
+	line "jedna minuta!" ; line "1 min. left today!"
 	done
 
 _MobileBattleNoTimeLeftForLinkingText::
-	text "No time left for" ; text "No time left for"
-	line "linking today." ; line "linking today."
+	text "Nezostal ziaden cas" ; text "No time left for"
+	line "na pripojenie." ; line "linking today."
 	done
 
 _PickThreeMonForMobileBattleText::
-	text "Pick three #MON" ; text "Pick three #MON"
-	line "for battle." ; line "for battle."
+	text "Zvol 3 #MON" ; text "Pick three #MON"
+	line "na zapas." ; line "for battle."
 	done
 
 _MobileBattleRemainingTimeText::
-	text "Today's remaining" ; text "Today's remaining"
-	line "time is @" ; line "time is @"
+	text "Dnesny zostavajuci" ; text "Today's remaining"
+	line "cas je @" ; line "time is @"
 	text_decimal wStringBuffer2, 1, 2
 	text " min." ; text " min."
 	done
 
 _WouldYouLikeToSaveTheGameText::
-	text "Would you like to" ; text "Would you like to"
-	line "save the game?" ; line "save the game?"
+	text "Chces ulozit" ; text "Would you like to"
+	line "svoju hru?" ; line "save the game?"
 	done
 
 _SavingDontTurnOffThePowerText::
-	text "SAVING… DON'T TURN" ; text "SAVING… DON'T TURN"
-	line "OFF THE POWER." ; line "OFF THE POWER."
+	text "UKLADAM… NEVY-" ; text "SAVING… DON'T TURN"
+	line "PINAJ NAPAJANIE." ; line "OFF THE POWER."
 	done
 
 _SavedTheGameText::
-	text "<PLAYER> saved" ; text "<PLAYER> saved"
-	line "the game." ; line "the game."
+	text "<PLAYER> ulozil" ; text "<PLAYER> saved"
+	line "hru." ; line "the game."
 	done
 
 _AlreadyASaveFileText::
-	text "There is already a" ; text "There is already a"
-	line "save file. Is it" ; line "save file. Is it"
-	cont "OK to overwrite?" ; cont "OK to overwrite?"
+	text "Save uz existuje." ; text "There is already a"
+	line "Prepisat?" ; line "save file. Is it"
+	;cont "OK to overwrite?" ; cont "OK to overwrite?"
 	done
 
 _AnotherSaveFileText::
-	text "There is another" ; text "There is another"
-	line "save file. Is it" ; line "save file. Is it"
-	cont "OK to overwrite?" ; cont "OK to overwrite?"
+	text "Save uz existuje." ; text "There is another"
+	line "Prepisat" ; line "save file. Is it"
+	;cont "OK to overwrite?" ; cont "OK to overwrite?"
 	done
 
 _SaveFileCorruptedText::
-	text "The save file is" ; text "The save file is"
-	line "corrupted!" ; 	line "corrupted!"
+	text "Save je" ; text "The save file is"
+	line "poskodeny!" ; 	line "corrupted!"
 	prompt
 
 _ChangeBoxSaveText::
-	text "When you change a" ; text "When you change a"
-	line "#MON BOX, data" ; line "#MON BOX, data"
-	cont "will be saved. OK?" ; cont "will be saved. OK?"
+	text "Ked zmenis" ; text "When you change a"
+	line "#MON BOX, hra" ; line "#MON BOX, data"
+	cont "bude ulozena. OK?" ; cont "will be saved. OK?"
 	done
 
 _MoveMonWOMailSaveText::
-	text "Each time you move" ; text "Each time you move"
-	line "a #MON, data" ; line "a #MON, data"
-	cont "will be saved. OK?" ; cont "will be saved. OK?"
+	text "Pri presuvani" ; text "Each time you move"
+	line "#MON bude hra" ; line "a #MON, data"
+	cont "ulozena. OK?" ; cont "will be saved. OK?"
 	done
 
 _WindowAreaExceededErrorText:: ; unreferenced
@@ -233,7 +234,7 @@ _WindowAreaExceededErrorText:: ; unreferenced
 	line "area was exceeded."
 	done
 
-_WindowPoppingErrorText::
+_WindowPoppingErrorText:: ; ???
 	text "No windows avail-" ; text "No windows avail-"
 	line "able for popping." ; line "able for popping."
 	done
@@ -255,118 +256,118 @@ _CoordinatesEventText::
 	done
 
 _ReceivedItemText::
-	text "<PLAYER> received" ; text "<PLAYER> received"
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 	done
 
 _PutItemInPocketText::
-	text "<PLAYER> put the" ; text "<PLAYER> put the"
+	text "<PLAYER> odlozil" ; text "<PLAYER> put the"
 	line "@"
 	text_ram wStringBuffer1
-	text " in" ; text " in"
-	cont "the @" ; cont "the @"
+	text " do" ; text " in"
+	cont "svojho @" ; cont "the @"
 	text_ram wStringBuffer3
 	text "."
 	prompt
 
 _PocketIsFullText::
-	text "The @" ; text "The @"
+	text "@" ; text "The @"
 	text_ram wStringBuffer3
 	text_start
-	line "is full…" ; line "is full…"
+	line "je plny…" ; line "is full…"
 	prompt
 
 _SeerSeeAllText::
-	text "I see all." ; text "I see all."
-	line "I know all…" ; line "I know all…"
+	text "Vidim vsetko." ; text "I see all."
+	line "Viem vsetko…" ; line "I know all…"
 
-	para "Certainly, I know" ; para "Certainly, I know"
-	line "of your #MON!" ; line "of your #MON!"
+	para "Urcite viem o" ; para "Certainly, I know"
+	line "tvojich #MON!" ; line "of your #MON!"
 	done
 
 _SeerCantTellAThingText::
-	text "Whaaaat? I can't" ; text "Whaaaat? I can't"
-	line "tell a thing!" ; line "tell a thing!"
+	text "Cozeee? Neviem" ; text "Whaaaat? I can't"
+	line "nic!" ; line "tell a thing!"
 
-	para "How could I not" ; para "How could I not"
-	line "know of this?" ; line "know of this?"
+	para "Ako som o tom" ; para "How could I not"
+	line "mohol nevediet?" ; line "know of this?"
 	done
 
 _SeerNameLocationText::
-	text "Hm… I see you met" ; text "Hm… I see you met"
+	text "Hm… Stretol si" ; text "Hm… I see you met"
 	line "@"
 	text_ram wSeerNickname
-	text " here:" ; text " here:"
+	text " tu:" ; text " here:"
 	cont "@"
 	text_ram wSeerCaughtLocation
 	text "!"
 	prompt
 
 _SeerTimeLevelText::
-	text "The time was" ; text "The time was"
+	text "Cas bol" ; text "The time was"
 	line "@"
 	text_ram wSeerTimeOfDay
 	text "!"
 
-	para "Its level was @" ; para "Its level was @"
+	para "Jeho level bol @" ; para "Its level was @"
 	text_ram wSeerCaughtLevelString
 	text "!"
 
-	para "Am I good or what?" ; para "Am I good or what?"
+	para "Som dobry, vsak?" ; para "Am I good or what?"
 	prompt
 
 _SeerTradeText::
 	text "Hm… @"
 	text_ram wSeerNickname
 	text_start
-	line "came from @" ; line "came from @"
+	line "pochadza od @" ; line "came from @"
 	text_ram wSeerOT
 	text_start
-	cont "in a trade?" ; cont "in a trade?"
+	cont "z vymeny?" ; cont "in a trade?"
 
 	para "@"
 	text_ram wSeerCaughtLocation
 	text_start
-	line "was where @" ; line "was where @"
+	line "bolo kde @" ; line "was where @"
 	text_ram wSeerOT
 	text_start
-	cont "met @" ; cont "met @"
+	cont "stretol @" ; cont "met @"
 	text_ram wSeerNickname
 	text "!"
 	prompt
 
 _SeerNoLocationText::
-	text "What!? Incredible!" ; text "What!? Incredible!"
+	text "Coze? Neuveritelne!" ; text "What!? Incredible!"
 
-	para "I don't understand" ; para "I don't understand"
-	line "how, but it is" ; line "how, but it is"
+	para "Nerozumiem ako," ; para "I don't understand"
+	line "ale je to" ; line "how, but it is"
 
-	para "incredible!" ;para "incredible!"
-	line "You are special." ; line "You are special."
+	para "neuveritelne!" ;para "incredible!"
+	line "Si specialny." ; line "You are special."
 
-	para "I can't tell where" ; para "I can't tell where"
-	line "you met it, but it" ; line "you met it, but it"
-	cont "was at level @" ; cont "was at level @"
+	para "Neviem, kde ste sa" ; para "I can't tell where"
+	line "stretli, ale bol" ; line "you met it, but it"
+	cont "level @" ; cont "was at level @"
 	text_ram wSeerCaughtLevelString
 	text "."
 
-	para "Am I good or what?" ; para "Am I good or what?"
+	para "Som dobry, vsak?" ; para "Am I good or what?"
 	prompt
 
 _SeerEggText::
-	text "Hey!" ; text "Hey!"
+	text "Hej!" ; text "Hey!"
 
-	para "That's an EGG!" ; para "That's an EGG!"
+	para "To je VAJICKO!" ; para "That's an EGG!"
 
-	para "You can't say that" ; para "You can't say that"
-	line "you've met it yet…" ; line "you've met it yet…"
+	para "Nemozes povedat," ; para "You can't say that"
+	line "ze ste sa stretli…" ; line "you've met it yet…"
 	done
 
 _SeerDoNothingText::
-	text "Fufufu! I saw that" ; text "Fufufu! I saw that"
-	line "you'd do nothing!" ; line "you'd do nothing!"
+	text "Hahaha! Vedel som" ; text "Fufufu! I saw that"
+	line "ze nespravis nic!" ; line "you'd do nothing!"
 	done
 
 _SeerMoreCareText::
@@ -380,10 +381,10 @@ _SeerMoreCareText::
 	done
 
 _SeerMoreConfidentText::
-	text "Incidentally…" ; text "Incidentally…"
+	text "Mimochodom…" ; text "Incidentally…"
 
-	para "It seems to have" ; para "It seems to have"
-	line "grown a little." ; line "grown a little."
+	para "Vypada, ze trochu" ; para "It seems to have"
+	line "vyrastol." ; line "grown a little."
 
 	para "@"
 	text_ram wSeerNickname
@@ -393,60 +394,60 @@ _SeerMoreConfidentText::
 	done
 
 _SeerMuchStrengthText::
-	text "Incidentally…" ; text "Incidentally…"
+	text "Mimochodom…" ; text "Incidentally…"
 
 	para "@"
 	text_ram wSeerNickname
-	text " has" ; text " has"
-	line "grown. It's gained" ; line "grown. It's gained"
-	cont "much strength." ; cont "much strength."
+	;text " has" ; text " has"
+	line "vyrastol a dost" ; line "grown. It's gained"
+	cont "zosilnel." ; cont "much strength."
 	done
 
 _SeerMightyText::
-	text "Incidentally…" ; text "Incidentally…"
+	text "Mimochodom…" ; text "Incidentally…"
 
-	para "It certainly has" ; para "It certainly has"
-	line "grown mighty!" ; line "grown mighty!"
+	para "Stal sa z neho" ; para "It certainly has"
+	line "silak!" ; line "grown mighty!"
 
-	para "This @" ; para "This @"
+	para "Musi @" ; para "This @"
 	text_ram wSeerNickname
 	text_start
-	line "must have come" ; line "must have come"
+	line "to byt kvoli" ; line "must have come"
 
-	para "through numerous" ; para "through numerous"
-	line "#MON battles." ; line "#MON battles."
+	para "nespocetnymi" ; para "through numerous"
+	line "#MON zapasmi." ; line "#MON battles."
 
-	para "It looks brimming" ; para "It looks brimming"
-	line "with confidence." ; line "with confidence."
+	para "Prekypuje" ; para "It looks brimming"
+	line "istotou." ; line "with confidence."
 	done
 
 _SeerImpressedText::
-	text "Incidentally…" ; text "Incidentally…"
+	text "Mimochodom…" ; text "Incidentally…"
 
-	para "I'm impressed by" ; para "I'm impressed by"
-	line "your dedication." ; line "your dedication."
+	para "Som uchvateny tvo-" ; para "I'm impressed by"
+	line "jim nadsenim." ; line "your dedication."
 
-	para "It's been a long" ; para "It's been a long"
-	line "time since I've" ; line "time since I've"
+	para "Uz je to chvila" ; para "It's been a long"
+	line "co som videl" ; line "time since I've"
 
-	para "seen a #MON as" ; para "seen a #MON as"
-	line "mighty as this" ; line "mighty as this"
+	para "#MON tak" ; para "seen a #MON as"
+	line "mocneho ako tento" ; line "mighty as this"
 	cont "@"
 	text_ram wSeerNickname
 	text "."
 
-	para "I'm sure that" ; para "I'm sure that"
-	line "seeing @" ; line "seeing @"
+	para "Som si isty," ; para "I'm sure that"
+	line "ze vidiet @" ; line "seeing @"
 	text_ram wSeerNickname
 	text_start
 
-	para "in battle would" ; para "in battle would"
-	line "excite anyone." ; line "excite anyone."
+	para "v zapase by" ; para "in battle would"
+	line "vzrusilo kazdeho." ; line "excite anyone."
 	done
 
 _CongratulationsYourPokemonText::
-	text "Congratulations!" ; text "Congratulations!"
-	line "Your @" ; line "Your @"
+	text "Gratulujem!" ; text "Congratulations!"
+	line "Tvoj @" ; line "Your @"
 	text_ram wStringBuffer2
 	text_end
 
@@ -455,235 +456,235 @@ _CongratulationsYourPokemonText::
 _EvolvedIntoText::
 	text_start
 
-	para "evolved into" ; para "evolved into"
+	para "sa vyvinul na" ; para "evolved into"
 	line "@"
 	text_ram wStringBuffer1
 	text "!"
 	done
 
 _StoppedEvolvingText::
-	text "Huh? @" ; text "Huh? @"
+	text "Hm? @" ; text "Huh? @"
 	text_ram wStringBuffer2
 	text_start
-	line "stopped evolving!" ; line "stopped evolving!"
+	line "sa prestal vyvijat!" ; line "stopped evolving!"
 	prompt
 
 _EvolvingText::
-	text "What? @" ; text "What? @"
+	text "Coze? @" ; text "What? @"
 	text_ram wStringBuffer2
 	text_start
-	line "is evolving!" ; line "is evolving!"
+	line "sa vyvija!" ; line "is evolving!"
 	done
 
 _MartHowManyText::
-	text "How many?" ; text "How many?"
+	text "Kolko?" ; text "How many?"
 	done
 
 _MartFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text "(S)"
-	line "will be ¥@" ; line "will be ¥@"
+	;text "(S)"
+	line "bude ¥@" ; line "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
 
 _HerbShopLadyIntroText::
-	text "Hello, dear." ; text "Hello, dear."
+	text "Ahoj, drahy." ; text "Hello, dear."
 
-	para "I sell inexpensive" ; para "I sell inexpensive"
-	line "herbal medicine." ; line "herbal medicine."
+	para "Predavam lacnu" ; para "I sell inexpensive"
+	line "bylinkovu medicinu." ; line "herbal medicine."
 
-	para "They're good, but" ; para "They're good, but"
-	line "a trifle bitter." ; line "a trifle bitter."
+	para "Je dobra," ; para "They're good, but"
+	line "ale malicko horka." ; line "a trifle bitter."
 
-	para "Your #MON may" ; para "Your #MON may"
-	line "not like them." ; line "not like them."
+	para "Tvoji #MON ju" ; para "Your #MON may"
+	line "nemusia mat radi." ; line "not like them."
 
 	para "Hehehehe…" ; para "Hehehehe…"
 	done
 
 _HerbalLadyHowManyText::
-	text "How many?" ; text "How many?"
+	text "Kolko?" ; text "How many?"
 	done
 
 _HerbalLadyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text "(S)"
-	line "will be ¥@" ; line "will be ¥@"
+	;text "(S)"
+	line "bude ¥@" ; line "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
 
 _HerbalLadyThanksText::
-	text "Thank you, dear." ; text "Thank you, dear."
+	text "Dakujem, drahy." ; text "Thank you, dear."
 	line "Hehehehe…" ; line "Hehehehe…"
 	done
 
 _HerbalLadyPackFullText::
-	text "Oh? Your PACK is" ; text "Oh? Your PACK is"
-	line "full, dear." ; line "full, dear."
+	text "Oh? Tvoj BATOH je" ; text "Oh? Your PACK is"
+	line "plny, drahy." ; line "full, dear."
 	done
 
 _HerbalLadyNoMoneyText::
-	text "Hehehe… You don't" ; text "Hehehe… You don't"
-	line "have the money." ; line "have the money."
+	text "Hehehe… Nemas" ; text "Hehehe… You don't"
+	line "peniaze." ; line "have the money."
 	done
 
 _HerbalLadyComeAgainText::
-	text "Come again, dear." ; text "Come again, dear."
+	text "Prid znova, drahy." ; text "Come again, dear."
 	line "Hehehehe…" ; line "Hehehehe…"
 	done
 
 _BargainShopIntroText::
-	text "Hiya! Care to see" ; text "Hiya! Care to see"
-	line "some bargains?" ; line "some bargains?"
+	text "Ahoj! Chces vidiet" ; text "Hiya! Care to see"
+	line "akcie?" ; line "some bargains?"
 
-	para "I sell rare items" ; para "I sell rare items"
-	line "that nobody else" ; line "that nobody else"
+	para "Predavam vzacne" ; para "I sell rare items"
+	line "predmety, ktore" ; line "that nobody else"
 
-	para "carries--but only" ; para "carries--but only"
-	line "one of each item." ; line "one of each item."
+	para "nikto nema--ale iba" ; para "carries--but only"
+	line "po kuse." ; line "one of each item."
 	done
 
 _BargainShopFinalPriceText::
 	text_ram wStringBuffer2
-	text " costs" ; text " costs"
+	text " stoji" ; text " costs"
 	line "¥@"
 	text_decimal hMoneyTemp, 3, 6
-	text ". Want it?" ; text ". Want it?"
+	text ". Chces?" ; text ". Want it?"
 	done
 
 _BargainShopThanksText::
-	text "Thanks." ; text "Thanks."
+	text "Dakujem." ; text "Thanks."
 	done
 
 _BargainShopPackFullText::
-	text "Uh-oh, your PACK" ; text "Uh-oh, your PACK"
-	line "is chock-full." ; line "is chock-full."
+	text "Oou, tvoj BATOH" ; text "Uh-oh, your PACK"
+	line "je preplneny." ; line "is chock-full."
 	done
 
 _BargainShopSoldOutText::
-	text "You bought that" ; text "You bought that"
-	line "already. I'm all" ; line "already. I'm all"
-	cont "sold out of it." ; cont "sold out of it."
+	text "To si si uz" ; text "You bought that"
+	line "kupil. Uz to" ; line "already. I'm all"
+	cont "je vypredane." ; cont "sold out of it."
 	done
 
 _BargainShopNoFundsText::
-	text "Uh-oh, you're" ; text "Uh-oh, you're"
-	line "short on funds." ; line "short on funds."
+	text "Oou, nemas" ; text "Uh-oh, you're"
+	line "dostatok penazi." ; line "short on funds."
 	done
 
 _BargainShopComeAgainText::
-	text "Come by again" ; text "Come by again"
-	line "sometime." ; line "sometime."
+	text "Prid niekedy" ; text "Come by again"
+	line "znova." ; line "sometime."
 	done
 
 _PharmacyIntroText::
-	text "What's up? Need" ; text "What's up? Need"
-	line "some medicine?" ; line "some medicine?"
+	text "Ako to ide? Po-" ; text "What's up? Need"
+	line "trebujes medicinu?" ; line "some medicine?"
 	done
 
 _PharmacyHowManyText::
-	text "How many?" ; text "How many?"
+	text "Kolko?" ; text "How many?"
 	done
 
 _PharmacyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text "(S)"
-	line "will cost ¥@" ; line "will cost ¥@"
+	;text "(S)"
+	line "bude stat ¥@" ; line "will cost ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
 
 _PharmacyThanksText::
-	text "Thanks much!" ; text "Thanks much!"
+	text "Dakujem pekne!" ; text "Thanks much!"
 	done
 
 _PharmacyPackFullText::
-	text "You don't have any" ; text "You don't have any"
-	line "more space." ; line "more space."
+	text "Nemas dost miesta" ; text "You don't have any"
+	line "v BATOHU." ; line "more space."
 	done
 
 _PharmacyNoMoneyText::
-	text "Huh? That's not" ; text "Huh? That's not"
-	line "enough money." ; line "enough money."
+	text "Hm? To nie je" ; text "Huh? That's not"
+	line "dost penazi." ; line "enough money."
 	done
 
 _PharmacyComeAgainText::
-	text "All right." ; text "All right."
-	line "See you around." ; line "See you around."
+	text "V poriadku." ; text "All right."
+	line "Tak zatial ahoj." ; line "See you around."
 	done
 
 _NothingToSellText::
-	text "You don't have" ; text "You don't have"
-	line "anything to sell." ; line "anything to sell."
+	text "Nemas nic" ; text "You don't have"
+	line "na predaj" ; line "anything to sell."
 	prompt
 
 _MartSellHowManyText::
-	text "How many?" ; text "How many?"
+	text "Kolko?" ; text "How many?"
 	done
 
 _MartSellPriceText::
-	text "I can pay you" ; text "I can pay you"
+	text "Mozem ti zaplatit" ; text "I can pay you"
 	line "¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 
-	para "Is that OK?" ; para "Is that OK?"
+	para "Je to OK?" ; para "Is that OK?"
 	done
 
 _MartWelcomeText::
-	text "Welcome! How may I" ; text "Welcome! How may I"
-	line "help you?" ; line "help you?"
+	text "Vitaj! Ako ti" ; text "Welcome! How may I"
+	line "mozem pomoct?" ; line "help you?"
 	done
 
 _MartThanksText::
-	text "Here you are." ; text "Here you are."
-	line "Thank you!" ; line "Thank you!"
+	text "Nech sa paci." ; text "Here you are."
+	line "Dakujem!" ; line "Thank you!"
 	done
 
 _MartNoMoneyText::
-	text "You don't have" ; text "You don't have"
-	line "enough money." ; line "enough money."
+	text "Nemas dost" ; text "You don't have"
+	line "penazi." ; line "enough money."
 	done
 
 _MartPackFullText::
-	text "You can't carry" ; text "You can't carry"
-	line "any more items." ; line "any more items."
+	text "Nezmesti sa ti" ; text "You can't carry"
+	line "viac veci." ; line "any more items."
 	done
 
 _MartCantBuyText::
-	text "Sorry, I can't buy" ; text "Sorry, I can't buy"
-	line "that from you." ; line "that from you."
+	text "Prepac, to od teba" ; text "Sorry, I can't buy"
+	line "nemozem kupit." ; line "that from you."
 	prompt
 
 _MartComeAgainText::
-	text "Please come again!" ; text "Please come again!"
+	text "Prid prosim znova!" ; text "Please come again!"
 	done
 
 _MartAskMoreText::
-	text "Can I do anything" ; text "Can I do anything"
-	line "else for you?" ; line "else for you?"
+	text "Mozem ti este" ; text "Can I do anything"
+	line "s niecim pomoct?" ; line "else for you?"
 	done
 
 _MartBoughtText::
-	text "Got ¥@" ; text "Got ¥@"
+	text "Dostal si ¥@" ; text "Got ¥@"
 	text_decimal hMoneyTemp, 3, 6
-	text " for" ; text " for"
+	text " za" ; text " for"
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)."
+	;text "(S)."
 	done
 
 _SlotsBetHowManyCoinsText::
-	text "Bet how many" ; text "Bet how many"
-	line "coins?" ; line "coins?"
+	text "Kolko zetonov chces" ; text "Bet how many"
+	line "stavit?" ; line "coins?"
 	done
 
 _SlotsStartText::
@@ -691,71 +692,72 @@ _SlotsStartText::
 	done
 
 _SlotsNotEnoughCoinsText::
-	text "Not enough" ; text "Not enough"
-	line "coins." ; line "coins."
+	text "Nedostatok" ; text "Not enough"
+	line "zetonov." ; line "coins."
 	prompt
 
 _SlotsRanOutOfCoinsText::
-	text "Darn… Ran out of" ; text "Darn… Ran out of"
-	line "coins…" ; line "coins…"
+	text "Sakra… minul som" ; text "Darn… Ran out of"
+	line "zetony…" ; line "coins…"
 	done
 
 _SlotsPlayAgainText::
-	text "Play again?" ; text "Play again?"
+	text "Hrat znova?" ; text "Play again?"
 	done
 
 _SlotsLinedUpText::
-	text "lined up!" ; text "lined up!"
-	line "Won @" ; line "Won @"
+	text "Bingo!" ; text "lined up!"
+	line "Vyhravas @" ; line "Won @"
 	text_ram wStringBuffer2
-	text " coins!" ; text " coins!"
+	text " zetonov!" ; text " coins!"
 	done
 
 _SlotsDarnText::
-	text "Darn!" ; text "Darn!"
+	text "Sakra!" ; text "Darn!"
 	done
 
 _MobileStadiumEntryText::
-	text "Data for use in" ; text "Data for use in"
-	line "the MOBILE STADIUM" ; line "the MOBILE STADIUM"
+	text "Data z" ; text "Data for use in"
+	line "MOBILE STADIUM" ; line "the MOBILE STADIUM"
 
-	para "of the N64 #MON" ; para "of the N64 #MON"
-	line "STADIUM 2 can be" ; line "STADIUM 2 can be"
-	cont "read here." ; cont "read here."
+	para "z N64 #MON" ; para "of the N64 #MON"
+	line "STADIUM 2 sa" ; line "STADIUM 2 can be"
+	cont "daju precitat tu." ; cont "read here."
 
-	para "Read the data?" ; para "Read the data?"
+	para "Precitat data?" ; para "Read the data?"
 	done
 
 _MobileStadiumSuccessText::
-	text "Data transfer is" ; text "Data transfer is"
-	line "complete." ; line "complete."
+	text "Prenos dat" ; text "Data transfer is"
+	line "je dokonceny." ; line "complete."
 
-	para "We hope you enjoy" ; para "We hope you enjoy"
+	para "Uzite si" ; para "We hope you enjoy"
 	line "MOBILE STADIUM" ; line "MOBILE STADIUM"
 
-	para "battles in the N64" ; para "battles in the N64"
+	para "zapasy v N64" ; para "battles in the N64"
 	line "#MON STADIUM 2." ; line "#MON STADIUM 2."
 
 	para ""
 	done
 
 _MainMenuTimeUnknownText::
-	text "Clock time unknown" ; text "Clock time unknown"
+	text "Systemovy cas je" ; text "Clock time unknown"
+	line "neznamy."
 	done
 
 _DeleteSavedLoginPasswordText::
-	text "Delete the saved" ; text "Delete the saved"
+	text "Zmazat" ; text "Delete the saved"
 	line "LOG-IN PASSWORD?" ; line "LOG-IN PASSWORD?"
 	done
 
 _DeletedTheLoginPasswordText::
-	text "Deleted the LOG-IN" ; text "Deleted the LOG-IN"
+	text "Zmazany LOG-IN" ; text "Deleted the LOG-IN"
 	line "PASSWORD." ; line "PASSWORD."
 	done
 
 _MobilePickThreeMonForBattleText::
-	text "Pick three #MON" ; text "Pick three #MON"
-	line "for battle." ; line "for battle."
+	text "Vyber 3 #MON" ; text "Pick three #MON"
+	line "na zapas." ; line "for battle."
 	prompt
 
 _MobileUseTheseThreeMonText::
@@ -763,128 +765,128 @@ _MobileUseTheseThreeMonText::
 	text ","
 	line "@"
 	text_ram wMobileParticipant2Nickname
-	text " and"
+	text " a"
 	cont "@"
 	text_ram wMobileParticipant3Nickname
 	text "."
 
-	para "Use these three?" ; para "Use these three?"
+	para "Pouzit tychto 3?" ; para "Use these three?"
 	done
 
 _MobileOnlyThreeMonMayEnterText::
-	text "Only three #MON" ; text "Only three #MON"
-	line "may enter." ; line "may enter."
+	text "Iba 3 #MON" ; text "Only three #MON"
+	line "mozu vstupit." ; line "may enter."
 	prompt
 
 _MobileCardFolderIntro1Text::
-	text "The CARD FOLDER" ; text "The CARD FOLDER"
-	line "stores your and" ; line "stores your and"
+	text "CARD FOLDER" ; text "The CARD FOLDER"
+	line "obsahuje tvoje" ; line "stores your and"
 
-	para "your friends'" ; para "your friends'"
+	para "priatelove'" ; para "your friends'"
 	line "CARDS." ; line "CARDS."
 
-	para "A CARD contains" ; para "A CARD contains"
-	line "information like" ; line "information like"
+	para "A CARD obsahuje" ; para "A CARD contains"
+	line "informacie ako" ; line "information like"
 
-	para "the person's name," ; para "the person's name,"
-	line "phone number and" ;  line "phone number and"
-	cont "profile." ; cont "profile."
+	para "meno," ; para "the person's name,"
+	line "tel.cislo a" ;  line "phone number and"
+	cont "profil." ; cont "profile."
 
 	para ""
 	done
 
 _MobileCardFolderIntro2Text::
-	text "This is your CARD." ; text "This is your CARD."
+	text "Toto je tvoja CARD." ; text "This is your CARD."
 
-	para "Once you've" ; para "Once you've"
-	line "entered your phone" ; line "entered your phone"
+	para "Po vyplneni" ; para "Once you've"
+	line "tel. cisla" ; line "entered your phone"
 
-	para "number, you can" ;para "number, you can"
-	line "trade CARDS with" ; line "trade CARDS with"
-	cont "your friends." ; cont "your friends."
+	para "mozes menit" ;para "number, you can"
+	line "CARDS s" ; line "trade CARDS with"
+	cont "tvojimi priatelmi." ; cont "your friends."
 
 	para ""
 	done
 
 _MobileCardFolderIntro3Text::
-	text "If you have your" ; text "If you have your"
-	line "friend's CARD, you" ; line "friend's CARD, you"
+	text "Ak mas priatelovu" ; text "If you have your"
+	line "CARD, mozes ju" ; line "friend's CARD, you"
 
-	para "can use it to make" ; para "can use it to make"
-	line "a call from a" ; line "a call from a"
+	para "pouzit na" ; para "can use it to make"
+	line "telefonat" ; line "a call from a"
 
-	para "mobile phone on" ; para "mobile phone on"
-	line "the 2nd floor of a" ; line "the 2nd floor of a"
+	para "z mobilu na" ; para "mobile phone on"
+	line "druhom poschodi v" ; line "the 2nd floor of a"
 	cont "#MON CENTER." ; cont "#MON CENTER."
 
 	para ""
 	done
 
 _MobileCardFolderIntro4Text::
-	text "To safely store" ; text "To safely store"
-	line "your collection of" ; line "your collection of"
+	text "Pre bezpecne" ; text "To safely store"
+	line "ulozenie informacii" ; line "your collection of"
 
-	para "CARDS, you must" ; para "CARDS, you must"
-	line "set a PASSCODE for" ; line "set a PASSCODE for"
-	cont "your CARD FOLDER." ; cont "your CARD FOLDER."
+	para "CARDS, musis" ; para "CARDS, you must"
+	line "nastavit PASSCODE" ; line "set a PASSCODE for"
+	cont "pre CARD FOLDER." ; cont "your CARD FOLDER."
 
 	para ""
 	done
 
 _MobileCardFolderAskDeleteText::
-	text "If the CARD FOLDER" ; text "If the CARD FOLDER"
-	line "is deleted, all" ; line "is deleted, all"
+	text "Ak CARD FOLDER" ; text "If the CARD FOLDER"
+	line "zmazes, vsetky" ; line "is deleted, all"
 
-	para "its CARDS and the" ; para "its CARDS and the"
-	line "PASSCODE will also" ; line "PASSCODE will also"
-	cont "be deleted." ; cont "be deleted."
+	para "CARDS a" ; para "its CARDS and the"
+	line "PASSCODE budu" ; line "PASSCODE will also"
+	cont "tiez zmazane." ; cont "be deleted."
 
-	para "Beware--a deleted" ; para "Beware--a deleted"
-	line "CARD FOLDER can't" ; line "CARD FOLDER can't"
-	cont "be restored." ; cont "be restored."
+	para "Pozor--zmazany" ; para "Beware--a deleted"
+	line "CARD FOLDER sa" ; line "CARD FOLDER can't"
+	cont "neda obnovit." ; cont "be restored."
 
-	para "Want to delete" ; para "Want to delete"
-	line "your CARD FOLDER?" ; line "your CARD FOLDER?"
+	para "Chces zmazat" ; para "Want to delete"
+	line "tvoj CARD FOLDER?" ; line "your CARD FOLDER?"
 	done
 
 _MobileCardFolderDeleteAreYouSureText::
-	text "Are you sure you" ; text "Are you sure you"
-	line "want to delete it?" ; line "want to delete it?"
+	text "Si si isty ze" ; text "Are you sure you"
+	line "ho chces zmazat?" ; line "want to delete it?"
 	done
 
 _MobileCardFolderDeletedText::
-	text "The CARD FOLDER" ; text "The CARD FOLDER"
-	line "has been deleted." ; line "has been deleted."
+	text "CARD FOLDER" ; text "The CARD FOLDER"
+	line "bol zmazany." ; line "has been deleted."
 
 	para ""
 	done
 
 _MobileCardFolderAskOpenOldText::
-	text "There is an older" ; text "There is an older"
-	line "CARD FOLDER from a" ; line "CARD FOLDER from a"
-	cont "previous journey." ; cont "previous journey."
+	text "Nasiel som" ; text "There is an older"
+	line "CARD FOLDER z" ; line "CARD FOLDER from a"
+	cont "minuleho dobrodruzstva." ; cont "previous journey."
 
-	para "Do you want to" ; para "Do you want to"
-	line "open it?" ; line "open it?"
+	para "Chces ho" ; para "Do you want to"
+	line "otvorit?" ; line "open it?"
 	done
 
 _MobileCardFolderAskDeleteOldText::
-	text "Delete the old" ; text "Delete the old"
+	text "Zmazat stary" ; text "Delete the old"
 	line "CARD FOLDER?" ; line "CARD FOLDER?"
 	done
 
 _MobileCardFolderFinishRegisteringCardsText::
-	text "Finish registering" ; text "Finish registering"
-	line "CARDS?" ; line "CARDS?"
+	text "Dokoncit registra-" ; text "Finish registering"
+	line "ciu CARDS?" ; line "CARDS?"
 	done
 
 _PhoneWrongNumberText::
-	text "Huh? Sorry, wrong" ; text "Huh? Sorry, wrong"
-	line "number!" ; line "number!"
+	text "Hm? Prepac," ; text "Huh? Sorry, wrong"
+	line "nespravne cislo!" ; line "number!"
 	done
 
 _PhoneClickText::
-	text "Click!" ; text "Click!"
+	text "Klik!" ; text "Click!"
 	done
 
 _PhoneEllipseText::
@@ -892,17 +894,17 @@ _PhoneEllipseText::
 	done
 
 _PhoneOutOfAreaText::
-	text "That number is out" ; text "That number is out"
-	line "of the area." ; line "of the area."
+	text "Cislo je mimo" ; text "That number is out"
+	line "dosah." ; line "of the area."
 	done
 
 _PhoneJustTalkToThemText::
-	text "Just go talk to" ; text "Just go talk to"
-	line "that person!" ; line "that person!"
+	text "Chod sa s osobou" ; text "Just go talk to"
+	line "porozpravat!" ; line "that person!"
 	done
 
 _PhoneThankYouText::
-	text "Thank you!" ; text "Thank you!"
+	text "Dakujem!" ; text "Thank you!"
 	done
 
 _SpaceSpaceColonText:: ; unreferenced
@@ -910,32 +912,32 @@ _SpaceSpaceColonText:: ; unreferenced
 	done
 
 _PasswordAskResetText::
-	text "Password OK." ; text "Password OK."
-	line "Select CONTINUE &" ; line "Select CONTINUE &"
-	cont "reset settings." ; cont "reset settings."
+	text "Heslo OK." ; text "Password OK."
+	line "Vyber CONTINUE &" ; line "Select CONTINUE &"
+	cont "resetni nastavenia." ; cont "reset settings."
 	prompt
 
 _PasswordWrongText::
-	text "Wrong password!" ; text "Wrong password!"
+	text "Nespravne heslo!" ; text "Wrong password!"
 	prompt
 
 _PasswordAskResetClockText::
-	text "Reset the clock?" ; text "Reset the clock?"
+	text "Resetnut hodiny?" ; text "Reset the clock?"
 	done
 
 _PasswordAskEnterText::
-	text "Please enter the" ; text "Please enter the"
-	line "password." ; line "password."
+	text "Vloz prosim" ; text "Please enter the"
+	line "heslo." ; line "password."
 	done
 
 _ClearAllSaveDataText::
-	text "Clear all save" ; text "Clear all save"
-	line "data?" ; line "data?"
+	text "Zmazat vsetky" ; text "Clear all save"
+	line "save data?" ; line "data?"
 	done
 
 _LearnedMoveText::
 	text_ram wMonOrItemNameBuffer
-	text " learned" ; text " learned"
+	text " sa naucil" ; text " learned"
 	line "@"
 	text_ram wStringBuffer2
 	text "!@"
@@ -946,12 +948,12 @@ _LearnedMoveText::
 	text_end ; unreferenced
 
 _MoveAskForgetText::
-	text "Which move should" ; text "Which move should"
-	next "be forgotten?" ; next "be forgotten?"
+	text "Ktory utok ma" ; text "Which move should"
+	next "zabudnut?" ; next "be forgotten?"
 	done
 
 _StopLearningMoveText::
-	text "Stop learning" ; text "Stop learning"
+	text "Prestat sa ucit" ; text "Stop learning"
 	line "@"
 	text_ram wStringBuffer2
 	text "?"
@@ -960,7 +962,7 @@ _StopLearningMoveText::
 _DidNotLearnMoveText::
 	text_ram wMonOrItemNameBuffer
 	text_start
-	line "did not learn" ; line "did not learn"
+	line "sa nenaucil" ; line "did not learn"
 	cont "@"
 	text_ram wStringBuffer2
 	text "."
@@ -968,77 +970,77 @@ _DidNotLearnMoveText::
 
 _AskForgetMoveText::
 	text_ram wMonOrItemNameBuffer
-	text " is" ; text " is"
-	line "trying to learn" ; line "trying to learn"
+	text " sa" ; text " is"
+	line "snazi naucit" ; line "trying to learn"
 	cont "@"
 	text_ram wStringBuffer2
 	text "."
 
-	para "But @" ; para "But @"
+	para "Ale @" ; para "But @"
 	text_ram wMonOrItemNameBuffer
 	text_start
-	line "can't learn more" ; line "can't learn more"
-	cont "than four moves." ; cont "than four moves."
+	line "moze mat max" ; line "can't learn more"
+	cont "styri utoky." ; cont "than four moves."
 
-	para "Delete an older" ; para "Delete an older"
-	line "move to make room" ; line "move to make room"
-	cont "for @" ; cont "for @"
+	para "Zmazat starsi utok" ; para "Delete an older"
+	line "a spravit miesto" ; line "move to make room"
+	cont "pre @" ; cont "for @"
 	text_ram wStringBuffer2
 	text "?"
 	done
 
 Text_MoveForgetCount::
-	text "1, 2 and…@" ; text "1, 2 and…@"
+	text "1, 2 a…@" ; text "1, 2 and…@"
 	text_pause
 	text_end
 
 	text_end ; unreferenced
 
 _MoveForgotText::
-	text " Poof!@" ; text " Poof!@"
+	text " Puf!@" ; text " Poof!@"
 	text_pause
 	text_start
 
 	para "@"
 	text_ram wMonOrItemNameBuffer
-	text " forgot" ; text " forgot"
+	text " zabudol" ; text " forgot"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
 
-	para "And…" ; para "And…"
+	para "A…" ; para "And…"
 	prompt
 
 _MoveCantForgetHMText::
-	text "HM moves can't be" ; text "HM moves can't be"
-	line "forgotten now." ; line "forgotten now."
+	text "HM sa nedaju" ; text "HM moves can't be"
+	line "teraz zabudnut." ; line "forgotten now."
 	prompt
 
 _CardFlipPlayWithThreeCoinsText::
-	text "Play with three" ; text "Play with three"
-	line "coins?" ; line "coins?"
+	text "Hrat s tromi" ; text "Play with three"
+	line "zetonami?" ; line "coins?"
 	done
 
 _CardFlipNotEnoughCoinsText::
-	text "Not enough coins…" ; text "Not enough coins…"
+	text "Nedostatok zetonov…" ; text "Not enough coins…"
 	prompt
 
 _CardFlipChooseACardText::
-	text "Choose a card." ; text "Choose a card."
+	text "Zvol kartu." ; text "Choose a card."
 	done
 
 _CardFlipPlaceYourBetText::
-	text "Place your bet." ; text "Place your bet."
+	text "Stav si." ; text "Place your bet."
 	done
 
 _CardFlipPlayAgainText::
-	text "Want to play" ; text "Want to play"
-	line "again?" ; line "again?"
+	text "Chces hrat" ; text "Want to play"
+	line "znova?" ; line "again?"
 	done
 
 _CardFlipShuffledText::
-	text "The cards have" ; text "The cards have"
-	line "been shuffled." ; line "been shuffled."
+	text "Karty boli" ; text "The cards have"
+	line "zamiesane." ; line "been shuffled."
 	prompt
 
 _CardFlipYeahText::
@@ -1046,7 +1048,7 @@ _CardFlipYeahText::
 	done
 
 _CardFlipDarnText::
-	text "Darn…" ; text "Darn…"
+	text "Sakra…" ; text "Darn…"
 	done
 
 _GearTodayText::
@@ -1060,96 +1062,97 @@ _GearEllipseText::
 	done
 
 _GearOutOfServiceText::
-	text "You're out of the" ; text "You're out of the"
-	line "service area." ; line "service area."
+	text "Si mimo oblasti" ; text "You're out of the"
+	line "signalu." ; line "service area."
 	prompt
 
 _PokegearAskWhoCallText::
-	text "Whom do you want" ; text "Whom do you want"
-	line "to call?" ; line "to call?"
+	text "Komu chces" ; text "Whom do you want"
+	line "zavolat?" ; line "to call?"
 	done
 
 _PokegearPressButtonText::
-	text "Press any button" ; text "Press any button"
-	line "to exit." ; line "to exit."
+	text "Stlac lubovolne" ; text "Press any button"
+	line "tlacitko pre" ; line "to exit."
+	cont "ukoncenie." 
 	done
 
 _PokegearAskDeleteText::
-	text "Delete this stored" ; text "Delete this stored"
-	line "phone number?" ; line "phone number?"
+	text "Zmazat ulozene" ; text "Delete this stored"
+	line "tel. cislo?" ; line "phone number?"
 	done
 
 _BuenaAskWhichPrizeText::
-	text "Which prize would" ; text "Which prize would"
-	line "you like?" ; line "you like?"
+	text "Ktoru cenu" ; text "Which prize would"
+	line "si prajes?" ; line "you like?"
 	done
 
 _BuenaIsThatRightText::
 	text_ram wStringBuffer1
 	text "?"
-	line "Is that right?" ; line "Is that right?"
+	line "Je to spravne?" ; line "Is that right?"
 	done
 
 _BuenaHereYouGoText::
-	text "Here you go!" ; text "Here you go!"
+	text "Nech sa paci!" ; text "Here you go!"
 
 	para ""
 	done
 
 _BuenaNotEnoughPointsText::
-	text "You don't have" ; text "You don't have"
-	line "enough points." ; line "enough points."
+	text "Nemas dostatok" ; text "You don't have"
+	line "bodov." ; line "enough points."
 
 	para ""
 	done
 
 _BuenaNoRoomText::
-	text "You have no room" ; text "You have no room"
-	line "for it." ; line "for it."
+	text "Nemas pren" ; text "You have no room"
+	line "miesto." ; line "for it."
 
 	para ""
 	done
 
 _BuenaComeAgainText::
-	text "Oh. Please come" ; text "Oh. Please come"
-	line "back again!" ; line "back again!"
+	text "Oh. Urcite sa" ; text "Oh. Please come"
+	line "vrat znova!" ; line "back again!"
 	done
 
 _BTExcuseMeText::
-	text "Excuse me!" ; text "Excuse me!"
+	text "Prepac!" ; text "Excuse me!"
 
 	para ""
 	done
 
 _ExcuseMeYoureNotReadyText::
-	text "Excuse me." ; text "Excuse me."
-	line "You're not ready." ; line "You're not ready."
+	text "Prepac." ; text "Excuse me."
+	line "Nie si pripraveny." ; line "You're not ready."
 
 	para ""
 	done
 
 _BattleTowerReturnWhenReadyText::
-	text "Please return when" ; text "Please return when"
-	line "you're ready." ; line "you're ready."
+	text "Vrat sa prosim, ked" ; text "Please return when"
+	line "budes pripraveny." ; line "you're ready."
 	done
 
 _NeedAtLeastThreeMonText::
-	text "You need at least" ; text "You need at least"
-	line "three #MON." ; line "three #MON."
+	text "Potrebujes min" ; text "You need at least"
+	line "3 #MON." ; line "three #MON."
 
 	para ""
 	done
 
 _EggDoesNotQualifyText::
-	text "Sorry, an EGG" ; text "Sorry, an EGG"
-	line "doesn't qualify." ; line "doesn't qualify."
+	text "Prepac, VAJICKO" ; text "Sorry, an EGG"
+	line "nesplna podmienky." ; line "doesn't qualify."
 
 	para ""
 	done
 
 _OnlyThreeMonMayBeEnteredText::
-	text "Only three #MON" ; text "Only three #MON"
-	line "may be entered." ; line "may be entered."
+	text "Iba 3 #MON" ; text "Only three #MON"
+	line "mozu vstupit." ; line "may be entered."
 
 	para ""
 	done
@@ -1165,60 +1168,60 @@ _TheMonMustAllBeDifferentKindsText::
 	done
 
 _TheMonMustNotHoldTheSameItemsText::
-	text "The @" ; text "The @"
+	text "@" ; text "The @"
 	text_ram wStringBuffer2
 	text " #MON"
-	line "must not hold the" ; line "must not hold the"
-	cont "same items." ; cont "same items."
+	line "nemozu drzat" ; line "must not hold the"
+	cont "rovnake veci." ; cont "same items."
 
 	para ""
 	done
 
 _YouCantTakeAnEggText::
-	text "You can't take an" ; text "You can't take an"
-	line "EGG!" ; line "EGG!"
+	text "Nemozes vziat" ; text "You can't take an"
+	line "VAJICKO!" ; line "EGG!"
 
 	para ""
 	done
 
 _BallDodgedText::
-	text "It dodged the" ; text "It dodged the"
-	line "thrown BALL!" ; line "thrown BALL!"
+	text "Uhol sa hodenemu" ; text "It dodged the"
+	line "BALL!" ; line "thrown BALL!"
 
-	para "This #MON"
-	line "can't be caught!" ; line "can't be caught!"
+	para "Tohto #MON"
+	line "nemozes chytit!" ; line "can't be caught!"
 	prompt
 
 _BallMissedText::
-	text "You missed the" ; text "You missed the"
+	text "Netrafil si" ; text "You missed the"
 	line "#MON!"
 	prompt
 
 _BallBrokeFreeText::
-	text "Oh no! The #MON" ; text "Oh no! The #MON"
-	line "broke free!" ; line "broke free!"
+	text "Oh nie! #MON" ; text "Oh no! The #MON"
+	line "sa oslobodil!" ; line "broke free!"
 	prompt
 
 _BallAppearedCaughtText::
-	text "Aww! It appeared" ; text "Aww! It appeared"
-	line "to be caught!" ; line "to be caught!"
+	text "Oww! Vypadal" ; text "Aww! It appeared"
+	line "byt chyteny!" ; line "to be caught!"
 	prompt
 
 _BallAlmostHadItText::
-	text "Aargh!" ; text "Aargh!"
-	line "Almost had it!" ; line "Almost had it!"
+	text "Aahh!" ; text "Aargh!"
+	line "Skoro si ho mal!" ; line "Almost had it!"
 	prompt
 
 _BallSoCloseText::
-	text "Shoot! It was so" ; text "Shoot! It was so"
-	line "close too!" ; line "close too!"
+	text "Sakra! To bolo" ; text "Shoot! It was so"
+	line "tak tesne!" ; line "close too!"
 	prompt
 
 Text_BallCaught::
-	text "Gotcha! @" ; text "Gotcha! @"
+	text "Mam ta! @" ; text "Gotcha! @"
 	text_ram wEnemyMonNickname
 	text_start
-	line "was caught!@" ; line "was caught!@"
+	line "bol chyteny!@" ; line "was caught!@"
 	sound_caught_mon
 	text_end
 
@@ -1232,15 +1235,15 @@ _WaitButtonText::
 
 _BallSentToPCText::
 	text_ram wMonOrItemNameBuffer
-	text " was" ; text " was"
-	line "sent to BILL's PC." ; line "sent to BILL's PC."
+	text " bol" ; text " was"
+	line "poslany do BILL PC." ; line "sent to BILL's PC."
 	prompt
 
 _NewDexDataText::
 	text_ram wEnemyMonNickname
-	text "'s data" ; text "'s data"
-	line "was newly added to" ; line "was newly added to"
-	cont "the #DEX.@" ; cont "the #DEX.@"
+	text "data" ; text "'s data"
+	line "boli pridane" ; line "was newly added to"
+	cont "do #DEX.@" ; cont "the #DEX.@"
 	sound_slot_machine_start
 	text_promptbutton
 	text_end
@@ -1248,7 +1251,7 @@ _NewDexDataText::
 	text_end ; unreferenced
 
 _AskGiveNicknameText::
-	text "Give a nickname to" ; text "Give a nickname to"
+	text "Chces dat prezyvku" ; text "Give a nickname to"
 	line "@"
 	text_ram wStringBuffer1
 	text "?"
@@ -1256,38 +1259,38 @@ _AskGiveNicknameText::
 
 _ItemStatRoseText::
 	text_ram wStringBuffer1
-	text "'s"
+	;text "'s"
 	line "@"
 	text_ram wStringBuffer2
-	text " rose." ; text " rose."
+	text " stupol." ; text " rose."
 	prompt
 
 _ItemCantUseOnMonText::
-	text "That can't be used" ; text "That can't be used"
-	line "on this #MON." ; line "on this #MON."
+	text "Toto nemozes pouzit" ; text "That can't be used"
+	line "na tohto #MON." ; line "on this #MON."
 	prompt
 
 _RepelUsedEarlierIsStillInEffectText::
-	text "The REPEL used" ; text "The REPEL used"
-	line "earlier is still" ; line "earlier is still"
-	cont "in effect." ; cont "in effect."
+	text "REPEL" ; text "The REPEL used"
+	line "je stale" ; line "earlier is still"
+	cont "aktivny." ; cont "in effect."
 	prompt
 
 _PlayedFluteText::
-	text "Played the #" ; text "Played the #"
+	text "Zahral na #" ; text "Played the #"
 	line "FLUTE." ; line "FLUTE."
 
-	para "Now, that's a" ; para "Now, that's a"
-	line "catchy tune!" ; line "catchy tune!"
+	para "Teda, to je" ; para "Now, that's a"
+	line "chytlava melodia!" ; line "catchy tune!"
 	prompt
 
 _FluteWakeUpText::
-	text "All sleeping" ; text "All sleeping"
-	line "#MON woke up." ; line "#MON woke up."
+	text "Vsetci spiaci" ; text "All sleeping"
+	line "#MON sa zobudili." ; line "#MON woke up."
 	prompt
 
 Text_PlayedPokeFlute::
-	text "<PLAYER> played the" ; text "<PLAYER> played the"
+	text "<PLAYER> zahral na" ; text "<PLAYER> played the"
 	line "# FLUTE.@" ; line "# FLUTE.@"
 	text_promptbutton
 	text_end
@@ -1295,14 +1298,14 @@ Text_PlayedPokeFlute::
 	text_end ; unreferenced
 
 _BlueCardBalanceText::
-	text "You now have" ; text "You now have"
+	text "Teraz mas" ; text "You now have"
 	line "@"
 	text_decimal wBlueCardBalance, 1, 2
-	text " points." ; text " points."
+	text " bodov." ; text " points."
 	done
 
 _CoinCaseCountText::
-	text "Coins:" ; text "Coins:"
+	text "Zetony:" ; text "Coins:"
 	line "@"
 	text_decimal wCoins, 2, 4
 	text_end
@@ -1310,111 +1313,111 @@ _CoinCaseCountText::
 	text_end ; unreferenced
 
 _RaiseThePPOfWhichMoveText::
-	text "Raise the PP of" ; text "Raise the PP of"
-	line "which move?" ; line "which move?"
+	text "Zvysit PP ktoreho" ; text "Raise the PP of"
+	line "utoku?" ; line "which move?"
 	done
 
 _RestoreThePPOfWhichMoveText::
-	text "Restore the PP of" ; text "Restore the PP of"
-	line "which move?" ; line "which move?"
+	text "Obnovit PP ktoreho" ; text "Restore the PP of"
+	line "utoku?" ; line "which move?"
 	done
 
 _PPIsMaxedOutText::
 	text_ram wStringBuffer2
-	text "'s PP" ; text "'s PP"
-	line "is maxed out." ; line "is maxed out."
+	text "PP" ; text "'s PP"
+	line "su na maximum." ; line "is maxed out."
 	prompt
 
 _PPsIncreasedText::
 	text_ram wStringBuffer2
-	text "'s PP" ; text "'s PP"
-	line "increased." ; line "increased."
+	text "PP" ; text "'s PP"
+	line "zvysene." ; line "increased."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored." ; text "PP was restored."
+	text "PP obnovene." ; text "PP was restored."
 	prompt
 
 _SentTrophyHomeText::
-	text "There was a trophy" ; text "There was a trophy"
-	line "inside!@" ; line "inside!@"
+	text "Obsahovala vovnutri" ; text "There was a trophy"
+	line "trofej!@" ; line "inside!@"
 	sound_dex_fanfare_50_79
 	text_start
 
 	para "@"
 	text_ram wPlayerName
-	text " sent the" ; text " sent the"
-	line "trophy home." ; line "trophy home."
+	text " poslal" ; text " sent the"
+	line "trofej domov." ; line "trophy home."
 	prompt
 
 _ItemLooksBitterText::
-	text "It looks bitter…" ; text "It looks bitter…"
+	text "Vypada horko…" ; text "It looks bitter…"
 	prompt
 
 _ItemCantUseOnEggText::
-	text "That can't be used" ; text "That can't be used"
-	line "on an EGG." ; line "on an EGG."
+	text "To nemozes pouzit" ; text "That can't be used"
+	line "na VAJICKO." ; line "on an EGG."
 	prompt
 
 _ItemOakWarningText::
 	text "OAK: <PLAYER>!" ; text "OAK: <PLAYER>!"
-	line "This isn't the" ; line "This isn't the"
-	cont "time to use that!" ; cont "time to use that!"
+	line "Toto teraz" ; line "This isn't the"
+	cont "nemozes pouzit!" ; cont "time to use that!"
 	prompt
 
 _ItemBelongsToSomeoneElseText::
-	text "That belongs to" ; text "That belongs to"
-	line "someone else!" ; line "someone else!"
+	text "Toto patri" ; text "That belongs to"
+	line "niekomu inemu!" ; line "someone else!"
 	prompt
 
 _ItemWontHaveEffectText::
-	text "It won't have any" ; text "It won't have any"
-	line "effect." ; line "effect."
+	text "Nebude to mat" ; text "It won't have any"
+	line "ziaden efekt." ; line "effect."
 	prompt
 
 _BallBlockedText::
-	text "The trainer" ; text "The trainer"
-	line "blocked the BALL!" ; line "blocked the BALL!"
+	text "Trener" ; text "The trainer"
+	line "zablokoval BALL!" ; line "blocked the BALL!"
 	prompt
 
 _BallDontBeAThiefText::
-	text "Don't be a thief!" ; text "Don't be a thief!"
+	text "Nebud zlodej!" ; text "Don't be a thief!"
 	prompt
 
 _NoCyclingText::
-	text "Cycling isn't" ; text "Cycling isn't"
-	line "allowed here." ; line "allowed here."
+	text "Bicyklovanie je" ; text "Cycling isn't"
+	line "tu zakazane." ; line "allowed here."
 	prompt
 
 _ItemCantGetOnText::
-	text "Can't get on your" ; text "Can't get on your"
-	line "@"
+	text "Teraz nemozes " ; text "Can't get on your"
+	line "nasadnut na @"
 	text_ram wStringBuffer1
-	text " now." ; text " now."
+	;text " now." ; text " now."
 	prompt
 
 _BallBoxFullText::
-	text "The #MON BOX" ; text "The #MON BOX"
-	line "is full. That" ; line "is full. That"
-	cont "can't be used now." ; cont "can't be used now."
+	text "#MON BOX" ; text "The #MON BOX"
+	line "je plny. To teraz" ; line "is full. That"
+	cont "nemozes pouzit." ; cont "can't be used now."
 	prompt
 
 _ItemUsedText::
-	text "<PLAYER> used the@" ; text "<PLAYER> used the@"
+	text "<PLAYER> pouzil@" ; text "<PLAYER> used the@"
 	text_low
 	text_ram wStringBuffer2
 	text "."
 	done
 
 _ItemGotOnText::
-	text "<PLAYER> got on the@" ; text "<PLAYER> got on the@"
+	text "<PLAYER> nasadol na@" ; text "<PLAYER> got on the@"
 	text_low
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _ItemGotOffText::
-	text "<PLAYER> got off@" ; text "<PLAYER> got off@"
+	text "<PLAYER> zosadol z@" ; text "<PLAYER> got off@"
 	text_low
 	text "the @" ; text "the @"
 	text_ram wStringBuffer2
@@ -1423,105 +1426,106 @@ _ItemGotOffText::
 
 _KnowsMoveText::
 	text_ram wStringBuffer1
-	text " knows" ; text " knows"
+	text " pozna" ; text " knows"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _MoveKnowsOneText::
-	text "That #MON knows" ; text "That #MON knows"
-	line "only one move." ; line "only one move."
+	text "Ten #MON pozna" ; text "That #MON knows"
+	line "len jeden utok." ; line "only one move."
 	done
 
 _AskDeleteMoveText::
-	text "Oh, make it forget" ; text "Oh, make it forget"
+	text "Oh, chces zabudnut" ; text "Oh, make it forget"
 	line "@"
 	text_ram wStringBuffer1
 	text "?"
 	done
 
 _DeleterForgotMoveText::
-	text "Done! Your #MON" ; text "Done! Your #MON"
-	line "forgot the move." ; line "forgot the move."
+	text "Hotovo! Tvoj #MON" ; text "Done! Your #MON"
+	line "zabudol ten utok." ; line "forgot the move."
 	done
 
 _DeleterEggText::
-	text "An EGG doesn't" ; text "An EGG doesn't"
-	line "know any moves!" ; line "know any moves!"
+	text "VAJICKO nepozna" ; text "An EGG doesn't"
+	line "ziadne utoky!" ; line "know any moves!"
 	done
 
 _DeleterNoComeAgainText::
-	text "No? Come visit me" ; text "No? Come visit me"
-	line "again." ; line "again."
+	text "Nie? Zastav sa" ; text "No? Come visit me"
+	line "niekedy znova." ; line "again."
 	done
 
 _DeleterAskWhichMoveText::
-	text "Which move should" ; text "Which move should"
-	line "it forget, then?" ; line "it forget, then?"
+	text "Ktory utok ma" ; text "Which move should"
+	line "teda zabudnut?" ; line "it forget, then?"
 	prompt
 
 _DeleterIntroText::
-	text "Um… Oh, yes, I'm" ; text "Um… Oh, yes, I'm"
-	line "the MOVE DELETER." ; line "the MOVE DELETER."
+	text "Hm… Oh, ano, ja" ; text "Um… Oh, yes, I'm"
+	line "som MOVE DELETER." ; line "the MOVE DELETER."
 
-	para "I can make #MON" ; para "I can make #MON"
-	line "forget moves." ; line "forget moves."
+	para "Dokazem #MON" ; para "I can make #MON"
+	line "odnaucit utok." ; line "forget moves."
 
-	para "Shall I make a" ; para "Shall I make a"
-	line "#MON forget?" ; line "#MON forget?"
+	para "Mam tvojho" ; para "Shall I make a"
+	line "#MON" ; line "#MON forget?"
+	cont "odnaucit utok?"
 	done
 
 _DeleterAskWhichMonText::
-	text "Which #MON?" ; text "Which #MON?"
+	text "Ktoreho #MON?" ; text "Which #MON?"
 	prompt
 
 _DSTIsThatOKText::
-	text " DST," ; text " DST,"
-	line "is that OK?" ; line "is that OK?"
+	text " Letny cas," ; text " DST,"
+	line "je to OK?" ; line "is that OK?"
 	done
 
 _TimeAskOkayText::
 	text ","
-	line "is that OK?" ; line "is that OK?"
+	line "je to OK?" ; line "is that OK?"
 	done
 
 _TimesetAskDSTText::
-	text "Do you want to" ; text "Do you want to"
-	line "switch to Daylight" ; line "switch to Daylight"
-	cont "Saving Time?" ; cont "Saving Time?"
+	text "Chces prepnut na" ; text "Do you want to"
+	line "letny cas?" ; line "switch to Daylight"
+	;cont "Saving Time?" ; cont "Saving Time?"
 	done
 
 _TimesetDSTText::
-	text "I set the clock" ; text "I set the clock"
-	line "forward by one" ; line "forward by one"
-	cont "hour." ; cont "hour."
+	text "Nastavila som hodi-" ; text "I set the clock"
+	line "ny o hodinu" ; line "forward by one"
+	cont "dopredu." ; cont "hour."
 	prompt
 
 _TimesetAskNotDSTText::
-	text "Is Daylight Saving" ; text "Is Daylight Saving"
-	line "Time over?" ; line "Time over?"
+	text "Skoncil uz" ; text "Is Daylight Saving"
+	line "letny cas?" ; line "Time over?"
 	done
 
 _TimesetNotDSTText::
-	text "I put the clock" ; text "I put the clock"
-	line "back one hour." ; line "back one hour."
+	text "Nastavila som hodi-" ; text "I put the clock"
+	line "ny o hodinu dozadu." ; line "back one hour."
 	prompt
 
 _TimesetAskAdjustDSTText::
-	text "Do you want to" ; text "Do you want to"
-	line "adjust your clock" ; line "adjust your clock"
+	text "Chces nastavit" ; text "Do you want to"
+	line "letny alebo" ; line "adjust your clock"
 
-	para "for Daylight" ; para "for Daylight"
-	line "Saving Time?" ; line "Saving Time?"
+	para "zimny cas" ; para "for Daylight"
+	line "na hodinach?" ; line "Saving Time?"
 	done
 
 _MomLostGearBookletText::
-	text "I lost the in-" ; text "I lost the in-"
-	line "struction booklet" ; line "struction booklet"
-	cont "for the #GEAR." ; cont "for the #GEAR."
+	text "Stratila som" ; text "I lost the in-"
+	line "manual k tvojmu" ; line "struction booklet"
+	cont "#GEAR." ; cont "for the #GEAR."
 
-	para "Come back again in" ; para "Come back again in"
-	line "a while." ; line "a while."
+	para "Vrat sa o chvilu" ; para "Come back again in"
+	line "znova." ; line "a while."
 	prompt
  
