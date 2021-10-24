@@ -1,79 +1,79 @@
 NurseMornText:
-	text "Good morning!" ; text "Good morning!"
-	line "Welcome to our" ; line "Welcome to our"
+	text "Dobre rano!" ; text "Good morning!"
+	line "Vitaj v" ; line "Welcome to our"
 	cont "#MON CENTER." ; cont "#MON CENTER."
 	done
 
 NurseDayText:
-	text "Hello!" ; text "Hello!"
-	line "Welcome to our" ; line "Welcome to our"
+	text "Ahoj!" ; text "Hello!"
+	line "Vitaj v" ; line "Welcome to our"
 	cont "#MON CENTER." ; cont "#MON CENTER."
 	done
 
 NurseNiteText:
-	text "Good evening!" ; text "Good evening!"
-	line "You're out late." ; line "You're out late."
+	text "Dobry vecer!" ; text "Good evening!"
+	line "Ides neskoro." ; line "You're out late."
 
-	para "Welcome to our" ; para "Welcome to our"
+	para "Vitaj v" ; para "Welcome to our"
 	line "#MON CENTER." ; line "#MON CENTER."
 	done
 
 PokeComNurseMornText:
-	text "Good morning!" ; text "Good morning!"
+	text "Dobre rano!" ; text "Good morning!"
 
-	para "This is the #-" ; para "This is the #-"
+	para "Toto je #-" ; para "This is the #-"
 	line "MON COMMUNICATION" ; line "MON COMMUNICATION"
 
-	para "CENTER--or the" ; para "CENTER--or the"
+	para "CENTER--teda" ; para "CENTER--or the"
 	line "#COM CENTER." ; line "#COM CENTER."
 	done
 
 PokeComNurseDayText:
-	text "Hello!" ; text "Hello!"
+	text "Ahoj!" ; text "Hello!"
 
-	para "This is the #-" ; para "This is the #-"
+	para "Toto je #-" ; para "This is the #-"
 	line "MON COMMUNICATION" ; line "MON COMMUNICATION"
 
-	para "CENTER--or the" ; para "CENTER--or the"
+	para "CENTER--teda" ; para "CENTER--or the"
 	line "#COM CENTER." ; line "#COM CENTER."
 	done
 
 PokeComNurseNiteText:
-	text "Good to see you" ; text "Good to see you"
-	line "working so late." ; line "working so late."
+	text "Som rada ze" ; text "Good to see you"
+	line "pracujes neskoro." ; line "working so late."
 
-	para "This is the #-" ; para "This is the #-"
+	para "Toto je #-" ; para "This is the #-"
 	line "MON COMMUNICATION" ; line "MON COMMUNICATION"
 
-	para "CENTER--or the" ; para "CENTER--or the"
+	para "CENTER--teda" ; para "CENTER--or the"
 	line "#COM CENTER." ; line "#COM CENTER."
 	done
 
 NurseAskHealText:
-	text "We can heal your" ; text "We can heal your"
-	line "#MON to perfect" ; line "#MON to perfect"
-	cont "health." ; cont "health."
+	text "Mozme uplne" ; text "We can heal your"
+	line "uzdravit #MON." ; line "#MON to perfect"
+	;cont "health." ; cont "health."
 
-	para "Shall we heal your" ; para "Shall we heal your"
+	para "Uzdravime tvojich" ; para "Shall we heal your"
 	line "#MON?"
 	done
 
 NurseTakePokemonText:
-	text "OK, may I see your" ; text "OK, may I see your"
+	text "OK, ukazes mi" ; text "OK, may I see your"
 	line "#MON?"
 	done
 
 NurseReturnPokemonText:
-	text "Thank you for" ; text "Thank you for"
-	line "waiting." ; line "waiting."
+	text "Dakujeme za" ; text "Thank you for"
+	line "trpezlivost." ; line "waiting."
 
-	para "Your #MON are" ; para "Your #MON are"
-	line "fully healed." ; line "fully healed."
+	para "Tvoji #MON su" ; para "Your #MON are"
+	line "plne uzdraveni." ; line "fully healed."
 	done
 
 NurseGoodbyeText:
-	text "We hope to see you" ; text "We hope to see you"
-	line "again." ; line "again."
+	text "Dufame, ze sa este" ; text "We hope to see you"
+	line "uvidime." ; line "again."
 	done
 
 ; not used
@@ -82,102 +82,103 @@ NurseGoodbyeText:
 	done
 
 NursePokerusText:
-	text "Your #MON" ; text "Your #MON"
-	line "appear to be" ; line "appear to be"
+	text "Tvoji #MON" ; text "Your #MON"
+	line "vypadaju byt" ; line "appear to be"
 
-	para "infected by tiny" ; para "infected by tiny"
-	line "life forms." ; line "life forms."
+	para "infikovani" ; para "infected by tiny"
+	line "virusom." ; line "life forms."
 
-	para "Your #MON are" ; para "Your #MON are"
-	line "healthy and seem" ; line "healthy and seem"
-	cont "to be fine." ; cont "to be fine."
+	para "Tvoji #MON su" ; para "Your #MON are"
+	line "zdravi a" ; line "healthy and seem"
+	cont "v poriadku." ; cont "to be fine."
 
-	para "But we can't tell" ; para "But we can't tell"
-	line "you anything more" ; line "you anything more"
+	para "Ale teraz ti" ; para "But we can't tell"
+	line "nevieme povedat" ; line "you anything more"
 
-	para "at a #MON" ; para "at a #MON"
+	para "viac v #MON" ; para "at a #MON"
 	line "CENTER." ; line "CENTER."
 	done
 
 PokeComNursePokerusText:
-	text "Your #MON" ; text "Your #MON"
-	line "appear to be" ; line "appear to be"
+	text "Tvoji #MON" ; text "Your #MON"
+	line "vypadaju byt" ; line "appear to be"
 
-	para "infected by tiny" ; para "infected by tiny"
-	line "life forms." ; line "life forms."
+	para "infikovani" ; para "infected by tiny"
+	line "virusom." ; line "life forms."
 
-	para "Your #MON are" ; para "Your #MON are"
-	line "healthy and seem" ; line "healthy and seem"
-	cont "to be fine." ; cont "to be fine."
+	para "Tvoji #MON su" ; para "Your #MON are"
+	line "zdravi a" ; line "healthy and seem"
+	cont "v poriadku." ; cont "to be fine."
 
-	para "But we can't tell" ; para "But we can't tell"
-	line "you anything more." ; line "you anything more."
+	para "Ale teraz ti" ; para "But we can't tell"
+	line "nevieme povedat." ; line "you anything more."
+	cont "viac."
 	done
 
 DifficultBookshelfText:
-	text "It's full of" ; text "It's full of"
-	line "difficult books." ; line "difficult books."
+	text "Je plna" ; text "It's full of"
+	line "narocnych knih." ; line "difficult books."
 	done
 
 PictureBookshelfText:
-	text "A whole collection" ; text "A whole collection"
-	line "of #MON picture" ; line "of #MON picture"
-	cont "books!" ; cont "books!"
+	text "Cela kolekcia" ; text "A whole collection"
+	line "#MON " ; line "of #MON picture"
+	cont "obrazkovych knih!" ; cont "books!"
 	done
 
 MagazineBookshelfText:
-	text "#MON magazines…" ; text "#MON magazines…"
+	text "#MON casopisy…" ; text "#MON magazines…"
 	line "#MON PAL," ; line "#MON PAL,"
 
-	para "#MON HANDBOOK," ; para "#MON HANDBOOK,"
-	line "#MON GRAPH…" ; line "#MON GRAPH…"
+	para "#MON prirucky," ; para "#MON HANDBOOK,"
+	line "#MON diagramy…" ; line "#MON GRAPH…"
 	done
 
 TeamRocketOathText:
-	text "TEAM ROCKET OATH" ; text "TEAM ROCKET OATH"
+	text "TEAM ROCKET PRISAHA" ; text "TEAM ROCKET OATH"
 
-	para "Steal #MON for" ; para "Steal #MON for"
-	line "profit!" ; line "profit!"
+	para "Kradnut #MON" ; para "Steal #MON for"
+	line "pre zisk!" ; line "profit!"
 
-	para "Exploit #MON" ; para "Exploit #MON"
-	line "for profit!" ; line "for profit!"
+	para "Vyuzit #MON" ; para "Exploit #MON"
+	line "pre zisk!" ; line "for profit!"
 
-	para "All #MON exist" ; para "All #MON exist"
-	line "for the glory of" ; line "for the glory of"
+	para "Vsetci #MON " ; para "All #MON exist"
+	line "existuju pre slavu" ; line "for the glory of"
 	cont "TEAM ROCKET!" ; cont "TEAM ROCKET!"
 	done
 
 IncenseBurnerText:
-	text "What is this?" ; text "What is this?"
+	text "Co to je?" ; text "What is this?"
 
-	para "Oh, it's an" ; para "Oh, it's an"
-	line "incense burner!" ; line "incense burner!"
+	para "Oh, to je" ; para "Oh, it's an"
+	line "kadidlo!" ; line "incense burner!"
 	done
 
 MerchandiseShelfText:
-	text "Lots of #MON" ; text "Lots of #MON"
-	line "merchandise!" ; line "merchandise!"
+	text "Kopa #MON" ; text "Lots of #MON"
+	line "merchu!" ; line "merchandise!"
 	done
 
 LookTownMapText:
-	text "It's the TOWN MAP." ; text "It's the TOWN MAP."
+	text "Je to MAPA SVETA." ; text "It's the TOWN MAP."
 	done
 
 WindowText:
-	text "My reflection!" ; text "My reflection!"
-	line "Lookin' good!" ; line "Lookin' good!"
+	text "Moj odraz!" ; text "My reflection!"
+	line "Vypadam dobre!" ; line "Lookin' good!"
 	done
 
 TVText:
-	text "It's a TV." ; text "It's a TV."
+	text "To je TV." ; text "It's a TV."
 	done
 
 HomepageText:
 	text "#MON JOURNAL" ; text "#MON JOURNAL"
 	line "HOME PAGE…" ; line "HOME PAGE…"
 
-	para "It hasn't been" ; para "It hasn't been"
-	line "updated…" ; line "updated…"
+	para "Nie je" ; para "It hasn't been"
+	line "aktualna…" ; line "updated…"
 	done
 
 ; not used
@@ -188,8 +189,8 @@ HomepageText:
 	done
 
 TrashCanText:
-	text "There's nothing in" ; text "There's nothing in"
-	line "here…" ; line "here…"
+	text "Nic tu" ; text "There's nothing in"
+	line "nie je…" ; line "here…"
 	done
 
 ; not used
@@ -203,79 +204,80 @@ TrashCanText:
 	done
 
 PokecenterSignText:
-	text "Heal Your #MON!" ; text "Heal Your #MON!"
+	text "Uzdrav #MON!" ; text "Heal Your #MON!"
 	line "#MON CENTER"
 	done
 
 MartSignText:
-	text "For All Your" ; text "For All Your"
-	line "#MON Needs" ; line "#MON Needs"
+	text "Potreby pre" ; text "For All Your"
+	line "#MON" ; line "#MON Needs"
 
 	para "#MON MART" ; para "#MON MART"
 	done
 
 ContestResults_ReadyToJudgeText:
-	text "We will now judge" ; text "We will now judge"
-	line "the #MON you've" ; line "the #MON you've"
-	cont "caught." ; cont "caught."
+	text "Teraz vyhodnotime" ; text "We will now judge"
+	line "chytenych #MON" ; line "the #MON you've"
+	;cont "caught." ; cont "caught."
 
 	para "<……>"
 	line "<……>"
 
-	para "We have chosen the" ; para "We have chosen the"
-	line "winners!" ; line "winners!"
+	para "Vybrali sme" ; para "We have chosen the"
+	line "vitazov!" ; line "winners!"
 
-	para "Are you ready for" ; para "Are you ready for"
-	line "this?" ; line "this?"
+	para "Ste na to" ; para "Are you ready for"
+	line "pripraveni?" ; line "this?"
 	done
 
 ContestResults_PlayerWonAPrizeText:
-	text "<PLAYER>, the No.@" ; text "<PLAYER>, the No.@"
+	text "<PLAYER>, c.@" ; text "<PLAYER>, the No.@"
 	text_ram wStringBuffer3
 	text_start
-	line "finisher, wins" ; line "finisher, wins"
+	line "vyhrava" ; line "finisher, wins"
 	cont "@"
 	text_ram wStringBuffer4
 	text "!"
 	done
 
 ReceivedItemText:
-	text "<PLAYER> received" ; text "<PLAYER> received"
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 	done
 
 ContestResults_JoinUsNextTimeText:
-	text "Please join us for" ; text "Please join us for"
-	line "the next Contest!" ; line "the next Contest!"
+	text "Prihlaste sa do" ; text "Please join us for"
+	line "sutaze aj nabuduce!" ; line "the next Contest!"
 	done
 
 ContestResults_ConsolationPrizeText:
-	text "Everyone else gets" ; text "Everyone else gets"
-	line "a BERRY as a con-" ; line "a BERRY as a con-"
-	cont "solation prize!" ; cont "solation prize!"
+	text "Vsetci ostatni" ; text "Everyone else gets"
+	line "dostavaju BERRY" ; line "a BERRY as a con-"
+	cont "ako cenu utechy!" ; cont "solation prize!"
 	done
 
 ContestResults_DidNotWinText:
-	text "We hope you do" ; text "We hope you do"
-	line "better next time." ; line "better next time."
+	text "Dufame, ze sa vam" ; text "We hope you do"
+	line "bude darit lepsie" ; line "better next time."
+	cont "nabuduce!"
 	done
 
 ContestResults_ReturnPartyText:
-	text "We'll return the" ; text "We'll return the"
-	line "#MON we kept" ; line "#MON we kept"
+	text "Vraciami ti" ; text "We'll return the"
+	line "#MON ktorych" ; line "#MON we kept"
 
-	para "for you." ; para "for you."
-	line "Here you go!" ; line "Here you go!"
+	para "si si ulozil." ; para "for you."
+	line "Nech sa paci!" ; line "Here you go!"
 	done
 
 ContestResults_PartyFullText:
-	text "Your party's full," ; text "Your party's full,"
-	line "so the #MON was" ; line "so the #MON was"
+	text "Tvoja parta je plna," ; text "Your party's full,"
+	line "takze #MON bol" ; line "so the #MON was"
 
-	para "sent to your BOX" ; para "sent to your BOX"
-	line "in BILL's PC." ; line "in BILL's PC."
+	para "bol odoslany" ; para "sent to your BOX"
+	line "do BILLovho PC." ; line "in BILL's PC."
 	done
 
 GymStatue_CityGymText:
@@ -288,101 +290,102 @@ GymStatue_WinningTrainersText:
 	text "LEADER: @"
 	text_ram wStringBuffer4
 	text_start
-	para "WINNING TRAINERS:" ; para "WINNING TRAINERS:"
+	para "VITAZNI TRENERI:" ; para "WINNING TRAINERS:"
 	line "<PLAYER>"
 	done
 
 CoinVendor_WelcomeText:
-	text "Welcome to the" ; text "Welcome to the"
+	text "Vitaj v" ; text "Welcome to the"
 	line "GAME CORNER." ; line "GAME CORNER."
 	done
 
 CoinVendor_NoCoinCaseText:
-	text "Do you need game" ; text "Do you need game"
-	line "coins?" ; line "coins?"
+	text "Potrebujes nejake" ; text "Do you need game"
+	line "zetony?" ; line "coins?"
 
-	para "Oh, you don't have" ; para "Oh, you don't have"
-	line "a COIN CASE for" ; line "a COIN CASE for"
-	cont "your coins." ; cont "your coins."
+	para "Oh, nemas" ; para "Oh, you don't have"
+	line "COIN CASE na" ; line "a COIN CASE for"
+	cont "tvoje zetony." ; cont "your coins."
 	done
 
 CoinVendor_IntroText:
-	text "Do you need some" ; text "Do you need some"
-	line "game coins?" ; line "game coins?"
+	text "Potrebujes nejake" ; text "Do you need some"
+	line "zetony?" ; line "game coins?"
 
-	para "It costs ¥1000 for" ; para "It costs ¥1000 for"
-	line "50 coins. Do you" ; line "50 coins. Do you"
-	cont "want some?" ; cont "want some?"
+	para "Stoja ¥1000 za" ; para "It costs ¥1000 for"
+	line "50 zetonov. Chces" ; line "50 coins. Do you"
+	cont "nejake?" ; cont "want some?"
 	done
 
 CoinVendor_Buy50CoinsText:
-	text "Thank you!" ; text "Thank you!"
-	line "Here are 50 coins." ; line "Here are 50 coins."
+	text "Dakujem!" ; text "Thank you!"
+	line "Tu mas 50 zetonov." ; line "Here are 50 coins."
 	done
 
 CoinVendor_Buy500CoinsText:
-	text "Thank you! Here" ; text "Thank you! Here"
-	line "are 500 coins." ; line "are 500 coins."
+	text "Dakujem!" ; text "Thank you! Here"
+	line "Tu mas 500 zetonov." ; line "are 500 coins."
 	done
 
 CoinVendor_NotEnoughMoneyText:
-	text "You don't have" ; text "You don't have"
-	line "enough money." ; line "enough money."
+	text "Nemas dost" ; text "You don't have"
+	line "penazi." ; line "enough money."
 	done
 
 CoinVendor_CoinCaseFullText:
-	text "Whoops! Your COIN" ; text "Whoops! Your COIN"
-	line "CASE is full." ; line "CASE is full."
+	text "Ups! Tvoja COIN" ; text "Whoops! Your COIN"
+	line "CASE je plna." ; line "CASE is full."
 	done
 
 CoinVendor_CancelText:
-	text "No coins for you?" ; text "No coins for you?"
-	line "Come again!" ; line "Come again!"
+	text "Ziadne zetony?" ; text "No coins for you?"
+	line "Prid znovu!" ; line "Come again!"
 	done
 
 BugContestPrizeNoRoomText:
-	text "Oh? Your PACK is" ; text "Oh? Your PACK is"
-	line "full." ; line "full."
+	text "Oh? Tvoj BATOH je" ; text "Oh? Your PACK is"
+	line "plny." ; line "full."
 
-	para "We'll keep this" ; para "We'll keep this"
-	line "for you today, so" ; line "for you today, so"
+	para "Ponechame si to" ; para "We'll keep this"
+	line "pre dnesok, aby" ; line "for you today, so"
 
-	para "come back when you" ; para "come back when you"
-	line "make room for it." ; line "make room for it."
+	para "si sa mohol vratit" ; para "come back when you"
+	line "ked si na to" ; line "make room for it."
+	cont "spravis miesto!"
 	done
 
 HappinessText3:
-	text "Wow! You and your" ; text "Wow! You and your"
-	line "#MON are really" ; line "#MON are really"
-	cont "close!" ; cont "close!"
+	text "Wow! Ty a tvoj" ; text "Wow! You and your"
+	line "#MON ste si" ; line "#MON are really"
+	cont "blizki!" ; cont "close!"
 	done
 
 HappinessText2:
-	text "#MON get more" ; text "#MON get more"
-	line "friendly if you" ; line "friendly if you"
+	text "#MON by bol" ; text "#MON get more"
+	line "priatelskejsi, ak" ; line "friendly if you"
 
-	para "spend time with" ; para "spend time with"
-	line "them." ; line "them."
+	para "by si s nim stravil" ; para "spend time with"
+	line "viac casu." ; line "them."
 	done
 
 HappinessText1:
-	text "You haven't tamed" ; text "You haven't tamed"
-	line "your #MON." ; line "your #MON."
+	text "Neskrotil si" ; text "You haven't tamed"
+	line "svojho #MON." ; line "your #MON."
 
-	para "If you aren't" ; para "If you aren't"
-	line "nice, it'll pout." ; line "nice, it'll pout."
+	para "Ak nebudes mily," ; para "If you aren't"
+	line "bude trucovat." ; line "nice, it'll pout."
 	done
 
 RegisteredNumber1Text:
-	text "<PLAYER> registered" ; text "<PLAYER> registered"
+	text "<PLAYER> si ulozil" ; text "<PLAYER> registered"
 	line "@"
 	text_ram wStringBuffer3
-	text "'s number." ; text "'s number."
+	text "tel. cislo." ; text "'s number."
 	done
 
 RegisteredNumber2Text:
-	text "<PLAYER> registered" ; text "<PLAYER> registered"
+	text "<PLAYER> si ulozil" ; text "<PLAYER> registered"
 	line "@"
 	text_ram wStringBuffer3
-	text "'s number." ; text "'s number."
+	text "tel. cislo." ; text "'s number."
 	done

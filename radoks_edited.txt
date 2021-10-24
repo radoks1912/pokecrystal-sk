@@ -1,9 +1,0 @@
-TRANSLATED
-======================
-
-data\text\battle.asm
-data\text\common_1.asm
-data\text\common_2.asm
-data\text\common_3.asm
-
-data\text\std_text.asm
