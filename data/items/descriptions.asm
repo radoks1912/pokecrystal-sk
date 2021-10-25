@@ -259,44 +259,46 @@ ItemDescriptions:
 	dw TeruSama33Desc
 	assert_table_length $ff
 
+	;max 18 chars per row
+
 MasterBallDesc:
-	db   "The best BALL. It"
-	next "never misses.@"
+	db   "The best BALL. It" ; db   "The best BALL. It"
+	next "never misses.@" ; next "never misses.@"
 
 UltraBallDesc:
-	db   "A BALL with a high"
-	next "rate of success.@"
+	db   "A BALL with a high" ; db   "A BALL with a high"
+	next "rate of success.@" ;  ; next "rate of success.@" ; 
 
 BrightpowderDesc:
-	db   "Lowers the foe's"
-	next "accuracy. (HOLD)@"
+	db   "Lowers the foe's" ; db   "Lowers the foe's"
+	next "accuracy. (HOLD)@" ; next "accuracy. (HOLD)@"
 
 GreatBallDesc:
-	db   "A BALL with a de-"
-	next "cent success rate.@"
+	db   "A BALL with a de-" ; db   "A BALL with a de-"
+	next "cent success rate.@" ; next "cent success rate.@"
 
 PokeBallDesc:
-	db   "An item for catch-"
-	next "ing #MON.@"
+	db   "An item for catch-" ; db   "An item for catch-"
+	next "ing #MON.@" ; next "ing #MON.@"
 
 TeruSama1Desc:
 	db   "?@"
 
 BicycleDesc:
-	db   "A collapsible bike"
-	next "for fast movement.@"
+	db   "A collapsible bike" ; db   "A collapsible bike"
+	next "for fast movement.@" ; next "for fast movement.@"
 
 MoonStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Evolves certain" ; db   "Evolves certain"
+	next "kinds of #MON.@" ; next "kinds of #MON.@"
 
 AntidoteDesc:
-	db   "Cures poisoned"
-	next "#MON.@"
+	db   "Cures poisoned" ; db   "Cures poisoned"
+	next "#MON.@" ; next "#MON.@"
 
 BurnHealDesc:
-	db   "Heals burned"
-	next "#MON.@"
+	db   "Heals burned" ; db   "Heals burned"
+	next "#MON.@" ; next "#MON.@"
 
 IceHealDesc:
 	db   "Defrosts frozen"
@@ -327,8 +329,8 @@ SuperPotionDesc:
 	next "HP by 50.@"
 
 PotionDesc:
-	db   "Restores #MON"
-	next "HP by 20.@"
+	db   "Uzdravi HP" ; db   "Restores #MON"
+	next "#MONa o 20.@" ; next "HP by 20.@"
 
 EscapeRopeDesc:
 	db   "Use for escaping"
