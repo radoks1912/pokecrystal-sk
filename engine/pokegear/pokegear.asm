@@ -320,7 +320,7 @@ InitPokegearTilemap:
 	ret
 
 .switch
-	db " SWITCH▶@"
+	db " ZMEN▶@" ; db " SWITCH▶@"
 
 .Map:
 	ld a, [wPokegearMapPlayerIconLandmark]
@@ -1248,9 +1248,9 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	db   "CALL"
-	next "DELETE"
-	next "CANCEL"
+	db   "VOLAT" ; db   "CALL"
+	next "ZMAZAT" ; next "DELETE"
+	next "ODIST" ; next "CANCEL"
 	db   "@"
 
 .CallDeleteCancelJumptable:
@@ -1261,8 +1261,8 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	db   "CALL"
-	next "CANCEL"
+	db   "VOLAT" ; db   "CALL"
+	next "ODIST" ; next "CANCEL"
 	db   "@"
 
 .CallCancelJumptable:
@@ -1610,7 +1610,7 @@ LoadStation_BuenasPassword:
 	ld de, BuenasPasswordName
 	ret
 
-BuenasPasswordName:    db "BUENA'S PASSWORD@"
+BuenasPasswordName:    db "HESLO BUENY" ; BuenasPasswordName:    db "BUENA'S PASSWORD@"
 NotBuenasPasswordName: db "@"
 
 LoadStation_UnownRadio:
@@ -1743,14 +1743,14 @@ NoRadioName:
 	call Textbox
 	ret
 
-OaksPKMNTalkName:     db "OAK's <PK><MN> Talk@"
+OaksPKMNTalkName:     db "OAKov <PK><MN> Talk@" ; db "OAK's <PK><MN> Talk@"
 PokedexShowName:      db "#DEX Show@"
-PokemonMusicName:     db "#MON Music@"
-LuckyChannelName:     db "Lucky Channel@"
+PokemonMusicName:     db "#MON Hudba@" ; db "#MON Music@"
+LuckyChannelName:     db "Stastny Kanal@" ; db "Lucky Channel@"
 UnownStationName:     db "?????@"
 
-PlacesAndPeopleName:  db "Places & People@"
-LetsAllSingName:      db "Let's All Sing!@"
+PlacesAndPeopleName:  db "Miesta & Ludia@" ; db "Places & People@" 
+LetsAllSingName:      db "Vsetci spievajme!@" ; db "Let's All Sing!@"
 PokeFluteStationName: db "# FLUTE@"
 
 _TownMap:
@@ -2177,7 +2177,7 @@ TownMapBubble:
 	ret
 
 .Where:
-	db "Where?@"
+	db "Kam?@" ; db "Where?@"
 
 .Name:
 ; We need the map location of the default flypoint
@@ -2469,7 +2469,7 @@ Pokedex_GetArea:
 	ret
 
 .String_SNest:
-	db "'S NEST@"
+	db "HNIEZDO@" ; db "'S NEST@"
 
 .GetAndPlaceNest:
 	ld [wTownMapCursorLandmark], a
