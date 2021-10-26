@@ -74,21 +74,21 @@ _Option:
 	ret
 
 StringOptions:
-	db "TEXT SPEED<LF>"
+	db "TEXT RYCHLOST<LF>" ; db "TEXT SPEED<LF>"
 	db "        :<LF>"
-	db "BATTLE SCENE<LF>"
+	db "BOJOVA SCENA<LF>" ; db "BATTLE SCENE<LF>"
 	db "        :<LF>"
-	db "BATTLE STYLE<LF>"
+	db "BOJOVY STYL<LF>" ; db "BATTLE STYLE<LF>"
 	db "        :<LF>"
-	db "SOUND<LF>"
+	db "ZVUK<LF>" ; db "SOUND<LF>"
 	db "        :<LF>"
-	db "PRINT<LF>"
+	db "TLAC<LF>" ; db "PRINT<LF>"
 	db "        :<LF>"
-	db "MENU ACCOUNT<LF>"
+	db "MENU UCET<LF>" ; db "MENU ACCOUNT<LF>"
 	db "        :<LF>"
-	db "FRAME<LF>"
-	db "        :TYPE<LF>"
-	db "CANCEL@"
+	db "OKRAJE<LF>" ; db "FRAME<LF>"
+	db "        :TYP<LF>" ; db "        :TYPE<LF>"
+	db "ZRUSIT@" ; db "CANCEL@"
 
 GetOptionPointer:
 	jumptable .Pointers, wJumptableIndex
@@ -162,9 +162,9 @@ Options_TextSpeed:
 	dw .Mid
 	dw .Slow
 
-.Fast: db "FAST@"
-.Mid:  db "MID @"
-.Slow: db "SLOW@"
+.Fast: db "RYCHLA @" ; .Fast: db "FAST@"
+.Mid:  db "STREDNA@" ; .Mid:  db "MID @"
+.Slow: db "POMALA @" ; .Slow: db "SLOW@"
 
 GetTextSpeed:
 ; converts TEXT_DELAY_* value in a to OPT_TEXT_SPEED_* value in c,
@@ -226,8 +226,8 @@ Options_BattleScene:
 	and a
 	ret
 
-.On:  db "ON @"
-.Off: db "OFF@"
+.On:  db "ZAP@" ; .On:  db "ON @"
+.Off: db "VYP@" ; .Off: db "OFF@"
 
 Options_BattleStyle:
 	ld hl, wOptions
@@ -264,8 +264,8 @@ Options_BattleStyle:
 	and a
 	ret
 
-.Shift: db "SHIFT@"
-.Set:   db "SET  @"
+.Shift: db "FLEXI@" ; .Shift: db "SHIFT@"
+.Set:   db "PEVNY@" ; .Set:   db "SET  @"
 
 Options_Sound:
 	ld hl, wOptions
@@ -371,11 +371,11 @@ Options_Print:
 	dw .Darker
 	dw .Darkest
 
-.Lightest: db "LIGHTEST@"
-.Lighter:  db "LIGHTER @"
+.Lightest: db "NAJSVTLS@"
+.Lighter:  db "SVETLA  @"
 .Normal:   db "NORMAL  @"
-.Darker:   db "DARKER  @"
-.Darkest:  db "DARKEST @"
+.Darker:   db "TMAVSIA @"
+.Darkest:  db "NAJTMVSA@"
 
 GetPrinterSetting:
 ; converts GBPRINTER_* value in a to OPT_PRINT_* value in c,
@@ -449,8 +449,8 @@ Options_MenuAccount:
 	and a
 	ret
 
-.Off: db "OFF@"
-.On:  db "ON @"
+.Off: db "VYP@" ; .Off: db "OFF@"
+.On:  db "ZAP@" ; .On:  db "ON @"
 
 Options_Frame:
 	ld hl, wTextboxFrame
