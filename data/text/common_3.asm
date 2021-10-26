@@ -1072,9 +1072,8 @@ _PokegearAskWhoCallText::
 	done
 
 _PokegearPressButtonText::
-	text "Stlac lubovolne" ; text "Press any button"
-	line "tlacitko pre" ; line "to exit."
-	cont "ukoncenie." 
+	text "Stlac tlacitko" ; text "Press any button"
+	line "pre ukoncenie" ; line "to exit."
 	done
 
 _PokegearAskDeleteText::
