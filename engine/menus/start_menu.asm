@@ -188,49 +188,49 @@ StartMenu::
 
 .PokedexString:  db "#DEX@"
 .PartyString:    db "#MON@"
-.PackString:     db "PACK@"
-.StatusString:   db "<PLAYER>@"
-.SaveString:     db "SAVE@"
-.OptionString:   db "OPTION@"
-.ExitString:     db "EXIT@"
-.PokegearString: db "<POKE>GEAR@"
-.QuitString:     db "QUIT@"
+.PackString:     db "BATOH@" ; db "PACK@"
+.StatusString:   db "<PLAYER>@" ; db "<PLAYER>@"
+.SaveString:     db "ULOZIT@" ; db "SAVE@"
+.OptionString:   db "MOZNOST@" ; db "OPTION@"
+.ExitString:     db "UKONCIT@" ; db "EXIT@"
+.PokegearString: db "<POKE>GEAR@" ; db "<POKE>GEAR@"
+.QuitString:     db "UKONCIT@" ; db "QUIT@"
 
 .PokedexDesc:
-	db   "#MON"
-	next "database@"
+	db   "#MON" ; db   "#MON"
+	next "databaza@" ; next "database@"
 
 .PartyDesc:
-	db   "Party <PKMN>"
-	next "status@"
+	db   "Parta <PKMN>" ; db   "Party <PKMN>"
+	next "@" ; next "status@"
 
 .PackDesc:
-	db   "Contains"
-	next "items@"
+	db   "Obsahuje" ; db   "Contains"
+	next "predmety@" ; next "items@"
 
 .PokegearDesc:
-	db   "Trainer's"
-	next "key device@"
+	db   "Trenerske" ; db   "Trainer's" 
+	next "appky@" ; next "key device@"
 
 .StatusDesc:
-	db   "Your own"
-	next "status@"
+	db   "Trenerska" ; db   "Your own"
+	next "karta@" ; next "status@"
 
 .SaveDesc:
-	db   "Save your"
-	next "progress@"
+	db   "Uloz" ; db   "Save your"
+	next "hru@" ; next "progress@"
 
 .OptionDesc:
-	db   "Change"
-	next "settings@"
+	db   "Zmenit" ; db   "Change"
+	next "nastavenia@" ; next "settings@"
 
 .ExitDesc:
-	db   "Close this"
-	next "menu@"
+	db   "Zavri toto" ; db   "Close this"
+	next "menu@" ; next "menu@"
 
 .QuitDesc:
-	db   "Quit and"
-	next "be judged.@"
+	db   "Skonci a bud" ; db   "Quit and"
+	next "ohodnoteny.@" ; next "be judged.@"
 
 .OpenMenu:
 	ld a, [wMenuSelection]
