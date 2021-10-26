@@ -2469,7 +2469,7 @@ Pokedex_GetArea:
 	ret
 
 .String_SNest:
-	db "HNIEZDO@" ; db "'S NEST@"
+	db " HNIEZDO@" ; db "'S NEST@"
 
 .GetAndPlaceNest:
 	ld [wTownMapCursorLandmark], a

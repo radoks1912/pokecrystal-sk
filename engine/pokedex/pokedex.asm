@@ -1126,9 +1126,9 @@ Pokedex_DrawMainScreenBG:
 	ret
 
 String_SEEN:
-	db "SEEN", -1
+	db "VIDEL", -1 ; db "SEEN", -1
 String_OWN:
-	db "OWN", -1
+	db "MAS", -1 ; db "OWN", -1
 String_SELECT_OPTION:
 	db $3b, $48, $49, $4a, $44, $45, $46, $47 ; SELECT > OPTION
 	; fallthrough
@@ -1199,16 +1199,16 @@ Pokedex_DrawOptionScreenBG:
 	ret
 
 .Title:
-	db $3b, " OPTION ", $3c, -1
+	db $3b, " VOLBA ", $3c, -1 ; db $3b, " OPTION ", $3c, -1
 
 .Modes:
-	db   "NEW #DEX MODE"
-	next "OLD #DEX MODE"
-	next "A to Z MODE"
+	db   "NOVY #DEX MOD" ; db   "NEW #DEX MODE"
+	next "STARY #DEX MOD" ; next "OLD #DEX MODE"
+	next "A do Z MOD" ; next "A to Z MODE"
 	db   "@"
 
 .UnownMode:
-	db "UNOWN MODE@"
+	db "UNOWN MOD@" ; db "UNOWN MODE@"
 
 Pokedex_DrawSearchScreenBG:
 	call Pokedex_FillBackgroundColor2
@@ -1233,19 +1233,19 @@ Pokedex_DrawSearchScreenBG:
 	ret
 
 .Title:
-	db $3b, " SEARCH ", $3c, -1
+	db $3b, " HLADAT ", $3c, -1 ; db $3b, " SEARCH ", $3c, -1
 
 .TypeLeftRightArrows:
 	db $3d, "        ", $3e, -1
 
 .Types:
-	db   "TYPE1"
-	next "TYPE2"
+	db   "TYP1" ; db   "TYPE1"
+	next "TYP2" ; next "TYPE2"
 	db   "@"
 
 .Menu:
-	db   "BEGIN SEARCH!!"
-	next "CANCEL"
+	db   "HLADAT!!" ; db   "BEGIN SEARCH!!"
+	next "ODIST" ; next "CANCEL"
 	db   "@"
 
 Pokedex_DrawSearchResultsScreenBG:
@@ -1279,9 +1279,9 @@ Pokedex_DrawSearchResultsScreenBG:
 	ret
 
 .BottomWindowText:
-	db   "SEARCH RESULTS"
-	next "  TYPE"
-	next "    FOUND!"
+	db   "VYSLEDKY" ; db   "SEARCH RESULTS"
+	next "  TYP" ; next "  TYPE"
+	next "     NAJD!" ; next "    FOUND!"
 	db   "@"
 
 Pokedex_PlaceSearchResultsTypeStrings:
@@ -1731,20 +1731,20 @@ Pokedex_DisplayModeDescription:
 	dw .UnownMode
 
 .NewMode:
-	db   "<PK><MN> are listed by"
-	next "evolution type.@"
+	db   "<PK><MN> su zobrazeni" ; db   "<PK><MN> are listed by"
+	next "podla evo typu.@" ; next "evolution type.@"
 
 .OldMode:
-	db   "<PK><MN> are listed by"
-	next "official type.@"
+	db   "<PK><MN> su zobrazeni" ; db   "<PK><MN> are listed by"
+	next "podla ofc typu.@" ; next "official type.@"
 
 .ABCMode:
-	db   "<PK><MN> are listed"
-	next "alphabetically.@"
+	db   "<PK><MN> su zobrazeni" ; db   "<PK><MN> are listed"
+	next "abecedne.@" ; next "alphabetically.@"
 
 .UnownMode:
-	db   "UNOWN are listed"
-	next "in catching order.@"
+	db   "UNOWN su zobrazeni" ; db   "UNOWN are listed"
+	next "poradia chytenia.@" ; next "in catching order.@"
 
 Pokedex_DisplayChangingModesMessage:
 	xor a
@@ -1766,8 +1766,8 @@ Pokedex_DisplayChangingModesMessage:
 	ret
 
 String_ChangingModesPleaseWait:
-	db   "Changing modes."
-	next "Please wait.@"
+	db   "Zmena modu." ; db   "Changing modes."
+	next "Prosim cakaj.@" ; next "Please wait.@"
 
 Pokedex_UpdateSearchMonType:
 	ld a, [wDexArrowCursorPosIndex]
@@ -1966,8 +1966,8 @@ Pokedex_DisplayTypeNotFoundMessage:
 	ret
 
 .TypeNotFound:
-	db   "The specified type"
-	next "was not found.@"
+	db   "Hladany typ" ; db   "The specified type"
+	next "sa nenasiel.@" ; next "was not found.@"
 
 Pokedex_UpdateCursorOAM:
 	ld a, [wCurDexMode]
