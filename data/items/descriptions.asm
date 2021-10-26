@@ -262,526 +262,526 @@ ItemDescriptions:
 	;max 18 chars per row
 
 MasterBallDesc:
-	db   "The best BALL. It" ; db   "The best BALL. It"
-	next "never misses.@" ; next "never misses.@"
+	db   "Najlepsi BALL." ; db   "The best BALL. It"
+	next "Nikdy neminie.@" ; next "never misses.@"
 
 UltraBallDesc:
-	db   "A BALL with a high" ; db   "A BALL with a high"
-	next "rate of success.@" ;  ; next "rate of success.@" ; 
+	db   "BALL s vysokou" ; db   "A BALL with a high"
+	next "sancou uspechu.@" ;  ; next "rate of success.@" ; 
 
 BrightpowderDesc:
-	db   "Lowers the foe's" ; db   "Lowers the foe's"
-	next "accuracy. (HOLD)@" ; next "accuracy. (HOLD)@"
+	db   "Znizuje protivniko-" ; db   "Lowers the foe's"
+	next "vu presnost.(DRZAT)@" ; next "accuracy. (HOLD)@"
 
 GreatBallDesc:
-	db   "A BALL with a de-" ; db   "A BALL with a de-"
-	next "cent success rate.@" ; next "cent success rate.@"
+	db   "BALL so slusnou" ; db   "A BALL with a de-"
+	next "sancou uspechu.@" ; next "cent success rate.@"
 
 PokeBallDesc:
-	db   "An item for catch-" ; db   "An item for catch-"
-	next "ing #MON.@" ; next "ing #MON.@"
+	db   "Vec na chytanie" ; db   "An item for catch-"
+	next "#MON.@" ; next "ing #MON.@"
 
 TeruSama1Desc:
 	db   "?@"
 
 BicycleDesc:
-	db   "A collapsible bike" ; db   "A collapsible bike"
-	next "for fast movement.@" ; next "for fast movement.@"
+	db   "Skladaci bicykel" ; db   "A collapsible bike"
+	next "k rychlemu pohybu.@" ; next "for fast movement.@"
 
 MoonStoneDesc:
-	db   "Evolves certain" ; db   "Evolves certain"
-	next "kinds of #MON.@" ; next "kinds of #MON.@"
+	db   "Vyvija urcite" ; db   "Evolves certain"
+	next "typy #MON.@" ; next "kinds of #MON.@"
 
 AntidoteDesc:
-	db   "Cures poisoned" ; db   "Cures poisoned"
+	db   "Lieci otravenie" ; db   "Cures poisoned"
 	next "#MON.@" ; next "#MON.@"
 
 BurnHealDesc:
-	db   "Heals burned" ; db   "Heals burned"
+	db   "Uzdravi popaleniny" ; db   "Heals burned"
 	next "#MON.@" ; next "#MON.@"
 
 IceHealDesc:
-	db   "Defrosts frozen"
-	next "#MON.@"
+	db   "Rozmrazi" ; db   "Defrosts frozen"
+	next "#MON.@" ; next "#MON.@"
 
 AwakeningDesc:
-	db   "Awakens sleeping"
-	next "#MON.@"
+	db   "Zobudi spiaceho" ; db   "Awakens sleeping"
+	next "#MON.@" ; next "#MON.@"
 
 ParlyzHealDesc:
-	db   "Heals paralyzed"
-	next "#MON.@"
+	db   "Lieci paralyzu" ; db   "Heals paralyzed"
+	next "#MON.@" ; next "#MON.@"
 
 FullRestoreDesc:
-	db   "Fully restores HP"
-	next "& status.@"
+	db   "Plne lieci HP" ; db   "Fully restores HP"
+	next "& status.@" ; next "& status.@"
 
 MaxPotionDesc:
-	db   "Fully restores"
-	next "#MON HP.@"
+	db   "Plne liec" ; db   "Fully restores"
+	next "#MONove HP.@"
 
-HyperPotionDesc:
-	db   "Restores #MON"
-	next "HP by 200.@"
+HyperPotionDesc: ; HyperPotionDesc:
+	db   "Uzdravi #MON" ; db   "Restores #MON"
+	next "HP o 200.@" ; next "HP by 200.@"
 
 SuperPotionDesc:
-	db   "Restores #MON"
-	next "HP by 50.@"
+	db   "Vylieci #MONove" ; db   "Restores #MON"
+	next "HP o 50.@" ; next "HP by 50.@"
 
 PotionDesc:
 	db   "Uzdravi HP" ; db   "Restores #MON"
 	next "#MONa o 20.@" ; next "HP by 20.@"
 
 EscapeRopeDesc:
-	db   "Use for escaping"
-	next "from caves, etc.@"
+	db   "Pouzi k uniku" ; db   "Use for escaping"
+	next "z jaskyn, atd.@" ; next "from caves, etc.@"
 
 RepelDesc:
-	db   "Repels weak #-"
-	next "MON for 100 steps.@"
+	db   "Odpuzuje #-" ; db   "Repels weak #-"
+	next "MON na 100 krokov.@" ; next "MON for 100 steps.@"
 
 MaxElixerDesc:
-	db   "Fully restores the"
-	next "PP of one #MON.@"
+	db   "Plne obnovi PP" ; db   "Fully restores the"
+	next "jedneho #MON.@" ; next "PP of one #MON.@"
 
 FireStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Vyvija urcite" ; db   "Evolves certain"
+	next "typy #MON.@"
 
 ThunderStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Vyvija urcite" ; db   "Evolves certain"
+	next "typy #MON.@"
 
 WaterStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Vyvija urcite" ; db   "Evolves certain"
+	next "typy #MON.@" ; next "kinds of #MON.@"
 
 TeruSama2Desc:
 	db   "?@"
 
 HPUpDesc:
-	db   "Raises the HP of"
-	next "one #MON.@"
+	db   "Zvysi HP" ; db   "Raises the HP of"
+	next "jedneho #MON.@" ; next "one #MON.@"
 
 ProteinDesc:
-	db   "Raises ATTACK of"
-	next "one #MON.@"
+	db   "Zvysi UTOK" ; db   "Raises ATTACK of"
+	next "jedneho #MON.@" ; next "one #MON.@"
 
 IronDesc:
-	db   "Raises DEFENSE of"
-	next "one #MON.@"
+	db   "Zvysi OBRANU" ; db   "Raises DEFENSE of"
+	next "jedneho #MON.@" ; next "one #MON.@"
 
 CarbosDesc:
-	db   "Raises SPEED of"
-	next "one #MON.@"
+	db   "Zvysi RYCHLOST" ; db   "Raises SPEED of"
+	next "jedneho #MON.@" ; next "one #MON.@"
 
 LuckyPunchDesc:
-	db   "Ups critical hit"
-	next "ratio of CHANSEY.@"
+	db   "Zvysi kriticky" ; db   "Ups critical hit"
+	next "zasah CHANSEY.@" ; next "ratio of CHANSEY.@"
 
 CalciumDesc:
-	db   "Ups SPECIAL stats"
-	next "of one #MON.@"
+	db   "Zvysi SPECIAL" ; db   "Ups SPECIAL stats"
+	next "jedneho #MON.@" ; next "of one #MON.@"
 
 RareCandyDesc:
-	db   "Raises level of a"
-	next "#MON by one.@"
+	db   "Zvysi level" ; db   "Raises level of a"
+	next "#MONa o 1.@" ; next "#MON by one.@"
 
 XAccuracyDesc:
-	db   "Raises accuracy."
-	next "(1 BTL)@"
+	db   "Zvysi presnost." ; db   "Raises accuracy."
+	next "(1 NAPLN)@" ; next "(1 BTL)@"
 
 LeafStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Vyvija urcite" ; db   "Evolves certain"
+	next "typy #MON.@" ; next "kinds of #MON.@"
 
 MetalPowderDesc:
-	db   "Raises DEFENSE of"
-	next "DITTO. (HOLD)@"
+	db   "Zvysi OBRANU" ; db   "Raises DEFENSE of"
+	next "DITTO. (DRZAT)@" ; next "DITTO. (HOLD)@"
 
 NuggetDesc:
-	db   "Made of pure gold."
-	next "Sell high.@"
+	db   "Vyrobena zo zlata." ; db   "Made of pure gold."
+	next "Vysoka cena.@" ; next "Sell high.@"
 
 PokeDollDesc:
-	db   "Use to escape from"
-	next "a wild #MON.@"
+	db   "Pouzi na utek od" ; db   "Use to escape from"
+	next "divokeho #MON.@" ; next "a wild #MON.@"
 
 FullHealDesc:
-	db   "Eliminates all"
-	next "status problems.@"
+	db   "Odstrani vsetky" ; db   "Eliminates all"
+	next "status problemy.@" ; next "status problems.@"
 
 ReviveDesc:
-	db   "Restores a fainted"
-	next "#MON to 1/2 HP.@"
+	db   "Obnovi odpadnuteho" ; db   "Restores a fainted"
+	next "#MON na 1/2 HP.@" ; next "#MON to 1/2 HP.@"
 
 MaxReviveDesc:
-	db   "Fully restores a"
-	next "fainted #MON.@"
+	db   "Plne obnovi odpa-" ; db   "Fully restores a"
+	next "dnuteho #MON.@" ; next "fainted #MON.@"
 
 GuardSpecDesc:
-	db   "Prevents stats"
-	next "reduction. (1 BTL)@"
+	db   "Brani znizovaniu" ; db   "Prevents stats"
+	next "statov. (1 NAPLN)@" ; next "reduction. (1 BTL)@"
 
 SuperRepelDesc:
-	db   "Repels weak #-"
-	next "MON for 200 steps.@"
+	db   "Odpuzuje #-" ; db   "Repels weak #-"
+	next "MON na 200 krokov.@" ; next "MON for 200 steps.@"
 
 MaxRepelDesc:
-	db   "Repels weak #-"
-	next "MON for 250 steps.@"
+	db   "Odpuzuje #-" ; db   "Repels weak #-"
+	next "MON na 250 krokov.@" ; next "MON for 250 steps.@"
 
 DireHitDesc:
-	db   "Ups critical hit"
-	next "ratio. (1 BTL)@"
+	db   "Zvysuje kriticky" ; db   "Ups critical hit"
+	next "zasah. (1 NAPLN)@" ; next "ratio. (1 BTL)@"
 
 TeruSama3Desc:
 	db   "?@"
 
 FreshWaterDesc:
-	db   "Restores #MON"
-	next "HP by 50.@"
+	db   "Uzdravi #MON" ; db   "Restores #MON"
+	next "HP o 50.@" ; next "HP by 50.@"
 
 SodaPopDesc:
-	db   "Restores #MON"
-	next "HP by 60.@"
+	db   "Uzdravi #MON" ; db   "Restores #MON"
+	next "HP o 60.@" ; next "HP by 60.@"
 
 LemonadeDesc:
-	db   "Restores #MON"
-	next "HP by 80.@"
+	db   "Uzdravi #MON" ; db   "Restores #MON"
+	next "HP o 80.@" ; next "HP by 80.@"
 
 XAttackDesc:
-	db   "Raises ATTACK."
-	next "(1 BTL)@"
+	db   "Zvysuje UTOK." ; db   "Raises ATTACK."
+	next "(1 NAPLN)@" ; next "(1 BTL)@"
 
 TeruSama4Desc:
 	db   "?@"
 
 XDefendDesc:
-	db   "Raises DEFENSE."
-	next "(1 BTL)@"
+	db   "Zvysuje OBRANU." ; db   "Raises DEFENSE."
+	next "(1 NAPLN)@" ; next "(1 BTL)@"
 
 XSpeedDesc:
-	db   "Raises SPEED."
-	next "(1 BTL)@"
+	db   "Zvysuje RYCHLOST." ; db   "Raises SPEED."
+	next "(1 NAPLN)@" ; next "(1 BTL)@"
 
 XSpecialDesc:
-	db   "Raises SPECIAL"
-	next "ATTACK. (1 BTL)@"
+	db   "Zvysuje SPECIAL" ; db   "Raises SPECIAL"
+	next "UTOK. (1 NAPLN)@" ; next "ATTACK. (1 BTL)@"
 
 CoinCaseDesc:
-	db   "Holds up to 9,999"
-	next "game coins.@"
+	db   "Zmesti sa sem 9,999" ; db   "Holds up to 9,999"
+	next "zetonov.@" ; next "game coins.@"
 
 ItemfinderDesc:
-	db   "Checks for unseen"
-	next "items in the area.@"
+	db   "Hlada neviditelne" ; db   "Checks for unseen"
+	next "veci na zemi.@" ; next "items in the area.@"
 
 TeruSama5Desc:
 	db   "?@"
 
 ExpShareDesc:
-	db   "Shares battle EXP."
-	next "Points. (HOLD)@"
+	db   "Zdiela EXP.BODY" ; db   "Shares battle EXP."
+	next "(DRZAT)@" ; next "Points. (HOLD)@"
 
 OldRodDesc:
-	db   "Use by water to"
-	next "fish for #MON.@"
+	db   "Pouzi pri vode" ; db   "Use by water to"
+	next "na rybarcenie #MON.@" ; next "fish for #MON.@"
 
 GoodRodDesc:
-	db   "A good ROD for"
-	next "catching #MON.@"
+	db   "Lepsia UDICA na" ; db   "A good ROD for"
+	next "chytanie #MON.@" ; next "catching #MON.@"
 
 SilverLeafDesc:
-	db   "A strange, silver-"
-	next "colored leaf.@"
+	db   "Zvlastny strieborno" ; db   "A strange, silver-"
+	next "sfarbeny list.@" ; next "colored leaf.@"
 
 SuperRodDesc:
-	db   "The best ROD for"
-	next "catching #MON.@"
+	db   "Najlepsia UDICA na" ; db   "The best ROD for"
+	next "chytanie #MON.@" ; next "catching #MON.@"
 
 PPUpDesc:
-	db   "Raises max PP of"
-	next "a selected move.@"
+	db   "Zvysi max PP" ; db   "Raises max PP of"
+	next "vybraneho utoku.@" ; next "a selected move.@"
 
 EtherDesc:
-	db   "Restores PP of one"
-	next "move by 10.@"
+	db   "Obnovi PP jedneho" ; db   "Restores PP of one"
+	next "utoku o 10.@" ; next "move by 10.@"
 
 MaxEtherDesc:
-	db   "Fully restores PP"
-	next "of one move.@"
+	db   "Plne obnovi PP" ; db   "Fully restores PP"
+	next "jedneho utoku.@" ; next "of one move.@"
 
 ElixerDesc:
-	db   "Restores PP of all"
-	next "moves by 10.@"
+	db   "Obnovi PP vsetkych" ; db   "Restores PP of all"
+	next "utokov o 10.@" ; next "moves by 10.@"
 
 RedScaleDesc:
-	db   "A scale from the"
-	next "red GYARADOS.@"
+	db   "Supina z cerveneho" ; db   "A scale from the"
+	next "GYARADOSa.@" ; next "red GYARADOS.@"
 
 SecretPotionDesc:
-	db   "Fully heals any"
-	next "#MON.@"
+	db   "Plne vylieci" ; db   "Fully heals any"
+	next "#MON.@" ; next "#MON.@"
 
 SSTicketDesc:
-	db   "A ticket for the"
-	next "S.S.AQUA.@"
+	db   "Palubny listok" ; db   "A ticket for the"
+	next "na S.S.AQUA.@" ; next "S.S.AQUA.@"
 
 MysteryEggDesc:
-	db   "An EGG obtained"
-	next "from MR.#MON.@"
+	db   "VAJICKO ziskane" ; db   "An EGG obtained"
+	next "od MR.#MON.@" ; next "from MR.#MON.@"
 
 ClearBellDesc:
-	db   "Makes a gentle"
-	next "ringing.@"
+	db   "Jemne" ; db   "Makes a gentle"
+	next "zvoni.@" ; next "ringing.@"
 
 SilverWingDesc:
-	db   "A strange, silver-"
-	next "colored feather.@"
+	db   "Zvlastne strieborne" ; db   "A strange, silver-"
+	next "sfarebene pierko.@" ; next "colored feather.@"
 
 MoomooMilkDesc:
-	db   "Restores #MON"
-	next "HP by 100.@"
+	db   "Uzdravi #MON" ; db   "Restores #MON"
+	next "HP o 100.@" ; next "HP by 100.@"
 
 QuickClawDesc:
-	db   "Raises 1st strike"
-	next "ratio. (HOLD)@"
+	db   "Zvysi 1. uder." ; db   "Raises 1st strike"
+	next "(DRZAT)@" ; next "ratio. (HOLD)@"
 
 PsnCureBerryDesc:
-	db   "A self-cure for"
-	next "poison. (HOLD)@"
+	db   "Samoliecba" ; db   "A self-cure for"
+	next "otravy. (DRZAT)@" ; next "poison. (HOLD)@"
 
 GoldLeafDesc:
-	db   "A strange, gold-"
-	next "colored leaf.@"
+	db   "Zvlastny zlato" ; db   "A strange, gold-"
+	next "sfarbeny list.@" ; next "colored leaf.@"
 
 SoftSandDesc:
-	db   "Powers up ground-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje ground-" ; db   "Powers up ground-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 SharpBeakDesc:
-	db   "Powers up flying-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje flying-" ; db   "Powers up flying-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 PrzCureBerryDesc:
-	db   "A self-cure for"
-	next "paralysis. (HOLD)@"
+	db   "Samoliecba" ; db   "A self-cure for"
+	next "paralyzy. (DRZAT)@" ; next "paralysis. (HOLD)@"
 
 BurntBerryDesc:
-	db   "A self-cure for"
-	next "freezing. (HOLD)@"
+	db   "Samoliecba" ; db   "A self-cure for"
+	next "namrazy. (DRZAT)@" ; next "freezing. (HOLD)@"
 
 IceBerryDesc:
-	db   "A self-heal for a"
-	next "burn. (HOLD)@"
+	db   "Samoliecba" ; db   "A self-heal for a"
+	next "popaleniny. (DRZAT)@" ; next "burn. (HOLD)@"
 
 PoisonBarbDesc:
-	db   "Powers up poison-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje poison-" ; db   "Powers up poison-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 KingsRockDesc:
-	db   "May make the foe"
-	next "flinch. (HOLD)@"
+	db   "Protivnik moze" ; db   "May make the foe"
+	next "cuvnut. (DRZAT)@" ; next "flinch. (HOLD)@"
 
 BitterBerryDesc:
-	db   "A self-cure for"
-	next "confusion. (HOLD)@"
+	db   "Samoliecba" ; db   "A self-cure for"
+	next "zmatenia. (DRZAT)@" ; next "confusion. (HOLD)@"
 
 MintBerryDesc:
-	db   "A self-awakening"
-	next "for sleep. (HOLD)@"
+	db   "Samoliecba" ; db   "A self-awakening"
+	next "spanku. (DRZAT)@" ; next "for sleep. (HOLD)@"
 
 RedApricornDesc:
-	db   "A red APRICORN.@"
+	db   "Cerveny APRICORN.@" ; db   "A red APRICORN.@"
 
 TinyMushroomDesc:
-	db   "An ordinary mush-"
-	next "room. Sell low.@"
+	db   "Obycajny hrib." ; db   "An ordinary mush-"
+	next "Nizka cena.@" ; next "room. Sell low.@"
 
 BigMushroomDesc:
-	db   "A rare mushroom."
-	next "Sell high.@"
+	db   "Vzacny hrib." ; db   "A rare mushroom."
+	next "Vysoka cena.@" ; next "Sell high.@"
 
 SilverPowderDesc:
-	db   "Powers up bug-type"
-	next "moves. (HOLD)@"
+	db   "Posiluje bug-typ" ; db   "Powers up bug-type"
+	next "utoky. (DRZAT)@" ; next "moves. (HOLD)@"
 
 BluApricornDesc:
-	db   "A blue APRICORN.@"
+	db   "Modry APRICORN.@" ; db   "A blue APRICORN.@"
 
 TeruSama6Desc:
 	db   "?@"
 
 AmuletCoinDesc:
-	db   "Doubles monetary"
-	next "earnings. (HOLD)@"
+	db   "Zdvojnasobi" ; db   "Doubles monetary"
+	next "zarobky. (DRZAT)@" ; next "earnings. (HOLD)@"
 
 YlwApricornDesc:
-	db   "A yellow APRICORN.@"
+	db   "Zlty APRICORN.@" ; db   "A yellow APRICORN.@"
 
 GrnApricornDesc:
-	db   "A green APRICORN.@"
+	db   "Zeleny APRICORN.@" ; db   "A green APRICORN.@"
 
 CleanseTagDesc:
-	db   "Helps repel wild"
-	next "#MON. (HOLD)@"
+	db   "Pomaha odpudzovat" ; db   "Helps repel wild"
+	next "#MON. (DRZAT)@" ; next "#MON. (HOLD)@"
 
 MysticWaterDesc:
-	db   "Powers up water-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje water-" ; db   "Powers up water-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 TwistedSpoonDesc:
-	db   "Powers up psychic-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje psychic-" ; db   "Powers up psychic-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 WhtApricornDesc:
-	db   "A white APRICORN.@"
+	db   "Biely APRICORN.@" ; db   "A white APRICORN.@"
 
 BlackbeltDesc:
-	db   "Boosts fighting-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje fighting-" ; db   "Boosts fighting-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 BlkApricornDesc:
-	db   "A black APRICORN."
+	db   "Cierny APRICORN." ; db   "A black APRICORN."
 	next "@"
 
 TeruSama7Desc:
 	db   "?@"
 
 PnkApricornDesc:
-	db   "A pink APRICORN."
+	db   "Ruzovy APRICORN." ; db   "A pink APRICORN."
 	next "@"
 
 BlackGlassesDesc:
-	db   "Powers up dark-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje dark-" ; db   "Powers up dark-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 SlowpokeTailDesc:
-	db   "Very tasty. Sell"
-	next "high.@"
+	db   "Velmi chutny." ; db   "Very tasty. Sell"
+	next "Vysoka cena.@" ; next "high.@"
 
 PinkBowDesc:
-	db   "Powers up normal-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje normal-" ; db   "Powers up normal-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 StickDesc:
-	db   "An ordinary stick."
-	next "Sell low.@"
+	db   "Obycajna palica." ; db   "An ordinary stick."
+	next "Nizka cena.@" ; next "Sell low.@"
 
 SmokeBallDesc:
-	db   "Escape from wild"
-	next "#MON. (HOLD)@"
+	db   "Utecies divokemu" ; db   "Escape from wild"
+	next "#MON. (DRZAT)@" ; next "#MON. (HOLD)@"
 
 NeverMeltIceDesc:
-	db   "Powers up ice-type"
-	next "moves. (HOLD)@"
+	db   "Posiluje ice-typ" ; db   "Powers up ice-type"
+	next "utoky. (DRZAT)@" ; next "moves. (HOLD)@"
 
 MagnetDesc:
-	db   "Boosts electric-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje electric-" ; db   "Boosts electric-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 MiracleBerryDesc:
-	db   "Cures all status"
-	next "problems. (HOLD)@"
+	db   "Lieci vsetky status" ; db   "Cures all status"
+	next "problemy. (DRZAT)@" ; next "problems. (HOLD)@"
 
 PearlDesc:
-	db   "A beautiful pearl."
-	next "Sell low.@"
+	db   "Krasna perla." ; db   "A beautiful pearl."
+	next "Nizka cena.@" ; next "Sell low.@"
 
 BigPearlDesc:
-	db   "A big, beautiful"
-	next "pearl. Sell high.@"
+	db   "Velka, krasna" ; db   "A big, beautiful"
+	next "perla. Vysoka cena.@" ; next "pearl. Sell high.@"
 
 EverStoneDesc:
-	db   "Stops evolution."
-	next "(HOLD)@"
+	db   "Zabranuje vyvinu." ; db   "Stops evolution."
+	next "(DRZAT)@" ; next "(HOLD)@"
 
 SpellTagDesc:
-	db   "Powers up ghost-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje ghost-" ; db   "Powers up ghost-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 RageCandyBarDesc:
-	db   "Restores #MON"
-	next "HP by 20.@"
+	db   "Vylieci #MONove" ; db   "Restores #MON"
+	next "HP o 20.@" ; next "HP by 20.@"
 
 GSBallDesc:
-	db   "The mysterious"
-	next "BALL.@"
+	db   "Tajomny" ; db   "The mysterious"
+	next "BALL.@" ; next "BALL.@"
 
 BlueCardDesc:
-	db   "Card to save"
-	next "points.@"
+	db   "Karta na ukladanie" ; db   "Card to save"
+	next "bodov.@" ; next "points.@"
 
 MiracleSeedDesc:
-	db   "Powers up grass-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje grass-" ; db   "Powers up grass-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 ThickClubDesc:
-	db   "A bone of some"
-	next "sort. Sell low.@"
+	db   "Nejaka kost." ; db   "A bone of some"
+	next "Nizka cena.@" ; next "sort. Sell low.@"
 
 FocusBandDesc:
-	db   "May prevent faint-"
-	next "ing. (HOLD)@"
+	db   "Moze zabranit" ; db   "May prevent faint-"
+	next "odpadnutiu (DRZAT)@" ; next "ing. (HOLD)@"
 
 TeruSama8Desc:
 	db   "?@"
 
 EnergyPowderDesc:
-	db   "Restores #MON"
-	next "HP by 50. Bitter.@"
+	db   "Obnovi #MON" ; db   "Restores #MON"
+	next "HP o 50. Horke.@" ; next "HP by 50. Bitter.@"
 
 EnergyRootDesc:
-	db   "Restores #MON"
-	next "HP by 200. Bitter.@"
+	db   "Obnovi #MON" ; db   "Restores #MON"
+	next "HP o 200. Horke.@" ; next "HP by 200. Bitter.@"
 
 HealPowderDesc:
-	db   "Cures all status"
-	next "problems. Bitter.@"
+	db   "Lieci vsetky status" ; db   "Cures all status"
+	next "problemy. Horke.@" ; next "problems. Bitter.@"
 
 RevivalHerbDesc:
-	db   "Revives fainted"
-	next "#MON. Bitter.@"
+	db   "Ozivi odpadnuteho" ; db   "Revives fainted"
+	next "#MON. Horke.@" ; next "#MON. Bitter.@"
 
 HardStoneDesc:
-	db   "Powers up rock-"
-	next "type moves. (HOLD)@"
+	db   "Posiluej rock-" ; db   "Powers up rock-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 LuckyEggDesc:
-	db   "Earns extra EXP."
-	next "points. (HOLD)@"
+	db   "Zaruci extra EXP." ; db   "Earns extra EXP."
+	next "body. (DRZAT)@" ; next "points. (HOLD)@"
 
 CardKeyDesc:
-	db   "Opens shutters in"
-	next "the RADIO TOWER.@"
+	db   "Otvara okenice" ; db   "Opens shutters in"
+	next "v RADIO TOWER.@" ; next "the RADIO TOWER.@"
 
 MachinePartDesc:
-	db   "A machine part for"
-	next "the POWER PLANT.@"
+	db   "Cast zo stroja" ; db   "A machine part for"
+	next "z ELEKTRARNE.@" ; next "the POWER PLANT.@"
 
 EggTicketDesc:
-	db   "May use at Golden-"
-	next "rod trade corner.@"
+	db   "Pouzi v Golden-" ; db   "May use at Golden-"
+	next "rod trade corner.@" ; next "rod trade corner.@"
 
 LostItemDesc:
-	db   "The # DOLL lost"
-	next "by the COPYCAT.@"
+	db   "# DOLL ktoru" ; db   "The # DOLL lost"
+	next "stratila COPYCAT.@" ; next "by the COPYCAT.@"
 
 StardustDesc:
-	db   "Pretty, red sand."
-	next "Sell high.@"
+	db   "Cerveny piesok." ; db   "Pretty, red sand."
+	next "Vysoka cena.@" ; next "Sell high.@"
 
 StarPieceDesc:
-	db   "A hunk of red gem."
-	next "Sell very high.@"
+	db   "Cerveny drahokam." ; db   "A hunk of red gem."
+	next "Velmi vysoka cena.@" ; next "Sell very high.@"
 
 BasementKeyDesc:
-	db   "Opens doors.@"
+	db   "Otvara dvere.@" ; db   "Opens doors.@"
 
 PassDesc:
-	db   "A ticket for the"
-	next "MAGNET TRAIN.@"
+	db   "Listok na" ; db   "A ticket for the"
+	next "MAGNET VLAK.@" ; next "MAGNET TRAIN.@"
 
 TeruSama9Desc:
 	db   "?@"
@@ -793,16 +793,16 @@ TeruSama11Desc:
 	db   "?@"
 
 CharcoalDesc:
-	db   "Powers up fire-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje fire-" ; db   "Powers up fire-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 BerryJuiceDesc:
-	db   "Restores #MON"
-	next "HP by 20.@"
+	db   "Lieci #MON" ; db   "Restores #MON"
+	next "HP o 20.@" ; next "HP by 20.@"
 
 ScopeLensDesc:
-	db   "Raises critical"
-	next "hit ratio. (HOLD)@"
+	db   "Zvysuje kriticky" ; db   "Raises critical"
+	next "zasah. (DRZAT)@" ; next "hit ratio. (HOLD)@"
 
 TeruSama12Desc:
 	db   "?@"
@@ -811,19 +811,19 @@ TeruSama13Desc:
 	db   "?@"
 
 MetalCoatDesc:
-	db   "Powers up steel-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje steel-" ; db   "Powers up steel-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 DragonFangDesc:
-	db   "Powers up dragon-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje dragon-" ; db   "Powers up dragon-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 TeruSama14Desc:
 	db   "?@"
 
 LeftoversDesc:
-	db   "Restores HP during"
-	next "battle. (HOLD)@"
+	db   "Uzdravuje HP pocas" ; db   "Restores HP during"
+	next "zapasu. (DRZAT)@" ; next "battle. (HOLD)@"
 
 TeruSama15Desc:
 	db   "?@"
@@ -835,16 +835,16 @@ TeruSama17Desc:
 	db   "?@"
 
 MysteryBerryDesc:
-	db   "A self-restore"
-	next "for PP. (HOLD)@"
+	db   "Samoliecba PP." ; db   "A self-restore"
+	next "(DRZAT)@" ; next "for PP. (HOLD)@"
 
 DragonScaleDesc:
-	db   "A rare dragon-type"
-	next "item.@"
+	db   "Zvlastny draci" ; db   "A rare dragon-type"
+	next "predmet.@" ; next "item.@"
 
 BerserkGeneDesc:
-	db   "Boosts ATTACK but"
-	next "causes confusion.@"
+	db   "Zvysi UTOK, ale" ; db   "Boosts ATTACK but"
+	next "zmatie Pokemona.@" ; next "causes confusion.@"
 
 TeruSama18Desc:
 	db   "?@"
@@ -856,136 +856,136 @@ TeruSama20Desc:
 	db   "?@"
 
 SacredAshDesc:
-	db   "Fully revives all"
-	next "fainted #MON.@"
+	db   "Ozivi vsetkych" ; db   "Fully revives all"
+	next "odpadnutych #MON.@" ; next "fainted #MON.@"
 
 HeavyBallDesc:
-	db   "A BALL for catch-"
-	next "ing heavy #MON.@"
+	db   "BALL na tazkych" ; db   "A BALL for catch-"
+	next "#MON.@" ; next "ing heavy #MON.@"
 
 FlowerMailDesc:
-	db   "Flower-print MAIL."
-	next "(HOLD)@"
+	db   "Kvetinovy MAIL." ; db   "Flower-print MAIL."
+	next "(DRZAT)@" ; next "(HOLD)@"
 
 LevelBallDesc:
-	db   "A BALL for lower-"
-	next "level #MON.@"
+	db   "A BALL for lower-" ; db   "A BALL for lower-"
+	next "level #MON.@" ; next "level #MON.@"
 
 LureBallDesc:
-	db   "A BALL for #MON"
-	next "hooked by a ROD.@"
+	db   "A BALL for #MON" ; db   "A BALL for #MON"
+	next "hooked by a ROD.@" ; next "hooked by a ROD.@"
 
 FastBallDesc:
-	db   "A BALL for catch-"
-	next "ing fast #MON.@"
+	db   "A BALL for catch-" ; db   "A BALL for catch-"
+	next "ing fast #MON.@" ; next "ing fast #MON.@"
 
 TeruSama21Desc:
 	db   "?@"
 
 LightBallDesc:
-	db   "An odd, electrical"
-	next "orb. (HOLD)@"
+	db   "Zvlastny elektricky" ; db   "An odd, electrical"
+	next "orb. (DRZAT)@" ; next "orb. (HOLD)@"
 
 FriendBallDesc:
-	db   "A BALL that makes"
-	next "#MON friendly.@"
+	db   "BALL, ktora" ; db   "A BALL that makes"
+	next "spriateli #MON.@" ; next "#MON friendly.@"
 
 MoonBallDesc:
-	db   "A BALL for MOON"
-	next "STONE evolvers.@"
+	db   "BALL pre MOON" ; db   "A BALL for MOON"
+	next "STONE vyvijacov.@" ; next "STONE evolvers.@"
 
 LoveBallDesc:
-	db   "For catching the"
-	next "opposite gender.@"
+	db   "Na chytanie" ; db   "For catching the"
+	next "opacneho pohlavia.@" ; next "opposite gender.@"
 
 NormalBoxDesc:
-	db   "Open it and see"
-	next "what's inside.@"
+	db   "Otvor a pozri," ; db   "Open it and see"
+	next "co je vnutri.@" ; next "what's inside.@"
 
 GorgeousBoxDesc:
-	db   "Open it and see"
-	next "what's inside.@"
+	db   "Otvor a pozri," ; db   "Open it and see"
+	next "co je vnutri.@" ; next "what's inside.@"
 
 SunStoneDesc:
-	db   "Evolves certain"
-	next "kinds of #MON.@"
+	db   "Vyvija urcite" ; db   "Evolves certain"
+	next "typy #MON.@" ; next "kinds of #MON.@"
 
 PolkadotBowDesc:
-	db   "Powers up normal-"
-	next "type moves. (HOLD)@"
+	db   "Posiluje normal-" ; db   "Powers up normal-"
+	next "typ utoky. (DRZAT)@" ; next "type moves. (HOLD)@"
 
 TeruSama22Desc:
 	db   "?@"
 
 UpGradeDesc:
-	db   "A mysterious box"
-	next "made by SILPH CO.@"
+	db   "Zvlastna krabicka" ; db   "A mysterious box"
+	next "od SILPH CO.@" ; next "made by SILPH CO.@"
 
 BerryDesc:
-	db   "A self-restore"
-	next "item. (10HP, HOLD)@"
+	db   "Samoliecebna mali-" ; db   "A self-restore"
+	next "na. (10HP, DRZAT)@" ; next "item. (10HP, HOLD)@"
 
 GoldBerryDesc:
-	db   "A self-restore"
-	next "item. (30HP, HOLD)@"
+	db   "Samoliecebna mali-" ; db   "A self-restore"
+	next "na. (30HP, DRZAT)@" ; next "item. (30HP, HOLD)@"
 
 SquirtBottleDesc:
-	db   "A bottle used for"
-	next "watering plants.@"
+	db   "Krhlicka" ; db   "A bottle used for"
+	next "na kvetiny.@" ; next "watering plants.@"
 
 TeruSama23Desc:
 	db   "?@"
 
 ParkBallDesc:
-	db   "The Bug-Catching"
-	next "Contest BALL.@"
+	db   "BALL do Hmyzovej" ; db   "The Bug-Catching"
+	next "sutaze.@" ; next "Contest BALL.@"
 
 RainbowWingDesc:
-	db   "A mystical feather"
-	next "of rainbow colors.@"
+	db   "Tajomne pierko" ; db   "A mystical feather"
+	next "duhovej farby.@" ; next "of rainbow colors.@"
 
 TeruSama24Desc:
 	db   "?@"
 
 BrickPieceDesc:
-	db   "A rare chunk of"
-	next "tile.@"
+	db   "Vzacny kus" ; db   "A rare chunk of"
+	next "tehlicky.@" ; next "tile.@"
 
 SurfMailDesc:
-	db   "LAPRAS-print MAIL."
-	next "(HOLD)@"
+	db   "LAPRASovy MAIL." ; db   "LAPRAS-print MAIL."
+	next "(DRZAT)@" ; next "(HOLD)@"
 
 LiteBlueMailDesc:
-	db   "DRATINI-print"
-	next "MAIL. (HOLD)@"
+	db   "DRATINIovy" ; db   "DRATINI-print"
+	next "MAIL. (DRZAT)@" ; next "MAIL. (HOLD)@"
 
 PortraitMailDesc:
-	db   "MAIL featuring the"
-	next "holder's likeness.@"
+	db   "MAIL obsahujuci" ; db   "MAIL featuring the"
+	next "drzitelov obraz.@" ; next "holder's likeness.@"
 
 LovelyMailDesc:
-	db   "Heart-print MAIL."
-	next "(HOLD)@"
+	db   "Srdcovy MAIL." ; db   "Heart-print MAIL."
+	next "(DRZAT)@" ; next "(HOLD)@"
 
 EonMailDesc:
-	db   "EEVEE-print MAIL."
-	next "(HOLD)@"
+	db   "EEVEEovy MAIL." ; db   "EEVEE-print MAIL."
+	next "(DRZAT)@" ; next "(HOLD)@"
 
 MorphMailDesc:
-	db   "DITTO-print MAIL."
-	next "(HOLD)@"
+	db   "DITTOvy MAIL." ; db   "DITTO-print MAIL."
+	next "(DRZAT)@" ; next "(HOLD)@"
 
 BlueSkyMailDesc:
-	db   "Sky-print MAIL."
-	next "(HOLD)@"
+	db   "Sky-print MAIL." ; db   "Sky-print MAIL."
+	next "(DRZAT)@" ; next "(HOLD)@"
 
 MusicMailDesc:
-	db   "NATU-print MAIL."
-	next "(HOLD)@"
+	db   "NATUovy MAIL." ; db   "NATU-print MAIL."
+	next "(DRZAT)@" ; next "(HOLD)@"
 
 MirageMailDesc:
-	db   "MEW-print MAIL."
-	next "(HOLD)@"
+	db   "MEWovy MAIL." ; db   "MEW-print MAIL."
+	next "(DRZAT)@" ; next "(HOLD)@"
 
 TeruSama25Desc:
 	db   "?@"
@@ -1013,3 +1013,4 @@ TeruSama32Desc:
 
 TeruSama33Desc:
 	db   "?@"
+ 
