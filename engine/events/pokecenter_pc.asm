@@ -61,11 +61,11 @@ PokemonCenterPC:
 	dw HallOfFamePC, .String_HallOfFame
 	dw TurnOffPC,    .String_TurnOff
 
-.String_PlayersPC:  db "<PLAYER>'s PC@"
-.String_BillsPC:    db "BILL's PC@"
-.String_OaksPC:     db "PROF.OAK's PC@"
-.String_HallOfFame: db "HALL OF FAME@"
-.String_TurnOff:    db "TURN OFF@"
+.String_PlayersPC:  db "<PLAYER> PC@" ; db "<PLAYER>'s PC@"
+.String_BillsPC:    db "BILL PC@" ; db "BILL's PC@"
+.String_OaksPC:     db "PROF.OAK PC@" ; db "PROF.OAK's PC@"
+.String_HallOfFame: db "SIEN SLAVY@" ; db "HALL OF FAME@"
+.String_TurnOff:    db "VYPNUT@" ; db "TURN OFF@"
 
 .WhichPC:
 ; entries correspond to PCPC_* constants
@@ -281,13 +281,13 @@ PlayersPCMenuData:
 	dw PlayerLogOffMenu,       .LogOff
 	dw PlayerLogOffMenu,       .TurnOff
 
-.WithdrawItem: db "WITHDRAW ITEM@"
-.DepositItem:  db "DEPOSIT ITEM@"
-.TossItem:     db "TOSS ITEM@"
-.MailBox:      db "MAIL BOX@"
-.Decoration:   db "DECORATION@"
-.TurnOff:      db "TURN OFF@"
-.LogOff:       db "LOG OFF@"
+.WithdrawItem: db "VZIAT PREDMET@" ; db "WITHDRAW ITEM@"
+.DepositItem:  db "POSLAT PREDMET@" ; db "DEPOSIT ITEM@"
+.TossItem:     db "ZAHOD PREDMET@" ; db "TOSS ITEM@"
+.MailBox:      db "MAIL BOX@" ; db "MAIL BOX@"
+.Decoration:   db "DEKORACIA@" ; db "DECORATION@"
+.TurnOff:      db "VYPNUT@" ; db "TURN OFF@"
+.LogOff:       db "ODHLASIT@" ; db "LOG OFF@"
 
 .WhichPC:
 ; entries correspond to PLAYERSPC_* constants
