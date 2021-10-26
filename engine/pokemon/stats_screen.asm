@@ -227,7 +227,7 @@ if DEF(_DEBUG)
 	jp StatsScreen_JoypadAction
 
 .HatchSoonString:
-	db "▶HATCH SOON!@"
+	db "▶COSKORO VYLIAHNE!@" ; db "▶HATCH SOON!@"
 endc
 
 StatsScreen_LoadPage:
@@ -701,19 +701,19 @@ LoadPinkPage:
 
 .Status_Type:
 	db   "STATUS/"
-	next "TYPE/@"
+	next "TYP/@" ; next "TYPE/@"
 
 .OK_str:
 	db "OK @"
 
 .ExpPointStr:
-	db "EXP POINTS@"
+	db "EXP BODY@" ; db "EXP POINTS@"
 
 .LevelUpStr:
-	db "LEVEL UP@"
+	db "DALSI LVL@" ; db "LEVEL UP@"
 
 .ToStr:
-	db "TO@"
+	db "NA@" ; db "TO@"
 
 .PkrsStr:
 	db "#RUS@"
@@ -755,13 +755,13 @@ LoadGreenPage:
 	ret
 
 .Item:
-	db "ITEM@"
+	db "PREDMET@" ; db "ITEM@"
 
 .ThreeDashes:
 	db "---@"
 
 .Move:
-	db "MOVE@"
+	db "UTOKY@" ; db "MOVE@"
 
 LoadBluePage:
 	call .PlaceOTInfo
@@ -1017,7 +1017,7 @@ if DEF(_DEBUG)
 	jr .placed_push_start
 
 .PushStartString:
-	db "▶PUSH START.@"
+	db "▶STLAC START.@" ; db "▶PUSH START.@"
 
 .placed_push_start
 endc
@@ -1052,31 +1052,31 @@ endc
 	ret
 
 EggString:
-	db "EGG@"
+	db "VAJICKO@" ; db "EGG@"
 
 FiveQMarkString:
 	db "?????@"
 
 EggSoonString:
-	db   "It's making sounds"
-	next "inside. It's going"
-	next "to hatch soon!@"
+	db   "Vo vnutri vydava" ; db   "It's making sounds"
+	next "zvuky. Coskoro" ; next "inside. It's going"
+	next "sa vyliahne!@" ; next "to hatch soon!@"
 
 EggCloseString:
-	db   "It moves around"
-	next "inside sometimes."
-	next "It must be close"
-	next "to hatching.@"
+	db   "Obcas sa trosku" ; db   "It moves around"
+	next "pohne Musi byt." ; next "inside sometimes."
+	next "blizko" ; next "It must be close"
+	next "vyliahnutia.@" ; next "to hatching.@"
 
 EggMoreTimeString:
-	db   "Wonder what's"
-	next "inside? It needs"
-	next "more time, though.@"
+	db   "Co je vo" ; db   "Wonder what's"
+	next "vnutri? Potrebuje" ; next "inside? It needs"
+	next "to viac casu.@" ; next "more time, though.@"
 
 EggALotMoreTimeString:
-	db   "This EGG needs a"
-	next "lot more time to"
-	next "hatch.@"
+	db   "Toto VAJICKO po-" ; db   "This EGG needs a"
+	next "trebuje vela casu" ; next "lot more time to"
+	next "na vyliahnutie.@" ; next "hatch.@"
 
 StatsScreen_AnimateEgg:
 	call StatsScreen_GetAnimationParam
