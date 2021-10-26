@@ -45,7 +45,7 @@ BattleMenuHeader:
 	db "BOJ@" ; db "FIGHT@"
 	db "<PKMN>@" ; db "<PKMN>@"
 	db "BATOH@" ; db "PACK@"
-	db "BEZ@" ; db "RUN@"
+	db "BEH@" ; db "RUN@"
 
 SafariBattleMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -90,7 +90,7 @@ ContestBattleMenuHeader:
 	db "BOJ@" ; db "FIGHT@"
 	db "<PKMN>@"
 	db "PARKBALL×  @" ; db "PARKBALL×  @"
-	db "BEZ@" ; db "RUN@"
+	db "BEH@" ; db "RUN@"
 
 .PrintParkBallsRemaining:
 	hlcoord 13, 16
