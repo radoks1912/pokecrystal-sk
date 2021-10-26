@@ -102,32 +102,32 @@ PrintPage2:
 
 GBPrinterStrings: ; used only for BANK(GBPrinterStrings)
 GBPrinterString_Null: db "@"
-GBPrinterString_CheckingLink: next " CHECKING LINK...@"
-GBPrinterString_Transmitting: next "  TRANSMITTING...@"
-GBPrinterString_Printing: next "    PRINTING...@"
+GBPrinterString_CheckingLink: next " PRIPAJAM...@" ; next " CHECKING LINK...@"
+GBPrinterString_Transmitting: next "  POSIELAM...@" ; next "  TRANSMITTING...@"
+GBPrinterString_Printing: next "    TLACIM...@" ; next "    PRINTING...@" 
 GBPrinterString_PrinterError1:
-	db   " Printer Error 1"
+	db   " Chyba 1" ; db   " Printer Error 1"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next "Viz Game Boy" ; next "Check the Game Boy"
+	next "Manual Tlaciarne." ; next "Printer Manual."
 	db   "@"
 GBPrinterString_PrinterError2:
-	db   " Printer Error 2"
+	db   " Chyba 2" ; db   " Printer Error 2"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next "Viz Game Boy" ; next "Check the Game Boy"
+	next "Manual Tlaciarne." ; next "Printer Manual."
 	db   "@"
 GBPrinterString_PrinterError3:
-	db   " Printer Error 3"
+	db   " Chyba 3" ; db   " Printer Error 3"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next "Viz Game Boy" ; next "Check the Game Boy"
+	next "Manual Tlaciarne." ; next "Printer Manual."
 	db   "@"
 GBPrinterString_PrinterError4:
-	db   " Printer Error 4"
+	db   " Chyba 4" ; db   " Printer Error 4"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next "Viz Game Boy" ; next "Check the Game Boy"
+	next "Manual Tlaciarne." ; next "Printer Manual."
 	db   "@"
 
 PrintPartyMonPage1:
@@ -329,17 +329,17 @@ PrintParty_OTString:
 	db "OT/@"
 
 PrintParty_MoveString:
-	db "MOVE@"
+	db "UTOK@" ; db "MOVE@"
 
 PrintParty_IDNoString:
 	db "<ID>№.@"
 
 PrintParty_StatsString:
-	db   "ATTACK"
-	next "DEFENSE"
-	next "SPCL.ATK"
-	next "SPCL.DEF"
-	next "SPEED"
+	db   "UTOK" ; db   "ATTACK"
+	next "OBRANA" ; next "DEFENSE"
+	next "SPCL.UTK" ; next "SPCL.ATK"
+	next "SPCL.OBR" ; next "SPCL.DEF"
+	next "RYCHLOST" ; next "SPEED"
 	db   "@"
 
 PrintParty_NoMoveString:
