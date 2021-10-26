@@ -28,16 +28,16 @@ PrintDayOfWeek:
 	ret
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "NED@" ; db "SUN@"
+	db "PON@" ; db "MON@"
+	db "UTO@" ; db "TUES@"
+	db "STR@" ; db "WEDNES@"
+	db "STV@" ; db "THURS@"
+	db "PIA@" ; db "FRI@"
+	db "SOB@" ; db "SATUR@"
 
 .Day:
-	db "DAY@"
+	db "DEN@" ; db "DAY@"
 
 NewGame_ClearTilemapEtc:
 	xor a
@@ -537,10 +537,10 @@ Continue_LoadMenuHeader:
 .MenuData_Dex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER@"
-	db "BADGES@"
-	db "#DEX@"
-	db "TIME@"
+	db "HRAC@" ; db "HRAC@"
+	db "ODZNAKY@" ; db "BADGES@"
+	db "#DEX@" ; db "#DEX@"
+	db "CAS@" ; db "TIME@"
 
 .MenuHeader_NoDex:
 	db MENU_BACKUP_TILES ; flags
@@ -551,10 +551,10 @@ Continue_LoadMenuHeader:
 .MenuData_NoDex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER <PLAYER>@"
-	db "BADGES@"
-	db " @"
-	db "TIME@"
+	db "HRAC <PLAYER>@" ; db "PLAYER <PLAYER>@"
+	db "ODZNAKY@" ; db "BADGES@"
+	db " @" ; db " @"
+	db "CAS@" ; db "TIME@"
 
 Continue_DisplayBadgesDexPlayerName:
 	call MenuBoxCoord2Tile

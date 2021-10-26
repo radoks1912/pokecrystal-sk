@@ -1,6 +1,6 @@
 _OakText6::
-	text "Tak, ako si hovoril" ; text "Now, what did you"
-	line "ze sa volas?" ; line "say your name was?"
+	text "Tak, ako si hovo-" ; text "Now, what did you"
+	line "ril, ze sa volas?" ; line "say your name was?"
 	prompt
 
 _OakText7::
