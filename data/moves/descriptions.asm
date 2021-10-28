@@ -269,1005 +269,1005 @@ Move00Description:
 
 ; 18chars max per line
 PoundDescription:
-	db   "Pounds with fore-" ; db   "Pounds with fore-"
-	next "legs or tail.@" ; next "legs or tail.@"
+	db   "Uder nohami" ; db   "Pounds with fore-"
+	next "alebo chvostom.@" ; next "legs or tail.@"
 
 KarateChopDescription:
-	db   "Has a high criti-" ; db   "Has a high criti-"
-	next "cal hit ratio.@" ; next "cal hit ratio.@"
+	db   "Ma vysoku sancu na" ; db   "Has a high criti-"
+	next "kriticky zasah.@" ; next "cal hit ratio.@"
 
 DoubleslapDescription:
-	db   "Repeatedly slaps" ; db   "Repeatedly slaps"
-	next "2-5 times.@" ; next "2-5 times.@"
+	db   "Opakovany uder" ; db   "Repeatedly slaps"
+	next "2-5 krat.@" ; next "2-5 times.@"
 
 CometPunchDescription:
-	db   "Repeatedly punches" ; db   "Repeatedly punches"
-	next "2-5 times.@" ; next "2-5 times.@"
+	db   "Opakovany uder" ; db   "Repeatedly punches"
+	next "2-5 krat.@" ; next "2-5 times.@"
 
 MegaPunchDescription:
-	db   "A powerful punch" ; db   "A powerful punch"
-	next "thrown very hard.@" ; next "thrown very hard.@"
+	db   "Mega silny" ; db   "A powerful punch"
+	next "uder.@" ; next "thrown very hard.@"
 
 PayDayDescription:
-	db   "Throws coins. Gets" ; db   "Throws coins. Gets"
-	next "them back later.@" ; next "them back later.@"
+	db   "Rozkotula mince." ; db   "Throws coins. Gets"
+	next "Zdvihne ich neskor@" ; next "them back later.@"
 
 FirePunchDescription:
-	db   "A fiery punch. May" ; db   "A fiery punch. May"
-	next "cause a burn.@" ; next "cause a burn.@"
+	db   "Ohnivy uder. Moze" ; db   "A fiery punch. May"
+	next "popalit.@" ; next "cause a burn.@"
 
 IcePunchDescription:
-	db   "An icy punch. May" ; db   "An icy punch. May"
-	next "cause freezing.@" ; next "cause freezing.@"
+	db   "Ladovy uder. Moze" ; db   "An icy punch. May"
+	next "zamrazit.@" ; next "cause freezing.@"
 
 ThunderpunchDescription:
-	db   "An electric punch." ; db   "An electric punch."
-	next "It may paralyze.@" ; next "It may paralyze.@"
+	db   "Elektricky uder." ; db   "An electric punch."
+	next "Moze paralyzovat.@" ; next "It may paralyze.@"
 
 ScratchDescription:
-	db   "Scratches with" ; db   "Scratches with"
-	next "sharp claws.@" ; next "sharp claws.@"
+	db   "Skrabne" ; db   "Scratches with"
+	next "ostrymi pazurmi.@" ; next "sharp claws.@"
 
 VicegripDescription:
-	db   "Grips with power-" ; db   "Grips with power-"
-	next "ful pincers.@" ; next "ful pincers.@"
+	db   "Uchopi mocnymi" ; db   "Grips with power-"
+	next "klepetami.@" ; next "ful pincers.@"
 
 GuillotineDescription:
-	db   "A one-hit KO," ; db   "A one-hit KO,"
-	next "pincer attack.@" ; next "pincer attack.@"
+	db   "KO na jeden zasah" ; db   "A one-hit KO,"
+	next "klepetami.@" ; next "pincer attack.@"
 
 RazorWindDescription:
-	db   "1st turn: Prepare"  ; db   "1st turn: Prepare" 
-	next "2nd turn: Attack@" ; next "2nd turn: Attack@"
+	db   "1. tah: Priprava"  ; db   "1st turn: Prepare" 
+	next "2. tah: Utok@" ; next "2nd turn: Attack@"
 
 SwordsDanceDescription:
-	db   "A dance that in-" ; db   "A dance that in-"
-	next "creases ATTACK.@" ; next "creases ATTACK.@"
+	db   "Tanec zvysujuci" ; db   "A dance that in-"
+	next "UTOK.@" ; next "creases ATTACK.@"
 
 CutDescription:
-	db   "Cuts using claws," ; db   "Cuts using claws,"
-	next "scythes, etc.@" ; next "scythes, etc.@"
+	db   "Reze pomocou" ; db   "Cuts using claws,"
+	next "pazurov, kos atd.@" ; next "scythes, etc.@"
 
 GustDescription:
-	db   "Whips up a strong" ; db   "Whips up a strong"
-	next "gust of wind.@" ; next "gust of wind.@"
+	db   "Vytvori silny" ; db   "Whips up a strong"
+	next "poryv vetra.@" ; next "gust of wind.@"
 
 WingAttackDescription:
-	db   "Strikes the target" ; db   "Strikes the target"
-	next "with wings.@" ; next "with wings.@"
+	db   "Zasiahne ciel" ; db   "Strikes the target"
+	next "kridlami.@" ; next "with wings.@"
 
 WhirlwindDescription:
-	db   "Blows away the foe" ; db   "Blows away the foe"
-	next "& ends battle.@" ; next "& ends battle.@"
+	db   "Odfukne nepriatela" ; db   "Blows away the foe"
+	next "& skonci zapas.@" ; next "& ends battle.@"
 
 FlyDescription:
-	db   "1st turn: Fly" ; db   "1st turn: Fly"
-	next "2nd turn: Attack@" ; next "2nd turn: Attack@"
+	db   "1. tah: Odlet" ; db   "1st turn: Fly"
+	next "2. tah: Utok@" ; next "2nd turn: Attack@"
 
 BindDescription:
-	db   "Binds the target" ; db   "Binds the target"
-	next "for 2-5 turns.@" ; next "for 2-5 turns.@"
+	db   "Zviaze ciel" ; db   "Binds the target"
+	next "na 2-5 tahov.@" ; next "for 2-5 turns.@"
 
 SlamDescription:
-	db   "Slams the foe with" ; db   "Slams the foe with"
-	next "a tail, vine, etc.@" ; next "a tail, vine, etc.@"
+	db   "Treskne nepriatela" ; db   "Slams the foe with"
+	next "chvostom, lianou.@" ; next "a tail, vine, etc.@"
 
 VineWhipDescription:
-	db   "Whips the foe with" ; db   "Whips the foe with"
-	next "slender vines.@" ; next "slender vines.@"
+	db   "Buchne nepriatela" ; db   "Whips the foe with"
+	next "stihlou lianou.@" ; next "slender vines.@"
 
 StompDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause flinching.@" ; next "cause flinching.@"
+	db   "Utok, ktory moze" ; db   "An attack that may"
+	next "sposobit ustup.@" ; next "cause flinching.@"
 
 DoubleKickDescription:
-	db   "A double kicking" ; db   "A double kicking"
-	next "attack.@" ; next "attack.@"
+	db   "Dvojkopovy" ; db   "A double kicking"
+	next "utok.@" ; next "attack.@"
 
 MegaKickDescription:
-	db   "A powerful kicking" ; db   "A powerful kicking"
-	next "attack.@" ; next "attack.@"
+	db   "Silny kopajuci" ; db   "A powerful kicking"
+	next "utok.@" ; next "attack.@"
 
 JumpKickDescription:
-	db   "May miss, damaging" ; db   "May miss, damaging"
-	next "the user.@" ; next "the user.@"
+	db   "Moze minut a po-" ; db   "May miss, damaging"
+	next "skodit uzivatela.@" ; next "the user.@"
 
 RollingKickDescription:
-	db   "A fast, spinning" ; db   "A fast, spinning"
-	next "kick.@"
+	db   "Rychly valivy" ; db   "A fast, spinning"
+	next "kop.@"
 
 SandAttackDescription:
-	db   "Reduces accuracy" ; db   "Reduces accuracy"
-	next "by throwing sand.@" ; next "by throwing sand.@"
+	db   "Znizi presnost" ; db   "Reduces accuracy"
+	next "hadzanim piesku.@" ; next "by throwing sand.@"
 
 HeadbuttDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "make foe flinch.@" ; next "make foe flinch.@"
+	db   "Utok, ktory moze" ; db   "An attack that may"
+	next "sposobit ustup.@" ; next "make foe flinch.@"
 
 HornAttackDescription:
-	db   "An attack using a" ; db   "An attack using a"
-	next "horn to jab.@" ; next "horn to jab.@"
+	db   "Utok pouzivajuci" ; db   "An attack using a"
+	next "roh k uderu.@" ; next "horn to jab.@"
 
 FuryAttackDescription:
-	db   "Jabs the target" ; db   "Jabs the target"
-	next "2-5 times.@" ; next "2-5 times.@"
+	db   "Bodne ciel" ; db   "Jabs the target"
+	next "2-5 krat.@" ; next "2-5 times.@"
 
 HornDrillDescription:
-	db   "A one-hit KO," ; db   "A one-hit KO,"
-	next "drill attack.@" ; next "drill attack.@"
+	db   "KO na jeden zasah" ; db   "A one-hit KO,"
+	next "vrtajuci utok.@" ; next "drill attack.@"
 
 TackleDescription:
-	db   "A full-body charge" ; db   "A full-body charge"
-	next "attack.@" ; next "attack.@"
+	db   "Naraz celym" ; db   "A full-body charge"
+	next "telom.@" ; next "attack.@"
 
 BodySlamDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause paralysis.@" ; next "cause paralysis.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "paralyzu.@" ; next "cause paralysis.@"
 
 WrapDescription:
-	db   "Squeezes the foe" ; db   "Squeezes the foe"
-	next "for 2-5 turns.@" ; next "for 2-5 turns.@"
+	db   "Zmackne nepriatela" ; db   "Squeezes the foe"
+	next "na 2-5 tahov.@" ; next "for 2-5 turns.@"
 
 TakeDownDescription:
-	db   "A tackle that also" ; db   "A tackle that also"
-	next "hurts the user.@" ; next "hurts the user.@"
+	db   "Utok poskodzujuci" ; db   "A tackle that also"
+	next "aj uzivatela.@" ; next "hurts the user.@"
 
 ThrashDescription:
-	db   "Works 2-3 turns" ; db   "Works 2-3 turns"
-	next "and confuses user.@" ; next "and confuses user.@"
+	db   "Funguje 2-3 tahy," ; db   "Works 2-3 turns"
+	next "zmatie pouzivatela@" ; next "and confuses user.@"
 
 DoubleEdgeDescription:
-	db   "A tackle that also" ; db   "A tackle that also"
-	next "hurts the user.@" ; next "hurts the user.@"
+	db   "Utok poskodzujuci" ; db   "A tackle that also"
+	next "aj uzivatela.@" ; next "hurts the user.@"
 
 TailWhipDescription:
-	db   "Lowers the foe's" ; db   "Lowers the foe's"
-	next "DEFENSE.@" ; next "DEFENSE.@"
+	db   "Znizi nepriatelovu" ; db   "Lowers the foe's"
+	next "OBRANU.@" ; next "DEFENSE.@"
 
 PoisonStingDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "poison the target.@" ; next "poison the target.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "otravu nepriatela.@" ; next "poison the target.@"
 
 TwineedleDescription:
-	db   "Jabs the foe twice" ; db   "Jabs the foe twice"
-	next "using stingers.@" ; next "using stingers.@"
+	db   "Bodne nepriatela" ; db   "Jabs the foe twice"
+	next "dvakrat zihadlom.@" ; next "using stingers.@"
 
 PinMissileDescription:
-	db   "Fires pins that" ; db   "Fires pins that"
-	next "strike 2-5 times.@" ; next "strike 2-5 times.@"
+	db   "Striela ostne" ; db   "Fires pins that"
+	next "2-5 krat.@" ; next "strike 2-5 times.@"
 
 LeerDescription:
-	db   "Reduces the foe's" ; db   "Reduces the foe's"
-	next "DEFENSE.@" ; next "DEFENSE.@"
+	db   "Znizi nepriatelovu" ; db   "Reduces the foe's"
+	next "OBRANU.@" ; next "DEFENSE.@"
 
 BiteDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause flinching.@" ; next "cause flinching.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "ustup nepriatela.@" ; next "cause flinching.@"
 
 GrowlDescription:
-	db   "Reduces the foe's" ; db   "Reduces the foe's"
-	next "ATTACK.@" ; next "ATTACK.@"
+	db   "Znizi nepriatelov" ; db   "Reduces the foe's"
+	next "UTOK.@" ; next "ATTACK.@"
 
 RoarDescription:
-	db   "Scares wild foes" ; db   "Scares wild foes"
-	next "to end battle.@" ; next "to end battle.@"
+	db   "Vystrasi nepriatela" ; db   "Scares wild foes"
+	next "zavytim.@" ; next "to end battle.@"
 
 SingDescription:
-	db   "May cause the foe" ; db   "May cause the foe"
-	next "to fall asleep.@" ; next "to fall asleep.@"
+	db   "Moze uspat" ; db   "May cause the foe"
+	next "nepriatela.@" ; next "to fall asleep.@"
 
 SupersonicDescription:
-	db   "Sound waves that" ; db   "Sound waves that"
-	next "cause confusion.@" ; next "cause confusion.@"
+	db   "Zvukove vlny spo-" ; db   "Sound waves that"
+	next "sobujuce zmatenie.@" ; next "cause confusion.@"
 
 SonicboomDescription:
-	db   "Always inflicts" ; db   "Always inflicts"
-	next "20HP damage.@" ; next "20HP damage.@"
+	db   "Vzdy sposobi" ; db   "Always inflicts"
+	next "20HP poskodenie.@" ; next "20HP damage.@"
 
 DisableDescription:
-	db   "Disables the foe's" ; db   "Disables the foe's"
-	next "most recent move.@" ; next "most recent move.@"
+	db   "Blokne nepriatelov" ; db   "Disables the foe's"
+	next "posledny utok.@" ; next "most recent move.@"
 
 AcidDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "lower DEFENSE.@" ; next "lower DEFENSE.@"
+	db   "Utok, ktory moze" ; db   "An attack that may"
+	next "znizit OBRANU.@" ; next "lower DEFENSE.@"
 
 EmberDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "inflict a burn.@" ; next "inflict a burn.@"
+	db   "Utok, ktory moze" ; db   "An attack that may"
+	next "popalit.@" ; next "inflict a burn.@"
 
 FlamethrowerDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "inflict a burn.@" ; next "inflict a burn.@"
+	db   "Utok, ktory moze" ; db   "An attack that may"
+	next "popalit.@" ; next "inflict a burn.@"
 
 MistDescription:
-	db   "Prevents stat" ; db   "Prevents stat"
-	next "reduction.@" ; next "reduction.@"
+	db   "Zabranuje znizovanue" ; db   "Prevents stat"
+	next "statov.@" ; next "reduction.@"
 
 WaterGunDescription:
-	db   "Squirts water to" ; db   "Squirts water to"
-	next "attack.@" ; next "attack.@"
+	db   "Utok strieka" ; db   "Squirts water to"
+	next "vodu.@" ; next "attack.@"
 
 HydroPumpDescription:
-	db   "A powerful water-" ; db   "A powerful water-"
-	next "type attack.@" ; next "type attack.@"
+	db   "Silny vodny" ; db   "A powerful water-"
+	next "utok.@" ; next "type attack.@"
 
 SurfDescription:
-	db   "A strong water-" ; db   "A strong water-"
-	next "type attack.@" ; next "type attack.@"
+	db   "Silny vodny" ; db   "A strong water-"
+	next "utok.@" ; next "type attack.@"
 
 IceBeamDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "freeze the foe.@" ; next "freeze the foe.@"
+	db   "Utok moze zmrazit" ; db   "An attack that may"
+	next "nepriatela.@" ; next "freeze the foe.@"
 
 BlizzardDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "freeze the foe.@" ; next "freeze the foe.@"
+	db   "Utok moze zmrazit" ; db   "An attack that may"
+	next "nepriatela.@" ; next "freeze the foe.@"
 
 PsybeamDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "confuse the foe.@" ; next "confuse the foe.@"
+	db   "Utok moze zmiast" ; db   "An attack that may"
+	next "nepriatela.@" ; next "confuse the foe.@"
 
 BubblebeamDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "lower SPEED.@" ; next "lower SPEED.@"
+	db   "Utok, ktory moze" ; db   "An attack that may"
+	next "znizit RYCHLOST.@" ; next "lower SPEED.@"
 
 AuroraBeamDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "lower ATTACK.@" ; next "lower ATTACK.@"
+	db   "Utok, ktory moze" ; db   "An attack that may"
+	next "znizit UTOK.@" ; next "lower ATTACK.@"
 
 HyperBeamDescription:
-	db   "1st turn: Attack" ; db   "1st turn: Attack"
-	next "2nd turn: Rest@" ; next "2nd turn: Rest@"
+	db   "1. tah: Utok" ; db   "1st turn: Attack"
+	next "2. tah: Oddych@" ; next "2nd turn: Rest@"
 
 PeckDescription:
-	db   "Jabs the foe with" ; db   "Jabs the foe with"
-	next "a beak, etc.@" ; next "a beak, etc.@"
+	db   "Bodne nepriatela" ; db   "Jabs the foe with"
+	next "zobakom atd.@" ; next "a beak, etc.@"
 
 DrillPeckDescription:
-	db   "A strong, spin-" ; db   "A strong, spin-"
-	next "ning-peck attack.@" ; next "ning-peck attack.@"
+	db   "Silny tocity" ; db   "A strong, spin-"
+	next "zobakovy utok.@" ; next "ning-peck attack.@"
 
 SubmissionDescription:
-	db   "An attack that al-" ; db   "An attack that al-"
-	next "so hurts the user.@" ; next "so hurts the user.@"
+	db   "Utok poskodzujuci-" ; db   "An attack that al-"
+	next "aj uzivatela.@" ; next "so hurts the user.@"
 
 LowKickDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause flinching.@" ; next "cause flinching.@"
+	db   "Utok, ktory moze" ; db   "An attack that may"
+	next "sposobit ustup.@" ; next "cause flinching.@"
 
 CounterDescription:
-	db   "Returns a physical" ; db   "Returns a physical"
-	next "blow double.@" ; next "blow double.@"
+	db   "Vrati dvojnasobne" ; db   "Returns a physical"
+	next "fyzicky utok.@" ; next "blow double.@"
 
 SeismicTossDescription:
-	db   "The user's level" ; db   "The user's level"
-	next "equals damage HP.@" ; next "equals damage HP.@"
+	db   "Poskodenie rovne" ; db   "The user's level"
+	next "levelu uzivatela.@" ; next "equals damage HP.@"
 
 StrengthDescription:
-	db   "A powerful physi-" ; db   "A powerful physi-"
-	next "cal attack.@" ; next "cal attack.@"
+	db   "Silny fyzicky" ; db   "A powerful physi-"
+	next "utok.@" ; next "cal attack.@"
 
 AbsorbDescription:
-	db   "Steals 1/2 of the" ; db   "Steals 1/2 of the"
-	next "damage inflicted.@" ; next "damage inflicted.@"
+	db   "Ukradne 1/2" ; db   "Steals 1/2 of the"
+	next "poskodenia.@" ; next "damage inflicted.@"
 
 MegaDrainDescription:
-	db   "Steals 1/2 of the" ; db   "Steals 1/2 of the"
-	next "damage inflicted.@" ; next "damage inflicted.@"
+	db   "Ukradne polku spo-" ; db   "Steals 1/2 of the"
+	next "sobenej skody.@" ; next "damage inflicted.@"
 
 LeechSeedDescription:
-	db   "Steals HP from the" ; db   "Steals HP from the"
-	next "foe on every turn.@" ; next "foe on every turn.@"
+	db   "Kradne HP nepriate-" ; db   "Steals HP from the"
+	next "la kazdy tah.@" ; next "foe on every turn.@"
 
 GrowthDescription:
-	db   "Raises the SPCL." ; db   "Raises the SPCL."
-	next "ATK rating.@" ; next "ATK rating.@"
+	db   "Zvysi SPCL." ; db   "Raises the SPCL."
+	next "UTK.@" ; next "ATK rating.@"
 
 RazorLeafDescription:
-	db   "Has a high criti-" ; db   "Has a high criti-"
-	next "cal hit ratio.@" ; next "cal hit ratio.@"
+	db   "Ma vysoku sancu na" ; db   "Has a high criti-"
+	next "kriticky zasah.@" ; next "cal hit ratio.@"
 
 SolarbeamDescription:
-	db   "1st turn: Prepare" ; db   "1st turn: Prepare"
-	next "2nd turn: Attack@" ; next "2nd turn: Attack@"
+	db   "1. tah: Priprava" ; db   "1st turn: Prepare"
+	next "2. tah: Utok@" ; next "2nd turn: Attack@"
 
 PoisonpowderDescription:
-	db   "A move that may" ; db   "A move that may"
-	next "poison the foe.@" ; next "poison the foe.@"
+	db   "Utok moze otravit" ; db   "A move that may"
+	next "nepriatela.@" ; next "poison the foe.@"
 
 StunSporeDescription:
-	db   "A move that may" ; db   "A move that may"
-	next "paralyze the foe.@" ; next "paralyze the foe.@"
+	db   "Utok moze paraly-" ; db   "A move that may"
+	next "zovat nepriatela.@" ; next "paralyze the foe.@"
 
 SleepPowderDescription:
-	db   "May cause the foe" ; db   "May cause the foe"
-	next "to fall asleep.@" ; next "to fall asleep.@"
+	db   "Utok moze uspat" ; db   "May cause the foe"
+	next "nepriatela.@" ; next "to fall asleep.@"
 
 PetalDanceDescription:
-	db   "Works 2-3 turns" ; db   "Works 2-3 turns"
-	next "and confuses user.@" ; next "and confuses user.@"
+	db   "Funguje 2-3 tahy," ; db   "Works 2-3 turns"
+	next "zmatie uzivatela.@" ; next "and confuses user.@"
 
 StringShotDescription:
-	db   "A move that lowers" ; db   "A move that lowers"
-	next "the foe's SPEED.@" ; next "the foe's SPEED.@"
+	db   "Znizi nepriatelovu" ; db   "A move that lowers"
+	next "RYCHLOST.@" ; next "the foe's SPEED.@"
 
 DragonRageDescription:
-	db   "Always inflicts" ; db   "Always inflicts"
-	next "40HP damage.@" ; next "40HP damage.@"
+	db   "Vzdy sposobi" ; db   "Always inflicts"
+	next "40HP poskodenie.@" ; next "40HP damage.@"
 
 FireSpinDescription:
-	db   "Traps foe in fire" ; db   "Traps foe in fire"
-	next "for 2-5 turns.@" ; next "for 2-5 turns.@"
+	db   "Uvazni nepriatela" ; db   "Traps foe in fire"
+	next "ohnom 2-5 tahov.@" ; next "for 2-5 turns.@"
 
 ThundershockDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause paralysis.@" ; next "cause paralysis.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "paralyzu.@" ; next "cause paralysis.@"
 
 ThunderboltDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause paralysis.@" ; next "cause paralysis.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "paralyzu.@" ; next "cause paralysis.@"
 
 ThunderWaveDescription:
-	db   "A move that may" ; db   "A move that may"
-	next "cause paralysis.@" ; next "cause paralysis.@"
+	db   "Utok moze sposobit" ; db   "A move that may"
+	next "paralyzu.@" ; next "cause paralysis.@"
 
 ThunderDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause paralysis.@" ; next "cause paralysis.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "paralyzu.@" ; next "cause paralysis.@"
 
 RockThrowDescription:
-	db   "Drops rocks on the" ; db   "Drops rocks on the"
-	next "enemy.@" ; next "enemy.@"
+	db   "Zhodi skaly" ; db   "Drops rocks on the"
+	next "na nepriatela.@" ; next "enemy.@"
 
 EarthquakeDescription:
-	db   "Tough but useless" ; db   "Tough but useless"
-	next "vs. flying foes.@" ; next "vs. flying foes.@"
+	db   "Nefunguje na lie-" ; db   "Tough but useless"
+	next "tajucich pokemonov@" ; next "vs. flying foes.@"
 
 FissureDescription:
-	db   "A ground-type," ; db   "A ground-type,"
-	next "one-hit KO attack.@" ; next "one-hit KO attack.@"
+	db   "Pozemny utok," ; db   "A ground-type,"
+	next "KO na jeden zasah.@" ; next "one-hit KO attack.@"
 
 DigDescription:
-	db   "1st turn: Burrow" ; db   "1st turn: Burrow"
-	next "2nd turn: Attack@" ; next "2nd turn: Attack@"
+	db   "1.tah: Zahrabat sa" ; db   "1st turn: Burrow"
+	next "2.tah: Utok@" ; next "2nd turn: Attack@"
 
 ToxicDescription:
 	db   "A poison move with" ; db   "A poison move with"
 	next "increasing damage.@" ; next "increasing damage.@"
 
 ConfusionDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause confusion.@" ; next "cause confusion.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "zmatenie.@" ; next "cause confusion.@"
 
 PsychicMDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "lower SPCL.DEF.@" ; next "lower SPCL.DEF.@"
+	db   "Utok moze znizit" ; db   "An attack that may"
+	next "SPCL.OBRANU.@" ; next "lower SPCL.DEF.@"
 
 HypnosisDescription:
-	db   "May put the foe to" ; db   "May put the foe to"
-	next "sleep.@" ; next "sleep.@"
+	db   "Moze uspat" ; db   "May put the foe to"
+	next "nepriatela.@" ; next "sleep.@"
 
 MeditateDescription:
-	db   "Raises the user's" ; db   "Raises the user's"
-	next "ATTACK.@" ; next "ATTACK.@"
+	db   "Zvysi uzivatelov" ; db   "Raises the user's"
+	next "UTOK.@" ; next "ATTACK.@"
 
 AgilityDescription:
-	db   "Sharply increases" ; db   "Sharply increases"
-	next "the user's SPEED.@" ; next "the user's SPEED.@"
+	db   "Prudko zvysi" ; db   "Sharply increases"
+	next "RYCHLOST uzivatela@" ; next "the user's SPEED.@"
 
 QuickAttackDescription:
-	db   "Lets the user get" ; db   "Lets the user get"
-	next "in the first hit.@" ; next "in the first hit.@"
+	db   "Utoci vzdy" ; db   "Lets the user get"
+	next "prvy.@" ; next "in the first hit.@"
 
 RageDescription:
-	db   "Raises ATTACK if" ; db   "Raises ATTACK if"
-	next "the user is hit.@" ; next "the user is hit.@"
+	db   "Zvysuje UTOK, ak" ; db   "Raises ATTACK if"
+	next "si poskodzovany.@" ; next "the user is hit.@"
 
 TeleportDescription:
-	db   "A move for fleeing" ; db   "A move for fleeing"
-	next "from battle.@" ; next "from battle.@"
+	db   "Utok na utek" ; db   "A move for fleeing"
+	next "zo zapasu.@" ; next "from battle.@"
 
 NightShadeDescription:
-	db   "The user's level" ; db   "The user's level"
-	next "equals damage HP.@" ; next "equals damage HP.@"
+	db   "Poskodenie rovne" ; db   "The user's level"
+	next "levelu uzivatela.@" ; next "equals damage HP.@"
 
 MimicDescription:
-	db   "Copies a move used" ; db   "Copies a move used"
-	next "by the foe.@" ; next "by the foe.@"
+	db   "Osvoji nepriatelov" ; db   "Copies a move used"
+	next "utok.@" ; next "by the foe.@"
 
 ScreechDescription:
-	db   "Sharply reduces" ; db   "Sharply reduces"
-	next "the foe's DEFENSE.@" ; next "the foe's DEFENSE.@"
+	db   "Prudko znizi" ; db   "Sharply reduces"
+	next "OBRANU nepriatela.@" ; next "the foe's DEFENSE.@"
 
 DoubleTeamDescription:
-	db   "Heightens evasive-" ; db   "Heightens evasive-"
-	next "ness.@" ; next "ness.@"
+	db   "Zvysi" ; db   "Heightens evasive-"
+	next "vyhybavost.@" ; next "ness.@"
 
 RecoverDescription:
-	db   "Restores HP by 1/2" ; db   "Restores HP by 1/2"
-	next "the max HP.@" ; next "the max HP.@"
+	db   "Obnovi HP o polku" ; db   "Restores HP by 1/2"
+	next "maximalneho HP.@" ; next "the max HP.@"
 
 HardenDescription:
-	db   "Raises the user's" ; db   "Raises the user's"
-	next "DEFENSE.@" ; next "DEFENSE.@"
+	db   "Zvysi uzivatelovu" ; db   "Raises the user's"
+	next "OBRANU.@" ; next "DEFENSE.@"
 
 MinimizeDescription:
-	db   "Heightens evasive-" ; db   "Heightens evasive-"
-	next "ness.@" ; next "ness.@"
+	db   "Zvysi" ; db   "Heightens evasive-"
+	next "vyhybavost.@" ; next "ness.@"
 
 SmokescreenDescription:
-	db   "Lowers the foe's" ; db   "Lowers the foe's"
-	next "accuracy.@" ; next "accuracy.@"
+	db   "Znizi nepriatelovu" ; db   "Lowers the foe's"
+	next "presnost.@" ; next "accuracy.@"
 
 ConfuseRayDescription:
-	db   "A move that causes" ; db   "A move that causes"
-	next "confusion.@" ; next "confusion.@"
+	db   "Utok sposobuje" ; db   "A move that causes"
+	next "zmatenie.@" ; next "confusion.@"
 
 WithdrawDescription:
-	db   "Heightens the" ; db   "Heightens the"
-	next "user's DEFENSE.@" ; next "user's DEFENSE.@"
+	db   "Zvysi uzivatelovu" ; db   "Heightens the"
+	next "OBRANU.@" ; next "user's DEFENSE.@"
 
 DefenseCurlDescription:
-	db   "Heightens the" ; db   "Heightens the"
-	next "user's DEFENSE.@" ; next "user's DEFENSE.@"
+	db   "Zvysi uzivatelovu" ; db   "Heightens the"
+	next "OBRANU.@" ; next "user's DEFENSE.@"
 
 BarrierDescription:
-	db   "Sharply increases" ; db   "Sharply increases"
-	next "user's DEFENSE.@" ; next "user's DEFENSE.@"
+	db   "Prudko zvysi" ; db   "Sharply increases"
+	next "OBRANU uzivatela.@" ; next "user's DEFENSE.@"
 
 LightScreenDescription:
-	db   "Ups SPCL.DEF with" ; db   "Ups SPCL.DEF with"
-	next "a wall of light.@" ; next "a wall of light.@"
+	db   "Zvysi SPCL.OBRANU" ; db   "Ups SPCL.DEF with"
+	next "stenou zo svetla.@" ; next "a wall of light.@"
 
 HazeDescription:
-	db   "Eliminates all" ; db   "Eliminates all"
-	next "stat changes.@" ; next "stat changes.@"
+	db   "Zrusi vsetky" ; db   "Eliminates all"
+	next "stat zmeny.@" ; next "stat changes.@"
 
 ReflectDescription:
-	db   "Raises DEFENSE" ; db   "Raises DEFENSE"
-	next "with a barrier.@" ; next "with a barrier.@"
+	db   "Zvysi OBRANU" ; db   "Raises DEFENSE"
+	next "s barierou.@" ; next "with a barrier.@"
 
 FocusEnergyDescription:
-	db   "Raises the criti-" ; db   "Raises the criti-"
-	next "cal hit ratio.@" ; next "cal hit ratio.@"
+	db   "Zvysuje" ; db   "Raises the criti-"
+	next "kriticky zasah.@" ; next "cal hit ratio.@"
 
 BideDescription:
-	db   "Waits 2-3 turns &" ; db   "Waits 2-3 turns &"
-	next "hits back double.@" ; next "hits back double.@"
+	db   "Caka 2-3 tahy &" ; db   "Waits 2-3 turns &"
+	next "vrati dvojnasobok.@" ; next "hits back double.@"
 
 MetronomeDescription:
-	db   "Randomly uses any" ; db   "Randomly uses any"
-	next "#MON move.@" ; next "#MON move.@"
+	db   "Nahodne pouzije" ; db   "Randomly uses any"
+	next "#MON utok.@" ; next "#MON move.@"
 
 MirrorMoveDescription:
-	db   "Counters with the" ; db   "Counters with the"
-	next "same move.@" ; next "same move.@"
+	db   "Vrati zrkadlovy" ; db   "Counters with the"
+	next "utok naspat.@" ; next "same move.@"
 
 SelfdestructDescription:
-	db   "Powerful but makes" ; db   "Powerful but makes"
-	next "the user faint.@" ; next "the user faint.@"
+	db   "Silny utok, ale" ; db   "Powerful but makes"
+	next "uzivatel odpadne.@" ; next "the user faint.@"
 
 EggBombDescription:
-	db   "Eggs are hurled at" ; db   "Eggs are hurled at"
-	next "the foe.@" ; next "the foe.@"
+	db   "Vajickovy utok" ; db   "Eggs are hurled at"
+	next "na nepriatela.@" ; next "the foe.@"
 
 LickDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause paralysis.@" ; next "cause paralysis.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "paralyzu.@" ; next "cause paralysis.@"
 
 SmogDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "poison the foe.@" ; next "poison the foe.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "otravu nepriatela.@" ; next "poison the foe.@"
 
 SludgeDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "poison the foe.@" ; next "poison the foe.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "otravu nepriatela.@" ; next "poison the foe.@"
 
 BoneClubDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause flinching.@" ; next "cause flinching.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "ustup nepriatela.@" ; next "cause flinching.@"
 
 FireBlastDescription:
-	db   "An attack that" ; db   "An attack that"
-	next "may cause a burn.@" ; next "may cause a burn.@"
+	db   "Utok moze sposobit" ; db   "An attack that"
+	next "popaleninu.@" ; next "may cause a burn.@"
 
 WaterfallDescription:
-	db   "An aquatic charge" ; db   "An aquatic charge"
-	next "attack.@" ; next "attack.@"
+	db   "Utok vodnou" ; db   "An aquatic charge"
+	next "nalozou.@" ; next "attack.@"
 
 ClampDescription:
-	db   "Traps the foe for" ; db   "Traps the foe for"
-	next "2-5 turns.@" ; next "2-5 turns.@"
+	db   "Uvazni nepriatela" ; db   "Traps the foe for"
+	next "na 2-5 tahov.@" ; next "2-5 turns.@"
 
 SwiftDescription:
-	db   "An attack that" ; db   "An attack that"
-	next "never misses.@" ; next "never misses.@"
+	db   "Utok, ktory" ; db   "An attack that"
+	next "nikdy neminie.@" ; next "never misses.@"
 
 SkullBashDescription:
-	db   "1st turn: Prepare" ; db   "1st turn: Prepare"
-	next "2nd turn: Attack@" ; next "2nd turn: Attack@"
+	db   "1. tah: Priprava" ; db   "1st turn: Prepare"
+	next "2. tah: Utok@" ; next "2nd turn: Attack@"
 
 SpikeCannonDescription:
-	db   "Fires spikes to" ; db   "Fires spikes to"
-	next "hit 2-5 times.@" ; next "hit 2-5 times.@"
+	db   "Ohnive pichliace," ; db   "Fires spikes to"
+	next "trafia 2-5 krat.@" ; next "hit 2-5 times.@"
 
 ConstrictDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "lower SPEED.@" ; next "lower SPEED.@"
+	db   "Utok moze znizit" ; db   "An attack that may"
+	next "RYCHLOST.@" ; next "lower SPEED.@"
 
 AmnesiaDescription:
-	db   "Sharply raises the" ; db   "Sharply raises the"
-	next "user's SPCL.DEF.@" ; next "user's SPCL.DEF.@"
+	db   "Prudko zvysi" ; db   "Sharply raises the"
+	next "SPCL.OBRANU.@" ; next "user's SPCL.DEF.@"
 
 KinesisDescription:
-	db   "Reduces the foe's" ; db   "Reduces the foe's"
-	next "accuracy.@" ; next "accuracy.@"
+	db   "Znizi nepriatelovu" ; db   "Reduces the foe's"
+	next "presnost.@" ; next "accuracy.@"
 
 SoftboiledDescription:
-	db   "Restores HP by 1/2" ; db   "Restores HP by 1/2"
-	next "the user's max HP.@" ; next "the user's max HP.@"
+	db   "Obnovi HP o polku" ; db   "Restores HP by 1/2"
+	next "maximalneho HP.@" ; next "the user's max HP.@"
 
 HiJumpKickDescription:
-	db   "May miss and hurt" ; db   "May miss and hurt"
-	next "the user.@" ; next "the user.@"
+	db   "Moze minut a po-" ; db   "May miss and hurt"
+	next "skodit uzivatela.@" ; next "the user.@"
 
 GlareDescription:
-	db   "A move that may" ; db   "A move that may"
-	next "cause paralysis.@" ; next "cause paralysis.@"
+	db   "Utok moze sposobit" ; db   "A move that may"
+	next "paralyzu.@" ; next "cause paralysis.@"
 
 DreamEaterDescription:
-	db   "Steals HP from a" ; db   "Steals HP from a"
-	next "sleeping victim.@" ; next "sleeping victim.@"
+	db   "Kradne HP zo" ; db   "Steals HP from a"
+	next "spiacej obeti.@" ; next "sleeping victim.@"
 
 PoisonGasDescription:
-	db   "A move that may" ; db   "A move that may"
-	next "poison the foe.@" ; next "poison the foe.@"
+	db   "Utok moze otravit" ; db   "A move that may"
+	next "nepriatela.@" ; next "poison the foe.@"
 
 BarrageDescription:
-	db   "Throws orbs to hit" ; db   "Throws orbs to hit"
-	next "2-5 times.@" ; next "2-5 times.@"
+	db   "Hadze gule" ; db   "Throws orbs to hit"
+	next "2-5 krat.@" ; next "2-5 times.@"
 
 LeechLifeDescription:
-	db   "Steals 1/2 of the" ; db   "Steals 1/2 of the"
-	next "damage inflicted.@" ; next "damage inflicted.@"
+	db   "Ukradne 1/2" ; db   "Steals 1/2 of the"
+	next "poskodenia.@" ; next "damage inflicted.@"
 
 LovelyKissDescription:
-	db   "May cause the foe" ; db   "May cause the foe"
-	next "to fall asleep.@" ; next "to fall asleep.@"
+	db   "Moze uspat" ; db   "May cause the foe"
+	next "protivnika.@" ; next "to fall asleep.@"
 
 SkyAttackDescription:
-	db   "1st turn: Prepare" ; db   "1st turn: Prepare"
-	next "2nd turn: Attack@" ; next "2nd turn: Attack@"
+	db   "1.tah: Priprava" ; db   "1st turn: Prepare"
+	next "2.tah: Utok@" ; next "2nd turn: Attack@"
 
 TransformDescription:
-	db   "The user assumes" ; db   "The user assumes"
-	next "the foe's guise.@" ; next "the foe's guise.@"
+	db   "Uzivatel prebera" ; db   "The user assumes"
+	next "masku nepriatela.@" ; next "the foe's guise.@"
 
 BubbleDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "reduce SPEED.@" ; next "reduce SPEED.@"
+	db   "Utok moze znizit" ; db   "An attack that may"
+	next "RYCHLOST.@" ; next "reduce SPEED.@"
 
 DizzyPunchDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause confusion.@" ; next "cause confusion.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "zmatenie.@" ; next "cause confusion.@"
 
 SporeDescription:
-	db   "A move that" ; db   "A move that"
-	next "induces sleep.@" ; next "induces sleep.@"
+	db   "Utok uspi" ; db   "A move that"
+	next "nepriatela.@" ; next "induces sleep.@"
 
 FlashDescription:
-	db   "Blinds the foe to" ; db   "Blinds the foe to"
-	next "reduce accuracy.@" ; next "reduce accuracy.@"
+	db   "Oslepi nepriatela" ; db   "Blinds the foe to"
+	next "a znizi presnost.@" ; next "reduce accuracy.@"
 
 PsywaveDescription:
-	db   "An attack with" ; db   "An attack with"
-	next "variable power.@" ; next "variable power.@"
+	db   "Utok s roznou" ; db   "An attack with"
+	next "silou.@" ; next "variable power.@"
 
 SplashDescription:
-	db   "Has no effect" ; db   "Has no effect"
-	next "whatsoever.@" ; next "whatsoever.@"
+	db   "Nema ziadny" ; db   "Has no effect"
+	next "efekt.@" ; next "whatsoever.@"
 
 AcidArmorDescription:
-	db   "Sharply raises the" ; db   "Sharply raises the"
-	next "user's DEFENSE.@" ; next "user's DEFENSE.@"
+	db   "Prudko zvysi" ; db   "Sharply raises the"
+	next "OBRANU uzivatela.@" ; next "user's DEFENSE.@"
 
 CrabhammerDescription:
-	db   "Has a high criti-" ; db   "Has a high criti-"
-	next "cal hit ratio.@" ; next "cal hit ratio.@"
+	db   "Ma vysoku sancu na" ; db   "Has a high criti-"
+	next "kriticky zasah.@" ; next "cal hit ratio.@"
 
 ExplosionDescription:
-	db   "Very powerful but" ; db   "Very powerful but"
-	next "makes user faint.@" ; next "makes user faint.@"
+	db   "Velmi silny, ale" ; db   "Very powerful but"
+	next "uzivatel odpadne.@" ; next "makes user faint.@"
 
 FurySwipesDescription:
-	db   "Quickly scratches" ; db   "Quickly scratches"
-	next "2-5 times.@" ; next "2-5 times.@"
+	db   "Rychlo poskriabe" ; db   "Quickly scratches"
+	next "2-5 krat.@" ; next "2-5 times.@"
 
 BonemerangDescription:
-	db   "An attack that" ; db   "An attack that"
-	next "strikes twice.@" ; next "strikes twice.@"
+	db   "Utok, ktory za-" ; db   "An attack that"
+	next "siahne dvakrat.@" ; next "strikes twice.@"
 
 RestDescription:
-	db   "Sleep for 2 turns" ; db   "Sleep for 2 turns"
-	next "to fully recover.@" ; next "to fully recover.@"
+	db   "Spis 2 tahy na" ; db   "Sleep for 2 turns"
+	next "plne uzdravenie.@" ; next "to fully recover.@"
 
 RockSlideDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause flinching.@" ; next "cause flinching.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "ustup nepriatela.@" ; next "cause flinching.@"
 
 HyperFangDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause flinching.@" ; next "cause flinching.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "ustup nepriatela.@" ; next "cause flinching.@"
 
 SharpenDescription:
-	db   "A move that raises" ; db   "A move that raises"
-	next "the user's ATTACK.@" ; next "the user's ATTACK.@"
+	db   "Utok zvysi" ; db   "A move that raises"
+	next "UTOK uzivatela.@" ; next "the user's ATTACK.@"
 
 ConversionDescription:
-	db   "Change user's type" ; db   "Change user's type"
-	next "to a move's type.@" ; next "to a move's type.@"
+	db   "Zmeni typ uzivate-" ; db   "Change user's type"
+	next "la na typ utoku.@" ; next "to a move's type.@"
 
 TriAttackDescription:
-	db   "Fires three kinds" ; db   "Fires three kinds"
-	next "of beams at once.@" ; next "of beams at once.@"
+	db   "Vystreli 3 druhy" ; db   "Fires three kinds"
+	next "lucov sucasne.@" ; next "of beams at once.@"
 
 SuperFangDescription:
-	db   "Cuts the foe's HP" ; db   "Cuts the foe's HP"
-	next "by 1/2.@" ; next "by 1/2.@"
+	db   "Uberie 1/2 HP" ; db   "Cuts the foe's HP"
+	next "nepriatelovi.@" ; next "by 1/2.@"
 
 SlashDescription:
-	db   "Has a high criti-" ; db   "Has a high criti-"
-	next "cal hit ratio.@" ; next "cal hit ratio.@"
+	db   "Ma vysoku sancu na" ; db   "Has a high criti-"
+	next "kriticky zasah.@" ; next "cal hit ratio.@"
 
 SubstituteDescription:
-	db   "Makes a decoy with" ; db   "Makes a decoy with"
-	next "1/4 user's max HP.@" ; next "1/4 user's max HP.@"
+	db   "Vytvori navnadu" ; db   "Makes a decoy with"
+	next "1/4 HP uzivatela.@" ; next "1/4 user's max HP.@"
 
 StruggleDescription:
-	db   "Used only if all" ; db   "Used only if all"
-	next "PP are exhausted.@" ; next "PP are exhausted.@"
+	db   "Pouzity iba ak su" ; db   "Used only if all"
+	next "PP vycerpane.@" ; next "PP are exhausted.@"
 
 SketchDescription:
-	db   "Copies the foe's" ; db   "Copies the foe's"
-	next "move permanently.@" ; next "move permanently.@"
+	db   "Osvoji natrvalo" ; db   "Copies the foe's"
+	next "nepriatelov utok.@" ; next "move permanently.@"
 
 TripleKickDescription:
-	db   "Hits three times" ; db   "Hits three times"
-	next "with rising power.@" ; next "with rising power.@"
+	db   "Trafi 3x s" ; db   "Hits three times"
+	next "rastucou silou.@" ; next "with rising power.@"
 
 ThiefDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "steal a held item.@" ; next "steal a held item.@"
+	db   "Utok moze ukradnut" ; db   "An attack that may"
+	next "drzany predmet.@" ; next "steal a held item.@"
 
 SpiderWebDescription:
-	db   "Prevents fleeing" ; db   "Prevents fleeing"
-	next "or switching.@" ; next "or switching.@"
+	db   "Zabranuje uteku" ; db   "Prevents fleeing"
+	next "a vymene.@" ; next "or switching.@"
 
 MindReaderDescription:
-	db   "Ensures the next" ; db   "Ensures the next"
-	next "attack will hit.@" ; next "attack will hit.@"
+	db   "Garantuje zasah" ; db   "Ensures the next"
+	next "dalsieho utoku.@" ; next "attack will hit.@"
 
 NightmareDescription:
-	db   "A sleeper loses" ; db   "A sleeper loses"
-	next "1/4 HP every turn.@" ; next "1/4 HP every turn.@"
+	db   "Spac straca" ; db   "A sleeper loses"
+	next "1/4 HP kazdy tah.@" ; next "1/4 HP every turn.@"
 
 FlameWheelDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause a burn.@" ; next "cause a burn.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "popaleniny.@" ; next "cause a burn.@"
 
 SnoreDescription:
-	db   "An attack useable" ; db   "An attack useable"
-	next "only while asleep.@" ; next "only while asleep.@"
+	db   "Utok funguje len" ; db   "An attack useable"
+	next "pocas spanku.@" ; next "only while asleep.@"
 
 CurseDescription:
-	db   "Works differently" ; db   "Works differently"
-	next "for ghost-types.@" ; next "for ghost-types.@"
+	db   "Funguje rozdielne" ; db   "Works differently"
+	next "pre ghost-typy.@" ; next "for ghost-types.@"
 
 FlailDescription:
-	db   "Stronger if the" ; db   "Stronger if the"
-	next "user's HP is low.@" ; next "user's HP is low.@"
+	db   "Silnejsi ak uziva-" ; db   "Stronger if the"
+	next "telove HP je nizke@" ; next "user's HP is low.@"
 
 Conversion2Description:
 	db   "The user's type is" ; db   "The user's type is"
 	next "made resistant.@" ; next "made resistant.@"
 
 AeroblastDescription:
-	db   "Has a high criti-" ; db   "Has a high criti-"
-	next "cal hit ratio.@" ; next "cal hit ratio.@"
+	db   "Ma vysoku sancu na" ; db   "Has a high criti-"
+	next "kriticky zasah.@" ; next "cal hit ratio.@"
 
 CottonSporeDescription:
-	db   "Sharply reduces" ; db   "Sharply reduces"
-	next "the foe's SPEED.@" ; next "the foe's SPEED.@"
+	db   "Prudko znizi" ; db   "Sharply reduces"
+	next "RYCHLOST.@" ; next "the foe's SPEED.@"
 
 ReversalDescription:
-	db   "Stronger if the" ; db   "Stronger if the"
-	next "user's HP is low.@" ; next "user's HP is low.@"
+	db   "Silnejsi ak uziva-" ; db   "Stronger if the"
+	next "telove HP je nizke.@" ; next "user's HP is low.@"
 
 SpiteDescription:
-	db   "Cuts the PP of the" ; db   "Cuts the PP of the"
-	next "foe's last move.@" ; next "foe's last move.@"
+	db   "Znizi PP posledne-" ; db   "Cuts the PP of the"
+	next "ho utoku.@" ; next "foe's last move.@"
 
 PowderSnowDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause freezing.@" ; next "cause freezing.@"
+	db   "Utok moze sposobit" ; db   "An attack that may"
+	next "zamrznutie.@" ; next "cause freezing.@"
 
 ProtectDescription:
 	db   "Foils attack that" ; db   "Foils attack that"
 	next "turn. It may fail.@" ; next "turn. It may fail.@"
 
 MachPunchDescription:
-	db   "A fast punch that" ; db   "A fast punch that"
-	next "lands first.@" ; next "lands first.@"
+	db   "Rychly uder, ktory" ; db   "A fast punch that"
+	next "pristane prvy.@" ; next "lands first.@"
 
 ScaryFaceDescription:
-	db   "Sharply reduces" ; db   "Sharply reduces"
-	next "the foe's SPEED.@" ; next "the foe's SPEED.@"
+	db   "Prudko znizi" ; db   "Sharply reduces"
+	next "RYCHLOST.@" ; next "the foe's SPEED.@"
 
 FaintAttackDescription:
-	db   "An attack that" ; db   "An attack that"
-	next "never misses.@" ; next "never misses.@"
+	db   "Utok, ktory" ; db   "An attack that"
+	next "nikdy neminie.@" ; next "never misses.@"
 
 SweetKissDescription:
-	db   "A move that causes" ; db   "A move that causes"
-	next "confusion.@" ; next "confusion.@"
+	db   "Utok sposobujuci" ; db   "A move that causes"
+	next "zmatenie.@" ; next "confusion.@"
 
 BellyDrumDescription:
-	db   "Reduces own HP to" ; db   "Reduces own HP to"
-	next "maximize ATTACK.@" ; next "maximize ATTACK.@"
+	db   "Znizi HP, ale" ; db   "Reduces own HP to"
+	next "maximalizuje UTOK.@" ; next "maximize ATTACK.@"
 
 SludgeBombDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "poison the foe.@" ; next "poison the foe.@"
+	db   "Utok moze otravit" ; db   "An attack that may"
+	next "nepriatela.@" ; next "poison the foe.@"
 
 MudSlapDescription:
-	db   "Reduces the foe's" ; db   "Reduces the foe's"
-	next "accuracy.@" ; next "accuracy.@"
+	db   "Znizi presnost" ; db   "Reduces the foe's"
+	next "nepriatela.@" ; next "accuracy.@"
 
 OctazookaDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "reduce accuracy.@" ; next "reduce accuracy.@"
+	db   "Utok moze znizit" ; db   "An attack that may"
+	next "presnost.@" ; next "reduce accuracy.@"
 
 SpikesDescription:
-	db   "Hurts foes when" ; db   "Hurts foes when"
-	next "they switch out.@" ; next "they switch out.@"
+	db   "Zrani nepriatela" ; db   "Hurts foes when"
+	next "pocas vymeny.@" ; next "they switch out.@"
 
 ZapCannonDescription:
-	db   "An attack that" ; db   "An attack that"
-	next "always paralyzes.@" ; next "always paralyzes.@"
+	db   "Utok, ktory vzdy" ; db   "An attack that"
+	next "paralyzuje.@" ; next "always paralyzes.@"
 
 ForesightDescription:
-	db   "Negates accuracy" ; db   "Negates accuracy"
-	next "reduction moves.@" ; next "reduction moves.@"
+	db   "Zamedzi utokom, co" ; db   "Negates accuracy"
+	next "znizuju presnost.@" ; next "reduction moves.@"
 
 DestinyBondDescription:
-	db   "The foe faints if" ; db   "The foe faints if"
-	next "the user does.@" ; next "the user does.@"
+	db   "Nepriatel odpadne," ; db   "The foe faints if"
+	next "ak uzivatel tiez.@" ; next "the user does.@"
 
 PerishSongDescription:
-	db   "Both user and foe" ; db   "Both user and foe"
-	next "faint in 3 turns.@" ; next "faint in 3 turns.@"
+	db   "Zapasnici odpadnu" ; db   "Both user and foe"
+	next "po 3 tahoch.@" ; next "faint in 3 turns.@"
 
 IcyWindDescription:
-	db   "An icy attack that" ; db   "An icy attack that"
-	next "lowers SPEED.@" ; next "lowers SPEED.@"
+	db   "Ladovy utok," ; db   "An icy attack that"
+	next "znizuje RYCHLOST.@" ; next "lowers SPEED.@"
 
 DetectDescription:
 	db   "Evades attack that" ; db   "Evades attack that"
 	next "turn. It may fail.@" ; next "turn. It may fail.@"
 
 BoneRushDescription:
-	db   "An attack that" ; db   "An attack that"
-	next "hits 2-5 times.@" ; next "hits 2-5 times.@"
+	db   "Utok, ktory" ; db   "An attack that"
+	next "trafi 2-5 krat.@" ; next "hits 2-5 times.@"
 
 LockOnDescription:
-	db   "Ensures the next" ; db   "Ensures the next"
-	next "attack will hit.@" ; next "attack will hit.@"
+	db   "Garantuje zasah" ; db   "Ensures the next"
+	next "dalsieho utoku.@" ; next "attack will hit.@"
 
 OutrageDescription:
-	db   "Works 2-3 turns" ; db   "Works 2-3 turns"
-	next "and confuses user.@" ; next "and confuses user.@"
+	db   "Funguje 2-3 tahy" ; db   "Works 2-3 turns"
+	next "potom zmatie.@" ; next "and confuses user.@"
 
 SandstormDescription:
-	db   "Inflicts damage" ; db   "Inflicts damage"
-	next "every turn.@" ; next "every turn.@"
+	db   "Sposobi skodu" ; db   "Inflicts damage"
+	next "kazdy tah.@" ; next "every turn.@"
 
 GigaDrainDescription:
-	db   "Steals 1/2 of the" ; db   "Steals 1/2 of the"
-	next "damage inflicted.@" ; next "damage inflicted.@"
+	db   "Ukradne 1/2" ; db   "Steals 1/2 of the"
+	next "poskodenia.@" ; next "damage inflicted.@"
 
 EndureDescription:
-	db   "Always leaves at" ; db   "Always leaves at"
-	next "least 1HP.@" ; next "least 1HP.@"
+	db   "Vzdy necha aspon" ; db   "Always leaves at"
+	next "1HP.@" ; next "least 1HP.@"
 
 CharmDescription:
-	db   "Sharply lowers the" ; db   "Sharply lowers the"
-	next "foe's ATTACK.@" ; next "foe's ATTACK.@"
+	db   "Prudko znizi" ; db   "Sharply lowers the"
+	next "UTOK nepriatela.@" ; next "foe's ATTACK.@"
 
 RolloutDescription:
-	db   "Attacks 5 turns" ; db   "Attacks 5 turns"
-	next "with rising power.@" ; next "with rising power.@"
+	db   "Utoci 5 krat s" ; db   "Attacks 5 turns"
+	next "rastucou silou.@" ; next "with rising power.@"
 
 FalseSwipeDescription:
-	db   "Leaves the foe" ; db   "Leaves the foe"
-	next "with at least 1HP.@" ; next "with at least 1HP.@"
+	db   "Necha nepriatela" ; db   "Leaves the foe"
+	next "s aspon 1HP.@" ; next "with at least 1HP.@"
 
 SwaggerDescription:
-	db   "Causes confusion" ; db   "Causes confusion"
-	next "and raises ATTACK.@" ; next "and raises ATTACK.@"
+	db   "Sposobi zmatenie," ; db   "Causes confusion"
+	next "ale zvysi UTOK.@" ; next "and raises ATTACK.@"
 
 MilkDrinkDescription:
-	db   "Restores HP by 1/2" ; db   "Restores HP by 1/2"
-	next "the max HP.@" ; next "the max HP.@"
+	db   "Obnovi HP o polku" ; db   "Restores HP by 1/2"
+	next "maximalneho HP.@" ; next "the max HP.@"
 
 SparkDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "cause paralysis.@" ; next "cause paralysis.@"
+	db   "Utok moze" ; db   "An attack that may"
+	next "paralyzovat.@" ; next "cause paralysis.@"
 
 FuryCutterDescription:
-	db   "Successive hits" ; db   "Successive hits"
-	next "raise power.@" ; next "raise power.@"
+	db   "Uspesne zasahy" ; db   "Successive hits"
+	next "zvysuju silu.@" ; next "raise power.@"
 
 SteelWingDescription:
-	db   "Stiff wings strike" ; db   "Stiff wings strike"
-	next "the foe.@" ; next "the foe.@"
+	db   "Uder tuhymi" ; db   "Stiff wings strike"
+	next "kridlami.@" ; next "the foe.@"
 
 MeanLookDescription:
-	db   "Prevents fleeing" ; db   "Prevents fleeing"
-	next "or switching.@" ; next "or switching.@"
+	db   "Zabranuje uteku" ; db   "Prevents fleeing"
+	next "alebo vymene.@" ; next "or switching.@"
 
 AttractDescription:
-	db   "Makes the opposite" ; db   "Makes the opposite"
-	next "gender infatuated.@" ; next "gender infatuated.@"
+	db   "Poblazni opacne" ; db   "Makes the opposite"
+	next "pohlavie.@" ; next "gender infatuated.@"
 
 SleepTalkDescription:
-	db   "Randomly attacks" ; db   "Randomly attacks"
-	next "while asleep.@" ; next "while asleep.@"
+	db   "Nahodny utok" ; db   "Randomly attacks"
+	next "pocas spanku.@" ; next "while asleep.@"
 
 HealBellDescription:
-	db   "Eliminates all" ; db   "Eliminates all"
-	next "status problems.@" ; next "status problems.@"
+	db   "Zrusi vsetky" ; db   "Eliminates all"
+	next "stat problemy.@" ; next "status problems.@"
 
 ReturnDescription:
-	db   "An attack that is" ; db   "An attack that is"
-	next "based on loyalty.@" ; next "based on loyalty.@"
+	db   "Utok zalozeny" ; db   "An attack that is"
+	next "na lojalite.@" ; next "based on loyalty.@"
 
 PresentDescription:
-	db   "A bomb that may" ; db   "A bomb that may"
-	next "restore HP.@" ; next "restore HP.@"
+	db   "Bomba, ktora moze" ; db   "A bomb that may"
+	next "obnovit HP.@" ; next "restore HP.@"
 
 FrustrationDescription:
-	db   "An attack based on" ; db   "An attack based on"
-	next "lack of loyalty.@" ; next "lack of loyalty.@"
+	db   "Utok zalozeny na" ; db   "An attack based on"
+	next "absencii lojality.@" ; next "lack of loyalty.@"
 
 SafeguardDescription:
-	db   "Prevents all" ; db   "Prevents all"
-	next "status problems.@" ; next "status problems.@"
+	db   "Zabranuje" ; db   "Prevents all"
+	next "status problemom.@" ; next "status problems.@"
 
 PainSplitDescription:
-	db   "Adds user & foe's" ; db   "Adds user & foe's"
-	next "HPs. Shares total.@" ; next "HPs. Shares total.@"
+	db   "Spocita HP zapas-" ; db   "Adds user & foe's"
+	next "nikov.Zdiela sucet@" ; next "HPs. Shares total.@"
 
 SacredFireDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "inflict a burn.@" ; next "inflict a burn.@"
+	db   "Utok moze" ; db   "An attack that may"
+	next "popalit.@" ; next "inflict a burn.@"
 
 MagnitudeDescription:
-	db   "A ground attack" ; db   "A ground attack"
-	next "with random power.@" ; next "with random power.@"
+	db   "Pozemny utok s" ; db   "A ground attack"
+	next "nahodnou silou.@" ; next "with random power.@"
 
 DynamicpunchDescription:
-	db   "An attack that" ; db   "An attack that"
-	next "always confuses.@" ; next "always confuses.@"
+	db   "Utok vzdy" ; db   "An attack that"
+	next "zmatie nepriatela.@" ; next "always confuses.@"
 
 MegahornDescription:
-	db   "A powerful charge" ; db   "A powerful charge"
-	next "attack.@" ; next "attack.@"
+	db   "Silny vybojovy" ; db   "A powerful charge"
+	next "utok.@" ; next "attack.@"
 
 DragonbreathDescription:
-	db   "A strong breath" ; db   "A strong breath"
-	next "attack.@" ; next "attack.@"
+	db   "Silny utok" ; db   "A strong breath"
+	next "dychom.@" ; next "attack.@"
 
 BatonPassDescription:
-	db   "Switches while" ; db   "Switches while"
-	next "keeping effects.@" ; next "keeping effects.@"
+	db   "Zmena pri zacho-" ; db   "Switches while"
+	next "vani efektov.@" ; next "keeping effects.@"
 
 EncoreDescription:
-	db   "Makes the foe re-" ; db   "Makes the foe re-"
-	next "peat 2-6 times.@"  ; next "peat 2-6 times.@"
+	db   "Nepriatel opakuje" ; db   "Makes the foe re-"
+	next "utok 2-6 krat.@"  ; next "peat 2-6 times.@"
 
 PursuitDescription:
-	db   "Heavily strikes" ; db   "Heavily strikes"
-	next "switching #MON.@" ; next "switching #MON.@"
+	db   "Tazko zasiahne" ; db   "Heavily strikes"
+	next "zmeneneho #MON.@" ; next "switching #MON.@"
 
 RapidSpinDescription:
-	db   "A high-speed" ; db   "A high-speed"
-	next "spinning attack.@" ; next "spinning attack.@"
+	db   "Vysokorychlostny" ; db   "A high-speed"
+	next "tociaci utok.@" ; next "spinning attack.@"
 
 SweetScentDescription:
-	db   "Reduces the foe's" ; db   "Reduces the foe's"
-	next "evasiveness.@" ; next "evasiveness.@"
+	db   "Znizi nepriatelovu" ; db   "Reduces the foe's"
+	next "vyhybavost.@" ; next "evasiveness.@"
 
 IronTailDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "reduce DEFENSE.@" ; next "reduce DEFENSE.@"
+	db   "Utok moze znizit" ; db   "An attack that may"
+	next "OBRANU.@" ; next "reduce DEFENSE.@"
 
 MetalClawDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "up user's ATTACK.@" ; next "up user's ATTACK.@"
+	db   "Utok moze zvysit" ; db   "An attack that may"
+	next "UTOK uzivatela.@" ; next "up user's ATTACK.@"
 
 VitalThrowDescription:
-	db   "A 2nd-strike move" ; db   "A 2nd-strike move"
-	next "that never misses.@" ; next "that never misses.@"
+	db   "Utok, ktory" ; db   "A 2nd-strike move"
+	next "nikdy neminie.@" ; next "that never misses.@"
 
 MorningSunDescription:
-	db   "Restores HP" ; db   "Restores HP"
-	next "(varies by time).@" ; next "(varies by time).@"
+	db   "Obnovi HP" ; db   "Restores HP"
+	next "(zavisi od casu).@" ; next "(varies by time).@"
 
 SynthesisDescription:
-	db   "Restores HP" ; db   "Restores HP"
-	next "(varies by time).@" ; next "(varies by time).@"
+	db   "Obnovi HP" ; db   "Restores HP"
+	next "(zavisi od casu).@" ; next "(varies by time).@"
 
 MoonlightDescription:
-	db   "Restores HP" ; db   "Restores HP"
-	next "(varies by time).@" ; next "(varies by time).@"
+	db   "Obnovi HP" ; db   "Restores HP"
+	next "(zavisi od casu).@" ; next "(varies by time).@"
 
 HiddenPowerDescription:
-	db   "The power varies" ; db   "The power varies"
-	next "with the #MON.@" ; next "with the #MON.@"
+	db   "Sila je rozna" ; db   "The power varies"
+	next "podla #MONa.@" ; next "with the #MON.@"
 
 CrossChopDescription:
-	db   "Has a high criti-" ; db   "Has a high criti-"
-	next "cal hit ratio.@" ; next "cal hit ratio.@"
+	db   "Ma vysoku sancu na" ; db   "Has a high criti-"
+	next "kriticky zasah.@" ; next "cal hit ratio.@"
 
 TwisterDescription:
-	db   "Whips up a tornado" ; db   "Whips up a tornado"
-	next "to attack.@" ; next "to attack.@"
+	db   "Vytvori tornadovy" ; db   "Whips up a tornado"
+	next "utok.@" ; next "to attack.@"
 
 RainDanceDescription:
-	db   "Boosts water-type" ; db   "Boosts water-type" 
-	next "moves for 5 turns.@"; next "moves for 5 turns.@"
+	db   "Posilnuje vodne" ; db   "Boosts water-type" 
+	next "utoky na 5 tahov.@"; next "moves for 5 turns.@"
 
 SunnyDayDescription:
-	db   "Boosts fire-type" ; db   "Boosts fire-type"
-	next "moves for 5 turns.@" ; next "moves for 5 turns.@"
+	db   "Posilnuje ohnive" ; db   "Boosts fire-type"
+	next "utoky na 5 tahov.@" ; next "moves for 5 turns.@"
 
 CrunchDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "lower SPCL.DEF.@" ; next "lower SPCL.DEF.@"
+	db   "Utok moze znizit" ; db   "An attack that may"
+	next "SPCL.OBRANU.@" ; next "lower SPCL.DEF.@"
 
 MirrorCoatDescription:
-	db   "Counters a SPCL." ; db   "Counters a SPCL."
-	next "ATK move double.@" ; next "ATK move double.@"
+	db   "Vrati dvojnasobne" ; db   "Counters a SPCL."
+	next "specialny utok.@" ; next "ATK move double.@"
 
 PsychUpDescription:
-	db   "Copies the foe's" ; db   "Copies the foe's"
-	next "stat changes.@" ; next "stat changes.@"
+	db   "Skopruje superove" ; db   "Copies the foe's"
+	next "stat zmeny.@" ; next "stat changes.@"
 
 ExtremespeedDescription:
-	db   "A powerful first-" ; db   "A powerful first-"
-	next "strike move.@" ; next "strike move.@"
+	db   "Silny 1-tahovy" ; db   "A powerful first-"
+	next "utok.@" ; next "strike move.@"
 
 AncientpowerDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "raise all stats.@" ; next "raise all stats.@"
+	db   "Utok moze zvysit" ; db   "An attack that may"
+	next "vsetky staty.@" ; next "raise all stats.@"
 
 ShadowBallDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "lower SPCL.DEF.@" ; next "lower SPCL.DEF.@"
+	db   "Utok moze znizit" ; db   "An attack that may"
+	next "SPCL.OBRANU.@" ; next "lower SPCL.DEF.@"
 
 FutureSightDescription:
-	db   "An attack that" ; db   "An attack that"
-	next "hits on 3rd turn.@" ; next "hits on 3rd turn.@"
+	db   "Utok zasiahne" ; db   "An attack that"
+	next "az na 3.tah.@" ; next "hits on 3rd turn.@"
 
 RockSmashDescription:
-	db   "An attack that may" ; db   "An attack that may"
-	next "lower DEFENSE.@" ; next "lower DEFENSE.@"
+	db   "Utok moze znizit" ; db   "An attack that may"
+	next "OBRANU.@" ; next "lower DEFENSE.@"
 
 WhirlpoolDescription:
-	db   "Traps the foe for" ; db   "Traps the foe for"
-	next "2-5 turns.@" ; next "2-5 turns.@"
+	db   "Uvazni nepriatela" ; db   "Traps the foe for"
+	next "na 2-5 tahov.@" ; next "2-5 turns.@"
 
 BeatUpDescription:
-	db   "Party #MON join" ; db   "Party #MON join"
-	next "in the attack.@" ; next "in the attack.@"
+	db   "#MON z party sa" ; db   "Party #MON join"
+	next "prida k utoku.@" ; next "in the attack.@"
