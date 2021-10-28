@@ -1,59 +1,59 @@
 ArnieAskNumber1Text:
-	text "Do you get the"
-	line "feeling that there"
+	text "Nemas pocit" ; text "Do you get the"
+	line "je navokol je" ; line "feeling that there"
 
-	para "are more rare"
-	line "#MON around?"
+	para "viac vzacnych" ; para "are more rare"
+	line "#MONov?" ; line "#MON around?"
 
-	para "I'm positive there"
-	line "are, so I look all"
-	cont "the time."
+	para "Som si isty, ze" ; para "I'm positive there"
+	line "tu su, tak ich" ; line "are, so I look all"
+	cont "cely cas hladam." ; cont "the time."
 
-	para "If I find one, I"
-	line "want to share the"
+	para "Ak jedneho najdem" ; para "If I find one, I"
+	line "budem to s vami" ; line "want to share the"
 
-	para "good news with"
-	line "everyone I know."
+	para "vsetkymi" ; para "good news with"
+	line "zdielat." ; line "everyone I know."
 
-	para "I know! Give me"
-	line "your phone number."
+	para "Viem! Daj mi" ; para "I know! Give me"
+	line "tvoje cislo." ; line "your phone number."
 	done
 
 ArnieAskNumber2Text:
-	text "I want to let"
-	line "people know if I"
-	cont "see rare #MON."
+	text "Chcem dat ludom" ; text "I want to let"
+	line "vediet, ked zbadam" ; line "people know if I"
+	cont "vzacneho #MONa." ; cont "see rare #MON."
 
-	para "Please give me"
-	line "your phone number!"
+	para "Daj mi prosim" ; para "Please give me"
+	line "tvoje cislo!" ; line "your phone number!"
 	done
 
 ArnieNumberAcceptedText:
-	text "If I spot any"
-	line "awesome #MON,"
+	text "Ak najdem" ; text "If I spot any"
+	line "skvelych #MONov," ; line "awesome #MON,"
 
-	para "I'll be sure to"
-	line "give you a call!"
+	para "Urcite ti" ; para "I'll be sure to"
+	line "zavolam!" ; line "give you a call!"
 	done
 
 ArnieNumberDeclinedText:
-	text "Aww! I want to"
-	line "tell someone about"
-	cont "my discoveries!"
+	text "Och! Chcem" ; text "Aww! I want to"
+	line "niekomu povedat" ; line "tell someone about"
+	cont "o mojich objavoch!" ; cont "my discoveries!"
 	done
 
 ArniePhoneFullText:
-	text "There's no space"
-	line "for my number."
+	text "Nemas miesto na" ; text "There's no space"
+	line "moje cislo." ; line "for my number."
 
-	para "If you make room,"
-	line "register me!"
+	para "Sprav si miesto," ; para "If you make room,"
+	line "a uloz si ma!" ; line "register me!"
 	done
 
 ArnieRematchText:
-	text "It's my turn to"
-	line "win now!"
+	text "Tentoraz vyhram" ; text "It's my turn to"
+	line "ja!" ; line "win now!"
 
-	para "I've turned over a"
-	line "new leaf!"
+	para "Zacal som novu" ; para "I've turned over a"
+	line "kapitolu!" ; line "new leaf!"
 	done

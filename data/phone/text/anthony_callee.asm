@@ -1,73 +1,73 @@
 AnthonyAnswerPhoneText:
-	text "Yeah, @"
+	text "Ano, @" ; text "Yeah, @"
 	text_ram wStringBuffer3
-	text " the"
-	line "HIKER here."
+	text " ten" ; text " the"
+	line "TURISTA." ; line "HIKER here."
 
 	para "Ah, <PLAYER>!"
 	done
 
 AnthonyAnswerPhoneDayText:
-	text "Yeah, @"
+	text "Ano, @" ; text "Yeah, @"
 	text_ram wStringBuffer3
-	text " the"
-	line "HIKER here."
+	text " ten" ; text " the"
+	line "TURISTA." ; line "HIKER here."
 
-	para "Ah, <PLAYER>,"
-	line "right?"
+	para "Ah, <PLAYER>," ; para "Ah, <PLAYER>,"
+	line "vsak?" ; line "right?"
 	done
 
 AnthonyAnswerPhoneNiteText:
-	text "Yeah, @"
+	text "Ano, @" ; text "Yeah, @"
 	text_ram wStringBuffer3
-	text " the"
-	line "HIKER here."
+	text " ten" ; text " the"
+	line "TURISTA." ; line "HIKER here."
 
-	para "Ah, <PLAYER>, isn't"
-	line "it?"
+	para "Ah, <PLAYER>, vsak" ; para "Ah, <PLAYER>, isn't"
+	line "ze?" ; line "it?"
 	done
 
 AnthonyGreetText:
-	text "Yo, <PLAYER>?"
+	text "Cau, <PLAYER>?" ; text "Yo, <PLAYER>?"
 
-	para "This is @"
+	para "Tu @" ; para "This is @"
 	text_ram wStringBuffer3
 	text_start
-	line "the HIKER!"
+	line "TURISTA!" ; line "the HIKER!"
 	done
 
 AnthonyGreetDayText:
-	text "Hey, is this"
-	line "<PLAYER>?"
+	text "Hej, je tam" ; text "Hey, is this"
+	line "<PLAYER>?" ; line "<PLAYER>?"
 
-	para "This is @"
+	para "Tu @" ; para "This is @"
 	text_ram wStringBuffer3
 	text_start
-	line "the HIKER!"
+	line "ten TURISTA!" ; line "the HIKER!"
 	done
 
 AnthonyGreetNiteText:
-	text "<PLAYER>, you still"
-	line "awake?"
+	text "<PLAYER>, si stale" ; text "<PLAYER>, you still"
+	line "hore?" ; line "awake?"
 
-	para "This is @"
+	para "Tu @" ; para "This is @"
 	text_ram wStringBuffer3
 	text_start
-	line "the HIKER!"
+	line "ten TURISTA!" ; line "the HIKER!"
 	done
 
 AnthonyGenericText:
-	text "Are your #MON"
-	line "as feisty as ever?"
+	text "Su tvoji #MONi" ; text "Are your #MON"
+	line "stale tak divoki?" ; line "as feisty as ever?"
 
-	para "My @"
+	para "Moj @" ; para "My @"
 	text_ram wStringBuffer4
-	text " and"
-	line "me--we have energy"
+	text " a" ; text " and"
+	line "ja--mame dostatok" ; line "me--we have energy"
 
-	para "to burn. We hike"
-	line "up mountains every"
+	para "energie. Dame" ; para "to burn. We hike"
+	line "turu kazdy den" ; line "up mountains every"
 
-	para "day to work out"
-	line "all our energy."
+	para "aby sme ju" ; para "day to work out"
+	line "spalili." ; line "all our energy."
 	done

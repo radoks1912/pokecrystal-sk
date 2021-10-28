@@ -1,79 +1,79 @@
 BethAnswerPhoneText:
-	text "Hello, this is"
+	text "Ahoj, tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh, <PLAY_G>."
-	line "Good morning."
+	para "Oh, <PLAY_G>." ; para "Oh, <PLAY_G>."
+	line "Dobre rano." ; line "Good morning."
 
 	para ""
 	done
 
 BethAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Ahoj, tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh. Hi, <PLAY_G>."
+	para "Oh. Cau, <PLAY_G>." ; para "Oh. Hi, <PLAY_G>."
 	done
 
 BethAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Ahoj, tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh, <PLAY_G>."
-	line "Good evening."
+	para "Oh, <PLAY_G>." ; para "Oh, <PLAY_G>."
+	line "Dobry vecer." ; line "Good evening."
 	done
 
 BethGreetText:
-	text "Good morning,"
-	line "<PLAY_G>!"
+	text "Dobre rano," ; text "Good morning,"
+	line "<PLAY_G>!" ; line "<PLAY_G>!"
 
-	para "This is @"
+	para "Tu je @" ; para "This is @"
 	text_ram wStringBuffer3
 	text "."
-	line "Were you sleeping?"
+	line "Spal si?" ; line "Were you sleeping?"
 	done
 
 BethGreetDayText:
-	text "<PLAY_G>, hi!"
-	line "This is @"
+	text "<PLAY_G>, ahoj!" ; text "<PLAY_G>, hi!"
+	line "Tu je @" ; line "This is @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Do you have some"
-	line "time?"
+	para "Mas chvilocku" ; para "Do you have some"
+	line "cas?" ; line "time?"
 	done
 
 BethGreetNiteText:
-	text "Hi, <PLAY_G>."
-	line "Good evening."
+	text "Ahoj, <PLAY_G>." ; text "Hi, <PLAY_G>."
+	line "Dobry vecer." ; line "Good evening."
 
-	para "This is @"
-	text_ram wStringBuffer3
+	para "Tu je @" ; para "This is @"
+	text_ram wStringBuffer3 ; text_ram wStringBuffer3
 	text "."
 
-	para "I hope you were"
-	line "awake."
+	para "Dufam ze si" ; para "I hope you were"
+	line "este hore." ; line "awake."
 	done
 
 BethGenericText:
-	text "Are you the kind"
-	line "of person who goes"
+	text "Si ten typ" ; text "Are you the kind"
+	line "cloveka, co chodi" ; line "of person who goes"
 
-	para "to #MON CENTERS"
-	line "often?"
+	para "do #MON CENTERS" ; para "to #MON CENTERS"
+	line "casto?" ; line "often?"
 
-	para "I go every day."
-	line "Watching out for"
+	para "Ja chodim kazdy" ; para "I go every day."
+	line "den. Dbaj na" ; line "Watching out for"
 
-	para "the health of your"
-	line "#MON is a basic"
+	para "zdravie svojich" ; para "the health of your"
+	line "#MON, je to" ; line "#MON is a basic"
 
-	para "part of being a"
-	line "#MON trainer."
+	para "bezna povinnost" ; para "part of being a"
+	line "#MON trenera." ; line "#MON trainer."
 	done

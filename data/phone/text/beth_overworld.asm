@@ -1,56 +1,56 @@
 BethAskNumber1Text:
-	text "It's been a while"
-	line "since I lost…"
+	text "Uz je to doba" ; text "It's been a while"
+	line "co som prehrala…" ; line "since I lost…"
 
-	para "You're very good"
-	line "at battling."
+	para "Si velmi dobry" ; para "You're very good"
+	line "v zapaseni." ; line "at battling."
 
-	para "We should battle"
-	line "again sometime."
+	para "Mali by sme raz" ; para "We should battle"
+	line "zapasit znova." ; line "again sometime."
 
-	para "By challenging a"
-	line "tough trainer like"
+	para "Vyzyvanim trenerov" ; para "By challenging a"
+	line "ako ty sa urcite" ; line "tough trainer like"
 
-	para "you, I think I can"
-	line "get better too."
+	para "budem vediet" ; para "you, I think I can"
+	line "zlepsit." ; line "get better too."
 
-	para "So how about it?"
+	para "Tak ako teda?" ; para "So how about it?"
 
-	para "Would you give me"
-	line "your phone number?"
+	para "Das mi svoje" ; para "Would you give me"
+	line "cislo?" ; line "your phone number?"
 	done
 
 BethAskNumber2Text:
-	text "By challenging a"
-	line "tough trainer like"
+	text "Vyzyvanim trenerov" ; text "By challenging a"
+	line "ako si ty, sa" ; line "tough trainer like"
 
-	para "you, I think I can"
-	line "get better too."
+	para "urcite dokazem" ; para "you, I think I can"
+	line "zlepsit." ; line "get better too."
 
-	para "So how about it?"
+	para "Tak ako teda?" ; para "So how about it?"
 
-	para "Would you give me"
-	line "your phone number?"
+	para "Dal by si mi" ; para "Would you give me"
+	line "tvoje cislo?" ; line "your phone number?"
 	done
 
 BethNumberAcceptedText:
-	text "Let's battle again"
-	line "sometime!"
+	text "Mali by sme raz" ; text "Let's battle again"
+	line "zapasit znova!" ; line "sometime!"
 	done
 
 BethNumberDeclinedText:
-	text "That's too bad…"
+	text "Nic moc…" ; text "That's too bad…"
 
-	para "Let me know if you"
-	line "change your mind."
+	para "Daj vediet, ked" ; para "Let me know if you"
+	line "zmenis nazor." ; line "change your mind."
 	done
 
 BethPhoneFullText:
-	text "Oh no. Your phone"
-	line "is out of memory."
+	text "Och. Tvoj" ; text "Oh no. Your phone"
+	line "telefon je plny." ; line "is out of memory."
 	done
 
 BethRematchText:
-	text "You sure kept me"
-	line "waiting! Let's go!"
+	text "Nechal si ma ca-" ; text "You sure kept me"
+	line "kat! Podme na to!" ; line "waiting! Let's go!"
 	done

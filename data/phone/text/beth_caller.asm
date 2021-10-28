@@ -1,98 +1,100 @@
 BethExhilaratingRideText:
-	text "Do you remember my"
-	line "sweet @"
+	text "Pamatas si mojho" ; text "Do you remember my"
+	line "zlateho @" ; line "sweet @"
 	text_ram wStringBuffer4
 	text "?"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " runs"
-	line "very fast."
+	text " bezi" ; text " runs"
+	line "velmi rychlo." ; line "very fast."
 
-	para "It's exhilarating"
-	line "to ride on its"
+	para "Je vzrusujuce" ; para "It's exhilarating"
+	line "na nom jazdit" ; line "to ride on its"
 
-	para "back when it"
-	line "really gets going."
+	para "ked sa" ; para "back when it"
+	line "rozbehne." ; line "really gets going."
 	done
 
 BethDefeatedMonText:
-	text "Oh, have you ever"
-	line "seen a @"
+	text "Videl si" ; text "Oh, have you ever"
+	line "niekedy @" ; line "seen a @"
 	text_ram wStringBuffer4
 	text_start
-	cont "before?"
+	;cont "before?" ; cont "before?"
 
-	para "I just battled"
-	line "one…"
+	para "S jednym som" ; para "I just battled"
+	line "zapasila…" ; line "one…"
 
-	para "It was much faster"
-	line "than I expected."
+	para "Bol omnoho ry-" ; para "It was much faster"
+	line "chlejsi, ako som" ; line "than I expected."
+	cont "si myslela."
 
-	para "I was a little"
-	line "shocked."
+	para "Bola som v" ; para "I was a little"
+	line "soku." ; line "shocked."
 
-	para "I still won, of"
-	line "course."
+	para "Ale vyhrala som," ; para "I still won, of"
+	line "samozrejme." ; line "course."
 	done
 
 BethLostAMonText:
-	text "Oh, I just saw a"
-	line "wild @"
+	text "Prave som videla" ; text "Oh, I just saw a"
+	line "divokeho @" ; line "wild @"
 	text_ram wStringBuffer4
 	text "."
 
-	para "I was trying to"
-	line "catch it when I"
+	para "Snazila som sa" ; para "I was trying to"
+	line "ho chytit, ked" ; line "catch it when I"
 
-	para "noticed that I was"
-	line "all out of #"
-	cont "BALLS."
+	para "som zistila," ; para "noticed that I was"
+	line "ne nemam #" ; line "all out of #"
+	cont "BALLS." ; cont "BALLS."
 
-	para "If you don't check"
-	line "your items, you"
+	para "Ak si to neskon-" ; para "If you don't check"
+	line "trolujes, mozu" ; line "your items, you"
 
-	para "may run out at the"
-	line "worst time."
+	para "sa ti minut v" ; para "may run out at the"
+	line "najnevhodnejsiu" ; line "worst time."
+	cont "chvilu."
 
-	para "I hope you learn"
-	line "from my mistake."
+	para "Dufam, ze sa po-" ; para "I hope you learn"
+	line "ucis z mojich chyb" ; line "from my mistake."
 	done
 
 BethBattleRematchText:
-	text "Do you want to"
-	line "battle? I'm going"
-	cont "to win this time!"
+	text "Chces zapasit?" ; text "Do you want to"
+	line "Tentokrat ale" ; line "battle? I'm going"
+	cont "vyhram ja!" ; cont "to win this time!"
 
-	para "I'll be waiting"
-	line "for you around"
+	para "Pockam ta" ; para "I'll be waiting"
+	line "na" ; line "for you around"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "."
-	line "Look for me, OK?"
+	line "Najdi ma, OK?" ; line "Look for me, OK?"
 	done
 
 BethHangUpText:
-	text "OK, bye-bye!"
+	text "OK, maj sa!" ; text "OK, bye-bye!"
 	done
 
 BethLetsBattleAgainSometimeText:
-	text "Let's battle again"
-	line "sometime!"
+	text "Zabojujme si" ; text "Let's battle again"
+	line "niekedy znova!" ; line "sometime!"
 	done
 
 BethReminderText:
-	text "Um… <PLAY_G>?"
-	line "What's wrong?"
+	text "Hm… <PLAY_G>?" ; text "Um… <PLAY_G>?"
+	line "Deje sa nieco?" ; line "What's wrong?"
 
-	para "Did you forget our"
-	line "deal?"
+	para "Zabudol si na nasu" ; para "Did you forget our"
+	line "dohodu?" ; line "deal?"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "That's where I'm"
-	line "waiting."
+	para "Tam ta budem" ; para "That's where I'm"
+	line "cakat." ; line "waiting."
 	done

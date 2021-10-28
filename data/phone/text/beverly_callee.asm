@@ -1,68 +1,68 @@
 BeverlyAnswerPhoneText:
-	text "Hello, this is"
+	text "Ahoj, tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh! Good morning,"
+	para "Oh! Dobre rano," ; para "Oh! Good morning,"
 	line "<PLAYER>."
 	done
 
 BeverlyAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Ahoj, tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh! Good day,"
+	para "Oh! Dobry den," ; para "Oh! Good day,"
 	line "<PLAYER>."
 	done
 
 BeverlyAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Ahoj, tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh! Good evening,"
+	para "Oh! Dobry vecer," ; para "Oh! Good evening,"
 	line "<PLAYER>."
 	done
 
 BeverlyGreetText:
-	text "Hello, <PLAYER>."
-	line "Good morning."
+	text "Ahoj, <PLAYER>." ; text "Hello, <PLAYER>."
+	line "Dobre rano." ; line "Good morning."
 
-	para "This is @"
+	para "Tu je @" ; para "This is @"
 	text_ram wStringBuffer3
 	text "."
-	line "Were you asleep?"
+	line "Spal si?" ; line "Were you asleep?"
 	done
 
 BeverlyGreetDayText:
-	text "Hi, <PLAYER>."
-	line "This is @"
+	text "Cau, <PLAYER>." ; text "Hi, <PLAYER>."
+	line "tu je @" ; line "This is @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "How are you doing?"
+	para "Ako sa mas?" ; para "How are you doing?"
 	done
 
 BeverlyGreetNiteText:
-	text "Hi, <PLAYER>."
-	line "This is @"
+	text "Cau, <PLAYER>." ; text "Hi, <PLAYER>."
+	line "Tu je @" ; line "This is @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Were you awake?"
+	para "Bol si hore?" ; para "Were you awake?"
 	done
 
 BeverlyGenericText:
-	text "Keeping your"
-	line "#MON happy?"
+	text "Su tvoji" ; text "Keeping your"
+	line "#MONi stastni?" ; line "#MON happy?"
 
-	para "My @"
+	para "Moj @" ; para "My @"
 	text_ram wStringBuffer4
-	text " is"
-	line "healthy. It eats a"
-	cont "lot every day."
+	text " je" ; text " is"
+	line "zdravy. Zerie" ; line "healthy. It eats a"
+	cont "vela kazdy den." ; cont "lot every day."
 	done

@@ -1,62 +1,62 @@
 ArnieAnswerPhoneText:
-	text "Yeah, hello."
-	line "This is @"
+	text "Ano, ahoj." ; text "Yeah, hello."
+	line "Tu je @" ; line "This is @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Huh, <PLAY_G>? Yo!"
+	para "…Hm, <PLAY_G>? Jou!" ; para "…Huh, <PLAY_G>? Yo!"
 	done
 
-ArnieAnswerPhoneDayText:
-	text "Yeah, hello, you"
-	line "got @"
+ArnieAnswerPhoneDayText: ; ArnieAnswerPhoneDayText:
+	text "Ano, cau," ; text "Yeah, hello, you"
+	line "tuto @" ; line "got @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Huh, <PLAY_G>? Yo!"
+	para "…Hm, <PLAY_G>? Jou!" ; para "…Huh, <PLAY_G>? Yo!"
 	done
 
 ArnieAnswerPhoneNiteText:
-	text "Yeah, hello, you"
-	line "got @"
+	text "Ano, ahoj," ; text "Yeah, hello, you"
+	line "tu @" ; line "got @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Huh, <PLAY_G>? Yo!"
+	para "…Hm, <PLAY_G>? Jou!" ; para "…Huh, <PLAY_G>? Yo!"
 	done
 
 ArnieGreetText:
-	text "Yeah, hello?"
+	text "Ano, halo?" ; text "Yeah, hello?"
 	line "@"
 	text_ram wStringBuffer3
-	text " calling."
+	text " vola." ; text " calling."
 
-	para "What are you up"
-	line "to, <PLAY_G>?"
+	para "Ako to ide" ; para "What are you up"
+	line "<PLAY_G>?" ; line "to, <PLAY_G>?"
 	done
 
 ArnieGreetDayText:
-	text "Yeah, hello?"
+	text "Ano, halo?" ; text "Yeah, hello?"
 	line "@"
 	text_ram wStringBuffer3
-	text " calling."
+	text " vola." ; text " calling."
 
-	para "Where are you now,"
-	line "<PLAY_G>?"
+	para "Kde si," ; para "Where are you now,"
+	line "<PLAY_G>?" ; line "<PLAY_G>?"
 	done
 
 ArnieGreetNiteText:
-	text "Yeah, hello?"
+	text "Ano, halo?" ; text "Yeah, hello?"
 	line "@"
 	text_ram wStringBuffer3
-	text " calling."
+	text " vola." ; text " calling."
 
-	para "Are you awake now,"
-	line "<PLAY_G>?"
+	para "si hore," ; para "Are you awake now,"
+	line "<PLAY_G>?" ; line "<PLAY_G>?"
 	done
 
 ArnieGenericText:
-	text "I bet your #MON"
-	line "are a lot stronger"
-	cont "than before."
+	text "Stavim sa, ze" ; text "I bet your #MON"
+	line "tvoji #MON su" ; line "are a lot stronger"
+	cont "o dost silnejsi." ; cont "than before."
 	done

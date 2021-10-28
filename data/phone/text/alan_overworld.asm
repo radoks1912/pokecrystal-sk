@@ -1,71 +1,71 @@
 AlanAskNumber1Text:
-	text "Reading textbooks"
-	line "is worthwhile"
-	cont "every so often."
+	text "Citanie knih" ; text "Reading textbooks"
+	line "sa oplati," ; line "is worthwhile"
+	cont "z casu na cas." ; cont "every so often."
 
-	para "When I'm reading"
-	line "and walking, I"
-	cont "have to look down."
+	para "Ked citam a" ; para "When I'm reading"
+	line "kracam, pozeram" ; line "and walking, I"
+	cont "sa dolu." ; cont "have to look down."
 
-	para "So I notice items"
-	line "on the ground."
+	para "Takze si vsimnem" ; para "So I notice items"
+	line "veci na zemi." ; line "on the ground."
 
-	para "Next time I find"
-	line "something, I'll"
-	cont "give it to you."
+	para "Ked nieco nabuduce" ; para "Next time I find"
+	line "najdem, dam" ; line "something, I'll"
+	cont "ti to." ; cont "give it to you."
 
-	para "May I have your"
-	line "phone number?"
+	para "Das mi svoje" ; para "May I have your"
+	line "cislo?" ; line "phone number?"
 	done
 
 AlanAskNumber2Text:
-	text "If I find some-"
-	line "thing, it's yours."
+	text "Ak nieco najdem," ; text "If I find some-"
+	line "je to tvoje." ; line "thing, it's yours."
 
-	para "So may I have your"
-	line "phone number?"
+	para "Das mi svoje" ; para "So may I have your"
+	line "cislo?" ; line "phone number?"
 	done
 
 AlanNumberAcceptedText:
-	text "I'll call you as"
-	line "soon as I find"
+	text "Zavolam ti hned" ; text "I'll call you as"
+	line "ako nieco najdem" ; line "soon as I find"
 
-	para "something. You can"
-	line "count on it!"
+	para "Mozes sa na mna" ; para "something. You can"
+	line "spolahnut!" ; line "count on it!"
 	done
 
 AlanNumberDeclinedText:
-	text "Oh… I thought it"
-	line "would be a good"
+	text "Och… Myslel som" ; text "Oh… I thought it"
+	line "ze si dam pauzu" ; line "would be a good"
 
-	para "break to call you"
-	line "when I'm studying…"
+	para "pocas studia" ; para "break to call you"
+	line "a zavolam ti…" ; line "when I'm studying…"
 	done
 
 AlanPhoneFullText:
-	text "There's no room"
-	line "for my number."
+	text "Nemas miesto na" ; text "There's no room"
+	line "moje cislo." ; line "for my number."
 	done
 
 AlanRematchText:
-	text "I waited around"
-	line "for you!"
+	text "Cakal som na" ; text "I waited around"
+	line "teba!" ; line "for you!"
 
-	para "I'm thoroughly"
-	line "prepared today!"
+	para "Poctivo som sa" ; para "I'm thoroughly"
+	line "pripravil!" ; line "prepared today!"
 	done
 
 AlanGiftText:
-	text "This, this! This"
-	line "is yours! Ta-da!"
+	text "Toto, Toto!" ; text "This, this! This"
+	line "je tvoje! Ta-da!" ; line "is yours! Ta-da!"
 	done
 
 AlanPackFullText:
-	text "Whoops!"
+	text "Ups!" ; text "Whoops!"
 
-	para "You can't carry"
-	line "any more items!"
+	para "Mas plny" ; para "You can't carry"
+	line "batoh!" ; line "any more items!"
 
-	para "I'll hold it until"
-	line "next time."
+	para "Postrazim ti tu" ; para "I'll hold it until"
+	line "vec." ; line "next time."
 	done

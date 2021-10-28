@@ -1,79 +1,82 @@
 BrentAnswerPhoneText:
-	text "Yes? @"
+	text "Ano? @" ; text "Yes? @"
 	text_ram wStringBuffer3
-	text " here…"
+	text " pri telefone…" ; text " here…"
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "Ah, <PLAYER>. Co" ; para "Ah, <PLAYER>. What"
+	line "pre teba mozem" ; line "can I do for you?"
+	cont "spravit?"
 	done
 
 BrentAnswerPhoneDayText:
-	text "Yes? @"
+	text "Ano? @" ; text "Yes? @"
 	text_ram wStringBuffer3
-	text " here…"
+	text " pri telefone…" ; text " here…"
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "Ah, <PLAYER>. Co" ; para "Ah, <PLAYER>. What"
+	line "pre teba mozem" ; line "can I do for you?"
+	cont "spravit?"
 	done
 
 BrentAnswerPhoneNiteText:
-	text "Yes? @"
-	text_ram wStringBuffer3
-	text " here…"
+	text "Ano? @" ; text "Yes? @"
+	text_ram wStringBuffer3 ; text_ram wStringBuffer3
+	text " pri telefone" ; text " here…"
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "Ah, <PLAYER>. Co" ; para "Ah, <PLAYER>. What"
+	line "pre teba mozem" ; line "can I do for you?"
+	cont "spravit?"
 	done
 
 BrentGreetText:
-	text "Hiya, <PLAYER>. How"
-	line "are you doing?"
+	text "Ahoj, <PLAYER>." ; text "Hiya, <PLAYER>. How"
+	line "Ako sa mas?" ; line "are you doing?"
 
-	para "Hey! It's me,"
+	para "To som ja," ; para "Hey! It's me,"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGreetDayText:
-	text "Hiya, <PLAYER>, how"
-	line "are you doing?"
+	text "Ahoj, <PLAYER>," ; text "Hiya, <PLAYER>, how"
+	line "ako sa mas?" ; line "are you doing?"
 
-	para "Hey, it's me,"
+	para "To som ja," ; para "Hey, it's me,"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGreetNiteText:
-	text "Hiya, <PLAYER>, how"
-	line "are you doing?"
+	text "Ahoj, <PLAYER>," ; text "Hiya, <PLAYER>, how"
+	line "ako sa mas?" ; line "are you doing?"
 
-	para "Hey, it's me,"
+	para "To som ja," ; para "Hey, it's me,"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGenericText:
-	text "Oh yeah, I saw you"
-	line "coming out of a"
+	text "Ano, videl som ta" ; text "Oh yeah, I saw you"
+	line "vychadzat z" ; line "coming out of a"
 
-	para "#MON CENTER the"
-	line "other day."
+	para "#MON CENTER" ; para "#MON CENTER the"
+	line "vcera." ; line "other day."
 
-	para "You heal your"
-	line "#MON regularly,"
+	para "Pravidelne liecis" ; para "You heal your"
+	line "svojich #MON," ; line "#MON regularly,"
 
-	para "don't you?"
-	line "I'm impressed."
+	para "vsak?" ; para "don't you?"
+	line "Ohromne." ; line "I'm impressed."
 
-	para "Heh, my @"
+	para "Heh, moj @" ; para "Heh, my @"
 	text_ram wStringBuffer4
 	text_start
-	line "is so tough, it"
+	line "je tak silny, ze" ; line "is so tough, it"
 
-	para "doesn't need to go"
-	line "to #MON CENTERS"
-	cont "often. Heheh!"
+	para "nepotrebuje casto" ; para "doesn't need to go"
+	line "chodit do" ; line "to #MON CENTERS"
+	cont "#MON CENTERS. Hehe!" ; cont "often. Heheh!"
 	done
