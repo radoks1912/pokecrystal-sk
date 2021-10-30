@@ -1,67 +1,67 @@
 GinaAskNumber1Text:
-	text "Whenever I see a"
-	line "strong trainer, I"
+	text "Zakazdym ked vidim" ; text "Whenever I see a"
+	line "silneho trenera," ; line "strong trainer, I"
 
-	para "want to be their"
-	line "cheerleader."
+	para "chcem byt jeho" ; para "want to be their"
+	line "roztlieskavackou." ; line "cheerleader."
 
-	para "When I'm on my"
-	line "walk, I sometimes"
-	cont "pick up items."
+	para "Ked som na precha-" ; para "When I'm on my"
+	line "dzke, zbieram" ; line "walk, I sometimes"
+	cont "predmety." ; cont "pick up items."
 
-	para "If I get anything,"
-	line "you can have it!"
+	para "Ak nieco najdem," ; para "If I get anything,"
+	line "dam to tebe!" ; line "you can have it!"
 
-	para "Want to give me"
-	line "your number?"
+	para "Das mi svoje" ; para "Want to give me"
+	line "cislo?" ; line "your number?"
 
-	para "I'll call as soon"
-	line "as I get anything."
+	para "Zavolam ti hned" ; para "I'll call as soon"
+	line "ako nieco najdem." ; line "as I get anything."
 	done
 
 GinaAskNumber2Text:
-	text "If I find an item,"
-	line "you can have it!"
+	text "Ak najdem predmet," ; text "If I find an item,"
+	line "dam ho tebe!" ; line "you can have it!"
 
-	para "Want to give me"
-	line "your number?"
+	para "Das mi svoje" ; para "Want to give me"
+	line "cislo?" ; line "your number?"
 	done
 
 GinaNumberAcceptedText:
-	text "I'll call as soon"
-	line "as I get anything!"
+	text "Zavolam ti hned" ; text "I'll call as soon"
+	line "ako nieco najdem!" ; line "as I get anything!"
 	done
 
 GinaNumberDeclinedText:
-	text "Is that so? Well,"
-	line "I'll still be"
-	cont "rooting for you!"
+	text "To vazne?" ; text "Is that so? Well,"
+	line "Stale ti budem" ; line "I'll still be"
+	cont "fandit!" ; cont "rooting for you!"
 	done
 
 GinaPhoneFullText:
-	text "But your phone is"
-	line "all filled up!"
+	text "Tvoj telefon je" ; text "But your phone is"
+	line "plny!" ; line "all filled up!"
 	done
 
 GinaRematchText:
-	text "I've been waiting!"
+	text "Ocakavala som ta!" ; text "I've been waiting!"
 
-	para "I've gotten a bit"
-	line "better at this!"
+	para "Trosku som sa" ; para "I've gotten a bit"
+	line "zlepsila!" ; line "better at this!"
 	done
 
 GinaGiftText:
-	text "So you're finally"
-	line "here!"
+	text "Tak si konecne" ; text "So you're finally"
+	line "prisiel!" ; line "here!"
 
-	para "I think this will"
-	line "make you happy."
+	para "Myslim ze toto" ; para "I think this will"
+	line "sa ti bude pacit." ; line "make you happy."
 	done
 
 GinaPackFullText:
-	text "Your PACK looks"
-	line "completely full."
+	text "Tvoj batoh je" ; text "Your PACK looks"
+	line "uplne plny." ; line "completely full."
 
-	para "I'll have to hold"
-	line "on to this."
+	para "Musim si to zatial" ; para "I'll have to hold"
+	line "nechat." ; line "on to this."
 	done

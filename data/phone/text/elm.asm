@@ -1,211 +1,211 @@
 ElmPhoneHealYourMonText:
-	text "Hello, <PLAY_G>?"
+	text "Ahoj, <PLAY_G>?" ; text "Hello, <PLAY_G>?"
 
-	para "Try not to overdo"
-	line "it."
+	para "Neprehanaj" ; para "Try not to overdo"
+	line "to." ; line "it."
 
-	para "Be sure to heal"
-	line "your #MON if"
-	cont "they are hurt."
+	para "Vyliec svojich" ; para "Be sure to heal"
+	line "#MONov ak su" ; line "your #MON if"
+	cont "zraneni." ; cont "they are hurt."
 	done
 
 ElmPhoneSawMrPokemonText:
-	text "Hello, <PLAY_G>?"
+	text "Ahoj, <PLAY_G>?" ; text "Hello, <PLAY_G>?"
 
-	para "Did you meet MR."
-	line "#MON? Great!"
-	cont "Come back safely!"
+	para "Stretol si MR." ; para "Did you meet MR."
+	line "#MON? Super!" ; line "#MON? Great!"
+	cont "Davaj si pozor!" ; cont "Come back safely!"
 	done
 
 ElmPhonePokemonStolenText:
-	text "<PLAY_G>? I'm very"
-	line "upset now."
+	text "<PLAY_G>? Som" ; text "<PLAY_G>? I'm very"
+	line "velmi rozculeny." ; line "upset now."
 
-	para "We had a #MON"
-	line "stolen from here."
+	para "Niekto nam ukradol" ; para "We had a #MON"
+	line "#MONa." ; line "stolen from here."
 
-	para "How could anyone"
-	line "do that?"
+	para "Ako to moze niekto" ; para "How could anyone"
+	line "spravit?" ; line "do that?"
 	done
 
 ElmPhoneCheckingTheEggText:
-	text "Hello, <PLAY_G>?"
+	text "Ahoj, <PLAY_G>?" ; text "Hello, <PLAY_G>?"
 
-	para "We're checking the"
-	line "EGG now. It does"
+	para "Kontrolujeme to" ; para "We're checking the"
+	line "VAJICKO. Nevypada" ; line "EGG now. It does"
 
-	para "appear to be a"
-	line "#MON EGG."
+	para "ze to je VAJICKO" ; para "appear to be a"
+	line "#MONa." ; line "#MON EGG."
 	done
 
 ElmPhoneAssistantText:
-	text "Hello, <PLAY_G>?"
+	text "Ahoj, <PLAY_G>?" ; text "Hello, <PLAY_G>?"
 
-	para "Did you see my"
-	line "assistant? He's at"
+	para "Videl si mojho" ; para "Did you see my"
+	line "asistenta? Je v" ; line "assistant? He's at"
 
-	para "the #MON CENTER"
-	line "in VIOLET CITY."
+	para "#MON CENTER" ; para "the #MON CENTER"
+	line "v VIOLET CITY." ; line "in VIOLET CITY."
 	done
 
 ElmPhoneHowIsTheEggText:
-	text "Hello, <PLAY_G>?"
+	text "Ahoj, <PLAY_G>?" ; text "Hello, <PLAY_G>?"
 
-	para "How's the EGG? Has"
-	line "anything changed?"
+	para "Ako sa ma VAJICKO?" ; para "How's the EGG? Has"
+	line "Zmenilo sa nieco?" ; line "anything changed?"
 
-	para "If anything hap-"
-	line "pens, please call."
+	para "Ak sa nieco stane," ; para "If anything hap-"
+	line "zavolaj prosim." ; line "pens, please call."
 	done
 
 ElmPhoneEggHatchedText:
-	text "Hello, <PLAY_G>?"
-	line "How is the EGG?"
+	text "Ahoj, <PLAY_G>?" ; text "Hello, <PLAY_G>?"
+	line "Ako sa ma VAJICKO?" ; line "How is the EGG?"
 
-	para "What? It hatched?"
-	line "Wow! What kind of"
-	cont "#MON is it?"
+	para "Coze? Vyliahlo sa?" ; para "What? It hatched?"
+	line "Wau! Aky to je" ; line "Wow! What kind of"
+	cont "#MON?" ; cont "#MON is it?"
 
-	para "Please come show"
-	line "me now!"
+	para "Prid mi ho" ; para "Please come show"
+	line "ukazat!" ; line "me now!"
 	done
 
 ElmPhoneDiscoveredHatchTimeText:
-	text "Hello, <PLAY_G>?"
+	text "Ahoj, <PLAY_G>?" ; text "Hello, <PLAY_G>?"
 
-	para "I just made a new"
-	line "discovery."
+	para "Prave som nieco" ; para "I just made a new"
+	line "zistil." ; line "discovery."
 
-	para "The time it takes"
-	line "for an EGG to"
+	para "Cas vyliahnutia" ; para "The time it takes"
+	line "VAJICKA zavisi" ; line "for an EGG to"
 
-	para "hatch depends on"
-	line "the #MON."
+	para "na" ; para "hatch depends on"
+	line "#MONovi." ; line "the #MON."
 	done
 
 ElmPhoneInvestigatingEggMovesText:
-	text "Hello, <PLAY_G>?"
+	text "Ahoj, <PLAY_G>?" ; text "Hello, <PLAY_G>?"
 
-	para "It's still a"
-	line "mystery what kinds"
+	para "Stale je zahadou," ; para "It's still a"
+	line "ake utoky bude mat" ; line "mystery what kinds"
 
-	para "of moves hatched"
-	line "#MON have."
+	para "vyliahnuty" ; para "of moves hatched"
+	line "#MON." ; line "#MON have."
 
-	para "We're investigat-"
-	line "ing that now."
+	para "Prave to" ; para "We're investigat-"
+	line "vysetrujeme." ; line "ing that now."
 	done
 
 ElmPhoneDiscoveredPokerusText:
-	text "Hello, <PLAY_G>?"
+	text "Ahoj, <PLAY_G>?" ; text "Hello, <PLAY_G>?"
 
-	para "I discovered an"
-	line "odd thing."
+	para "Zistil som" ; para "I discovered an"
+	line "zvlastnu vec." ; line "odd thing."
 
-	para "Apparently there's"
-	line "something called"
+	para "Ocividne existuje" ; para "Apparently there's"
+	line "nieco ako" ; line "something called"
 
-	para "#RUS that in-"
-	line "fects #MON."
+	para "#RUS co in-" ; para "#RUS that in-"
+	line "fikuje #MON." ; line "fects #MON."
 
-	para "Yes, it's like a"
-	line "virus, so it's"
-	cont "called #RUS."
+	para "Ano, je to virus," ; para "Yes, it's like a"
+	line "a vola sa" ; line "virus, so it's"
+	cont "#RUS." ; cont "called #RUS."
 
-	para "It multiplies fast"
-	line "and infects other"
+	para "Rychlo sa mnozi" ; para "It multiplies fast"
+	line "a infikuje inych"  ;line "and infects other"
 
-	para "#MON too. But"
-	line "that's all."
+	para "#MONov. Ale" ; para "#MON too. But"
+	line "to je vsetko." ; line "that's all."
 
-	para "It doesn't seem to"
-	line "do anything, and"
+	para "Nic nerobi" ; para "It doesn't seem to"
+	line "a nakoniec" ; line "do anything, and"
 
-	para "it goes away over"
-	line "time."
+	para "aj sam" ; para "it goes away over"
+	line "zmizne." ; line "time."
 
-	para "I guess it's"
-	line "nothing to worry"
-	cont "about. Bye!"
+	para "Nie je sa" ; para "I guess it's"
+	line "coho obavat" ; line "nothing to worry"
+	cont "Maj sa!" ; cont "about. Bye!"
 	done
 
 ElmPhoneDisasterText:
-	text "H-hello? <PLAY_G>?"
-	line "It's a disaster!"
+	text "H-halo? <PLAY_G>?" ; text "H-hello? <PLAY_G>?"
+	line "To je hrozne!" ; line "It's a disaster!"
 
-	para "Uh, um, it's just"
-	line "terrible!"
+	para "Hm, hm, to je" ; para "Uh, um, it's just"
+	line "fakt hrozne!" ; line "terrible!"
 
-	para "What should I do?"
-	line "It… Oh, no…"
+	para "Co ma robit?" ; para "What should I do?"
+	line "To… Oh, nie…" ; line "It… Oh, no…"
 
-	para "Please get back"
-	line "here now!"
+	para "Hned sa prosim" ; para "Please get back"
+	line "vrat sem!" ; line "here now!"
 	done
 
 ElmPhoneEggAssistantText:
-	text "Hello, <PLAY_G>? We"
-	line "discovered some-"
+	text "Ahoj, <PLAY_G>?" ; text "Hello, <PLAY_G>? We"
+	line "Zistili sme nieco" ; line "discovered some-"
 
-	para "thing about the"
-	line "EGG!"
+	para "nove o" ; para "thing about the"
+	line "VAJICKU!" ; line "EGG!"
 
-	para "My assistant is at"
-	line "the #MON CENTER"
+	para "Moj asistent je v" ; para "My assistant is at"
+	line "#MON CENTER" ; line "the #MON CENTER"
 
-	para "in VIOLET CITY. "
-	line "Could you talk to"
-	cont "him?"
+	para "v VIOLET CITY. " ; para "in VIOLET CITY. "
+	line "Porozpravas sa" ; line "Could you talk to"
+	cont "s nim?" ; cont "him?"
 	done
 
 ElmPhoneRadioTowerRocketTakeoverText:
-	text "<PLAY_G>, how are"
-	line "things going?"
+	text "<PLAY_G>, ako" ; text "<PLAY_G>, how are"
+	line "idu veci?" ; line "things going?"
 
-	para "I called because"
-	line "something weird is"
+	para "Volam, pretoze sa" ; para "I called because"
+	line "deje nieco" ; line "something weird is"
 
-	para "happening with the"
-	line "radio broadcasts."
+	para "zvlastne s" ; para "happening with the"
+	line "radio vysielanim." ; line "radio broadcasts."
 
-	para "They were talking"
-	line "about TEAM ROCKET."
+	para "Hovorili nieco o" ; para "They were talking"
+	line "TEAM ROCKET." ; line "about TEAM ROCKET."
 
-	para "<PLAY_G>, do you"
-	line "know anything"
-	cont "about it?"
+	para "<PLAY_G>, vies" ; para "<PLAY_G>, do you"
+	line "o tom" ; line "know anything"
+	cont "nieco?" ; cont "about it?"
 
-	para "Maybe TEAM ROCKET"
-	line "has returned. No,"
+	para "Mozno sa TEAM" ; para "Maybe TEAM ROCKET"
+	line "ROCKET vratil." ; line "has returned. No,"
 
-	para "that just can't"
-	line "be true."
+	para "To nemoze byt" ; para "that just can't"
+	line "pravda, nie." ; line "be true."
 
-	para "Sorry to bug you."
-	line "Take care!"
+	para "Prepac, ze otra-." ; para "Sorry to bug you."
+	line "vujem! Ahoj!" ; line "Take care!"
 	done
 
 ElmPhoneGiftText:
-	text "Hello, <PLAY_G>?"
+	text "ahoj, <PLAY_G>?" ; text "Hello, <PLAY_G>?"
 
-	para "I have something"
-	line "here for you."
+	para "Nieco pre teba" ; para "I have something"
+	line "mam." ; line "here for you."
 
-	para "Could you swing by"
-	line "my LAB?"
+	para "Zastavis sa u mna" ; para "Could you swing by"
+	line "v laboratoriu?" ; line "my LAB?"
 
-	para "See you later!"
+	para "Vidime sa!" ; para "See you later!"
 	done
 
 ElmPhoneGotAholdOfSomethingNeatText:
-	text "Hello, <PLAY_G>?"
-	line "How's it going?"
+	text "Ahoj, <PLAY_G>?" ; text "Hello, <PLAY_G>?"
+	line "Ako to ide?" ; line "How's it going?"
 
-	para "I got ahold of"
-	line "something neat."
+	para "Zohnal som nieco" ; para "I got ahold of"
+	line "nieco dobre." ; line "something neat."
 
-	para "Swing by my LAB"
-	line "and pick it up!"
+	para "Zastav sa u mna" ; para "Swing by my LAB"
+	line "v labaku!" ; line "and pick it up!"
 
-	para "See you later!"
+	para "Vidime sa!" ; para "See you later!"
 	done

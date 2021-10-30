@@ -1,66 +1,66 @@
 ErinMonIsMuchStrongerText:
 	text_ram wStringBuffer3
-	text "'s @"
+	text "ho @" ; text "'s @"
 	text_ram wStringBuffer4
 	text_start
-	line "is much stronger"
-	cont "than before!"
+	line "je omnoho silnejsi" ; line "is much stronger"
+	cont "ako predtym!" ; cont "than before!"
 	done
 
 ErinDefeatedMonText:
-	text "And, and…"
-	line "I just battled and"
-	cont "beat @"
+	text "A, a…" ; text "And, and…"
+	line "Porazila som" ; line "I just battled and"
+	cont "divokeho @" ; cont "beat @"
 	text_ram wStringBuffer4
 	text "!"
 
-	para "I've raised my"
-	line "#MON properly!"
+	para "Vychovala som" ; para "I've raised my"
+	line "#MONov spravne!" ; line "#MON properly!"
 	done
 
 ErinLostAMonText:
-	text "But, but…"
+	text "Ale, ale…" ; text "But, but…"
 
-	para "A wild @"
+	para "Divoky @" ; para "A wild @"
 	text_ram wStringBuffer4
 	text_start
-	line "got away from me"
+	line "mi usiel," ; line "got away from me"
 
-	para "again. It's just"
-	line "not fair!"
+	para "zas raz. To" ; para "again. It's just"
+	line "nie je fer!" ; line "not fair!"
 	done
 
 ErinBattleRematchText:
-	text "I'm ERIN. Want to"
-	line "battle me again?"
+	text "Som ERIN. Chces" ; text "I'm ERIN. Want to"
+	line "znova zapasit?" ; line "battle me again?"
 
-	para "I won't lose this"
-	line "time!"
+	para "Tentokrat" ; para "I won't lose this"
+	line "neprehram!" ; line "time!"
 
-	para "I'll be waiting on"
+	para "Cakam ta na" ; para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ErinHangUpText:
-	text "See you. Bye-bye!"
+	text "Maj sa, ahoj!" ; text "See you. Bye-bye!"
 	done
 
 ErinWorkingHardText:
-	text "I'm working hard"
-	line "to raise my"
-	cont "#MON!"
+	text "Pracujem tvrdo" ; text "I'm working hard"
+	line "pri vychove" ; line "to raise my"
+	cont "#MONov!"
 
-	para "Come back for"
-	line "another battle!"
+	para "Vrat sa na" ; para "Come back for"
+	line "dalsi zapas!" ; line "another battle!"
 	done
 
 ErinComeBattleText:
 	text "Oh, <PLAY_G>!"
-	line "Come battle ERIN!"
+	line "Zapas s ERIN!" ; line "Come battle ERIN!"
 
-	para "I'll be waiting on"
+	para "Cakam ta na" ; para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

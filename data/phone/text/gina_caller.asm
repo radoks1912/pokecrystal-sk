@@ -1,118 +1,118 @@
 GinaGettingInSyncWithMonText:
-	text "My @"
+	text "Moj @" ; text "My @"
 	text_ram wStringBuffer4
-	text " and"
-	line "I are getting more"
+	text " a" ; text " and"
+	line "ja sme stale viac" ; line "I are getting more"
 
-	para "in sync with each"
-	line "other."
+	para "blizsi a" ; para "in sync with each"
+	line "blizsi." ; line "other."
 	done
 
 GinaDefeatedMonText:
-	text "We battled a wild"
+	text "Bojovali sme proti" ; text "We battled a wild"
 	line "@"
 	text_ram wStringBuffer4
-	text " and"
+	text " a" ; text " and"
 
-	para "managed to drop it"
-	line "in a close match."
+	para "vyhrali sme" ; para "managed to drop it"
+	line "v tesnom zapase." ; line "in a close match."
 
-	para "We're getting into"
-	line "the groove!"
+	para "Dostavame sa do" ; para "We're getting into"
+	line "svungu!" ; line "the groove!"
 	done
 
 GinaLostAMonText:
-	text "But, you know?"
+	text "Ale vies co?" ; text "But, you know?"
 
-	para "I still haven't"
-	line "caught @"
+	para "Stale som" ; para "I still haven't"
+	line "nechytila @" ; line "caught @"
 	text_ram wStringBuffer4
 	text "."
 
-	para "It's getting past"
-	line "frustrating…"
+	para "Je to velmi" ; para "It's getting past"
+	line "frustrujuce…" ; line "frustrating…"
 	done
 
 GinaBattleRematchText:
-	text "Would you be my"
-	line "practice partner"
-	cont "again sometime?"
+	text "Budes so mnou" ; text "Would you be my"
+	line "na cas" ; line "practice partner"
+	cont "trenovat?" ; cont "again sometime?"
 
-	para "I'll be waiting on"
+	para "Pockam ta na" ; para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "…Could you take it"
-	line "a little easier on"
-	cont "me next time?"
+	para "…Mozes byt" ; para "…Could you take it"
+	line "nabuduce troska" ; line "a little easier on"
+	cont "miernejsi?" ; cont "me next time?"
 	done
 
 GinaHangUpText:
-	text "Bye! Let's chat"
-	line "again!"
+	text "Ahoj! Pokecame" ; text "Bye! Let's chat"
+	line "znova!" ; line "again!"
 	done
 
 GinaRocketTakeoverRumorText:
-	text "Have you heard"
-	line "about TEAM ROCKET?"
+	text "Pocul si o" ; text "Have you heard"
+	line "TEAM ROCKET?" ; line "about TEAM ROCKET?"
 
-	para "They've taken over"
-	line "the RADIO TOWER in"
-	cont "GOLDENROD."
+	para "Obsadili" ; para "They've taken over"
+	line "RADIO TOWER v" ; line "the RADIO TOWER in"
+	cont "GOLDENROD." ; cont "GOLDENROD."
 
-	para "Are the people"
-	line "inside safe?"
+	para "Su ludia vovnutri" ; para "Are the people"
+	line "v bezpeci?" ; line "inside safe?"
 	done
 
 GinaFoundItemText:
-	text "I picked up some-"
-	line "thing nice today."
+	text "Dnes som nasla" ; text "I picked up some-"
+	line "nieco dobre." ; line "thing nice today."
 
-	para "I want you to have"
-	line "it, so I called!"
+	para "Chcem aby si si to" ; para "I want you to have"
+	line "vzal, preto volam!" ; line "it, so I called!"
 
-	para "You will come for"
-	line "it, won't you?"
+	para "Zastavis sa preto" ; para "You will come for"
+	line "ze ano?" ; line "it, won't you?"
 
 	para "@"
 	text_ram wStringBuffer5
-	text " is"
-	line "where I am."
+	text " je" ; text " is"
+	line "miesto, kde som." ; line "where I am."
 	done
 
 GinaHaventFoundAnythingYetText:
-	text "Sorry, I haven't"
-	line "found anything"
+	text "Prepac, este som" ; text "Sorry, I haven't"
+	line "nenasla nic" ; line "found anything"
 
-	para "useful yet…"
-	line "I promise, if I"
+	para "uzitocne…" ; para "useful yet…"
+	line "Slubujem, ze ked" ; line "I promise, if I"
 
-	para "find anything, you"
-	line "can have it!"
+	para "nieco najdem," ; para "find anything, you"
+	line "dam to tebe!" ; line "can have it!"
 	done
 
 GinaReminderText:
-	text "Oh, <PLAY_G>!"
-	line "How soon can I"
+	text "Oh, <PLAY_G>!" ; text "Oh, <PLAY_G>!"
+	line "Kedy ta mozem" ; line "How soon can I"
 
-	para "expect to see you"
-	line "for our battle?"
+	para "ocakavat" ; para "expect to see you"
+	line "na nas zapas?" ; line "for our battle?"
 
-	para "Don't forget,"
+	para "Nezabudni," ; para "Don't forget,"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 GinaComePickUpText:
-	text "I'm getting really"
-	line "impatient, waiting"
+	text "Uz som nedockava" ; text "I'm getting really"
+	line "aby som ti" ; line "impatient, waiting"
 
-	para "to give you my"
-	line "present!"
+	para "dala moj" ; para "to give you my"
+	line "darcek!" ; line "present!"
 
-	para "Hurry over to"
+	para "Ponahlaj sa na" ; para "Hurry over to"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

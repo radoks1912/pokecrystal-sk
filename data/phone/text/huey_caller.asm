@@ -1,43 +1,43 @@
 HueyBattleRematchText:
-	text "Hey, I challenge"
-	line "you to a battle!"
+	text "Hej, vyzyvam ta" ; text "Hey, I challenge"
+	line "ta na zapas!" ; line "you to a battle!"
 
-	para "It won't be like"
-	line "last time!"
+	para "Nebude to ako" ; para "It won't be like"
+	line "naposledy!" ; line "last time!"
 
 	para "@"
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'm waiting"
+	text " je" ; text "'s"
+	line "kde cakam" ; line "where I'm waiting"
 
-	para "for you. Hustle"
-	line "over here pronto!"
+	para "na teba." ; para "for you. Hustle"
+	line "Ponahlaj sa sem!" ; line "over here pronto!"
 	done
 
 HueyHangUpText:
-	text "See ya!"
+	text "Ahoj!" ; text "See ya!"
 	done
 
 HueyWeHaveToBattleAgainSometimeText:
-	text "We have to battle"
-	line "again sometime."
+	text "Musime si to" ; text "We have to battle"
+	line "niekedy zopakovat." ; line "again sometime."
 
-	para "You can bet I'm"
-	line "going to keep"
+	para "Mozes sa stavit," ; para "You can bet I'm"
+	line "ze ta budem vyzy-" ; line "going to keep"
 
-	para "challenging you"
-	line "till I win."
+	para "vat nadalaje," ; para "challenging you"
+	line "dokym nevyhram." ; line "till I win."
 	done
 
 HueyReminderText:
-	text "Hey, you'd better"
-	line "not have forgotten"
-	cont "about our battle!"
+	text "Hej, dufam, ze si" ; text "Hey, you'd better"
+	line "nezabudol na nas" ; line "not have forgotten"
+	cont "zapas!" ; cont "about our battle!"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Hustle over quick!"
-	line "I'm waiting!"
+	para "Ponahlaj sa sem!" ; para "Hustle over quick!"
+	line "Cakam!" ; line "I'm waiting!"
 	done

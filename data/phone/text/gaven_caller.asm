@@ -1,85 +1,85 @@
 GavenMonGreaterThanImaginedText:
-	text "My @"
+	text "Moj @" ; text "My @"
 	text_ram wStringBuffer4
 	text_start
-	line "might be greater"
-	cont "than I imagined."
+	line "je este lepsi ako" ; line "might be greater"
+	cont "som si myslel." ; cont "than I imagined."
 
-	para "I doubt I'll see a"
+	para "Pochybujem, ze iny" ; para "I doubt I'll see a"
 	line "@"
 	text_ram wStringBuffer4
-	text " that's"
-	cont "better than mine."
+	text " bude" ; text " that's"
+	cont "lepsi ako ten moj." ; cont "better than mine."
 	done
 
 GavenDefeatedMonText:
-	text "Oh, and I managed"
-	line "to barely defeat"
+	text "Ozaj, podarilo sa" ; text "Oh, and I managed"
+	line "mi tesne porazit" ; line "to barely defeat"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " the"
-	line "other day."
+	text " prave" ; text " the"
+	line "vcera." ; line "other day."
 
-	para "I've never seen a"
+	para "Nikdy som nevidel" ; para "I've never seen a"
 	line "@"
 	text_ram wStringBuffer4
-	text " get"
-	cont "that strong…"
+	text " takeho" ; text " get"
+	cont "silneho…" ; cont "that strong…"
 
-	para "You shouldn't let"
-	line "your guard down,"
+	para "Nikdy nezaspi na" ; para "You shouldn't let"
+	line "vavrinoch," ; line "your guard down,"
 
-	para "even against a"
-	line "#MON you're"
-	cont "used to seeing."
+	para "ani proti" ; para "even against a"
+	line "#MON ktorych" ; line "#MON you're"
+	cont "vidis casto." ; cont "used to seeing."
 	done
 
 GavenLostAMonText:
-	text "And a while back,"
-	line "I tried to catch a"
-	cont "wild @"
+	text "Prednedavnom som" ; text "And a while back,"
+	line "sa snazil chytit" ; line "I tried to catch a"
+	cont "divokeho @" ; cont "wild @"
 	text_ram wStringBuffer4
 	text "."
 
-	para "But it managed to"
-	line "elude me."
+	para "Ale podarilo sa mu" ; para "But it managed to"
+	line "ujst." ; line "elude me."
 
-	para "One wrong decision"
-	line "could mean total"
+	para "Jedno nespravne" ; para "One wrong decision"
+	line "rozhodnutie moze" ; line "could mean total"
 
-	para "failure… You ought"
-	line "to be careful too."
+	para "znamenat neuspech…" ; para "failure… You ought"
+	line "Bud opatrny." ; line "to be careful too."
 	done
 
 GavenBattleRematchText:
-	text "Let's battle!"
+	text "Zapasme!" ; text "Let's battle!"
 
-	para "I'll be waiting on"
+	para "Cakam ta na" ; para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Give me a shout"
-	line "when you're close."
+	para "Zakric, ked" ; para "Give me a shout"
+	line "budes nablizku." ; line "when you're close."
 	done
 
 GavenHangUpText:
-	text "OK, I'll talk to"
-	line "you soon!"
+	text "OK, porozpravame" ; text "OK, I'll talk to"
+	line "sa neskor!" ; line "you soon!"
 	done
 
 GavenHangUpNotThursdayText:
-	text "I obsess over how"
-	line "to beat you."
+	text "Ako ta len" ; text "I obsess over how"
+	line "porazit." ; line "to beat you."
 	done
 
 GavenReminderText:
-	text "<PLAY_G>, why"
-	line "aren't you here?"
+	text "<PLAY_G>, preco" ; text "<PLAY_G>, why"
+	line "tu nie si?" ; line "aren't you here?"
 
-	para "I'll take you down"
-	line "with @"
+	para "Porazim ta" ; para "I'll take you down"
+	line "s @" ; line "with @"
 	text_ram wStringBuffer5
 	text "!"
 	done

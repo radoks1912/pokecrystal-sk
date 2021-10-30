@@ -1,72 +1,72 @@
 GavenAnswerPhoneText:
-	text "Hello, this is"
+	text "Ahoj, tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text " speaking…"
+	;text " speaking…" ; text " speaking…"
 
-	para "Hi, <PLAY_G>!"
-	line "Good morning!"
+	para "Cau, <PLAY_G>!" ; para "Hi, <PLAY_G>!"
+	line "Dobre rano!" ; line "Good morning!"
 	done
 
 GavenAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Ahoj, tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text " speaking…"
+	;text " speaking…" ; text " speaking…"
 
-	para "Hi, <PLAY_G>!"
+	para "Cau, <PLAY_G>!" ; para "Hi, <PLAY_G>!"
 	done
 
 GavenAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Ahoj, tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text " speaking…"
+	;text " speaking…" ; text " speaking…"
 
-	para "Hi, <PLAY_G>!"
-	line "Good evening!"
+	para "Cau, <PLAY_G>!" ; para "Hi, <PLAY_G>!"
+	line "Dobry vecer!" ; line "Good evening!"
 	done
 
 GavenGreetText:
-	text "<PLAY_G>, good"
-	line "morning!"
+	text "<PLAY_G>," ; text "<PLAY_G>, good"
+	line "dobre rano!" ; line "morning!"
 
-	para "It's me, @"
+	para "Tu je @" ; para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "How are you doing?"
+	line "Ako sa mas?" ; line "How are you doing?"
 	done
 
 GavenGreetDayText:
-	text "Hi, <PLAY_G>!"
+	text "Cau, <PLAY_G>!" ; text "Hi, <PLAY_G>!"
 
-	para "It's me, @"
+	para "Tu je @" ; para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "How are you doing?"
+	line "Ako sa mas?" ; line "How are you doing?"
 	done
 
 GavenGreetNiteText:
-	text "<PLAY_G>, good"
-	line "evening!"
+	text "<PLAY_G>," ; text "<PLAY_G>, good"
+	line "dobry vecer!" ; line "evening!"
 
-	para "It's me, @"
+	para "Tu je @" ; para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "How are you doing?"
+	line "Ako sa mas?" ; line "How are you doing?"
 	done
 
 GavenGenericText:
-	text "How are your"
-	line "#MON doing?"
+	text "Ako sa maju tvoji" ; text "How are your"
+	line "#MONi?" ; line "#MON doing?"
 
-	para "My @"
+	para "Moj @" ; para "My @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "doing as great as"
-	cont "ever."
+	;text "'s"
+	line "sa ma uplne" ; line "doing as great as"
+	cont "skvele." ; cont "ever."
 
-	para "Let's keep at it"
-	line "and become #MON"
-	cont "CHAMPS!"
+	para "Trenujme dalej" ; para "Let's keep at it"
+	line "a budeme #MON" ; line "and become #MON"
+	cont "CHAMPS!" ; cont "CHAMPS!"
 	done

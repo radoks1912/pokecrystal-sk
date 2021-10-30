@@ -1,72 +1,72 @@
 DanaAskNumber1Text:
-	text "You're really good"
-	line "at #MON!"
+	text "Si vazne dobry v" ; text "You're really good"
+	line "#MONoch!" ; line "at #MON!"
 
-	para "Boys give me items"
-	line "after battles, but"
+	para "Chlapci mi davaju" ; para "Boys give me items"
+	line "po zapasoch pred-" ; line "after battles, but"
 
-	para "sometimes they"
-	line "give me too much."
+	para "mety. Niekedy az" ; para "sometimes they"
+	line "prilis vela." ; line "give me too much."
 
-	para "Next time, I can"
-	line "share some if you"
+	para "Nabuduce ti z toho" ; para "Next time, I can"
+	line "mozem nieco dat," ; line "share some if you"
 
-	para "want. Let me get"
-	line "your phone number."
+	para "ak chces. Daj" ; para "want. Let me get"
+	line "mi tvoje cislo." ; line "your phone number."
 	done
 
 DanaAskNumber2Text:
-	text "I'll share my"
-	line "gifts with you."
+	text "Dam ti z mojich" ; text "I'll share my"
+	line "darcekov." ; line "gifts with you."
 
-	para "Let me get your"
-	line "phone number."
+	para "Daj mi svoje" ; para "Let me get your"
+	line "cislo." ; line "phone number."
 	done
 
 DanaNumberAcceptedText:
-	text "Next time a boy"
-	line "gives me something"
+	text "Nabuduce ked mi da" ; text "Next time a boy"
+	line "chlap darcek" ; line "gives me something"
 
-	para "after a battle,"
-	line "I'll share some!"
+	para "po zapase," ; para "after a battle,"
+	line "nieco ti dam!" ; line "I'll share some!"
 
-	para "Does that make me"
-	line "bad?"
+	para "Som zla" ; para "Does that make me"
+	line "osoba?" ; line "bad?"
 	done
 
 DanaNumberDeclinedText:
-	text "Aww, you don't"
-	line "want anything?"
+	text "Ou, tak ty" ; text "Aww, you don't"
+	line "nic nechces?" ; line "want anything?"
 
-	para "But it's all for"
-	line "free…"
+	para "Ale to je" ; para "But it's all for"
+	line "zdarma…" ; line "free…"
 	done
 
 DanaPhoneFullText:
-	text "But your phone's"
-	line "out of memory!"
+	text "Mas plnu" ; text "But your phone's"
+	line "pamat!" ; line "out of memory!"
 	done
 
 DanaRematchText:
-	text "You're really"
-	line "late!"
+	text "Ides velmi" ; text "You're really"
+	line "neskoro!" ; line "late!"
 
-	para "I'm eager to get"
-	line "going!"
+	para "Zachvilu musim" ; para "I'm eager to get"
+	line "ist!" ; line "going!"
 	done
 
 DanaGiftText:
-	text "Hi! Are you here"
-	line "for your gift?"
+	text "Cau! Prisiel si si" ; text "Hi! Are you here"
+	line "pre darcek?" ; line "for your gift?"
 
-	para "This should really"
-	line "make your day!"
+	para "Toto ti napravi" ; para "This should really"
+	line "tvoj den!" ; line "make your day!"
 	done
 
 DanaPackFullText:
-	text "Where are you"
-	line "going to put this?"
+	text "Nemas miesto" ; text "Where are you"
+	line "v batohu." ; line "going to put this?"
 
-	para "I'll keep it, so"
-	line "come get it later!"
+	para "Zatial ti to" ; para "I'll keep it, so"
+	line "postrazim!" ; line "come get it later!"
 	done

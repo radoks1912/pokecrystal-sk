@@ -1,68 +1,68 @@
 ErinAnswerPhoneText:
-	text "Yes, this is"
+	text "Ano, tu je" ; text "Yes, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh. Hi, <PLAY_G>!"
-	line "Good morning!"
+	para "Ahoj, <PLAY_G>!" ; para "Oh. Hi, <PLAY_G>!"
+	line "Dobre rano!" ; line "Good morning!"
 	done
 
 ErinAnswerPhoneDayText:
-	text "Yes, this is"
+	text "Ano, tu je" ; text "Yes, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, hi, <PLAY_G>!"
-	line "Yahoo!"
+	para "Ahoj, <PLAY_G>!" ; para "Oh, hi, <PLAY_G>!"
+	line "Jupi!" ; line "Yahoo!"
 	done
 
 ErinAnswerPhoneNiteText:
-	text "Yes, this is"
+	text "Ano, tu je" ; text "Yes, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, hi, <PLAY_G>!"
+	para "Ahoj, <PLAY_G>!" ; para "Oh, hi, <PLAY_G>!"
 	done
 
 ErinGreetText:
 	text "<PLAY_G>!"
 
-	para "It's @"
+	para "Tu @" ; para "It's @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Good morning!"
+	line "Dobre rano!" ; line "Good morning!"
 	done
 
 ErinGreetDayText:
 	text "<PLAY_G>!"
 
-	para "It's @"
+	para "Tu @" ; para "It's @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Working hard?"
+	line "Pracujes tvrdo?" ; line "Working hard?"
 	done
 
 ErinGreetNiteText:
 	text "<PLAY_G>!"
 
-	para "It's @"
+	para "Tu @" ; para "It's @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Were you up?"
+	line "Si hore?" ; line "Were you up?"
 	done
 
 ErinGenericText:
-	text "Are you raising"
-	line "your #MON?"
+	text "Vychovavas svojich" ; text "Are you raising"
+	line "#MONov?" ; line "your #MON?"
 
-	para "Hey, @"
+	para "Hej, @" ; para "Hey, @"
 	text_ram wStringBuffer3
-	text "'s"
+	;text "'s" ; text "'s"
 	line "@"
 	text_ram wStringBuffer4
-	text " is"
-	cont "looking good!"
+	text " vypada" ; text " is"
+	cont "dobre!" ; cont "looking good!"
 	done

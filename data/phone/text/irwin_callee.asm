@@ -1,55 +1,55 @@
 IrwinAnswerPhoneText:
-	text "Hello? @"
-	text_ram wStringBuffer3
+	text "Halo? @" ; text "Hello? @"
+	text_ram wStringBuffer3 
 	text_start
-	line "here…"
+	line "pri telefone…" ; line "here…"
 
-	para "Hey, <PLAY_G>!"
+	para "Hey, <PLAY_G>!" ; para "Hey, <PLAY_G>!"
 	done
 
 IrwinAnswerPhoneDayText:
-	text "Hello? @"
+	text "Halo? @" ; text "Hello? @"
 	text_ram wStringBuffer3
 	text_start
-	line "here…"
+	line "pri telefone…" ; line "here…"
 
-	para "Wow, <PLAY_G>!"
+	para "Wau, <PLAY_G>!" ; para "Wow, <PLAY_G>!"
 	done
 
 IrwinAnswerPhoneNiteText:
-	text "Hello? @"
+	text "Halo? @" ; text "Hello? @"
 	text_ram wStringBuffer3
 	text_start
-	line "here…"
+	line "pri telefone…" ; line "here…"
 
-	para "Yippee, <PLAY_G>!"
+	para "Juchu, <PLAY_G>!" ; para "Yippee, <PLAY_G>!"
 	done
 
 IrwinGreetText:
-	text "Uh, hello."
-	line "<PLAY_G>?"
+	text "Uh, halo." ; text "Uh, hello."
+	line "<PLAY_G>?" ; line "<PLAY_G>?"
 
-	para "It's your pal,"
+	para "Tu tvoj kamos," ; para "It's your pal,"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 IrwinGreetDayText:
-	text "Uh, hello,"
-	line "<PLAY_G>?"
+	text "Uh, halo," ; text "Uh, hello,"
+	line "<PLAY_G>?" ; line "<PLAY_G>?"
 
-	para "It's your buddy"
+	para "tu tvoj kamos" ; para "It's your buddy"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 IrwinGreetNiteText:
-	text "Uh, hello,"
-	line "<PLAY_G>?"
+	text "Uh, halo," ; text "Uh, hello,"
+	line "<PLAY_G>?" ; line "<PLAY_G>?"
 
-	para "It's your sidekick"
+	para "tu tvoj partak" ; para "It's your sidekick"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"

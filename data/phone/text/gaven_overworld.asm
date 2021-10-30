@@ -1,63 +1,63 @@
 GavenAskNumber1Text:
-	text "Wow, you're tough."
-	line "I haven't battled"
+	text "Wau, si silny." ; text "Wow, you're tough."
+	line "Takto huzevnato" ; line "I haven't battled"
 
-	para "that seriously in"
-	line "a long time."
+	para "som dlho" ; para "that seriously in"
+	line "nebojoval." ; line "a long time."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Das mi svoje" ; para "Could I get your"
+	line "cislo?" ; line "phone number?"
 
-	para "I'd like to battle"
-	line "again when I heal"
+	para "Chcem zapasit," ; para "I'd like to battle"
+	line "ked vyliecim" ; line "again when I heal"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " and the"
-	line "rest of my team."
+	text " a" ; text " and the"
+	line "zvysok timu." ; line "rest of my team."
 	done
 
 GavenAskNumber2Text:
-	text "Could I get your"
-	line "phone number?"
+	text "Das mi svoje" ; text "Could I get your"
+	line "cislo?"  ; line "phone number?"
 
-	para "I'd like to battle"
-	line "again when I heal"
+	para "Chcem zapasit zas," ; para "I'd like to battle"
+	line "ked vyliecim" ; line "again when I heal"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " and the"
-	line "rest of my team."
+	text " a" ; text " and the"
+	line "zvysok timu." ; line "rest of my team."
 	done
 
 GavenNumberAcceptedText:
-	text "How should I beat"
-	line "you? I'm tormented"
+	text "Ako ta porazit?" ; text "How should I beat"
+	line "Taketo myslienky" ; line "you? I'm tormented"
 
-	para "by those thoughts"
-	line "all the time…"
+	para "ma nahanaju" ; para "by those thoughts"
+	line "cely cas…" ; line "all the time…"
 	done
 
 GavenNumberDeclinedText:
-	text "OK… I understand…"
-	line "But if you change"
+	text "OK… Rozumiem…" ; text "OK… I understand…"
+	line "Ak si to rozmyslis" ; line "But if you change"
 
-	para "your mind, give me"
-	line "a shout anytime."
+	para "ozvi sa," ; para "your mind, give me"
+	line "kedykolvek." ; line "a shout anytime."
 	done
 
 GavenPhoneFullText:
-	text "Your phone's"
-	line "memory is full."
+	text "Tvoj telefon" ; text "Your phone's"
+	line "je plny." ; line "memory is full."
 
-	para "You can't register"
-	line "my number."
+	para "Nemozes si ulozit" ; para "You can't register"
+	line "moje cislo." ; line "my number."
 	done
 
 GavenRematchText:
-	text "Hi! I've been"
-	line "waiting for you!"
+	text "Cau! Ocakaval" ; text "Hi! I've been"
+	line "som ta!" ; line "waiting for you!"
 
-	para "This time, I'm"
-	line "going to win!"
+	para "Tentokrat" ; para "This time, I'm"
+	line "vyhram ja!" ; line "going to win!"
 	done

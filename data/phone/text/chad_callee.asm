@@ -1,78 +1,78 @@
 ChadAnswerPhoneText:
-	text "Hello, this is"
+	text "Ahoj, tu" ; text "Hello, this is"
 	line "@"
-	text_ram wStringBuffer3
+	text_ram wStringBuffer3 ; text_ram wStringBuffer3
 	text "…"
 
-	para "Hi, <PLAY_G>!"
-	line "Good morning!"
+	para "Cau, <PLAY_G>!" ; para "Hi, <PLAY_G>!"
+	line "Dobre rano!" ; line "Good morning!"
 	done
 
 ChadAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Ahoj, tu" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Hi, <PLAY_G>, good"
-	line "day!"
+	para "Cau, <PLAY_G>," ; para "Hi, <PLAY_G>, good"
+	line "dobry den!" ; line "day!"
 	done
 
 ChadAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Ahoj, tu" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Hi, <PLAY_G>, good"
-	line "evening!"
+	para "Cau, <PLAY_G>," ; para "Hi, <PLAY_G>, good"
+	line "dobry vecer!" ; line "evening!"
 	done
 
 ChadGreetText:
-	text "Hi, <PLAY_G>, good"
-	line "morning!"
+	text "Cau, <PLAY_G>," ; text "Hi, <PLAY_G>, good"
+	line "dobre rano!" ; line "morning!"
 
-	para "It's @"
+	para "Tu @" ; para "It's @"
 	text_ram wStringBuffer3
 	text "."
-	line "How are you?"
+	line "Ako sa mas?" ; line "How are you?"
 	done
 
 ChadGreetDayText:
-	text "Hi, <PLAY_G>, good"
-	line "day!"
+	text "Cau, <PLAY_G>," ; text "Hi, <PLAY_G>, good"
+	line "dobry den!" ; line "day!"
 
-	para "It's @"
+	para "Tu @" ; para "It's @"
 	text_ram wStringBuffer3
 	text "."
-	line "How are you?"
+	line "Ako sa mas?" ; line "How are you?"
 	done
 
 ChadGreetNiteText:
-	text "Hi, <PLAY_G>, good"
-	line "evening!"
+	text "Cau, <PLAY_G>," ; text "Hi, <PLAY_G>, good"
+	line "dobry vecer!" ; line "evening!"
 
-	para "It's @"
+	para "It's @" ; para "It's @"
 	text_ram wStringBuffer3
 	text "."
-	line "How are you?"
+	line "Ako sa mas?" ; line "How are you?"
 	done
 
 ChadGenericText:
-	text "How are your"
-	line "#MON doing?"
+	text "Ako sa maju tvoji" ; text "How are your"
+	line "#MONi?" ; line "#MON doing?"
 
-	para "You know PROF.OAK,"
-	line "so of course your"
-	cont "#MON are fine!"
+	para "Poznas PROF.OAKa," ; para "You know PROF.OAK,"
+	line "takze samozrejme," ; line "so of course your"
+	cont "ze dobre!" ; cont "#MON are fine!"
 
-	para "My #MON are"
-	line "doing well too."
+	para "Moji #MONi sa" ; para "My #MON are"
+	line "maju tiez dobre." ; line "doing well too."
 
-	para "But then, I am"
-	line "trying to become a"
+	para "Ale snazim sa"  ;para "But then, I am"
+	line "stat" ; line "trying to become a"
 
-	para "#MON professor,"
-	line "so that shouldn't"
-	cont "be a big surprise."
+	para "#MON profesorom," ; para "#MON professor,"
+	line "takze to nie je" ; line "so that shouldn't"
+	cont "velke prekvapenie." ; cont "be a big surprise."
 	done

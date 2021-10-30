@@ -1,289 +1,289 @@
 IrwinHangUpText:
-	text "I hate having to"
-	line "hang up on you!"
+	text "Som smutny, ze" ; text "I hate having to"
+	line "musim zavesit!" ; line "hang up on you!"
 
-	para "Call you later!"
+	para "Ozvem sa neskor!" ; para "Call you later!"
 	done
 
 IrwinRocketTakeoverRumorText:
-	text "<PLAY_G>, have you"
-	line "heard?"
+	text "<PLAY_G>," ; text "<PLAY_G>, have you"
+	line "pocul si o tom?" ; line "heard?"
 
-	para "GOLDENROD's RADIO"
-	line "TOWER has been"
+	para "GOLDENROD RADIO" ; para "GOLDENROD's RADIO"
+	line "TOWER bola" ; line "TOWER has been"
 
-	para "taken over by TEAM"
-	line "ROCKET!"
+	para "obsadena TEAMom" ; para "taken over by TEAM"
+	line "ROCKET!" ; line "ROCKET!"
 
-	para "…Um… What's TEAM"
-	line "ROCKET?"
+	para "…Hm… Co je TEAM" ; para "…Um… What's TEAM"
+	line "ROCKET?" ; line "ROCKET?"
 	done
 
 IrwinPlainBadgeGossipText:
-	text "<PLAY_G>, I heard!"
+	text "<PLAY_G>," ; text "<PLAY_G>, I heard!"
 
-	para "You defeated that"
-	line "WHITNEY?"
+	para "Porazil si" ; para "You defeated that"
+	line "WHITNEY?" ; line "WHITNEY?"
 
-	para "It makes me proud"
-	line "to be your friend!"
+	para "Som na teba hrdy" ; para "It makes me proud"
+	line "ako kamarat!" ; line "to be your friend!"
 	done
 
 IrwinJasmineReturnedGossipText:
-	text "Hey, I heard about"
-	line "you!"
+	text "Hej, pocul som" ; text "Hey, I heard about"
+	line "o tebe!" ; line "you!"
 
-	para "You saved that"
-	line "#MON at the"
+	para "Zachranil si toho" ; para "You saved that"
+	line "#MONa v" ; line "#MON at the"
 
-	para "LIGHTHOUSE, didn't"
-	line "you?"
+	para "MAJAKU, vsak-" ; para "LIGHTHOUSE, didn't"
+	line "ze?" ; line "you?"
 
-	para "<PLAY_G>, I wish"
-	line "you'd come see me"
+	para "<PLAY_G>, zelal by" ; para "<PLAY_G>, I wish"
+	line "som si, aby si ma" ; line "you'd come see me"
 
-	para "when I'm sick in"
-	line "bed with a cold!"
+	para "prisiel pozret," ; para "when I'm sick in"
+	line "ked budem chory!" ; line "bed with a cold!"
 	done
 
 IrwinRocketHideoutGossipText:
-	text "I heard, I heard,"
-	line "I heard!"
+	text "Pocul som, pocul" ; text "I heard, I heard,"
+	line "som!" ; line "I heard!"
 
-	para "You smashed TEAM"
-	line "ROCKET's hideout!"
+	para "Rozbil si TEAM" ; para "You smashed TEAM"
+	line "ROCKET ukryt!" ; line "ROCKET's hideout!"
 
-	para "You're like a"
-	line "movie hero, even!"
+	para "Si ako hrdina z" ; para "You're like a"
+	line "filmu!" ; line "movie hero, even!"
 
-	para "But um… What was"
-	line "TEAM ROCKET?"
+	para "Ale… Kto su" ; para "But um… What was"
+	line "TEAM ROCKET?" ; line "TEAM ROCKET?"
 	done
 
 IrwinRadioTowerGossipText:
-	text "I heard, I heard,"
-	line "I heard!"
+	text "Pocul som, pocul" ; text "I heard, I heard,"
+	line "som!" ; line "I heard!"
 
-	para "About your heroic"
-	line "liberation of the"
+	para "O tvojom legenda-" ; para "About your heroic"
+	line "rnom oslobodeni" ; line "liberation of the"
 
-	para "RADIO TOWER! You"
-	line "rock so hard!"
+	para "RADIO TOWER!" ; para "RADIO TOWER! You"
+	line "Si uzasny!" ; line "rock so hard!"
 	done
 
 IrwinRisingBadgeGossipText:
-	text "I saw, I saw!"
+	text "Videl som, videl!" ; text "I saw, I saw!"
 
-	para "I saw you go into"
-	line "the DRAGON'S DEN!"
+	para "Videl som ta ist" ; para "I saw you go into"
+	line "do DRAGON'S DEN!" ; line "the DRAGON'S DEN!"
 
-	para "I'm certain you"
-	line "passed! Aww, no"
+	para "Som si isty, ze si" ; para "I'm certain you"
+	line "presiel! Oh," ; line "passed! Aww, no"
 
-	para "need to be modest!"
-	line "You can't fail!"
+	para "ziadna skromnost!" ; para "need to be modest!"
+	line "Nemozes zlyhat!" ; line "You can't fail!"
 	done
 
 IrwinEliteFourGossipText:
-	text "Yesterday, I went"
-	line "out to NEW BARK"
+	text "Vcera som isiel" ; text "Yesterday, I went"
+	line "do NEW BARK" ; line "out to NEW BARK"
 
-	para "TOWN.  There was a"
-	line "lady who looked a"
+	para "TOWN. Bola tam" ; para "TOWN.  There was a"
+	line "pani podobna" ; line "lady who looked a"
 
-	para "lot like you,"
+	para "tebe," ; para "lot like you,"
 	line "<PLAY_G>."
 
-	para "What? That lady"
-	line "was your mom?"
+	para "Coze? Ta pani" ; para "What? That lady"
+	line "bola tvoja mama?" ; line "was your mom?"
 
-	para "Aww, I should've"
-	line "introduced myself!"
+	para "Ach, mal som sa" ; para "Aww, I should've"
+	line "predstavit!" ; line "introduced myself!"
 
-	para "I bet your mom's"
-	line "really proud of"
+	para "Stavim sa, ze je" ; para "I bet your mom's"
+	line "na teba hrda za" ; line "really proud of"
 
-	para "all that you've"
-	line "accomplished."
+	para "vsetky tvoje" ; para "all that you've"
+	line "zasluhy." ; line "accomplished."
 
-	para "Heh, put it this"
-	line "way. I'd be proud"
+	para "Keby som ja tvoja" ; para "Heh, put it this"
+	line "mama, tak som na" ; line "way. I'd be proud"
 
-	para "if I were your"
-	line "mom, believe me!"
+	para "teba hrdy," ; para "if I were your"
+	line "ver mi!" ; line "mom, believe me!"
 	done
 
 IrwinVermilionCityGossipText:
-	text "I saw, I saw,"
-	line "I saw!"
+	text "Videl som, videl" ; text "I saw, I saw,"
+	line "som!" ; line "I saw!"
 
-	para "You striding onto"
-	line "a ship, <PLAY_G>!"
+	para "Teba kracat na" ; para "You striding onto"
+	line "lod, <PLAY_G>!" ; line "a ship, <PLAY_G>!"
 
-	para "I can't get over"
-	line "how good you look"
+	para "Vyzeras velmi" ; para "I can't get over"
+	line "dobre, ked mas" ; line "how good you look"
 
-	para "with the sea as"
-	line "your backdrop!"
+	para "za sebou more" ; para "with the sea as"
+	line "ako pozadie!" ; line "your backdrop!"
 	done
 
 IrwinTrainPassGossipText:
-	text "I heard, I heard!"
+	text "Pocul som, pocul!" ; text "I heard, I heard!"
 
-	para "You got a MAGNET"
-	line "TRAIN PASS!"
+	para "Dostal si MAGNET" ; para "You got a MAGNET"
+	line "TRAIN LISTOK!" ; line "TRAIN PASS!"
 
-	para "When I saw you"
-	line "departing on the"
+	para "Ked som ta videl" ; para "When I saw you"
+	line "odchadzat na" ; line "departing on the"
 
-	para "ship, I felt sad"
-	line "that I wouldn't be"
+	para "lod, ostal som" ; para "ship, I felt sad"
+	line "smutny, ze ta" ; line "that I wouldn't be"
 
-	para "able to see you"
-	line "for a while."
+	para "chvilu vobec" ; para "able to see you"
+	line "neuvidim." ; line "for a while."
 
-	para "But since you have"
-	line "that PASS, you can"
+	para "Ale ked mas ten" ; para "But since you have"
+	line "LISTOK, mozes sa" ; line "that PASS, you can"
 
-	para "zip back anytime!"
-	line "That's reassuring!"
+	para "kedykolvek vratit!" ; para "zip back anytime!"
+	line "To znie dobre!" ; line "That's reassuring!"
 
-	para "What? You can FLY"
-	line "back anytime?"
+	para "Coze? Mozes LETIET" ; para "What? You can FLY"
+	line "kedykolvek spat?" ; line "back anytime?"
 
-	para "What do you mean"
-	line "by FLY?"
+	para "Co tym myslis" ; para "What do you mean"
+	line "LETIET?" ; line "by FLY?"
 	done
 
 IrwinSnorlaxGossipText:
-	text "I saw, I saw!"
+	text "Videl som, videl!" ; text "I saw, I saw!"
 
-	para "You waking up"
-	line "SNORLAX!"
+	para "Ako si prebudil" ; para "You waking up"
+	line "SNORLAXa!" ; line "SNORLAX!"
 
-	para "I was watching you"
-	line "from afar, so I"
+	para "Pozeral som sa z" ; para "I was watching you"
+	line "z dialky, tak som" ; line "from afar, so I"
 
-	para "couldn't tell what"
-	line "you did exactly."
+	para "nevidel, co presne" ; para "couldn't tell what"
+	line "si urobil." ; line "you did exactly."
 
-	para "Did you play a"
-	line "flute to wake it?"
+	para "Zahral si mu na" ; para "Did you play a"
+	line "flaute?" ; line "flute to wake it?"
 
-	para "Wow! That's like"
-	line "magic!"
+	para "Wau! Ako" ; para "Wow! That's like"
+	line "zazrak!" ; line "magic!"
 	done
 
 IrwinMtSilverGossipText:
-	text "I hear rumors"
-	line "about you all over"
-	cont "the place."
+	text "Pocul som o tebe" ; text "I hear rumors"
+	line "chyry z kazdej" ; line "about you all over"
+	cont "strany." ; cont "the place."
 
-	para "It just makes me"
-	line "sigh, <PLAY_G>."
+	para "Stale nad tebou" ; para "It just makes me"
+	line "zasnem, <PLAY_G>." ; line "sigh, <PLAY_G>."
 
-	para "How did you get so"
-	line "strong?"
+	para "Ako si tak" ; para "How did you get so"
+	line "zosilnel?" ; line "strong?"
 
-	para "Go for the world"
-	line "championship now!"
+	para "Chod teraz na" ; para "Go for the world"
+	line "svetovy sampionat!" ; line "championship now!"
 
-	para "I'll always be"
-	line "cheering you on!"
+	para "Vzdy ta budem" ; para "I'll always be"
+	line "povzbudzovat!" ; line "cheering you on!"
 	done
 
 IrwinCalledRightAwayText:
-	text "Hehe, I called"
-	line "right away!"
+	text "Hehe, zavolal" ; text "Hehe, I called"
+	line "som ti hned!" ; line "right away!"
 
-	para "I think we can be"
-	line "good friends!"
+	para "Myslim, ze mozme" ; para "I think we can be"
+	line "byt kamarati!" ; line "good friends!"
 	done
 
 IrwinFogBadgeGossipText:
-	text "I saw, I heard!"
+	text "Videl som, pocul!" ; text "I saw, I heard!"
 
-	para "You beat MORTY of"
-	line "ECRUTEAK GYM!"
+	para "Porazil si MORTYho" ; para "You beat MORTY of"
+	line "z ECRUTEAK GYM!" ; line "ECRUTEAK GYM!"
 
-	para "Th-that's just"
-	line "incredible!"
+	para "To je" ; para "Th-that's just"
+	line "neskutocne!" ; line "incredible!"
 
-	para "I actually went to"
-	line "the GYM's entrance"
+	para "Vlastne som siel" ; para "I actually went to"
+	line "ku vchodu GYMu" ; line "the GYM's entrance"
 
-	para "to cheer you on."
-	line "Did you know that?"
+	para "povzbudit ta." ; para "to cheer you on."
+	line "Vedel si to?" ; line "Did you know that?"
 
-	para "But everyone was"
-	line "floating, and"
+	para "Ale bolo" ; para "But everyone was"
+	line "tam dost" ; line "floating, and"
 
-	para "there were ghosts"
-	line "all over! So I"
+	para "duchov vsade" ; para "there were ghosts"
+	line "navokol! Tak" ; line "all over! So I"
 
-	para "chickened out and"
-	line "took off for home…"
+	para "som utiekol" ; para "chickened out and"
+	line "domov…" ; line "took off for home…"
 	done
 
 IrwinMarshBadgeGossipText:
-	text "<PLAY_G>, I heard!"
+	text "<PLAY_G>,!" ; text "<PLAY_G>, I heard!"
 
-	para "You're kicking up"
-	line "a mighty ruckus"
+	para "Rozprava o tebe" ; para "You're kicking up"
+	line "celucicke" ; line "a mighty ruckus"
 
-	para "over in KANTO!"
-	line "What a glorious"
+	para "KANTO!" ; para "over in KANTO!"
+	line "Ake uzasne" ; line "What a glorious"
 
-	para "rampage it must"
-	line "be!"
+	para "to musi" ; para "rampage it must"
+	line "byt!" ; line "be!"
 
-	para "You so rock!"
+	para "Si uzasny!" ; para "You so rock!"
 	done
 
 IrwinYourEscapadesRockText:
-	text "Hearing about your"
-	line "escapades rocks my"
+	text "Ked som pocul o" ; text "Hearing about your"
+	line "tvojich eskapadach" ; line "escapades rocks my"
 
-	para "soul!"
-	line "It sure does!"
+	para "skvele!" ; para "soul!"
+	line "Fakt skvele!" ; line "It sure does!"
 	done
 
 IrwinGoodMatchText:
-	text "I'm so glad you"
-	line "called!"
+	text "Som rad, ze" ; text "I'm so glad you"
+	line "volas!" ; line "called!"
 
-	para "I was just about"
-	line "to call you too!"
+	para "Prave som ti chcel" ; para "I was just about"
+	line "sam zavolat!" ; line "to call you too!"
 
-	para "I guess we must be"
-	line "a good match!"
+	para "Sme na rovnakej" ; para "I guess we must be"
+	line "vlne!" ; line "a good match!"
 	done
 
 IrwinSoMuchToChatAboutText:
-	text "How are you?"
+	text "Ako sa mas?" ; text "How are you?"
 
-	para "What are you"
-	line "doing?"
+	para "Co take" ; para "What are you"
+	line "robis?" ; line "doing?"
 
-	para "Where are you?"
+	para "Kde si?" ; para "Where are you?"
 
-	para "How many BADGES do"
-	line "you have now?"
+	para "Kolko mas ODZNAKOV" ; para "How many BADGES do"
+	line "prave teraz?" ; line "you have now?"
 
-	para "How much money"
-	line "have you saved?"
+	para "Kolko penazi si" ; para "How much money"
+	line "usetril?" ; line "have you saved?"
 
-	para "How's your mom?"
+	para "Ako sa ma mama?" ; para "How's your mom?"
 
-	para "Have you got lots"
-	line "of #MON?"
+	para "Mas uz vela" ; para "Have you got lots"
+	line "#MONov?" ; line "of #MON?"
 
-	para "Is it going to be"
-	line "sunny tomorrow?"
+	para "Bude zajtra" ; para "Is it going to be"
+	line "slnecno?" ; line "sunny tomorrow?"
 
-	para "Arrgh, there's so"
-	line "much I want to"
+	para "Ach, je tolko tem" ; para "Arrgh, there's so"
+	line "o ktorych sa chcem" ; line "much I want to"
 
-	para "chat about! This"
-	line "is going nowhere!"
+	para "rozpravat! Takto" ; para "chat about! This"
+	line "to nepojde!" ; line "is going nowhere!"
 	done

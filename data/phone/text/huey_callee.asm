@@ -1,59 +1,59 @@
 HueyAnswerPhoneText:
-	text "Yeah, this is"
+	text "Halo, tu je" ; text "Yeah, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Huh? What's up,"
+	para "Hm? Co sa deje," ; para "Huh? What's up,"
 	line "<PLAYER>?"
 	done
 
 HueyAnswerPhoneDayText:
-	text "Yeah, this is"
+	text "Halo, tu je" ; text "Yeah, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Huh? What's up"
+	para "Hm? Co sa deje" ; para "Huh? What's up"
 	line "<PLAYER>?"
 	done
 
 HueyAnswerPhoneNiteText:
-	text "Yeah, this is"
+	text "Halo, tu je" ; text "Yeah, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Huh? What's up"
+	para "Hm? Co sa deje" ; para "Huh? What's up"
 	line "<PLAYER>?"
 	done
 
 HueyGreetText:
-	text "Yo, <PLAYER>!"
-	line "You awake?"
+	text "Jou, <PLAYER>!" ; text "Yo, <PLAYER>!"
+	line "Si hore?" ; line "You awake?"
 
-	para "It's me, @"
+	para "Tu je @" ; para "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
-	line "How's it going?"
+	line "Ako to ide?" ; line "How's it going?"
 	done
 
 HueyGreetDayText:
-	text "Yo, <PLAYER>! You"
-	line "free right now?"
+	text "Jou, <PLAYER>!" ; text "Yo, <PLAYER>! You"
+	line "Mas sekundu?" ; line "free right now?"
 
-	para "It's me, @"
+	para "Tu je @" ; para "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
-	line "How's it going?"
+	line "Ako to ide?" ; line "How's it going?"
 	done
 
 HueyGreetNiteText:
-	text "Yo, <PLAYER>!"
-	line "Were you asleep?"
+	text "Jou, <PLAYER>!" ; text "Yo, <PLAYER>!"
+	line "Spis?" ; line "Were you asleep?"
 
-	para "It's me, @"
+	para "Tu je @" ; para "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
-	line "How's it going?"
+	line "Ako to ide?" ; line "How's it going?"
 	done

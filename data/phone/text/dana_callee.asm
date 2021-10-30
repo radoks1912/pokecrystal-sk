@@ -1,68 +1,68 @@
 DanaAnswerPhoneText:
-	text "Hi, @"
+	text "Cau, @" ; text "Hi, @"
 	text_ram wStringBuffer3
-	text " on the"
-	line "line."
+	text " pri" ; text " on the"
+	line "telefone." ; line "line."
 
-	para "Hey! It's <PLAY_G>!"
+	para "Ahoj <PLAY_G>!" ; para "Hey! It's <PLAY_G>!"
 	done
 
 DanaAnswerPhoneDayText:
-	text "Hi, @"
+	text "Cau, @" ; text "Hi, @"
 	text_ram wStringBuffer3
-	text " on the"
-	line "line."
+	text " pri" ; text " on the"
+	line "telefone." ; line "line."
 
-	para "I know!"
-	line "It's <PLAY_G>!"
+	para "Viem!" ; para "I know!"
+	line "Ty si <PLAY_G>!"
 	done
 
 DanaAnswerPhoneNiteText:
-	text "Hi, @"
+	text "Cau, @" ; text "Hi, @"
 	text_ram wStringBuffer3
-	text " on the"
-	line "line."
+	text " pri" ; text " on the"
+	line "telefone."
 
-	para "<PLAY_G>?"
-	line "What's up?"
+	para "<PLAY_G>?" ; para "<PLAY_G>?"
+	line "Ako to ide?" ; line "What's up?"
 	done
 
 DanaGreetText:
-	text "Uh, <PLAY_G>?"
+	text "Uh, <PLAY_G>?" ; text "Uh, <PLAY_G>?"
 
-	para "It's me!"
-	line "It's me, @"
+	para "To som ja!" ; para "It's me!"
+	line "To som ja, @" ; line "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 DanaGreetDayText:
-	text "Uh, <PLAY_G>?"
+	text "Uh, <PLAY_G>?" ; text "Uh, <PLAY_G>?"
 
-	para "It's me!"
-	line "It's me, @"
+	para "To som ja!" ; para "It's me!"
+	line "To som ja, @" ; line "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 DanaGreetNiteText:
-	text "Uh, <PLAY_G>?"
+	text "Uh, <PLAY_G>?" ; text "Uh, <PLAY_G>?"
 
-	para "It's me!"
-	line "It's me, @"
+	para "To som ja!" ; para "It's me!"
+	line "To som ja, @" ; line "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 DanaGenericText:
-	text "My @"
+	text "Moj @" ; text "My @"
 	text_ram wStringBuffer4
-	text " is"
-	line "so full of energy,"
+	text " je" ; text " is"
+	line "tak plny energie," ; line "so full of energy,"
 
-	para "it's a little"
-	line "scary."
+	para "ze sa trosku" ; para "it's a little"
+	line "bojim." ; line "scary."
 
-	para "How are your"
-	line "#MON doing?"
+	para "Ako sa maju tvoji" ; para "How are your"
+	line "#MONi?" ; line "#MON doing?"
 	done

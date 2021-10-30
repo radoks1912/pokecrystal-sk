@@ -1,66 +1,66 @@
 GinaAnswerPhoneText:
-	text "Hello? This is"
+	text "Halo? Tu je" ; text "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, <PLAY_G>!"
-	line "Good morning!"
+	para "Oh, <PLAY_G>!" ; para "Oh, <PLAY_G>!"
+	line "Dobre rano!" ; line "Good morning!"
 	done
 
 GinaAnswerPhoneDayText:
-	text "Hello? This is"
+	text "Halo? Tu je" ; text "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, <PLAY_G>!"
-	line "Hi, how are you?"
+	para "Oh, <PLAY_G>!" ; para "Oh, <PLAY_G>!"
+	line "Ahoj, ako sa mas?" ; line "Hi, how are you?"
 	done
 
 GinaAnswerPhoneNiteText:
-	text "Hello? This is"
+	text "Halo? Tu je" ; text "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, <PLAY_G>!"
-	line "Good evening!"
+	para "Oh, <PLAY_G>!" ; para "Oh, <PLAY_G>!"
+	line "Dobry vecer!" ; line "Good evening!"
 	done
 
 GinaGreetText:
 	text "<PLAY_G>?"
 
-	para "It's @"
+	para "Tu @" ; para "It's @"
 	text_ram wStringBuffer3
 	text "."
-	line "Good morning!"
+	line "Dobre rano!" ; line "Good morning!"
 	done
 
 GinaGreetDayText:
 	text "<PLAY_G>?"
 
-	para "It's @"
+	para "Tu @" ; para "It's @"
 	text_ram wStringBuffer3
-	text ". Is"
-	line "this a bad time?"
+	text "." ; text ". Is"
+	line "Mas cas?" ; line "this a bad time?"
 	done
 
 GinaGreetNiteText:
 	text "<PLAY_G>?"
 
-	para "It's @"
+	para "Tu @" ; para "It's @"
 	text_ram wStringBuffer3
 	text "."
-	line "Got time to chat?"
+	line "Mas sekundu?" ; line "Got time to chat?"
 	done
 
 GinaGenericText:
-	text "Are your #MON"
-	line "still tough?"
+	text "Su tvoji #MON" ; text "Are your #MON"
+	line "stale silni?" ; line "still tough?"
 
-	para "I train every day"
-	line "with @"
+	para "Ja trenujem kazdy" ; para "I train every day"
+	line "den s @"
 	text_ram wStringBuffer4
 	text "."
 	done

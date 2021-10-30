@@ -1,63 +1,63 @@
 ErinAskNumber1Text:
-	text "It really made me"
-	line "angry to lose."
+	text "Vazne ma nahnevala" ; text "It really made me"
+	line "ta prehra." ; line "angry to lose."
 
-	para "I'll have to train"
-	line "much harder…"
+	para "Musim viac" ; para "I'll have to train"
+	line "trenovat…"  ; line "much harder…"
 
-	para "Here's my number."
-	line "I'm ERIN--don't"
+	para "Tu je moje cislo." ; para "Here's my number."
+	line "Som ERIN--" ; line "I'm ERIN--don't"
 
-	para "forget! Want to"
-	line "battle me again?"
+	para "nezabudni! Chces" ; para "forget! Want to"
+	line "znova zapasit?" ; line "battle me again?"
 	done
 
 ErinAskNumber2Text:
-	text "I want to battle"
-	line "with you again."
+	text "Chcem s tebou raz" ; text "I want to battle"
+	line "znova zapasit." ; line "with you again."
 
-	para "Do you want to"
-	line "exchange numbers?"
+	para "Vymenime si" ; para "Do you want to"
+	line "cisla?" ; line "exchange numbers?"
 	done
 
 ErinNumberAcceptedText:
-	text "I'll remember to"
-	line "call when I want"
-	cont "to battle again!"
+	text "Zavolam ti, ked" ; text "I'll remember to"
+	line "budem chciet znova" ; line "call when I want"
+	cont "zapasit!" ; cont "to battle again!"
 	done
 
 ErinNumberDeclinedText:
-	text "Oh… I'm sad…"
-	line "If you do want to"
+	text "Och… Smutne…" ; text "Oh… I'm sad…"
+	line "Ak chces znova" ; line "If you do want to"
 
-	para "battle, come see"
-	line "ERIN--that's me!"
+	para "zapasit, prid." ; para "battle, come see"
+	line "ERIN--to som ja!" ; line "ERIN--that's me!"
 	done
 
 ErinPhoneFullText:
-	text "Oh no. Your phone"
-	line "is all filled up."
+	text "Och, mas plnu" ; text "Oh no. Your phone"
+	line "pamat v telefone." ; line "is all filled up."
 	done
 
 ErinRematchText:
-	text "Yay! I waited!"
-	line "Let's start now!"
+	text "Jej! Dockala som" ; text "Yay! I waited!"
+	line "sa, podme na to!" ; line "Let's start now!"
 	done
 
 ErinPackFullText:
-	text "That's too bad!"
-	line "You have no room…"
+	text "Dokelu! Nemas" ; text "That's too bad!"
+	line "miesto v batohu…" ; line "You have no room…"
 
-	para "I'll give it to"
-	line "you another time."
+	para "Dam ti to" ; para "I'll give it to"
+	line "nabuduce." ; line "you another time."
 	done
 
 ErinRematchGiftText:
-	text "Aww… I lost again!"
+	text "Och… Zase prehra!" ; text "Aww… I lost again!"
 
-	para "I wonder how many"
-	line "times that is…"
+	para "Som zvedava, kolka" ; para "I wonder how many"
+	line "to uz je…" ; line "times that is…"
 
-	para "Thanks for coming!"
-	line "Here's a present!"
+	para "Dakujem!" ; para "Thanks for coming!"
+	line "Tu mas darcek!" ; line "Here's a present!"
 	done

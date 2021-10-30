@@ -1,105 +1,105 @@
 DerekCheekPinchingText:
-	text "Listen to this."
-	line "My @"
+	text "Pocuvaj toto." ; text "Listen to this."
+	line "Moj @" ; line "My @"
 	text_ram wStringBuffer4
 	text_start
-	para "grins happily when"
-	line "I pinch its cheek."
+	para "sa uskrna ked" ; para "grins happily when"
+	line "mu postipem lico." ; line "I pinch its cheek."
 
-	para "But it never grins"
-	line "for anyone else."
+	para "Nikdy sa neuskrnie" ; para "But it never grins"
+	line "nikomu inemu." ; line "for anyone else."
 
-	para "I must be special."
+	para "Som jedinecny." ; para "I must be special."
 	done
 
 DerekDefeatedMonText:
-	text "Oh, and recently,"
-	line "my PIKACHU beat a"
-	cont "wild @"
+	text "Prednedavnom moj," ; text "Oh, and recently,"
+	line "PIKACHU porazil" ; line "my PIKACHU beat a"
+	cont "divokeho @" ; cont "wild @"
 	text_ram wStringBuffer4
 	text "!"
 
-	para "A wild @"
+	para "Divokeho @" ; para "A wild @"
 	text_ram wStringBuffer4
 	text ","
-	line "I tell you!"
+	line "ved vravim!" ; line "I tell you!"
 
-	para "Don't you think"
-	line "that's astounding?"
+	para "Nemyslis, ze to je" ; para "Don't you think"
+	line "ohromujuce?" ; line "that's astounding?"
 
-	para "My PIKACHU is"
-	line "awesome!"
+	para "Moj PIKACHU je" ; para "My PIKACHU is"
+	line "skvely!" ; line "awesome!"
 
-	para "My PIKACHU is the"
-	line "greatest!"
+	para "Moj PIKACHU je" ; para "My PIKACHU is the"
+	line "najlepsi!" ; line "greatest!"
 	done
 
 DerekLostAMonText:
-	text "Oh, and I saw a"
-	line "wild @"
+	text "Ou, videl som" ; text "Oh, and I saw a"
+	line "divokeho @" ; line "wild @"
 	text_ram wStringBuffer4
-	text " a"
-	cont "little while ago."
+	text " pred" ; text " a"
+	cont "par dnami." ; cont "little while ago."
 
-	para "But it wasn't very"
-	line "cute, so I left"
+	para "Ale nebol velmi" ; para "But it wasn't very"
+	line "zlaty, tak som ho" ; line "cute, so I left"
 
-	para "it…"
-	line "#MON have to be"
+	para "nechal tak…" ; para "it…"
+	line "#MON musi byt" ; line "#MON have to be"
 
-	para "cute. They're no"
-	line "good otherwise."
+	para "zlaty. Inak nie je" ; para "cute. They're no"
+	line "dobry." ; line "good otherwise."
 	done
 
 DerekHangUpText:
-	text "Well, let's talk"
-	line "again!"
+	text "Zavolajme si" ; text "Well, let's talk"
+	line "znova!" ; line "again!"
 	done
 
 DerekBugCatchingContestText:
-	text "Did you remember?"
-	line "The Bug-Catching"
-	cont "Contest is today."
+	text "Spominas si?" ; text "Did you remember?"
+	line "Hmyzova sutaz" ; line "The Bug-Catching"
+	cont "je prave dnes." ; cont "Contest is today."
 
-	para "You're going to"
-	line "go, aren't you?"
+	para "Zucastnis sa," ; para "You're going to"
+	line "vsakze?" ; line "go, aren't you?"
 
-	para "I think I'll"
-	line "participate with"
+	para "Myslim, ze si" ; para "I think I'll"
+	line "zvolim" ; line "participate with"
 
-	para "PIKACHU to show"
-	line "off its cuteness."
+	para "PIKACHU a ukazem" ; para "PIKACHU to show"
+	line "jeho roztomilost." ; line "off its cuteness."
 	done
 
 DerekFoundItemText:
-	text "I'd like you to"
-	line "have a NUGGET."
+	text "Tu mas tuto" ; text "I'd like you to"
+	line "NUGGET." ; line "have a NUGGET."
 
-	para "My PIKACHU just"
-	line "loves it."
+	para "Moj PIKACHU ju" ; para "My PIKACHU just"
+	line "zboznuje." ; line "loves it."
 
-	para "I'm certain your"
-	line "PIKACHU will love"
-	cont "it too!"
+	para "Som si isty, ze" ; para "I'm certain your"
+	line "tvoj PIKACHU si ju" ; line "PIKACHU will love"
+	cont "tiez oblubi!" ; cont "it too!"
 	done
 
 DerekLetsGetTogetherText:
-	text "How is your"
-	line "PIKACHU doing?"
+	text "Ako sa ma tvoj" ; text "How is your"
+	line "PIKACHU?" ; line "PIKACHU doing?"
 
-	para "Let's get together"
-	line "and brag about our"
-	cont "PIKACHU!"
+	para "Stretnime sa a" ; para "Let's get together"
+	line "pochvalme sa" ; line "and brag about our"
+	cont "PIKACHUami!" ; cont "PIKACHU!"
 	done
 
 DerekComePickUpText:
-	text "What's wrong?"
+	text "Co sa deje?" ; What's wrong
 
-	para "I'm waiting on"
+	para "Cakam ta na" ; para "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Come pick this up"
-	line "anytime."
+	para "Prid si to" ; para "Come pick this up"
+	line "vyzdvihnut." ; line "anytime."
 	done

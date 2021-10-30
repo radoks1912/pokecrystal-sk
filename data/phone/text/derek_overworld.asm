@@ -1,61 +1,61 @@
 DerekAskNumber1Text:
-	text "Oh, wow! PIKACHU!"
-	line "It's so soft and"
-	cont "furry! How cute!"
+	text "Oh, wau! PIKACHU!" ; text "Oh, wow! PIKACHU!"
+	line "Je tak makky a" ; line "It's so soft and"
+	cont "chlpaty! Mile!" ; cont "furry! How cute!"
 
-	para "Let's be friends!"
-	line "PIKACHU-lovers are"
-	cont "never bad people!"
+	para "Budme priatelia!" ;para "Let's be friends!"
+	line "PIKACHU obdivo-" ; line "PIKACHU-lovers are"
+	cont "vatelia su skveli!" ; cont "never bad people!"
 
-	para "Let's chat about"
-	line "PIKACHU!"
+	para "Pokecajme o" ; para "Let's chat about"
+	line "PIKACHU!" ; line "PIKACHU!"
 
-	para "Can I get your"
-	line "phone number?"
+	para "Das mi svoje" ; para "Can I get your"
+	line "cislo?" ; line "phone number?"
 	done
 
 DerekAskNumber2Text:
-	text "Let's chat about"
-	line "PIKACHU!"
+	text "Pokecajme o" ; text "Let's chat about"
+	line "PIKACHU!" ; line "PIKACHU!"
 
-	para "Can I get your"
-	line "phone number?"
+	para "Das mi svoje" ; para "Can I get your"
+	line "cislo?" ; line "phone number?"
 	done
 
 DerekNumberAcceptedText:
-	text "PIKACHU is the"
-	line "one! If anything"
+	text "PIKACHU je ten" ; text "PIKACHU is the"
+	line "pravy! Ak sa nieco" ; line "one! If anything"
 
-	para "comes up, I'll"
-	line "give you a jingle."
+	para "prihodi, cinknem" ; para "comes up, I'll"
+	line "ti na mobil." ; line "give you a jingle."
 	done
 
 DerekNumberDeclinedText:
-	text "You…"
+	text "Ty…" ; text "You…"
 
-	para "I bet you don't"
-	line "even like PIKACHU…"
+	para "Stavim sa ze nemas" ; para "I bet you don't"
+	line "ani rad PIKACHU…" ; line "even like PIKACHU…"
 	done
 
 DerekPhoneFullText:
-	text "Wait a sec! Your"
-	line "phone list's full!"
+	text "Pockat! Mas" ; text "Wait a sec! Your"
+	line "plnu pamat!" ; line "phone list's full!"
 	done
 
 DerekGiftText:
-	text "I've been looking"
-	line "for you! Here, see"
-	cont "this? This is it!"
+	text "Hladal som ta!" ; text "I've been looking"
+	line "Vidis toto? Toto" ; line "for you! Here, see"
+	cont "je ono!" ; cont "this? This is it!"
 
-	para "I'm certain your"
-	line "PIKACHU will love"
-	cont "my gift too!"
+	para "Tvoj PIKACHU sa" ; para "I'm certain your"
+	line "urcite potesi" ; line "PIKACHU will love"
+	cont "z mojho darceka!" ; cont "my gift too!"
 	done
 
 DerekPackFullText:
-	text "Uh-oh, too bad."
-	line "You don't have any"
+	text "O-ou." ; text "Uh-oh, too bad."
+	line "Nemas v batohu" ; line "You don't have any"
 
-	para "room. Be sure to"
-	line "get it later."
+	para "miesto. Zastav" ; para "room. Be sure to"
+	line "sa neskor." ; line "get it later."
 	done
