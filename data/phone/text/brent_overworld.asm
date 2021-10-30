@@ -1,62 +1,62 @@
 BrentAskNumber1Text:
-	text "By the way, you're"
-	line "a #MANIAC…"
+	text "Mimochodom, si" ;  text "By the way, you're"
+	line "#MANIAC…" ; line "a #MANIAC…"
 
-	para "I can tell."
-	line "Yes, you are."
+	para "Viem to." ; para "I can tell."
+	line "Ano, si." ; line "Yes, you are."
 
-	para "But your knowledge"
-	line "is shallow still!"
+	para "Ale tvoje znalosti" ; para "But your knowledge"
+	line "su povrchne!" ; line "is shallow still!"
 
-	para "Do you know BILL?"
-	line "He's an incredible"
+	para "Poznas BILLa?" ; para "Do you know BILL?"
+	line "Je neuveritelny" ; line "He's an incredible"
 
 	para "#MANIAC."
-	line "I revere him."
+	line "Vazim si ho." ; line "I revere him."
 
-	para "I'll teach you all"
-	line "I know about BILL,"
+	para "Naucim ta vsetko," ; para "I'll teach you all"
+	line "co o nom viem," ; line "I know about BILL,"
 
-	para "so leave me your"
-	line "phone number."
+	para "takze mi daj" ; para "so leave me your"
+	line "svoje cislo." ; line "phone number."
 	done
 
 BrentAskNumber2Text:
-	text "I'll teach you all"
-	line "I know about BILL,"
+	text "Naucim ta vsetko" ; text "I'll teach you all"
+	line "o BILLovi," ; line "I know about BILL,"
 
-	para "so leave me your"
-	line "phone number."
+	para "takze mi daj" ; para "so leave me your"
+	line "svoje cislo." ; line "phone number."
 	done
 
 BrentNumberAcceptedText:
-	text "BILL--he's more"
-	line "than amazing!"
+	text "BILL--je viac" ; text "BILL--he's more"
+	line "nez uzasny!" ; line "than amazing!"
 
-	para "To be a #MANIAC"
-	line "like him someday…"
+	para "Byt raz #MANIAC" ; para "To be a #MANIAC"
+	line "ako on…" ; line "like him someday…"
 
-	para "That's my dream."
+	para "To je moj sen." ; para "That's my dream."
 	done
 
 BrentNumberDeclinedText:
-	text "You're going to"
-	line "regret it…"
+	text "Budes to" ; text "You're going to"
+	line "lutovat…" ; line "regret it…"
 
-	para "And I won't care…"
+	para "Netrapi ma to…" ; para "And I won't care…"
 	done
 
 BrentPhoneFullText:
-	text "Huh? Your phone"
-	line "list's full."
+	text "Hm? Tvoj telefon" ; text "Huh? Your phone"
+	line "je plny." ; line "list's full."
 
-	para "A #MANIAC has"
-	line "to be more tidy!"
+	para "#MANIAC musi" ; para "A #MANIAC has"
+	line "mat prehlad!" ; line "to be more tidy!"
 	done
 
 BrentRematchText:
-	text "I've been waiting."
+	text "Cakal som na teba." ; text "I've been waiting."
 
-	para "Look, check out my"
-	line "#MON!"
+	para "Pozri na mojich"  ; para "Look, check out my"
+	line "#MONov!"
 	done

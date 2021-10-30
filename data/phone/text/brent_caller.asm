@@ -1,162 +1,162 @@
 BrentRareTradeText:
-	text "Oh yeah, I got an"
-	line "extremely rare"
+	text "Ano, vymenil som" ; text "Oh yeah, I got an"
+	line "extremne vzacneho" ; line "extremely rare"
 
-	para "#MON in a trade"
-	line "a while back."
+	para "#MON" ; para "#MON in a trade"
+	line "prednedavnom." ; line "a while back."
 
-	para "Do you want to"
-	line "know what it is?"
+	para "Chces vediet," ; para "Do you want to"
+	line "aky to bol?" ; line "know what it is?"
 
-	para "Hehe, I'm keeping"
-	line "it a secret!"
+	para "Hehe, to je" ; para "Hehe, I'm keeping"
+	line "tajomstvo!" ; line "it a secret!"
 	done
 
 BrentDefeatedMonText:
-	text "Oh yeah, I took"
-	line "down this wild"
+	text "Ano, porazil som" ; text "Oh yeah, I took"
+	line "jedneho divokeho" ; line "down this wild"
 
 	para "@"
-	text_ram wStringBuffer4
+	text_ram wStringBuffer4 ; text_ram wStringBuffer4
 	text "."
-	line "It wasn't rare"
+	line "Nebol dostatocne" ; line "It wasn't rare"
 
-	para "enough to bother"
-	line "catching."
+	para "vzacny na" ; para "enough to bother"
+	line "chytenie." ; line "catching."
 	done
 
 BrentLostAMonText:
-	text "Oh yeah, I saw a"
-	line "rare #MON about"
-	cont "an hour ago."
+	text "Ano, videl som" ; text "Oh yeah, I saw a"
+	line "vzacneho #MONa" ; line "rare #MON about"
+	cont "pred hodinkou." ; cont "an hour ago."
 
-	para "It was my first"
-	line "sighting. But I"
+	para "Hned som ho" ; para "It was my first"
+	line "zbadal. Ale" ; line "sighting. But I"
 
-	para "didn't have any"
+	para "nemal som ziadne" ; para "didn't have any"
 	line "# BALLS…"
 
-	para "Would BILL laugh"
-	line "at my mistakes?"
+	para "BILL by sa urcite" ; para "Would BILL laugh"
+	line "zasmial." ; line "at my mistakes?"
 	done
 
 BrentBattleRematchText:
-	text "You've got time"
-	line "like usual, right?"
+	text "Mas cas ako" ; text "You've got time"
+	line "vzdy, vsak?" ; line "like usual, right?"
 
-	para "Feel like having a"
-	line "battle?"
+	para "Citis sa na dalsi" ; para "Feel like having a"
+	line "zapas?" ; line "battle?"
 
-	para "It'll be a chance"
-	line "to see my rare"
+	para "Budes mat sancu" ; para "It'll be a chance"
+	line "vidiet vzacnych" ; line "to see my rare"
 
-	para "#MON. It'll be"
-	line "worth your time!"
+	para "#MON. A to sa" ; para "#MON. It'll be"
+	line "urcite oplati!" ; line "worth your time!"
 
-	para "You know where--"
+	para "Vies kde--" ; para "You know where--"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 BrentHangUpText:
-	text "So that's it then."
+	text "To je vsetko." ; text "So that's it then."
 	done
 
 BrentFatherGossipText:
-	text "Did you know…?"
-	line "BILL's father is"
+	text "Vedel si, ze…?" ; text "Did you know…?"
+	line "BILLov otec je" ; line "BILL's father is"
 
-	para "supposed to be a"
-	line "great #MANIAC."
+	para "vraj velky" ; para "supposed to be a"
+	line "#MANIAC." ; line "great #MANIAC."
 	done
 
 BrentGrandpaGossipText:
-	text "Did you know…?"
-	line "Apparently BILL's"
+	text "Vedel si, ze…?" ; text "Did you know…?"
+	line "Vraj BILLov" ; line "Apparently BILL's"
 
-	para "grandpa isn't a"
+	para "dedko nie je" ; para "grandpa isn't a"
 	line "#MANIAC."
 	done
 
 BrentGoldenrodGossipText:
-	text "Did you know…?"
-	line "BILL's originally"
-	cont "from GOLDENROD."
+	text "Vedel si, ze…?" ; text "Did you know…?"
+	line "BILL je povodne" ; line "BILL's originally"
+	cont "z GOLDENRODu." ; cont "from GOLDENROD."
 	done
 
 BrentRoute25GossipText:
-	text "Did you know…?"
-	line "BILL evidently"
+	text "Vedel si, ze…?" ; text "Did you know…?"
+	line "BILL zjavne" ; line "BILL evidently"
 
-	para "lives on ROUTE 25"
-	line "in KANTO."
+	para "zije na ROUTE 25" ; para "lives on ROUTE 25"
+	line "v KANTO." ; line "in KANTO."
 	done
 
 BrentAbraGossipText:
-	text "Did you know…?"
-	line "ABRA was the first"
+	text "Vedel si, ze…?" ; text "Did you know…?"
+	line "ABRA bola vraj 1." ; line "ABRA was the first"
 
-	para "#MON that BILL"
-	line "ostensibly caught."
+	para "#MON, co BILL" ; para "#MON that BILL"
+	line "vraj chytil." ; line "ostensibly caught."
 	done
 
 BrentSisterGossipText:
-	text "Did you know…?"
-	line "BILL's younger"
+	text "Vedel si, ze…?" ; text "Did you know…?"
+	line "BILLova mladsia" ; line "BILL's younger"
 
-	para "sister apparently"
-	line "can't wink."
+	para "sestra vraj nevie" ; para "sister apparently"
+	line "zmurknut." ; line "can't wink."
 	done
 
 BrentMilkGossipText:
-	text "Did you know…?"
-	line "BILL supposedly"
+	text "Vedel si, ze…?" ; text "Did you know…?"
+	line "BILL vraj" ; line "BILL supposedly"
 
-	para "hates milk and"
-	line "can't drink it."
+	para "neznasa mlieko" ; para "hates milk and"
+	line "a nepije ho." ; line "can't drink it."
 	done
 
 BrentBattlingGossipText:
-	text "Did you know…?"
-	line "Evidently, BILL"
+	text "Vedel si, ze…?" ; text "Did you know…?"
+	line "BILL vobec" ; line "Evidently, BILL"
 
-	para "isn't very good at"
-	line "battling."
+	para "nie je dobry v" ; para "isn't very good at"
+	line "zapaseni." ; line "battling."
 	done
 
 BrentFlowerShopGossipText:
-	text "Did you know…?"
-	line "BILL appears to"
+	text "Vedel si, ze…?" ; text "Did you know…?"
+	line "BILLovi sa paci" ; line "BILL appears to"
 
-	para "like the lady at"
-	line "the FLOWER SHOP."
+	para "pani z" ; para "like the lady at"
+	line "FLOWER SHOP." ; line "the FLOWER SHOP."
 	done
 
 BrentKimonoGirlGossipText:
-	text "Did you know…?"
-	line "BILL's mother is"
+	text "Vedel si, ze…?" ; text "Did you know…?"
+	line "BILLova mama" ; line "BILL's mother is"
 
-	para "said to have been"
-	line "a KIMONO GIRL."
+	para "je udajne" ; para "said to have been"
+	line "KIMONO GIRL." ; line "a KIMONO GIRL."
 	done
 
 BrentSorryImTooBusyText:
-	text "You wanted to hear"
-	line "about BILL?"
+	text "Chcel si sa dozve-" ; text "You wanted to hear"
+	line "diet o BILLovi?" ; line "about BILL?"
 
-	para "Sorry, but I'm too"
-	line "busy for you."
+	para "Prepac, ale som" ; para "Sorry, but I'm too"
+	line "zaneprazdneny." ; line "busy for you."
 
-	para "I'll call when I"
-	line "have time."
+	para "Zavolam ti" ; para "I'll call when I"
+	line "inokedy." ; line "have time."
 	done
 
 BrentReminderText:
-	text "You want to see my"
-	line "rare #MON."
+	text "Chces vidiet mojho" ; text "You want to see my"
+	line "vzacneho #MON." ; line "rare #MON."
 
-	para "Hurry over to"
+	para "Ponahlaj sa na" ; para "Hurry over to"
 	line "@"
 	text_ram wStringBuffer5
 	text "."

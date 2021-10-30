@@ -1,529 +1,529 @@
 BuenaPhoneMorningAnswerText:
-	text "Hi, this is BUENA…"
+	text "Ahoj, tu BUENA…" ; text "Hi, this is BUENA…"
 
-	para "Oh! Good morning,"
+	para "Aa! Dobre rano," ; para "Oh! Good morning,"
 	line "<PLAY_G>!"
 
-	para "I'm kind of foggy"
-	line "in the morning…"
+	para "Som este rozospata" ; para "I'm kind of foggy"
+	line "zrana…" ; line "in the morning…"
 	done
 
 BuenaPhoneDayAnswerText:
-	text "Hi, this is BUENA…"
-	line "Oh! Hi, <PLAY_G>!"
+	text "Ahoj, tu BUENA…" ; text "Hi, this is BUENA…"
+	line "Aa! Cau, <PLAY_G>!" ; line "Oh! Hi, <PLAY_G>!"
 
-	para "Do you tune into"
-	line "BUENA's show?"
+	para "Naladil si si" ; para "Do you tune into"
+	line "BUENA show?" ; line "BUENA's show?"
 	done
 
 BuenaPhoneMidnightAnswerText:
-	text "This is BUENA."
-	line "I can't come to"
+	text "Tu BUENA." ; text "This is BUENA."
+	line "Momentalne nie som" ; line "I can't come to"
 
-	para "the phone right"
-	line "now."
+	para "bohuzial" ; para "the phone right"
+	line "dostupna." ; line "now."
 
-	para "If you want to"
-	line "chat, tune into"
+	para "Ak si chces poke-" ; para "If you want to"
+	line "cat, nalad si" ; line "chat, tune into"
 
-	para "BUENA's PASSWORD"
-	line "on the radio and"
+	para "BUENA's PASSWORD" ; para "BUENA's PASSWORD"
+	line "v radiu a" ; line "on the radio and"
 
-	para "give me a call"
-	line "after midnight!"
+	para "zavolaj" ; para "give me a call"
+	line "po polnoci!" ; line "after midnight!"
 	done
 
 BuenaPhoneNiteAnswerText:
-	text "Hi, this is BUENA…"
-	line "Oh! Hi, <PLAY_G>!"
+	text "Ahoj, tu BUENA…" ; text "Hi, this is BUENA…"
+	line "Aa! Ahoj, <PLAY_G>!" ; line "Oh! Hi, <PLAY_G>!"
 
-	para "I just got off"
-	line "work. "
+	para "zrovna som skonci-" ; para "I just got off"
+	line "la v praci. " ; line "work. "
 
-	para "Let me tell you,"
-	line "I'm exhausted!"
+	para "Teda poviem ti," ; para "Let me tell you,"
+	line "som vycerpana!" ; line "I'm exhausted!"
 	done
 
 BuenaPhoneMorningText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Ahoj, tu BUENA!" ; line "Hi, it's BUENA!"
 
-	para "I got up early, so"
-	line "I decided to call!"
+	para "Vstala som skoro," ; para "I got up early, so"
+	line "a tak ti volam!" ; line "I decided to call!"
 	done
 
 BuenaPhoneDayText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Ahoj, tu BUENA!" ; line "Hi, it's BUENA!"
 
-	para "I needed someone"
-	line "to chat with!"
+	para "Potrebujem sa s" ; para "I needed someone"
+	line "tebou porozpravat!" ; line "to chat with!"
 	done
 
 BuenaPhoneMidnightText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Ahoj, tu BUENA!" ; line "Hi, it's BUENA!"
 
-	para "I'm just on my"
-	line "break."
+	para "Zrovna mam" ; para "I'm just on my"
+	line "pauzu." ; line "break."
 	done
 
 BuenaPhoneNiteText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Ahoj, tu BUENA!" ; line "Hi, it's BUENA!"
 
-	para "I couldn't sleep,"
-	line "so I called you."
+	para "Nemozem spat," ; para "I couldn't sleep,"
+	line "tak ti volam." ; line "so I called you."
 	done
 
 BuenaPhoneRocketText:
-	text "Oh. Hi, <PLAY_G>!"
+	text "Aa. Ahoj, <PLAY_G>!" ; text "Oh. Hi, <PLAY_G>!"
 
-	para "You are how?"
+	para "Mas sa?" ; para "You are how?"
 
-	para "Aiyee! This isn't"
-	line "the time for me to"
+	para "Ejo! Toto nie je" ; para "Aiyee! This isn't"
+	line "cas na pochabe" ; line "the time for me to"
 
-	para "be cracking silly"
-	line "gag greetings!"
+	para "vtipne" ; para "be cracking silly"
+	line "pozdravy!" ; line "gag greetings!"
 
-	para "The RADIO TOWER is"
-	line "in deep trouble!"
+	para "RADIO TOWER ma" ; para "The RADIO TOWER is"
+	line "vazne problemy!" ; line "in deep trouble!"
 
-	para "<PLAY_G>, you'd"
-	line "better be careful!"
+	para "<PLAY_G>, davaj" ; para "<PLAY_G>, you'd"
+	line "si pozor!" ; line "better be careful!"
 	done
 
 BuenaPhoneWentOutWithBenText:
-	text "The other day, I"
-	line "went out to eat"
+	text "Vcera som sa"  ; text "The other day, I"
+	line "sla von najest" ; line "went out to eat"
 
-	para "with DJ BEN!"
-	line "Isn't it great?"
+	para "s DJ BENom!" ; para "with DJ BEN!"
+	line "Skvele, vsak?" ; line "Isn't it great?"
 
-	para "Not only that, he"
-	line "said the music on"
+	para "Nielen to," ; para "Not only that, he"
+	line "paci sa mu aj" ; line "said the music on"
 
-	para "my program is"
-	line "cool!"
+	para "hudba v mojom" ; para "my program is"
+	line "programe!" ; line "cool!"
 
-	para "Oh, wow! Like,"
-	line "what should I do?"
+	para "Skvele, co budem" ; para "Oh, wow! Like,"
+	line "teraz robit?" ; line "what should I do?"
 
-	para "…Oops, I have to"
-	line "get ready for my"
+	para "…Ups, musim" ; para "…Oops, I have to"
+	line "sa pripravit na" ; line "get ready for my"
 
-	para "show! I'll catch"
-	line "you later!"
+	para "moju show!" ; para "show! I'll catch"
+	line "Neskor!" ; line "you later!"
 	done
 
 BuenaPhoneReceptionistText:
-	text "You know the"
-	line "receptionist at"
-	cont "the RADIO TOWER?"
+	text "Poznas tu" ; text "You know the"
+	line "recepcnu z" ; line "receptionist at"
+	cont "RADIO TOWER?" ; cont "the RADIO TOWER?"
 
-	para "'Welcome,' is all"
-	line "she ever says."
+	para "'Vitaj' je vsetko" ; para "'Welcome,' is all"
+	line "co ti povie." ; line "she ever says."
 
-	para "But she's really"
-	line "the chattiest"
+	para "Ale ona je" ; para "But she's really"
+	line "najvyrecnejsia" ; line "the chattiest"
 
-	para "person at the"
-	line "RADIO TOWER."
+	para "osoba v" ; para "person at the"
+	line "RADIO TOWER." ; line "RADIO TOWER."
 
-	para "So she must be"
-	line "holding back."
+	para "Musi sa drzat" ; para "So she must be"
+	line "na uzde." ; line "holding back."
 
-	para "Isn't that fun to"
-	line "know?"
+	para "No nie je to" ; para "Isn't that fun to"
+	line "sranda vediet?" ; line "know?"
 
-	para "Catch you later!"
+	para "Neskor!" ; para "Catch you later!"
 	done
 
 BuenaPhoneLuckyNumberShowText:
-	text "Tell me, <PLAY_G>."
-	line "Have you ever won"
+	text "Povedz, <PLAY_G>." ; text "Tell me, <PLAY_G>."
+	line "Vyhral si niekedy" ; line "Have you ever won"
 
-	para "a prize on the"
-	line "LUCKY NUMBER SHOW?"
+	para "cenu v" ; para "a prize on the"
+	line "LUCKY NUMBER SHOW?" ; line "LUCKY NUMBER SHOW?"
 
-	para "REED moans that"
-	line "he's never won, so"
+	para "REED sa stazuje" ; para "REED moans that"
+	line "ze nikdy nevyhral" ; line "he's never won, so"
 
-	para "he vows to keep"
-	line "the show on the"
-	cont "air till he does."
+	para "a slubuje nechat" ; para "he vows to keep"
+	line "show nazivo dokym" ; line "the show on the"
+	cont "nevyhra." ; cont "air till he does."
 
-	para "Let's chat again!"
+	para "Pokecajme znovu!" ; para "Let's chat again!"
 	done
 
 BuenaPhoneStressedFromWorkText:
-	text "You know, last"
-	line "night…"
+	text "Vies, ze" ; text "You know, last"
+	line "vcera…" ; line "night…"
 
-	para "I was so stressed"
-	line "out from work, I"
+	para "Bola som vystreso-" ; para "I was so stressed"
+	line "vana z prace," ; line "out from work, I"
 
-	para "ate a ton of junk"
-	line "food!"
+	para "dala som si ne-" ; para "ate a ton of junk"
+	line "zdrave jedlo!" ; line "food!"
 
-	para "MARY and I have"
-	line "this deal about"
-	cont "losing weight…"
+	para "MARY a ja mame"  ; para "MARY and I have"
+	line "dohodu o" ; line "this deal about"
+	cont "chudnuti…" ; cont "losing weight…"
 
-	para "This won't do…"
+	para "Nepredstavitelne…" ; para "This won't do…"
 
-	para "Huh? What's the"
-	line "weight?"
+	para "Hm? Kolko" ; para "Huh? What's the"
+	line "vazim?" ; line "weight?"
 
-	para "This has to be a"
-	line "total secret!"
+	para "To je absolutne" ; para "This has to be a"
+	line "tajomstvo!"  ; line "total secret!"
 
-	para "MARY weighs…"
+	para "MARY vazi…" ; para "MARY weighs…"
 
-	para "Aiyee! M-MARY!"
+	para "Aaaaa! M-MARY!" ; para "Aiyee! M-MARY!"
 
-	para "Uh… Um… I… Sorry,"
-	line "wrong number!"
+	para "Eh… hm… Ja… ," ; para "Uh… Um… I… Sorry,"
+	line "prepac, omyl!" ; line "wrong number!"
 	done
 
 BuenaPhoneProfessorOakText:
-	text "Yesterday, PROF."
-	line "OAK was in the"
+	text "Vcera sa zastavil" ; text "Yesterday, PROF."
+	line "v studiu PROF.OAK" ; line "OAK was in the"
 
-	para "studio to tape his"
-	line "show."
+	para "aby nahral svoju" ; para "studio to tape his"
+	line "show." ; line "show."
 
-	para "So I went over and"
-	line "introduced myself."
+	para "Predstavila som sa" ; para "So I went over and"
+	line "mu." ; line "introduced myself."
 
-	para "Get this--he tunes"
-	line "in to my program!"
+	para "Pocuvaj--on pocuva" ; para "Get this--he tunes"
+	line "moj program!" ; line "in to my program!"
 
-	para "Oh! Here comes"
-	line "PROF.OAK again!"
+	para "Aa! prichadza" ; para "Oh! Here comes"
+	line "PROF.OAK!" ; line "PROF.OAK again!"
 
-	para "I'm going to chat"
-	line "him up again!"
+	para "Musim sa ist" ; para "I'm going to chat"
+	line "zhovarat!" ; line "him up again!"
 
-	para "Catch you later!"
+	para "Neskor!" ; para "Catch you later!"
 	done
 
 BuenaPhoneGotAColdText:
-	text "…Cough, cough!"
+	text "…Echhu, Eccha!" ; text "…Cough, cough!"
 
-	para "Uhm sorry uh got"
-	line "uh code dite now."
+	para "Aaa prepac," ; para "Uhm sorry uh got"
+	line "mam chripku." ; line "uh code dite now."
 
-	para "Buh uma pro so uh"
-	line "hav to cover id ub"
+	para "Ale som profesional" ; para "Buh uma pro so uh"
+	line "a musim to skryt" ; line "hav to cover id ub"
 
-	para "so no un notice"
-	line "while uhm on air."
+	para "aby si to nikto" ; para "so no un notice"
+	line "nazivo nevsimol." ; line "while uhm on air."
 
-	para "Uh fidz muh voice"
-	line "now."
+	para "Musim si" ; para "Uh fidz muh voice"
+	line "odkaslat."  ;line "now."
 
-	para "I'll catch you on"
-	line "the fly. This has"
-	cont "been BUENA!"
+	para "Vidime sa nazivo" ; para "I'll catch you on"
+	line "Toto bola" ; line "the fly. This has"
+	cont "BUENA!" ; cont "been BUENA!"
 	done
 
 BuenaPhoneRadioCardQuestionsText:
-	text "Hey, <PLAY_G>."
-	line "You won that RADIO"
+	text "Ahoj, <PLAY_G>." ; text "Hey, <PLAY_G>."
+	line "Vyhral si RADIO" ; line "You won that RADIO"
 
-	para "CARD by beating"
-	line "the quiz at the"
+	para "CARD v" ; para "CARD by beating"
+	line "kvize na" ; line "the quiz at the"
 
-	para "reception desk,"
-	line "didn't you?"
+	para "recepcii," ; para "reception desk,"
+	line "vsak?" ; line "didn't you?"
 
-	para "Guess what? I made"
-	line "up the questions!"
+	para "Hadaj co. Otazky" ; para "Guess what? I made"
+	line "som vymyslela ja!" ; line "up the questions!"
 
-	para "…Were they too"
-	line "easy for you?"
+	para "…Boli prilis" ; para "…Were they too"
+	line "jednoduche?" ; line "easy for you?"
 
-	para "Well, let's chat"
-	line "again!"
+	para "Ozvi sa este" ; para "Well, let's chat"
+	line "niekedy!" ; line "again!"
 	done
 
 BuenaPhonePikachuFanClubText:
-	text "I'm elated that"
-	line "more people are"
+	text "Mam radost, ze" ; text "I'm elated that"
+	line "ludia sa zucast-" ; line "more people are"
 
-	para "taking part in my"
-	line "PASSWORD show."
+	para "znuju mojej" ; para "taking part in my"
+	line "PASSWORD show." ; line "PASSWORD show."
 
-	para "But when PIKACHU"
-	line "was the password,"
+	para "Ale ked heslo bolo" ; para "But when PIKACHU"
+	line "PIKACHU," ; line "was the password,"
 
-	para "it was uh… whew…"
-	line "overwhelming."
+	para "bolo to… hm…" ; para "it was uh… whew…"
+	line "ohromujuce." ; line "overwhelming."
 
-	para "FAN CLUB people"
-	line "came in out in"
+	para "FAN CLUB ludia" ; para "FAN CLUB people"
+	line "volali" ; line "came in out in"
 
-	para "droves, shouting"
-	line "'PIKACHU!' over"
+	para "a kricali v hufoch" ; para "droves, shouting"
+	line "'PIKACHU!' znova" ; line "'PIKACHU!' over"
 
-	para "and over. I mean,"
-	line "they were loud."
+	para "a znova. Boli," ; para "and over. I mean,"
+	line "velmi hlucni." ; line "they were loud."
 
-	para "Anyone tuning in"
-	line "around then must"
+	para "Ktokolvek, kto si" ; para "Anyone tuning in"
+	line "to naladil, sa" ; line "around then must"
 
-	para "have been shocked"
-	line "by the racket!"
+	para "musel cudovat" ; para "have been shocked"
+	line "tomu hluku!" ; line "by the racket!"
 
-	para "Anyway, back to"
-	line "work for me!"
+	para "Kazdopadne, spat" ; para "Anyway, back to"
+	line "do prace!" ; line "work for me!"
 
-	para "Let's chat again!"
+	para "Ozvi sa znovu!" ; para "Let's chat again!"
 	done
 
 BuenaPhoneRadioTowerDirectorText:
-	text "Guess what?"
-	line "The RADIO TOWER's"
+	text "Hadaj co." ; text "Guess what?"
+	line "RADIO TOWER" ; line "The RADIO TOWER's"
 
-	para "DIRECTOR is a big"
-	line "fan of TV!"
+	para "DIRECTOR je velky" ; para "DIRECTOR is a big"
+	line "fanusik TV!" ; line "fan of TV!"
 
-	para "A while ago, a"
-	line "fashion show on TV"
+	para "Prednedavnom" ; para "A while ago, a"
+	line "na modnej show" ; line "fashion show on TV"
 
-	para "said that black"
-	line "suits were in."
+	para "tvrdili, ze cierne" ; para "said that black"
+	line "obleky su v mode." ; line "suits were in."
 
-	para "Now all he wears"
-	line "are black suits."
+	para "Nenosi teraz" ; para "Now all he wears"
+	line "nic ine." ; line "are black suits."
 
-	para "But it's a secret"
-	line "that our DIRECTOR"
+	para "Ale je to" ; para "But it's a secret"
+	line "tajomstvo, takze" ; line "that our DIRECTOR"
 
-	para "is a TV fan, so if"
-	line "you see him, don't"
+	para "nie ze mu to" ; para "is a TV fan, so if"
+	line "vyzradis, ked" ; line "you see him, don't"
 
-	para "you dare mention"
-	line "it!"
+	para "ho zbadas" ; para "you dare mention"
+	line "neopovaz!" ;  line "it!"
 
-	para "Oh! The DIRECTOR"
-	line "will be here soon!"
+	para "Aa! DIRECTOR" ; para "Oh! The DIRECTOR"
+	line "zachvilu pride!" ; line "will be here soon!"
 
-	para "Later! Tune into"
-	line "my show!"
+	para "Neskor! Nalad" ; para "Later! Tune into"
+	line "si moju show!" ; line "my show!"
 	done
 
 BuenaPhoneWhenDoYouRelaxText:
-	text "<PLAY_G>, tell me."
+	text "<PLAY_G>, povedz mi." ; text "<PLAY_G>, tell me."
 
-	para "When do you relax"
-	line "the most?"
+	para "Kedy najviac" ; para "When do you relax"
+	line "relaxujes?" ; line "the most?"
 
-	para "For me, it has to"
-	line "be in the studio"
+	para "Ja vtedy, ked" ; para "For me, it has to"
+	line "som v studiu" ; line "be in the studio"
 
-	para "right after my"
-	line "show, enjoying a"
+	para "hned po skonceni" ; para "right after my"
+	line "show, pri salke" ; line "show, enjoying a"
 
-	para "nice cup of tea."
-	line "It's so pleasant"
+	para "caju." ; para "nice cup of tea."
+	line "Je to prijemne" ; line "It's so pleasant"
 
-	para "that it gradually"
-	line "makes me drowsy…"
+	para "a celom ma to" ; para "that it gradually"
+	line "uspava…" ; line "makes me drowsy…"
 
 	para "<……> <……> <……>"
 
-	para "<……> <……> <……>Zzz"
+	para "<……> <……> Chrr" ; para "<……> <……> <……>Zzz"
 
-	para "Oops, I drifted"
-	line "off just thinking"
+	para "Ups, nechala som" ; para "Oops, I drifted"
+	line "sa uniest!" ; line "off just thinking"
 
-	para "about it! How, uh…"
-	line "embarrassing!"
+	para "Ake…" ; para "about it! How, uh…"
+	line "trapne!" ; line "embarrassing!"
 
-	para "Please forget this"
-	line "happened! Later!"
+	para "Zabudni na to!" ; para "Please forget this"
+	line "Neskor!" ; line "happened! Later!"
 	done
 
 BuenaPhoneStarterPokemonText:
-	text "<PLAY_G>, what was"
-	line "the first #MON"
-	cont "you ever caught?"
+	text "<PLAY_G>, aky bol" ; text "<PLAY_G>, what was"
+	line "tvoj prvy #MON" ; line "the first #MON"
+	cont "ktoreho si chytil?" ; cont "you ever caught?"
 
-	para "…Oh, really?"
+	para "…Ou, vazne?" ; para "…Oh, really?"
 
-	para "I've seen lots of"
-	line "#MON around,"
+	para "Videla som uz vela" ; para "I've seen lots of"
+	line "#MONov," ; line "#MON around,"
 
-	para "but I've never"
-	line "caught one."
+	para "ale nikdy som" ; para "but I've never"
+	line "ziadneho nechytila" ; line "caught one."
 
-	para "I should give it a"
-	line "try sometime."
+	para "Mala by som to" ; para "I should give it a"
+	line "niekedy skusit." ; line "try sometime."
 
-	para "Did you know that"
-	line "the first #MON"
+	para "Vedel si ze prvy" ; para "Did you know that"
+	line "#MON" ; line "the first #MON"
 
-	para "MARY caught was a"
-	line "DROWZEE?"
+	para "MARY chytila bol" ; para "MARY caught was a"
+	line "DROWZEE?" ; line "DROWZEE?"
 
-	para "Isn't that so out"
-	line "of character?"
+	para "Nie je to trosku" ; para "Isn't that so out"
+	line "zvlastne?" ; line "of character?"
 
-	para "But MARY's DROWZEE"
-	line "kept making her"
+	para "Ale MARYn DROWZEE" ; para "But MARY's DROWZEE"
+	line "ju stale" ; line "kept making her"
 
-	para "fall asleep on the"
-	line "job, so she traded"
+	para "uspaval pocas" ; para "fall asleep on the"
+	line "prace, tak ho" ; line "job, so she traded"
 
-	para "with a fan for a"
-	line "MEOWTH."
+	para "vymenila za" ; para "with a fan for a"
+	line "MEOWTH." ; line "MEOWTH."
 
-	para "Let's chat about"
-	line "#MON again!"
+	para "Pokecajme si o" ; para "Let's chat about"
+	line "#MONoch znova!" ; line "#MON again!"
 
-	para "Bye-bye!"
+	para "Maj sa!" ; para "Bye-bye!"
 	done
 
 BuenaPhoneCompanyVacationText:
-	text "Guess what? All of"
-	line "us from the RADIO"
+	text "Hadaj co? Vsetci" ; text "Guess what? All of"
+	line "z RADIO TOWER" ; line "us from the RADIO"
 
-	para "TOWER are going on"
-	line "a company vacation"
+	para "ideme na celoza-" ; para "TOWER are going on"
+	line "vodnu dovolenku" ; line "a company vacation"
 
-	para "to the RADIO TOWER"
-	line "in LAVENDER."
+	para "do RADIO TOWER" ; para "to the RADIO TOWER"
+	line "v LAVENDER." ; line "in LAVENDER."
 
-	para "We're wasting our"
-	line "vacation on a trip"
+	para "Premrhame svoju" ; para "We're wasting our"
+	line "dovolenku na vylet" ; line "vacation on a trip"
 
-	para "to another RADIO"
-	line "TOWER?"
+	para "do dalsej RADIO" ; para "to another RADIO"
+	line "TOWER?" ; line "TOWER?"
 
-	para "I'd much rather go"
-	line "to the beach!"
+	para "Radsej by som sla" ; para "I'd much rather go"
+	line "na plaz!" ; line "to the beach!"
 
-	para "<PLAY_G>, I hope"
-	line "you have enough"
+	para "<PLAY_G>, dufam" ; para "<PLAY_G>, I hope"
+	line "ze sa zabavis" ; line "you have enough"
 
-	para "fun for both of us"
-	line "on your journey!"
+	para "za nas oboch" ; para "fun for both of us"
+	line "na dobrodruzstve!" ; line "on your journey!"
 
-	para "Bye-bye!"
+	para "Ahoj!" ; para "Bye-bye!"
 	done
 
 BuenaPhoneBenAndFernText:
-	text "Did you know…?"
+	text "Vedel si, ze…?" ; text "Did you know…?"
 
-	para "BEN and FERN talk"
-	line "on the phone for"
+	para "BEN a FERN" ; para "BEN and FERN talk"
+	line "telefonuju" ; line "on the phone for"
 
-	para "hours about what"
-	line "#MON music they"
+	para "hodiny o" ; para "hours about what"
+	line "#MON hudbe," ; line "#MON music they"
 
-	para "should play on"
-	line "different days of"
-	cont "the week."
+	para "ktoru hraju" ; para "should play on"
+	line "rozne dni" ; line "different days of"
+	cont "v tyzdni." ; cont "the week."
 
-	para "One time, FERN's"
-	line "rapping style kind"
+	para "Raz sa FERNov" ; para "One time, FERN's"
+	line "rap vobec" ; line "rapping style kind"
 
-	para "of rubbed off on"
-	line "BEN weirdly."
+	para "nepozdaval" ; para "of rubbed off on"
+	line "BENovi." ; line "BEN weirdly."
 
-	para "So we ended up"
-	line "enduring BEN's"
+	para "Vydrzali sme to" ; para "So we ended up"
+	line "teda nasilu" ; line "enduring BEN's"
 
-	para "silly, chilly, a"
-	line "willy-nilly jive-"
-	cont "talking shtick for"
-	cont "a while."
+	para "ten jeho hlupy" ; para "silly, chilly, a"
+	line "mrazivy aky taky" ; line "willy-nilly jive-"
+	cont "hovoriaci rap," ; cont "talking shtick for"
+	cont "namojdusu." ; cont "a while."
 
-	para "Let's chat again!"
+	para "Ozvi sa niekedy!" ; para "Let's chat again!"
 	done
 
 BuenaPhoneGoingShoppingText:
-	text "I'm going shopping"
-	line "with MARY and LILY"
-	cont "soon."
+	text "Idem coskoro na" ; text "I'm going shopping"
+	line "nakupy s MARY" ; line "with MARY and LILY"
+	cont "a LILY." ; cont "soon."
 
-	para "It'll be great if"
-	line "GOLDENROD DEPT."
+	para "Bolo by skvele, ak" ; para "It'll be great if"
+	line "by GOLDENROD DEPT." ; line "GOLDENROD DEPT."
 
-	para "STORE has a sale"
-	line "on when we go…"
+	para "STORE mal vypredaj" ; para "STORE has a sale"
+	line "ked pojdeme…" ; line "on when we go…"
 
-	para "<PLAY_G>, maybe we"
-	line "can hook up too!"
+	para "<PLAY_G>, mozno" ; para "<PLAY_G>, maybe we"
+	line "sa pridas!" ; line "can hook up too!"
 
-	para "Catch you later!"
+	para "Vidime sa!" ; para "Catch you later!"
 	done
 
 BuenaPhoneFavoriteSlotMachineAnswerText:
-	text "I'm thinking of"
-	line "going to the GAME"
+	text "Rozmyslam, ze poj-" ; text "I'm thinking of"
+	line "dem zajtra do" ; line "going to the GAME"
 
-	para "CORNER tomorrow."
-	line "It's been a while."
+	para "GAME CORNER. Uz je" ; para "CORNER tomorrow."
+	line "to nejaky cas." ; line "It's been a while."
 
 if DEF(_CRYSTAL_AU)
-	para "Some machines pays"
-	line "out a lot."
+	para "Niektore automaty" ; para "Some machines pays"
+	line "platia dost." ; line "out a lot."
 else
-	para "You see, I have my"
-	line "favorite machine…"
+	para "Vies, Toto je moj" ; para "You see, I have my"
+	line "oblubeny automat…" ; line "favorite machine…"
 
-	para "It pays out a lot,"
-	line "I kid you not!"
+	para "Je vyherny," ; para "It pays out a lot,"
+	line "fakt!" ; line "I kid you not!"
 endc
 
-	para "Huh? Nuh-uh, it's"
-	line "my secret!"
+	para "Hm? Nie, je to" ; para "Huh? Nuh-uh, it's"
+	line "moje tajomstvo!" ; line "my secret!"
 
-	para "You have to find"
-	line "it yourself!"
+	para "Musis ho najst" ; para "You have to find"
+	line "sam!" ; line "it yourself!"
 
-	para "Catch you later!"
+	para "Uvidime sa neskor!" ; para "Catch you later!"
 	done
 
 BuenaPhonePokegearAnswerText:
-	text "Hey, <PLAY_G>. You"
-	line "use your #GEAR"
+	text "Cau, <PLAY_G>." ; text "Hey, <PLAY_G>. You"
+	line "Pouzivas #GEAR" ; line "use your #GEAR"
 
-	para "to listen to the"
-	line "radio, right?"
+	para "aj na" ; para "to listen to the"
+	line "radio, vsak?" ; line "radio, right?"
 
-	para "I heard that you"
-	line "can even display"
+	para "Pocula som, ze" ; para "I heard that you"
+	line "sa da zobrazit" ; line "can even display"
 
-	para "town maps with"
-	line "#GEAR."
+	para "aj mapa sveta v" ; para "town maps with"
+	line "#GEAR." ; line "#GEAR."
 
-	para "I have a bad sense"
-	line "of direction, so"
+	para "Neviem sa dobre" ; para "I have a bad sense"
+	line "orientovat," ; line "of direction, so"
 
-	para "#GEAR would be"
-	line "handy…"
+	para "#GEAR by" ; para "#GEAR would be"
+	line "sa mi hodil…" ; line "handy…"
 
-	para "Anyway, thanks for"
-	line "calling! Later!"
+	para "Dakujem za" ; para "Anyway, thanks for"
+	line "zavolanie! Ahoj!" ; line "calling! Later!"
 	done
 
 BuenaPhoneCoopedUpInRadioTowerAnswerText:
-	text "Is it sunny"
-	line "outside today?"
+	text "Vonku je" ; text "Is it sunny"
+	line "slnecno, ze?" ; line "outside today?"
 
-	para "When you're cooped"
-	line "up in the RADIO"
+	para "Ked si cely" ; para "When you're cooped"
+	line "den v RADIO" ; line "up in the RADIO"
 
-	para "TOWER as much as I"
-	line "am, you lose touch"
+	para "TOWER" ; para "TOWER as much as I"
+	line "stratis kontakt" ; line "am, you lose touch"
 
-	para "with the outside."
-	line "It can be boring."
+	para "s vonkajskom." ; para "with the outside."
+	line "Ake nudne." ; line "It can be boring."
 
-	para "Please call again!"
+	para "Ozvi sa znovu!" ; para "Please call again!"
 	done
