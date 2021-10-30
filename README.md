@@ -1,7 +1,9 @@
-# Pokémon Crystal [![Build Status][ci-badge]][ci]
+# Pokémon Crystal
 
-This is a disassembly of Pokémon Crystal.
+WIP
+This is a disassembly of Pokémon Crystal in Slovak language.
 
+~~
 It builds the following ROMs:
 
 - Pokemon - Crystal Version (UE) (V1.0) [C][!].gbc `sha1: f4cd194bdee0d04ca4eac29e09b8e4e9d818c133`
@@ -47,3 +49,5 @@ Other disassembly projects:
 [irc]: https://web.libera.chat/?#pret
 [ci]: https://github.com/pret/pokecrystal/actions
 [ci-badge]: https://github.com/pret/pokecrystal/actions/workflows/main.yml/badge.svg
+
+~~
