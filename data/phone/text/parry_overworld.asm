@@ -1,73 +1,73 @@
 ParryAskNumber1Text:
-	text "Sheesh, the way"
-	line "you attacked! That"
+	text "Fuuu, ten sposob" ; text "Sheesh, the way"
+	line "utoku! To bolo" ; line "you attacked! That"
 
-	para "was something! We"
-	line "should meet again!"
+	para "nieco! Stretnime" ; para "was something! We"
+	line "sa znova!" ; line "should meet again!"
 
-	para "How about giving"
-	line "me your number?"
+	para "Das mi svoje" ; para "How about giving"
+	line "cislo?" ; line "me your number?"
 	done
 
 ParryAskNumber2Text:
-	text "So you want to"
-	line "register my phone"
+	text "Dam ti moje" ; text "So you want to"
+	line "cislo na" ; line "register my phone"
 
-	para "number for a re-"
-	line "match, huh?"
+	para "odvetny" ; para "number for a re-"
+	line "zapas, hm?" ; line "match, huh?"
 	done
 
 ParryNumberAcceptedText:
-	text "I'll call you"
-	line "whenever I feel"
-	cont "like battling!"
+	text "Zavolam ti, ked" ; text "I'll call you"
+	line "budem pripraveny" ; line "whenever I feel"
+	cont "na dalsi zapas!" ; cont "like battling!"
 	done
 
 ParryNumberDeclinedText:
-	text "No? That's fine."
+	text "Nie? V pohode." ; text "No? That's fine."
 
-	para "A definite no is"
-	line "easy to take!"
+	para "Definitivne nie" ; para "A definite no is"
+	line "je jednoduche!" ; line "easy to take!"
 
-	para "I'll be right here"
-	line "when you're ready"
-	cont "for a rematch."
+	para "Budem tu, ked" ; para "I'll be right here"
+	line "budes pripraveny" ; line "when you're ready"
+	cont "na odvetu." ; cont "for a rematch."
 	done
 
 ParryPhoneFullText:
-	text "Oh? There's no"
-	line "room to register"
-	cont "my phone number."
+	text "Och, nemas miesto" ; text "Oh? There's no"
+	line "v telefone na" ; line "room to register"
+	cont "moje cislo." ; cont "my phone number."
 	done
 
 ParryRematchText:
-	text "Hey, here comes"
-	line "the kid! Let's go!"
+	text "Hej, prichadza" ; text "Hey, here comes"
+	line "chlapec! Podme!" ; line "the kid! Let's go!"
 
-	para "Ready for my usual"
-	line "no-brainer, all-"
-	cont "out offense?"
+	para "Pripraveny na moj" ; para "Ready for my usual"
+	line "ultra-ofenzivny" ; line "no-brainer, all-"
+	cont "suboj?" ; cont "out offense?"
 	done
 
 ParryPackFullText:
-	text "Your PACK looks"
-	line "stuffed full!"
+	text "Tvoj BATOH je" ; text "Your PACK looks"
+	line "plny!" ; line "stuffed full!"
 
-	para "You can't have"
-	line "this now."
+	para "Nemozem ti to" ; para "You can't have"
+	line "teraz dat." ; line "this now."
 	done
 
 ParryRematchGiftText:
-	text "Well, you're"
-	line "special all right."
+	text "Hm, si" ; text "Well, you're"
+	line "vynimocny." ; line "special all right."
 
-	para "If only I'd begun"
-	line "#MON when I was"
-	cont "a tad younger…"
+	para "Keby som tak zacal" ; para "If only I'd begun"
+	line "s #MONmi ked som" ; line "#MON when I was"
+	cont "bol mladsi…" ; cont "a tad younger…"
 
-	para "I want you to work"
-	line "and succeed for"
+	para "Tvrdo trenuj a" ; para "I want you to work"
+	line "a uspejes" ; line "and succeed for"
 
-	para "the both of us."
-	line "So take this, OK?"
+	para "i za nas oboch." ; para "the both of us."
+	line "Vezmi si toto, OK?" ; line "So take this, OK?"
 	done

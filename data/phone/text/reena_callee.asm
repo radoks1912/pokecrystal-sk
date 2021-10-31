@@ -1,72 +1,72 @@
 ReenaAnswerPhoneText:
-	text "Hello, this is"
+	text "Halo, tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh. Hi, <PLAYER>."
-	line "What's up?"
+	para "Oh. Ahoj, <PLAYER>." ; para "Oh. Hi, <PLAYER>."
+	line "Ako to ide?" ; line "What's up?"
 	done
 
 ReenaAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Halo, tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, hi, <PLAYER>,"
-	line "what's up?"
+	para "Oh. Ahoj, <PLAYER>." ; para "Oh. Hi, <PLAYER>."
+	line "Ako to ide?" ; line "What's up?"
 	done
 
 ReenaAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Halo, tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, hi, <PLAYER>,"
-	line "what's up?"
+	para "Oh. Ahoj, <PLAYER>." ; para "Oh. Hi, <PLAYER>."
+	line "Ako to ide?" ; line "What's up?"
 	done
 
 ReenaGreetText:
-	text "You're slow! Hurry"
-	line "up and answer!"
+	text "Si pomaly!" ; text "You're slow! Hurry"
+	line "Odpovedz!" ; line "up and answer!"
 
-	para "It's me, @"
+	para "Tu @" ; para "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGreetDayText:
-	text "You're slow! Hurry"
-	line "up and answer!"
+	text "Si pomaly!" ; text "You're slow! Hurry"
+	line "Odpovedz!" ; line "up and answer!"
 
-	para "It's me, @"
+	para "Tu @" ; para "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGreetNiteText:
-	text "You're slow! Hurry"
-	line "up and answer!"
+	text "Si pomaly!" ; text "You're slow! Hurry"
+	line "Odpovedz!" ; line "up and answer!"
 
-	para "It's me, @"
+	para "Tu @" ; para "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGenericText:
-	text "Hey, how are your"
-	line "#MON doing?"
+	text "Ako sa maju tvoji" ; text "Hey, how are your"
+	line "#MONi?" ; line "#MON doing?"
 
-	para "What? Great?"
-	line "I see…"
+	para "Coze? Super?" ; para "What? Great?"
+	line "Aha…" ; line "I see…"
 
-	para "What? My #MON?"
+	para "Coze? Moji #MONi?" ; para "What? My #MON?"
 
-	para "Of course they're"
-	line "doing great! What"
+	para "Maju sa skvele," ; para "Of course they're"
+	line "samozrejme! Co" ; line "doing great! What"
 
-	para "kind of a question"
-	line "is that?"
+	para "je to vlastne za" ; para "kind of a question"
+	line "otazku?" ; line "is that?"
 	done

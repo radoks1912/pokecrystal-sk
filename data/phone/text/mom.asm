@@ -1,165 +1,165 @@
 MomPhoneGreetingText:
-	text "Hello?"
+	text "Halo?" ; text "Hello?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Working hard?"
+	para "Ahoj, <PLAYER>!" ; para "Oh, hi, <PLAYER>!"
+	line "Trenujes?" ; line "Working hard?"
 	done
 
 MomPhoneLandmarkText:
-	text "Oh, so you're in"
+	text "Aha, takze si v" ; text "Oh, so you're in"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Isn't that where"
+	para "Nie je to tam, kde" ; para "Isn't that where"
 	line "@"
 	text_ram wStringBuffer4
 	text_start
-	para "is? Did you go"
-	line "take a look?"
+	para "? Bol si sa" ; para "is? Did you go"
+	line "pozriet?" ; line "take a look?"
 	done
 
 MomPhoneGenericAreaText:
-	text "Really, you're in"
+	text "Vazne si v" ; text "Really, you're in"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "I've never gone"
-	line "there. That's kind"
-	cont "of neat, <PLAYER>."
+	para "Nikdy som tam" ; para "I've never gone"
+	line "nebola. To je" ; line "there. That's kind"
+	cont "super, <PLAYER>." ; cont "of neat, <PLAYER>."
 	done
 
 MomPhoneNewBarkText:
-	text "What? You're in"
+	text "Coze? Ty si v" ; text "What? You're in"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Come see your MOM"
-	line "sometime!"
+	para "Pridi ma" ; para "Come see your MOM"
+	line "pozriet!" ; line "sometime!"
 	done
 
 MomPhoneCherrygroveText:
-	text "You're visiting"
+	text "Si v" ; text "You're visiting"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "How about coming"
-	line "home for a bit?"
+	para "Co tak sa zastavit" ; para "How about coming"
+	line "nachvilku doma?" ; line "home for a bit?"
 	done
 
 MomOtherAreaText:
-	text "Wow, you're in"
+	text "Wau, si v" ; text "Wow, you're in"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Good luck on your"
-	line "#MON quest!"
+	para "Vela stastia na" ; para "Good luck on your"
+	line "#MON queste!" ; line "#MON quest!"
 	done
 
 MomDeterminedText:
-	text "That sounds really"
-	line "tough."
+	text "To znie" ; text "That sounds really"
+	line "narocne." ; line "tough."
 
-	para "But, <PLAYER>, I"
-	line "know you're really"
+	para "Ale, <PLAYER>," ; para "But, <PLAYER>, I"
+	line "viem ze si odhod-" ; line "know you're really"
 
-	para "determined. You'll"
-	line "be OK, right?"
+	para "lany. Budes" ; para "determined. You'll"
+	line "OK, vsak?" ; line "be OK, right?"
 	done
 
 MomCheckBalanceText:
-	text "By the way, you've"
-	line "saved up ¥@"
+	text "Mimochodom," ; text "By the way, you've"
+	line "nasetril si ¥@" ; line "saved up ¥@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Do you want to"
-	line "keep on saving?"
+	para "Mam ti stale" ; para "Do you want to"
+	line "odkladat peniaze?" ; line "keep on saving?"
 	done
 
 MomImportantToSaveText:
-	text "It's important to"
-	line "save your money."
+	text "Je dolezite" ; text "It's important to"
+	line "setrit peniaze." ; line "save your money."
 	done
 
 MomYoureNotSavingText:
-	text "Oh, <PLAYER>,"
-	line "you're not saving"
+	text "Och, <PLAYER>," ; text "Oh, <PLAYER>,"
+	line "nesetris si ziadne" ; line "you're not saving"
 
-	para "any money. Would"
-	line "you like to save?"
+	para "peniaze. Chce" ; para "any money. Would"
+	line "si zacat setrit?" ; line "you like to save?"
 	done
 
 MomYouveSavedText:
-	text "By the way, you've"
-	line "saved up ¥@"
+	text "Mimochodom," ; text "By the way, you've"
+	line "usetril si ¥@" ; line "saved up ¥@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Want to start"
-	line "saving again?"
+	para "Chces zacat" ; para "Want to start"
+	line "znova setrit?" ; line "saving again?"
 	done
 
 MomOKIllSaveText:
-	text "OK. I'll save your"
-	line "money."
+	text "OK. Budem ti" ; text "OK. I'll save your"
+	line "setrit peniaze." ; line "money."
 	done
 
 MomPhoneWontSaveMoneyText:
-	text "OK. I won't save"
-	line "your money."
+	text "OK. Nebudem ti" ; text "OK. I won't save"
+	line "setrit peniaze." ; line "your money."
 	done
 
 MomPhoneHangUpText:
-	text "<PLAYER>, keep it"
-	line "up! I'm rooting"
-	cont "for you, baby!"
+	text "<PLAYER>, drz" ; text "<PLAYER>, keep it"
+	line "sa! Drzim ti" ; line "up! I'm rooting"
+	cont "palce!" ; cont "for you, baby!"
 	done
 
 MomPhoneNoPokemonText:
-	text "Hello?"
+	text "Halo?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Wasn't PROF.ELM"
-	cont "waiting for you?"
+	para "Ahoj, <PLAYER>!" ; para "Oh, hi, <PLAYER>!"
+	line "Necaka ta nahodou" ; line "Wasn't PROF.ELM"
+	cont "PROF.ELM?" ; cont "waiting for you?"
 	done
 
 MomPhoneNoPokedexText:
-	text "Hello?"
+	text "Halo?" ; text "Hello?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "You're on a big"
+	para "Ahoj, <PLAYER>!" ; para "Oh, hi, <PLAYER>!"
+	line "Si na misii" ; line "You're on a big"
 
-	para "mission for PROF."
-	line "ELM? Be good!"
+	para "pre PROF." ; para "mission for PROF."
+	line "ELMa? Posluchaj!" ; line "ELM? Be good!"
 	done
 
 MomPhoneNoGymQuestText:
-	text "Hello?"
+	text "Halo?" ; text "Hello?"
 
-	para "Hi, <PLAYER>! If"
-	line "you're done with"
+	para "Ahoj, <PLAYER>!" ; para "Hi, <PLAYER>! If"
+	line "Ak si skoncil so" ; line "you're done with"
 
-	para "your errand come"
-	line "on home, dear."
+	para "svojou ulohou," ; para "your errand come"
+	line "zastav sa doma." ; line "on home, dear."
 	done
 
 MomPhoneLectureText:
-	text "Hello?"
+	text "Halo?" ; text "Hello?"
 
 	para "…… <PLAYER>?"
-	line "I heard from PROF."
+	line "Pocula som od" ; line "I heard from PROF."
 
-	para "ELM that you went"
-	line "on a long trip."
+	para "PROF.ELMa, ze si" ; para "ELM that you went"
+	line "isiel na dobro-" ; line "on a long trip."
 
-	para "I wish you would"
-	line "have told me…"
+	para "druzstvo. Skoda," ; para "I wish you would"
+	line "ze si nepovedal…" ; line "have told me…"
 
-	para "What about money?"
-	line "Should I save it?"
+	para "Co s peniazmi?" ; para "What about money?"
+	line "Mam ti ich setrit?" ; line "Should I save it?"
 	done

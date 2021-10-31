@@ -1,72 +1,72 @@
 ParryAnswerPhoneText:
-	text "Yup, yup!"
-	line "It's @"
+	text "Ano, ano!" ; text "Yup, yup!"
+	line "Tu @" ; line "It's @"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hah, and here's"
+	para "A tam je" ; para "Hah, and here's"
 	line "<PLAY_G>!"
 	done
 
 ParryAnswerPhoneDayText:
-	text "Yup, yup!"
-	line "It's @"
+	text "Ano, ano!" ; text "Yup, yup!"
+	line "Tu @"  ; line "It's @"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hah, and here's"
+	para "A tam je" ; para "Hah, and here's"
 	line "<PLAY_G>!"
 	done
 
 ParryAnswerPhoneNiteText:
-	text "Yup, yup!"
-	line "It's @"
+	text "Ano, ano!" ; text "Yup, yup!"
+	line "Tu @" ; line "It's @"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hah, and here's"
+	para "A tam je" ; para "Hah, and here's"
 	line "<PLAY_G>!"
 	done
 
 ParryGreetText:
-	text "<PLAY_G>, it's"
+	text "<PLAY_G>, tu" ; text "<PLAY_G>, it's"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper breakfast?"
+	para "Mal si uz" ; para "Have you had a"
+	line "poriadne ranajky?" ; line "proper breakfast?"
 	done
 
 ParryGreetDayText:
-	text "<PLAY_G>, it's"
+	text "<PLAY_G>, tu" ; text "<PLAY_G>, it's"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper lunch?"
+	para "Mal si uz" ; para "Have you had a"
+	line "poriadny obed?" ; line "proper lunch?"
 	done
 
 ParryGreetNiteText:
-	text "<PLAY_G>, it's"
+	text "<PLAY_G>, tu" ; text "<PLAY_G>, it's"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper dinner?"
+	para "Mal si uz" ; para "Have you had a"
+	line "poriadnu veceru?" ; line "proper dinner?"
 	done
 
 ParryGenericText:
-	text "Are your #MON"
-	line "looking good?"
+	text "Tvoji #MONi" ; text "Are your #MON"
+	line "su v pohode?" ; line "looking good?"
 
-	para "My @"
+	para "Moj @" ; para "My @"
 	text_ram wStringBuffer4
-	text " and"
-	line "me--we're looking"
+	text " a" ; text " and"
+	line "ja--sme uplni" ; line "me--we're looking"
 
-	para "mighty dandy!"
-	line "Hahahah!"
+	para "frajeri!" ; para "mighty dandy!"
+	line "Hahaha!" ; line "Hahahah!"
 	done
