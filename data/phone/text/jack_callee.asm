@@ -1,71 +1,71 @@
 JackAnswerPhoneText:
-	text "Hello. This is"
+	text "Halo, tu" ; text "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Good morning,"
+	para "Dobre rano," ; para "Good morning,"
 	line "<PLAY_G>!"
 	done
 
 JackAnswerPhoneDayText:
-	text "Hello. This is"
+	text "Halo, tu" ; text "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "How's it going,"
+	para "Ako to ide," ; para "How's it going,"
 	line "<PLAY_G>?"
 	done
 
 JackAnswerPhoneNiteText:
-	text "Hello. This is"
+	text "Halo, tu" ; text "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Good evening,"
+	para "Dobry vecer," ; para "Good evening,"
 	line "<PLAY_G>!"
 	done
 
 JackGreetText:
-	text "<PLAY_G>, good"
-	line "morning!"
+	text "<PLAY_G>," ; text "<PLAY_G>, good"
+	line "Dobre rano!" ; line "morning!"
 
-	para "It's me, @"
+	para "Tu @" ; para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "How are you doing?"
+	line "Ako sa dari?" ; line "How are you doing?"
 	done
 
 JackGreetDayText:
-	text "<PLAY_G>, howdy!"
+	text "<PLAY_G>, cauko!" ; text "<PLAY_G>, howdy!"
 
-	para "It's me, @"
+	para "Tu, @" ; para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Isn't it nice out?"
+	line "Vonku je krasne." ; line "Isn't it nice out?"
 	done
 
 JackGreetNiteText:
-	text "<PLAY_G>, good"
-	line "evening!"
+	text "<PLAY_G>" ; text "<PLAY_G>, good"
+	line "dobry vecer!" ; line "evening!"
 
-	para "It's me, @"
+	para "Tu @" ; para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Got a minute?"
+	line "Mas sekundu?" ; line "Got a minute?"
 	done
 
 JackGenericText:
-	text "How are your"
-	line "#MON doing?"
+	text "Ako sa maju" ; text "How are your"
+	line "tvoji #MONi?" ; line "#MON doing?"
 
-	para "My @"
+	para "Moj @" ; para "My @"
 	text_ram wStringBuffer4
-	text " is"
-	line "so curious, it's a"
+	text " je" ; text " is"
+	line "strasne zvedavy," ; line "so curious, it's a"
 
-	para "problem. Maybe"
-	line "it's like me…"
+	para "az to je problem." ; para "problem. Maybe"
+	line "Je ako ja…" ; line "it's like me…"
 	done

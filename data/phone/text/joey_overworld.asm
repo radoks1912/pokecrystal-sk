@@ -1,71 +1,71 @@
 JoeyAskNumber1Text:
-	text "Listen, can I get"
-	line "your phone number?"
+	text "Pocuj, das mi" ; text "Listen, can I get"
+	line "svoje cislo?" ; line "your phone number?"
 
-	para "I'll ring you for"
-	line "some battles."
+	para "Zavolam ti ohladom" ; para "I'll ring you for"
+	line "zapasov." ; line "some battles."
 
-	para "I'm a rookie too, "
-	line "so I think it'd be"
-	cont "a good motivator."
+	para "Som novacik, " ; para "I'm a rookie too, "
+	line "takze by to mohla" ; line "so I think it'd be"
+	cont "byt motivacia." ; cont "a good motivator."
 	done
 
 JoeyAskNumber2Text:
-	text "Can I get your"
-	line "phone number?"
+	text "Das mi svoje" ; text "Can I get your"
+	line "cislo?" ; line "phone number?"
 
-	para "I don't want to"
-	line "lose against you!"
+	para "Nechcem proti tebe" ; para "I don't want to"
+	line "prehravat!" ; line "lose against you!"
 
-	para "We have to battle"
-	line "again, OK?"
+	para "Dame si dalsi" ; para "We have to battle"
+	line "zapas, OK?" ; line "again, OK?"
 	done
 
 JoeyNumberAcceptedText:
-	text "I'll ring you"
-	line "whenever I get the"
-	cont "urge to battle!"
+	text "Zavolam ti" ; text "I'll ring you"
+	line "hned ako dostanem" ; line "whenever I get the"
+	cont "chut na zapas!"  ;cont "urge to battle!"
 	done
 
 JoeyNumberDeclinedText:
-	text "Oh, all right…"
+	text "Oh, v poriadku…" ; text "Oh, all right…"
 
-	para "But I won't lose"
-	line "to you again!"
+	para "Ale tentoraz uz" ; para "But I won't lose"
+	line "neprehram!" ; line "to you again!"
 	done
 
 JoeyPhoneFullText:
-	text "Huh, what? Your"
-	line "phone's full."
+	text "Hm, coze? Tvoj" ; text "Huh, what? Your"
+	line "telefon je plny." ; line "phone's full."
 	done
 
 JoeyRematchText:
-	text "I've been waiting!"
-	line "Let's battle now!"
+	text "Ocakaval som ta!" ; text "I've been waiting!"
+	line "Podme zapasit!" ; line "Let's battle now!"
 	done
 
 JoeyPackFullText:
-	text "Hey, wait! Your"
-	line "PACK is stuffed!"
+	text "Hej pockaj! Tvoj" ; text "Hey, wait! Your"
+	line "BATOH je plny!" ; line "PACK is stuffed!"
 
-	para "Well, we'll leave"
-	line "it till next time."
+	para "Nechame to na" ; para "Well, we'll leave"
+	line "inokedy." ; line "it till next time."
 	done
 
 JoeyRematchGiftText:
-	text "And yet another"
-	line "loss…"
+	text "Zase dalsia" ; text "And yet another"
+	line "prehra…" ; line "loss…"
 
-	para "No doubt about"
-	line "it--you're tough."
+	para "Nie je o com--" ; para "No doubt about"
+	line "si silny." ; line "it--you're tough."
 
-	para "Being beaten this"
-	line "often actually"
-	cont "feels good now!"
+	para "Byt porazeny tak" ; para "Being beaten this"
+	line "casto je vlastne" ; line "often actually"
+	cont "skvele!" ; cont "feels good now!"
 
-	para "Here, take this. "
-	line "Use it to get even"
+	para "Tu mas, vezmi si " ; para "Here, take this. "
+	line "to. Pouzi to na" ; line "Use it to get even"
 
-	para "tougher. That will"
-	line "toughen me up too!"
+	para "dalsie zosilnenie." ; para "tougher. That will"
+	line "Aj mna to posilni!" ; line "toughen me up too!"
 	done

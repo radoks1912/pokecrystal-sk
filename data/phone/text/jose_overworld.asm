@@ -1,73 +1,73 @@
 JoseAskNumber1Text:
-	text "If my @"
+	text "Ak moj @" ; text "If my @"
 	text_ram wStringBuffer4
 	text_start
-	line "sees anything"
+	line "zbada nieco" ; line "sees anything"
 
-	para "pretty, it goes"
-	line "and gets it."
+	para "pekne, ide" ; para "pretty, it goes"
+	line "a vezme si to." ; line "and gets it."
 
-	para "Do you like pretty"
-	line "things?"
+	para "Mas rad pekne" ; para "Do you like pretty"
+	line "veci?" ; line "things?"
 
-	para "I could share if"
-	line "it gets some more."
+	para "Mohol by som ti" ; para "I could share if"
+	line "to dat." ; line "it gets some more."
 
-	para "What's your phone"
-	line "number? I'll call."
+	para "Ake mas telefonne" ; para "What's your phone"
+	line "cislo? Zavolam ti." ; line "number? I'll call."
 
-	para "Don't expect a"
-	line "whole lot, OK?"
+	para "Ale neocakavaj" ; para "Don't expect a"
+	line "vela, OK?" ; line "whole lot, OK?"
 	done
 
 JoseAskNumber2Text:
-	text "Do you like pretty"
-	line "things?"
+	text "Mas rad pekne" ; text "Do you like pretty"
+	line "veci?" ; line "things?"
 
-	para "I could share if"
-	line "FARFETCH'D goes"
-	cont "and gets more."
+	para "Mohl by som ti" ; para "I could share if"
+	line "nieco dat ked" ; line "FARFETCH'D goes"
+	cont "FARFETCH'D nieco" ; cont "and gets more."
 
-	para "What's your phone"
-	line "number? I'll call."
+	para "najde." ; para "What's your phone"
+	line "Das mi telefon?" ; line "number? I'll call."
 	done
 
 JoseNumberAcceptedText:
-	text "I'll call you as"
-	line "soon as I get"
-	cont "something pretty."
+	text "Zavolam ti, hned" ; text "I'll call you as"
+	line "ako ziskam nieco" ; line "soon as I get"
+	cont "pekne." ; cont "something pretty."
 	done
 
 JoseNumberDeclinedText:
-	text "You sure? Well,"
-	line "tell me if you"
-	cont "change your mind."
+	text "Fakt? Tak" ; text "You sure? Well,"
+	line "mi daj vediet, ak" ; line "tell me if you"
+	cont "zmenis nazor." ; cont "change your mind."
 	done
 
 JosePhoneFullText:
-	text "Huh? Your phone"
-	line "list is full."
+	text "Hm? Tvoj telefon" ; text "Huh? Your phone"
+	line "je plny." ; line "list is full."
 	done
 
 JoseRematchText:
-	text "Tweet! Tweeeet!"
+	text "Pip! Piip!" ; text "Tweet! Tweeeet!"
 
-	para "Kept me waiting!"
-	line "Go, FARFETCH'D!"
+	para "Cakame na teba!" ; para "Kept me waiting!"
+	line "Chod, FARFETCH'D!" ; line "Go, FARFETCH'D!"
 	done
 
 JoseGiftText:
-	text "Kept me waiting!"
-	line "Look, this is it!"
+	text "Cakame na teba!" ; text "Kept me waiting!"
+	line "Hla, toto je ono!" ; line "Look, this is it!"
 
-	para "See? Isn't it some"
-	line "kind of pretty?"
+	para "Vidis? No nie je" ; para "See? Isn't it some"
+	line "to pekne?" ; line "kind of pretty?"
 	done
 
 JosePackFullText:
-	text "Huh? You don't"
-	line "have anywhere to"
+	text "Hm? Nemas miesto" ; text "Huh? You don't"
+	line "v batohu." ; line "have anywhere to"
 
-	para "put this. Better"
-	line "come back for it."
+	para "Zastav sa pre to" ; para "put this. Better"
+	line "neskor." ; line "come back for it."
 	done

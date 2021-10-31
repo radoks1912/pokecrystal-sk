@@ -1,44 +1,44 @@
 LizAskNumber1Text:
-	text "Oh? You're on a"
-	line "big journey to see"
-	cont "the sights? Neat!"
+	text "Aha, si na velkom" ; text "Oh? You're on a"
+	line "dobrodruzstve a" ; line "big journey to see"
+	cont "prehliadke? Cool!" ; cont "the sights? Neat!"
 
-	para "Let's be friends!"
-	line "Can I have your"
-	cont "phone number?"
+	para "Budme kamarati!" ; para "Let's be friends!"
+	line "Das mi svoje" ; line "Can I have your"
+	cont "cislo?" ; cont "phone number?"
 
-	para "I want to hear"
-	line "about everything"
-	cont "you've seen!"
+	para "Chcem pocut a" ; para "I want to hear"
+	line "vediet vsetko o" ; line "about everything"
+	cont "vsetkom!" ; cont "you've seen!"
 	done
 
 LizAskNumber2Text:
-	text "Let's be friends!"
-	line "Can I have your"
-	cont "phone number?"
+	text "Budme kamarati!" ; text "Let's be friends!"
+	line "Das mi svoj" ; line "Can I have your"
+	cont "telefon?" ; cont "phone number?"
 
-	para "I want to hear"
-	line "about everything"
-	cont "you've seen!"
+	para "Chcem pocut a" ; para "I want to hear"
+	line "vediet vsetko o" ; line "about everything"
+	cont "vsetkom!" ; cont "you've seen!"
 	done
 
 LizNumberAcceptedText:
-	text "I'll telephone you"
-	line "if I hear anything"
-	cont "interesting."
+	text "Zavolam ti, ked" ; text "I'll telephone you"
+	line "zacujem nieco" ; line "if I hear anything"
+	cont "zaujimave." ; cont "interesting."
 	done
 
 LizNumberDeclinedText:
-	text "Aww… You won't be"
-	line "my friend?"
+	text "Och… Nechces" ; text "Aww… You won't be"
+	line "byt moj kamarat?" ; line "my friend?"
 	done
 
 LizPhoneFullText:
-	text "Wait! Your phone"
-	line "list is filled up!"
+	text "Pockat! Tvoj" ; text "Wait! Your phone"
+	line "telefon je plny!" ; line "list is filled up!"
 	done
 
 LizRematchText:
-	text "You're late! Let's"
-	line "get started now!"
+	text "Ides neskoro!" ; text "You're late! Let's"
+	line "Podme na to!" ; line "get started now!"
 	done

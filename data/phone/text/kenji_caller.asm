@@ -1,63 +1,63 @@
 KenjiHangUpText:
-	text "Anyway, we'll chat"
-	line "again!"
+	text "Kazdopadne, pokecame" ; text "Anyway, we'll chat"
+	line "znova!" ; line "again!"
 	done
 
 KenjiRemainDedicatedText:
-	text "Are you still on"
-	line "your journey?"
+	text "Si stale na" ; text "Are you still on"
+	line "dobrodruzstve?" ; line "your journey?"
 
-	para "I remain dedicated"
-	line "to my training."
+	para "Ja sa sustredim" ; para "I remain dedicated"
+	line "na moj trening." ; line "to my training."
 
-	para "Oooooaaarrrgh!"
+	para "Oooooaaarrrgh!" ; para "Oooooaaarrrgh!"
 	done
 
 KenjiCallMeBackAnotherTimeText:
-	text "I'm in training"
-	line "now. I apologize,"
+	text "Prave trenujem," ; text "I'm in training"
+	line "pardon," ; line "now. I apologize,"
 
-	para "but call me back"
-	line "another time."
+	para "zavolaj inokedy" ; para "but call me back"
+	line "dobre?" ; line "another time."
 
-	para "Oooooaaarrrgh!"
+	para "Oooooaaarrrgh!" ; para "Oooooaaarrrgh!"
 	done
 
 KenjiIllHaveTimeToChatTomorrowText:
-	text "I apologize, but I"
-	line "don't have time to"
+	text "Prepac, ale" ; text "I apologize, but I"
+	line "momentalne nemam" ; line "don't have time to"
 
-	para "chat while I am in"
-	line "training!"
+	para "cas," ; para "chat while I am in"
+	line "trenujem!" ; line "training!"
 
-	para "I'll have time to"
-	line "chat tomorrow!"
+	para "Budem mat cas" ; para "I'll have time to"
+	line "zajtra!" ; line "chat tomorrow!"
 
-	para "Yiiihah!"
+	para "Yiiihah!" ; para "Yiiihah!"
 	done
 
 KenjiHangUpMorningText:
-	text "I plan to take a"
-	line "lunch break, so"
+	text "Prave planujem" ; text "I plan to take a"
+	line "obed, takze" ; line "lunch break, so"
 
-	para "come see me then!"
-	line "Ayiiiyah!"
+	para "sa zastav!" ; para "come see me then!"
+	line "Ayiiiyah!" ; line "Ayiiiyah!"
 	done
 
 KenjiTakingABreakText:
-	text "I'm taking a break"
-	line "on ROUTE 45!"
+	text "Mam prestavku na" ; text "I'm taking a break"
+	line "ROUTE 45!" ; line "on ROUTE 45!"
 
-	para "Why not drop by if"
-	line "you are free?"
+	para "Zastavis sa, ak" ; para "Why not drop by if"
+	line "mas volno?" ; line "you are free?"
 	done
 
 KenjiHangUpNightText:
-	text "I rested up over"
-	line "my lunch break."
+	text "Prave som sa" ; text "I rested up over"
+	line "vratila z obedu." ; line "my lunch break."
 
-	para "Now it's time to"
-	line "resume training!"
+	para "Je cas vratit sa" ; para "Now it's time to"
+	line "k treningu!" ; line "resume training!"
 
-	para "Oooryaah!"
+	para "Oooryaah!" ; para "Oooryaah!"
 	done

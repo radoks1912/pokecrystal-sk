@@ -1,307 +1,307 @@
 LizMonAlwaysWantsToNuzzleText:
-	text "Oh, you have to"
-	line "hear this."
+	text "Toto musis" ; text "Oh, you have to"
+	line "pocut." ; line "hear this."
 
-	para "My @"
+	para "Moj @" ; para "My @"
 	text_ram wStringBuffer4
-	text " is"
-	line "so adorable!"
+	text " je" ; text " is"
+	line "tak zlaty!" ; line "so adorable!"
 
-	para "It always wants to"
-	line "nuzzle me!"
+	para "Stale" ; para "It always wants to"
+	line "ma chce nuchat!" ; line "nuzzle me!"
 	done
 
 LizDefeatedMonText:
-	text "And, and! Um…"
+	text "A, A…" ; text "And, and! Um…"
 
-	para "We beat a wild"
+	para "Porazili sme" ; para "We beat a wild"
 	line "@"
 	text_ram wStringBuffer4
-	text " with"
+	text " na" ; text " with"
 
-	para "just one hit a"
-	line "little while ago."
+	para "jednu ranu" ; para "just one hit a"
+	line "prednedavnom." ; line "little while ago."
 
-	para "We felt sorry for"
-	line "it, though."
+	para "Bolo nam to potom" ; para "We felt sorry for"
+	line "luto." ; line "it, though."
 	done
 
 LizLostAMonText:
-	text "And, and! Uh…"
+	text "A, a! Hm…" ; text "And, and! Uh…"
 
-	para "We just saw a"
-	line "really gorgeous"
+	para "Videli sme" ; para "We just saw a"
+	line "fakt pekneho" ; line "really gorgeous"
 	cont "@"
 	text_ram wStringBuffer4
 	text "."
 
-	para "But I was on the"
-	line "phone, so it got"
+	para "Ale zrovna som" ; para "But I was on the"
+	line "volala, tak mi" ; line "phone, so it got"
 
-	para "away. It made us"
-	line "really angry!"
+	para "utiekol. Nahnevalo" ; para "away. It made us"
+	line "ma to!" ; line "really angry!"
 	done
 
 LizBattleRematchText:
-	text "Hi! Do you have"
-	line "some free time?"
+	text "Ahoj, mas" ; text "Hi! Do you have"
+	line "chvilku casu?" ; line "some free time?"
 
-	para "I've got all sorts"
-	line "of time. If you're"
+	para "Ja mam kopu casu." ; para "I've got all sorts"
+	line "Ak mas cas," ; line "of time. If you're"
 
-	para "free, would you"
-	line "like to battle?"
+	para "dame si jeden" ; para "free, would you"
+	line "zapas?" ; line "like to battle?"
 
-	para "I'll be waiting on"
+	para "Budem cakat na" ; para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Let me know when"
-	line "you get here!"
+	para "Daj vediet, ked" ; para "Let me know when"
+	line "sem prides!" ; line "you get here!"
 	done
 
 LizWrongNumberText:
-	text "Hi, TANIA. How are"
-	line "you? This is LIZ."
+	text "Cau, TANIA. Ako" ; text "Hi, TANIA. How are"
+	line "sa mas? Tu LIZ." ; line "you? This is LIZ."
 
-	para "I'm fine, but I'm"
-	line "bored silly!"
+	para "Mam sa fajn, ale" ; para "I'm fine, but I'm"
+	line "nudim sa!" ; line "bored silly!"
 
-	para "Huh… Wrong number?"
-	line "Oops! Sorry!"
+	para "Hm… Nespravne" ; para "Huh… Wrong number?"
+	line "cislo? Prepac!" ; line "Oops! Sorry!"
 	done
 
 LizHangUpText:
-	text "OK, I'll call you"
-	line "later!"
+	text "OK, zavolam ti" ; text "OK, I'll call you"
+	line "neskor!" ; line "later!"
 	done
 
 LizRuinsOfAlphGossipText:
-	text "Listen, listen!"
+	text "Pocuj, pocuj!" ; text "Listen, listen!"
 
-	para "I was listening to"
-	line "the radio in the"
+	para "Pocuvala som" ; para "I was listening to"
+	line "radio v" ; line "the radio in the"
 
-	para "RUINS OF ALPH when"
-	line "an odd broadcast"
+	para "RUINS OF ALPH ked" ; para "RUINS OF ALPH when"
+	line "zrazu zacalo" ; line "an odd broadcast"
 
-	para "suddenly cut it on"
-	line "the regular show."
+	para "zvlastne vysiela-" ; para "suddenly cut it on"
+	line "nie." ; line "the regular show."
 
-	para "I wonder what it"
-	line "was. So strange!"
+	para "Bolo to velmi" ; para "I wonder what it"
+	line "zvlastne!" ; line "was. So strange!"
 	done
 
 LizFalknerGossipText:
-	text "Listen, listen!"
+	text "Pocuj, pocuj!" ; text "Listen, listen!"
 
-	para "Don't you think"
-	line "FALKNER of VIOLET"
+	para "Nemyslis, ze" ; para "Don't you think"
+	line "FALKNER z VIOLET" ; line "FALKNER of VIOLET"
 
-	para "GYM is cool and"
-	line "handsome?"
+	para "GYM je cool a" ; para "GYM is cool and"
+	line "fesak?" ; line "handsome?"
 
-	para "But they say his"
-	line "dad, who's out"
+	para "Ale hovori sa, ze" ; para "But they say his"
+	line "jeho otec, ktory" ; line "dad, who's out"
 
-	para "training on the"
-	line "road, is even more"
+	para "trenuje na cestach" ; para "training on the"
+	line "je este krajsi" ; line "road, is even more"
 
-	para "cool and handsome"
-	line "than FALKNER."
+	para "ako" ; para "cool and handsome"
+	line "FALKNER." ; line "than FALKNER."
 
-	para "I wish I could"
-	line "meet him!"
+	para "Zelala by som si" ; para "I wish I could"
+	line "ho stretnut!" ; line "meet him!"
 	done
 
 LizEarlGossipText:
-	text "Listen, listen!"
+	text "Pocuj, pocuj!" ; text "Listen, listen!"
 
-	para "Do you know EARL,"
-	line "the teacher who"
+	para "Poznas EARLa," ; para "Do you know EARL,"
+	line "ucitela, ktory" ; line "the teacher who"
 
-	para "runs the #MON"
-	line "ACADEMY in VIOLET?"
+	para "riadi #MON" ; para "runs the #MON"
+	line "ACADEMY v VIOLET?" ; line "ACADEMY in VIOLET?"
 
-	para "I saw him doing"
-	line "pirouettes while"
+	para "Videla som ho" ; para "I saw him doing"
+	line "robit piruety" ; line "pirouettes while"
 
-	para "he was running. It"
-	line "was wildly funny!"
+	para "pri behu. Bolo" ; para "he was running. It"
+	line "to zabavne!" ; line "was wildly funny!"
 	done
 
 LizSurfPikachuGossipText:
-	text "Listen, listen!"
+	text "Pocuj, pocuj!" ; text "Listen, listen!"
 
-	para "I collect #MON"
-	line "plush dolls."
+	para "Zbieram #MON" ; para "I collect #MON"
+	line "babiky." ; line "plush dolls."
 
-	para "But I can't seem"
-	line "to get a hold of a"
+	para "Ale stale sa mi" ; para "But I can't seem"
+	line "nepodarilo ziskat" ; line "to get a hold of a"
 
-	para "SURF PIKACHU DOLL."
-	line "None of my friends"
+	para "SURF PIKACHU DOLL." ; para "SURF PIKACHU DOLL."
+	line "Ziaden moj kamos" ; line "None of my friends"
 
-	para "have it. It must"
-	line "be totally rare!"
+	para "ju nema. Musi" ; para "have it. It must"
+	line "byt velmi vzacna!" ; line "be totally rare!"
 
-	para "You could really"
-	line "brag about it if"
-	cont "you had one."
+	para "Mohol by si sa nou" ; para "You could really"
+	line "chvastat, ak by si" ; line "brag about it if"
+	cont "ju mal." ; cont "you had one."
 	done
 
 LizMooMooMilkGossipText:
-	text "Listen, listen!"
+	text "Pocuj, pocuj!" ; text "Listen, listen!"
 
-	para "Do you know about"
-	line "MOOMOO MILK?"
+	para "Poznas" ; para "Do you know about"
+	line "MOOMOO MILK?" ; line "MOOMOO MILK?"
 
-	para "You can buy it at"
-	line "MOOMOO FARM."
+	para "Kupis ho na" ; para "You can buy it at"
+	line "MOOMOO FARM." ; line "MOOMOO FARM."
 
-	para "It's supposed to"
-	line "be good for health"
+	para "Udajne je" ; para "It's supposed to"
+	line "je dobre pre" ; line "be good for health"
 
-	para "and beauty."
-	line "I really want to"
+	para "zdravie a krasu." ; para "and beauty."
+	line "Chcela by som ho" ; line "I really want to"
 
-	para "try some. I bet"
-	line "it's delicious!"
+	para "vyskusat. Stavim" ; para "try some. I bet"
+	line "sa, ze je skvele!" ; line "it's delicious!"
 	done
 
 LizSalonGossipText:
-	text "Listen, listen!"
+	text "Pocuj, pocuj!" ; text "Listen, listen!"
 
-	para "There's a #MON"
-	line "SALON in GOLDENROD"
+	para "Exisuje #MON" ; para "There's a #MON"
+	line "SALON v GOLDENROD" ; line "SALON in GOLDENROD"
 
-	para "that's run by two"
-	line "brothers."
+	para "ktory riadia dvaja" ; para "that's run by two"
+	line "bratia." ; line "brothers."
 
-	para "The older brother"
-	line "is good, but the"
+	para "Starsi brat je" ; para "The older brother"
+	line "dobry, ale ten" ; line "is good, but the"
 
-	para "younger one really"
-	line "isn't."
+	para "mladsi nie tak" ; para "younger one really"
+	line "celkom." ; line "isn't."
 
-	para "But sometimes the"
-	line "younger one does a"
+	para "Ale niekedy ten" ; para "But sometimes the"
+	line "mladsi urobi" ; line "younger one does a"
 
-	para "better job than"
-	line "his brother."
+	para "lepsiu pracu ako" ; para "better job than"
+	line "ten starsi." ; line "his brother."
 
-	para "Every time I go, I"
-	line "have a hard time"
+	para "Zakazdym, ked tam" ; para "Every time I go, I"
+	line "idem, neviem ku" ; line "have a hard time"
 
-	para "trying to decide"
-	line "whom I should use…"
+	para "komu mam" ; para "trying to decide"
+	line "ist…" ; line "whom I should use…"
 	done
 
 LizWhitneyGossipText:
-	text "Listen, listen!"
+	text "Pocuj, pocuj!" ; text "Listen, listen!"
 
-	para "GOLDENROD GYM's"
-	line "WHITNEY began"
+	para "WHITNEY z GOLDEN-" ; para "GOLDENROD GYM's"
+	line "ROD GYM zacala" ; line "WHITNEY began"
 
-	para "battling only a"
-	line "little while ago!"
+	para "zapasit len" ; para "battling only a"
+	line "prednedavnom!" ; line "little while ago!"
 
-	para "But the #MON"
-	line "LEAGUE chose her"
-	cont "as a GYM LEADER!"
+	para "Ale #MON" ; para "But the #MON"
+	line "LEAGUE ju vybrala" ; line "LEAGUE chose her"
+	cont "za GYM LEADER!" ; cont "as a GYM LEADER!"
 
-	para "I bet she must be"
-	line "totally talented."
+	para "Stavim sa, ze je" ; para "I bet she must be"
+	line "talentovana." ; line "totally talented."
 	done
 
 LizBugCatchingContestGossipText:
-	text "Listen, listen!"
+	text "Pocuj, pocuj!" ; text "Listen, listen!"
 
-	para "Have you ever"
-	line "taken part in a"
+	para "Zucastnil si sa" ; para "Have you ever"
+	line "niekedy v" ; line "taken part in a"
 
-	para "Bug-Catching"
-	line "Contest at the"
-	cont "NATIONAL PARK?"
+	para "Hmyzovej sutazi" ; para "Bug-Catching"
+	line "v" ; line "Contest at the"
+	cont "NATIONAL PARKu?" ; cont "NATIONAL PARK?"
 
-	para "I did once, but"
-	line "all I could catch"
-	cont "was a CATERPIE."
+	para "Ja raz hej, ale" ; para "I did once, but"
+	line "chytila som iba" ; line "all I could catch"
+	cont "CATERPIE." ; cont "was a CATERPIE."
 
-	para "But guess what!"
+	para "Ale hadaj co!" ; para "But guess what!"
 
-	para "I won with that"
-	line "CATERPIE. Isn't"
-	cont "that great?"
+	para "S tym CATERPIE" ; para "I won with that"
+	line "som vyhrala. Nie" ; line "CATERPIE. Isn't"
+	cont "je to skvele?" ; cont "that great?"
 	done
 
 LizBeautifulMonGossipText:
-	text "Listen, listen!"
+	text "Pocuj, pocuj!" ; text "Listen, listen!"
 
-	para "I saw a beautiful"
+	para "Videla som pekneho" ; para "I saw a beautiful"
 	line "@"
 	text_ram wStringBuffer4
 	text "!"
 
-	para "I wish I could"
-	line "become a beautiful"
+	para "Kiezby som sa" ; para "I wish I could"
+	line "krasnym" ; line "become a beautiful"
 	cont "@"
 	text_ram wStringBuffer4
-	text " too."
+	text " tiez." ; text " too."
 	done
 
 LizForgotGossipText:
-	text "Listen, listen!"
+	text "Pocuj, pocuj!" ; text "Listen, listen!"
 
-	para "Uh… Um… Whoops!"
+	para "Uh… Um… Ups!" ; para "Uh… Um… Whoops!"
 
-	para "I forgot what I"
-	line "was going to say!"
+	para "Zabudla som, co" ; para "I forgot what I"
+	line "som chcela!" ; line "was going to say!"
 	done
 
 LizFawningOverMonText:
-	text "Listen, listen!"
+	text "Pocuj, pocuj!" ; text "Listen, listen!"
 
-	para "My @"
+	para "Moj @" ; para "My @"
 	text_ram wStringBuffer4
 	text "…"
-	line "it… so pretty…"
+	line "je… krasny…" ; line "it… so pretty…"
 
-	para "and… giggle… so"
-	line "awesome… yes… but…"
+	para "a… hehe… tak" ; para "and… giggle… so"
+	line "super… ano… ale…" ; line "awesome… yes… but…"
 
-	para "very much… eeek!"
-	line "And… lovely…"
+	para "velmi… aaa!" ; para "very much… eeek!"
+	line "A… mily…" ; line "And… lovely…"
 
-	para "Just ravishing…"
-	line "Oh, too much!"
+	para "Ocarujuci…" ; para "Just ravishing…"
+	line "Och, prilis vela!" ; line "Oh, too much!"
 
-	para "…Hug it… sleeping…"
-	line "That's right…"
+	para "…Objat… spat…" ; para "…Hug it… sleeping…"
+	line "Ano…" ; line "That's right…"
 
-	para "pretty… sigh… So"
-	line "nice… Cute…"
+	para "pekny… aach… Tak" ; para "pretty… sigh… So"
+	line "zlaty… mily…" ; line "nice… Cute…"
 
-	para "…Oops! Look at the"
-	line "time! I chatted"
-	cont "too long!"
+	para "…Ups! Pozri na" ; para "…Oops! Look at the"
+	line "hodinky! Kecala" ; line "time! I chatted"
+	cont "som moc dlho!" ; cont "too long!"
 
-	para "I'm sorry I took"
-	line "so much of your"
+	para "Prepac, ze to tak" ; para "I'm sorry I took"
+	line "dlho" ; line "so much of your"
 
-	para "time!"
-	line "I love chatting!"
+	para "trvalo!" ; para "time!"
+	line "Kecam vela!" ; line "I love chatting!"
 	done
 
 LizReminderText:
-	text "I've got too much"
-	line "time on my hands!"
+	text "Mam teraz vela" ; text "I've got too much"
+	line "casu!" ; line "time on my hands!"
 
-	para "Let's battle right"
-	line "away!"
+	para "Podme zapasit" ; para "Let's battle right"
+	line "tu a teraz!" ; line "away!"
 
-	para "I'll be waiting on"
+	para "Pockam ta na" ; para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

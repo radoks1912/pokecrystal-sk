@@ -1,90 +1,91 @@
 JoeyMonLookingSharperText:
-	text "My @"
+	text "Moj @" ; text "My @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "looking sharper"
-	cont "than before!"
+	text "je" ; text "'s"
+	line "rychlejsi ako" ; line "looking sharper"
+	cont "predtym!" ; cont "than before!"
 
-	para "I doubt there's a"
-	line "#MON as cool as"
+	para "Pochybujem, ze mas" ; para "I doubt there's a"
+	line "takeho cool" ; line "#MON as cool as"
 
-	para "this guy in your"
-	line "party!"
+	para "#MON v tvojej" ; para "this guy in your"
+	line "parte!" ; line "party!"
 	done
 
 JoeyDefeatedMonText:
-	text "Oh yeah, I took"
-	line "down a @"
+	text "Ano, porazil" ; text "Oh yeah, I took"
+	line "som @" ; line "down a @"
 	text_ram wStringBuffer4
 	text_start
-	para "in the wild the"
-	line "other day."
+	para "vcera v" ; para "in the wild the"
+	line "divocine." ; line "other day."
 
-	para "It was a cakewalk."
-	line "Well, I guess it"
+	para "Bola to malina." ; para "It was a cakewalk."
+	line "Asi nezvlado," ; line "Well, I guess it"
 
-	para "can't be helped,"
-	line "us being so tough."
+	para "ze sme boli" ; para "can't be helped,"
+	line "tak silni." ; line "us being so tough."
 	done
 
 JoeyLostAMonText:
-	text "Oh yeah, I saw a"
-	line "wild @"
+	text "Ano, videl som" ; text "Oh yeah, I saw a"
+	line "divokeho @" ; line "wild @"
 	text_ram wStringBuffer4
 	text "!"
 
-	para "I thought about"
-	line "going for it, but"
+	para "Najprv som myslel," ; para "I thought about"
+	line "ze ho chytim," ; line "going for it, but"
 
-	para "I decided to work"
-	line "with my one-and-"
+	para "ale potom som sa" ; para "I decided to work"
+	line "rozhodol, ze" ; line "with my one-and-"
 
-	para "only right to the"
-	line "extreme end."
+	para "zotrvam s mojim" ; para "only right to the"
+	line "jedinym pravym" ; line "extreme end."
+	cont "az do konca!"
 	done
 
 JoeyBattleRematchText:
-	text "Let's get together"
-	line "and battle!"
+	text "Stretnime sa a" ; text "Let's get together"
+	line "dajme zapas!" ; line "and battle!"
 
-	para "I promise things"
-	line "will be different!"
+	para "Slubujem, ze veci" ; para "I promise things"
+	line "budu inak!" ; line "will be different!"
 
 	para "@"
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'll be."
+	text "je" ; text "'s"
+	line "cesta, kde budem." ; line "where I'll be."
 
-	para "Give me a shout"
-	line "when you come."
+	para "Potom na mna za-" ; para "Give me a shout"
+	line "kric, ked prides." ; line "when you come."
 	done
 
 JoeyHangUpText:
-	text "All right. Later!"
+	text "Oukej. Neskor!" ; text "All right. Later!"
 	done
 
 JoeyDevisingStrategiesText:
-	text "I'm checking out"
+	text "Kontrolujem" ; text "I'm checking out"
 	line "@"
 	text_ram wStringBuffer4
-	text "'s moves"
+	text " utoky" ; text "'s moves"
 
-	para "and devising some"
-	line "strategies."
+	para "a vymyslam" ; para "and devising some"
+	line "strategiu." ; line "strategies."
 
-	para "When I come up"
-	line "with a good one,"
-	cont "let's battle!"
+	para "Ked vymyslim tu" ; para "When I come up"
+	line "spravnu,"  ; line "with a good one,"
+	cont "dajme zapas!" ; cont "let's battle!"
 	done
 
 JoeyReminderText:
-	text "What's keeping"
-	line "you, <PLAYER>!"
+	text "Kde si sa zdrzal," ; text "What's keeping"
+	line "<PLAYER>!" ; line "you, <PLAYER>!"
 
-	para "Let's get down and"
-	line "battle already!"
+	para "Pridi a" ; para "Let's get down and"
+	line "dajme zapas!" ; line "battle already!"
 
-	para "I'm waiting on"
+	para "Cakam ta na" ; para "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

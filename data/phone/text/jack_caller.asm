@@ -1,192 +1,192 @@
 JackIntelligenceKeepsRisingText:
-	text "My @"
+	text "Inteligencia mojho @" ; text "My @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "intelligence keeps"
+	text "prudko" ; text "'s"
+	line "stupa." ; line "intelligence keeps"
 
-	para "rising. It might"
-	line "be smarter than"
-	cont "yours!"
+	para "Mozno, ze je" ; para "rising. It might"
+	line "mudrejsi nez ten" ; line "be smarter than"
+	cont "tvoj!" ; cont "yours!"
 	done
 
 JackDefeatedMonText:
-	text "The other day, I"
-	line "easily defeated a"
+	text "Vcera som s" ; text "The other day, I"
+	line "lahkostou porazil" ; line "easily defeated a"
 	cont "@"
 	text_ram wStringBuffer4
 	text "."
 
-	para "I think swapping"
-	line "tips with you is"
-	cont "starting to help."
+	para "Myslim ze zdiela-" ; para "I think swapping"
+	line "nie tipov s tebou" ; line "tips with you is"
+	cont "sa vyplatilo." ; cont "starting to help."
 	done
 
 JackLostAMonText:
-	text "Oh, and listen."
-	line "I missed catching"
+	text "A pocuvaj." ; text "Oh, and listen."
+	line "Premrhal som" ; line "I missed catching"
 
-	para "a @"
+	para "chytenie @" ; para "a @"
 	text_ram wStringBuffer4
-	text " by"
-	line "just a tiny bit."
+	text " len" ; text " by"
+	line "o malicko." ; line "just a tiny bit."
 
-	para "If I'd been a bit"
-	line "more informed, I'm"
+	para "Ak by som mal co" ; para "If I'd been a bit"
+	line "len trochu viac" ; line "more informed, I'm"
 
-	para "sure I would've"
-	line "caught it…"
+	para "informacii, chytil" ; para "sure I would've"
+	line "by som ho…" ; line "caught it…"
 	done
 
 JackBattleRematchText:
-	text "Do you want to"
-	line "battle? I'll show"
+	text "Chces zapasit?" ; text "Do you want to"
+	line "battle? Ukazem ti" ; line "battle? I'll show"
 
-	para "you how to battle"
-	line "logically."
+	para "ako zapasit" ; para "you how to battle"
+	line "s logikou." ; line "logically."
 
-	para "I'll be in"
+	para "Budem na" ; para "I'll be in"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Give me a shout if"
-	line "you're nearby."
+	para "Zakric, ked budes" ; para "Give me a shout if"
+	line "nablizku." ; line "you're nearby."
 	done
 
 JackHangUpText:
-	text "See you later!"
+	text "Vidime sa neskor!" ; text "See you later!"
 	done
 
 JackThunderTriviaText:
-	text "Did you know?"
+	text "Vedel si toto?" ; text "Did you know?"
 
-	para "When it's raining,"
-	line "THUNDER is sure to"
-	cont "strike."
+	para "Ked prsi," ; para "When it's raining,"
+	line "THUNDER nikdy" ; line "THUNDER is sure to"
+	cont "neminie." ; cont "strike."
 	done
 
 JackRolloutTriviaText:
-	text "Did you know…?"
+	text "Vedel si, ze…?" ; text "Did you know…?"
 
-	para "If you use DEFENSE"
-	line "CURL, ROLLOUT's"
+	para "Pouzi DEFENSE" ; para "If you use DEFENSE"
+	line "CURL, a sila" ; line "CURL, ROLLOUT's"
 
-	para "power goes way up"
-	line "past normal."
+	para "ROLLOUTu je ovela" ; para "power goes way up"
+	line "vacsia." ; line "past normal."
 	done
 
 JackSolarbeamTriviaText:
-	text "Did you know…?"
+	text "Vedel si, ze…?" ; text "Did you know…?"
 
-	para "If the sunlight is"
-	line "harsh, SOLARBEAM"
+	para "Ak slnko svieti" ; para "If the sunlight is"
+	line "silno, SOLARBEAM" ; line "harsh, SOLARBEAM"
 
-	para "doesn't need to be"
-	line "charged up."
+	para "nepotrebuje" ; para "doesn't need to be"
+	line "pripravu." ; line "charged up."
 	done
 
 JackStompTriviaText:
-	text "Did you know…?"
+	text "Vedel si, ze…?" ; text "Did you know…?"
 
-	para "If the opponent"
-	line "uses MINIMIZE,"
+	para "Ak super pouzije" ; para "If the opponent"
+	line "MINIMIZE," ; line "uses MINIMIZE,"
 
-	para "your STOMP becomes"
-	line "more powerful."
+	para "tvoj STOMP je" ; para "your STOMP becomes"
+	line "ovela ucinnejsi." ; line "more powerful."
 	done
 
 JackGustTriviaText:
-	text "Did you know…?"
+	text "Vedel si, ze…?" ; text "Did you know…?"
 
-	para "If your opponent"
-	line "is FLYing, your"
+	para "Ak super pouzil" ; para "If your opponent"
+	line "FLY, tvoj" ; line "is FLYing, your"
 
-	para "GUST becomes much"
-	line "more powerful."
+	para "GUST bude ovela" ; para "GUST becomes much"
+	line "ucinnejsi." ; line "more powerful."
 	done
 
 JackTwisterTriviaText:
-	text "Did you know…?"
+	text "Vedel si, ze…?" ; text "Did you know…?"
 
-	para "If your opponent"
-	line "is FLYing, your"
+	para "Ak super pouzil" ; para "If your opponent"
+	line "FLY, tvoj" ; line "is FLYing, your"
 
-	para "TWISTER becomes"
-	line "more powerful."
+	para "TWISTER bude" ; para "TWISTER becomes"
+	line "ovela ucinnejsi." ; line "more powerful."
 	done
 
 JackEarthquakeTriviaText:
-	text "Did you know…?"
+	text "Vedel si, ze…?" ; text "Did you know…?"
 
-	para "If your opponent"
-	line "uses DIG, your"
+	para "Ak super pouzil" ; para "If your opponent"
+	line "DIG, tvoj" ; line "uses DIG, your"
 
-	para "EARTHQUAKE becomes"
-	line "more powerful."
+	para "EARTHQUAKE bude" ; para "EARTHQUAKE becomes"
+	line "ovela ucinnejsi." ; line "more powerful."
 	done
 
 JackMagnitudeTriviaText:
-	text "Did you know…?"
+	text "Vedel si, ze…?" ; text "Did you know…?"
 
-	para "If your opponent"
-	line "uses DIG, your"
+	para "Ak super pouzil" ; para "If your opponent"
+	line "DIG, tvoj" ; line "uses DIG, your"
 
-	para "MAGNITUDE becomes"
-	line "more powerful."
+	para "MAGNITUDE bude" ; para "MAGNITUDE becomes"
+	line "ovela ucinnejsi." ; line "more powerful."
 	done
 
 JackSandstormTriviaText:
-	text "Did you know…?"
+	text "Vedel si, ze…?" ; text "Did you know…?"
 
-	para "The rock, ground"
-	line "and steel types"
+	para "Rock, ground" ; para "The rock, ground"
+	line "a steel typy" ; line "and steel types"
 
-	para "can't be hurt by"
-	line "SANDSTORM."
+	para "nejdu zranit so" ; para "can't be hurt by"
+	line "SANDSTORM." ; line "SANDSTORM."
 	done
 
 JackSunnyDayTriviaText:
-	text "Did you know…?"
+	text "Vedel si, ze…?" ; text "Did you know…?"
 
-	para "If the sunlight is"
-	line "harsh, water-type"
+	para "Ak slnko svieti" ; para "If the sunlight is"
+	line "silno, vodne" ; line "harsh, water-type"
 
-	para "moves become much"
-	line "weaker."
+	para "utoky su ovela" ; para "moves become much"
+	line "slabsie." ; line "weaker."
 	done
 
 JackRainDanceTriviaText:
-	text "Did you know…?"
+	text "Vedel si, ze…?" ; text "Did you know…?"
 
-	para "When it's raining,"
-	line "fire-type moves"
+	para "Ked prsi," ; para "When it's raining,"
+	line "ohnive utoky" ; line "fire-type moves"
 
-	para "become much weaker"
-	line "than usual."
+	para "su omnoho slabsie" ; para "become much weaker"
+	line "ako obvykle." ; line "than usual."
 	done
 
 JackHeardSomeGreatTipsText:
-	text "My friend heard"
-	line "some great tips."
+	text "Moj priatel pocul" ; text "My friend heard"
+	line "skvele tipy." ; line "some great tips."
 
-	para "He's going to let"
-	line "me in on some."
+	para "Vraj mi niektore" ; para "He's going to let"
+	line "potom povie." ; line "me in on some."
 
-	para "When he tells me,"
-	line "I'll call right"
-	cont "away and tell you."
+	para "Ked ich budem," ; para "When he tells me,"
+	line "vediet, hned" ; line "I'll call right"
+	cont "ti zavolam." ; cont "away and tell you."
 	done
 
 JackReminderText:
-	text "Hey, <PLAY_G>!"
+	text "Hej, <PLAY_G>!" ; text "Hey, <PLAY_G>!"
 
-	para "Do you remember"
-	line "your promise?"
+	para "Pamatas si na" ; para "Do you remember"
+	line "svoj slub?" ; line "your promise?"
 
-	para "We have to battle"
-	line "soon!"
+	para "Mali sme spolu" ; para "We have to battle"
+	line "zapasit!" ; line "soon!"
 
-	para "I'll be at"
+	para "Budem na" ; para "I'll be at"
 	line "@"
 	text_ram wStringBuffer5
 	text "."

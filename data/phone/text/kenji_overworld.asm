@@ -1,67 +1,67 @@
 KenjiAskNumber1Text:
-	text "Our battle was"
-	line "remarkable!"
+	text "Nas zapas bol" ; text "Our battle was"
+	line "pozoruhodny!" ; line "remarkable!"
 
-	para "I wish for some-"
-	line "thing to remember"
-	cont "you by!"
+	para "Chcela by som si" ; para "I wish for some-"
+	line "ta nejak" ; line "thing to remember"
+	cont "zapamatat!" ; cont "you by!"
 
-	para "Perhaps your phone"
-	line "number will do?"
+	para "Das mi svoje" ; para "Perhaps your phone"
+	line "cislo?" ; line "number will do?"
 
-	para "My training makes"
-	line "it impossible to"
-	cont "chat much, but…"
+	para "Moj trening mi" ; para "My training makes"
+	line "nedovolit kecat" ; line "it impossible to"
+	cont "casto, ale…" ; cont "chat much, but…"
 	done
 
 KenjiAskNumber2Text:
-	text "My training makes"
-	line "chatting tough,"
+	text "Moj trening mi" ; text "My training makes"
+	line "nedovoli moc" ; line "chatting tough,"
 
-	para "but will you take"
-	line "down my number?"
+	para "kecat, ale zapis" ; para "but will you take"
+	line "si moje cislo, ok?" ; line "down my number?"
 	done
 
 KenjiNumberAcceptedText:
-	text "I must train"
-	line "harder to become"
-	cont "the mightiest!"
+	text "Musim trenovat" ; text "I must train"
+	line "aby som bola" ; line "harder to become"
+	cont "najsilnejsia!" ; cont "the mightiest!"
 	done
 
 KenjiNumberDeclinedText:
-	text "If you decide you"
-	line "want my number,"
-	cont "come see me."
+	text "Ak budes chciet" ; text "If you decide you"
+	line "moje cislo," ; line "want my number,"
+	cont "zastav sa." ; cont "come see me."
 	done
 
 KenjiPhoneFullText:
-	text "Your phone appears"
-	line "to be full."
+	text "Tvoj telefon" ; text "Your phone appears"
+	line "je plny." ; line "to be full."
 
-	para "Come back later!"
+	para "Zastav sa neskor!" ; para "Come back later!"
 	done
 
 KenjiGiftText:
-	text "I wish to thank"
-	line "you, <PLAYER>!"
+	text "Chcem ti podakovat" ; text "I wish to thank"
+	line "<PLAYER>!" ; line "you, <PLAYER>!"
 
-	para "I've been training"
-	line "all alone…"
+	para "Trenovala som" ; para "I've been training"
+	line "uplne sama…" ; line "all alone…"
 
-	para "I was happy that"
-	line "you cared to call…"
+	para "Som rada, ze si" ; para "I was happy that"
+	line "sa ozval…" ; line "you cared to call…"
 
-	para "I want you to have"
-	line "this!"
+	para "Vezmi si toto" ; para "I want you to have"
+	line "prosim!" ; line "this!"
 	done
 
 KenjiPackFullText:
-	text "Your strength will"
-	line "not let you carry"
+	text "Tvoj batoh je" ; text "Your strength will"
+	line "plny." ; line "not let you carry"
 
-	para "another thing!"
-	line "I will hold this"
+	para "Ja ti to" ; para "another thing!"
+	line "zatial postrazim," ; line "I will hold this"
 
-	para "till you lighten"
-	line "your PACK!"
+	para "a ty si uprac" ; para "till you lighten"
+	line "BATOH!" ; line "your PACK!"
 	done

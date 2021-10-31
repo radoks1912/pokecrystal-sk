@@ -1,69 +1,69 @@
 JoseAnswerPhoneText:
-	text "Hello, this is"
+	text "Halo, tu" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, <PLAY_G>?"
-	line "Good morning!"
+	para "Oh, <PLAY_G>?" ; para "Oh, <PLAY_G>?"
+	line "Dobre rano!" ; line "Good morning!"
 	done
 
 JoseAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Halo, tu" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, <PLAY_G>? Hi!"
+	para "Oh, <PLAY_G>? Ahoj!" ; para "Oh, <PLAY_G>? Hi!"
 	done
 
 JoseAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Halo, tu" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, <PLAY_G>?"
-	line "Good evening!"
+	para "Oh, <PLAY_G>?" ; para "Oh, <PLAY_G>?"
+	line "Dobry vecer!" ; line "Good evening!"
 	done
 
 JoseGreetText:
-	text "Oh, <PLAY_G>?"
+	text "Oh, <PLAY_G>?" ; text "Oh, <PLAY_G>?"
 
-	para "Tweet! Yeah, it's"
-	line "me, @"
+	para "Pip! Ano," ; para "Tweet! Yeah, it's"
+	line "tu @" ; line "me, @"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 JoseGreetDayText:
-	text "Oh, <PLAY_G>?"
+	text "Oh, <PLAY_G>?" ; text "Oh, <PLAY_G>?"
 
-	para "Tweet! Yeah, it's"
-	line "me, @"
+	para "Pip! Ano," ; para "Tweet! Yeah, it's"
+	line "tu @" ; line "me, @"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 JoseGreetNiteText:
-	text "Oh, <PLAY_G>?"
+	text "Oh, <PLAY_G>?" ; text "Oh, <PLAY_G>?"
 
-	para "Tweet! Yeah, it's"
-	line "me, @"
+	para "Pip! Ano," ; para "Tweet! Yeah, it's"
+	line "tu @" ; line "me, @"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 JoseGenericText:
-	text "Are your #MON"
-	line "still cooking?"
+	text "Su tvoji #MON" ; text "Are your #MON"
+	line "stale top?" ; line "still cooking?"
 
-	para "My @"
+	para "Moj @" ; para "My @"
 	text_ram wStringBuffer4
-	text " has"
-	line "too much energy."
+	text " ma" ; text " has"
+	line "prilis mnoho" ; line "too much energy."
 
-	para "Once it takes off,"
-	line "it won't come back"
-	cont "for a while."
+	para "energie. Ked" ; para "Once it takes off,"
+	line "vzlietne, nebude" ; line "it won't come back"
+	cont "sa chciet vratit." ; cont "for a while."
 	done

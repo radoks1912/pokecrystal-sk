@@ -1,55 +1,55 @@
 JackAskNumber1Text:
-	text "Your knowledge is"
-	line "impressive!"
+	text "Tvoje vedomosti" ; text "Your knowledge is"
+	line "su posobive!" ; line "impressive!"
 
-	para "I like that!"
+	para "Paci sa mi to!" ; para "I like that!"
 
-	para "Want to trade"
-	line "battle tips?"
+	para "Chces si vymenit" ; para "Want to trade"
+	line "tipy a triky?" ; line "battle tips?"
 
-	para "I'll phone if I"
-	line "get good info."
+	para "Zavolam, ked sa" ; para "I'll phone if I"
+	line "nieco dozviem." ; line "get good info."
 
-	para "Would you tell me"
-	line "your number?"
+	para "Povies mi tvoje" ; para "Would you tell me"
+	line "cislo?" ; line "your number?"
 	done
 
 JackAskNumber2Text:
-	text "Want to trade"
-	line "battle tips?"
+	text "Chces si vymenit" ; text "Want to trade"
+	line "tipy a triky?" ; line "battle tips?"
 
-	para "I'll phone if I"
-	line "get good info."
+	para "Zavolam, ked sa" ; para "I'll phone if I"
+	line "nieco dozviem." ; line "get good info."
 
-	para "Would you tell me"
-	line "your number?"
+	para "Povies mi tvoje" ; para "Would you tell me"
+	line "cislo?" ; line "your number?"
 	done
 
 JackNumberAcceptedText:
-	text "I'll call you if I"
-	line "hear anything!"
+	text "Zavolam, ked sa" ; text "I'll call you if I"
+	line "nieco dozviem!" ; line "hear anything!"
 	done
 
 JackNumberDeclinedText:
-	text "Oh, OK. Too bad…"
+	text "Och, OK. Skoda…" ; text "Oh, OK. Too bad…"
 
-	para "Well, if you ever"
-	line "want my number,"
-	cont "come see me, OK?"
+	para "Ak si to niekedy" ; para "Well, if you ever"
+	line "rozmyslis," ; line "want my number,"
+	cont "pridi, OK?" ; cont "come see me, OK?"
 	done
 
 JackPhoneFullText:
-	text "Oh?"
-	line "Your phone's full."
+	text "Hm?" ; text "Oh?"
+	line "Mas plny telefon." ; line "Your phone's full."
 
-	para "It can't register"
-	line "my number."
+	para "Nezmesti sa ti" ; para "It can't register"
+	line "moje cislo." ; line "my number."
 	done
 
 JackRematchText:
-	text "Hi, I was waiting"
-	line "for you to show!"
+	text "Ahoj, ocakaval" ; text "Hi, I was waiting"
+	line "som ta!" ; line "for you to show!"
 
-	para "Let's get started"
-	line "right away!"
+	para "Podme hned" ; para "Let's get started"
+	line "na to!" ; line "right away!"
 	done
