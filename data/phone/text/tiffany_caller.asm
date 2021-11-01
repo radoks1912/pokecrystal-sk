@@ -1,136 +1,136 @@
 TiffanyMonIsAdorableText:
-	text "My @"
+	text "Moj @" ; text "My @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "adorable, don't"
+	text " je" ; text "'s"
+	line "rozkosny, nemyslis" ; line "adorable, don't"
 
-	para "you think so?"
-	line "I always sleep"
+	para "si to?" ; para "you think so?"
+	line "Vzdy s nim" ; line "I always sleep"
 
-	para "with it--it's so"
-	line "fluffy and warm!"
+	para "spavam--je chlpaty" ; para "with it--it's so"
+	line "a teplucky!" ; line "fluffy and warm!"
 	done
 
 TiffanyDefeatedMonText:
-	text "Oh, and we had to"
-	line "battle a wild"
+	text "Oh, zapasili sme" ; text "Oh, and we had to"
+	line "s divokym" ; line "battle a wild"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " a while"
-	line "ago…"
+	text " pred-" ; text " a while"
+	line "nedavnom…" ; line "ago…"
 
-	para "My CLEFAIRY came"
-	line "close to fainting!"
+	para "Moj CLEFAIRY takmer" ; para "My CLEFAIRY came"
+	line "odpadol!" ; line "close to fainting!"
 
-	para "Isn't that awful?"
+	para "Nie je to strasne?" ; para "Isn't that awful?"
 
-	para "I hate those nasty"
+	para "Nemam rad tych " ; para "I hate those nasty"
 	line "@"
 	text_ram wStringBuffer4
 	text "!"
 	done
 
 TiffanyLostAMonText:
-	text "Oh, and we had to"
-	line "battle a wild"
+	text "Oh, a zapasili sme" ; text "Oh, and we had to"
+	line "s divokym" ; line "battle a wild"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " a while"
-	line "ago…"
+	text " pred-" ; text " a while"
+	line "nedavnom…" ; line "ago…"
 
-	para "My CLEFAIRY got"
-	line "frightened, so we"
+	para "Moj CLEFAIRY sa" ; para "My CLEFAIRY got"
+	line "vydesil, tak sme" ; line "frightened, so we"
 
-	para "ran away as fast"
-	line "as we could!"
+	para "utiekli, ako rych-" ; para "ran away as fast"
+	line "lo sme vedeli!" ; line "as we could!"
 
-	para "I just can't help"
-	line "feeling protective"
-	cont "of my CLEFAIRY."
+	para "Nemozem si pomoct," ; para "I just can't help"
+	line "bojim sa o mojho" ; line "feeling protective"
+	cont "CLEFAIRYho." ; cont "of my CLEFAIRY."
 	done
 
 TiffanyBattleRematchText:
-	text "I know this might"
-	line "surprise you, but"
+	text "Viem ze ta to moze" ; text "I know this might"
+	line "prekvapit, ale" ; line "surprise you, but"
 
-	para "would you like to"
-	line "battle?"
+	para "dame si" ; para "would you like to"
+	line "zapas ?" ; line "battle?"
 
-	para "I'll be waiting"
-	line "with CLEFAIRY on"
+	para "Budem ta cakat s" ; para "I'll be waiting"
+	line "CLEFAIRYm na" ; line "with CLEFAIRY on"
 	cont "@"
 	text_ram wStringBuffer5
-	text "."
+	text "." ; text "."
 	done
 
 TiffanyItsAwfulText:
 	text_ram wStringBuffer4
 	text "!"
 
-	para "It's awful."
-	line "My CLEFAIRY…"
+	para "Je to hrozne." ; para "It's awful."
+	line "Moj CLEFAIRY…" ; line "My CLEFAIRY…"
 
-	para "Huh? <PLAY_G>?"
+	para "Hm? <PLAY_G>?" ; para "Huh? <PLAY_G>?"
 
-	para "Oh, sorry! I was"
-	line "in a hurry, and I…"
+	para "Och, prepac!" ; para "Oh, sorry! I was"
+	line "Ponahlam sa a…" ; line "in a hurry, and I…"
 
-	para "I have to go!"
-	line "Bye-bye!"
+	para "Musim ist!" ; para "I have to go!"
+	line "Ahoj!" ; line "Bye-bye!"
 	done
 
 TiffanyHangUpText:
-	text "Bye-bye!"
+	text "Ahoj!" ; text "Bye-bye!"
 	done
 
 TiffanyFoundItemText:
-	text "I bought some PINK"
-	line "BOWS at GOLDENROD"
+	text "Kupila som PINK" ; text "I bought some PINK"
+	line "BOWS v GOLDENROD" ; line "BOWS at GOLDENROD"
 
-	para "DEPT.STORE for my"
-	line "CLEFAIRY."
+	para "DEPT.STORE pre" ; para "DEPT.STORE for my"
+	line "CLEFAIRYho." ; line "CLEFAIRY."
 
-	para "I got too many, so"
-	line "I'll give you one!"
+	para "Mam ich prilis" ; para "I got too many, so"
+	line "vela, dam ti!" ; line "I'll give you one!"
 
-	para "Come collect it on"
+	para "Prid si pon na" ; para "Come collect it on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TiffanyNoItemText:
-	text "I love dressing up"
-	line "my CLEFAIRY!"
+	text "Zboznujem obliekat" ; text "I love dressing up"
+	line "mojho CLEFAIRY!" ; line "my CLEFAIRY!"
 	done
 
 TiffanyAsleepText:
-	text "What's wrong?"
-	line "Can't you visit?"
+	text "Co sa deje?" ; text "What's wrong?"
+	line "Nemozes ma pozriet?" ; line "Can't you visit?"
 
-	para "CLEFAIRY got tired"
-	line "and fell asleep."
+	para "CLEFAIRY sa unavil" ; para "CLEFAIRY got tired"
+	line "a zaspal." ; line "and fell asleep."
 
-	para "I'm not sure if I"
-	line "can wake it up…"
+	para "Nie som si ista," ; para "I'm not sure if I"
+	line "ci ho mam pre-" ; line "can wake it up…"
 
-	para "Please hurry to"
-	line "@"
+	para "budit. Ponahlaj sa" ; para "Please hurry to"
+	line "na @"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 TiffanyHurryText:
-	text "What's wrong?"
-	line "Can't you visit?"
+	text "Co sa deje?" ; text "What's wrong?"
+	line "Nemozes ma pozriet?" ; line "Can't you visit?"
 
-	para "I'm sure this will"
-	line "look good on your"
-	cont "CLEFAIRY."
+	para "Som si ista, ze to" ; para "I'm sure this will"
+	line "bude vypadat skve-" ; line "look good on your"
+	cont "le na CLEFAIRY." ; cont "CLEFAIRY."
 
-	para "Please hurry to"
+	para "Ponahlaj sa na" ; para "Please hurry to"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

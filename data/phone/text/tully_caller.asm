@@ -1,103 +1,104 @@
 TullyMonHasGrownText:
-	text "My @"
+	text "Moj @" ; text "My @"
 	text_ram wStringBuffer4
-	text " has"
-	line "grown again."
+	text " opat" ; text " has"
+	line "narastol." ; line "grown again."
 
-	para "It was only about"
-	line "so big when I"
+	para "Bol iba ta" ; para "It was only about"
+	line "takyto malicky" ; line "so big when I"
 
-	para "caught it, but now"
-	line "it's way bigger."
+	para "ked som ho chytil," ; para "caught it, but now"
+	line "teraz je vacsi." ; line "it's way bigger."
 	done
 
 TullyDefeatedMonText:
-	text "Oh yeah, I KO'd a"
-	line "wild @"
+	text "Ano, porazil som" ; text "Oh yeah, I KO'd a"
+	line "divokeho @" ; line "wild @"
 	text_ram wStringBuffer4
 	text "."
 
-	para "It was huge, like"
-	line "this big even."
+	para "Bol obrovsky, az" ; para "It was huge, like"
+	line "takyto!" ; line "this big even."
 
-	para "Heh, I guess you"
-	line "can't tell over"
-	cont "the phone…"
+	para "He, asi sa to" ; para "Heh, I guess you"
+	line "tazko vysvetli" ; line "can't tell over"
+	cont "cez mobil…" ; cont "the phone…"
 	done
 
 TullyLostAMonText:
-	text "Oh yeah, I lost a"
-	line "wild @"
+	text "Ano, nechytil som" ; text "Oh yeah, I lost a"
+	line "divokeho @" ; line "wild @"
 	text_ram wStringBuffer4
 	text "."
 
-	para "It was huge, like"
-	line "this big even."
+	para "Bol obrovsky, az" ; para "It was huge, like"
+	line "takyto!." ; line "this big even."
 
-	para "Heh, I guess you"
-	line "can't tell over"
-	cont "the phone…"
+	para "He, asi sa to" ; para "Heh, I guess you"
+	line "tazko vysvetli" ; line "can't tell over"
+	cont "cez mobil…" ; cont "the phone…"
 	done
 
 TullyBattleRematchText:
-	text "We should get a"
-	line "battle going!"
+	text "Mali by sme si" ; text "We should get a"
+	line "dat zapas!" ; line "battle going!"
 
-	para "I'll be fishing on"
+	para "Budem rybarcit na" ; para "I'll be fishing on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Swing by if you"
-	line "have the time."
+	para "Zastav sa, ked" ; para "Swing by if you"
+	line "budes mat cas." ; line "have the time."
 	done
 
 TullyHangUpText:
-	text "Well, I'll be"
-	line "seeing you."
+	text "Vidime" ; text "Well, I'll be"
+	line "sa!." ; line "seeing you."
 	done
 
 TullyFoundItemText:
-	text "I picked up a good"
-	line "little thing at"
-	cont "the water's edge."
+	text "Nasiel som tuto" ; text "I picked up a good"
+	line "malu vec na okraji" ; line "little thing at"
+	cont "vodnej hladiny." ; cont "the water's edge."
 
-	para "Like I promised,"
-	line "it's yours."
+	para "Ako som slubil," ; para "Like I promised,"
+	line "je tvoja." ; line "it's yours."
 
-	para "I'll be waiting on"
+	para "Pockam ta na" ; para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TullyNoItemText:
-	text "Have I found"
-	line "anything good?"
+	text "Ci som nasiel" ; text "Have I found"
+	line "nieco dobre?" ; line "anything good?"
 
-	para "Nope, not yet."
+	para "Nie, este nie." ; para "Nope, not yet."
 
-	para "It's like fishing,"
-	line "you need patience."
+	para "Je to ako chytanie," ; para "It's like fishing,"
+	line "ryb, vyzaduje." ; line "you need patience."
+	cont "trpezlivost."
 	done
 
 TullyForwardText:
-	text "Yup, TULLY here…"
+	text "Ano, tu TULLY…" ; text "Yup, TULLY here…"
 
-	para "<PLAY_G>? What?"
-	line "You're lost?"
+	para "<PLAY_G>? Coze?" ; para "<PLAY_G>? What?"
+	line "Stratil si sa?" ; line "You're lost?"
 
-	para "Our battle will be"
-	line "on @"
+	para "Nas zapas bude" ; para "Our battle will be"
+	line "na @" ; line "on @"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TullyHurryText:
-	text "I've got something"
-	line "good for you."
+	text "Mam pre teba nieco" ; text "I've got something"
+	line "dobre." ; line "good for you."
 
-	para "Hustle over to"
+	para "Zastav sa na" ; para "Hustle over to"
 	line "@"
 	text_ram wStringBuffer5
 	text "."

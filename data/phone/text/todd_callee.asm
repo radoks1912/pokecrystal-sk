@@ -1,70 +1,70 @@
 ToddAnswerPhoneText:
-	text "Yes? This is"
+	text "Ano?" ; text "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3
-	text " speaking."
+	text " pri telefone." ; text " speaking."
 
-	para "Hey, <PLAY_G>!"
+	para "Ahoj, <PLAY_G>!" ; para "Hey, <PLAY_G>!"
 	done
 
 ToddAnswerPhoneDayText:
-	text "Yes? This is"
+	text "Yes? This is" ; text "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3
-	text " speaking."
+	text " pri telefone." ; text " speaking."
 
-	para "This must be"
+	para "Toto musi byt" ; para "This must be"
 	line "<PLAY_G>."
 	done
 
 ToddAnswerPhoneNiteText:
-	text "Yes? This is"
+	text "Ano?" ; text "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3
-	text " speaking."
+	text " pri telefone." ; text " speaking."
 
-	para "Ah, <PLAY_G>!"
+	para "Ahoj, <PLAY_G>!" ; para "Ah, <PLAY_G>!"
 	done
 
 ToddGreetText:
-	text "Hello, this is"
+	text "Ano? Tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "<PLAY_G>, right?"
+	para "<PLAY_G>, vsak?" ; para "<PLAY_G>, right?"
 	done
 
 ToddGreetDayText:
-	text "Hello, this is"
+	text "Ahoj, tu" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "<PLAY_G>, what are"
-	line "you doing?"
+	para "<PLAY_G>, co" ; para "<PLAY_G>, what are"
+	line "prave robis?" ; line "you doing?"
 	done
 
 ToddGreetNiteText:
-	text "Hello, this is"
+	text "Ahoj, tu" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "<PLAY_G>, sorry to"
-	line "call you so late."
+	para "<PLAY_G>, prepac" ; para "<PLAY_G>, sorry to"
+	line "ze volam neskoro." ; line "call you so late."
 	done
 
 ToddGenericText:
-	text "How do you raise"
-	line "your #MON?"
+	text "Ako vychovavas" ; text "How do you raise"
+	line "svojich #MONov?" ; line "your #MON?"
 
-	para "I do all sorts"
-	line "of things, like"
+	para "Ja robim mnoho" ; para "I do all sorts"
+	line "veci, napriklad" ; line "of things, like"
 
-	para "leaving them in"
-	line "DAY-CARE and"
+	para "ich nechavam v" ; para "leaving them in"
+	line "DAY-CARE a" ; line "DAY-CARE and"
 
-	para "toughening them up"
-	line "with items."
+	para "posilnujem ich" ; para "toughening them up"
+	line "pomocou predmetov." ; line "with items."
 	done

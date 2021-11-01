@@ -1,45 +1,45 @@
 ReenaAskNumber1Text:
-	text "Not bad…"
-	line "It's something to"
+	text "Nie je zle…" ; text "Not bad…"
+	line "Je to fakt nieco" ; line "It's something to"
 
-	para "beat me, even by"
-	line "an unlikely fluke…"
+	para "porazit ma, aj ked" ; para "beat me, even by"
+	line "len nahodou…" ; line "an unlikely fluke…"
 
-	para "I like you! Give"
-	line "me your number!"
+	para "Skvele! Daj" ; para "I like you! Give"  
+	line "mi tvoje cislo!" ; line "me your number!"
 
-	para "You can be my"
-	line "practice partner!"
+	para "Mozes byt moj" ; para "You can be my"
+	line "cvicny partak!" ; line "practice partner!"
 	done
 
 ReenaAskNumber2Text:
-	text "Give me your phone"
-	line "number!"
+	text "Daj mi tvoje" ; text "Give me your phone"
+	line "cislo!" ; line "number!"
 
-	para "You are going to"
-	line "be my practice"
-	cont "partner!"
+	para "Budes moj" ; para "You are going to
+	line "cvicny" ; line "be my practice"
+	cont "partak!" ; cont "partner!"
 	done
 
 ReenaNumberAcceptedText:
-	text "Don't be too proud"
-	line "about beating me!"
+	text "Nebud prilis hrdy," ; text "Don't be too proud"
+	line "ze si ma porazil!" ; line "about beating me!"
 
-	para "It was a fluke!"
+	para "Bola to nahoda!" ; para "It was a fluke!"
 	done
 
 ReenaNumberDeclinedText:
-	text "I don't believe"
-	line "it! You're going"
-	cont "to regret this!"
+	text "Neverim tomu!" ; text "I don't believe"
+	line "Budes toho" ; line "it! You're going"
+	cont "lutovat!" ; cont "to regret this!"
 	done
 
 ReenaPhoneFullText:
-	text "What? Your phone"
-	line "list has no room!"
+	text "Hm? Nemas miesto" ; text "What? Your phone"
+	line "v telefone!" ; line "list has no room!"
 	done
 
 ReenaRematchText:
-	text "What took you?"
-	line "Start right away!"
+	text "Kde si bol?" ; text "What took you?"
+	line "Podme na to!" ; line "Start right away!"
 	done

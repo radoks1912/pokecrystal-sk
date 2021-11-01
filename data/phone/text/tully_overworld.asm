@@ -1,73 +1,73 @@
 TullyAskNumber1Text:
-	text "Hey, you're trying"
-	line "to be the ultimate"
+	text "Snazis sa stat" ; text "Hey, you're trying"
+	line "tiez vrcholnym" ; line "to be the ultimate"
 
-	para "trainer too? Then"
-	line "we're comrades!"
+	para "trenerom? Tak" ; para "trainer too? Then"
+	line "to sme dvaja!" ; line "we're comrades!"
 
-	para "If I find any more"
-	line "items by the"
+	para "Ak najdem dalsie" ; para "If I find any more"
+	line "veci pri vode," ; line "items by the"
 
-	para "water, I'll give"
-	line "you some."
+	para "nejake ti z" ; para "water, I'll give"
+	line "nich dam." ; line "you some."
 
-	para "Just give me your"
-	line "phone number."
+	para "Daj mi tvoje" ; para "Just give me your"
+	line "cislo." ; line "phone number."
 	done
 
 TullyAskNumber2Text:
-	text "If I find any more"
-	line "items by the"
+	text "Ak najdem dalsie" ; text "If I find any more"
+	line "veci pri vode" ; line "items by the"
 
-	para "water, I'll give"
-	line "you some."
+	para "nejake ti z" ; para "water, I'll give"
+	line "nich dam." ; line "you some."
 
-	para "Just give me your"
-	line "phone number."
+	para "Daj mi tvoj" ; para "Just give me your"
+	line "telefon." ; line "phone number."
 	done
 
 TullyNumberAcceptedText:
-	text "You'll be hearing"
-	line "from me if I find"
-	cont "something good."
+	text "Zavolam ti, ked" ; text "You'll be hearing"
+	line "najdem nieco" ; line "from me if I find"
+	cont "dobre." ; cont "something good."
 	done
 
 TullyNumberDeclinedText:
-	text "Is that so? Then"
-	line "I'll just have to"
-	cont "use them myself."
+	text "To fakt? Tak" ; text "Is that so? Then"
+	line "to ich potom" ; line "I'll just have to"
+	cont "miniem sam!." ; cont "use them myself."
 	done
 
 TullyPhoneFullText:
-	text "Your phone list is"
-	line "all filled up."
+	text "Tvoj telefon" ; text "Your phone list is"
+	line "je zaplneny." ; line "all filled up."
 
-	para "Come back if you"
-	line "make room for me."
+	para "Vrat sa, ked si" ; para "Come back if you"
+	line "spravis miesto." ; line "make room for me."
 	done
 
 TullyRematchText:
-	text "I've been doing"
-	line "more than just"
+	text "Robil som viac" ; text "I've been doing"
+	line "ako rybarcenie" ; line "more than just"
 
-	para "fishing since we"
-	line "last met."
+	para "odvtedy, co sme" ; para "fishing since we"
+	line "sa videli." ; line "last met."
 
-	para "You're in for a"
-	line "big surprise!"
+	para "Caka ta obrovske" ; para "You're in for a"
+	line "prekvapenie!" ; line "big surprise!"
 	done
 
 TullyGiftText:
-	text "Hey, there you"
-	line "are!"
+	text "Hej, tak si" ; text "Hey, there you"
+	line "prisiel!" ; line "are!"
 
-	para "Here's a gift, as"
-	line "promised!"
+	para "Tu mas slubeny"; para "Here's a gift, as"
+	line "darcek!" ; line "promised!"
 	done
 
 TullyPackFullText:
-	text "Your PACK's full?"
+	text "Tvoj BATOH je" ; text "Your PACK's full?"
 
-	para "Come back later--"
-	line "that'll do it."
+	para "plny? Vrat sa po" ; para "Come back later--"
+	line "to neskor." ; line "that'll do it."
 	done

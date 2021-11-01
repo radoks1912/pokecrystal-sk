@@ -1,30 +1,30 @@
 UnknownGenericText:
-	text "How are your"
-	line "#MON doing?"
+	text "Ako sa maju tvoji" ; text "How are your"
+	line "#MONi?" ; line "#MON doing?"
 
-	para "My #MON are a"
-	line "bit too energetic."
+	para "Moji #MONi su" ; para "My #MON are a"
+	line "trochu energicki." ; line "bit too energetic."
 
 	para "@"
 	text_ram wStringBuffer4
 	text ","
-	line "especially."
+	line "obzvlast." ; line "especially."
 
-	para "Every time it"
-	line "spots a trainer,"
-	cont "it has to battle."
+	para "Zakazdym, ked si" ; para "Every time it"
+	line "vsimne trenera," ; line "spots a trainer,"
+	cont "musi zapasit." ; cont "it has to battle."
 
-	para "It gets to be a"
-	line "bit much for me!"
+	para "Niekedy je toho" ; para "It gets to be a"
+	line "prilis vela!" ; line "bit much for me!"
 	done
 
 UnknownTougherThanEverText:
-	text "My @"
+	text "Moj @" ; text "My @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "looking tougher"
-	cont "than ever."
+	text " je" ; text "'s"
+	line "silny ako" ; line "looking tougher"
+	cont "nikdy." ; cont "than ever."
 
-	para "It looks even"
-	line "tougher than me!"
+	para "Vypada dokonca" ; para "It looks even"
+	line "silnejsi ako ja!" ; line "tougher than me!"
 	done

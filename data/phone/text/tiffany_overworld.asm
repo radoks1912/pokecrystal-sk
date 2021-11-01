@@ -1,62 +1,62 @@
 TiffanyAskNumber1Text:
-	text "Hi! You like"
-	line "CLEFAIRY too?"
+	text "Ahoj, mas rad" ; text "Hi! You like"
+	line "CLEFAIRY?" ; line "CLEFAIRY too?"
 
-	para "They're so very"
-	line "cute, aren't they?"
+	para "Su tak roztomili" ; para "They're so very"
+	line "vsak?" ; line "cute, aren't they?"
 
-	para "I think we can be"
-	line "good friends!"
+	para "Myslim si, ze" ; para "I think we can be"
+	line "budeme priatelia!" ; line "good friends!"
 
-	para "I want to know"
-	line "your phone number!"
+	para "Das mi svoje" ; para "I want to know"
+	line "cislo?" ; line "your phone number!"
 
-	para "Let's talk about"
-	line "CLEFAIRY!"
+	para "Porozpravame sa o" ; para "Let's talk about"
+	line "CLEFAIRY!" ; line "CLEFAIRY!"
 	done
 
 TiffanyAskNumber2Text:
-	text "I want to know"
-	line "your phone number!"
+	text "Chcem vediet" ; text "I want to know"
+	line "tvoje cislo!" ; line "your phone number!"
 
-	para "Let's talk about"
+	para "Porozpravame sa o" ; para "Let's talk about"
 	line "CLEFAIRY!"
 	done
 
 TiffanyNumberAcceptedText:
-	text "Isn't my CLEFAIRY"
-	line "super-adorable?"
+	text "Nie je CLEFAIRY" ; text "Isn't my CLEFAIRY"
+	line "super-rozkosny?" ; line "super-adorable?"
 	done
 
 TiffanyNumberDeclinedText:
-	text "Aww… Oh well."
-	line "Look for me if you"
+	text "Ach… No dobre." ; text "Aww… Oh well."
+	line "Prid za mnou ak" ; line "Look for me if you"
 
-	para "want to talk about"
-	line "CLEFAIRY."
+	para "sa chces bavit o" ; para "want to talk about"
+	line "CLEFAIRY." ; line "CLEFAIRY."
 	done
 
 TiffanyPhoneFullText:
-	text "Oh? Your phone"
-	line "registry is full."
+	text "Hm? Tvoj telefon" ; text "Oh? Your phone"
+	line "je plny." ; line "registry is full."
 	done
 
 TiffanyRematchText:
-	text "There you are!"
+	text "Tu si!" ; text "There you are!"
 
-	para "CLEFAIRY, I want"
-	line "you to try hard!"
+	para "CLEFAIRY, velmi" ; para "CLEFAIRY, I want"
+	line "sa snaz!" ; line "you to try hard!"
 	done
 
 TiffanyGiftText:
-	text "You took a long"
-	line "time. See this?"
+	text "To ti trvalo." ; text "You took a long"
+	line "Vidis toto?" ; line "time. See this?"
 
-	para "Isn't it cute?"
-	line "It's a PINK BOW."
+	para "Nie je to zlate?" ; para "Isn't it cute?"
+	line "Je to PINK BOW." ; line "It's a PINK BOW."
 	done
 
 TiffanyPackFullText:
-	text "Uh-oh. Your PACK"
-	line "is crammed full."
+	text "Oou. Tvoj BATOH" ; text "Uh-oh. Your PACK"
+	line "je plny." ; line "is crammed full."
 	done

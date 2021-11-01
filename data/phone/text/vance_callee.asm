@@ -1,81 +1,81 @@
 VanceAnswerPhoneText:
-	text "Yes, hello?"
+	text "Ano, halo?" ; text "Yes, hello?"
 	line "@"
 	text_ram wStringBuffer3
-	text " here!"
+	text " pri telefone!" ; text " here!"
 
-	para "Morning, <PLAY_G>!"
+	para "Ranko, <PLAY_G>!" ; para "Morning, <PLAY_G>!"
 
-	para "Are you using bird"
-	line "#MON?"
+	para "Pouzivas vtacich" ; para "Are you using bird"
+	line "#MONov?" ; line "#MON?"
 	done
 
 VanceAnswerPhoneDayText:
-	text "Yes, hello?"
+	text "Ano, halo?" ; text "Yes, hello?"
 	line "@"
 	text_ram wStringBuffer3
-	text " here!"
+	text " pri telefone!" ; text " here!"
 
-	para "Hi, <PLAY_G>!"
+	para "Ahoj, <PLAY_G>!" ; para "Hi, <PLAY_G>!"
 
-	para "Are your bird"
-	line "#MON flying?"
+	para "Lietaju tvoji" ; para "Are your bird"
+	line "vtaci #MONi?" ; line "#MON flying?"
 	done
 
 VanceAnswerPhoneNiteText:
-	text "Yes, hello?"
+	text "Ano, halo?" ; text "Yes, hello?"
 	line "@"
 	text_ram wStringBuffer3
-	text " here!"
+	text " pri telefone!" ; text " here!"
 
-	para "Evening, <PLAY_G>!"
-	line "Are you letting"
+	para "Vecer, <PLAY_G>!" ; para "Evening, <PLAY_G>!"
+	line "Nechavas zapasit" ; line "Are you letting"
 
-	para "your bird #MON"
-	line "see some action?"
+	para "svojich vtacich" ; para "your bird #MON"
+	line "#MONov?" ; line "see some action?"
 	done
 
 VanceGreetText:
-	text "Good morning,"
+	text "Dobre rano," ; text "Good morning,"
 	line "<PLAY_G>!"
 
-	para "It's @"
+	para "It's @" ; para "It's @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Good morning!"
+	line "Good morning!" ; line "Good morning!"
 	done
 
 VanceGreetDayText:
-	text "Hi, <PLAY_G>!"
+	text "Hi, <PLAY_G>!" ; text "Hi, <PLAY_G>!"
 
-	para "It's @"
+	para "Tu @" ; para "It's @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Remember me?"
+	line "Pamatas?" ; line "Remember me?"
 	done
 
 VanceGreetNiteText:
-	text "Good evening,"
+	text "Dobry vecer," ; text "Good evening,"
 	line "<PLAY_G>!"
 
-	para "It's @"
+	para "Tu @" ; para "It's @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Are you free now?"
+	line "Mas chvilocku?" ; line "Are you free now?"
 	done
 
 VanceGenericText:
-	text "Are you and your"
-	line "#MON fine?"
+	text "Mas sa ty a tvoji" ; text "Are you and your"
+	line "#MONi dobre?" ; line "#MON fine?"
 
-	para "My @"
+	para "Moj @" ; para "My @"
 	text_ram wStringBuffer4
 	text_start
-	line "looks like it will"
+	line "vypada tak silno," ; line "looks like it will"
 
-	para "get tough enough"
-	line "to face and beat"
+	para "ze porazi aj" ; para "get tough enough"
+	line "legendarneho" ; line "to face and beat"
 
-	para "the legendary bird"
-	line "#MON!"
+	para "vtacieho" ; para "the legendary bird"
+	line "#MONa!"
 	done

@@ -1,117 +1,117 @@
 ToddLooksCuteLikeMeText:
-	text "My @"
+	text "Moj @" ; text "My @"
 	text_ram wStringBuffer4
-	text " is"
-	line "looking more and"
+	text " je" ; text " is"
+	line "stale viac podobny" ; line "looking more and"
 
-	para "more like me. It's"
-	line "getting cuter!"
+	para "mne. Je stale" ; para "more like me. It's"
+	line "roztomilejsi!" ; line "getting cuter!"
 	done
 
 ToddDefeatedMonText:
-	text "And, you know?"
+	text "A vies ty co?" ; text "And, you know?"
 
-	para "Now we can KO"
+	para "Teraz dokazeme KO" ; para "Now we can KO"
 	line "@"
 	text_ram wStringBuffer4
-	text " easily."
+	text " lahucko." ; text " easily."
 
-	para "I should challenge"
-	line "the GOLDENROD GYM."
+	para "Mal by som vyzvat" ; para "I should challenge"
+	line "GOLDENROD GYM." ; line "the GOLDENROD GYM."
 	done
 
 ToddLostAMonText:
-	text "And, you know?"
-	line "We just failed to"
+	text "A vies ty co?" ; text "And, you know?"
+	line "Nepodarilo sa nam" ; line "We just failed to"
 
-	para "beat @"
+	para "porazit @" ; para "beat @"
 	text_ram wStringBuffer4
-	text " by"
-	line "a tiny margin."
+	text " o" ; text " by"
+	line "kusocek." ; line "a tiny margin."
 
-	para "I'm guessing my"
-	line "#MON's levels"
+	para "Hadam ze moje" ; para "I'm guessing my"
+	line "levely #MONov" ; line "#MON's levels"
 
-	para "aren't high enough"
-	line "yet…"
+	para "nie su dost" ; para "aren't high enough"
+	line "vysoke…" ; line "yet…"
 	done
 
 ToddBattleRematchText:
-	text "You must be a lot"
-	line "better now, huh?"
+	text "Musis byt teraz o" ; text "You must be a lot"
+	line "dost lepsi, ze?" ; line "better now, huh?"
 
-	para "How about showing"
-	line "me your technique"
+	para "Ukazes mi svoju" ; para "How about showing"
+	line "techniku" ; line "me your technique"
 
-	para "in a real battle"
-	line "with me?"
+	para "v skutocnom" ; para "in a real battle"
+	line "zapase?" ; line "with me?"
 
-	para "I'll be waiting on"
+	para "Budem cakat na" ; para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 ToddHangUpText:
-	text "See you later!"
+	text "Vidime sa neskor!" ; text "See you later!"
 	done
 
 ToddDepartmentStoreBargainSaleText:
-	text "This is it--the"
-	line "one we've all been"
-	cont "waiting for!"
+	text "Toto je ono--" ; text "This is it--the"
+	line "na toto sme" ; line "one we've all been"
+	cont "cakali!" ; cont "waiting for!"
 
-	para "GOLDENROD DEPT."
-	line "STORE's bargain"
-	cont "sale is on now!"
+	para "GOLDENROD DEPT." ; para "GOLDENROD DEPT."
+	line "STORE vypredaj" ; line "STORE's bargain"
+	cont "prave prebieha!" ; cont "sale is on now!"
 
-	para "Want it cheap?"
-	line "Want it lots?"
+	para "Chces lacne?" ; para "Want it cheap?"
+	line "Chces vela?" ; line "Want it lots?"
 
-	para "Don't miss this"
-	line "GOLDENROD chance!"
+	para "Nepremarni sancu v" ; para "Don't miss this"
+	line "GOLDENROD!" ; line "GOLDENROD chance!"
 
-	para "Huh? I sound like"
-	line "a huckster?"
+	para "Hm? Zniem ako" ; para "Huh? I sound like"
+	line "podomovy predavac?" ; line "a huckster?"
 
-	para "Well, yeah. I was"
-	line "mimicking them…"
+	para "Noo napodoboval" ; para "Well, yeah. I was"
+	line "som ich…" ; line "mimicking them…"
 
-	para "Anyway, you've got"
-	line "to get there as"
-	cont "soon as you can!"
+	para "Kazdopadne sa tam" ; para "Anyway, you've got"
+	line "zastav, hned ako" ; line "to get there as"
+	cont "budes moct!" ; cont "soon as you can!"
 	done
 
 ToddSavingUpForBargainSaleText:
-	text "I'm saving up for"
-	line "the next bargain"
+	text "Setrim si na dalsi" ; text "I'm saving up for"
+	line "vypredaj." ; line "the next bargain"
 
-	para "sale. When's the"
-	line "next one?"
+	para "Kedy asi bude" ; para "sale. When's the"
+	line "dalsi?" ; line "next one?"
 	done
 
 ToddLookingForwardToBattleText:
-	text "Where are you?"
+	text "Kde si?" ; text "Where are you?"
 
-	para "Let's have our"
-	line "battle soon!"
+	para "Slubil si mi" ; para "Let's have our"
+	line "zapas!" ; line "battle soon!"
 
-	para "I'll be waiting on"
+	para "Cakam na" ; para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 ToddHaveYouGoneToDepartmentStoreText:
-	text "Haven't you gone"
-	line "to GOLDENROD DEPT."
+	text "Bol si uz v" ; text "Haven't you gone"
+	line "GOLDENROD DEPT." ; line "to GOLDENROD DEPT."
 
-	para "STORE? I've scoped"
-	line "it out already!"
+	para "STORE? Ja" ; para "STORE? I've scoped"
+	line "uz hej!" ; line "it out already!"
 
-	para "They had some real"
-	line "bargains."
+	para "Mali tam vyborne" ; para "They had some real"
+	line "ponuky." ; line "bargains."
 
-	para "You should get"
-	line "there quickly."
+	para "Mal by si tam" ; para "You should get"
+	line "rychlo zajst." ; line "there quickly."
 	done

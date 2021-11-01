@@ -1,67 +1,67 @@
 TullyAnswerPhoneText:
-	text "Hello, this is"
+	text "Ahoj, tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, Good morning,"
+	para "Oh, Dobre rano," ; para "Oh, Good morning,"
 	line "<PLAY_G>."
 	done
 
 TullyAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Ahoj, tu je" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "That voice…"
-	line "<PLAY_G>, right?"
+	para "Ten hlas…" ; para "That voice…"
+	line "<PLAY_G>, vsak?" ; line "<PLAY_G>, right?"
 	done
 
 TullyAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Ahoj, tu" ; text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "This must be"
+	para "To musi byt" ; para "This must be"
 	line "<PLAY_G>!"
 	done
 
 TullyGreetText:
-	text "Hello!"
+	text "Ahoj!" ; text "Hello!"
 	line "@"
 	text_ram wStringBuffer3
-	text " here…"
+	text " pri telefone…" ; text " here…"
 
-	para "Good morning! The"
-	line "weather's great!"
+	para "Dobre rano! Skvele" ; para "Good morning! The"
+	line "pocasie, vsak?" ; line "weather's great!"
 	done
 
 TullyGreetDayText:
-	text "Hello!"
+	text "Halo!" ; text "Hello!"
 	line "@"
 	text_ram wStringBuffer3
-	text " here…"
+	text " pri telefone…" ; text " here…"
 
-	para "What a perfect day"
-	line "for fishing!"
+	para "Aky skvely den" ; para "What a perfect day"
+	line "na rybarcenie!" ; line "for fishing!"
 	done
 
 TullyGreetNiteText:
-	text "Hello!"
+	text "Halo!" ; text "Hello!"
 	line "@"
 	text_ram wStringBuffer3
-	text " here…"
+	text " pri telefone" ; text " here…"
 
-	para "It's a great night"
-	line "for fishing!"
+	para "Aka skvela noc" ; para "It's a great night"
+	line "na rybarcenie!" ; line "for fishing!"
 	done
 
 TullyGenericText:
-	text "How's your trip"
-	line "coming along?"
+	text "Ako ide tvoje" ; text "How's your trip"
+	line "dobrodruzstvo?" ; line "coming along?"
 
-	para "I can't complain"
-	line "about my fishing!"
+	para "Ja sa na ryby" ; para "I can't complain"
+	line "nemozem stazovat!" ; line "about my fishing!"
 	done
