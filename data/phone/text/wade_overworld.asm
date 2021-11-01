@@ -1,70 +1,70 @@
 WadeAskNumber1Text:
-	text "You're awesome!"
-	line "I like you!"
+	text "Si skvely!" ; text "You're awesome!"
+	line "Mam ta rad!" ; line "I like you!"
 
-	para "I look for #MON"
-	line "here every day."
+	para "Hladam #MON" ; para "I look for #MON"
+	line "kazdy den." ; line "here every day."
 
-	para "When I'm in the"
-	line "grass, I find all"
-	cont "kinds of BERRIES."
+	para "Ked som v trave," ; para "When I'm in the"
+	line "najdem vzdy kopu" ; line "grass, I find all"
+	cont "BERRIES." ; cont "kinds of BERRIES."
 
-	para "If you'd like,"
-	line "I'll share some."
+	para "Ak chces," ; para "If you'd like,"
+	line "nejake ti dam." ; line "I'll share some."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Das mi svoje" ; para "Could I get your"
+	line "cislo?" ; line "phone number?"
 	done
 
 WadeAskNumber2Text:
-	text "When I'm in the"
-	line "grass, I find all"
-	cont "kinds of BERRIES."
+	text "Ked som v trave," ; text "When I'm in the"
+	line "najdem vzdy kopu" ; line "grass, I find all"
+	cont "BERRIES." ; cont "kinds of BERRIES."
 
-	para "If you'd like,"
-	line "I'll share some."
+	para "Ak chces," ; para "If you'd like,"
+	line "nejake ti dam." ; line "I'll share some."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Das mi svoje" ; para "Could I get your"
+	line "cislo?" ; line "phone number?"
 	done
 
 WadeNumberAcceptedText:
-	text "You'll hear from"
-	line "me as soon as I"
+	text "Zavolam ti hned" ; text "You'll hear from"
+	line "ako" ; line "me as soon as I"
 
-	para "find anything that"
-	line "you might like."
+	para "najdem nieco" ; para "find anything that"
+	line "pre teba." ; line "you might like."
 	done
 
 WadeNumberDeclinedText:
-	text "Oh well. Don't be"
-	line "shy if you want to"
-	cont "get my number."
+	text "Nevadi, ak si to" ; text "Oh well. Don't be"
+	line "rozmyslis, daj" ; line "shy if you want to"
+	cont "vediet." ; cont "get my number."
 	done
 
 WadePhoneFullText:
-	text "Your phone list"
-	line "has no room for my"
-	cont "number."
+	text "Tvoj telefon" ; text "Your phone list"
+	line "nema dost miest na" ; line "has no room for my"
+	cont "moje cislo." ; cont "number."
 	done
 
 WadeRematchText:
-	text "I was waiting for"
-	line "you. Let's battle!"
+	text "Ocakaval som ta." ; text "I was waiting for"
+	line "Podme zapasit!" ; line "you. Let's battle!"
 	done
 
 WadeGiftText:
-	text "Good to see you!"
-	line "See? This is what"
+	text "Rad ta vidim!" ; text "Good to see you!"
+	line "Pozri, toto som" ; line "See? This is what"
 
-	para "I found."
-	line "It's for you!"
+	para "nasiel." ; para "I found."
+	line "Je to pre teba!" ; line "It's for you!"
 	done
 
 WadePackFullText:
-	text "Oops, your PACK's"
-	line "full. Too bad."
+	text "Ups, tvoj BATOH" ; text "Oops, your PACK's"
+	line "je plny. Skoda" ; line "full. Too bad."
 
-	para "You should come"
-	line "back for it later."
+	para "Vrat sa po to" ; para "You should come"
+	line "neskor." ; line "back for it later."
 	done

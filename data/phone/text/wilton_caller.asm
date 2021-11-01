@@ -1,103 +1,103 @@
 WiltonMonHasGrownText:
-	text "My @"
+	text "Moj @" ; text "My @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "grown impressive!"
+	text " uz" ; text "'s"
+	line "narastol!" ; line "grown impressive!"
 
-	para "My fishing skills"
-	line "have improved too!"
+	para "Moje rybarcenie sa" ; para "My fishing skills"
+	line "tiez polepsilo!" ; line "have improved too!"
 	done
 
 WiltonDefeatedMonText:
-	text "We beat a wild"
+	text "Porazili sme" ; text "We beat a wild"
 	line "@"
 	text_ram wStringBuffer4
 	text "…"
 
-	para "You know, I have"
-	line "more fun fishing"
+	para "Vies, viac ma bavi" ; para "You know, I have"
+	line "rybarcenie, ako" ; line "more fun fishing"
 
-	para "than beating wild"
-	line "#MON."
+	para "zapasy s divokymi" ; para "than beating wild"
+	line "#MONmi."
 	done
 
 WiltonLostAMonText:
-	text "But a while back,"
-	line "we came this close"
+	text "Ale prednedavnom" ; text "But a while back,"
+	line "sme takmer chyti-" ; line "we came this close"
 
-	para "to landing a wild"
+	para "li divokeho" ; para "to landing a wild"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 
-	para "I tell you, it was"
-	line "huge. Believe me."
+	para "Hovorim ti, bol" ; para "I tell you, it was"
+	line "obrovsky, ver mi." ; line "huge. Believe me."
 	done
 
 WiltonBattleRematchText:
-	text "I'm fishing on"
+	text "Rybarcim na" ; text "I'm fishing on"
 	line "@"
 	text_ram wStringBuffer5
 	text ","
 
-	para "but nothing's"
-	line "biting today."
+	para "ale dnes vobec" ; para "but nothing's"
+	line "neberu." ; line "biting today."
 
-	para "Help me while my"
-	line "time away, come"
-	cont "over for a battle."
+	para "Pokojne sa zastav" ; para "Help me while my"
+	line "na jeden rychly" ; line "time away, come"
+	cont "zapas." ; cont "over for a battle."
 	done
 
 WiltonHangUpText:
-	text "All right, later."
+	text "Okej, neskor." ; text "All right, later."
 	done
 
 WiltonFoundItemText:
-	text "I snagged an item"
-	line "while fishing."
+	text "Vylovil som" ; text "I snagged an item"
+	line "predmet." ; line "while fishing."
 
-	para "Come pick it up on"
+	para "Prid si pon na" ; para "Come pick it up on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 WiltonHaventFoundAnythingText:
-	text "Nah, I haven't"
-	line "found anything"
+	text "Nie, nenasiel som" ; text "Nah, I haven't"
+	line "este nic, co by" ; line "found anything"
 
-	para "that's worth your"
-	line "time."
+	para "bolo hodne tvojho" ; para "that's worth your"
+	line "casu." ; line "time."
 
-	para "You have to have"
-	line "patience."
+	para "Musis mat" ; para "You have to have"
+	line "trpezlivost." ; line "patience."
 	done
 
 WiltonNotBitingText:
-	text "Sigh…"
-	line "They're not biting"
+	text "Aaach…" ; text "Sigh…"
+	line "Neberu ako predtym" ; line "They're not biting"
 
-	para "like before on"
+	para "na" ; para "like before on"
 	line "@"
 	text_ram wStringBuffer5
 	text "…"
 
-	para "You have to come"
-	line "for a battle!"
+	para "Zastav sa na" ; para "You have to come"
+	line "zapas!" ; line "for a battle!"
 	done
 
 WiltonWantThisText:
-	text "Don't you want"
-	line "this item?"
+	text "Ty tu vec" ; text "Don't you want"
+	line "nechces?" ; line "this item?"
 
-	para "Hah? You don't"
-	line "know where?"
+	para "Hm? Nevies," ; para "Hah? You don't"
+	line "kde?" ; line "know where?"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "…"
-	line "Just head from"
+	line "Chod z" ; line "Just head from"
 
-	para "MAHOGANY toward"
-	line "BLACKTHORN!"
+	para "MAHOGANY smerom k" ; para "MAHOGANY toward"
+	line "BLACKTHORN!" ; line "BLACKTHORN!"
 	done

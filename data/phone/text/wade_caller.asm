@@ -1,136 +1,136 @@
 WadeAreYourMonGrowingText:
-	text "Are your #MON"
-	line "growing?"
+	text "Rastu tvoji" ; text "Are your #MON"
+	line " #MONi?" ; line "growing?"
 
-	para "My #MON are"
-	line "growing a bit too"
+	para "Moji #MON" ; para "My #MON are"
+	line "rastu prilis" ; line "growing a bit too"
 
-	para "quickly for me."
-	line "It's overwhelming!"
+	para "rychlo." ; para "quickly for me."
+	line "Ohromujuce!" ; line "It's overwhelming!"
 
 	para "@"
 	text_ram wStringBuffer4
-	text "'s grow-"
-	line "ing especially"
+	text " rastie" ; text "'s grow-"
+	line "obzvlast" ; line "ing especially"
 
-	para "quickly. I think"
-	line "it'll get tough."
+	para "rychlo. Myslim" ; para "quickly. I think"
+	line "ze bude silak." ; line "it'll get tough."
 	done
 
 WadeDefeatedMonText:
-	text "Oh yeah, we KO'd a"
-	line "wild @"
+	text "Ano, dali sme KO"  ;text "Oh yeah, we KO'd a"
+	line "divokemu @" ; line "wild @"
 	text_ram wStringBuffer4
 	text_start
-	para "with one hit a"
-	line "while back."
+	para "na jeden uder," ; para "with one hit a"
+	line "nie tak davno." ; line "while back."
 
-	para "It went down so"
-	line "easily, I felt a"
+	para "Tak rychlo odpadol" ; para "It went down so"
+	line "ze nam to bolo" ; line "easily, I felt a"
 
-	para "little sorry for"
-	line "the poor thing."
+	para "luto, toho" ; para "little sorry for"
+	line "chudacika." ; line "the poor thing."
 	done
 
 WadeLostAMonText:
-	text "Oh yeah, a wild"
+	text "Ano, divoky" ; text "Oh yeah, a wild"
 	line "@"
 	text_ram wStringBuffer4
-	text " got"
+	text " mi" ; text " got"
 
-	para "away from me at"
-	line "the last second."
+	para "utiekol na" ; para "away from me at"
+	line "poslednu chvilu."  ; line "the last second."
 
-	para "I know it's a"
-	line "common #MON…"
+	para "Viem, ze to je" ; para "I know it's a"
+	line "bezny #MON…" ; line "common #MON…"
 
-	para "But it does annoy"
-	line "me that it got"
+	para "Ale hneva ma," ; para "But it does annoy"
+	line "ze mi utiekol, ked" ; line "me that it got"
 
-	para "away when I almost"
-	line "had it."
+	para "som ho takmer" ; para "away when I almost"
+	line "mal." ; line "had it."
 	done
 
 WadeBattleRematchText:
-	text "Do you feel like a"
-	line "#MON battle?"
+	text "Citis sa na jeden" ; text "Do you feel like a"
+	line "#MON zapas?" ; line "#MON battle?"
 
-	para "It won't be like"
-	line "last time!"
+	para "Nebude to ako" ; para "It won't be like"
+	line "minule!" ; line "last time!"
 
 	para "@"
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'll be."
+	text " je miesto," ; text "'s"
+	line "kde som." ; line "where I'll be."
 
-	para "Let me know when"
-	line "you get there."
+	para "Daj vediet, ked" ; para "Let me know when"
+	line "sa zastavis." ; line "you get there."
 	done
 
 WadeHangUpText:
-	text "See you later!"
+	text "Uvidime sa neskor!" ; text "See you later!"
 	done
 
 WadeBugCatchingContestText:
-	text "The Bug-Catching"
-	line "Contest is at the"
+	text "Hmyzova sutaz" ; text "The Bug-Catching"
+	line "sa organizuje v" ; line "Contest is at the"
 
-	para "NATIONAL PARK"
-	line "today."
+	para "NATIONAL PARK" ; para "NATIONAL PARK"
+	line "prave dnes." ; line "today."
 
-	para "Are you going,"
+	para "Chystas sa tam," ; para "Are you going,"
 	line "<PLAY_G>?"
 
-	para "I'm trying to make"
-	line "up my mind."
+	para "Ja sa snazim" ; para "I'm trying to make"
+	line "rozhodnut." ; line "up my mind."
 	done
 
 WadeFoundItemText:
-	text "I found all kinds"
-	line "of BERRIES. If you"
+	text "Nasiel som tieto" ; text "I found all kinds"
+	line "BERRIES. Ak chces,"  ;line "of BERRIES. If you"
 
-	para "want, I'll share"
-	line "some with you."
+	para "nejake ti mozem" ; para "want, I'll share"
+	line "dat so sebou." ; line "some with you."
 
-	para "I'll be waiting on"
+	para "I'll be waiting on" ; para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 WadeNoBerriesText:
-	text "Huh? BERRIES?"
+	text "Hm? BERRIES?" ; text "Huh? BERRIES?"
 
-	para "Sorry, I haven't"
-	line "found any yet."
+	para "Prepac, ziadne som" ; para "Sorry, I haven't"
+	line "zatial nenasiel." ; line "found any yet."
 
-	para "I'll call you if I"
-	line "find any. Will you"
-	cont "please wait?"
+	para "Zavolam ti," ; para "I'll call you if I"
+	line "ked nejake najdem." ; line "find any. Will you"
+	cont "Pockas chvilku?" ; cont "please wait?"
 	done
 
 WadeQuickBattleText:
-	text "Let's battle"
-	line "already!"
+	text "Podme uz" ; text "Let's battle"
+	line "zapasit!" ; line "already!"
 
 	para "@"
 	text_ram wStringBuffer5
-	text " is"
-	line "where I am."
+	text " je miesto" ; text " is"
+	line "kde som." ; line "where I am."
 
-	para "Please get here as"
-	line "soon as you can!"
+	para "Pridi prosim co" ; para "Please get here as"
+	line "najskor!" ; line "soon as you can!"
 	done
 
 WadeComeQuickText:
-	text "How come you're"
-	line "not here yet?"
+	text "Ako to, ze este" ; text "How come you're"
+	line "nie si tu?" ; line "not here yet?"
 
 	para "@"
 	text_ram wStringBuffer5
-	text " is"
-	line "where I am."
+	text " je miesto" ; text " is"
+	line "kde som." ; line "where I am."
 
-	para "Please get here as"
-	line "soon as you can!"
+	para "Pridi prosim co" ; para "Please get here as"
+	line "najskor!" ; line "soon as you can!"
 	done

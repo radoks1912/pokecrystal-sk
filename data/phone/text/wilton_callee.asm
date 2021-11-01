@@ -1,6 +1,6 @@
 WiltonAnswerPhoneText:
-	text "Hello, you have"
-	line "reached @"
+	text "Halo," ; text "Hello, you have"
+	line "tu @" ; line "reached @"
 	text_ram wStringBuffer3
 	text "…"
 
@@ -8,57 +8,57 @@ WiltonAnswerPhoneText:
 	done
 
 WiltonAnswerPhoneDayText:
-	text "Hello, you have"
-	line "reached @"
+	text "Halo," ; text "Hello, you have"
+	line "tu @" ; line "reached @"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ah, <PLAY_G>, is"
-	line "it?"
+	para "Ah, <PLAY_G>," ; para "Ah, <PLAY_G>, is"
+	line "vsak?" ; line "it?"
 	done
 
 WiltonAnswerPhoneNiteText:
-	text "Hello, you have"
-	line "reached @"
+	text "Halo," ; text "Hello, you have"
+	line "tu @" ; line "reached @"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ah, if it isn't"
+	para "Ah, je tam" ; para "Ah, if it isn't"
 	line "<PLAY_G>."
 	done
 
 WiltonGreetText:
-	text "Ah, it's @"
+	text "Ah, tu @" ; text "Ah, it's @"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Have you got a"
-	line "moment?"
+	para "Mas maly" ; para "Have you got a"
+	line "moment?" ; line "moment?"
 	done
 
 WiltonGreetDayText:
-	text "Ah, it's @"
+	text "Ah, tu @" ; text "Ah, it's @"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Can you talk now?"
+	para "Mozes hovorit?" ; para "Can you talk now?"
 	done
 
 WiltonGreetNiteText:
-	text "Ah, it's @"
+	text "Ah, tu @" ; text "Ah, it's @"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Sorry for calling"
-	line "so late."
+	para "Prepac za neskory" ; para "Sorry for calling"
+	line "telefonat." ; line "so late."
 	done
 
 WiltonGenericText:
-	text "Have your #MON"
-	line "grown any?"
+	text "Narastli tvoji" ; text "Have your #MON"
+	line "#MONi?" ; line "grown any?"
 
-	para "My @"
+	para "Moj @" ; para "My @"
 	text_ram wStringBuffer4
-	text " has"
-	line "grown quite a bit."
+	text " uz" ; text " has"
+	line "narastol dost." ; line "grown quite a bit."
 	done
