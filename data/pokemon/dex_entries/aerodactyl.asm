@@ -1,10 +1,10 @@
-	db "FOSSIL@" ; species name
+	db "FOSILIA@" ; species name
 	dw 511, 1300 ; height, weight
 
-	db   "In prehistoric"
-	next "times, this"
-	next "#MON flew"
+	db   "V prehistorickej" ; db   "In prehistoric"
+	next "dobe tento" ; next "times, this"
+	next "#MON volne" ; next "#MON flew"
 
-	page "freely and"
-	next "fearlessly through"
-	next "the skies.@"
+	page "a nebojacne" ; page "freely and"
+	next "lietal oblohou." ; next "fearlessly through"
+	next "@" ; next "the skies.@"

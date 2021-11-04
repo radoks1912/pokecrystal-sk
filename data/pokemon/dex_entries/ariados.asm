@@ -1,10 +1,10 @@
-	db "LONG LEG@" ; species name
+	db "DLHONOH@" ; species name ; db "LONG LEG@" ; species name
 	dw 307, 740 ; height, weight
 
-	db   "Rather than mak-"
-	next "ing a nest in one"
-	next "specific spot, it"
+	db   "Miesto urobenia" ; db   "Rather than mak-"
+	next "hniezda na jednom" ; next "ing a nest in one"
+	next "mieste, potuluje" ; next "specific spot, it"
 
-	page "wanders in search"
-	next "of food after"
-	next "darkness falls.@"
+	page "sa v noci hladanim" ; page "wanders in search"
+	next "jedla, ked sa" ; next "of food after"
+	next "zotmie.@" ; next "darkness falls.@"

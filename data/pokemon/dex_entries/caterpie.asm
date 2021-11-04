@@ -1,10 +1,10 @@
-	db "WORM@" ; species name
+	db "CERV@" ; species name ; db "WORM@" ; species name
 	dw 100, 60 ; height, weight
 
-	db   "It crawls into"
-	next "foliage where it"
-	next "camouflages itself"
+	db   "Odplazi sa do" ; db   "It crawls into"
+	next "listia, kde sa" ; next "foliage where it"
+	next "zakamuflazuje" ; next "camouflages itself"
 
-	page "among leaves that"
-	next "are the same color"
-	next "as its body.@"
+	page "medzi listami," ; page "among leaves that"
+	next "ktore su rovnakej" ; next "are the same color"
+	next "farby ako telo.@" ; next "as its body.@"

@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
+	db "SEMIENKO@" ; species name ; db "SEED@" ; species name
 	dw 204, 150 ; height, weight
 
-	db   "While it is young,"
-	next "it uses the"
-	next "nutrients that are"
+	db   "Kym je mlady," ; db   "While it is young,"
+	next "pouziva" ; next "it uses the"
+	next "ziviny ulozene" ; next "nutrients that are"
 
-	page "stored in the"
-	next "seeds on its back"
-	next "in order to grow.@"
+	page "v semienku na" ; page "stored in the"
+	next "svojom chrbte," ; next "seeds on its back"
+	next "aby narastol.@" ; next "in order to grow.@"

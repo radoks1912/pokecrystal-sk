@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
+	db "KVETINA@" ; species name ; db "FLOWER@" ; species name
 	dw 204, 90 ; height, weight
 
-	db   "If it notices"
-	next "anything that"
-	next "moves, it"
+	db   "Ak si vsimne" ; db   "If it notices"
+	next "cokolvek, co sa" ; next "anything that"
+	next "hybe, okamzite" ; next "moves, it"
 
-	page "immediately flings"
-	next "its vine at the"
-	next "object.@"
+	page "ten objekt slahne" ; page "immediately flings"
+	next "s lianou" ; next "its vine at the"
+	next "@" ; next "object.@"

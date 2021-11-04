@@ -1,10 +1,10 @@
-	db "HAPPINESS@" ; species name
+	db "STASTIE@" ; species name ; db "HAPPINESS@" ; species name
 	dw 411, 1030 ; height, weight
 
-	db   "Biting into one"
-	next "of the delicious"
-	next "eggs that BLISSEY"
+	db   "Zahryznutie do" ; db   "Biting into one"
+	next "skveleho vajicka" ; next "of the delicious"
+	next "od BLISSEY" ; next "eggs that BLISSEY"
 
-	page "provides will make"
-	next "everyone around"
-	next "smile with joy.@"
+	page "sposobi usmev na" ; page "provides will make"
+	next "tvari a radost." ; next "everyone around"
+	next "@" ; next "smile with joy.@"

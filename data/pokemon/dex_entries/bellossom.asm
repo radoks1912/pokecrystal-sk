@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
+	db "KVETINA@" ; species name  ; db "FLOWER@" ; species name
 	dw 104, 130 ; height, weight
 
-	db   "When these dance"
-	next "together, their"
-	next "petals rub against"
+	db   "Ked spolu tancuju," ; db   "When these dance"
+	next "tru si o seba" ; next "together, their"
+	next "okvetne listky," ; next "petals rub against"
 
-	page "each other,"
-	next "making pretty,"
-	next "relaxing sounds.@"
+	page "vydavajuc pekne" ; page "each other,"
+	next "relaxacne zvuky" ; next "making pretty,"
+	next "@" ; next "relaxing sounds.@"

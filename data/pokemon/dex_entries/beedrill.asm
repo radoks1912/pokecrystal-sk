@@ -1,10 +1,10 @@
-	db "POISON BEE@" ; species name
+	db "JEDVCELA@" ; species name ; db "POISON BEE@" ; species name
 	dw 303, 650 ; height, weight
 
-	db   "It uses sharp,"
-	next "poisonous stings"
-	next "to defeat prey,"
+	db   "Pouziva ostre," ; db   "It uses sharp,"
+	next "jedovate zihadla" ; next "poisonous stings"
+	next "na porazenie supe-" ; next "to defeat prey,"
 
-	page "then takes the"
-	next "victim back to its"
-	next "nest for food.@"
+	page "ra, potom berie" ; page "then takes the"
+	next "obet spat do hnie-"  ;next "victim back to its"
+	next "zda na jedlo.@" ; next "nest for food.@"
