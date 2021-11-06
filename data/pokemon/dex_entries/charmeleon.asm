@@ -1,10 +1,10 @@
-	db "FLAME@" ; species name
+	db "OHEN@" ; species name ; db "FLAME@" ; species name
 	dw 307, 420 ; height, weight
 
-	db   "If it becomes"
-	next "agitated during"
-	next "battle, it spouts"
+	db   "Ak sa rozzuri" ; db   "If it becomes"
+	next "pocas zapasu, zac-" ; next "agitated during"
+	next "ne chrlit prudke" ; next "battle, it spouts"
 
-	page "intense flames,"
-	next "incinerating its"
-	next "surroundings.@"
+	page "plamene zapalujuce" ; page "intense flames,"
+	next "vsetko okolie." ; next "incinerating its"
+	next "@" ; next "surroundings.@"

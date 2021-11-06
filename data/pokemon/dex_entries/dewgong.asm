@@ -1,10 +1,10 @@
-	db "SEA LION@" ; species name
+	db "LACHTAN@" ; species name ; db "SEA LION@" ; species name
 	dw 507, 2650 ; height, weight
 
-	db   "It sleeps under"
-	next "shallow ocean"
-	next "waters during the"
+	db   "Spi na plytkom" ; db   "It sleeps under"
+	next "pobrezi oceanu" ; next "shallow ocean"
+	next "pocas dna," ; next "waters during the"
 
-	page "day, then looks"
-	next "for food at night"
-	next "when it's cold.@"
+	page "potom zacne hladat" ; page "day, then looks"
+	next "jedlo v noci, ked" ; next "for food at night"
+	next "sa ochladi.@" ; next "when it's cold.@"

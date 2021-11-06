@@ -1,10 +1,10 @@
-	db "TIMETRAVEL@" ; species name
+	db "CASOMAG@" ; species name ; db "TIMETRAVEL@" ; species name
 	dw 200, 110 ; height, weight
 
-	db   "Revered as a"
-	next "guardian of the"
-	next "forest, CELEBI"
+	db   "Znamy ako strazca" ; db   "Revered as a"
+	next "lesov, CELEBI" ; next "guardian of the"
+	next "sa vyskytuje kde-" ; next "forest, CELEBI"
 
-	page "appears wherever"
-	next "beautiful forests"
-	next "exist.@"
+	page "kolvek kde sa" ; page "appears wherever"
+	next "nachadzaju krasne" ; next "beautiful forests"
+	next "lesy.@" ; next "exist.@"

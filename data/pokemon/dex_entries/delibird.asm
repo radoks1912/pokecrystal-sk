@@ -1,10 +1,10 @@
-	db "DELIVERY@" ; species name
+	db "DONASKA@" ; species name ; db "DELIVERY@" ; species name
 	dw 211, 350 ; height, weight
 
-	db   "It always carries"
-	next "its food with it,"
-	next "wherever it goes."
+	db   "Vzdy so sebou nosi" ; db   "It always carries"
+	next "jedlo, kamkolvek" ; next "its food with it,"
+	next "sa vyda." ; next "wherever it goes."
 
-	page "If attacked, it"
-	next "throws its food at"
-	next "the opponent.@"
+	page "Ak je napadnuty," ; page "If attacked, it"
+	next "hadze na supera" ; next "throws its food at"
+	next "jedlo.@" ; next "the opponent.@"

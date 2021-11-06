@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
+	db "DRAK@" ; species name ; db "DRAGON@" ; species name
 	dw 511, 70 ; height, weight
 
-	db   "It sheds many lay-"
-	next "ers of skin as it"
-	next "grows larger. Dur-"
+	db   "Zvlieka mnoho" ; db   "It sheds many lay-"
+	next "vrstiev koze pocas" ; next "ers of skin as it"
+	next "rastu. Pocas tohto" ; next "grows larger. Dur-"
 
-	page "ing this process,"
-	next "it is protected by"
-	next "a rapid waterfall.@"
+	page "procesu je chra-" ; page "ing this process,"
+	next "neny rychlym" ; next "it is protected by"
+	next "vodopadom.@" ; next "a rapid waterfall.@"

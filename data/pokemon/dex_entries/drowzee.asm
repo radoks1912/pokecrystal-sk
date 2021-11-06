@@ -1,10 +1,10 @@
-	db "HYPNOSIS@" ; species name
+	db "HYPNOTICKY@" ; species name ; db "HYPNOSIS@" ; species name
 	dw 303, 710 ; height, weight
 
-	db   "When it twitches"
-	next "its nose, it can"
-	next "tell where someone"
+	db   "Ked sklbne nosom," ; db   "When it twitches"
+	next "vie povedat, kde" ; next "its nose, it can"
+	next "niekto spi a" ; next "tell where someone"
 
-	page "is sleeping and"
-	next "what that person"
-	next "is dreaming about.@"
+	page "co sa tej osobe" ; page "is sleeping and"
+	next "sniva." ; next "what that person"
+	next "@" ; next "is dreaming about.@"

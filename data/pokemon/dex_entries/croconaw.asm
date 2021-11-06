@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
+	db "MEGACELUST@" ; species name ; db "BIG JAW@" ; species name
 	dw 307, 550 ; height, weight
 
-	db   "The tips of its"
-	next "fangs are slanted"
-	next "backward. Once"
+	db   "Konceky jeho te-" ; db   "The tips of its"
+	next "sakov su zosikmene" ; next "fangs are slanted"
+	next "dozadu. Akonahle" ; next "backward. Once"
 
-	page "those fangs clamp"
-	next "down, the prey has"
-	next "no hope of escape.@"
+	page "sa tesaky zaklapnu" ; page "those fangs clamp"
+	next "obet nema ziadnu" ; next "down, the prey has"
+	next "sancu na utek.@" ; next "no hope of escape.@"

@@ -1,10 +1,10 @@
-	db "ARMOR@" ; species name
+	db "PANCIER@" ; species name ; db "ARMOR@" ; species name
 	dw 307, 2650 ; height, weight
 
-	db   "Because this"
-	next "#MON's skin is"
-	next "so tough, a normal"
+	db   "Pretoze koza tohto" ; db   "Because this"
+	next "#MONa je tak" ; next "#MON's skin is"
+	next "silna, obycajny" ; next "so tough, a normal"
 
-	page "attack won't even"
-	next "leave a scratch on"
-	next "it.@"
+	page "utok na nej nene-" ; page "attack won't even"
+	next "cha ani skrabanec." ; next "leave a scratch on"
+	next "@" ; next "it.@"

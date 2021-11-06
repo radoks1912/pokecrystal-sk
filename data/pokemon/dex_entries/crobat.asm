@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
+	db "NETOPIER@" ; species name ; db "BAT@" ; species name
 	dw 511, 1650 ; height, weight
 
-	db   "As a result of its"
-	next "pursuit of faster,"
-	next "yet more silent"
+	db   "Ako vysledok jeho" ; db   "As a result of its"
+	next "rychlejsieho," ; next "pursuit of faster,"
+	next "ale viac tichecho" ; next "yet more silent"
 
-	page "flight, a new set"
-	next "of wings grew on"
-	next "its hind legs.@"
+	page "letu mu narastol" ; page "flight, a new set"
+	next "novy par kridel na" ; next "of wings grew on"
+	next "zadnych nohach.@" ; next "its hind legs.@"

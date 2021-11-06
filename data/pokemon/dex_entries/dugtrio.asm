@@ -1,10 +1,10 @@
-	db "MOLE@" ; species name
+	db "KRTKO@" ; species name ; db "MOLE@" ; species name
 	dw 204, 730 ; height, weight
 
-	db   "These DIGLETT"
-	next "triplets dig over"
-	next "60 miles below sea"
+	db   "Tieto DIGLETT" ; db   "These DIGLETT"
+	next "trojicky sa preko-" ; next "triplets dig over"
+	next "pu 95 km pod vod-" ; next "60 miles below sea"
 
-	page "level. No one"
-	next "knows what it's"
-	next "like underground.@"
+	page "nou hladinou. Nik-" ; page "level. No one"
+	next "to nevie, ake su" ; next "knows what it's"
+	next "pod zemou.@" ; next "like underground.@"
