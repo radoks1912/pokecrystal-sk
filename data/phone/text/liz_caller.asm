@@ -236,7 +236,7 @@ LizBugCatchingContestGossipText:
 	cont "je to skvele?" ; cont "that great?"
 	done
 
-LizBeautifulMonGossipText:
+LizBeautifulTrainerGossipText:
 	text "Pocuj, pocuj!" ; text "Listen, listen!"
 
 	para "Videla som pekneho" ; para "I saw a beautiful"
