@@ -1,10 +1,10 @@
-	db "EGG@" ; species name
+	db "VAJICKO@" ; species name ; db "EGG@" ; species name
 	dw 104, 60 ; height, weight
 
-	db   "If even one is"
-	next "separated from the"
-	next "group, the energy"
+	db   "Ak iba jeden" ; db   "If even one is"
+	next "je odluceny zo" ; next "separated from the"
+	next "skupiny, energeti-" ; next "group, the energy"
 
-	page "bond between the"
-	next "six will make them"
-	next "rejoin instantly.@"
+	page "cka vazba medzi" ; page "bond between the"
+	next "siestimi ho hned" ; next "six will make them"
+	next "prinesie spat.@" ; next "rejoin instantly.@"

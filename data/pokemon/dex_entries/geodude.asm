@@ -1,10 +1,10 @@
-	db "ROCK@" ; species name
+	db "KAMEN@" ; species name ; db "ROCK@" ; species name
 	dw 104, 440 ; height, weight
 
-	db   "Proud of their"
-	next "sturdy bodies,"
-	next "they bash against"
+	db   "Hrdi na svoje" ; db   "Proud of their"
+	next "pevne tela," ; next "sturdy bodies,"
+	next "buchaju sa o seba" ; next "they bash against"
 
-	page "each other in a"
-	next "contest to prove"
-	next "whose is harder.@"
+	page "aby dokazali," ; page "each other in a"
+	next "ktory z nich" ; next "contest to prove"
+	next "je tvrdsi.@" ; next "whose is harder.@"

@@ -1,10 +1,10 @@
-	db "VOLCANO@" ; species name
+	db "SOPECNY@" ; species name ; db "VOLCANO@" ; species name
 	dw 607, 4370 ; height, weight
 
-	db   "This brawny"
-	next "#MON courses"
-	next "around the earth,"
+	db   "Tento svalnaty" ; db   "This brawny"
+	next "#MON brazdi" ; next "#MON courses"
+	next "zem chrliac ohnive" ; next "around the earth,"
 
-	page "spouting flames"
-	next "hotter than a"
-	next "volcano's magma.@"
+	page "plamene horucejsie" ; page "spouting flames"
+	next "ako magma zo" ; next "hotter than a"
+	next "sopky.@" ; next "volcano's magma.@"
