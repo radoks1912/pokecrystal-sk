@@ -1,10 +1,10 @@
-	db "RAINBOW@" ; species name
+	db "DUHOVY@" ; species name ; db "RAINBOW@" ; species name
 	dw 1206, 4390 ; height, weight
 
-	db   "It will reveal"
-	next "itself before a"
-	next "pure-hearted"
+	db   "Zjavi sa iba" ; db   "It will reveal"
+	next "trenerom s cistym" ; next "itself before a"
+	next "srdcom rozziarenim" ; next "pure-hearted"
 
-	page "trainer by shining"
-	next "its bright rain-"
-	next "bow-colored wings.@"
+	page "svojich svetlych " ; page "trainer by shining"
+	next "duhovo sfarbenych" ; next "its bright rain-"
+	next "kridiel.@" ; next "bow-colored wings.@"

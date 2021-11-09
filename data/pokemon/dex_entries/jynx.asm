@@ -1,10 +1,10 @@
-	db "HUMANSHAPE@" ; species name
+	db "LUDSKY@" ; species name ; db "HUMANSHAPE@" ; species name
 	dw 407, 900 ; height, weight
 
-	db   "It has several"
-	next "different cry pat-"
-	next "terns, each of"
+	db   "Vydava niekolko" ; db   "It has several"
+	next "roznych zvukov," ; next "different cry pat-"
+	next "kazdy z nich" ; next "terns, each of"
 
-	page "which seems to"
-	next "have its own"
-	next "meaning.@"
+	page "ma pravdepodobne" ; page "which seems to"
+	next "svoj vyznam." ; next "have its own"
+	next "@" ; next "meaning.@"

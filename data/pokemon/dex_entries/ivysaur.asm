@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
+	db "SEMIENKO@" ; species name ; db "SEED@" ; species name
 	dw 303, 290 ; height, weight
 
-	db   "The bulb on its"
-	next "back grows as it"
-	next "absorbs nutrients."
+	db   "Semienko na jeho" ; db   "The bulb on its"
+	next "chrbte rastie" ; next "back grows as it"
+	next "konzumaciou zivin." ; next "absorbs nutrients."
 
-	page "The bulb gives off"
-	next "a pleasant aroma"
-	next "when it blooms.@"
+	page "Ma prijemnu vonu" ; page "The bulb gives off"
+	next "ked prave" ; next "a pleasant aroma"
+	next "kvitne.@" ; next "when it blooms.@"

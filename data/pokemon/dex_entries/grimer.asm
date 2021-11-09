@@ -1,10 +1,10 @@
-	db "SLUDGE@" ; species name
+	db "BAHNOVY@" ; species name ; db "SLUDGE@" ; species name
 	dw 211, 660 ; height, weight
 
-	db   "When two of these"
-	next "#MON's bodies"
-	next "are combined"
+	db   "Ak sa spoja tela" ; db   "When two of these"
+	next "tychto dvoch" ; next "#MON's bodies"
+	next "#MONov," ; next "are combined"
 
-	page "together, new"
-	next "poisons are"
-	next "created.@"
+	page "mozu vzniknut nove" ; page "together, new"
+	next "nebezpecne jedy." ; next "poisons are"
+	next "@" ; next "created.@"

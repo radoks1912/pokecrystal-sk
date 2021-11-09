@@ -1,10 +1,10 @@
-	db "COTTONWEED@" ; species name
+	db "BAVLNENY@" ; species name ; db "COTTONWEED@" ; species name
 	dw 104, 10 ; height, weight
 
-	db   "It can be carried"
-	next "away on even the"
-	next "gentlest breeze."
+	db   "Moze ho rozptylit" ; db   "It can be carried"
+	next "co i len najjemne-" ; next "away on even the"
+	next "si vanok." ; next "gentlest breeze."
 
-	page "It may even float"
-	next "all the way to the"
-	next "next town.@"
+	page "Sem-tam sa stane," ; page "It may even float"
+	next "ze cely odleti do" ; next "all the way to the"
+	next "ineho mesta.@" ; next "next town.@"

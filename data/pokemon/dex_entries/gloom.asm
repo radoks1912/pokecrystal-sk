@@ -1,10 +1,10 @@
-	db "WEED@" ; species name
+	db "TRAVOVY@" ; species name ; db "WEED@" ; species name
 	dw 207, 190 ; height, weight
 
-	db   "The smell from its"
-	next "drool-like syrup"
-	next "and the pollen on"
+	db   "Vona jeho sirupo-" ; db   "The smell from its"
+	next "vitych slin a" ; next "drool-like syrup"
+	next "pel na jeho" ; next "and the pollen on"
 
-	page "its petals is so"
-	next "bad, it may make"
-	next "opponents faint.@"
+	page "okvetnych listkoch" ; page "its petals is so"
+	next "je tak zly, ze su-" ; next "bad, it may make"
+	next "per moze odpadnut.@" ; next "opponents faint.@"

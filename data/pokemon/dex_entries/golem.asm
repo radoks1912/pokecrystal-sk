@@ -1,10 +1,10 @@
-	db "MEGATON@" ; species name
+	db "MEGATON@" ; species name ; db "MEGATON@" ; species name
 	dw 407, 6620 ; height, weight
 
-	db   "Its rock-like body"
-	next "is so durable,"
-	next "even high-powered"
+	db   "Jeho kamenove telo" ; db   "Its rock-like body"
+	next "je tak odolne, ze" ; next "is so durable,"
+	next "ani silny" ; next "even high-powered"
 
-	page "dynamite blasts"
-	next "fail to scratch"
-	next "its rugged hide.@"
+	page "dynamitovy odpal" ; page "dynamite blasts"
+	next "nedokaze poskria-" ; next "fail to scratch"
+	next "bat jeho kozu.@" ; next "its rugged hide.@"

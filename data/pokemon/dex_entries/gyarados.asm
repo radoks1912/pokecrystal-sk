@@ -1,10 +1,10 @@
-	db "ATROCIOUS@" ; species name
+	db "OHAVNY@" ; species name ; db "ATROCIOUS@" ; species name
 	dw 2104, 5180 ; height, weight
 
-	db   "It appears when-"
-	next "ever there is"
-	next "world conflict,"
+	db   "Zjavi sa, kdekol-" ; db   "It appears when-"
+	next "vek je svetovy" ; next "ever there is"
+	next "konflikt," ; next "world conflict,"
 
-	page "burning down any"
-	next "place it travels"
-	next "through.@"
+	page "zapalujuc vsetky" ; page "burning down any"
+	next "miesta, cez ktore" ; next "place it travels"
+	next "cestuje.@" ; next "through.@"
