@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
+	db "SUPERSILAK@" ; species name ; db "SUPERPOWER@" ; species name
 	dw 207, 430 ; height, weight
 
-	db   "It trains by"
-	next "lifting rocks in"
-	next "the mountains. It"
+	db   "Trenuje dvihanim" ; db   "It trains by"
+	next "skal v horach." ; next "lifting rocks in"
+	next "Dokaze zdvihnut" ; next "the mountains. It"
 
-	page "can even pick up a"
-	next "GRAVELER with"
-	next "ease.@"
+	page "aj GRAVELERa" ; page "can even pick up a"
+	next "s lahkostou." ; next "GRAVELER with"
+	next "@" ; next "ease.@"

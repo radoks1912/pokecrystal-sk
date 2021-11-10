@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
+	db "SUPERSILAK@" ; species name ; db "SUPERPOWER@" ; species name
 	dw 411, 1550 ; height, weight
 
-	db   "This tough #MON"
-	next "always stays in"
-	next "the zone. Its"
+	db   "Tento silny " ; db   "This tough #MON"
+	next "#MON je vzdy vo" ; next "always stays in"
+	next "forme. Jeho" ; next "the zone. Its"
 
-	page "muscles become"
-	next "thicker after"
-	next "every battle.@"
+	page "svaly si vacsie" ; page "muscles become"
+	next "po kazdom jednom" ; next "thicker after"
+	next "zapase.@" ; next "every battle.@"

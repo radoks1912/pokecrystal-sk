@@ -1240,7 +1240,7 @@ _BallSentToPCText::
 
 _NewDexDataText::
 	text_ram wEnemyMonNickname
-	text "data" ; text "'s data"
+	text " data" ; text "'s data"
 	line "boli pridane" ; line "was newly added to"
 	cont "do #DEX.@" ; cont "the #DEX.@"
 	sound_slot_machine_start

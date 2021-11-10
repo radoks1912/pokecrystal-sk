@@ -1,10 +1,10 @@
-	db "WOOL@" ; species name
+	db "VLNENY@" ; species name ; db "WOOL@" ; species name
 	dw 200, 170 ; height, weight
 
-	db   "It stores lots of"
-	next "air in its soft"
-	next "fur, allowing it"
+	db   "Uklada vela vzdu-" ; db   "It stores lots of"
+	next "chu v jeho makkej" ; next "air in its soft"
+	next "vlne, ktora zabez-" ; next "fur, allowing it"
 
-	page "to stay cool in"
-	next "summer and warm"
-	next "in winter.@"
+	page "peci chlad v lete," ; page "to stay cool in"
+	next "a teplo v" ; next "summer and warm"
+	next "zime.@" ; next "in winter.@"
