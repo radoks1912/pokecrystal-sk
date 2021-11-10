@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
+	db "DRAK@" ; species name ; db "DRAGON@" ; species name
 	dw 511, 3350 ; height, weight
 
-	db   "It stores energy"
-	next "by sleeping at"
-	next "underwater depths"
+	db   "Uchovava energiu" ; db   "It stores energy"
+	next "spanim v podmor-" ; next "by sleeping at"
+	next "skych hlbkach," ; next "underwater depths"
 
-	page "at which no other"
-	next "life forms can"
-	next "survive.@"
+	page "kde neprezije" ; page "at which no other"
+	next "ziadna ina forma" ; next "life forms can"
+	next "zivota.@" ; next "survive.@"

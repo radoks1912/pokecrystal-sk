@@ -1,10 +1,10 @@
-	db "PSI@" ; species name
+	db "PSI@" ; species name ; db "PSI@" ; species name
 	dw 403, 1250 ; height, weight
 
-	db   "When it closes its"
-	next "eyes, twice as"
-	next "many alpha parti-"
+	db   "Ak zavrie svoje" ; db   "When it closes its"
+	next "oci, z jej tela" ; next "eyes, twice as"
+	next "zacne vyzarovat" ; next "many alpha parti-"
 
-	page "cles come out of"
-	next "the surface of its"
-	next "body.@"
+	page "dvojnasobok alfa" ; page "cles come out of"
+	next "castic." ; next "the surface of its"
+	next "@" ; next "body.@"

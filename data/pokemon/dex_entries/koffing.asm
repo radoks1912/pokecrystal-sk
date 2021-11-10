@@ -1,10 +1,10 @@
-	db "POISON GAS@" ; species name
+	db "JEDOVATY@" ; species name ; db "POISON GAS@" ; species name
 	dw 200, 20 ; height, weight
 
-	db   "If one gets close"
-	next "enough to it when"
-	next "it expels poison-"
+	db   "Ak sa clovek pri-" ; db   "If one gets close"
+	next "blizi pocas toho," ; next "enough to it when"
+	next "ako vylucuje jedo-" ; next "it expels poison-"
 
-	page "ous gas, the gas"
-	next "swirling inside it"
-	next "can be seen.@"
+	page "vaty plyn, mozno" ; page "ous gas, the gas"
+	next "vidiet plynovy vir" ; next "swirling inside it"
+	next "vovnutri.@" ; next "can be seen.@"
