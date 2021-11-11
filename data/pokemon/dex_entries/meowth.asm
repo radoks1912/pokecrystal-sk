@@ -1,10 +1,10 @@
-	db "SCRATCHCAT@" ; species name
+	db "MACKA@" ; species name ; db "SCRATCHCAT@" ; species name
 	dw 104, 90 ; height, weight
 
-	db   "It loves things"
-	next "that sparkle. When"
-	next "it sees a shiny"
+	db   "Miluje leskle" ; 	db   "It loves things"
+	next "veci. Ked uvidi" ; next "that sparkle. When"
+	next "leskly objekt," ; next "it sees a shiny"
 
-	page "object, the gold"
-	next "coin on its head"
-	next "shines too.@"
+	page "zlata minca na" ; page "object, the gold"
+	next "jeho cele zacne" ; next "coin on its head"
+	next "tiez ziarit.@" ; next "shines too.@"
