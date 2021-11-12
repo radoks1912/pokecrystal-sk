@@ -1,10 +1,10 @@
-	db "TINY MOUSE@" ; species name
+	db "MINI MYS@" ; species name ; db "TINY MOUSE@" ; species name
 	dw 100, 40 ; height, weight
 
-	db   "It is unskilled at"
-	next "storing electric"
-	next "power. Any kind of"
+	db   "Je neskuseny v" ; db   "It is unskilled at"
+	next "ukladani energie." ; next "storing electric"
+	next "Akykolvek sok" ; next "power. Any kind of"
 
-	page "shock causes it to"
-	next "discharge energy"
-	next "spontaneously.@"
+	page "sposobi nahodny" ; page "shock causes it to"
+	next "elektricky vyboj." ; next "discharge energy"
+	next "@" ; next "spontaneously.@"

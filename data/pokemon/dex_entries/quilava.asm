@@ -1,10 +1,10 @@
-	db "VOLCANO@" ; species name
+	db "SOPECNY@" ; species name ; db "VOLCANO@" ; species name
 	dw 211, 420 ; height, weight
 
-	db   "Before battle, it"
-	next "turns its back on"
-	next "its opponent to"
+	db   "Pred zapasom sa" ; db   "Before battle, it"
+	next "otoci superovi" ; next "turns its back on"
+	next "chrbtom, aby mu" ; next "its opponent to"
 
-	page "demonstrate how"
-	next "ferociously its"
-	next "fire blazes.@"
+	page "ukazala zurivo" ; page "demonstrate how"
+	next "horiace plamene." ; next "ferociously its"
+	next "@" ; next "fire blazes.@"

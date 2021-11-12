@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
+	db "JEDOVATY@" ; species name ; db "POISON PIN@" ; species name
 	dw 104, 150 ; height, weight
 
-	db   "Small and very"
-	next "docile, it pro-"
-	next "tects itself with"
+	db   "Maly a velmi" ; db   "Small and very"
+	next "poslusny. Chrani" ; next "docile, it pro-"
+	next "sa pomocou maleho"  ; next "tects itself with"
 
-	page "its small, poison-"
-	next "ous horn when"
-	next "attacked.@"
+	page "jedovateho rohu," ; page "its small, poison-"
+	next "ked sa musi" ; next "ous horn when"
+	next "branit.@" ; next "attacked.@"

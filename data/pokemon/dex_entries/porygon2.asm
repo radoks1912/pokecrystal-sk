@@ -1,10 +1,10 @@
-	db "VIRTUAL@" ; species name
+	db "VIRTUALNY@" ; species name ; db "VIRTUAL@" ; species name
 	dw 200, 720 ; height, weight
 
-	db   "This manmade"
-	next "#MON evolved"
-	next "from the latest"
+	db   "Vyvinul sa s pou-" ; db   "This manmade"
+	next "zitim najnovsej" ; next "#MON evolved"
+	next "technologie. Mozu" ; next "from the latest"
 
-	page "technology. It"
-	next "may have unprog-"
-	next "rammed reactions.@"
+	page "sa vyskytnut aj" ; page "technology. It"
+	next "nenaprogramovane" ; next "may have unprog-"
+	next "reakcie.@" ; next "rammed reactions.@"

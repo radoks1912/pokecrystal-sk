@@ -1,10 +1,10 @@
-	db "FIRE HORSE@" ; species name
+	db "OHNIVY KON@" ; species name ; db "FIRE HORSE@" ; species name
 	dw 303, 660 ; height, weight
 
-	db   "Training by"
-	next "jumping over grass"
-	next "that grows longer"
+	db   "Skakanie cez travu" ; db   "Training by"
+	next "co rastie kazdy" ; next "jumping over grass"
+	next "den z neho" ; next "that grows longer"
 
-	page "every day has made"
-	next "it a world-class"
-	next "jumper.@"
+	page "spravila svetoveho" ; page "every day has made"
+	next "skokana." ; next "it a world-class"
+	next "@" ; next "jumper.@"

@@ -1,10 +1,10 @@
-	db "WATER FISH@" ; species name
+	db "RYBA@" ; species name ; db "WATER FISH@" ; species name
 	dw 407, 1650 ; height, weight
 
-	db   "Its body is always"
-	next "slimy. It often"
-	next "bangs its head on"
+	db   "Jeho telo je vzdy" ; db   "Its body is always"
+	next "slizke. Casto si" ; next "slimy. It often"
+	next "buchne hlavu" ; next "bangs its head on"
 
-	page "the river bottom"
-	next "as it swims but"
-	next "seems not to care.@"
+	page "na riecnom dne" ; page "the river bottom"
+	next "pocas plavania," ; next "as it swims but"
+	next "ale nevadi mu to.@" ; next "seems not to care.@"

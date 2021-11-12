@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
+	db "VRTACI@" ; species name ; db "DRILL@" ; species name
 	dw 403, 1320 ; height, weight
 
-	db   "The hard scales"
-	next "that cover its"
-	next "strong body serve"
+	db   "Tvrde supiny po-" ; db   "The hard scales"
+	next "kryvajuce cele" ; next "that cover its"
+	next "telo sluzia ako" ; next "strong body serve"
 
-	page "as excellent"
-	next "protection from"
-	next "any attack.@"
+	page "skvela ochrana" ; page "as excellent"
+	next "pred akymkolvek" ; next "protection from"
+	next "utokom.@" ; next "any attack.@"

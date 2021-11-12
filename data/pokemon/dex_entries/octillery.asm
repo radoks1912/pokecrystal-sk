@@ -1,10 +1,10 @@
-	db "JET@" ; species name
+	db "PRUDOVY@" ; species name ; db "JET@" ; species name
 	dw 211, 630 ; height, weight
 
-	db   "Its instinct is to"
-	next "bury itself in"
-	next "holes. It often"
+	db   "Jeho instinkt je" ; db   "Its instinct is to"
+	next "zahrabanie sa do" ; next "bury itself in"
+	next "diery. Casto" ; next "holes. It often"
 
-	page "steals the nesting"
-	next "holes of others to"
-	next "sleep in them.@"
+	page "kradne hniezda" ; page "steals the nesting"
+	next "inych, aby sa tam" ; next "holes of others to"
+	next "vyspal.@" ; next "sleep in them.@"

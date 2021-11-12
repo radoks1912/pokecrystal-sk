@@ -1,10 +1,10 @@
-	db "THUNDER@" ; species name
+	db "BLESKOVY@" ; species name ; db "THUNDER@" ; species name
 	dw 603, 3920 ; height, weight
 
-	db   "This rough #MON"
-	next "stores energy"
-	next "inside its body,"
+	db   "Tento #MON" ; db   "This rough #MON"
+	next "uklada energiu" ; next "stores energy"
+	next "vo svojom tele a" ; next "inside its body,"
 
-	page "then sweeps across"
-	next "the land, shooting"
-	next "off electricity.@"
+	page "beha po krajine" ; page "then sweeps across"
+	next "vystrelujuc" ; next "the land, shooting"
+	next "elektrinu.@" ; next "off electricity.@"

@@ -1,10 +1,10 @@
-	db "RAT@" ; species name
+	db "KRYSA@" ; species name ; db "RAT@" ; species name
 	dw 100, 80 ; height, weight
 
-	db   "This #MON's"
-	next "impressive vital-"
-	next "ity allows it to"
+	db   "Zivotna sila toh-" ; db   "This #MON's"
+	next "to #MON" ; next "impressive vital-"
+	next "mu dovoluje zit" ; next "ity allows it to"
 
-	page "live anywhere. It"
-	next "also multiplies"
-	next "very quickly.@"
+	page "kdekolvek." ; page "live anywhere. It"
+	next "Rozmnozuje sa" ; next "also multiplies"
+	next "velmi rychlo.@" ; next "very quickly.@"

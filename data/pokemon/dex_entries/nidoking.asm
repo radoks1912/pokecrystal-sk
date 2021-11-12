@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
+	db "VRTACI@" ; species name ; db "DRILL@" ; species name
 	dw 407, 1370 ; height, weight
 
-	db   "It uses its thick"
-	next "arms, legs and"
-	next "tail to attack"
+	db   "Pouziva svoje" ; db   "It uses its thick"
+	next "ruky, nohy a" ; next "arms, legs and"
+	next "chvost na utok." ; next "tail to attack"
 
-	page "forcefully. Melee"
-	next "combat is its"
-	next "specialty.@"
+	page "Utok na blizko" ; page "forcefully. Melee"
+	next "je jeho" ; next "combat is its"
+	next "specialita.@" ; next "specialty.@"

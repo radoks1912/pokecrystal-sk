@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
+	db "MYS@" ; species name ; db "MOUSE@" ; species name
 	dw 104, 130 ; height, weight
 
-	db   "When it is anger-"
-	next "ed, it immediately"
-	next "discharges the"
+	db   "Ak sa nahneva," ; db   "When it is anger-"
+	next "okamzite vypusti" ; next "ed, it immediately"
+	next "vyboj energie" ; next "discharges the"
 
-	page "energy stored in"
-	next "the pouches in its"
-	next "cheeks.@"
+	page "ulozenej v jeho" ; page "energy stored in"
+	next "licach." ; next "the pouches in its"
+	next "@" ; next "cheeks.@"

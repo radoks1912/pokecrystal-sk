@@ -1,10 +1,10 @@
-	db "SCREECH@" ; species name
+	db "SKRIEKACI@" ; species name ; db "SCREECH@" ; species name
 	dw 204, 20 ; height, weight
 
-	db   "It loves to watch"
-	next "people it's scar-"
-	next "ed. It frightens"
+	db   "Rad sleduje ludi," ; db   "It loves to watch"
+	next "ktorych vystrasi." ; next "people it's scar-"
+	next "ed. Vylaka ich" ; next "ed. It frightens"
 
-	page "them by screaming"
-	next "loudly or appear-"
-	next "ing suddenly.@"
+	page "hlasnych krikom," ; page "them by screaming"
+	next "alebo nahodnym" ; next "loudly or appear-"
+	next "objavenim sa.@" ; next "ing suddenly.@"

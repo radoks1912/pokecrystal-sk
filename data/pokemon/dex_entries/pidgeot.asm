@@ -1,10 +1,10 @@
-	db "BIRD@" ; species name
+	db "VTAK@" ; species name ; db "BIRD@" ; species name
 	dw 411, 870 ; height, weight
 
-	db   "Its outstanding"
-	next "vision allows it"
-	next "to spot splashing"
+	db   "Jeho vynimocny" ; db   "Its outstanding"
+	next "zrak mu umoznuje" ; next "vision allows it"
+	next "zbadat spliecha-" ; next "to spot splashing"
 
-	page "MAGIKARP, even"
-	next "while flying at"
-	next "3300 feet.@"
+	page "juceho MAGIKARPa," ; page "MAGIKARP, even"
+	next "aj ked je vo vys-" ; next "while flying at"
+	next "ke 1km.@" ; next "3300 feet.@"

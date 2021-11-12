@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
+	db "JEDOVATY@" ; species name ; db "POISON PIN@" ; species name
 	dw 108, 200 ; height, weight
 
-	db   "It constantly"
-	next "moves its large"
-	next "ears in many"
+	db   "Stale hybe velkymi" ; db   "It constantly"
+	next "usami vo vsetkych" ; next "moves its large"
+	next "smeroch, aby" ; next "ears in many"
 
-	page "directions in"
-	next "order to detect"
-	next "danger right away.@"
+	page "zistil, odkial" ; page "directions in"
+	next "ciha" ; next "order to detect"
+	next "nebezpecie.@" ; next "danger right away.@"
