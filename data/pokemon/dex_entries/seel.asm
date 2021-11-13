@@ -1,10 +1,10 @@
-	db "SEA LION@" ; species name
+	db "TULEN@" ; species name ; db "SEA LION@" ; species name
 	dw 307, 1980 ; height, weight
 
-	db   "The light blue fur"
-	next "that covers it"
-	next "keeps it protected"
+	db   "Svetlomodra srst" ; db   "The light blue fur"
+	next "ho chrani" ; next "that covers it"
+	next "pred zimou." ; next "keeps it protected"
 
-	page "against the cold."
-	next "It loves iceberg-"
-	next "filled oceans.@"
+	page "Ma velmi rad" ; page "against the cold."
+	next "ladovcove oceany." ; next "It loves iceberg-"
+	next "@" ; next "filled oceans.@"

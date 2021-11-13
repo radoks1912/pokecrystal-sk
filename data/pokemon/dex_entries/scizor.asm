@@ -1,10 +1,10 @@
-	db "SCISSORS@" ; species name
+	db "NOZNICOVY@" ; species name ; db "SCISSORS@" ; species name
 	dw 511, 2600 ; height, weight
 
-	db   "This #MON's"
-	next "pincers, which"
-	next "contain steel, can"
+	db   "Klepeta tohto" ; db   "This #MON's"
+	next "#MON, ktore" ; next "pincers, which"
+	next "obsahuju ocel," ; next "contain steel, can"
 
-	page "crush any hard"
-	next "object it gets a"
-	next "hold of into bits.@"
+	page "rozdrtia akykolvek" ; page "crush any hard"
+	next "objekt, ktory sa" ; next "object it gets a"
+	next "mu dostane do ruk.@" ; next "hold of into bits.@"

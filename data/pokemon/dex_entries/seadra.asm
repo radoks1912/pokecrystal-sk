@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
+	db "DRAK@" ; species name ; db "DRAGON@" ; species name
 	dw 311, 550 ; height, weight
 
-	db   "The male raises"
-	next "the young. If it"
-	next "is approached, it"
+	db   "Samec vychovava" ; db   "The male raises"
+	next "mlade. Ak sa citi" ; next "the young. If it"
+	next "ohrozeny, pouzije" ; next "is approached, it"
 
-	page "uses its toxic"
-	next "spikes to fend off"
-	next "the intruder.@"
+	page "svoje jedovate" ; page "uses its toxic"
+	next "trne na odplasenie" ; next "spikes to fend off"
+	next "votrelca.@" ; next "the intruder.@"

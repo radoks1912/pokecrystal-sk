@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
+	db "MYS@" ; species name ; db "MOUSE@" ; species name
 	dw 200, 260 ; height, weight
 
-	db   "It prefers dry,"
-	next "sandy places"
-	next "because it uses"
+	db   "Ma rad suche," ; db   "It prefers dry,"
+	next "pieskove miesta," ; next "sandy places"
+	next "pretoze pouziva" ; next "because it uses"
 
-	page "the sand to"
-	next "protect itself"
-	next "when threatened.@"
+	page "piseok na" ; page "the sand to"
+	next "ochranu pred" ;  next "protect itself"
+	next "nepriatelmi.@" ; next "when threatened.@"
