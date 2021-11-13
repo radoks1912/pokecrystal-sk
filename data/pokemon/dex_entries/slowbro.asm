@@ -1,10 +1,10 @@
-	db "HERMITCRAB@" ; species name
+	db "KRAB@" ; species name ; db "HERMITCRAB@" ; species name
 	dw 503, 1730 ; height, weight
 
-	db   "An attached"
-	next "SHELLDER won't let"
-	next "go because of the"
+	db   "Prichyteny" ; db   "An attached"
+	next "SHELLDER sa nepu-" ; next "SHELLDER won't let"
+	next "sti, pretoze" ; next "go because of the"
 
-	page "tasty flavor that"
-	next "oozes out of its"
-	next "tail.@"
+	page "jeho chvost" ; page "tasty flavor that"
+	next "vypusta chutnu" ; next "oozes out of its"
+	next "prichut.@" ; next "tail.@"

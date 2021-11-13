@@ -1,10 +1,10 @@
-	db "SHARP CLAW@" ; species name
+	db "PAZUROVY@" ; species name ; db "SHARP CLAW@" ; species name
 	dw 211, 620 ; height, weight
 
-	db   "This cunning"
-	next "#MON hides"
-	next "under the cover"
+	db   "Tento prefikany" ; db   "This cunning"
+	next "#MON sa" ; next "#MON hides"
+	next "schovava pod rus-" ; next "under the cover"
 
-	page "of darkness,"
-	next "waiting to attack"
-	next "its prey.@"
+	page "kom tmy," ; page "of darkness,"
+	next "cakajuc na svoju" ; next "waiting to attack"
+	next "obet.@" ; next "its prey.@"

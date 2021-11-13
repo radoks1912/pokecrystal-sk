@@ -1,10 +1,10 @@
-	db "ROYAL@" ; species name
+	db "KRALOVSKY@" ; species name ; db "ROYAL@" ; species name
 	dw 607, 1750 ; height, weight
 
-	db   "Every time it ya-"
-	next "wns, SHELLDER"
-	next "injects more poi-"
+	db   "Zakazdym, ked si" ; db   "Every time it ya-"
+	next "zivne, SHELLDER" ; next "wns, SHELLDER"
+	next "donho vpusti viac" ; next "injects more poi-"
 
-	page "son into it. The"
-	next "poison makes it"
-	next "more intelligent.@"
+	page "jedu. Jed ho robi" ; page "son into it. The"
+	next "inteligentnejsim." ; next "poison makes it"
+	next "@" ; next "more intelligent.@"

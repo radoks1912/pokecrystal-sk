@@ -1,10 +1,10 @@
-	db "SUN@" ; species name
+	db "SLNECNY@" ; species name ; db "SUN@" ; species name
 	dw 207, 190 ; height, weight
 
-	db   "As the hot season"
-	next "approaches, the"
-	next "petals on this"
+	db   "Ked sa blizi letna" ; db   "As the hot season"
+	next "sezona, okvetne" ; next "approaches, the"
+	next "listky tohto" ; next "petals on this"
 
-	page "#MON's face"
-	next "become more vivid"
-	next "and lively.@"
+	page "#MONa" ; page "#MON's face"
+	next "su sviezejsie a" ; next "become more vivid"
+	next "zivsie.@" ; next "and lively.@"

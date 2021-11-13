@@ -1,10 +1,10 @@
-	db "LITTLE BEAR@" ; species name
+	db "MEDVEDIK@" ; species name ; db "LITTLE BEAR@" ; species name
 	dw 200, 190 ; height, weight
 
-	db   "It always licks"
-	next "honey. Its palm"
-	next "tastes sweet"
+	db   "Vzdy lize med." ; db   "It always licks"
+	next "Jeho dlan chuti" ; next "honey. Its palm"
+	next "sladko, pretoze" ; next "tastes sweet"
 
-	page "because of all the"
-	next "honey it has"
-	next "absorbed.@"
+	page "absorbovala" ; page "because of all the"
+	next "vsetok med." ; next "honey it has"
+	next "@" ; next "absorbed.@"

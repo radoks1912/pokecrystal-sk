@@ -1,10 +1,10 @@
-	db "JELLYFISH@" ; species name
+	db "MEDUZA@" ; species name ; db "JELLYFISH@" ; species name
 	dw 211, 1000 ; height, weight
 
-	db   "As it floats along"
-	next "on the waves, it"
-	next "uses its toxic"
+	db   "Pocas plavania" ; db   "As it floats along"
+	next "na vlnach pouziva" ; next "on the waves, it"
+	next "svoje jedovate" ; next "uses its toxic"
 
-	page "feelers to stab"
-	next "anything it"
-	next "touches.@"
+	page "chapadla na bodnu-" ; page "feelers to stab"
+	next "tie vsetkeho, coho" ; next "anything it"
+	next "sa dotkne.@" ; next "touches.@"

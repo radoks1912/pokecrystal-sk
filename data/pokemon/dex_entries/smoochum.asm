@@ -1,10 +1,10 @@
-	db "KISS@" ; species name
+	db "BOZKOVY@" ; species name ; db "KISS@" ; species name
 	dw 104, 130 ; height, weight
 
-	db   "The sensitivity of"
-	next "its lips develops"
-	next "most quickly."
+	db   "Citlivost jej pier" ; db   "The sensitivity of"
+	next "sa rychlo vyvinie" ; next "its lips develops"
+	next "Pouziva ich na" ; next "most quickly."
 
-	page "It uses them to"
-	next "try to identify"
-	next "unknown objects.@"
+	page "identifikovanie" ; page "It uses them to"
+	next "neznamych objek-" ; next "try to identify"
+	next "tov.@" ; next "unknown objects.@"

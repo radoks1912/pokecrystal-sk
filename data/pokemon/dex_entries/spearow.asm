@@ -1,10 +1,10 @@
-	db "TINY BIRD@" ; species name
+	db "MINI VTAK@" ; species name ; db "TINY BIRD@" ; species name
 	dw 100, 40 ; height, weight
 
-	db   "To protect its"
-	next "territory, it"
-	next "flies around"
+	db   "Aby ochranil svoje" ; db   "To protect its"
+	next "teritorium," ; next "territory, it"
+	next "lieta neustale" ; next "flies around"
 
-	page "ceaselessly,"
-	next "making high-"
-	next "pitched cries.@"
+	page "okolo, vydavajuc" ; page "ceaselessly,"
+	next "vysokofrekvencne" ; next "making high-"
+	next "pazvuky.@" ; next "pitched cries.@"

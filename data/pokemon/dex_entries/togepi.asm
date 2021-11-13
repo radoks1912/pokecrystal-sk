@@ -1,10 +1,10 @@
-	db "SPIKE BALL@" ; species name
+	db "PICHLIAC@" ; species name ; db "SPIKE BALL@" ; species name
 	dw 100, 30 ; height, weight
 
-	db   "It is considered"
-	next "to be a symbol of"
-	next "good luck. Its"
+	db   "Je znamy ako" ; db   "It is considered"
+	next "symbol stastia." ; next "to be a symbol of"
+	next "Hovori sa, ze" ; next "good luck. Its"
 
-	page "shell is said to"
-	next "be filled with"
-	next "happiness.@"
+	page "jeho skrupina je" ; page "shell is said to"
+	next "naplnena radostou." ; next "be filled with"
+	next "@" ; next "happiness.@"

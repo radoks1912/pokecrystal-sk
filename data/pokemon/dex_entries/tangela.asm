@@ -1,10 +1,10 @@
-	db "VINE@" ; species name
+	db "VYHONOK@" ; species name ; db "VINE@" ; species name
 	dw 303, 770 ; height, weight
 
-	db   "During battle, it"
-	next "constantly moves"
-	next "the vines that"
+	db   "Pocas zapasu ne-" ; db   "During battle, it"
+	next "ustale hybe" ; next "constantly moves"
+	next "svojimi vyhonkami," ; next "the vines that"
 
-	page "cover its body in"
-	next "order to annoy its"
-	next "opponent.@"
+	page "ktore pokryvaju" ; page "cover its body in"
+	next "jeho telo na odpu-" ; next "order to annoy its"
+	next "denie supera.@" ; next "opponent.@"
