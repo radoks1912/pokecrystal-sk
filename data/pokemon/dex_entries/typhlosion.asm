@@ -1,10 +1,10 @@
-	db "VOLCANO@" ; species name
+	db "SOPECNY@" ; species name ; db "VOLCANO@" ; species name
 	dw 507, 1750 ; height, weight
 
-	db   "When heat from its"
-	next "body causes the"
-	next "air around it to"
+	db   "Ked teplo z jeho" ; db   "When heat from its"
+	next "tela sposobi trb-" ; next "body causes the"
+	next "lietanie vzduchu" ; next "air around it to"
 
-	page "shimmer, this is a"
-	next "sign that it is"
-	next "ready to battle.@"
+	page "okolo, je to znak" ; page "shimmer, this is a"
+	next "toho, ze je pri-" ; next "sign that it is"
+	next "praveny na zapas.@" ; next "ready to battle.@"

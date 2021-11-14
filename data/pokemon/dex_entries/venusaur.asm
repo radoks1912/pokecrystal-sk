@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
+	db "SEMIENKOVY@" ; species name ; db "SEED@" ; species name
 	dw 607, 2210 ; height, weight
 
-	db   "As it warms it-"
-	next "self and absorbs"
-	next "the sunlight, its"
+	db   "Ked sa vyhreje a" ; db   "As it warms it-"
+	next "vsaje slnecne " ; next "self and absorbs"
+	next "luce, jeho okvetne" ; next "the sunlight, its"
 
-	page "flower petals"
-	next "release a pleasant"
-	next "fragrance.@"
+	page "listky uvolnuju" ; page "flower petals"
+	next "prijemnu" ; next "release a pleasant"
+	next "vonu.@" ; next "fragrance.@"

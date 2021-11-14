@@ -1,10 +1,10 @@
-	db "WATER FISH@" ; species name
+	db "RYBA@" ; species name ; db "WATER FISH@" ; species name
 	dw 104, 190 ; height, weight
 
-	db   "A mucous"
-	next "membrane covers"
-	next "its body. Touching"
+	db   "Jeho telo pokryva" ; db   "A mucous"
+	next "hlienovita membra-" ; next "membrane covers"
+	next "na. Dotyk holou" ; next "its body. Touching"
 
-	page "it barehanded will"
-	next "cause a shooting"
-	next "pain.@"
+	page "rukou sposobi" ; page "it barehanded will"
+	next "vystrelujucu" ; next "cause a shooting"
+	next "bolest.@" ; next "pain.@"

@@ -1,10 +1,10 @@
-	db "TURTLE@" ; species name
+	db "KORYTNACKA@" ; species name ; db "TURTLE@" ; species name
 	dw 303, 500 ; height, weight
 
-	db   "Its long, furry"
-	next "tail is a symbol"
-	next "of longevity,"
+	db   "Jeho dlhy hunaty" ; db   "Its long, furry"
+	next "chvost je znakom" ; next "tail is a symbol"
+	next "dlhovekosti," ; next "of longevity,"
 
-	page "making it quite"
-	next "popular among"
-	next "older people.@"
+	page "preto je popularny" ; page "making it quite"
+	next "hlavne medzi star-" ;  next "popular among"
+	next "sou generaciou.@" ; next "older people.@"

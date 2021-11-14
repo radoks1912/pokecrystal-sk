@@ -1,10 +1,10 @@
-	db "FLYCATCHER@" ; species name
+	db "MUCHOLAPKA@" ; species name ; 	db "FLYCATCHER@" ; species name
 	dw 507, 340 ; height, weight
 
-	db   "Once ingested into"
-	next "this #MON's"
-	next "body, even the"
+	db   "Po prehltnuti do" ; db   "Once ingested into"
+	next "tela tohto" ; next "this #MON's"
+	next "#MON, aj" ; next "body, even the"
 
-	page "hardest object"
-	next "will melt into"
-	next "nothing.@"
+	page "najtvrdsie objekty" ; page "hardest object"
+	next "sa rozpustia" ; next "will melt into"
+	next "na nic.@" ; next "nothing.@"

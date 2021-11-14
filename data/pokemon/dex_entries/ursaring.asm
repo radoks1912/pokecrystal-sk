@@ -1,10 +1,10 @@
-	db "HIBERNANT@" ; species name
+	db "SPANKOVY@" ; species name ; db "HIBERNANT@" ; species name
 	dw 511, 2770 ; height, weight
 
-	db   "Although it has a"
-	next "large body, it is"
-	next "quite skilled at"
+	db   "Aj ked ma obrovske" ; db   "Although it has a"
+	next "telo, je celkom" ; next "large body, it is"
+	next "skuseny v lezeni" ; next "quite skilled at"
 
-	page "climbing trees. It"
-	next "eats and sleeps in"
-	next "the treetops.@"
+	page "na stromy. Zerie" ; page "climbing trees. It"
+	next "a spi na korunach" ; next "eats and sleeps in"
+	next "stromov.@" ; next "the treetops.@"

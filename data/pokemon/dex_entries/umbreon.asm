@@ -1,10 +1,10 @@
-	db "MOONLIGHT@" ; species name
+	db "MESACNY@" ; species name ; db "MOONLIGHT@" ; species name
 	dw 303, 600 ; height, weight
 
-	db   "On the night of a"
-	next "full moon, or when"
-	next "it gets excited,"
+	db   "Pocas splnu mesia-" ; db   "On the night of a"
+	next "ca, alebo ked" ; next "full moon, or when"
+	next "je nadseny," ; next "it gets excited,"
 
-	page "the ring patterns"
-	next "on its body glow"
-	next "yellow.@"
+	page "kruhy na jeho" ; page "the ring patterns"
+	next "tela svietia" ; next "on its body glow"
+	next "nazlto.@" ; next "yellow.@"

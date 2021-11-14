@@ -1,10 +1,10 @@
-	db "HAIRY BUG@" ; species name
+	db "CERV@" ; species name ; db "HAIRY BUG@" ; species name
 	dw 100, 70 ; height, weight
 
-	db   "The barb on top of"
-	next "its head secretes"
-	next "a strong poison."
+	db   "Pichliac na jeho" ; db   "The barb on top of"
+	next "hlave vylucuje" ; next "its head secretes"
+	next "silny jed." ; next "a strong poison."
 
-	page "It uses this toxic"
-	next "barb to protect"
-	next "itself.@"
+	page "Pouziva tento" ; page "It uses this toxic"
+	next "osten na svoju" ; next "barb to protect"
+	next "ochranu.@" ; next "itself.@"

@@ -1,10 +1,10 @@
-	db "SCUFFLE@" ; species name
+	db "ZAPASNIK@" ; species name ; db "SCUFFLE@" ; species name
 	dw 204, 460 ; height, weight
 
-	db   "To brush up on its"
-	next "fighting skills,"
-	next "it will challenge"
+	db   "Aby si precvicil" ; db   "To brush up on its"
+	next "svoje zapasnicke" ; next "fighting skills,"
+	next "chvaty, vyzve ko-" ; next "it will challenge"
 
-	page "anyone. It has a"
-	next "very strong com-"
-	next "petitive spirit.@"
+	page "kolvek. Ma velmi" ; page "anyone. It has a"
+	next "zapasnicku dusu." ; next "very strong com-"
+	next "@" ; next "petitive spirit.@"

@@ -1,10 +1,10 @@
-	db "ARMOR@" ; species name
+	db "OBRNENY@" ; species name ; db "ARMOR@" ; species name
 	dw 607, 4450 ; height, weight
 
-	db   "In just one of its"
-	next "mighty hands, it"
-	next "has the power to"
+	db   "V jednej ruke" ; db   "In just one of its"
+	next "ma tolko sily, ze" ; next "mighty hands, it"
+	next "dokaze popraskat" ; next "has the power to"
 
-	page "make the ground"
-	next "shake and moun-"
-	next "tains crumble.@"
+	page "zem a rozdrvit " ; page "make the ground"
+	next "horsky vrchol." ; next "shake and moun-"
+	next "@" ; next "tains crumble.@"

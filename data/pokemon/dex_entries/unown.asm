@@ -1,10 +1,10 @@
-	db "SYMBOL@" ; species name
+	db "SYMBOL@" ; species name ; db "SYMBOL@" ; species name
 	dw 108, 110 ; height, weight
 
-	db   "Because different"
-	next "types of UNOWN"
-	next "exist, it is said"
+	db   "Pretoze existuje" ; db   "Because different"
+	next "mnoho typov UNOWN," ; next "types of UNOWN"
+	next "hovori sa, ze" ; next "exist, it is said"
 
-	page "that they must"
-	next "have a variety of"
-	next "abilities.@"
+	page "maju splet" ; page "that they must"
+	next "roznych" ; next "have a variety of"
+	next "schopnosti.@" ; next "abilities.@"

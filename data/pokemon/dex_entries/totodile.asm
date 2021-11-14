@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
+	db "MEGACELUST@" ; species name ; db "BIG JAW@" ; species name
 	dw 200, 210 ; height, weight
 
-	db   "This rough critter"
-	next "chomps at any"
-	next "moving object it"
+	db   "Toto drsne stvo-" ; db   "This rough critter"
+	next "renie vrci na" ; next "chomps at any"
+	next "kazdy pohybujuci" ; next "moving object it"
 
-	page "sees. Turning your"
-	next "back on it is not"
-	next "recommended.@"
+	page "sa objekt. Otocit" ; page "sees. Turning your"
+	next "sa mu chrbtom sa" ; next "back on it is not"
+	next "nedoporucuje.@" ; next "recommended.@"
