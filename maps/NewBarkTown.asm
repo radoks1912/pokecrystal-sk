@@ -187,96 +187,97 @@ NewBarkTown_SilverReturnsToTheShadowsMovement:
 	step_end
 
 Text_GearIsImpressive:
-	text "Wow, your #GEAR"
-	line "is impressive!"
+	text "Wau, ten #GEAR" ; text "Wow, your #GEAR"
+	line "je uzasny!" ; line "is impressive!"
 
-	para "Did your mom get"
-	line "it for you?"
+	para "Dostal si ho od" ; para "Did your mom get"
+	line "mamy?" ; line "it for you?"
 	done
 
 Text_WaitPlayer:
-	text "Wait, <PLAY_G>!"
+	text "Cakaj, <PLAY_G>!" ; text "Wait, <PLAY_G>!"
 	done
 
 Text_WhatDoYouThinkYoureDoing:
-	text "What do you think"
-	line "you're doing?"
+	text "Zblaznil si sa?" ; text "What do you think"
+	;line "you're doing?" ; line "you're doing?"
 	done
 
 Text_ItsDangerousToGoAlone:
-	text "It's dangerous to"
-	line "go out without a"
-	cont "#MON!"
+	text "Je nebezpecne ist" ; text "It's dangerous to"
+	line "bez" ; line "go out without a"
+	cont "#MONa!" ; cont "#MON!"
 
-	para "Wild #MON"
-	line "jump out of the"
+	para "Divoki #MONi" ; para "Wild #MON"
+	line "mozu na teba" ; line "jump out of the"
 
-	para "grass on the way"
-	line "to the next town."
+	para "vyskocit z travy" ; para "grass on the way"
+	line "na ceste do" ; line "to the next town."
+	cont "dalsieho mesta!"
 	done
 
 Text_YourMonIsAdorable:
-	text "Oh! Your #MON"
-	line "is adorable!"
-	cont "I wish I had one!"
+	text "Oh! Tvoj #MON" ; text "Oh! Your #MON"
+	line "je zlaty! Kiezby" ; line "is adorable!"
+	cont "som jedneho mala!" ; cont "I wish I had one!"
 	done
 
 Text_TellMomIfLeaving:
-	text "Hi, <PLAY_G>!"
-	line "Leaving again?"
+	text "Ahoj, <PLAY_G>!" ; text "Hi, <PLAY_G>!"
+	line "Odchadzas?" ; line "Leaving again?"
 
-	para "You should tell"
-	line "your mom if you"
-	cont "are leaving."
+	para "Nezabudni to" ;  para "You should tell"
+	line "povedat svojej" ; line "your mom if you"
+	cont "mame." ; cont "are leaving."
 	done
 
 Text_CallMomOnGear:
-	text "Call your mom on"
-	line "your #GEAR to"
+	text "Zavolaj mame cez" ; text "Call your mom on"
+	line "tvoj #GEAR a" ; line "your #GEAR to"
 
-	para "let her know how"
-	line "you're doing."
+	para "daj jej vediet," ; para "let her know how"
+	line "ako sa ti dari." ; line "you're doing."
 	done
 
 Text_ElmDiscoveredNewMon:
-	text "Yo, <PLAYER>!"
+	text "Jo, <PLAYER>!" ; text "Yo, <PLAYER>!"
 
-	para "I hear PROF.ELM"
-	line "discovered some"
-	cont "new #MON."
+	para "Udajne PROF.ELM" ; para "I hear PROF.ELM"
+	line "objavil noveho" ; line "discovered some"
+	cont "#MONa." ; cont "new #MON."
 	done
 
 NewBarkTownRivalText1:
 	text "<……>"
 
-	para "So this is the"
-	line "famous ELM #MON"
-	cont "LAB…"
+	para "Takze toto je ten" ; para "So this is the"
+	line "slavny ELMov" ; line "famous ELM #MON"
+	cont "#MON labak…" ; cont "LAB…"
 	done
 
 NewBarkTownRivalText2:
-	text "…What are you"
-	line "staring at?"
+	text "…Co tu chces?" ; text "…What are you"
+	line "Zmizni!" ; line "staring at?"
 	done
 
 NewBarkTownSignText:
-	text "NEW BARK TOWN"
+	text "NEW BARK TOWN" ; text "NEW BARK TOWN"
 
-	para "The Town Where the"
-	line "Winds of a New"
-	cont "Beginning Blow"
+	para "Mesto, kde fuka" ; para "The Town Where the"
+	line "vietor novych" ; line "Winds of a New"
+	cont "zaciatkov" ; cont "Beginning Blow"
 	done
 
 NewBarkTownPlayersHouseSignText:
-	text "<PLAYER>'s House"
+	text "<PLAYER>ov Dom" ; text "<PLAYER>'s House"
 	done
 
 NewBarkTownElmsLabSignText:
-	text "ELM #MON LAB"
+	text "LABORATORIUM ELMA" ; text "ELM #MON LAB"
 	done
 
 NewBarkTownElmsHouseSignText:
-	text "ELM'S HOUSE"
+	text "ELMOV DOM" ; text "ELM'S HOUSE"
 	done
 
 NewBarkTown_MapEvents:

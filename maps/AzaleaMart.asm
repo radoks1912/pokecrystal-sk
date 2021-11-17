@@ -21,26 +21,26 @@ AzaleaMartBugCatcherScript:
 	jumptextfaceplayer AzaleaMartBugCatcherText
 
 AzaleaMartCooltrainerMText:
-	text "There's no GREAT"
-	line "BALL here. #"
+	text "Nie je tu ziadny" ; text "There's no GREAT"
+	line "GREAT BALL. #" ; line "BALL here. #"
 
-	para "BALLS will have"
-	line "to do."
+	para "BALLS ti musia" ; para "BALLS will have"
+	line "stacit." ; line "to do."
 
-	para "I wish KURT would"
-	line "make me some of"
-	cont "his custom BALLS."
+	para "Kiezby mi KURT" ; para "I wish KURT would"
+	line "spravil par BALLS" ; line "make me some of"
+	cont "namieru." ; cont "his custom BALLS."
 	done
 
 AzaleaMartBugCatcherText:
-	text "A GREAT BALL is"
-	line "better for catch-"
-	cont "ing #MON than a"
-	cont "# BALL."
+	text "GREAT BALL je" ; text "A GREAT BALL is"
+	line "lepsi na chytanie" ; line "better for catch-"
+	cont "#MON ako" ; cont "ing #MON than a"
+	cont "# BALL." ; cont "# BALL."
 
-	para "But KURT's might"
-	line "be better some-"
-	cont "times."
+	para "Ale KURTove mozu" ; para "But KURT's might"
+	line "byt niekedy este" ; line "be better some-"
+	cont "lepsie." ; cont "times."
 	done
 
 AzaleaMart_MapEvents:

@@ -148,215 +148,215 @@ AzaleaGymStatue:
 	jumpstd GymStatue2Script
 
 BugsyText_INeverLose:
-	text "I'm BUGSY!"
-	line "I never lose when"
+	text "Som BUGSY!" ; text "I'm BUGSY!"
+	line "Nikdy neprehra, ak" ; line "I never lose when"
 
-	para "it comes to bug"
-	line "#MON."
+	para "sa jedna o hmyz" ; para "it comes to bug"
+	line "#MONov." ; line "#MON."
 
-	para "My research is"
-	line "going to make me"
+	para "Moj vyskum ma" ; para "My research is"
+	line "spravi autoritou" ; line "going to make me"
 
-	para "the authority on"
-	line "bug #MON!"
+	para "v hmyzovych" ; para "the authority on"
+	line "#MONoch!" ; line "bug #MON!"
 
-	para "Let me demonstrate"
-	line "what I've learned"
-	cont "from my studies."
+	para "Dovol mi ukazat" ; para "Let me demonstrate"
+	line "ti, co som sa na-" ; line "what I've learned"
+	cont "ucil studiom." ; cont "from my studies."
 	done
 
 BugsyText_ResearchIncomplete:
-	text "Whoa, amazing!"
-	line "You're an expert"
-	cont "on #MON!"
+	text "Wou, uzasne!" ; text "Whoa, amazing!"
+	line "Si expert na" ; line "You're an expert"
+	cont "#MONov!" ; cont "on #MON!"
 
-	para "My research isn't"
-	line "complete yet."
+	para "Moj vyskum este" ; para "My research isn't"
+	line "nie je dokonceny." ; line "complete yet."
 
-	para "OK, you win. Take"
-	line "this BADGE."
+	para "OK, vyhravas." ; para "OK, you win. Take"
+	line "Vezmi si ODZNAK." ; line "this BADGE."
 	done
 
 Text_ReceivedHiveBadge:
-	text "<PLAYER> received"
-	line "HIVEBADGE."
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
+	line "HIVEBADGE." ; line "HIVEBADGE."
 	done
 
 BugsyText_HiveBadgeSpeech:
-	text "Do you know the"
-	line "benefits of HIVE-"
-	cont "BADGE?"
+	text "Vies, ake su" ; text "Do you know the"
+	line "benefity HIVE-" ; line "benefits of HIVE-"
+	cont "BADGE?" ; cont "BADGE?"
 
-	para "If you have it,"
-	line "#MON up to L30"
+	para "Ak ho mas," ; para "If you have it,"
+	line "#MON az do L30" ; line "#MON up to L30"
 
-	para "will obey you,"
-	line "even traded ones."
+	para "ta budu posluchat," ; para "will obey you,"
+	line "aj ti vymeneni."  ; line "even traded ones."
 
-	para "#MON that know"
-	line "CUT will be able"
+	para "#MON ktory vie" ; para "#MON that know"
+	line "CUT, ho moze po-" ; line "CUT will be able"
 
-	para "to use it outside"
-	line "of battle too."
+	para "zit aj mimo" ; para "to use it outside"
+	line "zapasu." ; line "of battle too."
 
-	para "Here, I also want"
-	line "you to have this."
+	para "Tu mas, vezmi si" ; para "Here, I also want"
+	line "tiez toto." ; line "you to have this."
 	done
 
 BugsyText_FuryCutterSpeech:
-	text "TM49 contains"
-	line "FURY CUTTER."
+	text "TM49 je" ; text "TM49 contains"
+	line "FURY CUTTER." ; line "FURY CUTTER."
 
-	para "If you don't miss,"
-	line "it gets stronger"
-	cont "every turn."
+	para "Ak neminies," ; para "If you don't miss,"
+	line "je silnejsi" ; line "it gets stronger"
+	cont "kazdym tahom." ; cont "every turn."
 
-	para "The longer your"
-	line "battle goes, the"
-	cont "better it gets."
+	para "Cim dlhsie zapa-" ; para "The longer your"
+	line "sis, tym je" ; line "battle goes, the"
+	cont "lepsi." ; cont "better it gets."
 
-	para "Isn't that great?"
-	line "I discovered it!"
+	para "Nie je to skvele?" ; para "Isn't that great?
+	line "Vymyslel som ho!" ; line "I discovered it!"
 	done
 
 BugsyText_BugMonsAreDeep:
-	text "Bug #MON are"
-	line "deep. There are"
+	text "Hmyzi #MONi" ; text "Bug #MON are"
+	line "su skveli. Exis-" ; line "deep. There are"
 
-	para "many mysteries to"
-	line "be explored."
+	para "tuje mnoho nevy-" ; para "many mysteries to"
+	line "riesenych zahad." ; line "be explored."
 
-	para "Study your favor-"
-	line "ites thoroughly."
+	para "Studuj pozorne" ; para "Study your favor-"
+	line "oblubencov." ; line "ites thoroughly."
 	done
 
 BugCatcherBennySeenText:
-	text "Bug #MON evolve"
-	line "young. So they get"
+	text "Hmyzi #MONi" ; text "Bug #MON evolve"
+	line "sa rychlo vyvijaju" ; line "young. So they get"
 
-	para "stronger that much"
-	line "faster."
+	para "a silneju" ; para "stronger that much"
+	line "rychlejsie." ; line "faster."
 	done
 
 BugCatcherBennyBeatenText:
-	text "Just evolving"
-	line "isn't enough!"
+	text "Iba vyvijanie" ; text "Just evolving"
+	line "nestaci!" ; line "isn't enough!"
 	done
 
 BugCatcherBennyAfterBattleText:
-	text "#MON become"
-	line "stronger if they"
-	cont "evolve. Really!"
+	text "#MONi sa" ; text "#MON become"
+	line "stanu silnejsimi," ; line "stronger if they"
+	cont "s vyvinom. Fakt!" ; cont "evolve. Really!"
 	done
 
 BugCatcherAlSeenText:
-	text "Bug #MON are"
-	line "cool and tough!"
+	text "Hmyzi #MONi" ; text "Bug #MON are"
+	line "su cool!" ; line "cool and tough!"
 
-	para "I'll prove it to"
-	line "you!"
+	para "Dokazem ti to!" ; para "I'll prove it to"
+	;line "you!" ; line "you!"
 	done
 
 BugCatcherAlBeatenText:
-	text "You proved how"
-	line "tough you are…"
+	text "Dokazal si mi" ; text "You proved how"
+	line "svoju silu…" ; line "tough you are…"
 	done
 
 BugCatcherAlAfterBattleText:
-	text "They're so cool,"
-	line "but most girls"
+	text "Su skveli," ; text "They're so cool,"
+	line "ale dievcata" ; line "but most girls"
 
-	para "don't like bug"
-	line "#MON."
+	para "nemaju rady hmyz" ; para "don't like bug"
+	line "#MONov." ; line "#MON."
 
-	para "I don't know why…"
+	para "Netusim preco…" ; para "I don't know why…"
 	done
 
 BugCatcherJoshSeenText:
-	text "You saved all the"
-	line "SLOWPOKE? Whew,"
-	cont "you're mighty!"
+	text "Zachranil si" ; text "You saved all the"
+	line "SLOWPOKEov? Fu," ; line "SLOWPOKE? Whew,"
+	cont "si mocny!"
 
-	para "But my grown-up"
-	line "#MON are pretty"
-	cont "tough too!"
+	para "Ale moji" ; para "But my grown-up"
+	line "#MONi si tiez" ; line "#MON are pretty"
+	cont "silni!" ; cont "tough too!"
 	done
 
 BugCatcherJoshBeatenText:
-	text "Urrgggh!"
+	text "Aaaaach!" ; text "Urrgggh!"
 	done
 
 BugCatcherJoshAfterBattleText:
-	text "I guess I should"
-	line "teach them better"
-	cont "moves…"
+	text "Myslim, ze by som" ; text "I guess I should"
+	line "ich mal naucit" ; line "teach them better"
+	cont "lepsie utoky…" ; cont "moves…"
 	done
 
 TwinsAmyandmay1SeenText:
-	text "AMY: Hi! Are you"
-	line "challenging the"
-	cont "LEADER? No way!"
+	text "AMY: Ahoj! Chces" ; text "AMY: Hi! Are you"
+	line "vyzvat LEADERa?" ; line "challenging the"
+	cont "To urcite!" ; cont "LEADER? No way!"
 	done
 
 TwinsAmyandmay1BeatenText:
-	text "AMY & MAY: Oh,"
-	line "double goodness!"
+	text "AMY & MAY: Och," ; text "AMY & MAY: Oh,"
+	line "dvojity boh!" ; line "double goodness!"
 	done
 
 TwinsAmyandmay1AfterBattleText:
-	text "AMY: You're"
-	line "really strong!"
+	text "AMY: Si tak" ; text "AMY: You're"
+	line "silny!" ; line "really strong!"
 	done
 
 TwinsAmyandmay2SeenText:
-	text "MAY: You want to"
-	line "see the LEADER?"
-	cont "We come first!"
+	text "MAY: Chces vyzvat" ; text "MAY: You want to"
+	line "LEADERa?" ; line "see the LEADER?"
+	cont "Najprv my!" ; cont "We come first!"
 	done
 
 TwinsAmyandmay2BeatenText:
-	text "AMY & MAY: Oh,"
-	line "double goodness!"
+	text "AMY & MAY: Och," ; text "AMY & MAY: Oh,"
+	line "dvojity boh!" ; line "double goodness!"
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "MAY: Our bug #-"
-	line "MON lost! Oh, what"
-	cont "a shame."
+	text "MAY: Nasi #-" ; text "MAY: Our bug #-"
+	line "MON prehrali!" ; line "MON lost! Oh, what"
+	cont "Aka skoda." ; cont "a shame."
 	done
 
 AzaleaGymGuideText:
-	text "Yo, challenger!"
+	text "Hej, vyzyvatel!" ; text "Yo, challenger!"
 
-	para "BUGSY's young, but"
-	line "his knowledge of"
+	para "BUGSY je mlady," ; para "BUGSY's young, but"
+	line "ale jeho vedomosti" ; line "his knowledge of"
 
-	para "bug #MON is for"
-	line "real."
+	para "o hmyze su" ; para "bug #MON is for"
+	line "obrovske." ; line "real."
 
-	para "It's going to be"
-	line "tough without my"
-	cont "advice."
+	para "Bude to tazke" ; para "It's going to be"
+	line "bez mojej" ; line "tough without my"
+	cont "rady." ; cont "advice."
 
-	para "Let's see… Bug"
-	line "#MON don't like"
-	cont "fire."
+	para "Pozrime sa na to…" ; para "Let's see… Bug"
+	line "Jeho #MONi nemaju" ; line "#MON don't like"
+	cont "radi ohen." ; cont "fire."
 
-	para "Flying-type moves"
-	line "are super-effec-"
-	cont "tive too."
+	para "Lietajuce utoky su" ; para "Flying-type moves"
+	line "tiez velmi" ; line "are super-effec-"
+	cont "efektivne." ; cont "tive too."
 	done
 
 AzaleaGymGuideWinText:
-	text "Well done! That"
-	line "was a great clash"
+	text "Vyborne! Toto" ; text "Well done! That"
+	line "bol skvely zapas" ; line "was a great clash"
 
-	para "of talented young"
-	line "trainers."
+	para "talentovanych mla-" ; para "of talented young"
+	line "dych trenerov." ; line "trainers."
 
-	para "With people like"
-	line "you, the future of"
-	cont "#MON is bright!"
+	para "S ludmi ako ty je" ; para "With people like"
+	line "je buducnost" ; line "you, the future of"
+	cont "#MONov jasna!" ; cont "#MON is bright!"
 	done
 
 AzaleaGym_MapEvents:
