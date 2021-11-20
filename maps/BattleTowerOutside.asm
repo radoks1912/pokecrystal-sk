@@ -53,12 +53,12 @@ BattleTowerOutsideYoungsterText_Mobile: ; unreferenced
 	done
 
 BattleTowerOutsideYoungsterText:
-	text "Wow, the BATTLE"
-	line "TOWER is huge!"
+	text "Wau, BATTLE TOWER" ; text "Wow, the BATTLE"
+	line "je obrovska!" ; line "TOWER is huge!"
 
-	para "There must be many"
-	line "kinds of #MON"
-	cont "in there!"
+	para "Musi tam byt vela" ; para "There must be many"
+	line "druhov" ; line "kinds of #MON"
+	cont "#MONov!" ; cont "in there!"
 	done
 
 BattleTowerOutsideBeautyText_NotYetOpen: ; unreferenced
@@ -73,14 +73,14 @@ BattleTowerOutsideBeautyText_NotYetOpen: ; unreferenced
 	done
 
 BattleTowerOutsideBeautyText:
-	text "You can use only"
-	line "three #MON."
+	text "Mozes pouzit len" ; text "You can use only"
+	line "3 #MONov." ; line "three #MON."
 
-	para "It's so hard to"
-	line "decide which three"
+	para "Je tazke rozhodnut" ; para "It's so hard to"
+	line "sa, ktori traja" ; line "decide which three"
 
-	para "should go into"
-	line "battle…"
+	para "maju ist do" ; para "should go into"
+	line "zapasu…" ; line "battle…"
 	done
 
 BattleTowerOutsideSailorText_Mobile: ; unreferenced
@@ -94,14 +94,14 @@ BattleTowerOutsideSailorText_Mobile: ; unreferenced
 	done
 
 BattleTowerOutsideSailorText:
-	text "Hehehe, I snuck"
-	line "out from work."
+	text "Hehehe, vykradol" ; text "Hehehe, I snuck"
+	line "som sa z prace." ; line "out from work."
 
-	para "I can't bail out"
-	line "until I've won!"
+	para "Nemozem skoncit," ; para "I can't bail out"
+	line "dokym nevyhram!" ; line "until I've won!"
 
-	para "I have to win it"
-	line "all. That I must!"
+	para "Musim to vyhrat" ; para "I have to win it"
+	line "vsetko. Musim!" ; line "all. That I must!"
 	done
 
 BattleTowerOutsideSignText_NotYetOpen: ; unreferenced
@@ -112,8 +112,8 @@ BattleTowerOutsideSignText_NotYetOpen: ; unreferenced
 BattleTowerOutsideSignText:
 	text "BATTLE TOWER"
 
-	para "Take the Ultimate"
-	line "Trainer Challenge!"
+	para "Ultimatny vyzva" ; para "Take the Ultimate"
+	line "trenera!" ; line "Trainer Challenge!"
 	done
 
 BattleTowerOutsideText_DoorsClosed: ; unreferenced

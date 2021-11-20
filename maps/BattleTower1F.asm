@@ -347,21 +347,21 @@ MovementData_BattleTowerBattleRoomPlayerTurnsToFaceNextOpponent:
 	step_end
 
 Text_BattleTowerWelcomesYou:
-	text "BATTLE TOWER"
-	line "welcomes you!"
+	text "BATTLE TOWER" ; text "BATTLE TOWER"
+	line "ta vita!" ; line "welcomes you!"
 
-	para "I could show you"
-	line "to a BATTLE ROOM."
+	para "Zavediem ta do" ; para "I could show you"
+	line "BATTLE ROOM." ; line "to a BATTLE ROOM."
 	done
 
 Text_WantToGoIntoABattleRoom:
-	text "Want to go into a"
-	line "BATTLE ROOM?"
+	text "Chces ist do" ; text "Want to go into a"
+	line "BATTLE ROOM?" ; line "BATTLE ROOM?"
 	done
 
 Text_RightThisWayToYourBattleRoom:
-	text "Right this way to"
-	line "your BATTLE ROOM."
+	text "Tadialto do tvojej" ; text "Right this way to"
+	line "BATTLE ROOM." ; line "your BATTLE ROOM."
 	done
 
 Text_BattleTowerIntroduction_1: ; unreferenced
@@ -425,52 +425,52 @@ Text_BattleTowerIntroduction_1: ; unreferenced
 	done
 
 Text_BattleTowerIntroduction_2:
-	text "BATTLE TOWER is a"
-	line "facility made for"
-	cont "#MON battles."
+	text "BATTLE TOWER je" ; text "BATTLE TOWER is a"
+	line "zariadenie na" ; line "facility made for"
+	cont "#MON zapasy." ; cont "#MON battles."
 
-	para "Countless #MON"
-	line "trainers gather"
+	para "Nespocet #MON" ; para "Countless #MON"
+	line "trenerov sa stre-"  ;line "trainers gather"
 
-	para "from all over to"
-	line "hold battles in"
+	para "tava na" ; para "from all over to"
+	line "zapasy v specialne" ; line "hold battles in"
 
-	para "specially designed"
-	line "BATTLE ROOMS."
+	para "navrhnutych" ; para "specially designed"
+	line "BATTLE ROOMS." ; line "BATTLE ROOMS."
 
-	para "There are many"
-	line "BATTLE ROOMS in"
-	cont "the BATTLE TOWER."
+	para "Je mnoho" ; para "There are many"
+	line "BATTLE ROOMS v" ; line "BATTLE ROOMS in"
+	cont "v BATTLE TOWER." ; cont "the BATTLE TOWER."
 
-	para "Each ROOM holds"
-	line "seven trainers."
+	para "Kazda ROOM je pre" ; para "Each ROOM holds"
+	line "7 trenerov." ; line "seven trainers."
 
-	para "Beat them all, and"
-	line "win a prize."
+	para "Poraz vsetkych a" ; para "Beat them all, and"
+	line "vyhras cenu." ; line "win a prize."
 
-	para "To interrupt a"
-	line "session, you must"
+	para "Na prerusenie" ; para "To interrupt a"
+	line "musis hru ulozit." ; line "session, you must"
 
-	para "SAVE. If not, you"
-	line "won't be able to"
+	para "Ak neulozis, ne-" ; para "SAVE. If not, you"
+	line "budes sa moct vra-" ; line "won't be able to"
 
-	para "resume your ROOM"
-	line "challenge."
+	para "tit do ROOM" ; para "resume your ROOM"
+	line "vyzvy." ; line "challenge."
 
 	para ""
 	done
 
 Text_ReceivedAListOfLeadersOnTheHonorRoll:
-	text "Received a list of"
-	line "LEADERS on the"
-	cont "HONOR ROLL."
+	text "Dostal si zoznam" ; text "Received a list of"
+	line "LEADERov na" ; line "LEADERS on the"
+	cont "HONOR ROLL." ; cont "HONOR ROLL."
 
 	para ""
 	done
 
 Text_PleaseConfirmOnThisMonitor:
-	text "Please confirm on"
-	line "this monitor."
+	text "Prosim potvrd na" ; text "Please confirm on"
+	line "tomto monitore." ; line "this monitor."
 	done
 
 Text_ThankYou: ; unreferenced
@@ -480,8 +480,8 @@ Text_ThankYou: ; unreferenced
 	done
 
 Text_ThanksForVisiting:
-	text "Thanks for"
-	line "visiting!"
+	text "Dakujeme za" ; text "Thanks for"
+	line "navstevu!" ; line "visiting!"
 	done
 
 Text_BeatenAllTheTrainers_Mobile: ; unreferenced
@@ -503,13 +503,13 @@ Text_BeatenAllTheTrainers_Mobile: ; unreferenced
 	done
 
 Text_CongratulationsYouveBeatenAllTheTrainers:
-	text "Congratulations!"
+	text "Gratulujeme!" ; text "Congratulations!"
 
-	para "You've beaten all"
-	line "the trainers!"
+	para "Porazil si vset-" ; para "You've beaten all"
+	line "kych trenerov!" ; line "the trainers!"
 
-	para "For that, you get"
-	line "this great prize!"
+	para "Vyhravas za to" ; para "For that, you get"
+	line "tuto skvelu cenu!" ; line "this great prize!"
 
 	para ""
 	done
@@ -523,7 +523,7 @@ Text_AskRegisterRecord_Mobile: ; unreferenced
 	done
 
 Text_PlayerGotFive:
-	text "<PLAYER> got five"
+	text "<PLAYER> dostal 5" ; text "<PLAYER> got five"
 	line "@"
 	text_ram wStringBuffer4
 	text "!@"
@@ -532,11 +532,11 @@ Text_PlayerGotFive:
 	text_end
 
 Text_YourPackIsStuffedFull:
-	text "Oops, your PACK is"
-	line "stuffed full."
+	text "Ups, tvoj BATOH je" ; text "Oops, your PACK is"
+	line "preplneny." ; line "stuffed full."
 
-	para "Please make room"
-	line "and come back."
+	para "Sprav si miesto" ; para "Please make room"
+	line "a vrat sa." ; line "and come back."
 	done
 
 Text_YourRegistrationIsComplete: ; unreferenced
@@ -547,39 +547,39 @@ Text_YourRegistrationIsComplete: ; unreferenced
 	done
 
 Text_WeHopeToServeYouAgain:
-	text "We hope to serve"
-	line "you again."
+	text "Dufame, ze ti opat" ; text "We hope to serve"
+	line "posluzime." ; line "you again."
 	done
 
 Text_PleaseStepThisWay:
-	text "Please step this"
-	line "way."
+	text "Tadialto," ; text "Please step this"
+	line "prosim." ; line "way."
 	done
 
 Text_WouldYouLikeToHearAboutTheBattleTower:
-	text "Would you like to"
-	line "hear about the"
-	cont "BATTLE TOWER?"
+	text "Chces porozpravat" ; text "Would you like to"
+	line "o tejto" ; line "hear about the"
+	cont "BATTLE TOWER?" ; cont "BATTLE TOWER?"
 	done
 
 Text_CantBeRegistered:
-	text "Your record from"
-	line "the previous"
+	text "Tvoj zaznam z" ; text "Your record from"
+	line "predchadzajucej" ; line "the previous"
 
-	para "BATTLE ROOM can't"
-	line "be registered. OK?"
+	para "BATTLE ROOM nemoze" ; para "BATTLE ROOM can't"
+	line "byt ulozeny. OK?" ; line "be registered. OK?"
 	done
 
 Text_CantBeRegistered_PreviousRecordDeleted:
-	text "Your record from"
-	line "the previous"
+	text "Tvoj zaznam z" ; text "Your record from"
+	line "predchadzajucej" ; line "the previous"
 
-	para "BATTLE ROOM can't"
-	line "be registered."
+	para "BATTLE ROOM nemoze" ; para "BATTLE ROOM can't"
+	line "byt ulozeny." ; line "be registered."
 
-	para "Also, the existing"
-	line "record will be"
-	cont "deleted. OK?"
+	para "Aktualny zaznam" ; para "Also, the existing"
+	line "bude taktiez" ; line "record will be"
+	cont "zmazany. OK?" ; cont "deleted. OK?"
 	done
 
 Text_CheckTheLeaderHonorRoll: ; unreferenced
@@ -588,55 +588,55 @@ Text_CheckTheLeaderHonorRoll: ; unreferenced
 	done
 
 Text_ReadBattleTowerRules:
-	text "BATTLE TOWER rules"
-	line "are written here."
+	text "Pravidla BATTLE" ; text "BATTLE TOWER rules"
+	line "TOWER su tu." ; line "are written here."
 
-	para "Read the rules?"
+	para "Precitat?" ; para "Read the rules?"
 	done
 
 Text_BattleTowerRules:
-	text "Three #MON may"
-	line "enter battles."
+	text "Mozes pouzit 3" ; text "Three #MON may"
+	line "#MONov." ; line "enter battles."
 
-	para "All three must be"
-	line "different."
+	para "Vsetci traja musia" ; para "All three must be"
+	line "byt rozni." ; line "different."
 
-	para "The items they"
-	line "hold must also be"
-	cont "different."
+	para "Drzane predmety" ; para "The items they"
+	line "musia byt taktiez" ; line "hold must also be"
+	cont "rozdielne." ; cont "different."
 
-	para "Certain #MON"
-	line "may also have"
+	para "Niektori #MON" ; para "Certain #MON"
+	line "moze mat aj" ; line "may also have"
 
-	para "level restrictions"
-	line "placed on them."
+	para "levelove" ; para "level restrictions"
+	line "obmedzenie." ; line "placed on them."
 	done
 
 Text_BattleTower_LeftWithoutSaving:
-	text "Excuse me!"
-	line "You didn't SAVE"
+	text "Prepacte!" ; text "Excuse me!"
+	line "Neulozili ste si" ; line "You didn't SAVE"
 
-	para "before exiting"
-	line "the BATTLE ROOM."
+	para "hru pre odchodom" ; para "before exiting"
+	line "z BATTLE ROOM." ; line "the BATTLE ROOM."
 
-	para "I'm awfully sorry,"
-	line "but your challenge"
+	para "Je mi to luto," ; para "I'm awfully sorry,"
+	line "ale vasa vyzva" ; line "but your challenge"
 
-	para "will be declared"
-	line "invalid."
+	para "bude vyhlasena za" ; para "will be declared"
+	line "neplatnu." ; line "invalid."
 	done
 
 Text_YourMonWillBeHealedToFullHealth:
-	text "Your #MON will"
-	line "be healed to full"
-	cont "health."
+	text "Tvoji #MONi" ; text "Your #MON will"
+	line "budu doplna" ; line "be healed to full"
+	cont "vylieceni." ; cont "health."
 	done
 
 Text_NextUpOpponentNo:
-	text "Next up, opponent"
-	line "no.@"
+	text "Dalej, super" ; text "Next up, opponent"
+	line "c.@" ; line "no.@"
 	text_ram wStringBuffer3
-	text ". Ready?"
+	text ". Pripraveny?" ; text ". Ready?"
 	done
 
 Text_SaveBeforeConnecting_Mobile: ; unreferenced
@@ -648,70 +648,70 @@ Text_SaveBeforeConnecting_Mobile: ; unreferenced
 	done
 
 Text_SaveBeforeEnteringBattleRoom:
-	text "Before entering"
-	line "the BATTLE ROOM,"
+	text "Pred vstupom do" ; text "Before entering"
+	line "BATTLE ROOM" ; line "the BATTLE ROOM,"
 
-	para "your progress will"
-	line "be saved."
+	para "bude tvoj priebeh" ; para "your progress will"
+	line "ulozeny." ; line "be saved."
 	done
 
 Text_SaveAndEndTheSession:
-	text "SAVE and end the"
-	line "session?"
+	text "Ulozit a ukoncit?" ; text "SAVE and end the"
+	;line "session?" ; line "session?"
 	done
 
 Text_SaveBeforeReentry:
-	text "Your record will"
-	line "be SAVED before"
+	text "Tvoj priebeh bude" ; text "Your record will"
+	line "ulozeny, predtym" ; line "be SAVED before"
 
-	para "you go back into"
-	line "the previous ROOM."
+	para "nez sa vratis do" ; para "you go back into"
+	line "minulej ROOM." ; line "the previous ROOM."
 	done
 
 Text_CancelYourBattleRoomChallenge:
-	text "Cancel your BATTLE"
-	line "ROOM challenge?"
+	text "Zrusit BATTLE" ; text "Cancel your BATTLE"
+	line "ROOM zapas?" ; line "ROOM challenge?"
 	done
 
 Text_RegisterRecordOnFile_Mobile: ; unreferenced
-	text "We have your"
-	line "previous record on"
+	text "Mame od teba" ; text "We have your"
+	line "minuly zaznam." ; line "previous record on"
 
-	para "file. Would you"
-	line "like to register"
-	cont "it at the CENTER?"
+	para "Chces si ho" ; para "file. Would you"
+	line "zaregistrovat" ; line "like to register"
+	cont "v CENTRE?" ; cont "it at the CENTER?"
 	done
 
 Text_WeveBeenWaitingForYou:
-	text "We've been waiting"
-	line "for you. This way"
+	text "Ocakavali sme ta." ; text "We've been waiting"
+	line "Podte tadialto do" ; line "for you. This way"
 
-	para "to a BATTLE ROOM,"
-	line "please."
+	para "BATTLE ROOM," ; para "to a BATTLE ROOM,"
+	line "prosim." ; line "please."
 	done
 
 Text_FiveDayBattleLimit_Mobile:
-	text "You may enter only"
-	line "five BATTLE ROOMS"
-	cont "each day."
+	text "Kazdy den mozes" ; text "You may enter only"
+	line "vstupit iba do 5" ; line "five BATTLE ROOMS"
+	cont "BATTLE ROOMS." ; cont "each day."
 
-	para "Please come back"
-	line "tomorrow."
+	para "Vrat sa prosim" ; para "Please come back"
+	line "zajtra." ; line "tomorrow."
 	done
 
 Text_TooMuchTimeElapsedNoRegister:
-	text "Sorry, but it's"
-	line "not possible to"
+	text "Prepac, nie je" ; text "Sorry, but it's"
+	line "mozne registrovat" ; line "not possible to"
 
-	para "register your"
-	line "current record at"
+	para "tvoj zaznam v" ; para "register your"
+	line "CENTRE, pretoze" ; line "current record at"
 
-	para "the CENTER because"
-	line "too much time has"
+	para "uplynulo prilis" ; para "the CENTER because"
+	line "mnoho casu od" ; line "too much time has"
 
-	para "elapsed since the"
-	line "start of your"
-	cont "challenge."
+	para "zaciatku tvojej" ; para "elapsed since the"
+	line "vyzvy." ; line "start of your"
+	;cont "challenge." ; cont "challenge."
 	done
 
 Text_RegisterRecordTimedOut_Mobile: ; unreferenced
@@ -731,64 +731,64 @@ Text_RegisterRecordTimedOut_Mobile: ; unreferenced
 	done
 
 Text_AMonLevelExceeds:
-	text "One or more of"
-	line "your #MON's"
-	cont "levels exceeds @"
+	text "Jeden alebo viac" ; text "One or more of"
+	line "#MONov" ; line "your #MON's"
+	cont "presahuje level @" ; cont "levels exceeds @"
 	text_decimal wScriptVar, 1, 3
 	text "."
 	done
 
 Text_MayNotEnterABattleRoomUnderL70:
 	text_ram wcd49
-	text " may not"
-	line "enter a BATTLE"
-	cont "ROOM under L70."
+	text " nemoze" ; text " may not"
+	line "vstupit do BATTLE" ; line "enter a BATTLE"
+	cont "ROOM pod L70." ; cont "ROOM under L70."
 
-	para "This BATTLE ROOM"
-	line "is for L@"
+	para "Tento BATTLE ROOM" ; para "This BATTLE ROOM"
+	line "je pre L@" ; line "is for L@"
 	text_decimal wScriptVar, 1, 3
 	text "."
 	done
 
 Text_BattleTowerYoungster:
-	text "Destroyed by the"
-	line "first opponent in"
+	text "Porazeny prvym" ; text "Destroyed by the"
+	line "superom za" ; line "first opponent in"
 
-	para "no time at all…"
-	line "I'm no good…"
+	para "kratku chvilu…" ; para "no time at all…"
+	line "Som nanic…" ; line "I'm no good…"
 	done
 
 Text_BattleTowerCooltrainerF:
-	text "There are lots of"
-	line "BATTLE ROOMS, but"
+	text "Je tu kopa" ; text "There are lots of"
+	line "BATTLE ROOMS, ale" ; line "BATTLE ROOMS, but"
 
-	para "I'm going to win"
-	line "them all!"
+	para "ja ich vyhram" ; para "I'm going to win"
+	line "vsetky!" ; line "them all!"
 	done
 
 Text_BattleTowerGranny:
-	text "It's a grueling"
-	line "task, not being"
+	text "Je to vycerpavaju-" ; text "It's a grueling"
+	line "ce, nepouzivat" ; line "task, not being"
 
-	para "able to use items"
-	line "in battle."
+	para "ziadne predmety v" ; para "able to use items"
+	line "zapase." ; line "in battle."
 
-	para "Making your"
-	line "#MON hold items"
+	para "Drzanie predmetov" ; para "Making your"
+	line "#MONmi je klucom" ; line "#MON hold items"
 
-	para "is the key to"
-	line "winning battles."
+	para "k vitazstvu" ; para "is the key to"
+	line "v zapasoch." ; line "winning battles."
 	done
 
 Text_BattleTowerBugCatcher:
-	text "I'm trying to see"
-	line "how far I can go"
+	text "Snazim sa zistit," ; text "I'm trying to see"
+	line "ako daleko sa" ; line "how far I can go"
 
-	para "using just bug"
-	line "#MON."
+	para "dostanem s hmyzim" ; para "using just bug"
+	line "#MONom." ; line "#MON."
 
-	para "Don't let there be"
-	line "any fire #MON…"
+	para "Snad nestretnem" ; para "Don't let there be"
+	line "ohniveho #MONa…" ; line "any fire #MON…"
 	done
 
 BattleTower1F_MapEvents:

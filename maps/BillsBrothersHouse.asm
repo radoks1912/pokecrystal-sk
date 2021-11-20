@@ -14,15 +14,15 @@ BillsBrothersHouseYoungsterScript:
 	jumptextfaceplayer BillsBrothersHouseYoungsterText
 
 BillsBrotherText:
-	text "My grandpa is at "
-	line "my brother BILL's"
-	cont "on CERULEAN CAPE."
+	text "Moj dedko je u " ; text "My grandpa is at "
+	line "mojho brata BILLa" ; line "my brother BILL's"
+	cont "v CERULEAN CAPE." ; cont "on CERULEAN CAPE."
 	done
 
 BillsBrothersHouseYoungsterText:
-	text "I saw these weird,"
-	line "slow #MON on"
-	cont "CYCLING ROAD."
+	text "Stretol som poma-" ; text "I saw these weird,"
+	line "lych #MONov na" ; line "slow #MON on"
+	cont "CYCLING ROAD." ; cont "CYCLING ROAD."
 	done
 
 BillsBrothersHouse_MapEvents:

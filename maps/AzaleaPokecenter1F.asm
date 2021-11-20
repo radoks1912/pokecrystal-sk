@@ -26,14 +26,14 @@ AzaleaPokecenter1FPokefanFScript:
 	jumptextfaceplayer AzaleaPokecenter1FPokefanFText
 
 AzaleaPokecenter1FGentlemanText:
-	text "Do your #MON"
-	line "know HM moves?"
+	text "Vedia tvoji" ; text "Do your #MON"
+	line "#MON HM utoky?" ; line "know HM moves?"
 
-	para "Those moves can"
-	line "be used even if"
+	para "Tieto utoky mozu" ; para "Those moves can"
+	line "pouzit aj vtedy," ; line "be used even if"
 
-	para "your #MON has"
-	line "fainted."
+	para "ked uz" ; para "your #MON has"
+	line "odpadli." ; line "fainted."
 	done
 
 AzaleaPokecenter1FUnusedText: ; unreferenced
@@ -49,29 +49,29 @@ AzaleaPokecenter1FUnusedText: ; unreferenced
 	done
 
 AzaleaPokecenter1FFishingGuruText:
-	text "BILL's PC can"
-	line "store up to 20"
-	cont "#MON per BOX."
+	text "BILLov PC" ; text "BILL's PC can"
+	line "ulozi az 20" ; line "store up to 20"
+	cont "#MON do 1 BOXu." ; cont "#MON per BOX."
 	done
 
 AzaleaPokecenter1FPokefanFText:
-	text "Do you know about"
-	line "APRICORNS?"
+	text "Pocul si uz o" ; text "Do you know about"
+	line "APRICORNoch?" ; line "APRICORNS?"
 
-	para "Crack one open,"
-	line "hollow it out and"
+	para "Skus jeden otvorit," ; para "Crack one open,"
+	line "vyhlb ho a daj" ; line "hollow it out and"
 
-	para "fit it with a"
-	line "special device."
+	para "tam specialne" ; para "fit it with a"
+	line "zariadenie." ; line "special device."
 
-	para "Then you can catch"
-	line "#MON with it."
+	para "Potom s nim mozes" ; para "Then you can catch"
+	line "chytat #MON." ; line "#MON with it."
 
-	para "Before # BALLS"
-	line "were invented,"
+	para "Nez sa vynasli" ; para "Before # BALLS"
+	line "# BALLS," ; line "were invented,"
 
-	para "everyone used"
-	line "APRICORNS."
+	para "kazdy pouzival" ; para "everyone used"
+	line "APRICORNy." ; line "APRICORNS."
 	done
 
 AzaleaPokecenter1F_MapEvents:

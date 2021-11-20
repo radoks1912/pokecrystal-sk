@@ -107,137 +107,137 @@ BillsHouseRadio:
 	jumpstd Radio2Script
 
 BillTakeThisEeveeText:
-	text "BILL: Hi, <PLAYER>!"
-	line "Do us a favor and"
-	cont "take this EEVEE."
+	text "BILL: Cau, <PLAYER>!" ; text "BILL: Hi, <PLAYER>!"
+	line "Urob mi laskavost" ; line "Do us a favor and"
+	cont "a vezmi si EEVEE." ; cont "take this EEVEE."
 
-	para "It came over when"
-	line "I was adjusting"
-	cont "the TIME CAPSULE."
+	para "Prisiel, ked som" ; para "It came over when"
+	line "nastavoval" ; line "I was adjusting"
+	cont "TIME CAPSULE." ; cont "the TIME CAPSULE."
 
-	para "Someone has to"
-	line "take care of it,"
+	para "Niekto sa onho" ; para "Someone has to"
+	line "musi postarat," ; line "take care of it,"
 
-	para "but I don't like"
-	line "being outside."
+	para "ale ja nerad" ; para "but I don't like"
+	line "chodim von." ; line "being outside."
 
-	para "Can I count on you"
-	line "to play with it,"
+	para "Mozem sa na teba" ; para "Can I count on you"
+	line "spolahnut," ; line "to play with it,"
 	cont "<PLAYER>?"
 	done
 
 BillImCountingOnYouText:
-	text "BILL: I knew you'd"
-	line "come through!"
+	text "BILL: Vedel" ; text "BILL: I knew you'd"
+	line "som to!" ; line "come through!"
 
-	para "Way to go! You're"
-	line "the real deal!"
+	para "Som rad, ze to" ; para "Way to go! You're"
+	line "pre mna spravis!" ; line "the real deal!"
 
-	para "OK, I'm counting"
-	line "on you."
+	para "OK, pocitam" ; para "OK, I'm counting"
+	line "s tebou." ; line "on you."
 
-	para "Take good care of"
-	line "it!"
+	para "Dobre sa onho" ; para "Take good care of"
+	line "postaraj!" ; line "it!"
 	done
 
 ReceivedEeveeText:
-	text "<PLAYER> received"
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
 	line "EEVEE!"
 	done
 
 BillEeveeMayEvolveText:
-	text "BILL: PROF.ELM"
-	line "claims EEVEE may"
+	text "BILL: PROF.ELM"  ; text "BILL: PROF.ELM"
+	line "tvrdi, ze EEVEE sa" ; line "claims EEVEE may"
 
-	para "evolve in new and"
-	line "unknown ways."
+	para "moze vyvinut novym"  ; para "evolve in new and" 
+	line "neznamym sposobom." ; line "unknown ways."
 	done
 
 BillPartyFullText:
-	text "Whoa, wait. You"
-	line "can't carry any"
-	cont "more #MON."
+	text "Whoa, pockat." ; text "Whoa, wait. You"
+	line "Nemozes niest viac" ; line "can't carry any"
+	cont "#MONov." ; cont "more #MON."
 	done
 
 BillNoEeveeText:
-	text "Oh… Now what to"
-	line "do?"
+	text "Och… Co s nim" ; text "Oh… Now what to"
+	line "spravim?" ; line "do?"
 	done
 
 BillPopWontWorkText:
-	text "BILL: My pop, he"
-	line "won't work. All he"
+	text "BILL: Moj dedko" ; text "BILL: My pop, he"
+	line "nestaci. Cely den" ; line "won't work. All he"
 
-	para "does is goof off"
-	line "all day long."
+	para "sa iba potuluje." ; para "does is goof off"
+	line "Bude to" ; line "all day long."
 
-	para "He's getting to be"
-	line "a real headache…"
+	para "velmi tazky" ; para "He's getting to be"
+	line "oriesok…" ; line "a real headache…"
 	done
 
 BillsMomText_BeforeEcruteak:
-	text "Oh, you collect"
-	line "#MON? My son"
-	cont "BILL is an expert."
+	text "Oh, zbieras" ; text "Oh, you collect"
+	line "#MON? Moj syn" ; line "#MON? My son"
+	cont "BILL je expert." ; cont "BILL is an expert."
 
-	para "He just got called"
-	line "to the #MON"
+	para "Prave ho zavolali" ; para "He just got called"
+	line "do #MON" ; line "to the #MON"
 
-	para "CENTER in ECRUTEAK"
-	line "CITY."
+	para "CENTER v ECRUTEAK" ; para "CENTER in ECRUTEAK"
+	line "CITY." ; line "CITY."
 
-	para "My husband went"
-	line "off to the GAME"
+	para "Moj manzel isiel" ; para "My husband went"
+	line "do GAME CORNERu" ; line "off to the GAME"
 
-	para "CORNER without"
-	line "being called…"
+	para "bez toho, aby ho" ; para "CORNER without"
+	line "zavolali…" ; line "being called…"
 	done
 
 BillsMomText_AfterEcruteak:
-	text "My husband was"
-	line "once known as a"
+	text "Moj manzel bol" ; text "My husband was"
+	line "kedysi znamy ako" ; line "once known as a"
 
-	para "#MANIAC."
-	line "BILL must have"
+	para "#MANIAC." ; para "#MANIAC."
+	line "BILL sa musel" ; line "BILL must have"
 
-	para "taken after his"
-	line "father."
+	para "podat na svojho" ; para "taken after his"
+	line "otca." ; line "father."
 	done
 
 BillsSisterUsefulNumberText:
-	text "Are you a trainer?"
+	text "Si trener?" ; text "Are you a trainer?"
 
-	para "I've got a useful"
-	line "phone number for"
-	cont "you."
+	para "Mam pre teba" ; para "I've got a useful"
+	line "uzitocne telefonne" ; line "phone number for"
+	cont "cislo." ; cont "you."
 	done
 
 RecordedBillsNumberText:
-	text "<PLAYER> recorded"
-	line "BILL's number."
+	text "<PLAYER> opisal" ; text "<PLAYER> recorded"
+	line "BILLove cislo." ; line "BILL's number."
 	done
 
 BillsSisterRefusedNumberText:
-	text "My brother made"
-	line "the PC #MON"
-	cont "storage system."
+	text "Moj brat navrhol" ; text "My brother made"
+	line "PC #MON" ; line "the PC #MON"
+	cont "ulozny system." ; cont "storage system."
 
-	para "I was going to"
-	line "give you BILL's"
-	cont "number…"
+	para "Chcela som ti" ; para "I was going to"
+	line "dat BILLove" ; line "give you BILL's"
+	cont "cislo…" ; cont "number…"
 	done
 
 BillsSisterPhoneFullText:
-	text "You can't record"
-	line "any more numbers."
+	text "Mas plnu pamat" ; text "You can't record"
+	line "cisiel v telefone." ; line "any more numbers."
 	done
 
 BillsSisterStorageSystemText:
-	text "My big brother"
-	line "BILL made the PC"
+	text "Moj starsi brat" ; text "My big brother"
+	line "BILL navrhol PC" ; line "BILL made the PC"
 
-	para "#MON storage"
-	line "system."
+	para "#MON ulozny" ; para "#MON storage"
+	line "system." ; line "system."
 	done
 
 BillsFamilysHouse_MapEvents:

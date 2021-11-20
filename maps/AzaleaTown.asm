@@ -244,212 +244,212 @@ AzaleaTownPlayerLeavesKurtsHouseMovement:
 	step_end
 
 AzaleaTownRivalBeforeText:
-	text "…Tell me some-"
-	line "thing."
+	text "…Povedz mi" ; text "…Tell me some-"
+	line "nieco." ; line "thing."
 
-	para "Is it true that"
-	line "TEAM ROCKET has"
-	cont "returned?"
+	para "Je pravda, ze sa" ; para "Is it true that"
+	line "TEAM ROCKET" ; line "TEAM ROCKET has"
+	cont "vratil?" ; cont "returned?"
 
-	para "What? You beat"
-	line "them? Hah! Quit"
-	cont "lying."
+	para "Coze? Ty si ich" ; para "What? You beat"
+	line "porazil? No to" ; line "them? Hah! Quit"
+	cont "urcite." ; cont "lying."
 
-	para "You're not joking?"
-	line "Then let's see how"
-	cont "good you are."
+	para "Myslis to vazne?" ; para "You're not joking?"
+	line "Tak teda ukaz," ; line "Then let's see how"
+	cont "aky si dobry." ; cont "good you are."
 	done
 
 AzaleaTownRivalWinText:
-	text "… Humph! Useless"
-	line "#MON!"
+	text "… Hmmm! Zbytocni" ; text "… Humph! Useless"
+	line "#MONi!" ; line "#MON!"
 
-	para "Listen, you. You"
-	line "only won because"
+	para "Pocuvaj ma, vyhral" ; para "Listen, you. You"
+	line "si, len preto ze" ; line "only won because"
 
-	para "my #MON were"
-	line "weak."
+	para "moji #MONi" ; para "my #MON were"
+	line "su slabi." ; line "weak."
 	done
 
 AzaleaTownRivalAfterText:
-	text "I hate the weak."
+	text "Neznasam slabochov" ; text "I hate the weak."
 
-	para "#MON, trainers."
-	line "It doesn't matter"
-	cont "who or what."
+	para "#MONi, treneri." ; para "#MON, trainers."
+	line "Je jedno koho," ; line "It doesn't matter"
+	cont "alebo co." ; cont "who or what."
 
-	para "I'm going to be"
-	line "strong and wipe"
-	cont "out the weak."
+	para "Stanem sa silnym" ; para "I'm going to be"
+	line "a odrovnam" ; line "strong and wipe"
+	cont "slabochov." ; cont "out the weak."
 
-	para "That goes for TEAM"
-	line "ROCKET too."
+	para "To plati i pre" ; para "That goes for TEAM"
+	line "TEAM ROCKET." ; line "ROCKET too."
 
-	para "They act big and"
-	line "tough in a group."
+	para "Tvaria sa silni," ; para "They act big and"
+	line "ked su v skupine." ; line "tough in a group."
 
-	para "But get them"
-	line "alone, and they're"
-	cont "weak."
+	para "Ale ako jednotliv-" ; para "But get them"
+	line "ci su slabi." ; line "alone, and they're"
+	;cont "weak." ; cont "weak."
 
-	para "I hate them all."
+	para "Neznasam ich." ; para "I hate them all."
 
-	para "You stay out of my"
-	line "way. A weakling"
+	para "Neplet sa mi do" ; para "You stay out of my"
+	line "cesty. Slaboch ako" ; line "way. A weakling"
 
-	para "like you is only a"
-	line "distraction."
+	para "ty ma iba" ; para "like you is only a"
+	line "rozptyli." ; line "distraction."
 	done
 
 AzaleaTownRivalLossText:
-	text "…Humph! I knew"
-	line "you were lying."
+	text "…Hmmm! Vedel som," ; text "…Humph! I knew"
+	line "ze klames." ;  line "you were lying."
 	done
 
 AzaleaTownRocket1Text:
-	text "It's unsafe to go"
-	line "in there, so I'm"
-	cont "standing guard."
+	text "Nie je to bezpec-" ; text "It's unsafe to go"
+	line "ne tam ist, preto" ; line "in there, so I'm"
+	cont "tu strazim." ; cont "standing guard."
 
-	para "Aren't I a good"
-	line "Samaritan?"
+	para "No nie som dobry" ; para "Aren't I a good"
+	line "samaritan?" ; line "Samaritan?"
 	done
 
 AzaleaTownRocket2Text:
-	text "Do you know about"
-	line "SLOWPOKETAIL? I"
-	cont "heard it's tasty!"
+	text "Pocul si o" ; text "Do you know about"
+	line "SLOWPOKETAILoch?" ; line "SLOWPOKETAIL? I"
+	cont "Vraj su chutne!" ; cont "heard it's tasty!"
 
-	para "Aren't you glad I"
-	line "told you that?"
+	para "Mas radost, ze to" ; para "Aren't you glad I"
+	line "teraz vies?" ; line "told you that?"
 	done
 
 AzaleaTownGrampsTextBefore:
-	text "The SLOWPOKE have"
-	line "disappeared from"
-	cont "town…"
+	text "SLOWPOKEovia sa" ; text "The SLOWPOKE have"
+	line "vytratili z" ; line "disappeared from"
+	cont "mesta…" ; cont "town…"
 
-	para "I heard their"
-	line "TAILS are being"
-	cont "sold somewhere."
+	para "Pocul som ze ich" ; para "I heard their"
+	line "CHVOSTY sa niekde" ; line "TAILS are being"
+	cont "i predavaju." ; cont "sold somewhere."
 	done
 
 AzaleaTownGrampsTextAfter:
-	text "The SLOWPOKE have"
-	line "returned."
+	text "SLOWPOKEovia sa" ; text "The SLOWPOKE have"
+	line "vratili." ; line "returned."
 
-	para "Knowing them, they"
-	line "could've just been"
+	para "Ako ich tak poz-" ; para "Knowing them, they"
+	line "nam, urcite sa" ; line "could've just been"
 
-	para "goofing off some-"
-	line "where."
+	para "niekde iba" ; para "goofing off some-"
+	line "flakali." ; line "where."
 	done
 
 AzaleaTownTeacherText:
-	text "Did you come to"
-	line "get KURT to make"
-	cont "some BALLS?"
+	text "Prisiel si kvoli" ; text "Did you come to"
+	line "KURTovi, aby ti" ; line "get KURT to make"
+	cont "spravil BALLS?" ; cont "some BALLS?"
 
-	para "A lot of people do"
-	line "just that."
+	para "Vela ludi je tu" ; para "A lot of people do"
+	line "prave preto." ; line "just that."
 	done
 
 AzaleaTownYoungsterText:
-	text "Cut through AZALEA"
-	line "and you'll be in"
-	cont "ILEX FOREST."
+	text "Prejdi cez AZALEA" ; text "Cut through AZALEA"
+	line "a dostanes sa do" ; line "and you'll be in"
+	cont "ILEX FOREST." ; cont "ILEX FOREST."
 
-	para "But these skinny"
-	line "trees make it"
+	para "Ale kvoli tymto" ; para "But these skinny"
+	line "tenkym stromom" ; line "trees make it"
 
-	para "impossible to get"
-	line "through."
+	para "sa neda dostat" ; para "impossible to get"
+	line "dalej." ; line "through."
 
-	para "The CHARCOAL MAN's"
-	line "#MON can CUT"
-	cont "down trees."
+	para "CHARCOAL MANov" ; para "The CHARCOAL MAN's"
+	line "#MON vie pouzit" ; line "#MON can CUT"
+	cont "CUT na stromy." ; cont "down trees."
 	done
 
 AzaleaTownSlowpokeText1:
-	text "SLOWPOKE: …"
+	text "SLOWPOKE: …" ; text "SLOWPOKE: …"
 
-	para "<……> <……> <……>"
+	para "<……> <……> <……>" ; para "<……> <……> <……>"
 	done
 
 AzaleaTownSlowpokeText2:
-	text "<……> <……>Yawn?"
+	text "<……> <……>Uaaa?" ; text "<……> <……>Yawn?"
 	done
 
 WoosterText:
-	text "WOOSTER: Gugyoo…"
+	text "WOOSTER: Gugyoo…" ; text "WOOSTER: Gugyoo…"
 	done
 
 AzaleaTownKurtText1:
-	text "ILEX FOREST is"
-	line "restless!"
+	text "ILEX FOREST je" ; text "ILEX FOREST is"
+	line "strasidelny!" ; line "restless!"
 
-	para "What is going on?"
+	para "Co sa deje?" ; para "What is going on?"
 	done
 
 AzaleaTownKurtText2:
-	text "<PLAYER>, here's"
-	line "your GS BALL back!"
+	text "<PLAYER>, tu" ; text "<PLAYER>, here's"
+	line "mas spat GS BALL!" ; line "your GS BALL back!"
 	done
 
 AzaleaTownKurtText3:
-	text "Could you go see"
-	line "why ILEX FOREST is"
-	cont "so restless?"
+	text "Mozes ist zistit," ; text "Could you go see"
+	line "preco ILEX FOREST" ; line "why ILEX FOREST is"
+	cont "je tak nepokojny?" ; cont "so restless?"
 	done
 
 AzaleaTownSignText:
-	text "AZALEA TOWN"
-	line "Where People and"
+	text "AZALEA TOWN" ; text "AZALEA TOWN"
+	line "mesto, kde ludia a" ; line "Where People and"
 
-	para "#MON Live in"
-	line "Happy Harmony"
+	para "#MON ziju v" ; para "#MON Live in"
+	line "spolocnej harmonii" ; line "Happy Harmony"
 	done
 
 KurtsHouseSignText:
-	text "KURT'S HOUSE"
+	text "KURTOV DOM" ; text "KURT'S HOUSE"
 	done
 
 AzaleaGymSignText:
-	text "AZALEA TOWN"
-	line "#MON GYM"
-	cont "LEADER: BUGSY"
+	text "AZALEA TOWN" ; text "AZALEA TOWN"
+	line "#MON GYM" ; line "#MON GYM"
+	cont "LEADER: BUGSY" ; cont "LEADER: BUGSY"
 
-	para "The Walking"
-	line "Bug #MON"
-	cont "Encyclopedia"
+	para "Chodiaca hmyzia" ; para "The Walking"
+	line "#MON" ; line "Bug #MON"
+	cont "Encyclopedia" ; cont "Encyclopedia"
 	done
 
 SlowpokeWellSignText:
-	text "SLOWPOKE WELL"
+	text "SLOWPOKEOVA STUDNA" ; text "SLOWPOKE WELL"
 
-	para "Also known as the"
-	line "RAINMAKER WELL."
+	para "Taktiez znama ako" ; para "Also known as the"
+	line "RAINMAKER STUDNA." ; line "RAINMAKER WELL."
 
-	para "Locals believe"
-	line "that a SLOWPOKE's"
-	cont "yawn summons rain."
+	para "Domaci veria, ze" ; para "Locals believe"
+	line "SLOWPOKEove ziv-" ; line "that a SLOWPOKE's"
+	cont "nutie prinesie" ; cont "yawn summons rain."
 
-	para "Records show that"
-	line "a SLOWPOKE's yawn"
+	para "dazd. Zaznamy tvr-" ; para "Records show that"
+	line "dia, ze jedno tak" ; line "a SLOWPOKE's yawn"
 
-	para "ended a drought"
-	line "400 years ago."
+	para "ukoncilo sucho" ; para "ended a drought"
+	line "pred 400 rokmi." ; line "400 years ago."
 	done
 
 CharcoalKilnSignText:
-	text "CHARCOAL KILN"
+	text "CHARCOAL VYHNA" ; text "CHARCOAL KILN"
 	done
 
 AzaleaTownIlexForestSignText:
-	text "ILEX FOREST"
+	text "ILEX FOREST" ; text "ILEX FOREST"
 
-	para "Enter through the"
-	line "gate."
+	para "Vstupte cez" ; para "Enter through the"
+	line "branu." ; line "gate."
 	done
 
 AzaleaTown_MapEvents:
