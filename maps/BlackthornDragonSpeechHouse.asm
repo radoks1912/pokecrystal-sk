@@ -25,18 +25,18 @@ BlackthornDragonSpeechHouseMagazineBookshelf: ; unreferenced
 	jumpstd MagazineBookshelfScript
 
 BlackthornDragonSpeechHouseGrannyText:
-	text "A clan of trainers"
-	line "who can freely"
+	text "Klan trenerov," ; text "A clan of trainers"
+	line "ktori dokazu ovla-" ; line "who can freely"
 
-	para "command dragons"
-	line "live right here in"
-	cont "BLACKTHORN."
+	para "dat drakov, zije" ; para "command dragons"
+	line "prave tuto v" ; line "live right here in"
+	cont "BLACKTHORN." ; cont "BLACKTHORN."
 
-	para "As a result, there"
-	line "are many legends"
+	para "Preto existuje" ; para "As a result, there"
+	line "mnoho legiend" ; line "are many legends"
 
-	para "about dragons in"
-	line "this town."
+	para "o drakoch v" ; para "about dragons in"
+	line "meste." ; line "this town."
 	done
 
 BlackthornDragonSpeechHouseDratiniText:

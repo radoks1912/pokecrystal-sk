@@ -210,145 +210,145 @@ BillsGrandpa:
 	end
 
 BillsGrandpaIntroText:
-	text "Hm? You know BILL?"
-	line "He's my grandson."
+	text "Hm? Poznas BILLa?" ; text "Hm? You know BILL?"
+	line "Je to moj pravnuk." ; line "He's my grandson."
 
-	para "He's in JOHTO. He"
-	line "does something"
+	para "Je v JOHTO. Robi" ; para "He's in JOHTO. He"
+	line "nieco s" ; line "does something"
 
-	para "with PCs, so I'm"
-	line "house-sitting."
+	para "PC, tak mu strazim" ; para "with PCs, so I'm"
+	line "dom." ; line "house-sitting."
 	done
 
 BillsGrandpaAskToSeeMonText:
-	text "If you have that"
-	line "#MON, may I see"
-	cont "it, please?"
+	text "Ak mas toho" ; text "If you have that"
+	line "#MONa, mozem ho" ; line "#MON, may I see"
+	cont "vidiet, prosim?" ; cont "it, please?"
 	done
 
 BillsGrandpaExcitedToSeeText:
-	text "You will show me?"
-	line "How good of you!"
+	text "Ukazes mi?" ; text "You will show me?"
+	line "Ake skvele!" ; line "How good of you!"
 	done
 
 BillsGrandpaYouDontHaveItTextText:
-	text "You don't have it?"
-	line "That's too bad…"
+	text "Nemas ho?" ; text "You don't have it?"
+	line "Nic moc…" ; line "That's too bad…"
 	done
 
 BillsGrandpaShownPokemonText:
-	text "Ah, so that is"
+	text "Ah, takze toto je" ; text "Ah, so that is"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Isn't it cute!"
-	line "That's so kind of"
-	cont "you."
+	para "Zlaty!" ; para "Isn't it cute!"
+	line "To je od teba" ; line "That's so kind of"
+	cont "mile." ; cont "you."
 	done
 
 BillsGrandpaTokenOfAppreciationText:
-	text "Thanks!"
+	text "Dakujem!" ; text "Thanks!"
 
-	para "This is a token of"
-	line "my appreciation."
+	para "Toto je znak mojho" ; para "This is a token of"
+	line "uznania." ; line "my appreciation."
 	done
 
 BillsGrandpaComeAgainText:
-	text "Come visit again"
-	line "sometime."
+	text "Pridi ma niekedy" ; text "Come visit again"
+	line "pozriet." ; line "sometime."
 	done
 
 BillsGrandpaShownAllThePokemonText:
-	text "Thanks for showing"
-	line "me so many cute"
-	cont "#MON."
+	text "Dakujem, ze si mi" ; text "Thanks for showing"
+	line "ukazal zlatych" ; line "me so many cute"
+	cont "#MONov." ; cont "#MON."
 
-	para "I really enjoyed"
-	line "myself. I'm glad"
+	para "Velmi som si to" ; para "I really enjoyed"
+	line "uzil. Som rad, ze" ; line "myself. I'm glad"
 
-	para "I've lived such a"
-	line "long life."
+	para "som zil tak" ; para "I've lived such a"
+	line "dlhy zivot." ; line "long life."
 	done
 
 BillsGrandpaWrongPokemonText:
-	text "Hm?"
+	text "Hm?" ; text "Hm?"
 
-	para "That's not the"
-	line "#MON that I was"
-	cont "told about."
+	para "To nie je" ; para "That's not the"
+	line "#MON, ktoreho" ; line "#MON that I was"
+	cont "som myslel." ; cont "told about."
 	done
 
 BillsGrandpaLickitungText:
-	text "My grandson BILL"
-	line "told me about a"
+	text "Moj pravnuk BILL" ; text "My grandson BILL"
+	line "mi hovoril o" ; line "told me about a"
 
-	para "#MON that has a"
-	line "long tongue."
+	para "#MONovi, ktory" ; para "#MON that has a"
+	line "ma dlhy jazyk." ; line "long tongue."
 	done
 
 BillsGrandpaOddishText:
-	text "Ah, my grandson"
-	line "mentioned a round,"
+	text "Ah, moj pravnuk" ; text "Ah, my grandson"
+	line "spominal gulateho," ; line "mentioned a round,"
 
-	para "green #MON that"
-	line "has leaves growing"
-	cont "on its head."
+	para "zeleneho #MONa," ; para "green #MON that"
+	line "ktory ma na hlave" ; line "has leaves growing"
+	cont "listy." ; cont "on its head."
 	done
 
 BillsGrandpaStaryuText:
-	text "Do you know of a"
-	line "sea #MON that"
+	text "Poznas morskeho" ; text "Do you know of a"
+	line "#MONa, ktory" ; line "sea #MON that"
 
-	para "has a red sphere"
-	line "in its body?"
+	para "ma cerveny kruh" ; para "has a red sphere"
+	line "na jeho tele?" ; line "in its body?"
 
-	para "You know, the one"
-	line "that's shaped like"
-	cont "a star?"
+	para "Ved vies, ten co" ; para "You know, the one"
+	line "ma tvar ako" ; line "that's shaped like"
+	cont "hviezda?" ; cont "a star?"
 
-	para "I heard that it"
-	line "appears at night."
+	para "Udajne sa objavuje" ; para "I heard that it"
+	line "iba v noci." ; line "appears at night."
 
-	para "I would surely"
-	line "like to see it."
+	para "Velmi rad by" ; para "I would surely"
+	line "som ho videl." ; line "like to see it."
 	done
 
 BillsGrandpaGrowlitheText:
-	text "BILL told me about"
-	line "a #MON that is"
+	text "BILL mi hovoril o" ; text "BILL told me about"
+	line "#MONovi, ktory" ; line "a #MON that is"
 
-	para "very loyal to its"
-	line "trainer."
+	para "je velmi lojalny" ; para "very loyal to its"
+	line "k trenerovi." ; line "trainer."
 
-	para "It's supposed to"
-	line "ROAR well."
+	para "Dokaze pouzivat" ; para "It's supposed to"
+	line "utok ROAR." ; line "ROAR well."
 	done
 
 BillsGrandpaVulpixText:
-	text "I heard about a"
-	line "cute #MON that"
-	cont "has six tails."
+	text "Pocul som o milom" ; text "I heard about a"
+	line "#MONovi, ktory" ; line "cute #MON that"
+	cont "ma 6 chvostov." ; cont "has six tails."
 
-	para "I would love to"
-	line "hug a cute #MON"
-	cont "like that."
+	para "Rad by som" ; para "I would love to"
+	line "objal #MONa" ; line "hug a cute #MON"
+	cont "ako je tento." ; cont "like that."
 	done
 
 BillsGrandpaPichuText:
-	text "Do you know that"
-	line "hugely popular"
-	cont "#MON?"
+	text "Poznas toho" ; text "Do you know that"
+	line "velmi znameho" ; line "hugely popular"
+	cont "#MONa?" ; cont "#MON?"
 
-	para "The #MON that"
-	line "has a yellow body"
-	cont "and red cheeks."
+	para "#MON ma" ; para "The #MON that"
+	line "zlte telo a" ; line "has a yellow body"
+	cont "cervene lica." ; cont "and red cheeks."
 
-	para "I would love to"
-	line "see what it looks"
+	para "Chcel by som" ; para "I would love to"
+	line "vidiet, ako vypa-" ; line "see what it looks"
 
-	para "like before it"
-	line "evolves."
+	para "da predtym, ako sa" ; para "like before it"
+	line "vyvinie." ; line "evolves."
 	done
 
 BillsHouse_MapEvents:

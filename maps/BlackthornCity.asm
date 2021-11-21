@@ -143,171 +143,171 @@ BlackthornCityMartSign:
 	jumpstd MartSignScript
 
 Text_ClairIsOut:
-	text "I am sorry."
+	text "Je mi luto." ; text "I am sorry."
 
-	para "CLAIR, our GYM"
-	line "LEADER, entered"
+	para "CLAIR, nas GYM" ; para "CLAIR, our GYM"
+	line "LEADER, vstupila" ; line "LEADER, entered"
 
-	para "the DRAGON'S DEN"
-	line "behind the GYM."
+	para "do DRAGON'S DEN" ; para "the DRAGON'S DEN"
+	line "za GYMom."
 
-	para "I have no idea"
-	line "when our LEADER"
-	cont "will return."
+	para "Vobec netusim," ; para "I have no idea"
+	line "kedy sa nas LEADER" ; line "when our LEADER"
+	cont "vrati." ; cont "will return."
 	done
 
 Text_ClairIsIn:
-	text "CLAIR, our GYM"
-	line "LEADER, is waiting"
-	cont "for you."
+	text "CLAIR, nas GYM" ; text "CLAIR, our GYM"
+	line "LEADER, ta" ; line "LEADER, is waiting"
+	cont "ocakava." ; cont "for you."
 
-	para "However, it would"
-	line "be impossible for"
+	para "Avsak je nemozne," ; para "However, it would"
+	line "aby taky obycajny" ; line "be impossible for"
 
-	para "a run-of-the-mill"
-	line "trainer to win."
+	para "trener vyhral." ; para "a run-of-the-mill"
+	;line "trainer to win." ; line "trainer to win."
 	done
 
 Text_ClairIsBeaten:
-	text "You defeated"
-	line "CLAIR?"
+	text "Porazil si" ; text "You defeated"
+	line "CLAIR?" ; line "CLAIR?"
 
-	para "That's amazing!"
+	para "To je skvele!" ; para "That's amazing!"
 
-	para "I've never heard"
-	line "of her losing to"
+	para "Nikdy som nepocul," ; para "I've never heard"
+	line "aby prehrala proti" ; line "of her losing to"
 
-	para "anyone other than"
-	line "LANCE."
+	para "niekomu inemu, ako" ; para "anyone other than"
+	line "LANCEovi." ; line "LANCE."
 	done
 
 BlackthornGrampsRefusesEntryText:
-	text "No. Only chosen"
-	line "trainers may train"
+	text "Nie. Iba vybrani" ; text "No. Only chosen"
+	line "treneri tu mozu" ; line "trainers may train"
 
-	para "here."
-	line "Please leave."
+	para "cvicit." ; para "here."
+	line "Odid, prosim." ; line "Please leave."
 	done
 
 BlackthornGrampsGrantsEntryText:
-	text "If CLAIR allows"
-	line "it, her grand-"
-	cont "father--our MASTER"
-	cont "--will also."
+	text "Ak to CLAIR dovo-" ; text "If CLAIR allows"
+	line "li, jej praotec,"  ;line "it, her grand-"
+	cont "nas MASTER," ; cont "father--our MASTER"
+	cont "dovoli tiez." ; cont "--will also."
 
-	para "You may enter."
+	para "Mozes vstupit." ; para "You may enter."
 	done
 
 BlackBeltText_WeirdRadio:
-	text "My radio's busted?"
-	line "Lately, I only get"
-	cont "this weird signal."
+	text "Mam pokazene ra-" ; text "My radio's busted?"
+	line "dio? Chytam iba" ; line "Lately, I only get"
+	cont "tento divny signal" ; cont "this weird signal."
 	done
 
 BlackBeltText_VoicesInMyHead:
-	text "Arooo! Voices in"
-	line "my head!"
+	text "Arooo! Hlasy" ; text "Arooo! Voices in"
+	line "v mojej hlave!" ; line "my head!"
 
-	para "Huh? I'm listening"
-	line "to my radio!"
+	para "Hm? Pocuvam moje" ; para "Huh? I'm listening"
+	line "radio!" ; line "to my radio!"
 	done
 
 BlackthornCooltrainerF1Text:
-	text "Are you going to"
-	line "make your #MON"
-	cont "forget some moves?"
+	text "Chces, aby tvoj" ; text "Are you going to"
+	line "#MON zabudol" ; line "make your #MON"
+	cont "nejake utoky?" ; cont "forget some moves?"
 	done
 
 BlackthornYoungsterText:
-	text "Dragon masters all"
-	line "come from the city"
-	cont "of BLACKTHORN."
+	text "Draci majstri" ; text "Dragon masters all"
+	line "pochadzaju" ; line "come from the city"
+	cont "z BLACKTHORN." ; cont "of BLACKTHORN."
 	done
 
 MeetSantosText:
-	text "SANTOS: …"
+	text "SANTOS: …" ; text "SANTOS: …"
 
-	para "It's Saturday…"
+	para "Je sobota…" ; para "It's Saturday…"
 
-	para "I'm SANTOS of"
-	line "Saturday…"
+	para "Som sobotny" ; para "I'm SANTOS of"
+	line "SANTOS…" ; line "Saturday…"
 	done
 
 SantosGivesGiftText:
-	text "You can have this…"
+	text "Vezmi si toto…" ; text "You can have this…"
 	done
 
 SantosGaveGiftText:
-	text "SANTOS: …"
+	text "SANTOS: …" ; text "SANTOS: …"
 
-	para "SPELL TAG…"
+	para "SPELL TAG…" ; para "SPELL TAG…"
 
-	para "Ghost-type moves"
-	line "get stronger…"
+	para "Ghost-typ utoky" ; para "Ghost-type moves"
+	line "su silnejsie…" ; line "get stronger…"
 
-	para "It will frighten"
-	line "you…"
+	para "Vydesi ta" ; para "It will frighten"
+	line "to…" ; line "you…"
 	done
 
 SantosSaturdayText:
-	text "SANTOS: …"
+	text "SANTOS: …" ; text "SANTOS: …"
 
-	para "See you again on"
-	line "another Saturday…"
+	para "Uvidime sa znova" ; para "See you again on"
+	line "inu sobotu…" ; line "another Saturday…"
 
-	para "I won't have any"
-	line "more gifts…"
+	para "Nebudem mat uz" ; para "I won't have any"
+	line "ziadne dary…" ; line "more gifts…"
 	done
 
 SantosNotSaturdayText:
-	text "SANTOS: Today's"
-	line "not Saturday…"
+	text "SANTOS: Dnes nie" ; text "SANTOS: Today's"
+	line "je sobota…"
 	done
 
 BlackthornCooltrainerF2Text:
-	text "Wow, you came"
-	line "through the ICE"
-	cont "PATH?"
+	text "Wau, presiel si" ; text "Wow, you came"
+	line "cez ICE PATH?" ; line "through the ICE"
+	;cont "PATH?" ; cont "PATH?"
 
-	para "You must be a real"
-	line "hotshot trainer!"
+	para "Tak to musis byt" ; para "You must be a real"
+	line "vyborny trener!" ; line "hotshot trainer!"
 	done
 
 BlackthornCitySignText:
-	text "BLACKTHORN CITY"
+	text "BLACKTHORN CITY" ; text "BLACKTHORN CITY"
 
-	para "A Quiet Mountain"
-	line "Retreat"
+	para "Tiche horske" ; para "A Quiet Mountain"
+	line "utocisko" ; line "Retreat"
 	done
 
 BlackthornGymSignText:
-	text "BLACKTHORN CITY"
-	line "#MON GYM"
-	cont "LEADER: CLAIR"
+	text "BLACKTHORN CITY" ; text "BLACKTHORN CITY"
+	line "#MON GYM" ; line "#MON GYM"
+	cont "LEADER: CLAIR" ; cont "LEADER: CLAIR"
 
-	para "The Blessed User"
-	line "of Dragon #MON"
+	para "Nadany uzivatel" ; para "The Blessed User"
+	line "dracich #MONov" ; line "of Dragon #MON"
 	done
 
 MoveDeletersHouseSignText:
-	text "MOVE DELETER'S"
-	line "HOUSE"
+	text "MOVE DELETER" ; text "MOVE DELETER'S"
+	line "DOM" ; line "HOUSE"
 	done
 
 DragonDensSignText:
-	text "DRAGON'S DEN"
-	line "AHEAD"
+	text "DRAGON'S DEN" ; text "DRAGON'S DEN"
+	;line "AHEAD" ; line "AHEAD"
 	done
 
 BlackthornCityTrainerTipsText:
-	text "TRAINER TIPS"
+	text "TRENERSKE TIPY" ; text "TRAINER TIPS"
 
-	para "A #MON holding"
-	line "a MIRACLEBERRY"
+	para "#MON drziaci" ; para "A #MON holding"
+	line "MIRACLEBERRY" ; line "a MIRACLEBERRY"
 
-	para "will cure itself"
-	line "of any status"
-	cont "problem."
+	para "sa vylieci z" ; para "will cure itself"
+	line "akehokolvek status" ; line "of any status"
+	cont "problemu." ; cont "problem."
 	done
 
 BlackthornCity_MapEvents:
