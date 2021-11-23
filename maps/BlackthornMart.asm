@@ -21,27 +21,27 @@ BlackthornMartBlackBeltScript:
 	jumptextfaceplayer BlackthornMartBlackBeltText
 
 BlackthornMartCooltrainerMText:
-	text "You can't buy MAX"
-	line "REVIVE, but it"
+	text "Nepredavame MAX" ; text "You can't buy MAX"
+	line "REVIVE, ale" ; line "REVIVE, but it"
 
-	para "fully restores a"
-	line "fainted #MON."
+	para "plne obnovi odpa-" ; para "fully restores a"
+	line "dnuteho #MONa." ; line "fainted #MON."
 
-	para "Beware--it won't"
-	line "restore PP, the"
+	para "Pozor--neobnovi" ; para "Beware--it won't"
+	line "PP, POWER POINTS" ; line "restore PP, the"
 
-	para "POWER POINTS"
-	line "needed for moves."
+	para "potrebne na" ; para "POWER POINTS"
+	line "utocenie." ; line "needed for moves."
 	done
 
 BlackthornMartBlackBeltText:
-	text "MAX REPEL keeps"
-	line "weak #MON away"
-	cont "from you."
+	text "MAX REPEL odraduje" ; text "MAX REPEL keeps"
+	line "slabych #MON od" ; line "weak #MON away"
+	cont "teba." ; cont "from you."
 
-	para "It's the longest"
-	line "lasting of the"
-	cont "REPEL sprays."
+	para "Je to najdlhsie" ; para "It's the longest"
+	line "trvajuci REPEL" ; line "lasting of the"
+	cont "sprej." ; cont "REPEL sprays."
 	done
 
 BlackthornMart_MapEvents:

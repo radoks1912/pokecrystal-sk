@@ -22,29 +22,29 @@ BlackthornPokecenter1FCooltrainerMScript:
 	jumpstd HappinessCheckScript
 
 BlackthornPokecenter1FGentlemanText:
-	text "Deep inside far-"
-	line "off INDIGO PLATEAU"
+	text "Hlboko v" ; text "Deep inside far-"
+	line "INDIGO PLATEAU" ; line "off INDIGO PLATEAU"
 
-	para "is the #MON"
-	line "LEAGUE."
+	para "je #MON" ; para "is the #MON"
+	line "LEAGUE." ; line "LEAGUE."
 
-	para "I hear the best"
-	line "trainers gather"
+	para "Zhromazduju sa tam" ; para "I hear the best"
+	line "najlepsi treneri" ; line "trainers gather"
 
-	para "there from around"
-	line "the country."
+	para "z celej" ; para "there from around"
+	line "krajiny." ; line "the country."
 	done
 
 BlackthornPokecenter1FTwinText:
-	text "There was this"
-	line "move I just had"
+	text "Existuje jeden" ; text "There was this"
+	line "utok, ktory som" ; line "move I just had"
 
-	para "to teach my #-"
-	line "MON."
+	para "musel naucit mojho" ; para "to teach my #-"
+	line "#MONa." ; line "MON."
 
-	para "So I got the MOVE"
-	line "DELETER to make it"
-	cont "forget an HM move."
+	para "MOVE DELETER ho" ; para "So I got the MOVE"
+	line "teda odnaucil je-" ; line "DELETER to make it"
+	cont "den HM utok." ; cont "forget an HM move."
 	done
 
 BlackthornPokecenter1F_MapEvents:

@@ -79,48 +79,48 @@ TrainerCooltrainerfFran:
 	end
 
 CooltrainermCodySeenText:
-	text "It's not as if we"
-	line "all use dragon-"
-	cont "type #MON."
+	text "Vsetci nepouzivame" ; text "It's not as if we"
+	line "dracich" ; line "all use dragon-"
+	cont "#MONov." ; cont "type #MON."
 	done
 
 CooltrainermCodyBeatenText:
-	text "Rats! If only I"
-	line "had a dragon!"
+	text "Do kelu! If only I" ; text "Rats! If only I"
+	line "had a dragon!" ; line "had a dragon!"
 	done
 
 CooltrainermCodyAfterBattleText:
-	text "Members of our"
-	line "dragon-user clan"
+	text "Clenovia naseho" ; text "Members of our"
+	line "dracieho timu" ; line "dragon-user clan"
 
-	para "can use dragon"
-	line "#MON only after"
+	para "mozu mat dracich" ; para "can use dragon"
+	line "#MONov iba po" ; line "#MON only after"
 
-	para "our MASTER allows"
-	line "it."
+	para "schvaleni nasim" ; para "our MASTER allows"
+	line "MAJSTROM." ; line "it."
 	done
 
 CooltrainerfFranSeenText:
-	text "I can't allow a"
-	line "nameless trainer"
-	cont "past me!"
+	text "Nemozem pustit" ; text "I can't allow a"
+	line "bezmenneho trenera" ; line "nameless trainer"
+	cont "ako si ty!" ; cont "past me!"
 
-	para "CLAIR would be"
-	line "livid if I did!"
+	para "CLAIR by bola" ; para "CLAIR would be"
+	line "napalena!" ; line "livid if I did!"
 	done
 
 CooltrainerfFranBeatenText:
-	text "Awww… I lost…"
+	text "Ach… Prehrala som…" ; text "Awww… I lost…"
 	done
 
 CooltrainerfFranAfterBattleText:
-	text "Uh-oh… CLAIR is"
-	line "going to be mad…"
+	text "O-ou… CLAIR bude" ; text "Uh-oh… CLAIR is"
+	line "nastvana…" ; line "going to be mad…"
 	done
 
 BlackthornGym2FBoulderFellText:
-	text "The boulder fell"
-	line "through!"
+	text "Skala prepadla" ; text "The boulder fell"
+	line "skrz!" ; line "through!"
 	done
 
 BlackthornGym2F_MapEvents:
