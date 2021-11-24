@@ -64,82 +64,83 @@ DaisyScript:
 	end
 
 DaisyHelloText:
-	text "DAISY: Hi! My kid"
-	line "brother is the GYM"
+	text "DAISY: Cau! Moj" ; text "DAISY: Hi! My kid"
+	line "mladsi brat je GYM" ; line "brother is the GYM"
 
-	para "LEADER in VIRIDIAN"
-	line "CITY."
+	para "LEADER v VIRIDIAN" ; para "LEADER in VIRIDIAN"
+	line "CITY." ; line "CITY."
 
-	para "But he goes out"
-	line "of town so often,"
+	para "Ale tak casto je" ; para "But he goes out"
+	line "mimo mesta, ze" ; line "of town so often,"
 
-	para "it causes problems"
-	line "for the trainers."
+	para "sposobuje problemy" ; para "it causes problems"
+	line "ostatnym trenerom." ; line "for the trainers."
 	done
 
 DaisyOfferGroomingText:
-	text "DAISY: Hi! Good"
-	line "timing. I'm about"
-	cont "to have some tea."
+	text "DAISY: Cau! Dobre" ; text "DAISY: Hi! Good"
+	line "nacasovanie." ; line "timing. I'm about"
+	cont "Pripravujem caj." ; cont "to have some tea."
 
-	para "Would you like to"
-	line "join me?"
+	para "Das si so mnou?" ; para "Would you like to"
+	;line "join me?" ; line "join me?"
 
-	para "Oh, your #MON"
-	line "are a bit dirty."
+	para "Oh, tvoji #MONi" ; para "Oh, your #MON"
+	line "su trocha spinavi." ; line "are a bit dirty."
 
-	para "Would you like me"
-	line "to groom one?"
+	para "Dam ti ich do-" ; para "Would you like me"
+	line "poriadku?" ; line "to groom one?"
 	done
 
 DaisyWhichMonText:
-	text "DAISY: Which one"
-	line "should I groom?"
+	text "DAISY: Ktoreho" ; text "DAISY: Which one"
+	line "ti dam doporiadku?" ; line "should I groom?"
 	done
 
 DaisyAlrightText:
-	text "DAISY: OK, I'll"
-	line "get it looking"
-	cont "nice in no time."
+	text "DAISY: OK, hned" ; text "DAISY: OK, I'll"
+	line "sa na to vrhnem." ; line "get it looking"
+	;cont "nice in no time." ; cont "nice in no time."
 	done
 
 GroomedMonLooksContentText:
 	text_ram wStringBuffer3
-	text " looks"
-	line "content."
+	text " vypada" ; text " looks"
+	line "spokojne." ; line "content."
 	done
 
 DaisyAllDoneText:
-	text "DAISY: There you"
-	line "go! All done."
+	text "DAISY: Tak," ; text "DAISY: There you"
+	line "hotovo!" ; line "go! All done."
 
-	para "See? Doesn't it"
-	line "look nice?"
+	para "Vidis? No nevypada" ; para "See? Doesn't it"
+	line "to nadherne?" ; line "look nice?"
 
-	para "It's such a cute"
-	line "#MON."
+	para "Je to tak mily" ; para "It's such a cute"
+	line "#MON." ; line "#MON."
 	done
 
 DaisyAlreadyGroomedText:
-	text "DAISY: I always"
-	line "have tea around"
+	text "DAISY: Vzdy o ta-" ; text "DAISY: I always"
+	line "tomto case si" ; line "have tea around"
 
-	para "this time. Come"
-	line "join me."
+	para "davam caj. Pridaj" ; para "this time. Come"
+	line "sa ku mne." ; line "join me."
 	done
 
 DaisyRefusedText:
-	text "DAISY: You don't"
-	line "want to have one"
+	text "DAISY: Takze" ; text "DAISY: You don't"
+	line "nechces dat zia-" ; line "want to have one"
 
-	para "groomed? OK, we'll"
-	line "just have tea."
+	para "dneho doporiadku?" ; para "groomed? OK, we'll"
+	line "OK, tak si dame" ; line "just have tea."
+	cont "aspon caj."
 	done
 
 DaisyCantGroomEggText:
-	text "DAISY: Oh, sorry."
-	line "I honestly can't"
-	cont "groom an EGG."
+	text "DAISY: Oh, prepac." ; text "DAISY: Oh, sorry."
+	line "S VAJICKOM neviem" ; line "I honestly can't"
+	cont "fakt nic spravit." ; cont "groom an EGG."
 	done
 
 BluesHouse_MapEvents:
