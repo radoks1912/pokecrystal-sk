@@ -76,92 +76,92 @@ CeladonCityHiddenPpUp:
 	hiddenitem PP_UP, EVENT_CELADON_CITY_HIDDEN_PP_UP
 
 CeladonCityFisherText:
-	text "This POLIWRATH is"
-	line "my partner."
+	text "POLIWRATH je" ; text "This POLIWRATH is"
+	line "moj partner." ; line "my partner."
 
-	para "I wonder if it'll"
-	line "ever evolve into a"
-	cont "frog #MON."
+	para "Som zvedavy, ci sa" ; para "I wonder if it'll"
+	line "niekedy vyvinie na" ; line "ever evolve into a"
+	cont "zabieho #MONa." ; cont "frog #MON."
 	done
 
 CeladonCityPoliwrathText:
-	text "POLIWRATH: Croak!"
+	text "POLIWRATH: Kvak!" ; text "POLIWRATH: Croak!"
 	done
 
 CeladonCityTeacher1Text:
 if DEF(_CRYSTAL_AU)
-	text "I lost at the"
-	line "machines."
+	text "Prehral som na" ; text "I lost at the"
+	line "automatoch." ; line "machines."
 	done
 else
-	text "I lost at the slot"
-	line "machines again…"
+	text "Znovu som prehral" ; text "I lost at the slot"
+	line "na automatoch…" ; line "machines again…"
 
-	para "We girls also play"
-	line "the slots now."
+	para "Aj my dievcata" ; para "We girls also play"
+	line "hrame automaty." ; line "the slots now."
 
-	para "You should check"
-	line "them out too."
+	para "Pozri sa na ne" ; para "You should check"
+	line "tiez." ; line "them out too."
 	done
 endc
 
 CeladonCityGramps1Text:
-	text "GRIMER have been"
-	line "appearing lately."
+	text "Zacal sa tu obja-" ; text "GRIMER have been"
+	line "vovat GRIMER." ; line "appearing lately."
 
-	para "See that pond out"
-	line "in front of the"
+	para "Vidis ten rybnik" ; para "See that pond out"
+	line "pred budovou?" ; line "in front of the"
 
-	para "house? GRIMER live"
-	line "there now."
+	para "Teraz tam ziju" ; para "house? GRIMER live"
+	line "GRIMERi." ; line "there now."
 
-	para "Where did they"
-	line "come from? This is"
-	cont "a serious problem…"
+	para "Kde sa tu vzali?" ; para "Where did they"
+	line "Toto je vazny" ; line "come from? This is"
+	cont "problem…" ; cont "a serious problem…"
 	done
 
 CeladonCityGramps2Text:
-	text "Nihihi! This GYM"
-	line "is great! Only"
+	text "Hihihi! Tento GYM" ; text "Nihihi! This GYM"
+	line "je skvely! Vstup" ; line "is great! Only"
 
-	para "girls are allowed"
-	line "here!"
+	para "povoleny iba" ; para "girls are allowed"
+	line "dievcatam!" ; line "here!"
 	done
 
 CeladonCityYoungster1Text:
-	text "Want to know a"
-	line "secret?"
+	text "Chces vediet" ; text "Want to know a"
+	line "tajomstvo?" ; line "secret?"
 
-	para "CELADON MANSION"
-	line "has a hidden back"
-	cont "door."
+	para "CELADON MANSION" ; para "CELADON MANSION"
+	line "ma tajne dvere." ; line "has a hidden back"
+	;cont "door." ; cont "door."
 	done
 
 CeladonCityYoungster2Text:
-	text "They're holding an"
-	line "eating contest at"
-	cont "the restaurant."
+	text "Prave prebieha" ; text "They're holding an"
+	line "sutaz v jedeni" ; line "eating contest at"
+	cont "v restaracii." ; cont "the restaurant."
 
-	para "Just watching them"
-	line "go at it makes me"
-	cont "feel bloated…"
+	para "Uz len ked ich" ; para "Just watching them"
+	line "vidim, citim sa" ; line "go at it makes me"
+	cont "plny…" ; cont "feel bloated…"
 	done
 
 CeladonCityTeacher2Text:
-	text "CELADON DEPT.STORE"
-	line "has the biggest"
+	text "CELADON DEPT.STORE" ; text "CELADON DEPT.STORE"
+	line "ma najvacsi a" ; line "has the biggest"
 
-	para "and best selection"
-	line "of merchandise."
+	para "najlepsi vyber" ; para "and best selection"
+	line "tovaru." ; line "of merchandise."
 
-	para "If you can't get"
-	line "it there, you"
+	para "Ak to nekupis tam," ; para "If you can't get"
+	line "tak to celkom" ; line "it there, you"
 
-	para "can't get it any-"
-	line "where."
+	para "iste nekupis nikde" ; para "can't get it any-"
+	line "inde." ; line "where."
 
-	para "Gee… I sound like"
-	line "a sales clerk."
+	para "Ach… Zniem ako" ; para "Gee… I sound like"
+	line "podomovy predavac." ; line "a sales clerk."
 	done
 
 CeladonCityLassText_Mobile: ; unreferenced
@@ -183,33 +183,33 @@ CeladonCityLassText_Mobile: ; unreferenced
 	done
 
 CeladonCityLassText:
-	text "Looking at the"
-	line "ground while I was"
+	text "Ak pozeram na" ; text "Looking at the"
+	line "podlahu pocas kra-" ; line "ground while I was"
 
-	para "walking made me"
-	line "dizzy."
+	para "cania, toci sa mi" ; para "walking made me"
+	line "hlava." ; line "dizzy."
 	done
 
 CeladonCitySignText:
-	text "CELADON CITY"
+	text "CELADON CITY" ; text "CELADON CITY"
 
-	para "The City of"
-	line "Rainbow Dreams"
+	para "Mesto duhovych" ; para "The City of"
+	line "snov" ; line "Rainbow Dreams"
 	done
 
 CeladonGymSignText:
-	text "CELADON CITY"
-	line "#MON GYM"
-	cont "LEADER: ERIKA"
+	text "CELADON CITY" ; text "CELADON CITY"
+	line "#MON GYM" ; line "#MON GYM"
+	cont "LEADER: ERIKA" ; cont "LEADER: ERIKA"
 
-	para "The Nature-Loving"
-	line "Princess"
+	para "Princezna milujuca" ; para "The Nature-Loving"
+	line "prirodu" ; line "Princess"
 	done
 
 CeladonCityDeptStoreSignText:
-	text "Find What You"
-	line "Need at CELADON"
-	cont "DEPT.STORE!"
+	text "Zisti, co potre-" ; text "Find What You"
+	line "vujes v CELADON" ; line "Need at CELADON"
+	cont "DEPT.STORE!" ; cont "DEPT.STORE!"
 	done
 
 CeladonCityMansionSignText:
@@ -218,30 +218,30 @@ CeladonCityMansionSignText:
 
 CeladonCityGameCornerSignText:
 if DEF(_CRYSTAL_AU)
-	text "The Game Area for"
-	line "Grown-ups--CELADON"
-	cont "GAME CORNER"
+	text "Herny kutik pre" ; text "The Game Area for"
+	line "dospelych--CELADON" ; line "Grown-ups--CELADON"
+	cont "GAME CORNER" ; cont "GAME CORNER"
 	done
 else
-	text "The Playground for"
-	line "Everybody--CELADON"
-	cont "GAME CORNER"
+	text "Herny kutik pre" ; text "The Playground for"
+	line "vsetkych--CELADON" ; line "Everybody--CELADON"
+	cont "GAME CORNER" ; cont "GAME CORNER"
 	done
 endc
 
 CeladonCityTrainerTipsText:
-	text "TRAINER TIPS"
+	text "TRENERSKE TIPY" ; text "TRAINER TIPS"
 
-	para "GUARD SPEC."
-	line "protects #MON"
+	para "GUARD SPEC." ; para "GUARD SPEC."
+	line "chrani #MONa" ; line "protects #MON"
 
-	para "against SPECIAL"
-	line "attacks such as"
-	cont "fire and water."
+	para "pred SPECIAL" ; para "against SPECIAL"
+	line "utokmi ako" ; line "attacks such as"
+	cont "ohen a voda." ; cont "fire and water."
 
-	para "Get your items at"
-	line "CELADON DEPT."
-	cont "STORE!"
+	para "Kup si ho v" ; para "Get your items at"
+	line "CELADON DEPT." ; line "CELADON DEPT."
+	cont "STORE!" ; cont "STORE!"
 	done
 
 CeladonCity_MapEvents:

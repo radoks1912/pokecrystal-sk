@@ -117,92 +117,92 @@ CeladonCafeTrashcan:
 	jumpstd TrashCanScript
 
 ChefText_Eatathon:
-	text "Hi!"
+	text "Ahoj!" ; text "Hi!"
 
-	para "We're holding an"
-	line "eatathon contest."
+	para "Prave prebihea" ; para "We're holding an"
+	line "maraton v jedeni." ; line "eatathon contest."
 
-	para "We can't serve you"
-	line "right now. Sorry."
+	para "Nemozeme ta prave" ; para "We can't serve you"
+	line "obsluzit, prepac." ; line "right now. Sorry."
 	done
 
 Fisher1Text_Snarfle:
-	text "…Snarfle, chew…"
+	text "…Snarfle, chew…" ; text "…Snarfle, chew…"
 	done
 
 Fisher1Text_Concentration:
-	text "Don't talk to me!"
+	text "Nehovor so mnou!" ; text "Don't talk to me!"
 
-	para "You'll break my"
-	line "concentration!"
+	para "Rusis moju" ; para "You'll break my"
+	line "koncentraciu!" ; line "concentration!"
 	done
 
 Fisher2Text_GulpChew:
-	text "…Gulp… Chew…"
+	text "…Gulp… Chew…" ; text "…Gulp… Chew…"
 	done
 
 Fisher2Text_Quantity:
-	text "I take quantity"
-	line "over quality!"
+	text "Kvantita nad" ; text "I take quantity"
+	line "kvalitou!" ; line "over quality!"
 
-	para "I'm happy when I'm"
-	line "full!"
+	para "Som rad, ked som" ; para "I'm happy when I'm"
+	line "plny!" ; line "full!"
 	done
 
 Fisher3Text_MunchMunch:
-	text "Munch, munch…"
+	text "Chrum, Chrum…" ; text "Munch, munch…"
 	done
 
 Fisher3Text_GoldenrodIsBest:
-	text "The food is good"
-	line "here, but GOLDEN-"
-	cont "ROD has the best"
-	cont "food anywhere."
+	text "The food is good" ; text "The food is good"
+	line "here, but GOLDEN-" ; line "here, but GOLDEN-"
+	cont "ROD has the best" ; cont "ROD has the best"
+	cont "food anywhere." ; cont "food anywhere."
 	done
 
 TeacherText_CrunchCrunch:
-	text "Crunch… Crunch…"
+	text "Crunch… Crunch…" ; text "Crunch… Crunch…"
 	done
 
 TeacherText_NoCoinCase:
-	text "Nobody here will"
-	line "give you a COIN"
+	text "Nikto ti tu" ; text "Nobody here will"
+	line "neda COIN" ; line "give you a COIN"
 
-	para "CASE. You should"
-	line "look in JOHTO."
+	para "CASE. Skus" ; para "CASE. You should"
+	line "hladat v JOHTO." ; line "look in JOHTO."
 	done
 
 TeacherText_KeepEating:
-	text "Crunch… Crunch…"
+	text "Chrum… Chrum…" ; text "Crunch… Crunch…"
 
-	para "I can keep eating!"
+	para "Len jem a jem!" ; para "I can keep eating!"
 	done
 
 TeacherText_MoreChef:
-	text "More, CHEF!"
+	text "Viac, pan vrchny!" ; text "More, CHEF!"
 	done
 
 EatathonContestPosterText:
-	text "Eatathon Contest!"
-	line "No time limit!"
+	text "Maraton jedenia!" ; text "Eatathon Contest!"
+	line "Bez limitu." ; line "No time limit!"
 
-	para "A battle without"
-	line "end! The biggest"
+	para "Vyzva bez konca!" ; para "A battle without"
+	line "Najvacsi jedak" ; line "end! The biggest"
 
-	para "muncher gets it"
-	line "all for free!"
+	para "dostane ma vsetko" ; para "muncher gets it"
+	line "jedlo zdarma!" ; line "all for free!"
 	done
 
 FoundLeftoversText:
-	text "<PLAYER> found"
+	text "<PLAYER> nasiel" ; text "<PLAYER> found"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 NoRoomForLeftoversText:
-	text "But <PLAYER> can't"
-	line "hold another item…"
+	text "Ale <PLAYER> nema" ; text "But <PLAYER> can't"
+	line "miesto v batohu…" ; line "hold another item…"
 	done
 
 CeladonCafe_MapEvents:

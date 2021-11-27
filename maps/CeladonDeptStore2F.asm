@@ -36,34 +36,34 @@ CeladonDeptStore2FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 CeladonDeptStore2FPokefanMText:
-	text "I just recently"
-	line "became a trainer."
+	text "Stal som sa trene-" ; text "I just recently"
+	line "rom len nedavno." ; line "became a trainer."
 
-	para "My son encouraged"
-	line "me to do it."
+	para "Moj syn ma na to" ; para "My son encouraged"
+	line "presvedcil." ; line "me to do it."
 
-	para "I'm impressed by"
-	line "the selection of"
-	cont "convenient items."
+	para "Som ohromeny z" ; para "I'm impressed by"
+	line "moznosti vyberu" ; line "the selection of"
+	cont "roznych predmetov." ; cont "convenient items."
 	done
 
 CeladonDeptStore2FYoungsterText:
-	text "My dad's having a"
-	line "hard time learning"
+	text "Moj otec ma" ; text "My dad's having a"
+	line "problem sa naucit," ; line "hard time learning"
 
-	para "the names of items"
-	line "and how they are"
+	para "ktore predmety" ; para "the names of items"
+	line "sa pouzivaju" ; line "and how they are"
 
-	para "supposed to be"
-	line "used…"
+	para "na ake" ; para "supposed to be"
+	line "ucely…" ; line "used…"
 	done
 
 CeladonDeptStore2FDirectoryText:
-	text "Top Grade Items"
-	line "for Trainers!"
+	text "Najkvalitnejsie" ; text "Top Grade Items"
+	line "trenerske predmety" ; line "for Trainers!"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "2F: TRENERSKY" ; para "2F: TRAINER'S"
+	line "    MARKET" ; line "    MARKET"
 	done
 
 CeladonDeptStore2F_MapEvents:

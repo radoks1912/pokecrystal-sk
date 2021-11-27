@@ -24,51 +24,51 @@ CeladonDeptStore1FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 CeladonDeptStore1FReceptionistText:
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE!"
+	text "Ahoj! Vitaj v" ; text "Hello! Welcome to"
+	line "CELADON DEPT." ; line "CELADON DEPT."
+	cont "STORE!" ; cont "STORE!"
 
-	para "The directory is"
-	line "on the wall."
+	para "Sluzby su napisane" ; para "The directory is"
+	line "na nastenke." ; line "on the wall."
 	done
 
 CeladonDeptStore1FGentlemanText:
-	text "This DEPT.STORE is"
-	line "part of the same"
+	text "Tento DEPT.STORE" ; text "This DEPT.STORE is"
+	line "je francizou" ; line "part of the same"
 
-	para "chain as the one"
-	line "in GOLDENROD CITY."
+	para "obchodu v" ; para "chain as the one"
+	line "GOLDENROD CITY." ; line "in GOLDENROD CITY."
 
-	para "They were both"
-	line "renovated at the"
-	cont "same time."
+	para "Oba boli zrenovo-" ; para "They were both"
+	line "vane v rovnakej" ; line "renovated at the"
+	cont "dobe." ; cont "same time."
 	done
 
 CeladonDeptStore1FTeacherText:
-	text "This is my first"
-	line "time here."
+	text "Som tu dnes" ; text "This is my first"
+	line "po prvykrat." ; line "time here."
 
-	para "It's so big…"
+	para "Je to tu obrovske…" ; para "It's so big…"
 
-	para "I'm afraid I'll"
-	line "get lost."
+	para "Bojim sa, ze sa tu" ; para "I'm afraid I'll"
+	line "stratim." ; line "get lost."
 	done
 
 CeladonDeptStore1FDirectoryText:
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "1F: OBSLUZNA" ; text "1F: SERVICE"
+	line "    PREPAZKA" ; line "    COUNTER"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "2F: TRENERSKY" ; para "2F: TRAINER'S"
+	line "    MARKET" ; line "    MARKET"
 
-	para "3F: TM SHOP"
+	para "3F: TM OBCHOD" ; para "3F: TM SHOP"
 
-	para "4F: WISEMAN GIFTS"
+	para "4F: DARCEKY" ; para "4F: WISEMAN GIFTS"
 
-	para "5F: DRUG STORE"
+	para "5F: LEKAREN" ; para "5F: DRUG STORE"
 
-	para "6F: ROOFTOP"
-	line "    SQUARE"
+	para "6F: STRESNE" ; para "6F: ROOFTOP"
+	line "   NAMESTIE" ; line "    SQUARE"
 	done
 
 CeladonDeptStore1F_MapEvents:

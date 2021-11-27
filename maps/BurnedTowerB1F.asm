@@ -191,46 +191,46 @@ BurnedTowerB1FEusineMovement1:
 	step_end
 
 BurnedTowerB1FEusineText:
-	text "EUSINE: I dug a"
-	line "hole here, too…"
+	text "EUSINE: Vykopal" ; text "EUSINE: I dug a"
+	line "som tu dieru…" ; line "hole here, too…"
 
-	para "I was shocked!"
+	para "Bol som sokovany!" ; para "I was shocked!"
 
-	para "SUICUNE raced by"
-	line "like a blur, right"
+	para "SUICUNE sa mi" ; para "SUICUNE raced by"
+	line "len mihol" ; line "like a blur, right"
 
-	para "in front of my"
-	line "eyes!"
+	para "pre ocami!" ; para "in front of my"
+	;line "eyes!" ; line "eyes!"
 
-	para "For ten years I"
-	line "chased SUICUNE,"
+	para "Desat rokov" ; para "For ten years I"
+	line "hladam SUICUNE," ; line "chased SUICUNE,"
 
-	para "and I finally got"
-	line "to see it."
+	para "a dnes som ho" ; para "and I finally got"
+	line "konecne uvidel." ; line "to see it."
 
-	para "I'm all choked up!"
+	para "Som cely bez seba!" ; para "I'm all choked up!"
 
-	para "<PLAYER>, I owe"
-	line "this all to you!"
+	para "<PLAYER>, vsetko" ; para "<PLAYER>, I owe"
+	line "toto kvoli tebe!" ; line "this all to you!"
 
-	para "Thank you!"
+	para "Dakujem!" ; para "Thank you!"
 
-	para "I heard that the"
-	line "legendary #MON"
+	para "Udajne tito legen-" ; para "I heard that the"
+	line "darni #MON" ; line "legendary #MON"
 
-	para "of ECRUTEAK test"
-	line "chosen humans by"
+	para "z ECRUTEAK skusaju" ; para "of ECRUTEAK test"
+	line "vybranych ludi," ; line "chosen humans by"
 
-	para "allowing them to"
-	line "get close."
+	para "pustenim si ich" ; para "allowing them to"
+	line "k telu." ; line "get close."
 
-	para "I'm going to track"
-	line "SUICUNE."
+	para "Budem sledovat" ; para "I'm going to track"
+	line "SUICUNE." ; line "SUICUNE."
 
-	para "<PLAYER>, let's"
-	line "meet again!"
+	para "<PLAYER>, stret-" ; para "<PLAYER>, let's"
+	line "neme sa znovu!" ; line "meet again!"
 
-	para "Farewell!"
+	para "Stastnu cestu!" ; para "Farewell!"
 	done
 
 BurnedTowerB1F_MapEvents:

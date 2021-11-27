@@ -160,119 +160,119 @@ BurnedTower1FEusineMovement:
 BurnedTowerSilver_BeforeText:
 	text "<……> <……> <……>"
 
-	para "…Oh, it's you."
+	para "…Oh, to si ty." ; para "…Oh, it's you."
 
-	para "I came looking for"
-	line "some legendary"
+	para "Prisiel som hladat" ; para "I came looking for"
+	line "legendarneho" ; line "some legendary"
 
-	para "#MON that they"
-	line "say roosts here."
+	para "#MONa, ktory" ; para "#MON that they"
+	line "tu udajne hniezdi." ; line "say roosts here."
 
-	para "But there's"
-	line "nothing here!"
+	para "Ale nic tu" ; para "But there's"
+	line "nie je!" ; line "nothing here!"
 
-	para "Nothing after all"
-	line "the trouble of"
+	para "Ziadna odmena po" ; para "Nothing after all"
+	line "vsetkych tych pro-" ; line "the trouble of"
 
-	para "coming to this"
-	line "dump? No way!"
+	para "blemoch? V ziadnom" ; para "coming to this"
+	line "pripade!" ; line "dump? No way!"
 
-	para "It's all your"
-	line "fault!"
+	para "Vsetko je to tvoja" ; para "It's all your"
+	line "chyba!" ; line "fault!"
 	done
 
 BurnedTowerSilver_WinText:
-	text "…Humph!"
+	text "…Hmmm!" ; text "…Humph!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Presne pre toto" ; para "This is why I hate"
+	line "nezapasim so sla-" ; line "battling wimps."
 
-	para "There's no"
-	line "challenge in it."
+	cont "bochmi." ; para "There's no" ##changed paragraph style
+	para "Ziadna vyzva." ; line "challenge in it."
 	done
 
 BurnedTowerSilver_AfterText1:
-	text "…Aw, whatever."
+	text "…Ach, co uz." ; text "…Aw, whatever."
 
-	para "You would never be"
-	line "able to catch a"
+	para "Aj tak by si nikdy" ; para "You would never be"
+	line "nechytil ziadneho" ; line "able to catch a"
 
-	para "legendary #MON"
-	line "anyway."
+	para "legendarneho" ; para "legendary #MON"
+	line "#MONa." ; line "anyway." 
 	done
 
 BurnedTowerSilver_LossText:
-	text "…Humph!"
+	text "…Hmm!" ; text "…Humph!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Neznasam zapasit" ; para "This is why I hate"
+	line "so slabochmi." ; line "battling wimps."
 
-	para "It's just a waste"
-	line "of my time."
+	para "Je to iba strata" ; para "It's just a waste"
+	line "mojho casu." ; line "of my time."
 	done
 
 BurnedTowerSilver_AfterText2:
-	text "Humph!"
+	text "Hmmm!" ; text "Humph!"
 
-	para "What are you doing"
-	line "falling into a"
+	para "Co to robis? Preco" ; para "What are you doing"
+	line "padas do jamy?" ; line "falling into a"
 
-	para "hole? Some genius"
-	line "you are!"
+	para "To si teda fakt" ; para "hole? Some genius"
+	line "genius!" ; line "you are!"
 
-	para "Serves you right!"
+	para "Zasluzis si to!" ; para "Serves you right!"
 	done
 
 BurnedTower1FEusineIntroText:
-	text "EUSINE: My name's"
-	line "EUSINE."
+	text "EUSINE: Volam sa" ; text "EUSINE: My name's"
+	line "EUSINE." ; line "EUSINE."
 
-	para "I'm on the trail"
-	line "of a #MON named"
-	cont "SUICUNE."
+	para "Som na stope" ; para "I'm on the trail"
+	line "#MONovi menom" ; line "of a #MON named"
+	cont "SUICUNE." ; cont "SUICUNE."
 
-	para "And you are…?"
+	para "A ty si…?" ; para "And you are…?"
 
-	para "<PLAYER>? Glad to"
-	line "meet you!"
+	para "<PLAYER>? Rad ta" ; para "<PLAYER>? Glad to"
+	line "spoznavam!" ; line "meet you!"
 
-	para "I heard rumors"
-	line "that SUICUNE is in"
+	para "Pocul som klebety," ; para "I heard rumors"
+	line "ze SUICUNE je v" ; line "that SUICUNE is in"
 
-	para "this BURNED TOWER,"
-	line "so I came to look."
+	para "BURNED TOWER," ; para "this BURNED TOWER,"
+	line "tak som prisiel." ; line "so I came to look."
 
-	para "But where exactly"
-	line "could it be?"
+	para "Ale kde presne by" ; para "But where exactly"
+	line "mohol byt?" ; line "could it be?"
 	done
 
 BurnedTower1FEusineText:
-	text "EUSINE: I heard"
-	line "that SUICUNE is in"
+	text "EUSINE: Pocul som," ; text "EUSINE: I heard"
+	line "ze SUICUNE je v" ; line "that SUICUNE is in"
 
-	para "this BURNED TOWER,"
-	line "so I came to look."
+	para "BURNED TOWER," ; para "this BURNED TOWER,"
+	line "tak som prisiel." ; line "so I came to look."
 
-	para "But where exactly"
-	line "could it be?"
+	para "Ale kde presne by" ; para "But where exactly"
+	line "mohol byt?" ; line "could it be?"
 	done
 
 BurnedTower1FMortyText:
-	text "MORTY: ECRUTEAK's"
-	line "GYM LEADER has to"
+	text "MORTY: ECRUTEAK" ; text "MORTY: ECRUTEAK's"
+	line "GYM LEADER musi" ; line "GYM LEADER has to"
 
-	para "study what are"
-	line "said to be the"
+	para "vediet, co su" ; para "study what are"
+	line "udajne legendarni" ; line "said to be the"
 
-	para "legendary #MON"
-	line "--SUICUNE, ENTEI"
-	cont "and RAIKOU."
+	para "#MONi" ; para "legendary #MON"
+	line "--SUICUNE, ENTEI" ; line "--SUICUNE, ENTEI"
+	cont "a RAIKOU." ; cont "and RAIKOU."
 
-	para "EUSINE is here, so"
-	line "I've decided to"
+	para "EUSINE je tu tiez," ; para "EUSINE is here, so"
+	line "tak som sa rozho-" ; line "I've decided to"
 
-	para "investigate the"
-	line "TOWER with him."
+	para "dol preskumat" ; para "investigate the"
+	line "TOWER s nim." ; line "TOWER with him."
 	done
 
 BurnedTower1F_MapEvents:
