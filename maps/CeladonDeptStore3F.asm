@@ -48,48 +48,48 @@ CeladonDeptStore3FDirectory:
 	jumptext CeladonDeptStore3FDirectoryText
 
 CeladonDeptStore3FYoungsterText:
-	text "I can't decide"
-	line "which #MON I"
+	text "Neviem sa rozhod-" ; text "I can't decide"
+	line "nut, ktoreho" ; line "which #MON I"
 
-	para "should use this TM"
-	line "on…"
+	para "#MONa naucit" ; para "should use this TM"
+	line "tento TM…" ; line "on…"
 	done
 
 CeladonDeptStore3FGameboyKid1Text:
-	text "Uh-oh! I traded my"
-	line "#MON without"
+	text "O-ou! Vymenil som" ; text "Uh-oh! I traded my"
+	line "#MONa bez" ; line "#MON without"
 
-	para "removing the UP-"
-	line "GRADE from it."
+	para "odobratia UP-" ; para "removing the UP-"
+	line "GRADE." ; line "GRADE from it."
 	done
 
 CeladonDeptStore3FGameboyKid2Text:
-	text "Yeah! I'm finally"
-	line "getting a PORYGON!"
+	text "Ano! konecne" ; text "Yeah! I'm finally"
+	line "dostanem PORYGONa!" ; line "getting a PORYGON!"
 
-	para "I'm no good at the"
-	line "slots, so I could"
+	para "Nie som dobry v" ; para "I'm no good at the"
+	line "automatoch, nikdy" ; line "slots, so I could"
 
-	para "never get enough"
-	line "coins…"
+	para "som nemal dostaok" ; para "never get enough"
+	line "zetonov…" ; line "coins…"
 
-	para "…Huh?"
+	para "…Hm?" ; para "…Huh?"
 
-	para "The traded PORYGON"
-	line "turned into a dif-"
-	cont "ferent #MON!"
+	para "Vymeneny PORYGON" ; para "The traded PORYGON"
+	line "sa zmenil na ineho" ; line "turned into a dif-"
+	cont "#MONa!" ; cont "ferent #MON!"
 	done
 
 CeladonDeptStore3FSuperNerdText:
-	text "The TM SHOP sells"
-	line "some rare moves."
+	text "TM SHOP predava" ; text "The TM SHOP sells"
+	line "vzacne TM utoky." ; line "some rare moves."
 	done
 
 CeladonDeptStore3FDirectoryText:
-	text "3F: TM SHOP"
+	text "3P: TM SHOP" ; text "3F: TM SHOP"
 
-	para "Make Your #MON"
-	line "Stronger!"
+	para "Sprav #MONa" ; para "Make Your #MON"
+	line "silnejsim!" ; line "Stronger!"
 	done
 
 CeladonDeptStore3F_MapEvents:

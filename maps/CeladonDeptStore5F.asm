@@ -40,33 +40,33 @@ CeladonDeptStore5FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 CeladonDeptStore5FGentlemanText:
-	text "I want to buy some"
-	line "items that raise"
+	text "Chcem kupit nieco," ; text "I want to buy some"
+	line "co zvysi mojim" ; line "items that raise"
 
-	para "#MON stats, but"
-	line "I don't have"
-	cont "enough money…"
+	para "#MONom staty," ; para "#MON stats, but"
+	line "ale nemam dost" ; line "I don't have"
+	cont "penazi…" ; cont "enough money…"
 	done
 
 CeladonDeptStore5FSailorText:
-	text "I want PP UP, so I"
-	line "can raise the PP"
+	text "Chcem PP UP, aby" ; text "I want PP UP, so I"
+	line "som zvysil PP" ; line "can raise the PP"
 
-	para "of moves. But you"
-	line "can't buy it…"
+	para "utokov. Ale neda" ; para "of moves. But you"
+	line "sa kupit…" ; line "can't buy it…"
 	done
 
 CeladonDeptStore5FTeacherText:
-	text "Using items on"
-	line "them makes #-"
-	cont "MON happy."
+	text "Pouzivanie veci" ; text "Using items on"
+	line "robi #MONov" ; line "them makes #-"
+	cont "stastnejsimi." ; cont "MON happy."
 
-	para "They hate certain"
-	line "items, though…"
+	para "Nemaju vsak radi" ; para "They hate certain"
+	line "urcite predmety…" ; line "items, though…"
 	done
 
 CeladonDeptStore5FDirectoryText:
-	text "5F: DRUG STORE"
+	text "5P: LEKAREN" ; text "5F: DRUG STORE"
 	done
 
 CeladonDeptStore5F_MapEvents:

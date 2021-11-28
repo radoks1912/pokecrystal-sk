@@ -55,19 +55,19 @@ CeladonDeptStore1FTeacherText:
 	done
 
 CeladonDeptStore1FDirectoryText:
-	text "1F: OBSLUZNA" ; text "1F: SERVICE"
+	text "1P: OBSLUZNA" ; text "1F: SERVICE"
 	line "    PREPAZKA" ; line "    COUNTER"
 
-	para "2F: TRENERSKY" ; para "2F: TRAINER'S"
+	para "2P: TRENERSKY" ; para "2F: TRAINER'S"
 	line "    MARKET" ; line "    MARKET"
 
-	para "3F: TM OBCHOD" ; para "3F: TM SHOP"
+	para "3P: TM OBCHOD" ; para "3F: TM SHOP"
 
-	para "4F: DARCEKY" ; para "4F: WISEMAN GIFTS"
+	para "4P: DARCEKY" ; para "4F: WISEMAN GIFTS"
 
-	para "5F: LEKAREN" ; para "5F: DRUG STORE"
+	para "5P: LEKAREN" ; para "5F: DRUG STORE"
 
-	para "6F: STRESNE" ; para "6F: ROOFTOP"
+	para "6P: STRESNE" ; para "6F: ROOFTOP"
 	line "   NAMESTIE" ; line "    SQUARE"
 	done
 

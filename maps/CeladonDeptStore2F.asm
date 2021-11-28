@@ -62,7 +62,7 @@ CeladonDeptStore2FDirectoryText:
 	text "Najkvalitnejsie" ; text "Top Grade Items"
 	line "trenerske predmety" ; line "for Trainers!"
 
-	para "2F: TRENERSKY" ; para "2F: TRAINER'S"
+	para "2P: TRENERSKY" ; para "2F: TRAINER'S"
 	line "    MARKET" ; line "    MARKET"
 	done
 

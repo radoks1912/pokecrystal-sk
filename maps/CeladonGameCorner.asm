@@ -147,177 +147,177 @@ CeladonGameCornerUnusedMovementData: ; unreferenced
 	step_end
 
 CeladonGameCornerReceptionistText:
-	text "Welcome!"
+	text "Vitaj!" ; text "Welcome!"
 
-	para "You may exchange"
-	line "your coins for"
+	para "Vo vedlajsich dve-" ; para "You may exchange"
+	line "rach si mozes vy-" ; line "your coins for"
 
-	para "fabulous prizes"
-	line "next door."
+	para "menit zetony za" ; para "fabulous prizes"
+	line "skvele ceny." ; line "next door."
 	done
 
 CeladonGameCornerPokefanMText:
-	text "The slot machines"
-	line "are all state of"
-	cont "the art."
+	text "Automaty pouzivaju" ; text "The slot machines"
+	line "najmodernejsie" ; line "are all state of"
+	cont "technologie." ; cont "the art."
 	done
 
 CeladonGameCornerTeacherText:
 if DEF(_CRYSTAL_AU)
-	text "The weather"
-	line "outside is very"
-	cont "nice."
+	text "Pocasie vonku" ; text "The weather"
+	line "je naozaj" ; line "outside is very"
+	cont "skvele." ; cont "nice."
 	done
 else
-	text "It's this machine"
-	line "I want."
+	text "Chcem hrat na tom-" ; text "It's this machine"
+	line "to automate." ; line "I want."
 
-	para "It cleaned me out"
-	line "yesterday, so it"
+	para "Vcera ma uplne" ; para "It cleaned me out"
+	line "vybielil, takze" ; line "yesterday, so it"
 
-	para "should pay out"
-	line "today."
+	para "dnes ma urcite" ; para "should pay out"
+	line "vyplati." ; line "today."
 	done
 endc
 
 CeladonGameCornerFishingGuruText:
 if DEF(_CRYSTAL_AU)
-	text "This machine looks"
-	line "the same as the"
-	cont "others."
+	text "Tento automat" ; text "This machine looks"
+	line "vypada ako vsetky" ; line "the same as the"
+	cont "ostatne." ; cont "others."
 	done
 else
-	text "I think this slot"
-	line "machine will pay"
-	cont "out…"
+	text "Myslim ze tento" ; text "I think this slot"
+	line "automat dnes" ; line "machine will pay"
+	cont "vyplaca…" ; cont "out…"
 
-	para "The odds vary"
-	line "among machines."
+	para "Sance su rozne" ; para "The odds vary"
+	line "pri automatoch." ; line "among machines."
 	done
 endc
 
 CeladonGameCornerFisherText1:
 if DEF(_CRYSTAL_AU)
-	text "Whoa!"
+	text "Whou!" ; text "Whoa!"
 
-	para "What? You want to"
-	line "play this machine?"
+	para "Coze? Chces hrat" ; para "What? You want to"
+	line "na tomto automate?" ; line "play this machine?"
 
-	para "Here, take my"
-	line "coins."
+	para "Vezmi si moje" ; para "Here, take my"
+	line "zetony." ; line "coins."
 	done
 else
-	text "Gahahaha!"
+	text "Hahahaha!" ; text "Gahahaha!"
 
-	para "The coins just"
-	line "keep popping out!"
+	para "Zetony sa len" ; para "The coins just"
+	line "tak sypu!" ; line "keep popping out!"
 
-	para "Hm? What, kid? You"
-	line "want to play?"
+	para "Hm? Co, synak?" ; para "Hm? What, kid? You"
+	line "Chces hrat tiez?" ; line "want to play?"
 
-	para "I'll share my luck"
-	line "with you!"
+	para "Tu mas zopar" ; para "I'll share my luck"
+	line "zetonov!" ; line "with you!"
 	done
 endc
 
 CeladonGameCornerFisherText2:
-	text "Gahahaha!"
+	text "Hahahaha!" ; text "Gahahaha!"
 
-	para "It makes me feel"
-	line "good to do nice"
+	para "Robi mi radost" ; para "It makes me feel"
+	line "robit dobre veci" ; line "good to do nice"
 
-	para "things for other"
-	line "people!"
+	para "i pre inych" ; para "things for other"
+	line "ludi!" ; line "people!"
 	done
 
 CeladonGameCornerFisherNoCoinCaseText:
-	text "Hey, you don't"
-	line "have a COIN CASE."
+	text "Hej, pockat," ; text "Hey, you don't"
+	line "nemas COIN CASE." ; line "have a COIN CASE."
 
-	para "How am I supposed"
-	line "to give you any"
-	cont "coins, kid?"
+	para "Ako ti teda asi" ; para "How am I supposed"
+	line "mam dat nejake" ; line "to give you any"
+	cont "zetony, synak?" ; cont "coins, kid?"
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
 if DEF(_CRYSTAL_AU)
-	text "Your COIN CASE is"
-	line "full."
+	text "Tvoj COIN CASE je" ; text "Your COIN CASE is"
+	line "plny." ; line "full."
 	done
 else
-	text "Hey, your COIN"
-	line "CASE is full, kid."
+	text "Hej, tvoj COIN" ; text "Hey, your COIN"
+	line "CASE je plny." ; line "CASE is full, kid."
 
-	para "You must be riding"
-	line "a winning streak"
-	cont "too."
+	para "Musis mat tiez" ; para "You must be riding"
+	line "vitaznu seriu." ; line "a winning streak"
+	;cont "too." ; cont "too."
 	done
 endc
 
 CeladonGymGuideText:
-	text "Hey! CHAMP in"
-	line "making!"
+	text "Hej! Buduci" ; text "Hey! CHAMP in"
+	line "sampion!" ; line "making!"
 
-	para "Are you playing"
+	para "Hras" ; para "Are you playing"
 if DEF(_CRYSTAL_AU)
-	line "too?"
+	line "tiez?" ; line "too?"
 else
-	line "the slots too?"
+	line "tiez automaty?" ; line "the slots too?"
 endc
 
-	para "I'm trying to get"
-	line "enough coins for a"
-	cont "prize #MON."
+	para "Snazim sa vyhrat" ; para "I'm trying to get"
+	line "dost zetonov na" ; line "enough coins for a"
+	cont "#MONa." ; cont "prize #MON."
 
-	para "But I don't have"
-	line "enough coins yet…"
+	para "Ale este nemam" ; para "But I don't have"
+	line "dost zetonov…" ; line "enough coins yet…"
 	done
 
 CeladonGameCornerGrampsText:
 if DEF(_CRYSTAL_AU)
-	text "Is there any"
-	line "difference between"
-	cont "these lines?"
+	text "Su nejake rozdiely" ; text "Is there any"
+	line "medzi tymito" ; line "difference between"
+	cont "linkami?" ; cont "these lines?"
 	done
 else
-	text "Hmmm… The odds are"
-	line "surely better for"
+	text "Hmmm… Sance su" ; text "Hmmm… The odds are"
+	line "urcite lepsie na" ; line "surely better for"
 
-	para "PIKACHU's line,"
-	line "but… What to do?"
+	para "PIKACHU linku," ; para "PIKACHU's line,"
+	line "ale… Co spravit?" ; line "but… What to do?"
 	done
 endc
 
 CeladonGameCornerPoster1Text:
-	text "Hey!"
+	text "Hej!" ; text "Hey!"
 
-	para "Underneath this"
-	line "poster…"
+	para "Pod tymto" ; para "Underneath this"
+	line "plagatom…" ; line "poster…"
 
-	para "There's nothing!"
+	para "Nie je nic!" ; para "There's nothing!"
 	done
 
 CeladonGameCornerPoster2Text:
-	text "Hey!"
+	text "Hej!" ; text "Hey!"
 
-	para "Underneath this"
-	line "poster…"
+	para "Pod tymto" ; para "Underneath this"
+	line "plagatom…" ; line "poster…"
 
-	para "There's nothing!"
+	para "Nie je nic!" ; para "There's nothing!"
 	done
 
 CeladonGameCornerLighterText:
-	text "There's a lighter"
-	line "here."
+	text "Je tu" ; text "There's a lighter"
+	line "zapalovac." ; line "here."
 	done
 
 CeladonGameCornerSodaCanText:
-	text "A can of soda…"
+	text "Plechovka sody…" ; text "A can of soda…"
 
-	para "Someone must be"
-	line "coming back…"
+	para "Niekto sa sem" ; para "Someone must be"
+	line "musi vratit…" ; line "coming back…"
 
-	para "Huh? It's empty!"
+	para "Hm? Je prazdna!" ; para "Huh? It's empty!"
 	done
 
 CeladonGameCorner_MapEvents:

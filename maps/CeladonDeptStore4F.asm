@@ -28,24 +28,24 @@ CeladonDeptStore4FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 CeladonDeptStore4FSuperNerdText:
-	text "I'm here to buy"
-	line "SURF MAIL to send"
-	cont "to my girlfriend."
+	text "Chcem tu kupit" ; text "I'm here to buy"
+	line "SURF MAIL pre" ; line "SURF MAIL to send"
+	cont "moju priatelku." ; cont "to my girlfriend."
 	done
 
 CeladonDeptStore4FYoungsterText:
-	text "This is the only"
-	line "place where you"
+	text "Toto je jedine" ; text "This is the only"
+	line "miesto, kde sa da" ; line "place where you"
 
-	para "can buy LOVELY"
-	line "MAIL."
+	para "kupit LOVELY" ; para "can buy LOVELY"
+	line "MAIL." ; line "MAIL."
 	done
 
 CeladonDeptStore4FDirectoryText:
-	text "Express Yourself"
-	line "With Gifts!"
+	text "Vyjadri sa" ; text "Express Yourself"
+	line "darcekmi!" ; line "With Gifts!"
 
-	para "4F: WISEMAN GIFTS"
+	para "4P: DARCEKY" ; para "4F: WISEMAN GIFTS"
 	done
 
 CeladonDeptStore4F_MapEvents:

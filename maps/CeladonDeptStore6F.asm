@@ -90,10 +90,10 @@ CeladonDeptStore6FVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥{d:CELADONDEPTSTORE6F_FRESH_WATER_PRICE}@"
-	db "SODA POP     ¥{d:CELADONDEPTSTORE6F_SODA_POP_PRICE}@"
-	db "LEMONADE     ¥{d:CELADONDEPTSTORE6F_LEMONADE_PRICE}@"
-	db "CANCEL@"
+	db "CISTA VODA  ¥{d:CELADONDEPTSTORE6F_FRESH_WATER_PRICE}@" ; db "FRESH WATER
+	db "SODOVKA     ¥{d:CELADONDEPTSTORE6F_SODA_POP_PRICE}@" ; db "SODA POP
+	db "LIMONADA    ¥{d:CELADONDEPTSTORE6F_LEMONADE_PRICE}@" ; db "LEMONADE
+	db "ZRUSIT@" ; db "CANCEL@"
 
 CeladonDeptStore6FDirectory:
 	jumptext CeladonDeptStore6FDirectoryText
@@ -102,48 +102,48 @@ CeladonDeptStore6FElevatorButton: ; unreferenced
 	jumpstd ElevatorButtonScript
 
 CeladonVendingText:
-	text "A vending machine!"
-	line "Here's the menu."
+	text "Automat!" ; text "A vending machine!"
+	line "Tu je menu." ; line "Here's the menu."
 	done
 
 CeladonClangText:
-	text "Clang!"
+	text "Kleng!" ; text "Clang!"
 
 	para "@"
 	text_ram wStringBuffer3
 	text_start
-	line "popped out."
+	line "vypadla!" ; line "popped out."
 	done
 
 CeladonVendingNoMoneyText:
-	text "Oops, not enough"
-	line "money…"
+	text "Ups, nemas dost" ; text "Oops, not enough"
+	line "penazi…" ; line "money…"
 	done
 
 CeladonVendingNoSpaceText:
-	text "There's no more"
-	line "room for stuff…"
+	text "Nemas miesto" ; text "There's no more"
+	line "v batohu…" ; line "room for stuff…"
 	done
 
 CeladonDeptStore6FSuperNerdText:
-	text "A vending machine"
-	line "with a prize rou-"
-	cont "lette…"
+	text "Automat s" ; text "A vending machine"
+	line "cenovou ruletou…" ; line "with a prize rou-"
+	;cont "lette…" ; cont "lette…"
 
-	para "You never see"
-	line "those anymore."
+	para "Nieco take sa dnes" ; para "You never see"
+	line "uz nevidi." ; line "those anymore."
 	done
 
 CeladonDeptStore6FYoungsterText:
-	text "Aww! There's no"
-	line "games here!"
+	text "Ach! Nie su tu" ; text "Aww! There's no"
+	line "ziadne hry!" ; line "games here!"
 
-	para "I wanted to play…"
+	para "Chcel som sa hrat…" ; para "I wanted to play…"
 	done
 
 CeladonDeptStore6FDirectoryText:
-	text "6F: ROOFTOP SQUARE"
-	line "VENDING MACHINES"
+	text "6P: STRESNE NAMES-" ; text "6F: ROOFTOP SQUARE"
+	line "TIE - AUTOMATY" ; line "VENDING MACHINES"
 	done
 
 CeladonDeptStore6F_MapEvents:
