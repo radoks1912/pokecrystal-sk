@@ -111,158 +111,158 @@ CeladonGymStatue:
 	jumpstd GymStatue2Script
 
 ErikaBeforeBattleText:
-	text "ERIKA: Hello…"
-	line "Lovely weather,"
+	text "ERIKA: Ahoj…" ; text "ERIKA: Hello…"
+	line "Krasne pocasie," ; line "Lovely weather,"
 
-	para "isn't it?"
-	line "It's so pleasant…"
+	para "vsak?" ; para "isn't it?"
+	line "Tak prijemne…" ; line "It's so pleasant…"
 
-	para "…I'm afraid I may"
-	line "doze off…"
+	para "…Bojim sa, ze asi" ; para "…I'm afraid I may"
+	line "zadriemem…" ; line "doze off…"
 
-	para "My name is ERIKA."
-	line "I am the LEADER of"
-	cont "CELADON GYM."
+	para "Volam sa ERIKA." ; para "My name is ERIKA."
+	line "Som LEADER" ; line "I am the LEADER of"
+	cont "CELADON GYMu." ; cont "CELADON GYM."
 
-	para "…Oh? All the way"
-	line "from JOHTO, you"
-	cont "say? How nice…"
+	para "…Oh? Vravis, ze" ; para "…Oh? All the way"
+	line "si az z JOHTA?" ; line "from JOHTO, you"
+	cont "Uzasne…" ; cont "say? How nice…"
 
-	para "Oh. I'm sorry, I"
-	line "didn't realize"
+	para "Oh. Prepac," ; para "Oh. I'm sorry, I"
+	line "neuvedomila som si" ; line "didn't realize"
 
-	para "that you wished to"
-	line "challenge me."
+	para "ze ma chces vyzvat" ; para "that you wished to"
+	line "na zapas." ; line "challenge me."
 
-	para "Very well, but I"
-	line "shall not lose."
+	para "V poriadku, ale" ; para "Very well, but I"
+	line "neprehram." ; line "shall not lose."
 	done
 
 ErikaBeatenText:
-	text "ERIKA: Oh!"
-	line "I concede defeat…"
+	text "ERIKA: Oh!" ; text "ERIKA: Oh!"
+	line "Priznavam prehru…" ; line "I concede defeat…"
 
-	para "You are remarkably"
-	line "strong…"
+	para "Si pozoruhodne" ; para "You are remarkably"
+	line "silny…" ; line "strong…"
 
-	para "I shall give you"
-	line "RAINBOWBADGE…"
+	para "Dam ti" ; para "I shall give you"
+	line "RAINBOWBADGE…" ; line "RAINBOWBADGE…"
 	done
 
 PlayerReceivedRainbowBadgeText:
-	text "<PLAYER> received"
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
 	line "RAINBOWBADGE."
 	done
 
 ErikaExplainTMText:
-	text "ERIKA: That was a"
-	line "delightful match."
+	text "ERIKA: Bol to" ; text "ERIKA: That was a"
+	line "skvely zapas." ; line "delightful match."
 
-	para "I felt inspired."
-	line "Please, I wish you"
-	cont "to have this TM."
+	para "Citim sa inspiro-" ; para "I felt inspired."
+	line "vane. Vezmi si" ; line "Please, I wish you"
+	cont "tento TM, prosim." ; cont "to have this TM."
 
-	para "It is GIGA DRAIN."
+	para "Je to GIGA DRAIN." ; para "It is GIGA DRAIN."
 
-	para "It is a wonderful"
-	line "move that drains"
+	para "Je to svely utok," ; para "It is a wonderful"
+	line "ktory ti vrati" ; line "move that drains"
 
-	para "half the damage it"
-	line "inflicts to heal"
-	cont "your #MON."
+	para "polku poskodenia" ; para "half the damage it"
+	line "do HP tvojmu" ; line "inflicts to heal"
+	cont "#MONovi." ; cont "your #MON."
 
-	para "Please use it if"
-	line "it pleases you…"
+	para "Pokojne to pouzi," ; para "Please use it if"
+	line "ak mas zaujem…" ; line "it pleases you…"
 	done
 
 ErikaAfterBattleText:
-	text "ERIKA: Losing"
-	line "leaves a bitter"
-	cont "aftertaste…"
+	text "ERIKA: Prehra" ; text "ERIKA: Losing"
+	line "zanecha smutok" ; line "leaves a bitter"
+	cont "na dusi…" ; cont "aftertaste…"
 
-	para "But knowing that"
-	line "there are strong"
+	para "Ale to, ze existu-" ; para "But knowing that"
+	line "ju silni treneri" ; line "there are strong"
 
-	para "trainers spurs me"
-	line "to do better…"
+	para "ma podnecuje k" ; para "trainers spurs me"
+	line "lepsiemu vykonu…" ; line "to do better…"
 	done
 
 LassMichelleSeenText:
-	text "Do you think a"
-	line "girls-only GYM"
-	cont "is rare?"
+	text "Myslis, ze GYM len" ; text "Do you think a"
+	line "pre dievcata je" ; line "girls-only GYM"
+	cont "neobvykly?" ; cont "is rare?"
 	done
 
 LassMichelleBeatenText:
-	text "Oh, bleah!"
+	text "Oh, fuj!" ; text "Oh, bleah!"
 	done
 
 LassMichelleAfterBattleText:
-	text "I just got care-"
-	line "less, that's all!"
+	text "Iba nedbalost --" ; text "I just got care-"
+	line "to je cele!" ; line "less, that's all!"
 	done
 
 PicnickerTanyaSeenText:
-	text "Oh, a battle?"
-	line "That's kind of"
-	cont "scary, but OK!"
+	text "Oh, zapas?" ; text "Oh, a battle?"
+	line "Strasidelne, ale" ; line "That's kind of"
+	cont "OK!" ; cont "scary, but OK!"
 	done
 
 PicnickerTanyaBeatenText:
-	text "Oh, that's it?"
+	text "Oh, hotovo?" ; text "Oh, that's it?"
 	done
 
 PicnickerTanyaAfterBattleText:
-	text "Oh, look at all"
-	line "your BADGES. No"
+	text "Oh, pozri na tie" ; text "Oh, look at all"
+	line "tvoje ODZNAKY." ; line "your BADGES. No"
 
-	para "wonder I couldn't"
-	line "win!"
+	para "Nedivim sa, ze som" ; para "wonder I couldn't"
+	line "nedokazala vyhrat!" ; line "win!"
 	done
 
 BeautyJuliaSeenText:
-	text "Were you looking"
-	line "at these flowers"
-	cont "or at me?"
+	text "Dival si sa na" ; text "Were you looking"
+	line "tie kvetiny, alebo" ; line "at these flowers"
+	cont "na mna?" ; cont "or at me?"
 	done
 
 BeautyJuliaBeatenText:
-	text "How annoying!"
+	text "Ake otravne!" ; text "How annoying!"
 	done
 
 BeautyJuliaAfterBattleText:
-	text "How do I go about"
-	line "becoming ladylike"
-	cont "like ERIKA?"
+	text "Ako sa stanem" ; text "How do I go about"
+	line "damou, ako je" ; line "becoming ladylike"
+	cont "napriklad ERIKA?" ; cont "like ERIKA?"
 	done
 
 TwinsJoAndZoe1SeenText:
-	text "We'll show you"
-	line "#MON moves that"
-	cont "ERIKA taught us!"
+	text "Ukazeme ti utok," ; text "We'll show you"
+	line "ktory nas naucila" ; line "#MON moves that"
+	cont "ERIKA!" ; cont "ERIKA taught us!"
 	done
 
 TwinsJoAndZoe1BeatenText:
-	text "Oh… We lost…"
+	text "Oh… Prehra…" ; text "Oh… We lost…"
 	done
 
 TwinsJoAndZoe1AfterBattleText:
-	text "ERIKA will get you"
-	line "back for us!"
+	text "ERIKA ta dostane" ; text "ERIKA will get you"
+	line "aj za nas!" ; line "back for us!"
 	done
 
 TwinsJoAndZoe2SeenText:
-	text "We're going to"
-	line "protect ERIKA!"
+	text "Budeme ERIKU" ; text "We're going to"
+	line "ochranovat!" ; line "protect ERIKA!"
 	done
 
 TwinsJoAndZoe2BeatenText:
-	text "We couldn't win…"
+	text "Vyhra nemozna…" ; text "We couldn't win…"
 	done
 
 TwinsJoAndZoe2AfterBattleText:
-	text "ERIKA is much,"
-	line "much stronger!"
+	text "ERIKA je ovela" ; text "ERIKA is much,"
+	line "silnejsia!" ; line "much stronger!"
 	done
 
 CeladonGym_MapEvents:

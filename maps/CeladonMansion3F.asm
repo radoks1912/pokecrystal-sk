@@ -82,22 +82,22 @@ CeladonMansion3FReferenceMaterial:
 	jumptext CeladonMansion3FReferenceMaterialText
 
 GameFreakGameDesignerText:
-	text "Is that right?"
+	text "Je to tak?" ; text "Is that right?"
 
-	para "I'm the GAME"
-	line "DESIGNER!"
+	para "Som herny" ; para "I'm the GAME"
+	line "dizajner!" ; line "DESIGNER!"
 
-	para "Filling up your"
-	line "#DEX is tough,"
-	cont "but don't give up!"
+	para "Plnenie tvojho" ; para "Filling up your"
+	line "#DEX je tazke," ; line "#DEX is tough,"
+	cont "ale nevzdavaj sa!" ; cont "but don't give up!"
 	done
 
 GameFreakGameDesignerCompletedPokedexText:
-	text "Wow! Excellent!"
-	line "You completed your"
-	cont "#DEX!"
+	text "Wau! Vyborne!" ; text "Wow! Excellent!"
+	line "Dokoncil si cely" ; line "You completed your"
+	cont "#DEX!" ; cont "#DEX!"
 
-	para "Congratulations!"
+	para "Gratulujem!" ; para "Congratulations!"
 	done
 
 GameFreakGameDesignerPauseForDiplomaText:
@@ -105,86 +105,86 @@ GameFreakGameDesignerPauseForDiplomaText:
 	done
 
 GameFreakGameDesignerAfterDiplomaText:
-	text "The GRAPHIC ARTIST"
-	line "will print out a"
-	cont "DIPLOMA for you."
+	text "Graficky umelec ti" ; text "The GRAPHIC ARTIST"
+	line "teraz vytlaci" ; line "will print out a"
+	cont "DIPLOM pre teba." ; cont "DIPLOMA for you."
 
-	para "You should go show"
-	line "it off."
+	para "Nezabudni ho" ; para "You should go show"
+	line "vsetkym ukazat." ; line "it off."
 	done
 
 GameFreakGraphicArtistText:
-	text "I'm the GRAPHIC"
-	line "ARTIST."
+	text "Som graficky" ; text "I'm the GRAPHIC"
+	line "umelec." ; line "ARTIST."
 
-	para "I drew you!"
+	para "Nakreslil som ta!" ; para "I drew you!"
 	done
 
 GameFreakGraphicArtistPrintDiplomaText:
-	text "I'm the GRAPHIC"
-	line "ARTIST."
+	text "Som graficky" ; text "I'm the GRAPHIC"
+	line "umelec." ; line "ARTIST."
 
-	para "Oh, you completed"
-	line "your #DEX?"
+	para "Oh, dokoncil si" ; para "Oh, you completed"
+	line "#DEX?" ; line "your #DEX?"
 
-	para "Want me to print"
-	line "out your DIPLOMA?"
+	para "Chces vytlacit" ; para "Want me to print"
+	line "tvoj DIPLOM?" ; line "out your DIPLOMA?"
 	done
 
 GameFreakGraphicArtistRefusedText:
-	text "Give me a shout if"
-	line "you want your"
-	cont "DIPLOMA printed."
+	text "Zakric, ked" ; text "Give me a shout if"
+	line "budes chciet" ; line "you want your"
+	cont "vytlacit DIPLOM." ; cont "DIPLOMA printed."
 	done
 
 GameFreakGraphicArtistErrorText:
-	text "Something's wrong."
-	line "I'll have to can-"
-	cont "cel printing."
+	text "Nieco sa pokazilo." ; text "Something's wrong."
+	line "Musim zrusit tlac." ; line "I'll have to can-"
+	;cont "cel printing." ; cont "cel printing."
 	done
 
 GameFreakProgrammerText:
-	text "Who, me? I'm the"
-	line "PROGRAMMER."
+	text "Kto, ja? Som" ; text "Who, me? I'm the"
+	line "programator." ; line "PROGRAMMER."
 
-	para "Play the slot"
-	line "machines!"
+	para "Zahraj si" ; para "Play the slot"
+	line "automaty!" ; line "machines!"
 	done
 
 GameFreakCharacterDesignerText:
-	text "Aren't the TWINS"
-	line "adorable?"
+	text "No nie su dvojicky" ; text "Aren't the TWINS"
+	line "rozkosne?" ; line "adorable?"
 
-	para "JASMINE's pretty"
-	line "too."
+	para "JASMINE je tiez" ; para "JASMINE's pretty"
+	line "krasna." ; line "too."
 
-	para "Oh, I love them!"
+	para "Som zalubeny!" ; para "Oh, I love them!"
 	done
 
 CeladonMansion3FDevRoomSignText:
-	text "GAME FREAK"
-	line "DEVELOPMENT ROOM"
+	text "GAME FREAK" ; text "GAME FREAK"
+	line "VYVOJARSKA IZBA" ; line "DEVELOPMENT ROOM"
 	done
 
 CeladonMansion3FDrawingText:
-	text "It's a detailed"
-	line "drawing of a"
-	cont "pretty girl."
+	text "Je to detailna" ; text "It's a detailed"
+	line "kresba pekneho" ; line "drawing of a"
+	cont "dievcata." ; cont "pretty girl."
 	done
 
 CeladonMansion3FGameProgramText:
-	text "It's the game"
-	line "program. Messing"
+	text "Je to zdrojovy" ; text "It's the game"
+	line "kod programu." ; line "program. Messing"
 
-	para "with it could put"
-	line "a bug in the game!"
+	para "Pozor, aby si" ; para "with it could put"
+	line "nevytvoril bug!" ; line "a bug in the game!"
 	done
 
 CeladonMansion3FReferenceMaterialText:
-	text "It's crammed with"
-	line "reference materi-"
-	cont "als. There's even"
-	cont "a # DOLL."
+	text "Je plny roznych" ; text "It's crammed with"
+	line "materialov. Je tam " ; line "reference materi-"
+	cont "aj jedna" ; cont "als. There's even"
+	cont "# DOLL." ; cont "a # DOLL."
 	done
 
 CeladonMansion3F_MapEvents:

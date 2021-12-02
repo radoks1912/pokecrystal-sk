@@ -119,7 +119,7 @@ CeladonPrizeRoom_TMMenuHeader:
 	db "TM32    {d:CELADONGAMECORNERPRIZEROOM_TM32_COINS}@"
 	db "TM29    {d:CELADONGAMECORNERPRIZEROOM_TM29_COINS}@"
 	db "TM15    {d:CELADONGAMECORNERPRIZEROOM_TM15_COINS}@"
-	db "CANCEL@"
+	db "ZRUSIT@" ; db "CANCEL@"
 
 CeladonGameCornerPrizeRoomPokemonVendor:
 	faceplayer
@@ -205,73 +205,73 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 	db "PIKACHU    {d:CELADONGAMECORNERPRIZEROOM_PIKACHU_COINS}@"
 	db "PORYGON    {d:CELADONGAMECORNERPRIZEROOM_PORYGON_COINS}@"
 	db "LARVITAR   {d:CELADONGAMECORNERPRIZEROOM_LARVITAR_COINS}@"
-	db "CANCEL@"
+	db "ZRUSIT@" ; db "CANCEL@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
-	text "I wanted PORYGON,"
-	line "but I was short by"
-	cont "100 coins…"
+	text "Chcel som PORYGONa" ; text "I wanted PORYGON,"
+	line "ale chybalo mi" ; line "but I was short by"
+	cont "100 zetonov…" ; cont "100 coins…"
 	done
 
 CeladonGameCornerPrizeRoomPharmacistText:
 if DEF(_CRYSTAL_AU)
-	text "I don't want to"
-	line "lose my coins."
+	text "Nechcem prist o" ; text "I don't want to"
+	line "moje zetony." ; line "lose my coins."
 	done
 else
-	text "Whew…"
+	text "Fu…" ; text "Whew…"
 
-	para "I've got to stay"
-	line "calm and cool…"
+	para "Musim zostat" ; para "I've got to stay"
+	line "kludny…" ; line "calm and cool…"
 
-	para "I can't lose my"
-	line "cool, or I'll lose"
-	cont "all my money…"
+	para "Nemozem stratit" ; para "I can't lose my"
+	line "kontrolu, lebo" ; line "cool, or I'll lose"
+	cont "pridem o peniaze…" ; cont "all my money…"
 	done
 endc
 
 CeladonPrizeRoom_PrizeVendorIntroText:
-	text "Welcome!"
+	text "Vitaj!" ; text "Welcome!"
 
-	para "We exchange your"
-	line "coins for fabulous"
-	cont "prizes!"
+	para "Vymenime ti zetony" ; para "We exchange your"
+	line "za uzasne ceny!" ; line "coins for fabulous"
+	;cont "prizes!" ; cont "prizes!"
 	done
 
 CeladonPrizeRoom_AskWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Ktoru cenu by" ; text "Which prize would"
+	line "si chcel?" ; line "you like?"
 	done
 
 CeladonPrizeRoom_ConfirmPurchaseText:
-	text "OK, so you wanted"
-	line "a @"
+	text "OK, takze chces" ; text "OK, so you wanted"
+	line " @" ; line "a @"
 	text_ram wStringBuffer3
 	text "?"
 	done
 
 CeladonPrizeRoom_HereYouGoText:
-	text "Here you go!"
+	text "Nech sa paci!" ; text "Here you go!"
 	done
 
 CeladonPrizeRoom_NotEnoughCoinsText:
-	text "You don't have"
-	line "enough coins."
+	text "Nemas dost" ; text "You don't have"
+	line "zetonov." ; line "enough coins."
 	done
 
 CeladonPrizeRoom_NotEnoughRoomText:
-	text "You have no room"
-	line "for it."
+	text "Nemas prenho" ; text "You have no room"
+	line "miesto." ; line "for it."
 	done
 
 CeladonPrizeRoom_ComeAgainText:
-	text "Oh. Please come"
-	line "back with coins!"
+	text "Och. Vrat sa znovu" ; text "Oh. Please come"
+	line "so zetonmi!" ; line "back with coins!"
 	done
 
 CeladonPrizeRoom_NoCoinCaseText:
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Hm? Ved nemas" ; text "Oh? You don't have"
+	line "COIN CASE." ; line "a COIN CASE."
 	done
 
 CeladonGameCornerPrizeRoom_MapEvents:

@@ -13,22 +13,22 @@ CeladonMansionRoofGraffiti:
 	jumptext CeladonMansionRoofGraffitiText
 
 CeladonMansionRoofFisherText:
-	text "High places--I do"
-	line "love them so!"
+	text "Vysoke miesta--" ; text "High places--I do"
+	line "zboznujem ich!" ; line "love them so!"
 
-	para "I'd say the only"
-	line "thing that loves"
+	para "Jedina vec, ktora" ; para "I'd say the only"
+	line "zboznuje vysky" ; line "thing that loves"
 
-	para "heights as much as"
-	line "me is smoke!"
+	para "rovnako ako ja," ; para "heights as much as"
+	line "je dym!" ; line "me is smoke!"
 	done
 
 CeladonMansionRoofGraffitiText:
-	text "There's graffiti"
-	line "on the wall…"
+	text "Na stene je" ; text "There's graffiti"
+	line "graffiti…" ; line "on the wall…"
 
-	para "<PLAYER> added a"
-	line "moustache!"
+	para "<PLAYER> pridal" ; para "<PLAYER> added a"
+	line "fuzy!" ; line "moustache!"
 	done
 
 CeladonMansionRoof_MapEvents:

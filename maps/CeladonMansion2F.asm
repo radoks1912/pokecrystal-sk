@@ -13,38 +13,38 @@ CeladonMansion2FBookshelf:
 	jumpstd DifficultBookshelfScript
 
 CeladonMansion2FComputerText:
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> zapol" ; text "<PLAYER> turned on"
+	line "PC." ; line "the PC."
 
 	para "…"
 
-	para "Someone was in the"
-	line "middle of compos-"
-	cont "ing an e-mail."
+	para "Niekto bol prave" ; para "Someone was in the"
+	line "uprostred pisania" ; line "middle of compos-"
+	cont "e-mailu." ; cont "ing an e-mail."
 
-	para "…I hope you'll"
-	line "come visit KANTO."
+	para "…Dufam, ze prides" ; para "…I hope you'll"
+	line "navstivit KANTO." ; line "come visit KANTO."
 
-	para "I think you'll be"
-	line "surprised at how"
+	para "Budes prekvapeny," ; para "I think you'll be"
+	line "kolko sa tu toho" ; line "surprised at how"
 
-	para "much things have"
-	line "changed here."
+	para "zmenilo. Takisto" ; para "much things have"
+	line "uvidis mnoho" ; line "changed here."
 
-	para "You'll also see"
-	line "many #MON that"
+	para "#MONov, ktori " ; para "You'll also see"
+	line "sa bezne nevysky-" ; line "many #MON that"
 
-	para "aren't native to"
-	line "JOHTO."
+	para "tuju v JOHTO." ; para "aren't native to"
+	line "" ; line "JOHTO."
 
-	para "To the PRODUCER"
+	para "Pre PRODUCENTA" ; para "To the PRODUCER"
 
 	para "…"
 	done
 
 CeladonMansion2FMeetingRoomSignText:
-	text "GAME FREAK"
-	line "MEETING ROOM"
+	text "GAME FREAK" ; text "GAME FREAK"
+	line "MEETINGOVKA" ; line "MEETING ROOM"
 	done
 
 CeladonMansion2F_MapEvents:
