@@ -71,76 +71,76 @@ CeladonEusine:
 	step_end
 
 CeladonPokecenter1FCooltrainerFText:
-	text "ERIKA is a master"
-	line "of grass #MON."
+	text "ERIKA je majster" ; text "ERIKA is a master"
+	line "travnatych #MON." ; line "of grass #MON."
 
-	para "She'll make you"
-	line "pay if you don't"
-	cont "watch yourself."
+	para "Doplatis na to," ; para "She'll make you"
+	line "ak si nebudes" ; line "pay if you don't"
+	cont "davat pozor." ; cont "watch yourself."
 	done
 
 CeladonPokecenter1FPharmacistText:
-	text "TEAM ROCKET's"
-	line "hideout is in the"
+	text "TEAM ROCKET" ; text "TEAM ROCKET's"
+	line "ukryt je v" ; line "hideout is in the"
 
-	para "basement of the"
-	line "GAME CORNER."
+	para "podzemi" ; para "basement of the"
+	line "GAME CORNERu." ; line "GAME CORNER."
 
-	para "Oh, wait. That was"
-	line "three years ago."
+	para "Ach pockaj. To" ; para "Oh, wait. That was"
+	line "bolo pred 3 rokmi." ; line "three years ago."
 	done
 
 CeladonEusineText1:
-	text "EUSINE: Hi!"
+	text "EUSINE: Ahoj!" ; text "EUSINE: Hi!"
 
-	para "I'm back visiting"
-	line "my hometown."
+	para "Som na navsteve" ; para "I'm back visiting"
+	line "rodneho mesta." ;  line "my hometown."
 
-	para "It's been quite a"
-	line "while."
+	para "Uz je to nejaky" ; para "It's been quite a"
+	line "ten piatok." ; line "while."
 	done
 
 EusineLeavesCeladonText:
-	text "<PLAYER>, have you"
-	line "heard?"
+	text "<PLAYER>, pocul" ; text "<PLAYER>, have you"
+	line "si o tom?" ; line "heard?"
 
-	para "There have been"
-	line "fresh rumors of a"
+	para "Objavili sa" ; para "There have been"
+	line "cerstve spravy o" ; line "fresh rumors of a"
 
-	para "rainbow-colored"
-	line "#MON appearing"
-	cont "at TIN TOWER."
+	para "duhovo sfarbenom" ; para "rainbow-colored"
+	line "#MONovi" ; line "#MON appearing"
+	cont "v TIN TOWER." ; cont "at TIN TOWER."
 
-	para "I've just had my"
-	line "party healed, so"
+	para "Akurat idem z" ; para "I've just had my"
+	line "POKEMON CENTRA a" ; line "party healed, so"
 
-	para "now I'm headed to"
-	line "ECRUTEAK."
+	para "mierim do" ; para "now I'm headed to"
+	line "ECRUTEAK." ; line "ECRUTEAK."
 
-	para "I'll be seeing"
-	line "you, <PLAYER>!"
+	para "Vidime sa tam," ; para "I'll be seeing"
+	line "<PLAYER>!" ; line "you, <PLAYER>!"
 	done
 
 NoBeastsText:
-	text "Oh, by the way,"
-	line "<PLAYER>."
+	text "A mimochodom," ; text "Oh, by the way,"
+	line "<PLAYER>." ; line "<PLAYER>."
 
-	para "Have you caught"
-	line "the legendary"
+	para "Chytil si" ; para "Have you caught"
+	line "legendarneho" ; line "the legendary"
 
-	para "#MON RAIKOU and"
-	line "ENTEI?"
+	para "#MON RAIKOU a" ; para "#MON RAIKOU and"
+	line "ENTEI?" ; line "ENTEI?"
 
 	para "<……><……><……>"
 
-	para "Okay…"
+	para "Okej…" ; para "Okay…"
 
-	para "If you catch even"
-	line "one, I hope that"
-	cont "you'll inform me."
+	para "Ked dostanes aspon" ; para "If you catch even"
+	line "jedneho, dufam," ; line "one, I hope that"
+	cont "ze mi to zdelis." ; cont "you'll inform me."
 
-	para "I'm counting on"
-	line "you, <PLAYER>!"
+	para "Spolieham sa na" ; para "I'm counting on"
+	line "teba, <PLAYER>!" ; line "you, <PLAYER>!"
 	done
 
 CeladonPokecenter1F_MapEvents:

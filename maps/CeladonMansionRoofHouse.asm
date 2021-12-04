@@ -34,84 +34,84 @@ CeladonMansionRoofHousePharmacistScript:
 	end
 
 CeladonMansionRoofHousePharmacistIntroText:
-	text "Let me recount a"
-	line "terrifying tale…"
+	text "Dovol mi porozpra-" ; text "Let me recount a"
+	line "vat desivy pribeh…" ; line "terrifying tale…"
 	done
 
 CeladonMansionRoofHousePharmacistNotNightText:
-	text "Then again, it's"
-	line "not as scary while"
+	text "Aj ked nie je tak" ; text "Then again, it's"
+	line "strasidelny, dokym" ; line "not as scary while"
 
-	para "it's still light"
-	line "outside."
+	para "je vonku stale" ; para "it's still light"
+	line "svetlo." ; line "outside."
 
-	para "Come back after"
-	line "sunset, OK?"
+	para "Vrat sa spat po" ; para "Come back after"
+	line "zapade slnka, OK?" ; line "sunset, OK?"
 	done
 
 CeladonMansionRoofHousePharmacistStoryText:
-	text "Once upon a time,"
-	line "there was a little"
+	text "Bol raz jeden maly" ; text "Once upon a time,"
+	line "chlapcek, ktory" ; line "there was a little"
 
-	para "boy who was given"
-	line "a new BICYCLE…"
+	para "dostal celkom" ; para "boy who was given"
+	line "novy BICYKEL…" ; line "a new BICYCLE…"
 
-	para "He wanted to try"
-	line "it right away…"
+	para "Chcel ho hned a" ; para "He wanted to try"
+	line "zaraz vyskusat…" ; line "it right away…"
 
-	para "He was having so"
-	line "much fun that he"
+	para "Tak velmi sa" ; para "He was having so"
+	line "zabaval, ze si" ; line "much fun that he"
 
-	para "didn't notice the"
-	line "sun had set…"
+	para "nevsimol ani zapad" ; para "didn't notice the"
+	line "slnka…" ; line "sun had set…"
 
-	para "While riding home"
-	line "in the pitch-black"
+	para "Pri jazde domov" ; para "While riding home"
+	line "za tmy BICYKEL" ; line "in the pitch-black"
 
-	para "night, the bike"
-	line "suddenly slowed!"
+	para "nahle" ; para "night, the bike"
+	line "spomalil!" ; line "suddenly slowed!"
 
-	para "The pedals became"
-	line "heavy!"
+	para "Pedale velmi" ; para "The pedals became"
+	line "otazeli!" ; line "heavy!"
 
-	para "When he stopped"
-	line "pedaling, the bike"
+	para "Ked prestal peda-" ; para "When he stopped"
+	line "lovat, BICYKEL" ; line "pedaling, the bike"
 
-	para "began slipping"
-	line "backwards!"
+	para "zacal jazdit" ; para "began slipping"
+	line "pospiatky!" ; line "backwards!"
 
-	para "It was as if the"
-	line "bike were cursed"
+	para "Bolo to ako keby" ; para "It was as if the"
+	line "bol prekliaty a" ; line "bike were cursed"
 
-	para "and trying to drag"
-	line "him into oblivion!"
-
-	para "…"
+	para "snazil sa ho dos-" ; para "and trying to drag"
+	line "tat do zabudnutia!" ; line "him into oblivion!"
 
 	para "…"
 
-	para "SHRIEEEEK!"
+	para "…"
 
-	para "The boy had been"
-	line "riding uphill on"
-	cont "CYCLING ROAD!"
+	para "SHRIEEEEK!" ; para "SHRIEEEEK!"
+
+	para "Chlapec jazdil" ;  para "The boy had been"
+	line "do kopca po" ; line "riding uphill on"
+	cont "CYCLING ROAD!" ; cont "CYCLING ROAD!"
 
 	para "…"
-	line "Ba-dum ba-dum!"
+	line "Ba-dum ba-dum!" ; line "Ba-dum ba-dum!"
 
-	para "For listening so"
-	line "patiently, you may"
-	cont "take this--TM03!"
+	para "Za trpezlive" ; para "For listening so"
+	line "vypocutie si vezmi" ; line "patiently, you may"
+	cont "toto--TM03!" ; cont "take this--TM03!"
 	done
 
 CeladonMansionRoofHousePharmacistCurseText:
-	text "TM03 is CURSE."
+	text "TM03 je CURSE." ; text "TM03 is CURSE."
 
-	para "It's a terrifying"
-	line "move that slowly"
+	para "Je to desivy utok," ; para "It's a terrifying"
+	line "ktory pomaly" ; line "move that slowly"
 
-	para "whittles down the"
-	line "victim's HP."
+	para "vysava HP svojej" ; para "whittles down the"
+	line "obeti." ; line "victim's HP."
 	done
 
 CeladonMansionRoofHouse_MapEvents:

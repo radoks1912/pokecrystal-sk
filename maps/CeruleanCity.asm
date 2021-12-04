@@ -148,51 +148,51 @@ CeruleanCityHiddenBerserkGene:
 	hiddenitem BERSERK_GENE, EVENT_FOUND_BERSERK_GENE_IN_CERULEAN_CITY
 
 CeruleanCityCooltrainerMText1:
-	text "KANTO's POWER"
-	line "PLANT?"
+	text "KANTO ELEKTRAREN?" ; text "KANTO's POWER"
+	;line "PLANT?" ; line "PLANT?"
 
-	para "It's near the end"
-	line "of ROUTE 9, the"
+	para "Je nedaleko" ; para "It's near the end"
+	line "ROUTE 9, cesta," ; line "of ROUTE 9, the"
 
-	para "road that heads"
-	line "east from here."
+	para "ktora odtialto" ; para "road that heads"
+	line "vedie na vychod." ; line "east from here."
 
-	para "I think there was"
-	line "an accident of"
-	cont "some sort there."
+	para "Myslim, ze sa tam" ; para "I think there was"
+	line "stala vraj nejaka" ; line "an accident of"
+	cont "nehoda." ; cont "some sort there."
 	done
 
 CeruleanCityCooltrainerMText2:
-	text "You're collecting"
-	line "every single kind"
-	cont "of #MON?"
+	text "Snazis sa chytit" ; text "You're collecting"
+	line "kazdeho jedneho" ; line "every single kind"
+	cont "#MONa?" ; cont "of #MON?"
 
-	para "That must be quite"
-	line "a challenge, but"
-	cont "it sounds fun too."
+	para "To musi byt celkom" ; para "That must be quite"
+	line "vyzva, ale znie to" ; line "a challenge, but"
+	cont "taktiez zabavne." ; cont "it sounds fun too."
 	done
 
 CeruleanCitySuperNerdText:
-	text "The CAPE in the"
-	line "north is a good"
+	text "Mys na severe" ; text "The CAPE in the"
+	line "je dobre miesto" ; line "north is a good"
 
-	para "place for dates."
-	line "Girls like it!"
+	para "na rande. Dievcata" ; para "place for dates."
+	line "ho maju rady!" ; line "Girls like it!"
 	done
 
 CeruleanCitySlowbroText:
-	text "SLOWBRO: Yarah?"
+	text "SLOWBRO: Yarah?" ; text "SLOWBRO: Yarah?"
 	done
 
 CeruleanCityCooltrainerFText1:
-	text "My SLOWBRO and I"
-	line "make an awesome"
-	cont "combination!"
+	text "Moj SLOWBRO a ja" ; text "My SLOWBRO and I"
+	line "tvorime uzasny" ; line "make an awesome"
+	cont "par!" ; cont "combination!"
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "SLOWBRO, show me"
-	line "your CONFUSION!"
+	text "SLOWBRO, ukaz mi" ; text "SLOWBRO, show me"
+	line "CONFUSION!" ; line "your CONFUSION!"
 	done
 
 CeruleanCityCooltrainerFText3:
@@ -200,77 +200,77 @@ CeruleanCityCooltrainerFText3:
 	done
 
 CeruleanCityFisherText:
-	text "I'm a huge fan of"
-	line "CERULEAN GYM's"
-	cont "MISTY."
+	text "Som velky fanusik" ; text "I'm a huge fan of"
+	line "MISTY z" ; line "CERULEAN GYM's"
+	cont "CERULEAN GYM." ; cont "MISTY."
 	done
 
 CeruleanCityFisherRocketTipText:
-	text "I saw this shady"
-	line "guy go off toward"
-	cont "CERULEAN's CAPE."
+	text "Videl som podozri-" ; text "I saw this shady"
+	line "veho chlapa, ako" ; line "guy go off toward"
+	cont "ide k MYSU." ; cont "CERULEAN's CAPE."
 	done
 
 CeruleanCityYoungsterText1:
-	text "There used to be a"
-	line "cave here that had"
+	text "Kedysi tu bola" ; text "There used to be a"
+	line "jaskyna, ktora " ; line "cave here that had"
 
-	para "horribly powerful"
-	line "#MON in it."
+	para "mala silnych" ; para "horribly powerful"
+	line "#MONov." ; line "#MON in it."
 	done
 
 CeruleanCityYoungsterText2:
-	text "Ayuh?"
+	text "Ha?" ; text "Ayuh?"
 
-	para "My ITEMFINDER is"
-	line "responding…"
+	para "Moj ITEMFINDER" ; para "My ITEMFINDER is"
+	line "pipa…" ; line "responding…"
 	done
 
 CeruleanCitySignText:
-	text "CERULEAN CITY"
+	text "CERULEAN CITY" ; text "CERULEAN CITY"
 
-	para "A Mysterious Blue"
-	line "Aura Surrounds It"
+	para "Obklopene zvlast-" ; para "A Mysterious Blue"
+	line "nou modrou aurou" ; line "Aura Surrounds It"
 	done
 
 CeruleanGymSignText:
-	text "CERULEAN CITY"
-	line "#MON GYM"
-	cont "LEADER: MISTY"
+	text "CERULEAN CITY" ; text "CERULEAN CITY"
+	line "#MON GYM" ; line "#MON GYM"
+	cont "LEADER: MISTY" ; cont "LEADER: MISTY"
 
-	para "The Tomboyish"
-	line "Mermaid"
+	para "Divoka morska" ; para "The Tomboyish"
+	line "panna" ; line "Mermaid"
 	done
 
 CeruleanBikeShopSignText:
-	text "There's a notice"
-	line "here…"
+	text "Je tu nejaky" ; text "There's a notice"
+	line "oznam…" ; line "here…"
 
-	para "The BIKE SHOP has"
-	line "moved to GOLDENROD"
-	cont "CITY in JOHTO…"
+	para "Prestahovali sme" ; para "The BIKE SHOP has"
+	line "sa do GOLDENROD" ; line "moved to GOLDENROD"
+	cont "CITY in JOHTO…" ; cont "CITY in JOHTO…"
 	done
 
 CeruleanPoliceSignText:
-	text "There's a notice"
-	line "here…"
+	text "Je tu nejaky" ; text "There's a notice"
+	line "oznam…" ; line "here…"
 
-	para "Stamp out thievery"
-	line "and make the city"
+	para "Bojujme proti" ; para "Stamp out thievery"
+	line "zlodejom a spravme" ; line "and make the city"
 
-	para "a friendlier, more"
-	line "cheerful place!"
+	para "mesto priatelske" ; para "a friendlier, more"
+	line "a vesele!" ; line "cheerful place!"
 
-	para "CERULEAN POLICE"
+	para "CERULEAN POLICIA" ; para "CERULEAN POLICE"
 	done
 
 CeruleanCapeSignText:
-	text "CERULEAN CAPE"
-	line "AHEAD"
+	text "CERULEAN MYS" ; text "CERULEAN CAPE"
+	;line "AHEAD" ; line "AHEAD"
 	done
 
 CeruleanLockedDoorText:
-	text "It's locked…"
+	text "Zamknute…" ; text "It's locked…"
 	done
 
 CeruleanCity_MapEvents:
