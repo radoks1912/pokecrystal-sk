@@ -23,41 +23,41 @@ CeruleanPokecenter1FGymGuideScript:
 	jumptextfaceplayer CeruleanPokecenter1FGymGuideText
 
 CeruleanPokecenter1FSuperNerdText:
-	text "For battles, I'd"
-	line "much rather use"
+	text "Na zapasy najrad-" ; text "For battles, I'd"
+	line "sej pouzivam" ; line "much rather use"
 
-	para "#MON I've been"
-	line "raising, even if"
+	para "#MON ktorych" ; para "#MON I've been"
+	line "som sa vychoval," ; line "raising, even if"
 
-	para "they're weaker"
-	line "than some newly"
-	cont "caught #MON."
+	para "aj ked su niekedy" ; para "they're weaker"
+	line "slabsi ako cerstvo" ; line "than some newly"
+	cont "chyteni #MON." ; cont "caught #MON."
 	done
 
 CeruleanPokecenter1FSuperNerdText_Mobile:
-	text "Do you battle by"
-	line "mobile phone?"
+	text "Zapasis niekedy" ; text "Do you battle by"
+	line "na telefone?" ; line "mobile phone?"
 
-	para "If time runs out"
-	line "during a battle,"
+	para "Ak vyprsi cas" ; para "If time runs out"
+	line "pocas zapasu," ; line "during a battle,"
 
-	para "waiting to see who"
-	line "won is really"
-	cont "nerve wracking."
+	para "cakanie na vitaza" ; para "waiting to see who"
+	line "je niekedy" ; line "won is really"
+	cont "na nervy." ; cont "nerve wracking."
 	done
 
 CeruleanPokecenter1FGymGuideText:
-	text "The MAGNET TRAIN"
-	line "travels at over"
+	text "MAGNET VLAK" ; text "The MAGNET TRAIN"
+	line "jazdi rychlostou" ; line "travels at over"
 
-	para "340 mph. It goes"
-	line "between KANTO and"
+	para "550 km/h. Jazdi" ; para "340 mph. It goes"
+	line "medzi KANTO a" ; line "between KANTO and"
 
-	para "JOHTO in almost no"
-	line "time at all."
+	para "JOHTO v kratkom" ; para "JOHTO in almost no"
+	line "case." ; line "time at all."
 
-	para "It really makes"
-	line "JOHTO accessible."
+	para "To robi JOHTO" ; para "It really makes"
+	line "pristupnejsie." ; line "JOHTO accessible."
 	done
 
 CeruleanPokecenter1F_MapEvents:

@@ -21,26 +21,26 @@ CeruleanMart_CooltrainerF:
 	jumptextfaceplayer CeruleanMart_CooltrainerFText
 
 CeruleanMart_CooltrainerMText:
-	text "You'll run into"
-	line "many trainers on"
+	text "Stretnes vela tre-" ; text "You'll run into"
+	line "nerov na ceste" ; line "many trainers on"
 
-	para "the way to CERU-"
-	line "LEAN's CAPE."
+	para "do CERULEAN" ; para "the way to CERU-"
+	line "MYSu." ; line "LEAN's CAPE."
 
-	para "They want to see"
-	line "how they stack"
+	para "Chcu vediet, ako" ; para "They want to see"
+	line "su na tom v poro-" ; line "how they stack"
 
-	para "up against other"
-	line "trainers."
+	para "vnani s ostatnymi" ; para "up against other"
+	line "trenermi." ; line "trainers."
 	done
 
 CeruleanMart_CooltrainerFText:
-	text "MISTY is about the"
-	line "only person in"
+	text "MISTY je jediny" ; text "MISTY is about the"
+	line "clovek v meste," ; line "only person in"
 
-	para "town who can beat"
-	line "the trainers at"
-	cont "CERULEAN's CAPE."
+	para "ktory dokaze pora-" ; para "town who can beat"
+	line "zit trenerov v" ; line "the trainers at"
+	cont "CERULEAN MYSe." ; cont "CERULEAN's CAPE."
 	done
 
 CeruleanMart_MapEvents:

@@ -196,168 +196,168 @@ CeruleanGymGruntBacksAwayMovement:
 	step_end
 
 CeruleanGymGruntIntroText:
-	text "Oops! I so sorry!"
-	line "You not hurt,"
-	cont "okay?"
+	text "Ups! Prepac!" ; text "Oops! I so sorry!"
+	line "Nezraneny," ; line "You not hurt,"
+	cont "dobre?" ; cont "okay?"
 
-	para "I very busy."
-	line "No time for talk-"
-	cont "ing with you. Not"
-	cont "good for me if"
-	cont "seen by somebody."
+	para "Vela prace." ; para "I very busy."
+	line "Ziadny cas na" ; line "No time for talk-"
+	cont "rozpravanie. Ne-" ; cont "ing with you. Not"
+	cont "dobre byt" ; cont "good for me if"
+	cont "uvideny." ; cont "seen by somebody."
 	done
 
 CeruleanGymGruntBigMistakeText:
-	text "Oh no! You seen"
-	line "me already! I make"
-	cont "big mistake!"
+	text "Achjo! Ty ma" ; text "Oh no! You seen"
+	line "uvidiet! Robil" ; line "me already! I make"
+	cont "som chybu!" ; cont "big mistake!"
 	done
 
 CeruleanGymGruntByeText:
-	text "Hey, you! Forget"
-	line "you see me, okay?"
+	text "Hej ty! Zabudnut" ; text "Hey, you! Forget"
+	line "ze ma vidiet." ; line "you see me, okay?"
 
-	para "You see, hear,"
-	line "know nothing,"
+	para "Nevidiet, nepocut," ; para "You see, hear,"
+	line "nevediet nic," ; line "know nothing,"
 
-	para "okay?"
-	line "Bye, kid! Nothing!"
+	para "okej?" ; para "okay?"
+	line "Ahoj! Nic!" ; line "Bye, kid! Nothing!"
 
-	para "Bye-bye a go-go!"
+	para "Cau-cau a pa-pa!" ; para "Bye-bye a go-go!"
 	done
 
 CeruleanGymNote1Text:
-	text "Sorry, I'll be out"
-	line "for a while."
-	cont "MISTY, GYM LEADER"
+	text "Prepac, budem" ; text "Sorry, I'll be out"
+	line "chvilu mimo GYMu." ; line "for a while."
+	cont "MISTY, GYM LEADER" ; cont "MISTY, GYM LEADER"
 	done
 
 CeruleanGymNote2Text:
-	text "Since MISTY's out,"
-	line "we'll be away too."
-	cont "GYM TRAINERS"
+	text "Dokym sa MISTY," ; text "Since MISTY's out,"
+	line "vrati, budeme prec" ; line "we'll be away too."
+	cont "-- GYM TRENERI" ; cont "GYM TRAINERS"
 	done
 
 MistyIntroText:
-	text "MISTY: I was ex-"
-	line "pecting you, you"
-	cont "pest!"
+	text "MISTY: Ocakavala" ; text "MISTY: I was ex-"
+	line "som ta, ty" ; line "pecting you, you"
+	cont "skodca!" ; cont "pest!"
 
-	para "You may have a"
-	line "lot of JOHTO GYM"
+	para "Mozno mas odznaky" ; para "You may have a"
+	line "z JOHTO, ale" ; line "lot of JOHTO GYM"
 
-	para "BADGES, but you'd"
-	line "better not take me"
-	cont "too lightly."
+	para "vobec ma neber na" ; para "BADGES, but you'd"
+	line "lahku vahu." ; line "better not take me"
+	;cont "too lightly." ; cont "too lightly."
 
-	para "My water-type"
-	line "#MON are tough!"
+	para "Moji vodni" ; para "My water-type"
+	line "#MON su tuhi!" ; line "#MON are tough!"
 	done
 
 MistyWinLossText:
-	text "MISTY: You really"
-	line "are good…"
+	text "MISTY: si fakt" ; text "MISTY: You really"
+	line "dobry…" ; line "are good…"
 
-	para "I'll admit that"
-	line "you are skilled…"
+	para "Priznavam, ze si" ; para "I'll admit that"
+	line "skuseny…" ; line "you are skilled…"
 
-	para "Here you go. It's"
-	line "CASCADEBADGE."
+	para "Tu mas. To je" ; para "Here you go. It's"
+	line "CASCADEBADGE." ; line "CASCADEBADGE."
 	done
 
 ReceivedCascadeBadgeText:
-	text "<PLAYER> received"
-	line "CASCADEBADGE."
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
+	line "CASCADEBADGE." ; line "CASCADEBADGE."
 	done
 
 MistyFightDoneText:
-	text "MISTY: Are there"
-	line "many strong train-"
-	cont "ers in JOHTO? Like"
-	cont "you, I mean."
+	text "MISTY: Je silnych" ; text "MISTY: Are there"
+	line "trenerov ako ty v" ; line "many strong train-"
+	cont "JOHTE vela? Ako" ; cont "ers in JOHTO? Like"
+	cont "ty, myslim." ; cont "you, I mean."
 
-	para "I'm going to"
-	line "travel one day, so"
+	para "Jedneho dna budem" ; para "I'm going to"
+	line "cestovat, aby som" ; line "travel one day, so"
 
-	para "I can battle some"
-	line "skilled trainers."
+	para "mohla zapasit so" ; para "I can battle some"
+	line "skusenymi supermi." ; line "skilled trainers."
 	done
 
 SwimmerfDianaSeenText:
-	text "Sorry about being"
-	line "away. Let's get on"
-	cont "with it!"
+	text "Prepac, ze sme" ; text "Sorry about being"
+	line "prec. Podme" ; line "away. Let's get on"
+	cont "na to!" ; cont "with it!"
 	done
 
 SwimmerfDianaBeatenText:
-	text "I give up! You're"
-	line "the winner!"
+	text "Vzdavam sa!" ; text "I give up! You're"
+	line "Si vitaz!" ; line "the winner!"
 	done
 
 SwimmerfDianaAfterBattleText:
-	text "I'll be swimming"
-	line "quietly."
+	text "Budem si plavat v" ; text "I'll be swimming"
+	line "tichosti." ; line "quietly."
 	done
 
 SwimmerfBrianaSeenText:
-	text "Don't let my ele-"
-	line "gant swimming un-"
-	cont "nerve you."
+	text "Nic si nerob z" ; text "Don't let my ele-"
+	line "mojho elegantneho" ; line "gant swimming un-"
+	cont "plavania." ; cont "nerve you."
 	done
 
 SwimmerfBrianaBeatenText:
-	text "Ooh, you calmly"
-	line "disposed of me…"
+	text "Och, uplne si ma" ; text "Ooh, you calmly"
+	line "rozlozil…" ; line "disposed of me…"
 	done
 
 SwimmerfBrianaAfterBattleText:
-	text "Don't be too smug"
-	line "about beating me."
+	text "Velmi nemachruj," ; text "Don't be too smug"
+	line "ze si ma porazil." ; line "about beating me."
 
-	para "MISTY will destroy"
-	line "you if you get"
-	cont "complacent."
+	para "MISTY ta znici," ; para "MISTY will destroy"
+	line "o to sa vobec" ; line "you if you get"
+	cont "neboj." ; cont "complacent."
 	done
 
 SwimmermParkerSeenText:
-	text "Glub…"
+	text "Glub…" ; text "Glub…"
 
-	para "I'm first! Come"
-	line "and get me!"
+	para "Som prva! Skus" ; para "I'm first! Come"
+	line "ma dostat!" ; line "and get me!"
 	done
 
 SwimmermParkerBeatenText:
-	text "This can't be…"
+	text "Nemozne…" ; text "This can't be…"
 	done
 
 SwimmermParkerAfterBattleText:
-	text "MISTY has gotten"
-	line "much better in the"
-	cont "past few years."
+	text "MISTY sa velmi" ; text "MISTY has gotten"
+	line "zlepsila v posled-" ; line "much better in the"
+	cont "nych rokoch." ; cont "past few years."
 
-	para "Don't let your"
-	line "guard down, or"
-	cont "you'll be crushed!"
+	para "Nespusti z nej" ; para "Don't let your"
+	line "oci, lebo ta" ; line "guard down, or"
+	cont "znici!" ; cont "you'll be crushed!"
 	done
 
 CeruleanGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Jou! Buduci" ; text "Yo! CHAMP in"
+	line "SAMPION!" ; line "making!"
 
-	para "Since MISTY was"
-	line "away, I went out"
+	para "Kym bola MISTY" ; para "Since MISTY was"
+	line "prec, odbehol som" ; line "away, I went out"
 
-	para "for some fun too."
-	line "He-he-he."
+	para "si za zabavou i" ; para "for some fun too."
+	line "ja. He-he-he." ; line "He-he-he."
 	done
 
 CeruleanGymGuideWinText:
-	text "Hoo, you showed me"
-	line "how tough you are."
+	text "Och, ukazal si" ; text "Hoo, you showed me"
+	line "svoju silu." ; line "how tough you are."
 
-	para "As always, that"
-	line "was one heck of a"
-	cont "great battle!"
+	para "Ako vzdy, bol to" ; para "As always, that"
+	line "jeden naozaj" ; line "was one heck of a"
+	cont "skvely zapas!" ; cont "great battle!"
 	done
 
 CeruleanGym_MapEvents:
