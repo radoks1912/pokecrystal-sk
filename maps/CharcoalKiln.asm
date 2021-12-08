@@ -76,74 +76,74 @@ CharcoalKilnRadio:
 	jumpstd Radio2Script
 
 CharcoalKilnBossText1:
-	text "All the SLOWPOKE"
-	line "have disappeared"
-	cont "from the town."
+	text "Vsetci SLOWPOKEci" ; text "All the SLOWPOKE"
+	line "zmizli z mesta." ; line "have disappeared"
+	;cont "from the town." ; cont "from the town."
 
-	para "The forest's pro-"
-	line "tector may be"
-	cont "angry with us…"
+	para "Ochranca lesa sa" ; para "The forest's pro-"
+	line "na nas pravepodo-" ; line "tector may be"
+	cont "bne hneva…" ; cont "angry with us…"
 
-	para "It may be a bad"
-	line "omen. We should"
-	cont "stay in."
+	para "Moze to byt zle" ; para "It may be a bad"
+	line "znamenie. Zostanme" ; line "omen. We should"
+	cont "radsej tu." ; cont "stay in."
 	done
 
 CharcoalKilnBossText2:
-	text "The SLOWPOKE have"
-	line "returned…"
+	text "SLOWPOKEci sa" ; text "The SLOWPOKE have"
+	line "vratili…" ; line "returned…"
 
-	para "But my APPRENTICE"
-	line "hasn't come back"
-	cont "from ILEX FOREST."
+	para "Ale moj ucen sa" ; para "But my APPRENTICE"
+	line "este nevratil z" ; line "hasn't come back"
+	cont "ILEX LESA." ; cont "from ILEX FOREST."
 
-	para "Where in the world"
-	line "is that lazy guy?"
+	para "Kde je pre pana" ; para "Where in the world"
+	line "ten lenivy chlap?" ; line "is that lazy guy?"
 	done
 
 CharcoalKilnBossText3:
-	text "You chased off"
-	line "TEAM ROCKET and"
+	text "Nahanal si" ; text "You chased off"
+	line "TEAM ROCKET a" ; line "TEAM ROCKET and"
 
-	para "went to ILEX"
-	line "FOREST alone?"
+	para "siel si do ILEX" ; para "went to ILEX"
+	line "LESA sam?" ; line "FOREST alone?"
 
-	para "That takes guts!"
-	line "I like that. Come"
-	cont "train with us."
+	para "To chce odvahu!" ; para "That takes guts!"
+	line "To sa mi paci. Pod" ; line "I like that. Come"
+	cont "trenovat s nami." ; cont "train with us."
 	done
 
 CharcoalKilnApprenticeText1:
-	text "Where have all the"
-	line "SLOWPOKE gone?"
+	text "Kam odisli vsetci" ; text "Where have all the"
+	line "SLOWPOKEci?" ; line "SLOWPOKE gone?"
 
-	para "Are they out play-"
-	line "ing somewhere?"
+	para "Isli sa niekam" ; para "Are they out play-"
+	line "hrat?" ; line "ing somewhere?"
 	done
 
 CharcoalKilnApprenticeText2:
-	text "I'm sorry--I for-"
-	line "got to thank you."
+	text "Prepac--Nepodako-" ; text "I'm sorry--I for-"
+	line "val som ti." ; line "got to thank you."
 
-	para "This is CHARCOAL"
-	line "that I made."
+	para "Toto je UHLIE," ; para "This is CHARCOAL"
+	line "ktore som vyrobil." ; line "that I made."
 
-	para "Fire-type #MON"
-	line "would be happy to"
-	cont "hold that."
+	para "Ohnivi #MONi" ; para "Fire-type #MON"
+	line "to radi drzia." ; line "would be happy to"
+	;cont "hold that." ; cont "hold that."
 	done
 
 CharcoalKilnApprenticeText3:
-	text "The SLOWPOKE came"
-	line "back, and you even"
-	cont "found FARFETCH'D."
+	text "SLOWPOKEci sa" ; text "The SLOWPOKE came"
+	line "vratili a nasiel" ; line "back, and you even"
+	cont "si i FARFETCH'Da." ; cont "found FARFETCH'D."
 
-	para "You're the cool-"
-	line "est, man!"
+	para "Si najlepsi!" ; para "You're the cool-"
+	;line "est, man!" ; line "est, man!"
 	done
 
 FarfetchdText:
-	text "FARFETCH'D: Kwaa!"
+	text "FARFETCH'D: Kwaa!" ; text "FARFETCH'D: Kwaa!"
 	done
 
 CharcoalKiln_MapEvents:

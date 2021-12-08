@@ -334,214 +334,217 @@ CherrygroveCity_RivalExitsStageLeft:
 	step_end
 
 GuideGentIntroText:
-	text "You're a rookie"
-	line "trainer, aren't"
-	cont "you? I can tell!"
+	text "Si zaciatocnik," ; text "You're a rookie"
+	line "ze to je tak?" ; line "trainer, aren't"
+	cont "Je mi to jasne!" ; cont "you? I can tell!"
 
-	para "That's OK! Every-"
-	line "one is a rookie"
-	cont "at some point!"
+	para "Je to OK! Kazdy" ; para "That's OK! Every-"
+	line "bol raz zaciatoc-" ; line "one is a rookie"
+	cont "nik!" ; cont "at some point!"
 
-	para "If you'd like, I"
-	line "can teach you a"
-	cont "few things."
+	para "Ak chces, mozem" ; para "If you'd like, I"
+	line "ta naucit zopar" ; line "can teach you a"
+	cont "veci." ; cont "few things."
 	done
 
 GuideGentTourText1:
-	text "OK, then!"
-	line "Follow me!"
+	text "OK, teda!" ; text "OK, then!"
+	line "Nasleduj ma!" ; line "Follow me!"
 	done
 
 GuideGentPokecenterText:
-	text "This is a #MON"
-	line "CENTER. They heal"
+	text "Toto je #MON" ; text "This is a #MON"
+	line "CENTER. Tu ti vy-" ; line "CENTER. They heal"
 
-	para "your #MON in no"
-	line "time at all."
+	para "liecia #MONov." ; para "your #MON in no"
+	;line "time at all." ; line "time at all."
 
-	para "You'll be relying"
-	line "on them a lot, so"
+	para "Budes sem chodit" ; para "You'll be relying"
+	line "casto, tak je" ; line "on them a lot, so"
 
-	para "you better learn"
-	line "about them."
+	para "dobre sa s nimi" ; para "you better learn"
+	line "oboznamit." ; line "about them."
 	done
 
 GuideGentMartText:
-	text "This is a #MON"
-	line "MART."
+	text "Toto je #MON" ; text "This is a #MON"
+	line "MART." ; line "MART."
 
-	para "They sell BALLS"
-	line "for catching wild"
+	para "Predavaju BALLS" ; para "They sell BALLS"
+	line "na chytanie divych" ; line "for catching wild"
 
-	para "#MON and other"
-	line "useful items."
+	para "#MON a ine" ; para "#MON and other"
+	line "uzitocne veci." ; line "useful items."
 	done
 
 GuideGentRoute30Text:
-	text "ROUTE 30 is out"
-	line "this way."
+	text "ROUTE 30 je cesta" ; text "ROUTE 30 is out"
+	line "prec." ; line "this way."
 
-	para "Trainers will be"
-	line "battling their"
+	para "Treneri tu" ; para "Trainers will be"
+	line "zapasia so svojimi" ; line "battling their"
 
-	para "prized #MON"
-	line "there."
+	para "cennymi #MONmi." ; para "prized #MON"
+	;line "there." ; line "there."
 	done
 
 GuideGentSeaText:
-	text "This is the sea,"
-	line "as you can see."
+	text "Toto je more," ; text "This is the sea,"
+	line "ako vidis." ; line "as you can see."
 
-	para "Some #MON are"
-	line "found only in"
-	cont "water."
+	para "Niektori #MONi" ; para "Some #MON are"
+	line "ziju iba vo vode." ; line "found only in"
+	;cont "water." ; cont "water."
 	done
 
 GuideGentGiftText:
-	text "Here…"
+	text "Hla…" ; text "Here…"
 
-	para "It's my house!"
-	line "Thanks for your"
-	cont "company."
+	para "Toto je moj dom!" ; para "It's my house!"
+	line "Dakujem ti za" ; line "Thanks for your"
+	cont "spolocnost." ; cont "company."
 
-	para "Let me give you a"
-	line "small gift."
+	para "Dovol mi dat ti" ; para "Let me give you a"
+	line "maly darcek." ; line "small gift."
 	done
 
 GotMapCardText:
-	text "<PLAYER>'s #GEAR"
-	line "now has a MAP!"
+	text "<PLAYER>ov #GEAR" ; text "<PLAYER>'s #GEAR"
+	line "ma teraz MAPU!" ; line "now has a MAP!"
 	done
 
 GuideGentPokegearText:
-	text "#GEAR becomes"
-	line "more useful as you"
-	cont "add CARDS."
+	text "#GEAR je" ; text "#GEAR becomes"
+	line "uzitocnejsi, ked" ; line "more useful as you"
+	cont "pridas CARDS." ; cont "add CARDS."
 
-	para "I wish you luck on"
-	line "your journey!"
+	para "Zelam ti na tvojom" ; para "I wish you luck on"
+	line "dobrodruzstve vela" ; line "your journey!"
+	cont "stastia!"
 	done
 
 GuideGentNoText:
-	text "Oh… It's something"
-	line "I enjoy doing…"
+	text "Oh… Je to nieco," ; text "Oh… It's something"
+	line "co rad robim…" ; line "I enjoy doing…"
 
-	para "Fine. Come see me"
-	line "when you like."
+	para "Fajn. Prid ma" ; para "Fine. Come see me"
+	line "pozriet, ked budes" ; line "when you like."
+	cont "chciet."
 	done
 
 CherrygroveRivalText_Seen:
 	text "<……> <……> <……>"
 
-	para "You got a #MON"
-	line "at the LAB."
+	para "Dostal si #MONa" ; para "You got a #MON"
+	line "v LABAKU." ; line "at the LAB."
 
-	para "What a waste."
-	line "A wimp like you."
+	para "Aka skoda." ; para "What a waste."
+	line "Slaboch ako ty." ; line "A wimp like you."
 
 	para "<……> <……> <……>"
 
-	para "Don't you get what"
-	line "I'm saying?"
+	para "Nechapes, co ti" ; para "Don't you get what"
+	line "hovorim?" ; line "I'm saying?"
 
-	para "Well, I too, have"
-	line "a good #MON."
+	para "Aj ja mam dobreho" ; para "Well, I too, have"
+	line "#MON." ; line "a good #MON."
 
-	para "I'll show you"
-	line "what I mean!"
+	para "Ukazem ti, co" ; para "I'll show you"
+	line "tym myslim!" ; line "what I mean!"
 	done
 
 SilverCherrygroveWinText:
-	text "Humph. Are you"
-	line "happy you won?"
+	text "Hm. Si stastny," ; text "Humph. Are you"
+	line "ze si vyhral?" ; line "happy you won?"
 	done
 
 CherrygroveRivalText_YouLost:
 	text "<……> <……> <……>"
 
-	para "My name's ???."
+	para "Volam sa ???." ; para "My name's ???."
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "Stanem sa najlep-" ; para "I'm going to be"
+	line "sim trenerom" ; line "the world's great-"
+	cont "#MONov na svete." ; cont "est #MON"
+	;cont "trainer." ; cont "trainer."
 	done
 
 SilverCherrygroveLossText:
-	text "Humph. That was a"
-	line "waste of time."
+	text "Hm. To bola" ; text "Humph. That was a"
+	line "strata casu." ; line "waste of time."
 	done
 
 CherrygroveRivalText_YouWon:
 	text "<……> <……> <……>"
 
-	para "My name's ???."
+	para "Volam sa ???." ; para "My name's ???."
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "Stanem sa najlep-" ; para "I'm going to be"
+	line "sim trenerom" ; line "the world's great-"
+	cont "#MONov na svete." ; cont "est #MON"
+	;cont "trainer." ; cont "trainer."
 	done
 
 CherrygroveTeacherText_NoMapCard:
-	text "Did you talk to"
-	line "the old man by the"
-	cont "#MON CENTER?"
+	text "Rozpraval si sa so" ; text "Did you talk to"
+	line "starym panom pri" ; line "the old man by the"
+	cont "#MON CENTER?" ; cont "#MON CENTER?"
 
-	para "He'll put a MAP of"
-	line "JOHTO on your"
-	cont "#GEAR."
+	para "Da ti MAPU" ; para "He'll put a MAP of"
+	line "JOHTA na tvoj" ; line "JOHTO on your"
+	cont "#GEAR." ; cont "#GEAR."
 	done
 
 CherrygroveTeacherText_HaveMapCard:
-	text "When you're with"
-	line "#MON, going"
-	cont "anywhere is fun."
+	text "Ak mas so sebou" ; text "When you're with"
+	line "#MON, chodit kde-" ; line "#MON, going"
+	cont "kolvek je zabava." ; cont "anywhere is fun."
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "MR.#MON's house"
-	line "is still farther"
-	cont "up ahead."
+	text "MR.#MONov dom" ; text "MR.#MON's house"
+	line "je este troska" ; line "is still farther"
+	cont "dalej." ; cont "up ahead."
 	done
 
 CherrygroveYoungsterText_HavePokedex:
-	text "I battled the"
-	line "trainers on the"
-	cont "road."
+	text "Zapasil som s tre-" ; text "I battled the"
+	line "nermi na" ; line "trainers on the"
+	cont "ceste." ; cont "road."
 
-	para "My #MON lost."
-	line "They're a mess! I"
+	para "Moji #MONi" ; para "My #MON lost."
+	line "prehrali. Musim" ; line "They're a mess! I" 
 
-	para "must take them to"
-	line "a #MON CENTER."
+	para "ich vziat do" ; para "must take them to"
+	line "#MON CENTER." ; line "a #MON CENTER."
 	done
 
 MysticWaterGuyTextBefore:
-	text "A #MON I caught"
-	line "had an item."
+	text "#MON, ktoreho som" ; text "A #MON I caught"
+	line "chytil, mal pred-" ; line "had an item."
+	cont "met."
 
-	para "I think it's"
-	line "MYSTIC WATER."
+	para "Myslim, ze to je" ; para "I think it's"
+	line "MYSTIC WATER." ; line "MYSTIC WATER."
 
-	para "I don't need it,"
-	line "so do you want it?"
+	para "Nepotrebujem to," ; para "I don't need it,"
+	line "chces to?" ; line "so do you want it?"
 	done
 
 MysticWaterGuyTextAfter:
-	text "Back to fishing"
-	line "for me, then."
+	text "Spat k rybarceniu!" ; text "Back to fishing"
+	;line "for me, then." ; line "for me, then."
 	done
 
 CherrygroveCitySignText:
-	text "CHERRYGROVE CITY"
+	text "CHERRYGROVE CITY" ; text "CHERRYGROVE CITY"
 
-	para "The City of Cute,"
-	line "Fragrant Flowers"
+	para "Mesto krasnych" ; para "The City of Cute,"
+	line "vonavych kvetin" ; line "Fragrant Flowers"
 	done
 
 GuideGentsHouseSignText:
-	text "GUIDE GENT'S HOUSE"
+	text "SPRIEVODCOV DOM" ; text "GUIDE GENT'S HOUSE"
 	done
 
 CherrygroveCity_MapEvents:
