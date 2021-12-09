@@ -35,35 +35,35 @@ CherrygrovePokecenter1FTeacherScript:
 	end
 
 CherrygrovePokecenter1FFisherText:
-	text "It's great. I can"
-	line "store any number"
+	text "Skvele. Mozem" ; text "It's great. I can"
+	line "chytit #MONov" ; line "store any number"
 
-	para "of #MON, and"
-	line "it's all free."
+	para "kolko chcem a je" ; para "of #MON, and"
+	line "to stale zdarma." ; line "it's all free."
 	done
 
 CherrygrovePokecenter1FGentlemanText:
-	text "That PC is free"
-	line "for any trainer"
-	cont "to use."
+	text "Ten PC je zdarma" ; text "That PC is free"
+	line "pre akehokolvek" ; line "for any trainer"
+	cont "trenera." ; cont "to use."
 	done
 
 CherrygrovePokecenter1FTeacherText:
-	text "The COMMUNICATION"
-	line "CENTER upstairs"
-	cont "was just built."
+	text "KOMUNIKACNE CENTRO" ; text "The COMMUNICATION"
+	line "bolo prave" ; line "CENTER upstairs"
+	cont "postavene." ; cont "was just built."
 
-	para "But they're still"
-	line "finishing it up."
+	para "Ale stale ho este" ; para "But they're still"
+	line "dokoncuju." ; line "finishing it up."
 	done
 
 CherrygrovePokecenter1FTeacherText_CommCenterOpen:
-	text "The COMMUNICATION"
-	line "CENTER upstairs"
-	cont "was just built."
+	text "KOMUNIKACNE CENTRO" ; text "The COMMUNICATION"
+	line "bolo prave" ; line "CENTER upstairs"
+	cont "postavene." ; cont "was just built."
 
-	para "I traded #MON"
-	line "there already!"
+	para "Uz som vymenil" ; para "I traded #MON"
+	line "#MONa!" ; line "there already!"
 	done
 
 CherrygrovePokecenter1F_MapEvents:

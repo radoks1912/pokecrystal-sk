@@ -25,18 +25,19 @@ CherrygroveEvolutionSpeechHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 CherrygroveEvolutionSpeechHouseYoungsterText:
-	text "#MON gain expe-"
-	line "rience in battle"
+	text "#MON ziska" ; text "#MON gain expe-"
+	line "skusenosti v zapa-" ; line "rience in battle"
 
-	para "and change their"
-	line "form."
+	para "se a zmeni" ; para "and change their"
+	line "form." ; line "form."
 	done
 
 CherrygroveEvolutionSpeechHouseLassText:
-	text "#MON change?"
+	text "#MONi sa menia?" ; text "#MON change?"
 
-	para "I would be shocked"
-	line "if one did that!"
+	para "Bol by som sokova-" ; para "I would be shocked"
+	line "ny, keby sa to" ; line "if one did that!"
+	cont "stalo!"
 	done
 
 CherrygroveEvolutionSpeechHouse_MapEvents:

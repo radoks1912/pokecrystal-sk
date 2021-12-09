@@ -180,201 +180,201 @@ CianwoodCityEusineDepartMovement:
 	step_end
 
 ChucksWifeEasierToFlyText:
-	text "You crossed the"
-	line "sea to get here?"
+	text "Prisiel si sem" ; text "You crossed the"
+	line "po mori?" ; line "sea to get here?"
 
-	para "That must have"
-	line "been hard."
+	para "To muselo byt" ; para "That must have"
+	line "narocne."  ;line "been hard."
 
-	para "It would be much"
-	line "easier if your"
+	para "Bolo by ovela je-" ; para "It would be much"
+	line "dnoduchsie, ak by" ; line "easier if your"
 
-	para "#MON knew how"
-	line "to FLY…"
+	para "tvoj #MON" ; para "#MON knew how"
+	line "vedel LIETAT…" ; line "to FLY…"
 	done
 
 ChucksWifeBeatChuckText:
-	text "But you can't use"
-	line "FLY without this"
-	cont "city's GYM BADGE."
+	text "Ale LIETAT nemozes" ; text "But you can't use"
+	line "bed odznaku z" ; line "FLY without this"
+	cont "tohto mesta." ; cont "city's GYM BADGE."
 
-	para "If you beat the"
-	line "GYM LEADER here,"
-	cont "come see me."
+	para "Ak porazis nasho" ; para "If you beat the"
+	line "GYM LEADERa," ; line "GYM LEADER here,"
+	cont "prid za mnou." ; cont "come see me."
 
-	para "I'll have a nice"
-	line "gift for you."
+	para "Dam ti jeden" ; para "I'll have a nice"
+	line "darcek." ; line "gift for you."
 	done
 
 ChucksWifeGiveHMText:
-	text "That's CIANWOOD's"
-	line "GYM BADGE!"
+	text "To je CIANWOODSKY" ; text "That's CIANWOOD's"
+	line "ODZNAK!" ; line "GYM BADGE!"
 
-	para "Then you should"
-	line "take this HM."
+	para "Vezmi si teda" ; para "Then you should"
+	line "tento HM." ; line "take this HM."
 	done
 
 ChucksWifeFlySpeechText:
-	text "Teach FLY to your"
-	line "#MON."
+	text "Nauc svojho" ; text "Teach FLY to your"
+	line "#MON FLY." ; line "#MON."
 
-	para "You will be able"
-	line "to FLY instantly"
+	para "Budes moct okamzi-" ; para "You will be able"
+	line "te LETIET kamkol-" ; line "to FLY instantly"
 
-	para "to anywhere you "
-	line "have visited."
+	para "vek, kde si uz" ; para "to anywhere you "
+	line "raz bol." ; line "have visited."
 	done
 
 ChucksWifeChubbyText:
-	text "My husband lost to"
-	line "you, so he needs"
-	cont "to train harder."
+	text "Moj manzel s tebou" ; text "My husband lost to"
+	line "prehral, takze mu-" ; line "you, so he needs"
+	cont "si viac trenovat." ; cont "to train harder."
 
-	para "That's good, since"
-	line "he was getting a"
-	cont "little chubby."
+	para "To je fajn, preto-" ; para "That's good, since"
+	line "ze teraz troska" ; line "he was getting a"
+	cont "pribral." ; cont "little chubby."
 	done
 
 CianwoodCityYoungsterText:
-	text "If you use FLY,"
-	line "you can get back"
+	text "Ak pouzijes FLY,"  ; text "If you use FLY,"
+	line "mozes sa hned" ; line "you can get back"
 
-	para "to OLIVINE in-"
-	line "stantly."
+	para "vratit do" ; para "to OLIVINE in-"
+	line "OLIVINE." ; line "stantly."
 	done
 
 CianwoodCityPokefanMText:
-	text "Boulders to the"
-	line "north of town can"
-	cont "be crushed."
+	text "Skaly na severe" ; text "Boulders to the"
+	line "mesta sa daju" ; line "north of town can"
+	cont "rozdrvit." ; cont "be crushed."
 
-	para "They may be hiding"
-	line "something."
+	para "Mozno sa tam cosi" ; para "They may be hiding"
+	line "skryva." ; line "something."
 
-	para "Your #MON could"
-	line "use ROCK SMASH to"
-	cont "break them."
+	para "#MON moze" ; para "Your #MON could"
+	line "pouzit ROCK SMASH" ; line "use ROCK SMASH to"
+	cont "na rozdrvenie." ; cont "break them."
 	done
 
 CianwoodCityLassText:
-	text "CHUCK, the GYM"
-	line "LEADER, spars with"
+	text "CHUCK, GYM" ; text "CHUCK, the GYM"
+	line "LEADER, cvici s" ; line "LEADER, spars with"
 
-	para "his fighting #-"
-	line "MON."
+	para "bojovymi #-" ; para "his fighting #-"
+	line "MON." ; line "MON."
 	done
 
 CianwoodCityUnusedText:
-	text "There are several"
-	line "islands between"
-	cont "here and OLIVINE."
+	text "Je niekolko ostro-" ; text "There are several"
+	line "vov medzi tymto" ; line "islands between"
+	cont "mestom a OLIVINE." ; cont "here and OLIVINE."
 
-	para "A mythical sea"
-	line "creature supposed-"
-	cont "ly lives there."
+	para "Zije tam udajne" ; para "A mythical sea"
+	line "myticky" ; line "creature supposed-"
+	cont "#MON." ; cont "ly lives there."
 	done
 
 EusineSuicuneText:
-	text "EUSINE: Yo,"
-	line "<PLAYER>."
+	text "EUSINE: Jou," ; text "EUSINE: Yo,"
+	line "<PLAYER>." ; line "<PLAYER>."
 
-	para "Wasn't that"
-	line "SUICUNE just now?"
+	para "Nebol to nahodou" ; para "Wasn't that"
+	line "SUICUNE?" ; line "SUICUNE just now?"
 
-	para "I only caught a"
-	line "quick glimpse, but"
+	para "Zbadal som ho iba" ; para "I only caught a"
+	line "nachvilku, ale" ; line "quick glimpse, but"
 
-	para "I thought I saw"
-	line "SUICUNE running on"
-	cont "the waves."
+	para "vypadalo to, akoby" ; para "I thought I saw"
+	line "SUICUNE bezal na" ; line "SUICUNE running on"
+	cont "vlnach." ; cont "the waves."
 
-	para "SUICUNE is beau-"
-	line "tiful and grand."
+	para "SUICUNE je krasny" ; para "SUICUNE is beau-"
+	line "a grandiozny." ; line "tiful and grand."
 
-	para "And it races"
-	line "through towns and"
+	para "Brazdni mestami" ; para "And it races"
+	line "a cestami obrov-" ; line "through towns and"
 
-	para "roads at simply"
-	line "awesome speeds."
+	para "skymi rychlostami." ; para "roads at simply"
+	;line "awesome speeds." ; line "awesome speeds."
 
-	para "It's wonderful…"
+	para "Je uzasny…" ; para "It's wonderful…"
 
-	para "I want to see"
-	line "SUICUNE up close…"
+	para "Chcem vidiet" ; para "I want to see"
+	line "SUICUNE zblizka…" ; line "SUICUNE up close…"
 
-	para "I've decided."
+	para "Rozhodol som sa." ; para "I've decided."
 
-	para "I'll battle you as"
-	line "a trainer to earn"
-	cont "SUICUNE's respect!"
+	para "Budem s tebou bo-" ; para "I'll battle you as"
+	line "jovat, ziskam tak" ; line "a trainer to earn"
+	cont "respekt SUICUNEa!" ; cont "SUICUNE's respect!"
 
-	para "Come on, <PLAYER>."
-	line "Let's battle now!"
+	para "Podme, <PLAYER>." ; para "Come on, <PLAYER>."
+	line "zapasme!" ; line "Let's battle now!"
 	done
 
 EusineBeatenText:
-	text "I hate to admit"
-	line "it, but you win."
+	text "Nerad to priznavam" ; text "I hate to admit"
+	line "ale vyhral si." ; line "it, but you win."
 	done
 
 EusineAfterText:
-	text "You're amazing,"
-	line "<PLAYER>!"
+	text "Si uzasny," ; text "You're amazing,"
+	line "<PLAYER>!" ; line "<PLAYER>!"
 
-	para "No wonder #MON"
-	line "gravitate to you."
+	para "Niet divu, ze pri-" ; para "No wonder #MON"
+	line "tahujes #MONov." ; line "gravitate to you."
 
-	para "I get it now."
+	para "Teraz uz rozumiem." ; para "I get it now."
 
-	para "I'm going to keep"
-	line "searching for"
-	cont "SUICUNE."
+	para "Budem nadalej" ; para "I'm going to keep"
+	line "hladat SUICINEa." ; line "searching for"
+	;cont "SUICUNE." ; cont "SUICUNE."
 
-	para "I'm sure we'll see"
-	line "each other again."
+	para "Som si isty, ze sa" ; para "I'm sure we'll see"
+	line "este stretneme." ; line "each other again."
 
-	para "See you around!"
+	para "Maj sa!" ; para "See you around!"
 	done
 
 CianwoodCitySignText:
-	text "CIANWOOD CITY"
+	text "CIANWOOD CITY" ; text "CIANWOOD CITY"
 
-	para "A Port Surrounded"
-	line "by Rough Seas"
+	para "Pristav obklopeny" ; para "A Port Surrounded"
+	line "divokym morom" ; line "by Rough Seas"
 	done
 
 CianwoodGymSignText:
-	text "CIANWOOD CITY"
-	line "#MON GYM"
+	text "CIANWOOD CITY" ; text "CIANWOOD CITY"
+	line "#MON GYM" ; line "#MON GYM"
 
-	para "LEADER: CHUCK"
+	para "LEADER: CHUCK" ; para "LEADER: CHUCK"
 
-	para "His Roaring Fists"
-	line "Do the Talking"
+	para "Jeho horuce paste" ; para "His Roaring Fists"
+	line "hovoria za vsetko" ; line "Do the Talking"
 	done
 
 CianwoodPharmacySignText:
-	text "500 Years of"
-	line "Tradition"
+	text "500 rokov" ; text "500 Years of"
+	line "tradicie" ; line "Tradition"
 
-	para "CIANWOOD CITY"
-	line "PHARMACY"
+	para "CIANWOOD CITY" ; para "CIANWOOD CITY"
+	line "LEKAREN" ; line "PHARMACY"
 
-	para "We Await Your"
-	line "Medicinal Queries"
+	para "Cakame na vase" ; para "We Await Your"
+	line "lekarske otazky" ; line "Medicinal Queries"
 	done
 
 CianwoodPhotoStudioSignText:
-	text "CIANWOOD CITY"
-	line "PHOTO STUDIO"
+	text "CIANWOOD CITY" ; text "CIANWOOD CITY"
+	line "FOTOSTUDIO" ; line "PHOTO STUDIO"
 
-	para "Take a Snapshot as"
-	line "a Keepsake!"
+	para "Urob si snimku" ; para "Take a Snapshot as"
+	line "na pamiatku!" ; line "a Keepsake!"
 	done
 
 CianwoodPokeSeerSignText:
-	text "THE # SEER"
-	line "AHEAD"
+	text "VESTEC" ; text "THE # SEER"
+	;line "AHEAD" ; line "AHEAD"
 	done
 
 CianwoodCity_MapEvents:

@@ -17,29 +17,29 @@ CherrygroveGymSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 CherrygroveGymSpeechHousePokefanMText:
-	text "You're trying to"
-	line "see how good you"
+	text "Snazis sa zistit," ; text "You're trying to"
+	line "ci si dobry" ; line "see how good you"
 
-	para "are as a #MON"
-	line "trainer?"
+	para "#MONovy trener?" ; para "are as a #MON"
+	;line "trainer?" ; line "trainer?"
 
-	para "You better visit"
-	line "the #MON GYMS"
+	para "Tak to potom nav-" ; para "You better visit"
+	line "stiv #MON GYMY" ; line "the #MON GYMS"
 
-	para "all over JOHTO and"
-	line "collect BADGES."
+	para "v JOHTO a nazbie-" ; para "all over JOHTO and"
+	line "raj ODZNAKY." ; line "collect BADGES."
 	done
 
 CherrygroveGymSpeechHouseBugCatcherText:
-	text "When I get older,"
-	line "I'm going to be a"
-	cont "GYM LEADER!"
+	text "Ked budem starsi," ; text "When I get older,"
+	line "stanem sa GYM" ; line "I'm going to be a"
+	cont "LEADEROM!" ; cont "GYM LEADER!"
 
-	para "I make my #MON"
-	line "battle with my"
+	para "Zapasim proti" ; para "I make my #MON"
+	line "#MONom mojho" ; line "battle with my"
 
-	para "friend's to make"
-	line "them tougher!"
+	para "kamarata, aby boli" ; para "friend's to make"
+	line "silnejsi!" ; line "them tougher!"
 	done
 
 CherrygroveGymSpeechHouse_MapEvents:

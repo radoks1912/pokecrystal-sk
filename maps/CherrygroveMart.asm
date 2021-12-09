@@ -41,32 +41,32 @@ CherrygroveMartYoungsterScript:
 	jumptextfaceplayer CherrygroveMartYoungsterText
 
 CherrygroveMartCooltrainerMText:
-	text "They're fresh out"
-	line "of # BALLS!"
+	text "Zrovna im dosli" ; text "They're fresh out"
+	line "# BALLS!" ; line "of # BALLS!"
 
-	para "When will they get"
-	line "more of them?"
+	para "Kedy ich opat" ; para "When will they get"
+	line "naskladnia?" ; line "more of them?"
 	done
 
 CherrygroveMartCooltrainerMText_PokeBallsInStock:
-	text "# BALLS are in"
-	line "stock! Now I can"
-	cont "catch #MON!"
+	text "# BALLS su na" ; text "# BALLS are in"
+	line "sklade! Mozem" ; line "stock! Now I can"
+	cont "chytat #MON!" ; cont "catch #MON!"
 	done
 
 CherrygroveMartYoungsterText:
-	text "When I was walking"
-	line "in the grass, a"
+	text "Ked som kracal v" ; text "When I was walking"
+	line "trave, hmyzi" ; line "in the grass, a"
 
-	para "bug #MON poi-"
-	line "soned my #MON!"
+	para "#MON otravil" ; para "bug #MON poi-"
+	line "mojho #MONa!" ; line "soned my #MON!"
 
-	para "I just kept going,"
-	line "but then my"
-	cont "#MON fainted."
+	para "Pokracoval som, no" ; para "I just kept going,"
+	line "potom moj" ; line "but then my"
+	cont "#MON odpadol." ; cont "#MON fainted."
 
-	para "You should keep an"
-	line "ANTIDOTE with you."
+	para "Nos so sebou" ; para "You should keep an"
+	line "radsej ANTIDOTE." ; line "ANTIDOTE with you."
 	done
 
 CherrygroveMart_MapEvents:
