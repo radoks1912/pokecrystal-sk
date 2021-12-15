@@ -26,24 +26,24 @@ CianwoodPhotoStudioFishingGuruScript:
 	end
 
 CianwoodPhotoStudioFishingGuruText_Question:
-	text "You have magnifi-"
-	line "cent #MON with"
-	cont "you."
+	text "Mas so sebou vel-" ; text "You have magnifi-"
+	line "kolepych #MONov" ; line "cent #MON with"
+	;cont "you." ; cont "you."
 
-	para "How about a photo"
-	line "for a souvenir?"
+	para "Co povies na fotku" ; para "How about a photo"
+	line "ako suvenir?" ; line "for a souvenir?"
 	done
 
 CianwoodPhotoStudioFishingGuruText_Yes:
-	text "OK! Big smile now!"
+	text "OK! Povedz syyyr!" ; text "OK! Big smile now!"
 	done
 
 CianwoodPhotoStudioFishingGuruText_No:
-	text "Oh, that's too"
-	line "bad. I thought it"
+	text "Och, tak potom" ; text "Oh, that's too"
+	line "nic. Myslel som," ; line "bad. I thought it"
 
-	para "would be a great"
-	line "memento…"
+	para "ze to je pekna" ; para "would be a great"
+	line "spomienka…" ; line "memento…"
 	done
 
 CianwoodPhotoStudio_MapEvents:

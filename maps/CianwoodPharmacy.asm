@@ -39,35 +39,35 @@ CianwoodPharmacyBookshelf:
 	jumpstd DifficultBookshelfScript
 
 PharmacistGiveSecretpotionText:
-	text "Your #MON ap-"
-	line "pear to be fine."
+	text "Tvoji #MONi" ; text "Your #MON ap-"
+	line "su v poriadku." ; line "pear to be fine."
 
-	para "Is something wor- "
-	line "rying you?"
+	para "Trapi ta nieco?" ; para "Is something wor- "
+	;line "rying you?" ; line "rying you?"
 
 	para "…"
 
-	para "The LIGHTHOUSE"
-	line "#MON is in"
-	cont "trouble?"
+	para "#MON z MAJAKU" ; para "The LIGHTHOUSE"
+	line "ma zdravotne" ; line "#MON is in"
+	cont "tazkosti?" ; cont "trouble?"
 
-	para "I got it!"
+	para "Mam to!" ; para "I got it!"
 
-	para "This ought to do"
-	line "the trick."
+	para "Toto by mu malo" ; para "This ought to do"
+	line "pomoct." ; line "the trick."
 	done
 
 ReceivedSecretpotionText:
-	text "<PLAYER> received"
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
 	line "SECRETPOTION."
 	done
 
 PharmacistDescribeSecretpotionText:
-	text "My SECRETPOTION is"
-	line "a tad too strong."
+	text "Moja SECRETPOTION" ; text "My SECRETPOTION is"
+	line "je trosku silna." ; line "a tad too strong."
 
-	para "I only offer it in"
-	line "an emergency."
+	para "Poskytujem ju iba" ; para "I only offer it in"
+	line "v nudzi." ; line "an emergency."
 	done
 
 CianwoodPharmacy_MapEvents:

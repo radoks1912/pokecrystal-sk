@@ -21,42 +21,42 @@ CianwoodLugiaSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 CianwoodLugiaSpeechHouseTeacherText:
-	text "You came from"
-	line "OLIVINE?"
+	text "Prisiel si z" ; text "You came from"
+	line "OLIVINE?" ; line "OLIVINE?"
 
-	para "Do you remember"
-	line "the four islands"
-	cont "along the way?"
+	para "Spominas si na tie" ; para "Do you remember"
+	line "styri ostrovy po" ; line "the four islands"
+	cont "ceste?" ; cont "along the way?"
 
-	para "I heard that a "
-	line "mythical sea crea-"
-	cont "ture is hiding in"
-	cont "them."
+	para "Pocul som, ze sa" ; para "I heard that a "
+	line "tam udajne ukryva" ; line "mythical sea crea-"
+	cont "morske stvorenie." ; cont "ture is hiding in"
+	;cont "them." ; cont "them."
 	done
 
 CianwoodLugiaSpeechHouseLassText:
-	text "I heard that you"
-	line "can only see it if"
+	text "Pocul som, ze ju" ; text "I heard that you"
+	line "mozes vidiet, iba" ; line "can only see it if"
 
-	para "you have a SILVER"
-	line "WING."
+	para "ak mas SILVER" ; para "you have a SILVER"
+	line "WING." ; line "WING."
 
-	para "It must have the"
-	line "same scent as the"
-	cont "creature."
+	para "Musi mat rovnaku" ; para "It must have the"
+	line "vonu ako to" ; line "same scent as the"
+	cont "stvorenie." ; cont "creature."
 	done
 
 CianwoodLugiaSpeechHouseTwinText:
-	text "I've heard that"
-	line "the whirlpools"
+	text "Pocul som, ze" ; text "I've heard that"
+	line "vodne viry okolo" ; line "the whirlpools"
 
-	para "around the islands"
-	line "are caused by the"
-	cont "sea creature."
+	para "ostrovov su sposo-" ; para "around the islands"
+	line "bene morskym stvo-" ; line "are caused by the"
+	cont "renim." ; cont "sea creature."
 
-	para "You might need a"
-	line "special move to"
-	cont "get past them."
+	para "Mozno budes na to" ; para "You might need a"
+	line "potrebovat speci-" ; line "special move to"
+	cont "alny utok." ; cont "get past them."
 	done
 
 CianwoodLugiaSpeechHouse_MapEvents:

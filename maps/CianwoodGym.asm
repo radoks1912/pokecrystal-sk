@@ -148,159 +148,159 @@ CianwoodGymMovement_ChuckChucksBoulder:
 	step_end
 
 ChuckIntroText1:
-	text "WAHAHAH!"
+	text "HAHAHAHA!" ; text "WAHAHAH!"
 
-	para "So you've come"
-	line "this far!"
+	para "Takze dostal si sa" ; para "So you've come"
+	line "az sem!" ; line "this far!"
 
-	para "Let me tell you,"
-	line "I'm tough!"
+	para "Poviem ti jednu" ; para "Let me tell you,"
+	line "vec. Som tvrdy!" ; line "I'm tough!"
 
-	para "My #MON will"
-	line "crush stones and"
-	cont "shatter bones!"
+	para "Moji #MONi" ; para "My #MON will"
+	line "rozdrvia kamene a" ; line "crush stones and"
+	cont "zlamu kosti!" ; cont "shatter bones!"
 
-	para "Watch this!"
+	para "Sleduj!" ; para "Watch this!"
 	done
 
 ChuckIntroText2:
-	text "CHUCK: Urggh!"
-	line "…"
+	text "CHUCK: Urggh!" ; text "CHUCK: Urggh!"
+	line "…" ; line "…"
 
-	para "Oooarrgh!"
+	para "Oooarrgh!" ; para "Oooarrgh!"
 	done
 
 ChuckIntroText3:
-	text "There! Scared now,"
-	line "are you?"
+	text "Tak! Teraz sa uz" ; text "There! Scared now,"
+	line "bojis, ze?" ; line "are you?"
 
-	para "What?"
-	line "It has nothing to"
+	para "Coze?" ; para "What?"
+	line "Nema to nic s" ; line "It has nothing to"
 
-	para "do with #MON?"
-	line "That's true!"
+	para "#MONmi?" ; para "do with #MON?"
+	line "Pravda!" ; line "That's true!"
 
-	para "Come on. We shall"
-	line "do battle!"
+	para "Tak pod. Podme" ; para "Come on. We shall"
+	line "zapasit!" ; line "do battle!"
 	done
 
 ChuckLossText:
-	text "Wha? Huh?"
-	line "I lost?"
+	text "Coz…? Ha?" ; text "Wha? Huh?"
+	line "Prehral som?" ; line "I lost?"
 
-	para "How about that!"
-	line "You're worthy of"
-	cont "STORMBADGE!"
+	para "No to ma podrz!" ; para "How about that!"
+	line "Si hodny odznaku" ; line "You're worthy of"
+	cont "STORMBADGE!" ; cont "STORMBADGE!"
 	done
 
 GetStormBadgeText:
-	text "<PLAYER> received"
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
 	line "STORMBADGE."
 	done
 
 ChuckExplainBadgeText:
-	text "STORMBADGE makes"
-	line "all #MON up to"
+	text "STORMBADGE sposobi" ; text "STORMBADGE makes"
+	line "ze #MONi az" ; line "all #MON up to"
 
-	para "L70 obey, even"
-	line "traded ones."
+	para "do L70 ta budu" ; para "L70 obey, even"
+	line "posluchat." ; line "traded ones."
 
-	para "It also lets your"
-	line "#MON use FLY"
+	para "Takisto mozes pou-" ; para "It also lets your"
+	line "zivat FLY" ; line "#MON use FLY"
 
-	para "when you're not in"
-	line "a battle."
+	para "lietanie, ked" ; para "when you're not in"
+	line "prave nezapasis." ; line "a battle."
 
-	para "Here, take this"
-	line "too!"
+	para "Prosim, vezmi si" ; para "Here, take this"
+	line "toto!" ; line "too!"
 	done
 
 ChuckExplainTMText:
-	text "That is DYNAMIC-"
+	text "Je to DYNAMIC-" ; text "That is DYNAMIC-"
 	line "PUNCH."
 
-	para "It doesn't always"
-	line "hit, but when it"
+	para "Nie vzdy trafi," ; para "It doesn't always"
+	line "ale ked ano, tak" ; line "hit, but when it"
 
-	para "does, it causes"
-	line "confusion!"
+	para "vzdy sposobi" ; para "does, it causes"
+	line "zmatenie supera!" ; line "confusion!"
 	done
 
 ChuckAfterText:
-	text "WAHAHAH! I enjoyed"
-	line "battling you!"
+	text "HAHAHAHA! Bol to" ; text "WAHAHAH! I enjoyed"
+	line "super zapas!" ; line "battling you!"
 
-	para "But a loss is a"
-	line "loss!"
+	para "Ale prehra je" ; para "But a loss is a"
+	line "prehra!" ; line "loss!"
 
-	para "From now on, I'm"
-	line "going to train 24"
-	cont "hours a day!"
+	para "Odteraz zacnem" ; para "From now on, I'm"
+	line "trenovat 24 hodin" ; line "going to train 24"
+	cont "denne!" ; cont "hours a day!"
 	done
 
 BlackbeltYoshiSeenText:
-	text "My #MON and I"
-	line "are bound togeth-"
-	cont "er by friendship."
+	text "Moji #MONi a" ; text "My #MON and I"
+	line "ja sme spojeni" ; line "are bound togeth-"
+	cont "priatelstvom." ; cont "er by friendship."
 
-	para "Our bond will"
-	line "never be broken!"
+	para "Nase puto sa" ; para "Our bond will"
+	line "nikdy nezlomi!" ; line "never be broken!"
 	done
 
 BlackbeltYoshiBeatenText:
-	text "This isn't real!"
+	text "Neskutocne!" ; text "This isn't real!"
 	done
 
 BlackbeltYoshiAfterText:
-	text "You seem to have a"
-	line "strong bond with"
-	cont "your #MON too!"
+	text "Vypada, ze mas" ; text "You seem to have a"
+	line "silne puto so svo-" ; line "strong bond with"
+	cont "jimi #MONmi!" ; cont "your #MON too!"
 	done
 
 BlackbeltLaoSeenText:
-	text "We martial artists"
-	line "fear nothing!"
+	text "My bojovi umelci" ; text "We martial artists"
+	line "nemame strach!" ; line "fear nothing!"
 	done
 
 BlackbeltLaoBeatenText:
-	text "That's shocking!"
+	text "To je sokujuce!" ; text "That's shocking!"
 	done
 
 BlackbeltLaoAfterText:
-	text "Fighting #MON"
-	line "are afraid of psy-"
-	cont "chics…"
+	text "Bojovi #MONi" ; text "Fighting #MON"
+	line "su slabi voci" ; line "are afraid of psy-"
+	cont "psychickym…" ; cont "chics…"
 	done
 
 BlackbeltNobSeenText:
-	text "Words are useless."
-	line "Let your fists do"
-	cont "the talking!"
+	text "Slova su zbytocne." ; text "Words are useless."
+	line "Nechaj prehovorit" ; line "Let your fists do"
+	cont "svoje paste!" ; cont "the talking!"
 	done
 
 BlackbeltNobBeatenText:
-	text "…"
+	text "…" ; text "…"
 	done
 
 BlackbeltNobAfterText:
-	text "I lost! "
-	line "I'm speechless!"
+	text "Prehral som! " ; text "I lost! "
+	line "Nemam slov!" ; line "I'm speechless!"
 	done
 
 BlackbeltLungSeenText:
-	text "My raging fists"
-	line "will shatter your"
-	cont "#MON!"
+	text "Moje paste znicia" ; text "My raging fists"
+	line "tvojich" ; line "will shatter your"
+	cont "#MONov!" ; cont "#MON!"
 	done
 
 BlackbeltLungBeatenText:
-	text "I got shattered!"
+	text "Rozbil si ma!" ; text "I got shattered!"
 	done
 
 BlackbeltLungAfterText:
-	text "My #MON lost…"
-	line "My… my pride is"
-	cont "shattered…"
+	text "Moji #MONi" ; text "My #MON lost…"
+	line "prehrali… Moja" ; line "My… my pride is"
+	cont "pycha…" ; cont "shattered…"
 	done
 
 CianwoodGym_MapEvents:
