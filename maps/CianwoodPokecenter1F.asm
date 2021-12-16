@@ -36,57 +36,57 @@ CianwoodPokecenter1FSuperNerdScript:
 	jumptextfaceplayer CianwoodPokecenter1FSuperNerdText
 
 CianwoodPokecenter1FLassText:
-	text "Did you meet the"
-	line "#MANIAC?"
+	text "Stretol si uz" ; text "Did you meet the"
+	line "#MANIACa?" ; line "#MANIAC?"
 
-	para "He's always brag-"
-	line "ging about his"
-	cont "rare #MON."
+	para "Neustale sa vy-" ; para "He's always brag-"
+	line "chvaluje vzacnymi" ; line "ging about his"
+	cont "#MONmi." ; cont "rare #MON."
 	done
 
 CianwoodGymGuideText:
-	text "The #MON GYM"
-	line "trainers here are"
-	cont "macho bullies."
+	text "Treneri z #MON" ; text "The #MON GYM"
+	line "GYMu su extremni" ; line "trainers here are"
+	cont "sikanisti." ; cont "macho bullies."
 
-	para "If I stick around,"
-	line "they might come"
-	cont "after me."
+	para "Ak tu zostanem," ; para "If I stick around,"
+	line "urcite pojdu aj" ; line "they might come"
+	cont "po mne." ; cont "after me."
 
-	para "Here's some ad-"
-	line "vice: the GYM"
+	para "Tu mas radu:" ; para "Here's some ad-"
+	line "GYM LEADER pouziva" ; line "vice: the GYM"
 
-	para "LEADER uses the"
-	line "fighting-type."
+	para "fighting-typ" ; para "LEADER uses the"
+	line "#MONov." ; line "fighting-type."
 
-	para "So you should"
-	line "confound him with"
-	cont "psychic #MON."
+	para "Takze ho skus" ; para "So you should"
+	line "zmiast s psychic-" ; line "confound him with"
+	cont "kymi #MONmi." ; cont "psychic #MON."
 
-	para "Wipe out his #-"
-	line "MON before they"
+	para "Poraz jeho #-" ; para "Wipe out his #-"
+	line "MON, predtym" ; line "MON before they"
 
-	para "can use their"
-	line "physical strength."
+	para "nez stihnu pouzit" ; para "can use their"
+	line "fyzicku silu." ; line "physical strength."
 
-	para "And those boulders"
-	line "in the middle of"
-	cont "the GYM?"
+	para "A tie skaly upro-" ; para "And those boulders"
+	line "stred GYMu?" ; line "in the middle of"
+	;cont "the GYM?" ; cont "the GYM?"
 
-	para "If you don't move"
-	line "them correctly,"
+	para "Ak ich nepohnes" ; para "If you don't move"
+	line "spravne, nedosta-" ; line "them correctly,"
 
-	para "you won't reach"
-	line "the GYM LEADER."
+	para "nes sa k GYM" ; para "you won't reach"
+	line "LEADERovi." ; line "the GYM LEADER."
 
-	para "If you get stuck,"
-	line "go outside."
+	para "Ak sa zaseknes," ; para "If you get stuck,"
+	line "chod von." ; line "go outside."
 	done
 
 CianwoodGymGuideWinText:
-	text "<PLAYER>! You won!"
-	line "I could tell by"
-	cont "looking at you!"
+	text "<PLAYER>! Vyhral" ; text "<PLAYER>! You won!"
+	line "si! Vidim to po-" ; line "I could tell by"
+	cont "hladom na teba!" ; cont "looking at you!"
 	done
 
 CianwoodPokecenter1FUnusedText1: ; unreferenced
@@ -116,17 +116,17 @@ CianwoodPokecenter1FUnusedText2: ; unreferenced
 	done
 
 CianwoodPokecenter1FSuperNerdText:
-	text "I love showing off"
-	line "the #MON that"
+	text "Rad ukazujem" ; text "I love showing off"
+	line "#MONov, ktorych" ; line "the #MON that"
 
-	para "I've raised."
-	line "Don't you?"
+	para "som vychoval." ; para "I've raised."
+	line "Ty nie?" ; line "Don't you?"
 
-	para "I'm going to get"
-	line "into a bunch of"
+	para "Budem teraz zapa-" ; para "I'm going to get"
+	line "sit v mnoho za-" ; line "into a bunch of"
 
-	para "battles, and show"
-	line "off my #MON!"
+	para "pasoch a ukazem" ; para "battles, and show"
+	line "svojich #MONov!" ; line "off my #MON!"
 	done
 
 CianwoodPokecenter1F_MapEvents:

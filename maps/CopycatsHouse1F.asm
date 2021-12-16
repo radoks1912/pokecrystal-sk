@@ -36,34 +36,34 @@ CopycatsHouse1FBlisseyScript:
 	end
 
 CopycatsHouse1FPokefanMText:
-	text "My daughter likes"
-	line "to mimic people."
+	text "Dcera rada napo-" ; text "My daughter likes"
+	line "dobnuje ludi." ; line "to mimic people."
 
-	para "Her mimicry has"
-	line "earned her the"
+	para "Jej napodobnovanie" ; para "Her mimicry has"
+	line "jej ziskalo pre-" ; line "earned her the"
 
-	para "nickname COPYCAT"
-	line "around here."
+	para "zyvku COPYCAT" ; para "nickname COPYCAT"
+	line "v okoli." ; line "around here."
 	done
 
 CopycatsHouse1FPokefanFText:
-	text "My daughter is so"
-	line "self-centered…"
+	text "Dcera je prilis" ; text "My daughter is so"
+	line "zamerana na seba…" ; line "self-centered…"
 
-	para "She only has a few"
-	line "friends."
+	para "Ma iba zopar" ; para "She only has a few"
+	line "priatelov." ; line "friends."
 	done
 
 CopycatsHouse1FPokefanFText_ReturnedMachinePart:
-	text "She recently lost"
-	line "the # DOLL that"
+	text "Nedavno stratila" ; text "She recently lost"
+	line "babiku, ktoru do-" ; line "the # DOLL that"
 
-	para "a boy gave her"
-	line "three years ago."
+	para "stala od chlapca" ; para "a boy gave her"
+	line "pred tromi rokmi." ; line "three years ago."
 
-	para "Ever since then,"
-	line "she's gotten even"
-	cont "better at mimicry…"
+	para "Odvtedy sa stale" ; para "Ever since then,"
+	line "zlepsuje kazdy den" ; line "she's gotten even"
+	cont "v napodobnovani…" ; cont "better at mimicry…"
 	done
 
 CopycatsHouse1FBlisseyText:

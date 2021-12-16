@@ -199,144 +199,144 @@ CopycatSpinAroundMovementData:
 	step_end
 
 CopycatText_Male_1:
-	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
+	text "<PLAYER>: Cau! Mas" ; text "<PLAYER>: Hi! Do"
+	line "rad #MONov?" ; line "you like #MON?"
 
-	para "<PLAYER>: Uh, no, I"
-	line "just asked you."
+	para "<PLAYER>: Hm, nie," ; para "<PLAYER>: Uh, no, I"
+	line "ja sa ta pytam." ; line "just asked you."
 
-	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	para "<PLAYER>: Hm?" ; para "<PLAYER>: Huh?"
+	line "Si divna!" ; line "You're strange!"
 	done
 
 CopycatText_QuickMimicking:
-	text "COPYCAT: Hmm?"
-	line "Quit mimicking?"
+	text "COPYCAT: Hm?" ; text "COPYCAT: Hmm?"
+	line "Nenapodobnovat?" ; line "Quit mimicking?"
 
-	para "But that's my"
-	line "favorite hobby!"
+	para "Ale to je moje" ; para "But that's my"
+	line "oblubene hobby!" ; line "favorite hobby!"
 	done
 
 CopycatText_Male_2:
-	text "<PLAYER>: Hi!"
-	line "I heard that you"
+	text "<PLAYER>: Ahoj!" ; text "<PLAYER>: Hi!"
+	line "Vraj si stratila" ; line "I heard that you"
 
-	para "lost your favorite"
-	line "# DOLL."
+	para "svoju babiku" ; para "lost your favorite"
+	line "# DOLL." ; line "# DOLL."
 
-	para "<PLAYER>: If I find"
-	line "it, you'll give me"
-	cont "a rail PASS?"
+	para "<PLAYER>: Ak ju" ; para "<PLAYER>: If I find"
+	line "najdem, das mi" ; line "it, you'll give me"
+	cont "vlakovy LISTOK?" ; cont "a rail PASS?"
 
-	para "<PLAYER>: I'll go"
-	line "find it for you."
+	para "<PLAYER>: Najdem" ; para "<PLAYER>: I'll go"
+	line "ju pre teba." ; line "find it for you."
 
-	para "You think you lost"
-	line "it when you went"
-	cont "to VERMILION CITY?"
+	para "Stratila si ju," ; para "You think you lost"
+	line "ked si bola vo" ; line "it when you went"
+	cont "VERMILION CITY?" ; cont "to VERMILION CITY?"
 	done
 
 CopycatText_Worried:
-	text "COPYCAT: Pardon?"
+	text "COPYCAT: Pardon?" ; text "COPYCAT: Pardon?"
 
-	para "I shouldn't decide"
-	line "what you should"
-	cont "do?"
+	para "Nemala by som ro-" ; para "I shouldn't decide"
+	line "hodovat, co mas" ; line "what you should"
+	cont "robit." ; cont "do?"
 
-	para "But I'm really"
-	line "worried… What if"
-	cont "someone finds it?"
+	para "Ale mam naozaj" ; para "But I'm really"
+	line "strach… Co ak ju" ; line "worried… What if"
+	cont "niekto najde?" ; cont "someone finds it?"
 	done
 
 CopycatText_GiveDoll:
-	text "COPYCAT: Yay!"
-	line "That's my CLEFAIRY"
-	cont "# DOLL!"
+	text "COPYCAT: Jej!" ; text "COPYCAT: Yay!"
+	line "Moja CLEFAIRY" ; line "That's my CLEFAIRY"
+	cont "babika!" ; cont "# DOLL!"
 
-	para "See the tear where"
-	line "the right leg is"
+	para "Vidis tu trhlinu" ; para "See the tear where"
+	line "kde je prisita?" ; line "the right leg is"
 
-	para "sewn on? That's"
-	line "proof!"
+	para "prava noha? To je" ; para "sewn on? That's"
+	line "dokaz!" ; line "proof!"
 	done
 
 CopycatText_GivePass:
-	text "OK. Here's the"
-	line "MAGNET TRAIN PASS"
-	cont "like I promised!"
+	text "OK. Tu mas" ; text "OK. Here's the"
+	line "LISTOK na magnet-" ; line "MAGNET TRAIN PASS"
+	cont "vlak!" ; cont "like I promised!"
 	done
 
 CopycatText_ExplainPass:
-	text "COPYCAT: That's"
-	line "the PASS for the"
-	cont "MAGNET TRAIN."
+	text "COPYCAT: To je" ; text "COPYCAT: That's"
+	line "LISTOK na magnet-" ; line "the PASS for the"
+	cont "vlak." ; cont "MAGNET TRAIN."
 
-	para "The rail company"
-	line "man gave me that"
+	para "Riaditel vlakovej" ; para "The rail company"
+	line "spolocnosti mi ho" ; line "man gave me that"
 
-	para "when they tore"
-	line "down our old house"
-	cont "for the STATION."
+	para "dal, ked zburali" ; para "when they tore"
+	line "nas dom kvoli" ; line "down our old house"
+	cont "STANICI." ; cont "for the STATION."
 	done
 
 CopycatText_Male_3:
-	text "<PLAYER>: Hi!"
-	line "Thanks a lot for"
-	cont "the rail PASS!"
+	text "<PLAYER>: Cau!" ; text "<PLAYER>: Hi!"
+	line "Dakujem pekne za" ; line "Thanks a lot for"
+	cont "LISTOK!" ; cont "the rail PASS!"
 
-	para "<PLAYER>: Pardon?"
+	para "<PLAYER>: Pardon?" ; para "<PLAYER>: Pardon?"
 
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "<PLAYER>: Je to" ; para "<PLAYER>: Is it"
+	line "zabavne napodobno-" ; line "that fun to mimic"
+	cont "vat kazdy moj tah?" ; cont "my every move?"
 	done
 
 CopycatText_ItsAScream:
-	text "COPYCAT: You bet!"
-	line "It's a scream!"
+	text "COPYCAT: Stav sa!" ; text "COPYCAT: You bet!"
+	line "Je to skvele!" ; line "It's a scream!"
 	done
 
 CopycatText_Female_1:
-	text "<PLAYER>: Hi. You"
-	line "must like #MON."
+	text "<PLAYER>: Cau." ; text "<PLAYER>: Hi. You"
+	line "Mas rad #MON." ; line "must like #MON."
 
-	para "<PLAYER>: No, not"
-	line "me. I asked you."
+	para "<PLAYER>: Nie, nie" ; para "<PLAYER>: No, not"
+	line "ja. Ja sa pytam." ; line "me. I asked you."
 
-	para "<PLAYER>: Pardon?"
-	line "You're weird!"
+	para "<PLAYER>: Pardon?" ; para "<PLAYER>: Pardon?"
+	line "Si divna!" ; line "You're weird!"
 	done
 
 CopycatText_Female_2:
-	text "<PLAYER>: Hi. Did"
-	line "you really lose"
-	cont "your # DOLL?"
+	text "<PLAYER>: Ahoj." ; text "<PLAYER>: Hi. Did"
+	line "Stratila si svoju" ; line "you really lose"
+	cont "babiku # DOLL?" ; cont "your # DOLL?"
 
-	para "<PLAYER>: You'll"
-	line "really give me a"
+	para "<PLAYER>: Ak ju" ; para "<PLAYER>: You'll"
+	line "najdem, das mi" ; line "really give me a"
 
-	para "rail PASS if I"
-	line "find it for you?"
+	para "vlakovy LISTOK?" ; para "rail PASS if I"
+	;line "find it for you?" ; line "find it for you?"
 
-	para "<PLAYER>: Sure,"
-	line "I'll look for it!"
+	para "<PLAYER>: Jasne," ; para "<PLAYER>: Sure,"
+	line "budem hladat!" ; line "I'll look for it!"
 
-	para "You think you lost"
-	line "it when you were"
-	cont "in VERMILION?"
+	para "Myslis, ze si ju" ; para "You think you lost"
+	line "stratila vo" ; line "it when you were"
+	cont "VERMILIONe?" ; cont "in VERMILION?"
 	done
 
 CopycatText_Female_3:
-	text "<PLAYER>: Thank you"
-	line "for the rail PASS!"
+	text "<PLAYER>: Dakujem" ; text "<PLAYER>: Thank you"
+	line "za vlakovy LISTOK!" ; line "for the rail PASS!"
 
-	para "<PLAYER>: …Pardon?"
+	para "<PLAYER>: …Pardon?" ; para "<PLAYER>: …Pardon?"
 
-	para "<PLAYER>: Is it"
-	line "really that fun to"
+	para "<PLAYER>: Je to" ; para "<PLAYER>: Is it"
+	line "naozaj tak vtipne" ; line "really that fun to"
 
-	para "copy what I say"
-	line "and do?"
+	para "opakovat kazdy moj" ; para "copy what I say"
+	line "pohyb?" ; line "and do?"
 	done
 
 CopycatsDodrioText1:
@@ -344,18 +344,18 @@ CopycatsDodrioText1:
 	done
 
 CopycatsDodrioText2:
-	text "MIRROR, MIRROR ON"
-	line "THE WALL, WHO'S"
+	text "Zrkadielko, zrka-" ; text "MIRROR, MIRROR ON"
+	line "dielko, ktoze je" ; line "THE WALL, WHO'S"
 
-	para "THE FAIREST ONE OF"
-	line "ALL?"
+	para "najkrajsi na tejto" ; para "THE FAIREST ONE OF"
+	line "zemi?" ; line "ALL?"
 	done
 
 CopycatsHouse2FDollText:
-	text "This is a rare"
-	line "#MON! Huh?"
+	text "Toto je vzacny" ; text "This is a rare"
+	line "#MON! Hm?" ; line "#MON! Huh?"
 
-	para "It's only a doll…"
+	para "Je to len babika…" ; para "It's only a doll…"
 	done
 
 CopycatsHouse2F_MapEvents:

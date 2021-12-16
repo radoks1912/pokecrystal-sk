@@ -40,89 +40,89 @@ CinnabarIslandBlueTeleport:
 	step_end
 
 CinnabarIslandBlueText:
-	text "Who are you?"
+	text "Kto si?" ; text "Who are you?"
 
-	para "Well, it's plain"
-	line "to see that you're"
-	cont "a trainer…"
+	para "No, je jasne," ; para "Well, it's plain"
+	line "ze si trener…" ; line "to see that you're"
+	;cont "a trainer…" ; cont "a trainer…"
 
-	para "My name's BLUE."
+	para "Volam sa BLUE." ; para "My name's BLUE."
 
-	para "I was once the"
-	line "CHAMPION, although"
+	para "Bol som raz" ; para "I was once the"
+	line "SAMPION, aj ked" ; line "CHAMPION, although"
 
-	para "it was for only a"
-	line "short time…"
+	para "len na kratky" ; para "it was for only a"
+	line "cas…" ; line "short time…"
 
-	para "That meddling RED"
-	line "did me in…"
+	para "Keby nebolo toho" ; para "That meddling RED"
+	line "REDa…" ; line "did me in…"
 
-	para "Anyway, what do"
-	line "you want? You want"
+	para "Kazdopadne, co" ; para "Anyway, what do"
+	line "potrebujes? Chces" ; line "you want? You want"
 
-	para "to challenge me or"
-	line "something?"
+	para "ma vyzvat na zapas" ; para "to challenge me or"
+	line "alebo nieco take?" ; line "something?"
 
-	para "…I hate to say"
-	line "it, but I'm not in"
+	para "…Nerad to hovorim," ; para "…I hate to say"
+	line "ale prave nemam" ; line "it, but I'm not in"
 
-	para "the mood for a"
-	line "battle now."
+	para "velmi naladu na" ; para "the mood for a"
+	line "zapasenie." ; line "battle now."
 
-	para "Take a good look"
-	line "around you…"
+	para "Dobre sa pozri" ; para "Take a good look"
+	line "okolo seba…" ; line "around you…"
 
-	para "A volcano erupts,"
-	line "and just like"
+	para "Vybuchne sopka a" ; para "A volcano erupts,"
+	line "z nicoho nic" ; line "and just like"
 
-	para "that, a whole town"
-	line "disappears."
+	para "zmizne cele mesto." ; para "that, a whole town"
+	;line "disappears." ; line "disappears."
 
-	para "We can go on win-"
-	line "ning and losing in"
+	para "Je to nieco ine" ; para "We can go on win-"
+	line "ako zapasenie s" ; line "ning and losing in"
 
-	para "#MON. But if"
-	line "nature so much as"
+	para "#MONmi. Ale" ; para "#MON. But if"
+	line "ked priroda zaveli" ; line "nature so much as"
 
-	para "twitches, we can"
-	line "lose in a second."
+	para "mozme v sekunde" ; para "twitches, we can"
+	line "vsetko stratit." ; line "lose in a second."
 
 	para "…"
 
-	para "That's the way it"
-	line "is…"
+	para "A takto to fun-" ; para "That's the way it"
+	line "guje…" ; line "is…"
 
-	para "But, anyway, I'm"
-	line "still a trainer."
+	para "Ale kazdopadne," ; para "But, anyway, I'm"
+	line "stale som trener." ; line "still a trainer."
 
-	para "If I see a strong"
-	line "opponent, it makes"
-	cont "me want to battle."
+	para "Ak uvidim silneho" ; para "If I see a strong"
+	line "supera, dostanem" ; line "opponent, it makes"
+	cont "chut zapasit." ; cont "me want to battle."
 
-	para "If you want to"
-	line "battle me, come to"
-	cont "the VIRIDIAN GYM."
+	para "Ak chces zapasit," ; para "If you want to"
+	line "prid ma pozriet" ; line "battle me, come to"
+	cont "do VIRIDIAN GYMu." ; cont "the VIRIDIAN GYM."
 
-	para "I'll take you on"
-	line "then."
+	para "Tam si zmerame" ; para "I'll take you on"
+	line "sily." ; line "then."
 	done
 
 CinnabarIslandGymSignText:
-	text "There's a notice"
-	line "here…"
+	text "Je tu nejaky" ; text "There's a notice"
+	line "oznam…" ; line "here…"
 
-	para "CINNABAR GYM has"
-	line "relocated to SEA-"
-	cont "FOAM ISLANDS."
+	para "CINNABAR GYM sa" ; para "CINNABAR GYM has"
+	line "presunul do SEA-" ; line "relocated to SEA-"
+	cont "FOAM ISLANDS." ; cont "FOAM ISLANDS."
 
-	para "BLAINE"
+	para "BLAINE" ; para "BLAINE"
 	done
 
 CinnabarIslandSignText:
-	text "CINNABAR ISLAND"
+	text "CINNABAR ISLAND" ; text "CINNABAR ISLAND"
 
-	para "The Fiery Town of"
-	line "Burning Desire"
+	para "Ohnive mesto" ; para "The Fiery Town of"
+	line "tuzobnych plamenov" ; line "Burning Desire"
 	done
 
 CinnabarIsland_MapEvents:
