@@ -32,31 +32,31 @@ DarkCaveBlackthornEntranceTMSnore:
 	itemball TM_SNORE
 
 DarkCaveBlackthornEntrancePharmacistText1:
-	text "Whoa! You startled"
-	line "me there!"
+	text "Wou! Vystrasil si" ; text "Whoa! You startled"
+	line "ma!" ; line "me there!"
 
-	para "I had my BLACK-"
-	line "GLASSES on, so I"
+	para "Mal som BLACK-" ; para "I had my BLACK-"
+	line "GLASSES, tak som" ; line "GLASSES on, so I"
 
-	para "didn't notice you"
-	line "at all."
+	para "si ta vobec ne-" ; para "didn't notice you"
+	line "vsimol." ; line "at all."
 
-	para "What am I doing"
-	line "here?"
+	para "Co tu vlastne" ; para "What am I doing"
+	line "robim?" ; line "here?"
 
-	para "Hey, don't you"
-	line "worry about it."
+	para "Hej, netrap sa" ; para "Hey, don't you"
+	line "s tym." ; line "worry about it."
 
-	para "I'll give you a"
-	line "pair of BLACK-"
-	cont "GLASSES, so forget"
-	cont "you saw me, OK?"
+	para "Dam ti tento par" ; para "I'll give you a"
+	line "BLACKGLASSES a" ; line "pair of BLACK-"
+	cont "zabudnes, ze si" ; cont "GLASSES, so forget"
+	cont "ma videl, OK?" ; cont "you saw me, OK?"
 	done
 
 DarkCaveBlackthornEntrancePharmacistText2:
-	text "BLACKGLASSES ups"
-	line "the power of dark-"
-	cont "type moves."
+	text "BLACKGLASSES zvy-" ; text "BLACKGLASSES ups"
+	line "suju silu dark-" ; line "the power of dark-"
+	cont "typ utokov." ; cont "type moves."
 	done
 
 DarkCaveBlackthornEntrance_MapEvents:

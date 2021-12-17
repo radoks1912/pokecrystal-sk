@@ -21,50 +21,50 @@ DayOfWeekSiblingsHousePokedexScript:
 	end
 
 DayOfWeekSiblingsHousePokedexText1:
-	text "There's something"
-	line "written here."
+	text "Nieco tu je na-" ; text "There's something"
+	line "pisane." ; line "written here."
 
-	para "Read it?"
+	para "Precitat?" ; para "Read it?"
 	done
 
 DayOfWeekSiblingsHousePokedexText2:
-	text "To my brothers and"
-	line "sisters:"
+	text "Mojim bratom a" ; text "To my brothers and"
+	line "sestram:" ; line "sisters:"
 
-	para "We take pride in"
-	line "serving #MON"
-	cont "trainers."
+	para "Radi pomahame tre-" ; para "We take pride in"
+	line "nerom" ; line "serving #MON"
+	cont "#MONov." ; cont "trainers."
 
-	para "When trainers talk"
-	line "to you, give them"
-	cont "something useful."
+	para "Ak sa rozpravas s" ; para "When trainers talk"
+	line "trenerom, daj mu" ; line "to you, give them"
+	cont "nieco uzitocne." ; cont "something useful."
 
-	para "Love,"
-	line "MONICA"
+	para "S laskou," ; para "Love,"
+	line "MONICA" ; line "MONICA"
 
-	para "Keep reading?"
+	para "Citat dalej?" ; para "Keep reading?"
 	done
 
 DayOfWeekSiblingsHousePokedexText3:
-	text "Monday, MONICA"
+	text "Pondelok, MONICA" ; text "Monday, MONICA"
 	line "ROUTE 40"
 
-	para "Tuesday, TUSCANY"
+	para "Utorok, TUSCANY" ; para "Tuesday, TUSCANY"
 	line "ROUTE 29"
 
-	para "Wednesday, WESLEY"
+	para "Streda, WESLEY" ; para "Wednesday, WESLEY"
 	line "LAKE OF RAGE"
 
-	para "Thursday, ARTHUR"
+	para "Stvrtok, ARTHUR" ; para "Thursday, ARTHUR"
 	line "ROUTE 36"
 
-	para "Friday, FRIEDA"
+	para "Piatok, FRIEDA" ; para "Friday, FRIEDA"
 	line "ROUTE 32"
 
-	para "Saturday, SANTOS"
+	para "Sobota, SANTOS" ; para "Saturday, SANTOS"
 	line "BLACKTHORN CITY"
 
-	para "Sunday, SUNNY"
+	para "Nedela, SUNNY" ; para "Sunday, SUNNY"
 	line "ROUTE 37"
 	done
 

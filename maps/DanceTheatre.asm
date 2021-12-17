@@ -136,203 +136,204 @@ DanceTheatreFancyPanel:
 	jumptext DanceTheatreFancyPanelText
 
 KimonoGirlNaokoSeenText:
-	text "You have lovely"
-	line "#MON. May I see"
-	cont "them in battle?"
+	text "Mas uzasnych" ; text "You have lovely"
+	line "#MONov. Ukazes" ; line "#MON. May I see"
+	cont "mi ich v zapase?" ; cont "them in battle?"
 	done
 
 KimonoGirlNaokoBeatenText:
-	text "Oh, you are very"
-	line "strong."
+	text "Och, si velmi" ; text "Oh, you are very"
+	line "silny." ; line "strong."
 	done
 
 KimonoGirlNaokoAfterBattleText:
-	text "I enjoyed that"
-	line "bout. I would like"
-	cont "to see you again."
+	text "Vyborny zapas!" ; text "I enjoyed that"
+	line "Chcela by som ta" ; line "bout. I would like"
+	cont "vidiet znova."  ;cont "to see you again."
 	done
 
 KimonoGirlSayoSeenText:
-	text "I always dance"
-	line "with my #MON."
+	text "Vzdy s mojimi" ; text "I always dance"
+	line "#MONmi tancujem." ; line "with my #MON."
 
-	para "Of course, I also"
-	line "train them."
+	para "Ale samozrejme aj" ; para "Of course, I also"
+	line "trenujeme." ; line "train them."
 	done
 
 KimonoGirlSayoBeatenText:
-	text "Oh, so close!"
-	line "I almost had you."
+	text "Och, tak tesne!" ; text "Oh, so close!"
+	line "Skoro som ta mala." ; line "I almost had you."
 	done
 
 KimonoGirlSayoAfterBattleText:
-	text "Rhythm is impor-"
-	line "tant for both"
+	text "Rytmus je dolezity" ; text "Rhythm is impor-"
+	line "pre tanec i samo-" ; line "tant for both"
 
-	para "dancing and #-"
-	line "MON."
+	para "tnych #MONov." ; para "dancing and #-"
+	;line "MON." ; line "MON."
 	done
 
 KimonoGirlZukiSeenText:
-	text "Isn't my barrette"
-	line "pretty?"
+	text "Mam krasnu baretku" ; text "Isn't my barrette"
+	line "vsak?" ; line "pretty?"
 
-	para "Oh. A #MON"
-	line "battle?"
+	para "Oh. #MON" ; para "Oh. A #MON"
+	line "zapas?" ; line "battle?"
 	done
 
 KimonoGirlZukiBeatenText:
-	text "I don't have any"
-	line "#MON left…"
+	text "Uz nemam dalsich" ; text "I don't have any"
+	line "#MONov…" ; line "#MON left…"
 	done
 
 KimonoGirlZukiAfterBattleText:
-	text "I put a different"
-	line "flower in my bar-"
-	cont "rette every month."
+	text "Davam si do bare-" ; text "I put a different"
+	line "tky kazdy mesiac" ; line "flower in my bar-"
+	cont "inu kvetinu." ; cont "rette every month."
 	done
 
 KimonoGirlKuniSeenText:
-	text "Oh, you're a cute"
-	line "trainer. Would you"
-	cont "like to battle?"
+	text "Oh, si tak zlaty" ; text "Oh, you're a cute"
+	line "trener. Chces" ; line "trainer. Would you"
+	cont "zapasit?" ; cont "like to battle?"
 	done
 
 KimonoGirlKuniBeatenText:
-	text "You're stronger"
-	line "than you look."
+	text "Si silnejsi ako" ; text "You're stronger"
+	line "vypadas." ; line "than you look."
 	done
 
 KimonoGirlKuniAfterBattleText:
-	text "I trained a lot,"
-	line "so I thought I was"
+	text "Vela som trenoval," ; text "I trained a lot,"
+	line "tak som si myslel," ; line "so I thought I was"
 
-	para "a capable trainer."
-	line "I guess I'm not."
+	para "ze som dobry tre-" ; para "a capable trainer."
+	line "ner. Bohuzial nie." ; line "I guess I'm not."
 	done
 
 KimonoGirlMikiSeenText:
-	text "Do you like my"
-	line "dancing? I'm good"
-	cont "at #MON too."
+	text "Paci sa ti moj" ; text "Do you like my"
+	line "tanec? Som dobra" ; line "dancing? I'm good"
+	cont "aj v #MONoch." ; cont "at #MON too."
 	done
 
 KimonoGirlMikiBeatenText:
-	text "Ooh, you're good"
-	line "at #MON too."
+	text "Och, si dobry v" ; text "Ooh, you're good"
+	line "#MONoch." ; line "at #MON too."
 	done
 
 KimonoGirlMikiAfterBattleText:
-	text "I can keep dancing"
-	line "because there are"
+	text "Mohla by som tan-" ; text "I can keep dancing"
+	line "covat stale, pre-" ; line "because there are"
 
-	para "people who enjoy"
-	line "what I do."
+	para "toze to ludi" ; para "people who enjoy"
+	line "bavi." ; line "what I do."
 
-	para "My #MON keep my"
-	line "spirits up too."
+	para "Moji #MONi ma" ; para "My #MON keep my"
+	line "drzia nad vodou." ; line "spirits up too."
 	done
 
 SurfGuyNeverLeftAScratchText:
-	text "Not only are the"
-	line "KIMONO GIRLS great"
+	text "KIMONO ZENY su" ; text "Not only are the"
+	line "nielen skvele ta-" ; line "KIMONO GIRLS great"
 
-	para "dancers, they're"
-	line "also skilled at"
-	cont "#MON."
+	para "necnice, ale aj" ; para "dancers, they're"
+	line "schopne trenerky." ; line "also skilled at"
+	;cont "#MON." ; cont "#MON."
 
-	para "I always challenge"
-	line "them, but I've"
+	para "Vzdy ich vyzvem," ; para "I always challenge"
+	line "ale nikdy im" ; line "them, but I've"
 
-	para "never even left a"
-	line "scratch…"
+	para "neurobim ani len" ; para "never even left a"
+	line "skrabanec…" ; line "scratch…"
 	done
 
 SurfGuyLadGiftText:
-	text "Lad! If you can"
-	line "defeat all the"
+	text "Suhaj! Ak porazis" ; text "Lad! If you can"
+	line "vsetky KIMONO ZENY" ; line "defeat all the"
 
-	para "KIMONO GIRLS, I'll"
-	line "give you a gift."
+	para "dostanes odo mna" ; para "KIMONO GIRLS, I'll"
+	line "darcek." ; line "give you a gift."
 	done
 
 SurfGuyLassieGiftText:
-	text "Lassie, if you can"
-	line "defeat all the"
+	text "Lassie, ak porazis" ; text "Lassie, if you can"
+	line "vsetky KIMONO ZENY" ; line "defeat all the"
 
-	para "KIMONO GIRLS, I'll"
-	line "give you a gift."
+	para "dostanes odo mna" ; para "KIMONO GIRLS, I'll"
+	line "darcek." ; line "give you a gift."
 	done
 
 SurfGuyLikeADanceText:
-	text "The way you bat-"
-	line "tled, it was like"
-	cont "watching a dance."
+	text "Sposob tvojho za-" ; text "The way you bat-"
+	line "pasenia bol ako" ; line "tled, it was like"
+	cont "pozeranie tanca." ; cont "watching a dance."
 
-	para "It was a rare"
-	line "treat to see!"
+	para "Bola to vzacna" ; para "It was a rare"
+	line "chvilka!" ; line "treat to see!"
 
-	para "I want you to have"
-	line "this. Don't worry"
-	cont "--take it!"
+	para "Chcem aby si si" ; para "I want you to have"
+	line "vzal toto --" ; line "this. Don't worry"
+	cont "--tu mas!" ; cont "--take it!"
 	done
 
 SurfGuySurfExplanationText:
-	text "That's SURF."
+	text "To je SURF." ; text "That's SURF."
 
-	para "It's a move that"
-	line "lets #MON swim"
-	cont "across water."
+	para "Pomocou neho" ; para "It's a move that"
+	line "dokazes plavat" ; line "lets #MON swim"
+	cont "po vode." ; cont "across water."
 	done
 
 SurfGuyElegantKimonoGirlsText:
-	text "I wish my #MON"
-	line "were as elegant as"
-	cont "the KIMONO GIRLS…"
+	text "Kiezby moji" ; text "I wish my #MON"
+	line "#MONi boli tak" ; line "were as elegant as"
+	cont "elegantni ako" ; cont "the KIMONO GIRLS…"
+	cont "KIMONO ZENY"
 	done
 
 RhydonText:
-	text "RHYDON: Gugooh"
-	line "gugogooh!"
+	text "RHYDON: Gugooh" ; text "RHYDON: Gugooh"
+	line "gugogooh!" ; line "gugogooh!"
 	done
 
 DanceTheatreCooltrainerMText:
-	text "That man's always"
-	line "with his RHYDON."
+	text "Ten muz je vzdy so" ; text "That man's always"
+	line "svojim RHYDONom." ; line "with his RHYDON."
 
-	para "Says he wants a"
-	line "#MON that can"
-	cont "SURF and dance."
+	para "Tvrdi ze chce" ; para "Says he wants a"
+	line "#MON ktory" ; line "#MON that can"
+	cont "SURFuje a tancuje." ; cont "SURF and dance."
 
-	para "Is he trying to"
-	line "make a synchro-"
-	cont "nized swimming"
-	cont "#MON?"
+	para "Snazi sa mat" ; para "Is he trying to"
+	line "#MONa na syn-" ; line "make a synchro-"
+	cont "chronizovane" ; cont "nized swimming"
+	cont "plavanie?" ; cont "#MON?"
 	done
 
 DanceTheatreGrannyText:
-	text "The KIMONO GIRLS"
-	line "are so beautiful…"
+	text "KIMONO ZENY su" ; text "The KIMONO GIRLS"
+	line "prekrasne…" ; line "are so beautiful…"
 
-	para "But they have to"
-	line "go through rigor-"
-	cont "ous training."
+	para "Ale musia podstu-" ; para "But they have to"
+	line "povat narocny" ; line "go through rigor-"
+	cont "trening." ; cont "ous training."
 
-	para "And they have to"
-	line "learn to follow"
+	para "A museli sa naucit" ; para "And they have to"
+	line "aj zvyky predtym," ; line "learn to follow"
 
-	para "customs before ap-"
-	line "pearing in public."
+	para "nez vystupovali na" ; para "customs before ap-"
+	line "verejnosti." ; line "pearing in public."
 
-	para "But if you love"
-	line "something, any-"
-	cont "thing is possible."
+	para "Ale ak nieco ro-" ; para "But if you love"
+	line "bis rad, vsetko je" ; line "something, any-"
+	cont "mozne." ; cont "thing is possible."
 	done
 
 DanceTheatreFancyPanelText:
-	text "It's a fancy panel"
-	line "that's decorated"
-	cont "with flowers."
+	text "Je to luxusny pa-" ; text "It's a fancy panel"
+	line "nel ozdobeny" ; line "that's decorated"
+	cont "kvetinami." ; cont "with flowers."
 	done
 
 DanceTheatre_MapEvents:

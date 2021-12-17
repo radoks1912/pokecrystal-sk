@@ -102,27 +102,28 @@ Text_DayCareManTalksAboutEggTicket: ; unreferenced
 	done
 
 DayCareManText_GiveOddEgg:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Som DAY-CARE" ; text "I'm the DAY-CARE"
+	line "MAN." ; line "MAN."
 
-	para "Do you know about"
-	line "EGGS?"
+	para "Pocul si uz o" ; para "Do you know about"
+	line "VAJICKACH?" ; line "EGGS?"
 
-	para "I was raising"
-	line "#MON with my"
-	cont "wife, you see."
+	para "Staral som sa o" ; para "I was raising"
+	line "#MONa s mojou" ; line "#MON with my"
+	cont "zenou, vies." ; cont "wife, you see."
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "Boli sme sokovani," ; para "We were shocked to"
+	line "ked sme nasli" ; line "find an EGG!"
+	cont "VAJICKO!"
 
-	para "How incredible is"
-	line "that?"
+	para "Neuveritelne," ; para "How incredible is"
+	line "vsak?" ; line "that?"
 
-	para "Well, wouldn't you"
-	line "like this EGG?"
+	para "Hm, nechcel by si" ; para "Well, wouldn't you"
+	line "to VAJICKO?" ; line "like this EGG?"
 
-	para "Then fine, this is"
-	line "yours to keep!"
+	para "Je to v poriadku," ; para "Then fine, this is"
+	line "vezmi si ho!" ; line "yours to keep!"
 	done
 
 DayCareText_ComeAgain: ; unreferenced
