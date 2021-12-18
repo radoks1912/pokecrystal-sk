@@ -203,204 +203,207 @@ MovementDragonsDen_ClairWalksAway:
 	step_end
 
 ClairText_Wait:
-	text "Wait!"
+	text "Pockaj!" ; text "Wait!"
 	done
 
 ClairText_GiveDragonbreathDragonDen:
-	text "CLAIR: I'm sorry"
-	line "about this."
+	text "CLAIR: Je mi to" ; text "CLAIR: I'm sorry"
+	line "luto." ; line "about this."
 
-	para "Here, take this as"
-	line "my apology."
+	para "Prosim, vezmi si" ; para "Here, take this as"
+	line "to ako ospravedl-." ; line "my apology."
+	cont "nenie."
 	done
 
 Text_ReceivedTM24:
-	text "<PLAYER> received"
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
 	line "TM24."
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
-	text "That contains"
-	line "DRAGONBREATH."
+	text "Obsahuje to" ; text "That contains"
+	line "DRAGONBREATH." ; line "DRAGONBREATH."
 
-	para "No, it doesn't"
-	line "have anything to"
-	cont "do with my breath."
+	para "Nie, nema to nic" ; para "No, it doesn't"
+	line "docinenia s mojim" ; line "have anything to"
+	cont "dychom." ; cont "do with my breath."
 
-	para "If you don't want"
-	line "it, you don't have"
-	cont "to take it."
+	para "Ak to nechces," ; para "If you don't want"
+	line "nemusis si to zo-" ; line "it, you don't have"
+	cont "brat." ; cont "to take it."
 	done
 
 ClairText_NoRoom:
-	text "Oh? You don't have"
-	line "any room for this."
+	text "Oh? Nemas na to" ; text "Oh? You don't have"
+	line "ziadne miesto." ; line "any room for this."
 
-	para "I'm going back to"
-	line "the GYM, so make"
+	para "Idem spat do GYMu," ; para "I'm going back to"
+	line "takze si sprav" ; line "the GYM, so make"
 
-	para "room, then come"
-	line "see me there."
+	para "miesto, a prid tam" ; para "room, then come"
+	line "potom za mnou." ; line "see me there."
 	done
 
 ClairText_WhatsTheMatterDragonDen:
-	text "CLAIR: What's the"
-	line "matter? Aren't you"
+	text "CLAIR: Co sa deje?" ; text "CLAIR: What's the"
+	line "Chystas sa do" ; line "matter? Aren't you"
 
-	para "going on to the"
-	line "#MON LEAGUE?"
+	para "#MON LEAGUE?" ; para "going on to the"
+	;line "?" ; line "#MON LEAGUE?"
 
-	para "Do you know how to"
-	line "get there?"
+	para "Vies ako sa tam" ; para "Do you know how to"
+	line "mas dostat?" ; line "get there?"
 
-	para "From here, go to"
-	line "NEW BARK TOWN."
+	para "Odtialto chod do" ; para "From here, go to"
+	line "NEW BARK TOWN." ; line "NEW BARK TOWN."
 
-	para "Then SURF east to"
-	line "#MON LEAGUE."
+	para "Potom SURFuj na" ; para "Then SURF east to"
+	line "vychod do" ; line "#MON LEAGUE."
+	cont "#MON LEAGUE."
 
-	para "The route there is"
-	line "very tough."
+	para "Cesta tam je velmi" ; para "The route there is"
+	line "narocna." ; line "very tough."
 
-	para "Don't you dare"
-	line "lose at the #-"
-	cont "MON LEAGUE!"
+	para "Neopovaz sa pre-" ; para "Don't you dare"
+	line "hrat v #-" ; line "lose at the #-"
+	cont "MON LEAGUE!" ; cont "MON LEAGUE!"
 
-	para "If you do, I'll"
-	line "feel even worse"
+	para "Ak prehras, budem" ; para "If you do, I'll"
+	line "sa citit este" ; line "feel even worse"
 
-	para "about having lost"
-	line "to you!"
+	para "horsie, ze som s" ; para "about having lost"
+	line "tebou prehrala!" ; line "to you!"
 
-	para "Give it everything"
-	line "you've got."
+	para "Daj zo seba maxi-" ; para "Give it everything"
+	line "mum." ; line "you've got."
 	done
 
 DragonShrineSignpostText:
-	text "DRAGON SHRINE"
+	text "DRAGON SHRINE" ; text "DRAGON SHRINE"
 
-	para "A shrine honoring"
-	line "the dragon #MON"
+	para "Svatyna na pocest" ; para "A shrine honoring"
+	line "dracich #MONov" ; line "the dragon #MON"
 
-	para "said to have lived"
-	line "in DRAGON'S DEN."
+	para "ktori ziju v" ; para "said to have lived"
+	line "DRAGON'S DEN." ; line "in DRAGON'S DEN."
 	done
 
 SilverText_Training1:
 	text "…"
-	line "What? <PLAYER>?"
+	line "Coze? <PLAYER>?" ; line "What? <PLAYER>?"
 
-	para "…No, I won't"
-	line "battle you now…"
+	para "…Nie, nebudeme" ; para "…No, I won't"
+	line "teraz zapasit…" ; line "battle you now…"
 
-	para "My #MON aren't"
-	line "ready to beat you."
+	para "Moji #MONi nie" ; para "My #MON aren't"
+	line "su pripraveni." ; line "ready to beat you."
 
-	para "I can't push them"
-	line "too hard now."
+	para "Nemozem na nich" ; para "I can't push them"
+	line "teraz tlacit." ; line "too hard now."
 
-	para "I have to be dis-"
-	line "ciplined to become"
+	para "Musim byt discip-" ; para "I have to be dis-"
+	line "linovany a stanem" ; line "ciplined to become"
 
-	para "the greatest #-"
-	line "MON trainer…"
+	para "sa najvacsim #-" ; para "the greatest #-"
+	line "MON trenerom…" ; line "MON trainer…"
 	done
 
 SilverText_Training2:
 	text "…"
 
-	para "Whew…"
+	para "Fuh…" ; para "Whew…"
 
-	para "Learn to stay out"
-	line "of my way…"
+	para "Nauc sa nestat" ; para "Learn to stay out"
+	line "mi v ceste…" ; line "of my way…"
 	done
 
 CooltrainermDarinSeenText:
-	text "You! How dare you"
-	line "enter uninvited!"
+	text "Ty! Ako sa opova-" ; text "You! How dare you"
+	line "zujes vstupit" ; line "enter uninvited!"
+	cont "nepozvany!"
 	done
 
 CooltrainermDarinBeatenText:
-	text "S-strong!"
+	text "S-silny!" ; text "S-strong!"
 	done
 
 CooltrainermDarinAfterBattleText:
-	text "The SHRINE ahead"
-	line "is home to the"
+	text "SVATYNA je domov" ; text "The SHRINE ahead"
+	line "pre nasho" ; line "is home to the"
 
-	para "MASTER of our"
-	line "dragon-user clan."
+	para "MASTERa nasho" ; para "MASTER of our"
+	line "dracieho klanu." ; line "dragon-user clan."
 
-	para "You're not allowed"
-	line "to just go in!"
+	para "Nemozes vstupit" ; para "You're not allowed"
+	line "dnu!" ; line "to just go in!"
 	done
 
 CooltrainerfCaraSeenText:
-	text "You shouldn't be"
-	line "in here!"
+	text "Nemal by si tu" ; text "You shouldn't be"
+	line "byt!" ; line "in here!"
 	done
 
 CooltrainerfCaraBeatenText:
-	text "Oh yikes, I lost!"
+	text "Och, kelu, prehra!" ; text "Oh yikes, I lost!"
 	done
 
 CooltrainerfCaraAfterBattleText:
-	text "Soon I'm going to"
-	line "get permission"
+	text "Zanedlho dostanem" ; text "Soon I'm going to"
+	line "povolenie od nasho" ; line "get permission"
 
-	para "from our MASTER to"
-	line "use dragons."
+	para "MASTERa na pouzi-" ; para "from our MASTER to"
+	line "vanie drakov." ; line "use dragons."
 
-	para "When I do, I'm"
-	line "going to become an"
+	para "Ked ho budem mat," ; para "When I do, I'm"
+	line "stanem sa uznava-" ; line "going to become an"
 
-	para "admirable dragon"
-	line "trainer and gain"
+	para "nym dracim trene-" ; para "admirable dragon"
+	line "rom a ziskam" ; line "trainer and gain"
 
-	para "our MASTER's"
-	line "approval."
+	para "MASTERovo" ; para "our MASTER's"
+	line "uznanie." ; line "approval."
 	done
 
 TwinsLeaandpia1SeenText:
-	text "It's a stranger we"
-	line "don't know."
+	text "Je to cudak, kto-" ; text "It's a stranger we"
+	line "reho nepozname." ; line "don't know."
 	done
 
 TwinsLeaandpia1BeatenText:
-	text "Ouchies."
+	text "Auauau." ; text "Ouchies."
 	done
 
 TwinsLeaandpia1AfterBattleText:
-	text "It was like having"
-	line "to battle LANCE."
+	text "Bolo to ako zapa-" ; text "It was like having"
+	line "sit s LANCEom." ; line "to battle LANCE."
 	done
 
 TwinsLeaandpia2SeenText:
-	text "Who are you?"
+	text "Kto si?" ; text "Who are you?"
 	done
 
 TwinsLeaandpia2BeatenText:
-	text "Meanie."
+	text "Si kruty." ; text "Meanie."
 	done
 
 TwinsLeaandpia2AfterBattleText:
-	text "We'll tell on you."
+	text "Nabonzujeme ta." ; text "We'll tell on you."
 
-	para "MASTER will be"
-	line "angry with you."
+	para "MASTER sa na teba" ; para "MASTER will be"
+	line "bude hnevat." ; line "angry with you."
 	done
 
 Text_FoundDragonFang:
-	text "<PLAYER> found"
+	text "<PLAYER> nasiel" ; text "<PLAYER> found"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 Text_NoRoomForDragonFang:
-	text "But <PLAYER> can't"
-	line "carry any more"
-	cont "items."
+	text "Ale <PLAYER> ne-" ; text "But <PLAYER> can't"
+	line "moze niest viacej" ; line "carry any more"
+	cont "veci." ; cont "items."
 	done
 
 DragonsDenB1F_MapEvents:
