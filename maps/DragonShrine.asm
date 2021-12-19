@@ -272,9 +272,9 @@ DragonShrineQuestion1_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Pal@"
-	db "Underling@"
-	db "Friend@"
+	db "Kolega@" ; db "Pal@"
+	db "Podriadeny@" ; db "Underling@"
+	db "Kamarat@" ; db "Friend@"
 
 DragonShrineQuestion2_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -285,9 +285,9 @@ DragonShrineQuestion2_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Strategy@"
-	db "Raising@"
-	db "Cheating@"
+	db "Strategia@" ; db "Strategy@"
+	db "Vychova@" ; db "Raising@"
+	db "Podvod@" ; db "Cheating@"
 
 DragonShrineQuestion3_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -298,9 +298,9 @@ DragonShrineQuestion3_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Weak person@"
-	db "Tough person@"
-	db "Anybody@"
+	db "Slabosi@" ; db "Weak person@"
+	db "Silaci@" ; db "Tough person@"
+	db "Akykolvek@" ; db "Anybody@"
 
 DragonShrineQuestion4_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -311,9 +311,9 @@ DragonShrineQuestion4_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Love@"
-	db "Violence@"
-	db "Knowledge@"
+	db "Laska@" ; db "Love@"
+	db "Nasilie@" ; db "Violence@"
+	db "Znalost@" ; db "Knowledge@"
 
 DragonShrineQuestion5_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -324,9 +324,9 @@ DragonShrineQuestion5_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Tough@"
-	db "Both@"
-	db "Weak@"
+	db "Silny@" ; db "Tough@"
+	db "Obaja@" ; db "Both@"
+	db "Slaby@" ; db "Weak@"
 
 DragonShrinePlayerWalkInMovement:
 	slow_step UP
@@ -392,263 +392,263 @@ DragonShrineClairWalkOutMovement:
 	step_end
 
 DragonShrineElderGreetingText:
-	text "Hm… Good to see"
-	line "you here."
+	text "Hm… Som rad, ze" ; text "Hm… Good to see"
+	line "ta tu vidim." ; line "you here."
 
-	para "No need to explain"
-	line "why you came."
+	para "Nemusis vysvetlo-" ; para "No need to explain"
+	line "vat, preco si tu." ; line "why you came."
 
-	para "CLAIR sent you"
-	line "here, didn't she?"
+	para "Poslala ta CLAIR," ; para "CLAIR sent you"
+	line "vsak?" ; line "here, didn't she?"
 
-	para "That girl is a"
-	line "handful…"
+	para "Ta zena je teda" ; para "That girl is a"
+	line "nezvladnutelna…" ; line "handful…"
 
-	para "I am sorry, but I"
-	line "must test you."
+	para "Prepac, ale musim" ; para "I am sorry, but I"
+	line "ta otestovat." ; line "must test you."
 
-	para "Not to worry, you"
-	line "are to answer only"
-	cont "a few questions."
+	para "Neboj sa, je to" ; para "Not to worry, you"
+	line "iba zopar otazok." ; line "are to answer only"
+	;cont "a few questions." ; cont "a few questions."
 
-	para "Ready?"
+	para "Pripraveny?" ; para "Ready?"
 	done
 
 DragonShrineQuestion1Text:
-	text "What are #MON"
-	line "to you?"
+	text "Co je pre teba" ; text "What are #MON"
+	line "#MON?" ; line "to you?"
 	done
 
 DragonShrineQuestion2Text:
-	text "What helps you to"
-	line "win battles?"
+	text "Co ti pomaha vy-" ; text "What helps you to"
+	line "hrat zapasy?" ; line "win battles?"
 	done
 
 DragonShrineQuestion3Text:
-	text "What kind of"
-	line "trainer do you"
-	cont "wish to battle?"
+	text "S akymi trenermi" ; text "What kind of"
+	line "by si si prial" ; line "trainer do you"
+	cont "zapasit?" ; cont "wish to battle?"
 	done
 
 DragonShrineQuestion4Text:
-	text "What is most"
-	line "important for"
-	cont "raising #MON?"
+	text "Co je najdolezi-" ; text "What is most"
+	line "tejsie pri vychove" ; line "important for"
+	cont "#MON?" ; cont "raising #MON?"
 	done
 
 DragonShrineQuestion5Text:
-	text "Strong #MON."
-	line "Weak #MON."
+	text "Silny #MON." ; text "Strong #MON."
+	line "Slaby #MON." ; line "Weak #MON."
 
-	para "Which is more"
-	line "important?"
+	para "Ktory je dolezi-" ; para "Which is more"
+	line "tejsi?" ; line "important?"
 	done
 
 DragonShrinePassedTestText:
-	text "Hm… I see…"
+	text "Hm… Vidim…" ; text "Hm… I see…"
 
-	para "You care deeply"
-	line "for #MON."
+	para "Velmi ti zalezi na" ; para "You care deeply"
+	line "#MONoch." ; line "for #MON."
 
-	para "Very commendable."
+	para "Chvalihodne." ; para "Very commendable."
 
-	para "That conviction is"
-	line "what is important!"
+	para "Presvedcenie je" ; para "That conviction is"
+	line "najdolezitejsie!" ; line "what is important!"
 
-	para "<PLAYER>, don't"
-	line "lose that belief."
+	para "<PLAYER>, nestrat" ; para "<PLAYER>, don't"
+	line "tu vieru." ; line "lose that belief."
 
-	para "It will see you"
-	line "through at the"
-	cont "#MON LEAGUE."
+	para "Pomoze ti neskor v" ; para "It will see you"
+	line "#MON LEAGUE." ; line "through at the"
+	;cont "." ; cont "#MON LEAGUE."
 	done
 
 DragonShrineMustIInformLanceText:
-	text "CLAIR!"
+	text "CLAIR!" ; text "CLAIR!"
 
-	para "This child is"
-	line "impeccable, in"
-	cont "skill and spirit!"
+	para "Tento synak je" ; para "This child is"
+	line "dokonaly, v sikov-" ; line "impeccable, in"
+	cont "nosti aj duchovne!" ; cont "skill and spirit!"
 
-	para "Admit defeat and"
-	line "confer the RISING-"
-	cont "BADGE!"
+	para "Priznaj porazku a" ; para "Admit defeat and"
+	line "udel RISINGBADGE!" ; line "confer the RISING-"
+	;cont "BADGE!" ; cont "BADGE!"
 
-	para "…Or must I inform"
-	line "LANCE of this?"
+	para "…Alebo to mam o-" ; para "…Or must I inform"
+	line "znamit LANCEovi?" ; line "LANCE of this?"
 	done
 
 DragonShrineElderScoldsClairText:
-	text "CLAIR…"
+	text "CLAIR…" ; text "CLAIR…"
 
-	para "Reflect upon what"
-	line "it is that you"
+	para "Zamysli sa nad" ; para "Reflect upon what"
+	line "tym, co ti chyba," ; line "it is that you"
 
-	para "lack and this"
-	line "child has."
+	para "co tento synak" ; para "lack and this"
+	line "ma." ; line "child has."
 	done
 
 DragonShrineComeAgainText:
-	text "Come again, if you"
-	line "so desire."
+	text "Prid znova, ak" ; text "Come again, if you"
+	line "si zelas." ; line "so desire."
 	done
 
 DragonShrineTakeThisDratiniText:
-	text "Hm… Good to see"
-	line "you here."
+	text "Hm… Som rad, ze" ; text "Hm… Good to see"
+	line "ta tu vidim." ; line "you here."
 
-	para "Your arrival is"
-	line "most fortunate."
+	para "Tvoj prichod je" ; para "Your arrival is"
+	line "skvely." ; line "most fortunate."
 
-	para "I have something"
-	line "for you."
+	para "Nieco pre teba" ; para "I have something"
+	line "mam." ; line "for you."
 
-	para "Take this DRATINI"
-	line "as proof that I"
+	para "Vezmi si DRATINIho" ; para "Take this DRATINI"
+	line "ako dokaz, ze" ; line "as proof that I"
 
-	para "have recognized"
-	line "your worth."
+	para "si uznavany" ; para "have recognized"
+	line "trener." ; line "your worth."
 	done
 
 DragonShrinePlayerReceivedDratiniText:
-	text "<PLAYER> received"
-	line "DRATINI!"
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
+	line "DRATINI!" ; line "DRATINI!"
 	done
 
 DragonShrinePartyFullText:
-	text "Hm? Your #MON"
-	line "party is full."
+	text "Hm? Mas plnu" ; text "Hm? Your #MON"
+	line "partu." ; line "party is full."
 	done
 
 DragonShrineSymbolicDragonText:
-	text "Dragon #MON are"
-	line "symbolic of our"
-	cont "clan."
+	text "Draci #MONi su" ; text "Dragon #MON are"
+	line "symbolom naseho" ; line "symbolic of our"
+	cont "klanu." ; cont "clan."
 
-	para "You have shown"
-	line "that you can be"
+	para "Ukazal si, ze ti" ; para "You have shown"
+	line "moze byt jeden" ; line "that you can be"
 
-	para "entrusted with"
-	line "one."
+	para "drak zdeleny." ; para "entrusted with"
+	;line "one." ; line "one."
 	done
 
 DragonShrineClairsGrandfatherText:
-	text "CLAIR appears to"
-	line "have learned an"
+	text "CLAIR sa od teba" ; text "CLAIR appears to"
+	line "dostala neocenite-" ; line "have learned an"
 
-	para "invaluable lesson"
-	line "from you."
+	para "lnu lekciu." ; para "invaluable lesson"
+	;line "from you." ; line "from you."
 
-	para "I thank you as her"
-	line "grandfather."
+	para "Dakujem ti ako jej" ; para "I thank you as her"
+	line "stary otec." ; line "grandfather."
 	done
 
 DragonShrineSilverIsInTrainingText:
-	text "A boy close to"
-	line "your age is in"
-	cont "training here."
+	text "Chlapec v tvojom" ; text "A boy close to"
+	line "veku tu taktiez" ; line "your age is in"
+	cont "trenuje." ; cont "training here."
 
-	para "He is much like"
-	line "CLAIR when she was"
+	para "Je ako CLAIR, ked" ; para "He is much like"
+	line "bola mladsia." ; line "CLAIR when she was"
 
-	para "younger. It is a"
-	line "little worrisome…"
+	para "Je to trochu" ; para "younger. It is a"
+	line "znepokojujuce…" ; line "little worrisome…"
 	done
 
 DragonShrineWrongAnswerText1:
-	text "Hah? I didn't"
-	line "quite catch that…"
+	text "Hah? Nepocul som" ; text "Hah? I didn't"
+	line "ta dobre…" ; line "quite catch that…"
 	done
 
 DragonShrineWrongAnswerText2:
-	text "What was it you"
-	line "said?"
+	text "Co si to" ; text "What was it you"
+	line "hovoril?" ; line "said?"
 	done
 
 DragonShrineRightAnswerText:
-	text "Oh, I understand…"
+	text "Och, rozumiem…" ; text "Oh, I understand…"
 	done
 
 DragonShrineElder2Text:
-	text "It's been quite"
-	line "some time since a"
+	text "Uz je to nejaka" ; text "It's been quite"
+	line "chvila, co trener" ; line "some time since a"
 
-	para "trainer has gained"
-	line "our MASTER's rare"
-	cont "approval."
+	para "dostal od naseho" ; para "trainer has gained"
+	line "MASTERa suhlas." ; line "our MASTER's rare"
+	;cont "approval." ; cont "approval."
 
-	para "In fact, not since"
-	line "Master LANCE."
+	para "V podstate nie od" ; para "In fact, not since"
+	line "Mastera LANCEa." ; line "Master LANCE."
 	done
 
 DragonShrineElder3Text:
-	text "You know young"
-	line "Master LANCE?"
+	text "Poznas mladeho" ; text "You know young"
+	line "Mastera LANCEa?" ; line "Master LANCE?"
 
-	para "He looks so much"
-	line "like our MASTER"
-	cont "did in his youth."
+	para "Vypada uplne ro-" ; para "He looks so much"
+	line "nako ako nas" ; line "like our MASTER"
+	cont "MASTER zamlada." ; cont "did in his youth."
 
-	para "It's in their"
-	line "blood."
+	para "Maju to v" ; para "It's in their"
+	line "krvi." ; line "blood."
 	done
 
 DragonShrineClairYouPassedText:
-	text "So how did it go?"
+	text "Tak ako to islo?" ; text "So how did it go?"
 
-	para "I guess there's no"
-	line "point in asking."
+	para "Naco sa ta vlastne" ; para "I guess there's no"
+	line "pytam." ; line "point in asking."
 
-	para "You did fail?"
+	para "Nepresiel si?" ; para "You did fail?"
 
 	para "<……><……><……><……><……><……>"
 
-	para "…What? You passed?"
+	para "…Coze? Presiel?" ; para "…What? You passed?"
 	done
 
 DragonShrineClairThatCantBeText:
-	text "That can't be!"
+	text "Nemozne!" ; text "That can't be!"
 	done
 
 DragonShrineClairYoureLyingText:
-	text "You're lying!"
+	text "Klames!" ; text "You're lying!"
 
-	para "Even I haven't"
-	line "been approved!"
+	para "Ani ja som este" ; para "Even I haven't"
+	line "nedostala suhlas!" ; line "been approved!"
 	done
 
 DragonShrineIUnderstandText:
-	text "I-I understand…"
+	text "Ro-rozumiem…" ; text "I-I understand…"
 	done
 
 DragonShrineHereRisingBadgeText:
-	text "Here, this is the"
-	line "RISINGBADGE…"
+	text "Prosim, tu je" ; text "Here, this is the"
+	line "RISINGBADGE…" ; line "RISINGBADGE…"
 
-	para "Hurry up! Take it!"
+	para "Rychlo! Vezmi ho!" ; para "Hurry up! Take it!"
 	done
 
 DragonShrinePlayerReceivedRisingBadgeText:
-	text "<PLAYER> received"
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
 	line "RISINGBADGE."
 	done
 
 DragonShrineRisingBadgeExplanationText:
-	text "RISINGBADGE will"
-	line "enable your"
+	text "RISINGBADGE umozni" ; text "RISINGBADGE will"
+	line "tvojim #MON" ; line "enable your"
 
-	para "#MON to use the"
-	line "move for climbing"
-	cont "waterfalls."
+	para "pouzivat utok" ; para "#MON to use the"
+	line "na vystup na" ; line "move for climbing"
+	cont "vodopady." ; cont "waterfalls."
 
-	para "Also, all #MON"
-	line "will recognize you"
+	para "Vsetci #MON" ; para "Also, all #MON"
+	line "ta budu uznavat" ; line "will recognize you"
 
-	para "as a trainer and"
-	line "obey your every"
+	para "ako trenera a po-" ; para "as a trainer and"
+	line "sluchnu kazdy tvoj" ; line "obey your every"
 
-	para "command without"
-	line "question."
+	para "prikaz bez" ; para "command without"
+	line "otazok." ; line "question."
 	done
 
 DragonShrineSpeechlessText:
