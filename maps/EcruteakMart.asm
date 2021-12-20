@@ -21,26 +21,26 @@ EcruteakMartGrannyScript:
 	jumptextfaceplayer EcruteakMartGrannyText
 
 EcruteakMartSuperNerdText:
-	text "My EEVEE evolved"
-	line "into an ESPEON."
+	text "Moj EEVEE sa vyvi-" ; text "My EEVEE evolved"
+	line "nul na ESPEONa." ; line "into an ESPEON."
 
-	para "But my friend's"
-	line "EEVEE turned into"
-	cont "an UMBREON."
+	para "Ale kamaratov" ; para "But my friend's"
+	line "EEVEE sa zmenil" ; line "EEVEE turned into"
+	cont "na UMBREONa." ; cont "an UMBREON."
 
-	para "I wonder why? We"
-	line "both were raising"
+	para "Ktovie preco?" ; para "I wonder why? We"
+	line "Obaja sme ich" ; line "both were raising"
 
-	para "our EEVEE in the"
-	line "same way…"
+	para "trenovali uplne" ; para "our EEVEE in the"
+	line "rovnako…" ; line "same way…"
 	done
 
 EcruteakMartGrannyText:
-	text "If you use REVIVE,"
-	line "a #MON that's"
+	text "REVIVE sluzi na" ; text "If you use REVIVE,"
+	line "ozivenie #MONa" ; line "a #MON that's"
 
-	para "fainted will wake"
-	line "right up."
+	para "ktory odpadol." ; para "fainted will wake"
+	;line "right up." ; line "right up."
 	done
 
 EcruteakMart_MapEvents:

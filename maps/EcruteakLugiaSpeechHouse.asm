@@ -17,29 +17,29 @@ LugiaSpeechHouseRadio:
 	jumpstd Radio2Script
 
 EcruteakLugiaSpeechHouseGrampsText:
-	text "This happened when"
-	line "I was young."
+	text "Toto sa stalo, ked" ; text "This happened when"
+	line "som bol mlady." ; line "I was young."
 
-	para "The sky suddenly"
-	line "turned black. A"
+	para "Obloha nahle" ; para "The sky suddenly"
+	line "zcernela. Obrovsky" ; line "turned black. A"
 
-	para "giant flying #-"
-	line "MON was blocking"
-	cont "out the sun."
+	para "lietajuci #-" ; para "giant flying #-"
+	line "MON zablokoval" ; line "MON was blocking"
+	cont "slnko." ; cont "out the sun."
 
-	para "I wonder what that"
-	line "#MON was? "
+	para "Co to bolo za" ; para "I wonder what that"
+	line "#MONa? " ; line "#MON was? "
 
-	para "It was like a bird"
-	line "and a dragon."
+	para "Bol to ako vtak" ; para "It was like a bird"
+	line "a drak zaroven." ; line "and a dragon."
 	done
 
 EcruteakLugiaSpeechHouseYoungsterText:
-	text "Is there really a"
-	line "#MON that big?"
+	text "Naozaj existuje" ; text "Is there really a"
+	line "#MON tak velky?" ; line "#MON that big?"
 
-	para "If it exists, it"
-	line "must be powerful."
+	para "Ak ano, musi byt" ; para "If it exists, it"
+	line "velmi silny." ; line "must be powerful."
 	done
 
 EcruteakLugiaSpeechHouse_MapEvents:

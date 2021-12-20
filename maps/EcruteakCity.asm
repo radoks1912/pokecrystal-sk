@@ -109,151 +109,152 @@ UnusedMissingDaughterText: ; unreferenced
 	done
 
 EcruteakCityGramps1Text:
-	text "ECRUTEAK used to"
-	line "have two towers:"
+	text "ECRUTEAK kedysi" ; text "ECRUTEAK used to"
+	line "mal dve veze:" ; line "have two towers:"
 
-	para "one each in the"
-	line "east and west."
+	para "jednu na vychode a" ; para "one each in the"
+	line "jednu na zapade." ; line "east and west."
 	done
 
 EcruteakCityGramps2Text:
-	text "Ah, child."
-	line "Have you learned"
+	text "Ach, dieta." ; text "Ah, child."
+	line "Naucil si sa tan-" ; line "Have you learned"
 
-	para "to dance like the"
-	line "KIMONO GIRLS?"
+	para "covat ako nase" ; para "to dance like the"
+	line "KIMONO ZENY?" ; line "KIMONO GIRLS?"
 
-	para "If you go to their"
-	line "DANCE THEATER, an"
+	para "Ak pojdes do ich" ; para "If you go to their"
+	line "DANCE THEATERu," ; line "DANCE THEATER, an"
 
-	para "odd old man will"
-	line "give you something"
-	cont "nice, I hear."
+	para "zvlastny starsi" ; para "odd old man will"
+	line "pan ti da nieco" ; line "give you something"
+	cont "uzitocne." ; cont "nice, I hear."
 	done
 
 EcruteakCityLass1Text:
-	text "I'm going to prac-"
-	line "tice at the DANCE"
+	text "Budem trenovat" ; text "I'm going to prac-"
+	line "v DANCE THEATER." ; line "tice at the DANCE"
 
-	para "THEATER. Care to"
-	line "join me?"
+	para "Chces sa ku mne" ; para "THEATER. Care to"
+	line "pridat?" ; line "join me?"
 	done
 
 EcruteakCityLass2Text:
-	text "The tower that"
-	line "used to be here…"
+	text "Ta veza, ktora tu" ; text "The tower that"
+	line "kedysi bola…" ; line "used to be here…"
 
-	para "My grandma told me"
-	line "it used to be much"
-	cont "taller."
+	para "Babka hovori, ze" ; para "My grandma told me"
+	line "kedysi bola ovela" ; line "it used to be much"
+	cont "vacsia." ; cont "taller."
 	done
 
 EcruteakCityLass2Text_ReleasedBeasts:
-	text "Three big #MON"
-	line "ran off in differ-"
-	cont "ent directions."
-	cont "What were they?"
+	text "Traja velki" ; text "Three big #MON"
+	line "#MON sa roz-" ; line "ran off in differ-"
+	cont "prchli roznymi" ; cont "ent directions."
+	cont "smermi." ; cont "What were they?"
 	done
 
 EcruteakCityFisherText:
-	text "I heard a rumor"
-	line "about OLIVINE"
-	cont "LIGHTHOUSE."
+	text "Pocul som famu" ; text "I heard a rumor"
+	line "o OLIVINE" ; line "about OLIVINE"
+	cont "MAJAKU." ; cont "LIGHTHOUSE."
 
-	para "The #MON that"
-	line "serves as the"
+	para "#MON, ktory" ; para "The #MON that"
+	line "sluzi ako " ; line "serves as the"
 
-	para "beacon fell ill."
-	line "Sounds like they"
-	cont "are in trouble."
+	para "majak, ochorel." ; para "beacon fell ill."
+	line "Znie to akoby" ; line "Sounds like they"
+	cont "mali problemy." ; cont "are in trouble."
 	done
 
 EcruteakCityFisherText_JasmineReturned:
-	text "The #MON at"
-	line "OLIVINE LIGHTHOUSE"
-	cont "has been cured."
+	text "#MON v" ; text "The #MON at"
+	line "OLIVINE MAJAKU" ; line "OLIVINE LIGHTHOUSE"
+	cont "je vylieceny." ; cont "has been cured."
 
-	para "Boats can safely"
-	line "sail out to sea at"
-	cont "night again."
+	para "Lode mozu opat" ; para "Boats can safely"
+	line "v noci bezpecne" ; line "sail out to sea at"
+	cont "vyplavat." ; cont "night again."
 	done
 
 EcruteakCityYoungsterText:
-	text "I hear #MON are"
-	line "rampaging at the"
+	text "Pocul som, ze" ; text "I hear #MON are"
+	line "#MONi zuria" ; line "rampaging at the"
 
-	para "LAKE OF RAGE. I'd"
-	line "like to see that."
+	para "v LAKE OF RAGE." ; para "LAKE OF RAGE. I'd"
+	line "Chcel by som to" ; line "like to see that."
+	cont "vidiet."
 	done
 
 EcruteakCityGramps3Text:
-	text "In the distant"
-	line "past…"
+	text "V davnej" ; text "In the distant"
+	line "minulosti…" ; line "past…"
 
-	para "This tower burned"
-	line "in a fire. Three"
+	para "Tato veza zhorela." ; para "This tower burned"
+	line "Traja bezmenni" ; line "in a fire. Three"
 
-	para "nameless #MON"
-	line "perished in it."
+	para "#MON v nej zmizli." ; para "nameless #MON"
+	;line "perished in it." ; line "perished in it."
 
-	para "A rainbow-colored"
-	line "#MON descended"
+	para "Duhovo-sfarbeny" ; para "A rainbow-colored"
+	line "#MON zostupil" ; line "#MON descended"
 
-	para "from the sky and"
-	line "resurrected them…"
+	para "z neba a vzkriesil" ; para "from the sky and"
+	line "ich…" ; line "resurrected them…"
 
-	para "It's a legend that"
-	line "has been passed"
+	para "Je to legenda," ; para "It's a legend that"
+	line "ktora sa traduje" ; line "has been passed"
 
-	para "down by ECRUTEAK"
-	line "GYM LEADERS."
+	para "medzi ECRUTEAK" ; para "down by ECRUTEAK"
+	line "GYM LEADERMI." ; line "GYM LEADERS."
 
-	para "Me?"
+	para "Ja?" ; para "Me?"
 
-	para "I was a trainer"
-	line "way back when."
-	cont "Hohoho!"
+	para "Ja som bol vtedy" ; para "I was a trainer"
+	line "trener." ; line "way back when."
+	cont "Hohoho!" ; cont "Hohoho!"
 	done
 
 EcruteakCitySignText:
-	text "ECRUTEAK CITY"
-	line "A Historical City"
+	text "ECRUTEAK CITY" ; text "ECRUTEAK CITY"
+	line "Historicke mesto" ; line "A Historical City"
 
-	para "Where the Past"
-	line "Meets the Present"
+	para "Kde minulost stre-" ; para "Where the Past"
+	line "tava pritomnost" ; line "Meets the Present"
 	done
 
 TinTowerSignText:
-	text "TIN TOWER"
+	text "TIN TOWER" ; text "TIN TOWER"
 
-	para "A legendary #-"
-	line "MON is said to"
-	cont "roost here."
+	para "Legendarny #-" ; para "A legendary #-"
+	line "MON tu udajne" ; line "MON is said to"
+	cont "hniezdi." ; cont "roost here."
 	done
 
 EcruteakGymSignText:
-	text "ECRUTEAK CITY"
-	line "#MON GYM"
-	cont "LEADER: MORTY"
+	text "ECRUTEAK CITY" ; text "ECRUTEAK CITY"
+	line "#MON GYM" ; line "#MON GYM"
+	cont "LEADER: MORTY" ; cont "LEADER: MORTY"
 
-	para "The Mystic Seer of"
-	line "the Future"
+	para "Mysticky vestec" ; para "The Mystic Seer of"
+	line "buducnosti" ; line "the Future"
 	done
 
 EcruteakDanceTheaterSignText:
-	text "ECRUTEAK DANCE"
-	line "THEATER"
+	text "ECRUTEAK DANCE" ; text "ECRUTEAK DANCE"
+	line "THEATER" ; line "THEATER"
 	done
 
 BurnedTowerSignText:
-	text "BURNED TOWER"
+	text "BURNED TOWER" ; text "BURNED TOWER"
 
-	para "It was destroyed"
-	line "by a mysterious"
-	cont "fire."
+	para "Bola znicena" ; para "It was destroyed"
+	line "zvlastnym ohnom." ; line "by a mysterious"
+	;cont "fire." ; cont "fire."
 
-	para "Please stay away,"
-	line "as it is unsafe."
+	para "Nevstupovat," ; para "Please stay away,"
+	line "hrozi nebezpecie." ; line "as it is unsafe."
 	done
 
 EcruteakCity_MapEvents:

@@ -178,210 +178,214 @@ EcruteakGymGrampsSlowStepDownMovement:
 	step_end
 
 MortyIntroText:
-	text "Good of you to"
-	line "have come."
+	text "Dobre, ze si" ; text "Good of you to"
+	line "prisiel." ; line "have come."
 
-	para "Here in ECRUTEAK,"
-	line "#MON have been"
-	cont "revered."
+	para "Tu v ECRUTEAK," ; para "Here in ECRUTEAK,"
+	line "si #MONov" ; line "#MON have been"
+	cont "vazime." ; cont "revered."
 
-	para "It's said that a"
-	line "rainbow-colored"
+	para "Hovori sa, ze" ; para "It's said that a"
+	line "duhovo-sfarbeny" ; line "rainbow-colored"
 
-	para "#MON will come"
-	line "down to appear"
+	para "#MON sa zjavi" ; para "#MON will come"
+	line "pred skutocne" ; line "down to appear"
 
-	para "before a truly"
-	line "powerful trainer."
+	para "silnym #MON" ; para "before a truly"
+	line "trenerom." ; line "powerful trainer."
 
-	para "I believed that"
-	line "tale, so I have"
+	para "Verim tomu, a tak" ; para "I believed that"
+	line "cely svoj zivot" ; line "tale, so I have"
 
-	para "secretly trained"
-	line "here all my life."
+	para "tajne trenujem" ; para "secretly trained"
+	line "prave tu." ; line "here all my life."
 
-	para "As a result, I can"
-	line "now see what"
-	cont "others cannot."
+	para "Ako vysledok vidim" ; para "As a result, I can"
+	line "teraz to, co" ; line "now see what"
+	cont "ostatni nevidia." ; cont "others cannot."
 
-	para "Just a bit more…"
+	para "Trosku viac…" ; para "Just a bit more…"
 
-	para "With a little"
-	line "more, I could see"
+	para "S troskou naviac" ; para "With a little"
+	line "vidim buducnost, v" ; line "more, I could see"
 
-	para "a future in which"
-	line "I meet the #MON"
-	cont "of rainbow colors."
+	para "ktorej sa stretnem" ; para "a future in which"
+	line "s #MONom" ; line "I meet the #MON"
+	cont "duhovej farby." ; cont "of rainbow colors."
 
-	para "You're going to"
-	line "help me reach that"
-	cont "level!"
+	para "Pomozes mi" ; para "You're going to"
+	line "dosiahnut tento" ; line "help me reach that"
+	cont "level!" ; cont "level!"
 	done
 
 MortyWinLossText:
-	text "I'm not good"
-	line "enough yet…"
+	text "Nie som dost" ; text "I'm not good"
+	line "dobry…" ; line "enough yet…"
 
-	para "All right. This"
-	line "BADGE is yours."
+	para "V poriadku. Tento" ; para "All right. This"
+	line "BADGE je tvoj." ; line "BADGE is yours."
 	done
 
 Text_ReceivedFogBadge:
-	text "<PLAYER> received"
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
 	line "FOGBADGE."
 	done
 
 MortyText_FogBadgeSpeech:
-	text "By having FOG-"
-	line "BADGE, #MON up"
+	text "Ked mas FOG-" ; text "By having FOG-"
+	line "BADGE, #MONi" ; line "BADGE, #MON up"
 
-	para "to L50 will obey"
-	line "you."
+	para "do L50 ta budu" ; para "to L50 will obey"
+	line "posluchat." ; line "you."
 
-	para "Also, #MON that"
-	line "know SURF will be"
+	para "Navyse, #MON" ; para "Also, #MON that"
+	line "ktory vie SURF," ; line "know SURF will be"
 
-	para "able to use that"
-	line "move anytime."
+	para "ho moze kedykolvek" ; para "able to use that"
+	line "pouzit." ; line "move anytime."
 
-	para "I want you to have"
-	line "this too."
+	para "Chcem aby si si" ; para "I want you to have"
+	line "vzal toto." ; line "this too."
 	done
 
 MortyText_ShadowBallSpeech:
-	text "It's SHADOW BALL."
-	line "It causes damage"
+	text "Je to SHADOW BALL." ; text "It's SHADOW BALL."
+	line "Sposobuje zranenie" ; line "It causes damage"
 
-	para "and may reduce"
-	line "SPCL.DEF."
+	para "a moze znizit" ; para "and may reduce"
+	line "SPCL.OBR." ; line "SPCL.DEF."
 
-	para "Use it if it"
-	line "appeals to you."
+	para "Pouzi to ako" ; para "Use it if it"
+	line "chces." ; line "appeals to you."
 	done
 
 MortyFightDoneText:
-	text "I see…"
+	text "Aha…" ; text "I see…"
 
-	para "Your journey has"
-	line "taken you to far-"
-	cont "away places."
+	para "Tvoje dobrodruz-" ; para "Your journey has"
+	line "stvo sa odohrava" ; line "taken you to far-"
+	cont "v dalekych kon-" ; cont "away places."
+	cont "cinach."
 
-	para "And you have wit-"
-	line "nessed much more"
-	cont "than I."
+	para "A bol si svedkom" ; para "And you have wit-"
+	line "mnohych veci, viac" ; line "nessed much more"
+	cont "ako ja." ; cont "than I."
 
-	para "I envy you for"
-	line "that…"
+	para "Zavidim ti" ; para "I envy you for"
+	line "to…" ; line "that…"
 	done
 
 SageJeffreySeenText:
-	text "I spent the spring"
-	line "with my #MON."
+	text "Stravil som jar s" ; text "I spent the spring"
+	line "mojimi #MONmi." ; line "with my #MON."
 
-	para "Then summer, fall"
-	line "and winter…"
+	para "Potom leto, jesen" ; para "Then summer, fall"
+	line "a zimu…" ; line "and winter…"
 
-	para "Then spring came"
-	line "again. We have"
+	para "Jar prisla opat." ; para "Then spring came"
+	line "Zijeme spolu" ; line "again. We have"
 
-	para "lived together"
-	line "for a long time."
+	para "uz velmi dlhu" ; para "lived together"
+	line "dobu." ; line "for a long time."
 	done
 
 SageJeffreyBeatenText:
-	text "Wins and losses, I"
-	line "experienced both."
+	text "Vyhry a prehry," ; text "Wins and losses, I"
+	line "poznam obe." ; line "experienced both."
 	done
 
 SageJeffreyAfterBattleText:
-	text "Where did #MON"
-	line "come from?"
+	text "Odkial sa" ; text "Where did #MON"
+	line "#MONi vzali?" ; line "come from?"
 	done
 
 SagePingSeenText:
-	text "Can you inflict"
-	line "any damage on our"
-	cont "#MON?"
+	text "Dokazes vobec" ; text "Can you inflict"
+	line "zranit nasich"  ;line "any damage on our"
+	cont "#MON?" ; cont "#MON?"
 	done
 
 SagePingBeatenText:
-	text "Ah! Well done!"
+	text "Ach! Skvele!" ; text "Ah! Well done!"
 	done
 
 SagePingAfterBattleText:
-	text "We use only ghost-"
-	line "type #MON."
+	text "Pouzivame iba " ; text "We use only ghost-"
+	line "ghost-typ" ; line "type #MON."
+	cont "#MONov."
 
-	para "No normal-type"
-	line "attack can harm"
-	cont "them!"
+	para "Normalne utoky ich" ; para "No normal-type"
+	line "vobec nedokazu" ; line "attack can harm"
+	cont "zranit!" ; cont "them!"
 	done
 
 MediumMarthaSeenText:
-	text "I shall win!"
+	text "Vyhram!" ; text "I shall win!"
 	done
 
 MediumMarthaBeatenText:
-	text "I, I, I lost!"
+	text "P-p-prehra!" ; text "I, I, I lost!"
 	done
 
 MediumMarthaAfterBattleText:
-	text "The one who wants"
-	line "to win most--will!"
+	text "Ten, co chce naj-" ; text "The one who wants"
+	line "viac vyhrat-vyhra!" ; line "to win most--will!"
 	done
 
 MediumGraceSeenText:
-	text "Stumped by our in-"
-	line "visible floor?"
+	text "Zaskoceny nasou" ; text "Stumped by our in-"
+	line "neviditelnou po-" ; line "visible floor?"
+	cont "dlahou?"
 
-	para "Defeat me if you"
-	line "want a hint!"
+	para "Poraz ma a dam ti" ; para "Defeat me if you"
+	line "radu!" ; line "want a hint!"
 	done
 
 MediumGraceBeatenText:
-	text "Wha-what?"
+	text "Co-coze?" ; text "Wha-what?"
 	done
 
 MediumGraceAfterBattleText:
-	text "Fine. I shall tell"
-	line "you the secret of"
+	text "Fajn. Vysvetlim ti" ; text "Fine. I shall tell"
+	line "tajomstvo nevidi-" ; line "you the secret of"
 
-	para "the invisible"
-	line "floor."
+	para "telnej podlahy." ; para "the invisible"
+	;line "floor." ; line "floor."
 
-	para "The path is right"
-	line "before our eyes!"
+	para "Cesta je priamo" ; para "The path is right"
+	line "pred nasimi ocami!" ; line "before our eyes!"
 	done
 
 EcruteakGymGuideText:
-	text "The trainers here"
-	line "have secret mo-"
-	cont "tives."
+	text "Tunajsi treneri" ; text "The trainers here"
+	line "maju tajne" ; line "have secret mo-"
+	cont "motivy." ; cont "tives."
 
-	para "If you win, they"
-	line "may tell you some"
+	para "Ak vyhras, mozno" ; para "If you win, they"
+	line "ti povedia temne" ; line "may tell you some"
 
-	para "deep secrets about"
-	line "ECRUTEAK."
+	para "tajomstva o" ; para "deep secrets about"
+	line "ECRUTEAK." ; line "ECRUTEAK."
 	done
 
 EcruteakGymGuideWinText:
-	text "Whew, <PLAYER>."
-	line "You did great!"
+	text "Fuh, <PLAYER>." ; text "Whew, <PLAYER>."
+	line "Skvela praca!" ; line "You did great!"
 
-	para "I was cowering in"
-	line "the corner out of"
-	cont "pure terror!"
+	para "Krcil som sa v" ; para "I was cowering in"
+	line "rohu z uplneho" ; line "the corner out of"
+	cont "vystrasenia!" ; cont "pure terror!"
 	done
 
 EcruteakGymClosedText:
-	text "MORTY, the GYM"
-	line "LEADER, is absent."
+	text "MORTY, GYM" ; text "MORTY, the GYM"
+	line "LEADER, je" ; line "LEADER, is absent."
+	cont "nepritomny."
 
-	para "Sorry, but you'll"
-	line "have to leave."
+	para "Prepac, ale musis" ; para "Sorry, but you'll"
+	line "odist." ; line "have to leave."
 
-	para "Hohohoho."
+	para "Hohohoho." ; para "Hohohoho."
 	done
 
 EcruteakGym_MapEvents:

@@ -161,113 +161,113 @@ AcademyEarlSpinMovement:
 	step_end
 
 AcademyEarlIntroText:
-	text "EARL, I am!"
+	text "EARL, som!" ; text "EARL, I am!"
 
-	para "Wonderful are"
-	line "#MON, yes!"
+	para "Uzasni su" ; para "Wonderful are"
+	line "#MONi, ano!" ; line "#MON, yes!"
 
-	para "Teach you I will"
-	line "to be a better"
-	cont "trainer!"
+	para "Naucit vas ako" ; para "Teach you I will"
+	line "byt lepsi" ; line "to be a better"
+	cont "trener!" ; cont "trainer!"
 
-	para "What you want to"
-	line "know? Want to be"
-	cont "a winner is you?"
+	para "Co chces vediet?" ; para "What you want to"
+	line "Vitazom chces" ; line "know? Want to be"
+	cont "byt ty?" ; cont "a winner is you?"
 	done
 
 AcademyEarlTeachHowToWinText:
-	text "Good! Teach you,"
-	line "I will!"
+	text "Dobre! Naucit ta," ; text "Good! Teach you,"
+	line "ja ano!" ; line "I will!"
 
-	para "In battle, #MON"
-	line "top on list jump"
-	cont "out first!"
+	para "V zapase, #MON" ; para "In battle, #MON"
+	line "navrchu zoznamu" ; line "top on list jump"
+	cont "ide prvy!" ; cont "out first!"
 
-	para "Change order in"
-	line "list, make battle"
-	cont "easy, maybe!"
+	para "Zmenit poradie" ; para "Change order in"
+	line "listu, mozno byt" ; line "list, make battle"
+	cont "zapas jednoduchy!" ; cont "easy, maybe!"
 
-	para "More from me you"
-	line "want to hear?"
+	para "Viac pocut odo" ; para "More from me you"
+	line "mna chcet?" ; line "want to hear?"
 	done
 
 AcademyEarlTeachMoreText:
-	text "So, want to know"
-	line "how to raise"
-	cont "#MON well?"
+	text "Chciet vediet ako" ; text "So, want to know"
+	line "vychovat spravne" ; line "how to raise"
+	cont "#MON?" ; cont "#MON well?"
 	done
 
 AcademyEarlTeachHowToRaiseWellText:
-	text "Fine! Teach you,"
-	line "I will!"
+	text "Fajn! Naucit ta," ; text "Fine! Teach you,"
+	line "ja ano!" ; line "I will!"
 
-	para "If #MON come"
-	line "out in battle even"
+	para "Ak #MON byt" ; para "If #MON come"
+	line "na bojisku," ; line "out in battle even"
 
-	para "briefly, some EXP."
-	line "Points it gets."
+	para "EXP. body" ; para "briefly, some EXP."
+	line "ziska." ; line "Points it gets."
 
-	para "At top of list put"
-	line "weak #MON."
+	para "Navrch dat slabeho" ; para "At top of list put"
+	line "#MONa." ; line "weak #MON."
 
-	para "Switch in battle"
-	line "quick!"
+	para "Vymena v zapase," ; para "Switch in battle"
+	line "rychlo !" ; line "quick!"
 
-	para "This way, weak"
-	line "#MON strong"
-	cont "become!"
+	para "Takto slaby" ; para "This way, weak"
+	line "#MON stat sa" ; line "#MON strong"
+	cont "silny!" ; cont "become!"
 	done
 
 AcademyEarlNoMoreToTeachText:
-	text "Oh! Smart student"
-	line "you are! Nothing"
-	cont "more do I teach!"
+	text "Oh! Mudry student" ; text "Oh! Smart student"
+	line "ty byt! Nic viac" ; line "you are! Nothing"
+	cont "naucit nemozno!" ; cont "more do I teach!"
 
-	para "Good to #MON"
-	line "you must be!"
+	para "Dobry na #MON" ; para "Good to #MON"
+	line "musiet byt!" ; line "you must be!"
 	done
 
 EarlsPokemonAcademyYoungster1Text:
-	text "I'm taking notes"
-	line "of the teacher's"
-	cont "lecture."
+	text "Robim si poznamky" ; text "I'm taking notes"
+	line "z tejto hodiny." ; line "of the teacher's"
+	;cont "lecture." ; cont "lecture."
 
-	para "I'd better copy"
-	line "the stuff on the"
-	cont "blackboard too."
+	para "Radsej si prepisem" ; para "I'd better copy"
+	line "vsetko z tabule." ; line "the stuff on the"
+	;cont "blackboard too." ; cont "blackboard too."
 	done
 
 EarlsPokemonAcademyGameboyKid1Text:
-	text "I traded my best"
-	line "#MON to the"
-	cont "guy beside me."
+	text "Vymenil som naj" ; text "I traded my best"
+	line "#MONa chlapovi" ; line "#MON to the"
+	cont "vedla mna." ; cont "guy beside me."
 	done
 
 EarlsPokemonAcademyGameboyKid2Text:
-	text "Huh? The #MON I"
-	line "just got is hold-"
-	cont "ing something!"
+	text "Huh? The #MON I" ; text "Huh? The #MON I"
+	line "just got is hold-" ; line "just got is hold-"
+	cont "ing something!" ; cont "ing something!"
 	done
 
 EarlsPokemonAcademyYoungster2Text:
-	text "A #MON holding"
-	line "a BERRY will heal"
-	cont "itself in battle."
+	text "#MON drziaci" ; text "A #MON holding"
+	line "BERRY sa vylieci" ; line "a BERRY will heal"
+	cont "pocas zapasu." ; cont "itself in battle."
 
-	para "Many other items"
-	line "can be held by"
-	cont "#MON…"
+	para "#MONi mozu" ; para "Many other items"
+	line "drzat mnoho roz-" ; line "can be held by"
+	cont "nych predmetov…" ; cont "#MON…"
 
-	para "It sure is tough"
-	line "taking notes…"
+	para "Je narocne robit" ; para "It sure is tough"
+	line "si poznamky…" ; line "taking notes…"
 	done
 
 AcademyBlackboardText:
-	text "The blackboard"
-	line "describes #MON"
+	text "Tabula popisuje" ; text "The blackboard"
+	line "#MON status" ; line "describes #MON"
 
-	para "status changes in"
-	line "battle."
+	para "zmeny v zapase." ; para "status changes in"
+	;line "battle." ; line "battle."
 	done
 
 AcademyBlackboardText2: ; unreferenced
@@ -275,136 +275,136 @@ AcademyBlackboardText2: ; unreferenced
 	done
 
 AcademyPoisonText:
-	text "If poisoned, a"
-	line "#MON steadily"
-	cont "loses HP."
+	text "Otraveny #MON" ; text "If poisoned, a"
+	line "postupne straca" ; line "#MON steadily"
+	cont "HP." ; cont "loses HP."
 
-	para "Poison lingers"
-	line "after the battle,"
+	para "Jed ucinkuje aj" ; para "Poison lingers"
+	line "po zapase" ; line "after the battle,"
 
-	para "and HP is lost as"
-	line "you walk."
+	para "HP sa znizuje," ; para "and HP is lost as"
+	line "ako kracas." ; line "you walk."
 
-	para "To cure it, use an"
-	line "ANTIDOTE."
+	para "Na vyliecenie" ; para "To cure it, use an"
+	line "pouzi ANTIDOTE." ; line "ANTIDOTE."
 	done
 
 AcademyParalysisText:
-	text "Paralysis reduces"
-	line "speed and may"
-	cont "prevent movement."
+	text "Paralyza znizuje" ; text "Paralysis reduces"
+	line "rychlost a moze" ; line "speed and may"
+	cont "obmedzit utok." ; cont "prevent movement."
 
-	para "It remains after"
-	line "battle, so use"
-	cont "a PARLYZ HEAL."
+	para "Zostane aj po" ; para "It remains after"
+	line "zapase, takze po-" ; line "battle, so use"
+	cont "uzi PARLYZ HEAL." ; cont "a PARLYZ HEAL."
 	done
 
 AcademySleepText:
-	text "If asleep, your"
-	line "#MON can't make"
-	cont "a move."
+	text "V spanku tvoj" ; text "If asleep, your"
+	line "#MON nemoze" ; line "#MON can't make"
+	cont "utocit." ; cont "a move."
 
-	para "A sleeping #MON"
-	line "doesn't wake up"
-	cont "after battle."
+	para "Spiaci #MON" ; para "A sleeping #MON"
+	line "sa po zapase sam" ; line "doesn't wake up"
+	cont "neprebudi." ; cont "after battle."
 
-	para "Wake it up with"
-	line "an AWAKENING."
+	para "Zobud ho s" ; para "Wake it up with"
+	line "AWAKENINGom." ; line "an AWAKENING."
 	done
 
 AcademyBurnText:
-	text "A burn steadily"
-	line "consumes HP."
+	text "Popalenina znizuje" ; text "A burn steadily"
+	line "HP." ; line "consumes HP."
 
-	para "It also reduces"
-	line "attack power."
+	para "Takisto znizuje" ; para "It also reduces"
+	line "utocnu silu." ; line "attack power."
 
-	para "A burn lingers"
-	line "after battle."
+	para "Popalenina zostava" ; para "A burn lingers"
+	line "i po zapase." ; line "after battle."
 
-	para "Use a BURN HEAL as"
-	line "the cure."
+	para "Vyliecit sa da s" ; para "Use a BURN HEAL as"
+	line "BURN HEAL." ; line "the cure."
 	done
 
 AcademyFreezeText:
-	text "If your #MON is"
-	line "frozen, it can't"
-	cont "do a thing."
+	text "Ak tvoj #MON" ; text "If your #MON is"
+	line "zamrzne, nemoze" ;  line "frozen, it can't"
+	cont "nic robit." ; cont "do a thing."
 
-	para "It remains frozen"
-	line "after battle."
+	para "Zostane zamrznuty" ; para "It remains frozen"
+	line "aj po zapase." ; line "after battle."
 
-	para "Thaw it out with"
-	line "an ICE HEAL."
+	para "Rozpust ho pomocou" ; para "Thaw it out with"
+	line "ICE HEAL." ; line "an ICE HEAL."
 	done
 
 AcademyNotebookText:
-	text "It's this kid's"
-	line "notebook…"
+	text "Je to zapisnik" ; text "It's this kid's"
+	line "chlapca…" ; line "notebook…"
 
-	para "Catch #MON"
-	line "using # BALLS."
+	para "Chytaj #MONov" ; para "Catch #MON"
+	line "pomocou # BALLS." ; line "using # BALLS."
 
-	para "Up to six can be"
-	line "in your party."
+	para "Mozes mat v parte" ; para "Up to six can be"
+	line "az siestich." ; line "in your party."
 
-	para "Keep reading?"
+	para "Citat dalej?" ; para "Keep reading?"
 	done
 
 AcademyNotebookText1:
-	text "Before throwing a"
-	line "# BALL, weaken"
-	cont "the target first."
+	text "Pred hodenim" ; text "Before throwing a"
+	line "# BALL najprv" ; line "# BALL, weaken"
+	cont "oslab ciel." ; cont "the target first."
 
-	para "A poisoned or"
-	line "burned #MON is"
-	cont "easier to catch."
+	para "Otraveny alebo" ; para "A poisoned or"
+	line "spaleny #MON" ; line "burned #MON is"
+	cont "sa lepsie chyti." ; cont "easier to catch."
 
-	para "Keep reading?"
+	para "Citat dalej?" ; para "Keep reading?"
 	done
 
 AcademyNotebookText2:
-	text "Some moves may"
-	line "cause confusion."
+	text "Niektore utoky" ; text "Some moves may"
+	line "sposobia zmatenie." ; line "cause confusion."
 
-	para "Confusion may make"
-	line "a #MON attack"
-	cont "itself."
+	para "Zmateny #MON" ; para "Confusion may make"
+	line "moze sam seba" ; line "a #MON attack"
+	cont "zranit." ; cont "itself."
 
-	para "Leaving battle"
-	line "clears up any"
-	cont "confusion."
+	para "Koniec zapasu" ; para "Leaving battle"
+	line "ukoncit aj toto" ; line "clears up any"
+	cont "zmatenie." ; cont "confusion."
 
-	para "Keep reading?"
+	para "Citat dalej?" ; para "Keep reading?"
 	done
 
 AcademyNotebookText3:
-	text "People who catch"
-	line "and use #MON"
+	text "Ludia, ktori chy-" ; text "People who catch"
+	line "taju a pouzivaju" ; line "and use #MON"
 
-	para "in battle are"
-	line "#MON trainers."
+	para "#MON v zapase" ; para "in battle are"
+	line "su #MON treneri." ; line "#MON trainers."
 
-	para "They are expected"
-	line "to visit #MON"
+	para "Navstevuju GYMy" ; para "They are expected"
+	line "a snazia sa" ; line "to visit #MON"
 
-	para "GYMS and defeat"
-	line "other trainers."
+	para "porazit inych" ; para "GYMS and defeat"
+	line "trenerov." ; line "other trainers."
 
-	para "The next page"
-	line "is… Blank!"
+	para "Dalsia strana" ; para "The next page"
+	line "je… Prazdna!" ; line "is… Blank!"
 
-	para "Boy: E-he-he…"
+	para "Chlapec: E-he-he…" ; para "Boy: E-he-he…"
 
-	para "I haven't written"
-	line "anymore…"
+	para "Dalej som uz" ; para "I haven't written"
+	line "nepisal…" ; line "anymore…"
 	done
 
 AcademyStickerMachineText:
-	text "This super machine"
-	line "prints data out as"
+	text "Tento pristroj" ; text "This super machine"
+	line "tlaci data ako" ; line "prints data out as"
 
-	para "stickers!"
+	para "nalepky!" ; para "stickers!"
 	done
 
 EarlsPokemonAcademy_MapEvents:
