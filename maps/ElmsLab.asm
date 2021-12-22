@@ -723,489 +723,491 @@ AfterChikoritaMovement:
 	step_end
 
 ElmText_Intro:
-	text "ELM: <PLAY_G>!"
-	line "There you are!"
+	text "ELM: <PLAY_G>!" ; text "ELM: <PLAY_G>!"
+	line "Tak si prisiel!" ; line "There you are!"
 
-	para "I needed to ask"
-	line "you a favor."
+	para "Potrebujem od teba" ; para "I needed to ask"
+	line "laskavost." ; line "you a favor."
 
-	para "I'm conducting new"
-	line "#MON research"
+	para "Pracujem na novom" ; para "I'm conducting new"
+	line "#MON vyskume." ; line "#MON research"
 
-	para "right now. I was"
-	line "wondering if you"
+	para "Zaujima ma, ci by" ; para "right now. I was"
+	line "si mi s nim chcel" ; line "wondering if you"
 
-	para "could help me with"
-	line "it, <PLAY_G>."
+	para "pomoct," ; para "could help me with"
+	line "<PLAY_G>." ; line "it, <PLAY_G>."
 
-	para "You see…"
+	para "Vies…" ; para "You see…"
 
-	para "I'm writing a"
-	line "paper that I want"
+	para "Zrovna pisem" ; para "I'm writing a"
+	line "referat, ktory" ; line "paper that I want"
 
-	para "to present at a"
-	line "conference."
+	para "chcem odprezento-" ; para "to present at a"
+	line "vat na konferencii" ; line "conference."
 
-	para "But there are some"
-	line "things I don't"
+	para "Ale su veci, kto-" ; para "But there are some"
+	line "rym stale este" ; line "things I don't"
 
-	para "quite understand"
-	line "yet."
+	para "ani ja nero-" ; para "quite understand"
+	line "zumiem." ; line "yet."
 
-	para "So!"
+	para "Takze!" ; para "So!"
 
-	para "I'd like you to"
-	line "raise a #MON"
+	para "Chcem aby si vy-" ; para "I'd like you to"
+	line "choval #MONov," ; line "raise a #MON"
 
-	para "that I recently"
-	line "caught."
+	para "ktorych som neda-" ; para "that I recently"
+	line "vno chytil." ; line "caught."
 	done
 
 ElmText_Accepted:
-	text "Thanks, <PLAY_G>!"
+	text "Dakujem, <PLAY_G>!" ; text "Thanks, <PLAY_G>!"
 
-	para "You're a great"
-	line "help!"
+	para "Budes velka" ; para "You're a great"
+	line "pomoc!" ; line "help!"
 	done
 
 ElmText_Refused:
-	text "But… Please, I"
-	line "need your help!"
+	text "Ale… Prosim," ; text "But… Please, I"
+	line "potrebujem pomoc!" ; line "need your help!"
 	done
 
 ElmText_ResearchAmbitions:
-	text "When I announce my"
-	line "findings, I'm sure"
+	text "Ked oznamim svoje" ; text "When I announce my"
+	line "vysledky, som si" ; line "findings, I'm sure"
 
-	para "we'll delve a bit"
-	line "deeper into the"
+	para "isty, ze sa pono-" ; para "we'll delve a bit"
+	line "rime hlbsie do" ; line "deeper into the"
 
-	para "many mysteries of"
-	line "#MON."
+	para "zahad vsetkych" ; para "many mysteries of"
+	line "#MONov." ; line "#MON."
 
-	para "You can count on"
-	line "it!"
+	para "Mozes sa na to" ; para "You can count on"
+	line "spolahnut!" ; line "it!"
 	done
 
 ElmText_GotAnEmail:
-	text "Oh, hey! I got an"
-	line "e-mail!"
+	text "Hej! Dostal som" ; text "Oh, hey! I got an"
+	line "e-mail!" ; line "e-mail!"
 
 	para "<……><……><……>"
-	line "Hm… Uh-huh…"
+	line "Hm… Aha…" ; line "Hm… Uh-huh…"
 
-	para "Okay…"
+	para "Okej…" ; para "Okay…"
 	done
 
 ElmText_MissionFromMrPokemon:
-	text "Hey, listen."
+	text "Pocuj." ; text "Hey, listen."
 
-	para "I have an acquain-"
-	line "tance called MR."
-	cont "#MON."
+	para "Mam znameho, vola" ; para "I have an acquain-"
+	line "sa MR." ; line "tance called MR."
+	cont "#MON." ; cont "#MON."
 
-	para "He keeps finding"
-	line "weird things and"
+	para "Vzdy objavi velmi" ; para "He keeps finding"
+	line "zvlastne veci a"  ;line "weird things and"
 
-	para "raving about his"
-	line "discoveries."
+	para "bluzni o svojich" ; para "raving about his"
+	line "objavoch." ; line "discoveries."
 
-	para "Anyway, I just got"
-	line "an e-mail from him"
+	para "Kazdopadne, dostal" ; para "Anyway, I just got"
+	line "som od neho e-mail" ; line "an e-mail from him"
 
-	para "saying that this"
-	line "time it's real."
+	para "ze tentoraz to je" ; para "saying that this"
+	line "skutocne." ; line "time it's real."
 
-	para "It is intriguing,"
-	line "but we're busy"
+	para "Zaujimave, ale my" ; para "It is intriguing,"
+	line "mame plne ruky s" ; line "but we're busy"
 
-	para "with our #MON"
-	line "research…"
+	para "nasim vyskumom" ; para "with our #MON"
+	line "#MONov…" ; line "research…"
 
-	para "Wait!"
+	para "Pockat!" ; para "Wait!"
 
-	para "I know!"
+	para "Uz viem!" ; para "I know!"
 
-	para "<PLAY_G>, can you"
-	line "go in our place?"
+	para "<PLAY_G>, mozes" ; para "<PLAY_G>, can you"
+	line "tam ist za nas?" ; line "go in our place?"
 	done
 
 ElmText_ChooseAPokemon:
-	text "I want you to"
-	line "raise one of the"
+	text "Chcem, aby si" ; text "I want you to"
+	line "vychoval jedneho" ; line "raise one of the"
 
-	para "#MON contained"
-	line "in these BALLS."
+	para "#MONa z" ; para "#MON contained"
+	line "tychto tu." ; line "in these BALLS."
 
-	para "You'll be that"
-	line "#MON's first"
-	cont "partner, <PLAY_G>!"
+	para "Budes prvy partner" ; para "You'll be that"
+	line "tohto #MONa," ; line "#MON's first"
+	cont "<PLAY_G>!" ; cont "partner, <PLAY_G>!"
 
-	para "Go on. Pick one!"
+	para "Vyber si jedneho!" ; para "Go on. Pick one!"
 	done
 
 ElmText_LetYourMonBattleIt:
-	text "If a wild #MON"
-	line "appears, let your"
-	cont "#MON battle it!"
+	text "Ak objavis diveho" ; text "If a wild #MON"
+	line "#MONa, posli nanho" ; line "appears, let your"
+	cont "svojho #MONa!" ; cont "#MON battle it!"
 	done
 
 LabWhereGoingText:
-	text "ELM: Wait! Where"
-	line "are you going?"
+	text "ELM: Pockaj! Kam" ; text "ELM: Wait! Where"
+	line "to ides?" ; line "are you going?"
 	done
 
 TakeCyndaquilText:
-	text "ELM: You'll take"
-	line "CYNDAQUIL, the"
-	cont "fire #MON?"
+	text "ELM: Vezmes si" ; text "ELM: You'll take"
+	line "CYNDAQUILa," ; line "CYNDAQUIL, the"
+	cont "ohniveho #MONa?" ; cont "fire #MON?"
 	done
 
 TakeTotodileText:
-	text "ELM: Do you want"
-	line "TOTODILE, the"
-	cont "water #MON?"
+	text "ELM: Chces" ; text "ELM: Do you want"
+	line "TOTODILEa," ; line "TOTODILE, the"
+	cont "vodneho #MONa?" ; cont "water #MON?"
 	done
 
 TakeChikoritaText:
-	text "ELM: So, you like"
-	line "CHIKORITA, the"
-	cont "grass #MON?"
+	text "ELM: Takze" ; text "ELM: So, you like"
+	line "CHIKORITU, tra-" ; line "CHIKORITA, the"
+	cont "voveho #MONa?" ; cont "grass #MON?"
 	done
 
 DidntChooseStarterText:
-	text "ELM: Think it over"
-	line "carefully."
+	text "ELM: Dobre si to" ; text "ELM: Think it over"
+	line "rozmysli." ; line "carefully."
 
-	para "Your partner is"
-	line "important."
+	para "Tvoj partner je" ; para "Your partner is"
+	line "dolezity." ; line "important."
 	done
 
 ChoseStarterText:
-	text "ELM: I think"
-	line "that's a great"
-	cont "#MON too!"
+	text "ELM: Myslim, ze" ; text "ELM: I think"
+	line "to je skvely" ; line "that's a great"
+	cont "#MON!" ; cont "#MON too!"
 	done
 
 ReceivedStarterText:
-	text "<PLAYER> received"
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ElmDirectionsText1:
-	text "MR.#MON lives a"
-	line "little bit beyond"
+	text "MR.#MON zije" ; text "MR.#MON lives a"
+	line "nedaleko za" ; line "little bit beyond"
 
-	para "CHERRYGROVE, the"
-	line "next city over."
+	para "CHERRYGROVE, je to" ; para "CHERRYGROVE, the"
+	line "to dalsie mesto." ; line "next city over."
 
-	para "It's almost a"
-	line "direct route"
+	para "Je to skoro" ; para "It's almost a"
+	line "priama cesta tam," ; line "direct route"
 
-	para "there, so you"
-	line "can't miss it."
+	para "nemozes sa takmer" ; para "there, so you"
+	line "netrafit." ; line "can't miss it."
 
-	para "But just in case,"
-	line "here's my phone"
+	para "Ale pre kazdy pri-" ; para "But just in case,"
+	line "pad, tu mas moj" ; line "here's my phone"
 
-	para "number. Call me if"
-	line "anything comes up!"
+	para "telefon. Zavolaj," ; para "number. Call me if"
+	line "ak sa nieco bude" ; line "anything comes up!"
+	cont "diat."
 	done
 
 ElmDirectionsText2:
-	text "If your #MON is"
-	line "hurt, you should"
+	text "Ak je tvoj #MON" ; text "If your #MON is"
+	line "zraneny, pouzi" ; line "hurt, you should"
 
-	para "heal it with this"
-	line "machine."
+	para "tento pristroj na" ; para "heal it with this"
+	line "liecenie." ; line "machine."
 
-	para "Feel free to use"
-	line "it anytime."
+	para "Pokojne ho kedy-" ; para "Feel free to use"
+	line "kolvek pouzi." ; line "it anytime."
 	done
 
 ElmDirectionsText3:
-	text "<PLAY_G>, I'm"
-	line "counting on you!"
+	text "<PLAY_G>," ; text "<PLAY_G>, I'm"
+	line "spolieham na teba!" ; line "counting on you!"
 	done
 
 GotElmsNumberText:
-	text "<PLAYER> got ELM's"
-	line "phone number."
+	text "<PLAYER> dostal" ; text "<PLAYER> got ELM's"
+	line "ELMove cislo." ; line "phone number."
 	done
 
 ElmDescribesMrPokemonText:
-	text "MR.#MON goes"
-	line "everywhere and"
-	cont "finds rarities."
+	text "MR.#MON ide" ; text "MR.#MON goes"
+	line "vsade a najde" ; line "everywhere and"
+	cont "vzacnosti." ; cont "finds rarities."
 
-	para "Too bad they're"
-	line "just rare and"
-	cont "not very useful…"
+	para "Bohuzial, nie vzdy" ; para "Too bad they're"
+	line "su tieto vzac-" ; line "just rare and"
+	cont "nosti uzitocne…" ; cont "not very useful…"
 	done
 
 ElmPokeBallText:
-	text "It contains a"
-	line "#MON caught by"
-	cont "PROF.ELM."
+	text "Obsahuje" ; text "It contains a"
+	line "#MONa od" ; line "#MON caught by"
+	cont "PROF.ELMa." ; cont "PROF.ELM."
 	done
 
 ElmsLabHealingMachineText1:
-	text "I wonder what this"
-	line "does?"
+	text "Som zvedavy, k" ; text "I wonder what this"
+	line "k comu to je?" ; line "does?"
 	done
 
 ElmsLabHealingMachineText2:
-	text "Would you like to"
-	line "heal your #MON?"
+	text "Chces vyliecit" ; text "Would you like to"
+	line "svojich #MONov?" ; line "heal your #MON?"
 	done
 
 ElmAfterTheftText1:
-	text "ELM: <PLAY_G>, this"
-	line "is terrible…"
+	text "ELM: <PLAY_G>, je" ; text "ELM: <PLAY_G>, this"
+	line "to strasne…" ; line "is terrible…"
 
-	para "Oh, yes, what was"
-	line "MR.#MON's big"
-	cont "discovery?"
+	para "Oh, co bol" ; para "Oh, yes, what was"
+	line "MR.#MONov" ; line "MR.#MON's big"
+	cont "velky objav?" ; cont "discovery?"
 	done
 
 ElmAfterTheftText2:
-	text "<PLAYER> handed"
-	line "the MYSTERY EGG to"
-	cont "PROF.ELM."
+	text "<PLAYER> dal" ; text "<PLAYER> handed"
+	line "MYSTERY VAJICKO" ; line "the MYSTERY EGG to"
+	cont "PROF.ELMovi." ; cont "PROF.ELM."
 	done
 
 ElmAfterTheftText3:
-	text "ELM: This?"
+	text "ELM: Toto?" ; text "ELM: This?"
 	done
 
 ElmAfterTheftText4:
-	text "But… Is it a"
-	line "#MON EGG?"
+	text "Ale… Je to snad" ; text "But… Is it a"
+	line "#MON VAJICKO?" ; line "#MON EGG?"
 
-	para "If it is, it is a"
-	line "great discovery!"
+	para "Ak ano, je to" ; para "If it is, it is a"
+	line "uzasny objav!" ; line "great discovery!"
 	done
 
 ElmAfterTheftText5:
-	text "ELM: What?!?"
+	text "ELM: COZE?!?" ; text "ELM: What?!?"
 
-	para "PROF.OAK gave you"
-	line "a #DEX?"
+	para "PROF.OAK ti dal" ; para "PROF.OAK gave you"
+	line "#DEX?" ; line "a #DEX?"
 
-	para "<PLAY_G>, is that"
-	line "true? Th-that's"
-	cont "incredible!"
+	para "<PLAY_G>, je to" ; para "<PLAY_G>, is that"
+	line "pravda? T-To je" ; line "true? Th-that's"
+	cont "neuveritelne!" ; cont "incredible!"
 
-	para "He is superb at"
-	line "seeing the poten-"
-	cont "tial of people as"
-	cont "trainers."
+	para "Je dobry v odha-" ; para "He is superb at"
+	line "dovani potencialu" ; line "seeing the poten-"
+	cont "ludi, ktori chcu" ; cont "tial of people as"
+	cont "byt trenermi." ; cont "trainers."
 
-	para "Wow, <PLAY_G>. You"
-	line "may have what it"
+	para "Wau, <PLAY_G>." ; para "Wow, <PLAY_G>. You"
+	line "Mozno mas to, co" ; line "may have what it"
 
-	para "takes to become"
-	line "the CHAMPION."
+	para "musi mat" ; para "takes to become"
+	line "SAMPION." ; line "the CHAMPION."
 
-	para "You seem to be"
-	line "getting on great"
-	cont "with #MON too."
+	para "Vypada to, ze si" ; para "You seem to be"
+	line "skvele rozumies s" ; line "getting on great"
+	cont "tvojim #MONom." ; cont "with #MON too."
 
-	para "You should take"
-	line "the #MON GYM"
-	cont "challenge."
+	para "Mal by si ist do" ; para "You should take"
+	line "#MON GYMu a" ; line "the #MON GYM"
+	cont "skusit zapasit." ; cont "challenge."
 
-	para "The closest GYM"
-	line "would be the one"
-	cont "in VIOLET CITY."
+	para "Najblizsi GYM" ; para "The closest GYM"
+	line "je ten vo VIOLET" ; line "would be the one"
+	cont "CITY." ; cont "in VIOLET CITY."
 	done
 
 ElmAfterTheftText6:
-	text "…<PLAY_G>. The"
-	line "road to the"
+	text "…<PLAY_G>." ; text "…<PLAY_G>. The"
+	line "Cesta za vitaz- " ; line "road to the"
 
-	para "championship will"
-	line "be a long one."
+	para "stvom bude velmi" ; para "championship will"
+	line "dlha." ; line "be a long one."
 
-	para "Before you leave,"
-	line "make sure that you"
-	cont "talk to your mom."
+	para "Predtym nez odides" ; para "Before you leave,"
+	line "zastav sa u" ; line "make sure that you"
+	cont "mamy." ; cont "talk to your mom."
 	done
 
 ElmStudyingEggText:
-	text "ELM: Don't give"
-	line "up! I'll call if"
+	text "ELM: Nevzdavaj sa!" ; text "ELM: Don't give"
+	line "Zavolam ti, ak" ; line "up! I'll call if"
 
-	para "I learn anything"
-	line "about that EGG!"
+	para "zistim nieco nove" ; para "I learn anything"
+	line "o VAJICKU!" ; line "about that EGG!"
 	done
 
 ElmAideHasEggText:
-	text "ELM: <PLAY_G>?"
-	line "Didn't you meet my"
-	cont "assistant?"
+	text "ELM: <PLAY_G>?" ; text "ELM: <PLAY_G>?"
+	line "Nestretol si mojho" ; line "Didn't you meet my"
+	cont "asistenta?" ; cont "assistant?"
 
-	para "He should have met"
-	line "you with the EGG"
+	para "Mal ta stretnut a" ; para "He should have met"
+	line "dat ti VAJICKO" ; line "you with the EGG"
 
-	para "at VIOLET CITY's"
-	line "#MON CENTER."
+	para "vo VIOLET CITY" ; para "at VIOLET CITY's"
+	line "#MON CENTER." ; line "#MON CENTER."
 
-	para "You must have just"
-	line "missed him. Try to"
-	cont "catch him there."
+	para "Asi ste sa minuli." ; para "You must have just"
+	line "Skus ho tam vy-" ; line "missed him. Try to"
+	cont "hladat." ; cont "catch him there."
 	done
 
 ElmWaitingEggHatchText:
-	text "ELM: Hey, has that"
-	line "EGG changed any?"
+	text "ELM: Hej, zmenilo" ; text "ELM: Hey, has that"
+	line "sa nejak VAJICKO?" ; line "EGG changed any?"
 	done
 
 ElmThoughtEggHatchedText:
-	text "<PLAY_G>? I thought"
-	line "the EGG hatched."
+	text "<PLAY_G>? Myslel" ; text "<PLAY_G>? I thought"
+	line "som, ze vajicko" ; line "the EGG hatched."
+	cont "sa uz vyliahlo."
 
-	para "Where is the"
-	line "#MON?"
+	para "Kde je" ; para "Where is the"
+	line "#MON?" ; line "#MON?"
 	done
 
 ShowElmTogepiText1:
-	text "ELM: <PLAY_G>, you"
-	line "look great!"
+	text "ELM: <PLAY_G>," ; text "ELM: <PLAY_G>, you"
+	line "vypadas skvele!" ; line "look great!"
 	done
 
 ShowElmTogepiText2:
-	text "What?"
-	line "That #MON!?!"
+	text "Coze?" ; text "What?"
+	line "Tento #MON!?!" ; line "That #MON!?!"
 	done
 
 ShowElmTogepiText3:
-	text "The EGG hatched!"
-	line "So, #MON are"
-	cont "born from EGGS…"
+	text "Vyliahlo sa!" ; text "The EGG hatched!"
+	line "Takze #MONi sa" ; line "So, #MON are"
+	cont "liahnu z VAJICOK…" ; cont "born from EGGS…"
 
-	para "No, perhaps not"
-	line "all #MON are."
+	para "Mozno nie vsetci" ; para "No, perhaps not"
+	line "#MONi." ; line "all #MON are."
 
-	para "Wow, there's still"
-	line "a lot of research"
-	cont "to be done."
+	para "Stale vsak zostava" ; para "Wow, there's still"
+	line "mnoho veci na" ; line "a lot of research"
+	cont "vyskum." ; cont "to be done."
 	done
 
 ElmGiveEverstoneText1:
-	text "Thanks, <PLAY_G>!"
-	line "You're helping"
+	text "Dakujem, <PLAY_G>!" ; text "Thanks, <PLAY_G>!"
+	line "Pomahas odhalit" ; line "You're helping"
 
-	para "unravel #MON"
-	line "mysteries for us!"
+	para "#MON zahady" ; para "unravel #MON"
+	line "pre nas vsetkych!" ; line "mysteries for us!"
 
-	para "I want you to have"
-	line "this as a token of"
-	cont "our appreciation."
+	para "Chcem aby si si" ; para "I want you to have"
+	line "vzal toto ako" ; line "this as a token of"
+	cont "odmenu." ; cont "our appreciation."
 	done
 
 ElmGiveEverstoneText2:
-	text "That's an"
-	line "EVERSTONE."
+	text "Je to" ; text "That's an"
+	line "EVERSTONE." ; line "EVERSTONE."
 
-	para "Some species of"
-	line "#MON evolve"
+	para "Niektori #MONi" ; para "Some species of"
+	line "sa vyvinu po do-" ; line "#MON evolve"
 
-	para "when they grow to"
-	line "certain levels."
+	para "siahnuti urciteho" ; para "when they grow to"
+	line "levelu." ; line "certain levels."
 
-	para "A #MON holding"
-	line "the EVERSTONE"
-	cont "won't evolve."
+	para "#MON drziaci" ; para "A #MON holding"
+	line "EVERSTONE sa" ; line "the EVERSTONE"
+	cont "nevyvinie." ; cont "won't evolve."
 
-	para "Give it to a #-"
-	line "MON you don't want"
-	cont "to evolve."
+	para "Daj ho #-" ; para "Give it to a #-"
+	line "MONovi, ktoreho" ; line "MON you don't want"
+	cont "nechces vyvinut." ; cont "to evolve."
 	done
 
 ElmText_CallYou:
-	text "ELM: <PLAY_G>, I'll"
-	line "call you if any-"
-	cont "thing comes up."
+	text "ELM: <PLAY_G>," ; text "ELM: <PLAY_G>, I'll"
+	line "Zavolam, ked sa" ; line "call you if any-"
+	cont "nieco stane." ; cont "thing comes up."
 	done
 
 AideText_AfterTheft:
-	text "…sigh… That"
-	line "stolen #MON."
+	text "…och… Ten ukrad-" ; text "…sigh… That"
+	line "nuty #MON." ; line "stolen #MON."
 
-	para "I wonder how it's"
-	line "doing."
+	para "Ako sa mu asi" ; para "I wonder how it's"
+	line "dari." ; line "doing."
 
-	para "They say a #MON"
-	line "raised by a bad"
+	para "Hovori sa, ze" ; para "They say a #MON"
+	line "#MON vychovany" ; line "raised by a bad"
 
-	para "person turns bad"
-	line "itself."
+	para "zlym clovekom sa" ; para "person turns bad"
+	line "stane zlym." ; line "itself."
 	done
 
 ElmGiveMasterBallText1:
-	text "ELM: Hi, <PLAY_G>!"
-	line "Thanks to you, my"
+	text "ELM: Ahoj, <PLAY_G>!" ; text "ELM: Hi, <PLAY_G>!"
+	line "Vdaka tebe moj" ; line "Thanks to you, my"
 
-	para "research is going"
-	line "great!"
+	para "vyskum napreduje" ; para "research is going"
+	line "milovymi krokmi!" ; line "great!"
 
-	para "Take this as a"
-	line "token of my"
-	cont "appreciation."
+	para "Vezmi si toto" ; para "Take this as a"
+	line "ako moje poda-" ; line "token of my"
+	cont "kovanie." ; cont "appreciation."
 	done
 
 ElmGiveMasterBallText2:
-	text "The MASTER BALL is"
-	line "the best!"
+	text "MASTER BALL je" ; text "The MASTER BALL is"
+	line "najlepsi!" ; line "the best!"
 
-	para "It's the ultimate"
-	line "BALL! It'll catch"
+	para "Dokaze chytit" ; para "It's the ultimate"
+	line "akehokolvek" ; line "BALL! It'll catch"
 
-	para "any #MON with-"
-	line "out fail."
+	para "#MONa bez" ; para "any #MON with-"
+	line "zlyhania." ; line "out fail."
 
-	para "It's given only to"
-	line "recognized #MON"
-	cont "researchers."
+	para "Dostanu ho iba" ; para "It's given only to"
+	line "uznavani #MON" ; line "recognized #MON"
+	cont "vyskumnici." ; cont "researchers."
 
-	para "I think you can"
-	line "make much better"
+	para "Myslim, ze tebe sa" ; para "I think you can"
+	line "bude hodit ovela" ; line "make much better"
 
-	para "use of it than I"
-	line "can, <PLAY_G>!"
+	para "viac, ako mne," ; para "use of it than I"
+	line "<PLAY_G>!" ; line "can, <PLAY_G>!"
 	done
 
 ElmGiveTicketText1:
-	text "ELM: <PLAY_G>!"
-	line "There you are!"
+	text "ELM: <PLAY_G>!" ; text "ELM: <PLAY_G>!"
+	line "Tak si prisiel!" ; line "There you are!"
 
-	para "I called because I"
-	line "have something for"
-	cont "you."
+	para "Volal som ti, pre-" ; para "I called because I"
+	line "toze pre teba" ; line "have something for"
+	cont "nieco mam." ; cont "you."
 
-	para "See? It's an"
-	line "S.S.TICKET."
+	para "Vidis? Je to" ; para "See? It's an"
+	line "S.S.TICKET." ; line "S.S.TICKET."
 
-	para "Now you can catch"
-	line "#MON in KANTO."
+	para "Mozes teraz chytat" ; para "Now you can catch"
+	line "#MONov v KANTO." ; line "#MON in KANTO."
 	done
 
 ElmGiveTicketText2:
-	text "The ship departs"
-	line "from OLIVINE CITY."
+	text "Lod vyplava" ; text "The ship departs"
+	line "z OLIVINE CITY." ; line "from OLIVINE CITY."
 
-	para "But you knew that"
-	line "already, <PLAY_G>."
+	para "Ale to uz predsa" ; para "But you knew that"
+	line "vies, <PLAY_G>." ; line "already, <PLAY_G>."
 
-	para "After all, you've"
-	line "traveled all over"
-	cont "with your #MON."
+	para "Ved si predsa pre-" ; para "After all, you've"
+	line "cestoval kus" ; line "traveled all over"
+	cont "sveta." ; cont "with your #MON."
 
-	para "Give my regards to"
-	line "PROF.OAK in KANTO!"
+	para "Pozdrav odo mna" ; para "Give my regards to"
+	line "PROF.OAKa v KANTO!" ; line "PROF.OAK in KANTO!"
 	done
 
 ElmsLabMonEggText: ; unreferenced
@@ -1215,156 +1217,156 @@ ElmsLabMonEggText: ; unreferenced
 	done
 
 AideText_GiveYouPotion:
-	text "<PLAY_G>, I want"
-	line "you to have this"
-	cont "for your errand."
+	text "<PLAY_G>, chcem" ; text "<PLAY_G>, I want"
+	line "aby si si vzal odo" ; line "you to have this"
+	cont "mna toto." ; cont "for your errand."
 	done
 
 AideText_AlwaysBusy:
-	text "There are only two"
-	line "of us, so we're"
-	cont "always busy."
+	text "Sme tu iba dvaja," ; text "There are only two"
+	line "takze sme stale" ; line "of us, so we're"
+	cont "zaneprazdneni." ; cont "always busy."
 	done
 
 AideText_TheftTestimony:
-	text "There was a loud"
-	line "noise outside…"
+	text "Vonku bolo pocut" ; text "There was a loud"
+	line "velky hluk…" ; line "noise outside…"
 
-	para "When we went to"
-	line "look, someone"
-	cont "stole a #MON."
+	para "Ked sme sa isli" ; para "When we went to"
+	line "pozriet, niekto" ; line "look, someone"
+	cont "ukradol #MONa." ; cont "stole a #MON."
 
-	para "It's unbelievable"
-	line "that anyone would"
-	cont "do that!"
+	para "Neuveritelne, ze" ; para "It's unbelievable"
+	line "by to niekto do-" ; line "that anyone would"
+	cont "kazal spravit!" ; cont "do that!"
 
-	para "…sigh… That"
-	line "stolen #MON."
+	para "…och… Ten ukrad-" ; para "…sigh… That"
+	line "nuty #MON." ; line "stolen #MON."
 
-	para "I wonder how it's"
-	line "doing."
+	para "Ako sa mu asi" ; para "I wonder how it's"
+	line "dari." ; line "doing."
 
-	para "They say a #MON"
-	line "raised by a bad"
+	para "#MON vychovany" ; para "They say a #MON"
+	line "zlym trenerom sa" ; line "raised by a bad"
 
-	para "person turns bad"
-	line "itself."
+	para "tiez stane" ; para "person turns bad"
+	line "zlym." ; line "itself."
 	done
 
 AideText_GiveYouBalls:
 	text "<PLAY_G>!"
 
-	para "Use these on your"
-	line "#DEX quest!"
+	para "Pouzi ich na svoj" ; para "Use these on your"
+	line "#DEX quest!" ; line "#DEX quest!"
 	done
 
 AideText_ExplainBalls:
-	text "To add to your"
-	line "#DEX, you have"
-	cont "to catch #MON."
+	text "Na naplnenie" ; text "To add to your"
+	line "#DEX musis" ; line "#DEX, you have"
+	cont "chytat #MONov." ; cont "to catch #MON."
 
-	para "Throw # BALLS"
-	line "at wild #MON"
-	cont "to get them."
+	para "Hadz # BALLS" ; para "Throw # BALLS"
+	line "na divych #MONov" ; line "at wild #MON"
+	cont "aby si ich chytil." ; cont "to get them."
 	done
 
 ElmsLabOfficerText1:
-	text "I heard a #MON"
-	line "was stolen here…"
+	text "Pocul som, ze" ; text "I heard a #MON"
+	line "ukradli #MONa…" ; line "was stolen here…"
 
-	para "I was just getting"
-	line "some information"
-	cont "from PROF.ELM."
+	para "Zrovna som si" ; para "I was just getting"
+	line "spisal informacie" ; line "some information"
+	cont "od PROF.ELMa." ; cont "from PROF.ELM."
 
-	para "Apparently, it was"
-	line "a young male with"
-	cont "long, red hair…"
+	para "Udajne to bol" ; para "Apparently, it was"
+	line "mladik s dlhymi" ; line "a young male with"
+	cont "cervenymi vlasmi…" ; cont "long, red hair…"
 
-	para "What?"
+	para "Coze?" ; para "What?"
 
-	para "You battled a"
-	line "trainer like that?"
+	para "Ty si s takym" ; para "You battled a"
+	line "trenerom zapasil?" ; line "trainer like that?"
 
-	para "Did you happen to"
-	line "get his name?"
+	para "Zistil si, ako" ; para "Did you happen to"
+	line "sa vola?" ; line "get his name?"
 	done
 
 ElmsLabOfficerText2:
-	text "OK! So <RIVAL>"
-	line "was his name."
+	text "OK! <RIVAL>" ; text "OK! So <RIVAL>"
+	line "je teda jeho meno." ; line "was his name."
 
-	para "Thanks for helping"
-	line "my investigation!"
+	para "Dakujem za pomoc" ; para "Thanks for helping"
+	line "pri vysetrovani!" ; line "my investigation!"
 	done
 
 ElmsLabWindowText1:
-	text "The window's open."
+	text "Okno je otvorene." ; text "The window's open."
 
-	para "A pleasant breeze"
-	line "is blowing in."
+	para "Dnu fuka prijemny" ; para "A pleasant breeze"
+	line "vanok." ; line "is blowing in."
 	done
 
 ElmsLabWindowText2:
-	text "He broke in"
-	line "through here!"
+	text "Dostal sa sem" ; text "He broke in"
+	line "tadialto!" ; line "through here!"
 	done
 
 ElmsLabTravelTip1Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> otvoril" ; text "<PLAYER> opened a"
+	line "knihu." ; line "book."
 
-	para "Travel Tip 1:"
+	para "Tip c.1:" ; para "Travel Tip 1:"
 
-	para "Press START to"
-	line "open the MENU."
+	para "Stlac START pre" ; para "Press START to"
+	line "otvorenie MENU." ; line "open the MENU."
 	done
 
 ElmsLabTravelTip2Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> otvoril" ; text "<PLAYER> opened a"
+	line "knihu." ; line "book."
 
-	para "Travel Tip 2:"
+	para "Tip c.2:" ; para "Travel Tip 2:"
 
-	para "Record your trip"
-	line "with SAVE!"
+	para "Uloz si svoj vylet" ; para "Record your trip"
+	line "s ULOZIT!" ; line "with SAVE!"
 	done
 
 ElmsLabTravelTip3Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> otvoril" ; text "<PLAYER> opened a"
+	line "knihu." ; line "book."
 
-	para "Travel Tip 3:"
+	para "Tip c.3:" ; para "Travel Tip 3:"
 
-	para "Open your PACK and"
-	line "press SELECT to"
-	cont "move items."
+	para "Otvor BATOH a" ; para "Open your PACK and"
+	line "stlac VYBRAT na" ; line "press SELECT to"
+	cont "pohyb predmetov." ; cont "move items."
 	done
 
 ElmsLabTravelTip4Text:
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> otvoril" ; text "<PLAYER> opened a"
+	line "knihu." ; line "book."
 
-	para "Travel Tip 4:"
+	para "Tip c.4:" ; para "Travel Tip 4:"
 
-	para "Check your #MON"
-	line "moves. Press the"
+	para "Skontroluj #MON" ; para "Check your #MON"
+	line "utoky. Stlac tla-" ; line "moves. Press the"
 
-	para "A Button to switch"
-	line "moves."
+	para "citko A na preho-" ; para "A Button to switch"
+	line "denie utokov." ; line "moves."
 	done
 
 ElmsLabTrashcanText:
-	text "The wrapper from"
-	line "the snack PROF.ELM"
-	cont "ate is in there…"
+	text "Je tam obal od" ; text "The wrapper from"
+	line "keksiku, ktory" ; line "the snack PROF.ELM"
+	cont "zjedol PROF.ELM…" ; cont "ate is in there…"
 	done
 
 ElmsLabPCText:
-	text "OBSERVATIONS ON"
-	line "#MON EVOLUTION"
+	text "ZAZNAMY Z" ; text "OBSERVATIONS ON"
+	line "#MON EVOLUCIE" ; line "#MON EVOLUTION"
 
-	para "…It says on the"
-	line "screen…"
+	para "…Pise sa na" ; para "…It says on the"
+	line "obrazovke…" ; line "screen…"
 	done
 
 ElmsLab_MapEvents:

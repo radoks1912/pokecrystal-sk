@@ -20,27 +20,27 @@ ElmsHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 ElmsWifeText:
-	text "Hi, <PLAY_G>! My"
-	line "husband's always"
+	text "Ahoj, <PLAY_G>!" ; text "Hi, <PLAY_G>! My"
+	line "Moj manzel je sta-" ; line "husband's always"
 
-	para "so busy--I hope"
-	line "he's OK."
+	para "le zaneprazdneny." ; para "so busy--I hope"
+	line "Dufam, ze je OK." ; line "he's OK."
 
-	para "When he's caught"
-	line "up in his #MON"
+	para "Ak je ponoreny do" ; para "When he's caught"
+	line "svojho #MON" ; line "up in his #MON"
 
-	para "research, he even"
-	line "forgets to eat."
+	para "vyskumu, niekedy" ; para "research, he even"
+	line "zabudne aj jest." ; line "forgets to eat."
 	done
 
 ElmsSonText:
-	text "When I grow up,"
-	line "I'm going to help"
-	cont "my dad!"
+	text "Ked vyrastiem," ; text "When I grow up,"
+	line "budem pomahat moj-" ; line "I'm going to help"
+	cont "mu tatkovi!" ; cont "my dad!"
 
-	para "I'm going to be a"
-	line "great #MON"
-	cont "professor!"
+	para "Bude zo mna" ; para "I'm going to be a"
+	line "skvely #MON" ; line "great #MON"
+	cont "profesor!" ; cont "professor!"
 	done
 
 ElmsHouseLabFoodText: ; unreferenced
@@ -56,27 +56,27 @@ ElmsHousePokemonFoodText: ; unreferenced
 	done
 
 ElmsHousePCText:
-	text "#MON. Where do"
-	line "they come from? "
+	text "#MON. Odkial" ; text "#MON. Where do"
+	line "asi pochadzaju? " ; line "they come from? "
 
-	para "Where are they"
-	line "going?"
+	para "Kam asi idu?" ; para "Where are they"
+	;line "going?" ; line "going?"
 
-	para "Why has no one"
-	line "ever witnessed a"
-	cont "#MON's birth?"
+	para "Preco nikto nikdy" ; para "Why has no one"
+	line "nevidel narodenie" ; line "ever witnessed a"
+	cont "#MONa?" ; cont "#MON's birth?"
 
-	para "I want to know! I"
-	line "will dedicate my"
+	para "Chcem to vediet!" ; para "I want to know! I"
+	line "Venujem svoj zivot" ; line "will dedicate my"
 
-	para "life to the study"
-	line "of #MON!"
+	para "studovaniu" ; para "life to the study"
+	line "#MONov!" ; line "of #MON!"
 
 	para "…"
 
-	para "It's a part of"
-	line "PROF.ELM's re-"
-	cont "search papers."
+	para "Je to sucast" ; para "It's a part of"
+	line "PROF.ELMovho" ; line "PROF.ELM's re-"
+	cont "vyskumu." ; cont "search papers."
 	done
 
 ElmsHouse_MapEvents:

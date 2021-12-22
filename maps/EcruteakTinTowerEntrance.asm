@@ -150,129 +150,129 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 	step_end
 
 EcruteakTinTowerEntranceSageText:
-	text "TIN TOWER is off"
-	line "limits to anyone"
+	text "TIN TOWER je nedo-" ; text "TIN TOWER is off"
+	line "stupna pre ludi" ; line "limits to anyone"
 
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
+	para "bez ECRUTEAK" ; para "without ECRUTEAK"
+	line "GYM ODZNAKU." ; line "GYM's BADGE."
 
-	para "Sorry, but you'll"
-	line "have to leave."
+	para "Prepac, ale musis" ; para "Sorry, but you'll"
+	line "odist." ; line "have to leave."
 	done
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "TIN TOWER is off"
-	line "limits to anyone"
+	text "TIN TOWER je nedo-" ; text "TIN TOWER is off"
+	line "stupna pre ludi" ; line "limits to anyone"
 
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
+	para "bez ECRUTEAK" ; para "without ECRUTEAK"
+	line "GYM ODZNAKU." ; line "GYM's BADGE."
 
-	para "Ah!"
+	para "Ah!" ; para "Ah!"
 
-	para "ECRUTEAK's GYM"
-	line "BADGE! Please, go"
-	cont "right through."
+	para "ECRUTEAK GYM" ; para "ECRUTEAK's GYM"
+	line "ODZNAK! Prosim," ; line "BADGE! Please, go"
+	cont "prejdi dalej." ; cont "right through."
 	done
 
 EcruteakTinTowerEntranceSageText_NoClearBell:
-	text "A momentous event"
-	line "has occurred."
+	text "Stala sa velka" ; text "A momentous event"
+	line "udalost." ; line "has occurred."
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para "Je mi to luto," ; para "I beg your pardon,"
+	line "ale musim ta po-" ; line "but I must ask you"
+	cont "ziadat o odchod." ; cont "to leave."
 
-	para "…What soothes the"
-	line "soul…"
+	para "…Co upokoji" ; para "…What soothes the"
+	line "dusu…" ; line "soul…"
 
-	para "The WISE TRIO say"
-	line "things that are so"
+	para "MUDRE TRIO hovori" ; para "The WISE TRIO say"
+	line "veci, ktore su" ; line "things that are so"
 
-	para "very difficult to"
-	line "understand…"
+	para "velmi narocne na" ; para "very difficult to"
+	line "pochopenie…" ; line "understand…"
 	done
 
 EcruteakTinTowerEntranceSageText_HearsClearBell:
-	text "A momentous event"
-	line "has occurred."
+	text "Stala sa velka" ; text "A momentous event"
+	line "udalost." ; line "has occurred."
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para "Je mi luto," ; para "I beg your pardon,"
+	line "ale musim ta po-" ; line "but I must ask you"
+	cont "ziadat o odchod." ; cont "to leave."
 
 	para "<……><……><……>"
 
-	para "Ah!"
+	para "Ah!" ; para "Ah!"
 
-	para "The sound of that"
-	line "CLEAR BELL!"
+	para "Zvuk toho" ; para "The sound of that"
+	line "CLEAR BELL!" ; line "CLEAR BELL!"
 
-	para "It… It's sublime!"
+	para "Je… je vzneseny!" ; para "It… It's sublime!"
 
-	para "I've never heard"
-	line "so beautiful a"
-	cont "sound before!"
+	para "Nikdy som nepocul" ; para "I've never heard"
+	line "tak krasny" ; line "so beautiful a"
+	cont "zvuk!" ; cont "sound before!"
 
-	para "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	para "Ten zvuk zvonu" ; para "That bell's chime"
+	line "znazornuje dusu" ; line "is indicative of"
+	cont "drzitela." ; cont "the bearer's soul."
 
-	para "You…"
+	para "Ty…" ; para "You…"
 
-	para "You may be able to"
-	line "make it through"
-	cont "TIN TOWER."
+	para "Mozno sa ti podari" ; para "You may be able to"
+	line "dostat sa cez" ; line "make it through"
+	cont "TIN TOWER." ; cont "TIN TOWER."
 
-	para "Please, do go on."
+	para "Prosim, pokracuj." ; para "Please, do go on."
 	done
 
 EcruteakTinTowerEntranceSageText_PleaseDoGoOn:
-	text "Please, do go on."
+	text "Prosim, pokracuj." ; text "Please, do go on."
 	done
 
 EcruteakTinTowerEntranceSageText_HeardClearBell:
-	text "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	text "Ten zvuk zvonu" ; text "That bell's chime"
+	line "znazornuje dusu" ; line "is indicative of"
+	cont "drzitela." ; cont "the bearer's soul."
 
-	para "You…"
+	para "Ty…" ; para "You…"
 
-	para "You may be able to"
-	line "make it through"
-	cont "TIN TOWER."
+	para "Mozno sa ti podari" ; para "You may be able to"
+	line "dostat sa cez" ; line "make it through"
+	cont "TIN TOWER." ; cont "TIN TOWER."
 
-	para "Please, do go on."
+	para "Prosim, pokracuj." ; para "Please, do go on."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText:
-	text "The TIN TOWER"
-	line "ahead is a nine-"
+	text "TIN TOWER je" ; text "The TIN TOWER"
+	line "devat-poschodova" ; line "ahead is a nine-"
 
-	para "tier tower of"
-	line "divine beauty."
+	para "veza bozskej" ; para "tier tower of"
+	line "krasy." ; line "divine beauty."
 
-	para "It soothes the"
-	line "soul of all who"
-	cont "see it."
+	para "Upokojuje dusu" ; para "It soothes the"
+	line "vsetkych, co ju" ; line "soul of all who"
+	cont "vidia." ; cont "see it."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "The TIN TOWER"
-	line "shook! A #MON"
+	text "TIN TOWER sa" ; text "The TIN TOWER"
+	line "trasie! #MON" ; line "shook! A #MON"
 
-	para "must have returned"
-	line "to the top!"
+	para "sa musel vratit" ; para "must have returned"
+	line "na jej vrchol!" ; line "to the top!"
 	done
 
 EcruteakTinTowerEntranceGrampsText:
-	text "Two towers…"
-	line "Two #MON…"
+	text "Dve veze…" ; text "Two towers…"
+	line "Dvaja #MONi…" ; line "Two #MON…"
 
-	para "But when one"
-	line "burned down, both"
+	para "Ale ked jedna" ; para "But when one"
+	line "zhorela, obaja" ; line "burned down, both"
 
-	para "#MON flew away,"
-	line "never to return."
+	para "#MONi odleteli" ; para "#MON flew away,"
+	line "a nevratili sa." ; line "never to return."
 	done
 
 EcruteakTinTowerEntrance_MapEvents:

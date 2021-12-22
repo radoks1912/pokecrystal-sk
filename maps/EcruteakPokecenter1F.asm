@@ -98,110 +98,110 @@ EcruteakPokecenter1FPlayerMovement1:
 	step_end
 
 EcruteakPokecenter1F_BillText1:
-	text "Hi, I'm BILL. And"
-	line "who are you?"
+	text "Cau, som BILL. A" ; text "Hi, I'm BILL. And"
+	line "kto si ty?" ; line "who are you?"
 
-	para "Hmm, <PLAYER>, huh?"
-	line "You've come at the"
-	cont "right time."
+	para "Hmm, <PLAYER>, ze?" ; para "Hmm, <PLAYER>, huh?"
+	line "Prisiel si v pravy" ; line "You've come at the"
+	cont "cas." ; cont "right time."
 	done
 
 EcruteakPokecenter1F_BillText2:
-	text "I just finished"
-	line "adjustments on my"
-	cont "TIME CAPSULE."
+	text "Prave som dokoncil" ; text "I just finished"
+	line "nastavenia na" ; line "adjustments on my"
+	cont "TIME CAPSULE." ; cont "TIME CAPSULE."
 
-	para "You know that"
-	line "#MON can be"
-	cont "traded, right?"
+	para "Vies, ze" ; para "You know that"
+	line "#MON sa daju" ; line "#MON can be"
+	cont "vymenit, ze?" ; cont "traded, right?"
 
-	para "My TIME CAPSULE"
-	line "was developed to"
+	para "Moja TIME CAPSULE" ; para "My TIME CAPSULE"
+	line "bola vyvinuta na" ; line "was developed to"
 
-	para "enable trades with"
-	line "the past."
+	para "vymeny z minu-" ; para "enable trades with"
+	line "losti." ; line "the past."
 
-	para "But you can't send"
-	line "anything that"
+	para "Ale nemozes poslat" ; para "But you can't send"
+	line "cokolvek, co ne-" ; line "anything that"
 
-	para "didn't exist in"
-	line "the past."
+	para "existovalo v" ; para "didn't exist in"
+	line "minulosti." ; line "the past."
 
-	para "If you did, the PC"
-	line "in the past would"
-	cont "have a breakdown."
+	para "Ak by si poslal," ; para "If you did, the PC"
+	line "PC z minulosti by" ; line "in the past would"
+	cont "spadlo." ; cont "have a breakdown."
 
-	para "So you have to"
-	line "remove anything"
+	para "Takze musis odo-" ; para "So you have to"
+	line "brat cokolvek," ; line "remove anything"
 
-	para "that wasn't around"
-	line "in the past."
+	para "co nebolo v minu-" ; para "that wasn't around"
+	line "losti." ; line "in the past."
 
-	para "Put simply, no"
-	line "sending new moves"
+	para "Jednoducho ziadne" ; para "Put simply, no"
+	line "nove utoky alebo" ; line "sending new moves"
 
-	para "or new #MON in"
-	line "the TIME CAPSULE."
+	para "#MONi v" ; para "or new #MON in"
+	line "TIME CAPSULE." ; line "the TIME CAPSULE."
 
-	para "Don't you worry."
-	line "I'm done with the"
-	cont "adjustments."
+	para "Neboj sa." ; para "Don't you worry."
+	line "Vsetko je uz" ; line "I'm done with the"
+	cont "nastavene." ; cont "adjustments."
 
-	para "Tomorrow, TIME"
-	line "CAPSULES will be"
+	para "Zajtra bude TIME" ; para "Tomorrow, TIME"
+	line "CAPSULES dostupny" ; line "CAPSULES will be"
 
-	para "running at all"
-	line "#MON CENTERS."
+	para "vo vsetkych" ; para "running at all"
+	line "#MON CENTERS." ; line "#MON CENTERS."
 
-	para "I have to hurry on"
-	line "back to GOLDENROD"
-	cont "and see my folks."
+	para "Musim sa ponahlat" ; para "I have to hurry on"
+	line "spat do GOLDENROD" ; line "back to GOLDENROD"
+	cont "za nasimi." ; cont "and see my folks."
 
-	para "Buh-bye!"
+	para "Cauko!" ; para "Buh-bye!"
 	done
 
 EcruteakPokecenter1FPokefanMText:
-	text "The way the KIMONO"
-	line "GIRLS dance is"
+	text "Sposob akym KIMONO" ; text "The way the KIMONO"
+	line "ZENY tancuju," ; line "GIRLS dance is"
 
-	para "marvelous. Just"
-	line "like the way they"
-	cont "use their #MON."
+	para "je uzasny. Rovnako" ; para "marvelous. Just"
+	line "ako ked pouzivaju" ; line "like the way they"
+	cont "svojich #MONov." ; cont "use their #MON."
 	done
 
 EcruteakPokecenter1FPokefanMTextMobile:
-	text "You must be hoping"
-	line "to battle more"
+	text "Cakal si, ze budes" ; text "You must be hoping"
+	line "zapasit s viac" ; line "to battle more"
 
-	para "people, right?"
-	line "There's apparently"
+	para "ludmi, vsak?" ; para "people, right?"
+	line "Udajne existuje" ; line "There's apparently"
 
-	para "some place where"
-	line "trainers gather."
+	para "miesto, kde sa" ; para "some place where"
+	line "treneri schadzaju." ; line "trainers gather."
 
-	para "Where, you ask?"
+	para "Pytas sa, kde?" ; para "Where, you ask?"
 
-	para "It's a little past"
-	line "OLIVINE CITY."
+	para "Je to nedaleko" ; para "It's a little past"
+	line "OLIVINE CITY." ; line "OLIVINE CITY."
 	done
 
 EcruteakPokecenter1FCooltrainerFText:
-	text "MORTY, the GYM"
-	line "LEADER, is soooo"
-	cont "cool."
+	text "MORTY, GYM" ; text "MORTY, the GYM"
+	line "LEADER, je taaak" ; line "LEADER, is soooo"
+	cont "cool." ; cont "cool."
 
-	para "His #MON are"
-	line "really tough too."
+	para "Ma velmi silnych" ; para "His #MON are"
+	line "#MONov." ; line "really tough too."
 	done
 
 EcruteakPokecenter1FGymGuideText:
-	text "LAKE OF RAGE…"
+	text "LAKE OF RAGE…" ; text "LAKE OF RAGE…"
 
-	para "The appearance of"
-	line "a GYARADOS swarm…"
+	para "Vyskyt roju" ; para "The appearance of"
+	line "GYARADOSov…" ; line "a GYARADOS swarm…"
 
-	para "I smell a conspir-"
-	line "acy. I know it!"
+	para "Citim spiknutie." ; para "I smell a conspir-"
+	line "Urcite!" ; line "acy. I know it!"
 	done
 
 EcruteakPokecenter1F_MapEvents:

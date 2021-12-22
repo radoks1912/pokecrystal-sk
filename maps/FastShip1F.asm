@@ -206,81 +206,81 @@ FastShip1F_PlayerLeavesShipRightMovement:
 	step_end
 
 FastShip1FSailor1Text_ToVermilion:
-	text "FAST SHIP S.S.AQUA"
-	line "is en route to"
-	cont "VERMILION CITY."
+	text "LOD S.S.AQUA" ; text "FAST SHIP S.S.AQUA"
+	line "je na ceste do" ; line "is en route to"
+	cont "VERMILION CITY." ; cont "VERMILION CITY."
 
-	para "We will make an"
-	line "announcement when"
-	cont "we arrive."
+	para "Oznamime vam, ked" ; para "We will make an"
+	line "dorazime do" ; line "announcement when"
+	cont "ciela." ; cont "we arrive."
 	done
 
 FastShip1FSailor1Text_ToOlivine:
-	text "FAST SHIP S.S.AQUA"
-	line "is en route to"
-	cont "OLIVINE CITY."
+	text "LOD S.S.AQUA" ; text "FAST SHIP S.S.AQUA"
+	line "je na ceste do" ; line "is en route to"
+	cont "OLIVINE CITY." ; cont "OLIVINE CITY."
 
-	para "We will make an"
-	line "announcement when"
-	cont "we arrive."
+	para "Oznamime vam, ked" ; para "We will make an"
+	line "dorazime do" ; line "announcement when"
+	cont "ciela." ; cont "we arrive."
 	done
 
 FastShip1FSailor2Text_FirstTime:
-	text "Here's your cabin."
+	text "Tu je tvoja kabina" ; text "Here's your cabin."
 
-	para "If your #MON"
-	line "are hurt, take a"
-	cont "nap in the bed."
+	para "Ak sa tvoji" ; para "If your #MON"
+	line "#MONi zrania," ; line "are hurt, take a"
+	cont "pospi si." ; cont "nap in the bed."
 
-	para "That will heal"
-	line "them."
+	para "To ich vylieci." ; para "That will heal"
+	;line "them." ; line "them."
 	done
 
 FastShip1FSailor2Text:
-	text "Here's your cabin."
+	text "Tu je tvoja kabina" ; text "Here's your cabin."
 
-	para "You can heal your"
-	line "#MON by taking"
-	cont "a nap in the bed."
+	para "Ak sa tvoji" ; para "You can heal your"
+	line "#MONi zrania," ; line "#MON by taking"
+	cont "pospi si." ; cont "a nap in the bed."
 
-	para "The ship will"
-	line "arrive while"
-	cont "you're sleeping."
+	para "Lod pride do" ; para "The ship will"
+	line "ciela aj pocas" ; line "arrive while"
+	cont "spanku." ; cont "you're sleeping."
 	done
 
 FastShip1FSailor3Text:
-	text "The passengers are"
-	line "all trainers."
+	text "Vsetci cestujuci" ; text "The passengers are"
+	line "su treneri." ; line "all trainers."
 
-	para "They're all itch-"
-	line "ing to battle in"
-	cont "their cabins."
+	para "Su nedockavi a" ; para "They're all itch-"
+	line "zapasia vo svojich" ; line "ing to battle in"
+	cont "kabinach." ; cont "their cabins."
 	done
 
 FastShip1FGrandpaText:
-	text "Whoa! Excuse me."
-	line "I was in a hurry!"
+	text "Ach! Prepac." ; text "Whoa! Excuse me."
+	line "Ponahlal som sa!" ; line "I was in a hurry!"
 
-	para "My granddaughter"
-	line "is missing!"
+	para "Moja vnucka sa" ; para "My granddaughter"
+	line "stratila!" ; line "is missing!"
 
-	para "She's just a wee"
-	line "girl. If you see"
+	para "Je to malicke" ; para "She's just a wee"
+	line "dievcatko. Ak ho" ; line "girl. If you see"
 
-	para "her, please let me"
-	line "know!"
+	para "uvidis, daj mi" ; para "her, please let me"
+	line "prosim vediet!" ; line "know!"
 	done
 
 FastShip1FSailor1Text_InOlivine:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "OLIVINE CITY."
+	text "LOD S.S.AQUA" ; text "FAST SHIP S.S.AQUA"
+	line "dorazila do" ; line "has arrived in"
+	cont "OLIVINE CITY." ; cont "OLIVINE CITY."
 	done
 
 FastShip1FSailor1Text_InVermilion:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "VERMILION CITY."
+	text "LOD S.S.AQUA" ; text "FAST SHIP S.S.AQUA"
+	line "dorazila do" ; line "has arrived in"
+	cont "VERMILION CITY." ; cont "VERMILION CITY."
 	done
 
 FastShip1F_MapEvents:
