@@ -51,75 +51,77 @@ FuchsiaCityFruitTree:
 	fruittree FRUITTREE_FUCHSIA_CITY
 
 FuchsiaCityYoungsterText:
-	text "One of the ELITE"
-	line "FOUR used to be"
+	text "Jeden z ELITNEJ" ; text "One of the ELITE"
+	line "STVORKY bol kedysi" ; line "FOUR used to be"
 
-	para "the LEADER of"
-	line "FUCHSIA's GYM."
+	para "LEADER" ; para "the LEADER of"
+	line "FUCHSIA GYMu." ; line "FUCHSIA's GYM."
 	done
 
 FuchsiaCityPokefanMText:
-	text "KOGA's daughter"
-	line "succeeded him as"
+	text "Dcera KOGU" ; text "KOGA's daughter"
+	line "je teraz" ; line "succeeded him as"
 
-	para "the GYM LEADER"
-	line "after he joined"
-	cont "the ELITE FOUR."
+	para "GYM LEADER" ; para "the GYM LEADER"
+	line "po tom, co on" ; line "after he joined"
+	cont "odisiel do ELITNEJ" ; cont "the ELITE FOUR."
+	cont "STVORKY."
 	done
 
 FuchsiaCityTeacherText:
-	text "The SAFARI ZONE is"
-	line "closed… It's sad,"
+	text "SAFARI ZONA je" ; text "The SAFARI ZONE is"
+	line "zatvorena… Je to" ; line "closed… It's sad,"
 
-	para "considering it's"
-	line "FUCHSIA's main"
-	cont "attraction."
+	para "smutne, pretoze to" ; para "considering it's"
+	line "je hlavna atrakcia" ; line "FUCHSIA's main"
+	cont "FUCHSIE." ; cont "attraction."
 	done
 
 FuchsiaCitySignText:
-	text "FUCHSIA CITY"
+	text "FUCHSIA CITY" ; text "FUCHSIA CITY"
 
-	para "Behold! It's"
-	line "Passion Pink!"
+	para "Hla! Jeho" ; para "Behold! It's"
+	line "ruzova pasia!" ; line "Passion Pink!"
 	done
 
 FuchsiaGymSignText:
-	text "FUCHSIA CITY"
-	line "#MON GYM"
-	cont "LEADER: JANINE"
+	text "FUCHSIA CITY" ; text "FUCHSIA CITY"
+	line "#MON GYM" ; line "#MON GYM"
+	cont "LEADER: JANINE" ; cont "LEADER: JANINE"
 
-	para "The Poisonous"
-	line "Ninja Master"
+	para "Jedovaty" ; para "The Poisonous"
+	line "Ninja Majster" ; line "Ninja Master"
 	done
 
 SafariZoneOfficeSignText:
-	text "There's a notice"
-	line "here…"
+	text "Je tu nejaky" ; text "There's a notice"
+	line "oznam…" ; line "here…"
 
-	para "SAFARI ZONE OFFICE"
-	line "is closed until"
-	cont "further notice."
+	para "SAFARI ZONA" ; para "SAFARI ZONE OFFICE"
+	line "je zatvorena az do" ; line "is closed until"
+	cont "odvolania." ; cont "further notice."
 	done
 
 WardensHomeSignText:
-	text "SAFARI ZONE"
-	line "WARDEN'S HOME"
+	text "SAFARI ZONA" ; text "SAFARI ZONE"
+	line "SPRAVCOV DOM" ; line "WARDEN'S HOME"
 	done
 
 SafariZoneClosedSignText:
-	text "The WARDEN is"
-	line "traveling abroad."
+	text "SPRAVCA prave" ; text "The WARDEN is"
+	line "cestuje." ; line "traveling abroad."
 
-	para "Therefore, the"
-	line "SAFARI ZONE is"
-	cont "closed."
+	para "Preto je" ; para "Therefore, the"
+	line "SAFARI ZONA" ; line "SAFARI ZONE is"
+	cont "zatvorena." ; cont "closed."
 	done
 
 NoLitteringSignText:
-	text "No littering."
+	text "Zakaz vyhadzovania" ; text "No littering."
+	line "odpadkov."
 
-	para "Please take your"
-	line "waste with you."
+	para "Zoberte si prosim" ; para "Please take your"
+	line "odpad so sebou." ; line "waste with you."
 	done
 
 FuchsiaCity_MapEvents:

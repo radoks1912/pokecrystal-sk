@@ -112,112 +112,112 @@ FastShipCabinsNorthwestCabinTrashcan:
 	jumpstd TrashCanScript
 
 FirebreatherLyleSeenText:
-	text "I'm going to KANTO"
-	line "to put on fire-"
-	cont "breathing shows!"
+	text "Idem do KANTO" ; text "I'm going to KANTO"
+	line "predviest ohnivu" ; line "to put on fire-"
+	cont "show!" ; cont "breathing shows!"
 	done
 
 FirebreatherLyleBeatenText:
-	text "Fizzle… The"
-	line "flame's tiny…"
+	text "Sssss… Ohen" ; text "Fizzle… The"
+	line "je malinky…" ; line "flame's tiny…"
 	done
 
 FirebreatherLyleAfterBattleText:
-	text "I guess fire is"
-	line "weak on the sea."
+	text "Ohen je zjavne" ; text "I guess fire is"
+	line "slaby na mori." ; line "weak on the sea."
 
-	para "It doesn't matter?"
-	line "Really?"
+	para "Nezalezi na tom?" ; para "It doesn't matter?"
+	line "Fakt?" ; line "Really?"
 	done
 
 BugCatcherKenSeenText:
-	text "I'm visiting my"
-	line "grandma to catch"
-	cont "me some bugs!"
+	text "Navsteujem moju" ; text "I'm visiting my"
+	line "babku a chytame" ; line "grandma to catch"
+	cont "chrobaky!" ; cont "me some bugs!"
 	done
 
 BugCatcherKenBeatenText:
-	text "Ooh, wow."
-	line "You're tough!"
+	text "Ooh, wau." ; text "Ooh, wow."
+	line "Si silny!" ; line "You're tough!"
 	done
 
 BugCatcherKenAfterBattleText:
-	text "You can find lots"
-	line "of #MON in the"
-	cont "trees of JOHTO!"
+	text "Na stromoch v" ; text "You can find lots"
+	line "JOHTO sa nachadza" ; line "of #MON in the"
+	cont "vela #MONov!" ; cont "trees of JOHTO!"
 	done
 
 BeautyCassieSeenText:
-	text "I'm trying to"
-	line "forget my woes."
-	cont "Let's battle!"
+	text "Snazim sa zabudnut" ; text "I'm trying to"
+	line "na moje trapenie." ; line "forget my woes."
+	cont "Podme zapasit!" ; cont "Let's battle!"
 	done
 
 BeautyCassieBeatenText:
-	text "My heart weeps…"
+	text "Moje srdce…" ; text "My heart weeps…"
 	done
 
 BeautyCassieAfterBattleText:
-	text "A voyage is best"
-	line "for getting over"
-	cont "a broken heart."
+	text "Plavba je najlep-" ; text "A voyage is best"
+	line "si liek na zlo-" ; line "for getting over"
+	cont "mene srdce." ; cont "a broken heart."
 
-	para "But a FAST SHIP"
-	line "trip is too short"
-	cont "for grieving."
+	para "Ale FAST SHIP" ; para "But a FAST SHIP"
+	line "je prilis rychla" ; line "trip is too short"
+	cont "na smutenie." ; cont "for grieving."
 	done
 
 GuitaristClydeSeenText:
-	text "I'm going to audi-"
-	line "tion my songs at"
+	text "Moje pesnicky budu" ; text "I'm going to audi-"
+	line "vysielane v" ; line "tion my songs at"
 
-	para "GOLDENROD's RADIO"
-	line "STATION."
+	para "GOLDENROD RADIO" ; para "GOLDENROD's RADIO"
+	line "STANICI." ; line "STATION."
 	done
 
 GuitaristClydeBeatenText:
-	text "Yowza!"
-	line "Total distortion!"
+	text "Jejda!" ; text "Yowza!"
+	line "Uplne skreslene!" ; line "Total distortion!"
 	done
 
 GuitaristClydeAfterBattleMobileText:
-	text "I was going to"
-	line "make my debut at"
-	cont "the BATTLE TOWER…"
+	text "Chcel som debuto-" ; text "I was going to"
+	line "vat v BATTLE" ; line "make my debut at"
+	cont "TOWER…" ; cont "the BATTLE TOWER…"
 
-	para "I should go back"
-	line "to VERMILION and"
-	cont "redo my training…"
+	para "Mal by som sa vra-" ; para "I should go back"
+	line "tit do VERMILION" ; line "to VERMILION and"
+	cont "a viac trenovat…" ; cont "redo my training…"
 	done
 
 GuitaristClydeAfterBattleText:
-	text "Speaking of the"
-	line "RADIO STATION,"
+	text "Spominajuc" ; text "Speaking of the"
+	line "RADIO STANICU," ; line "RADIO STATION,"
 
-	para "what's this week's"
-	line "lucky number?"
+	para "ake je tento tyz-" ; para "what's this week's"
+	line "den stastne cislo?" ; line "lucky number?"
 	done
 
 FastShipBedText1:
-	text "A comfy bed!"
-	line "Time to sleep…"
+	text "Pohodlna postel!" ; text "A comfy bed!"
+	line "Cas na spanok…" ; line "Time to sleep…"
 	done
 
 FastShipBedText2:
-	text "Ah, refreshed and"
-	line "restored!"
+	text "Ah, osviezeny a" ; text "Ah, refreshed and"
+	line "znovuzrodeny!" ; line "restored!"
 	done
 
 FastShipArrivedOlivineText:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "OLIVINE CITY."
+	text "FAST SHIP S.S.AQUA" ; text "FAST SHIP S.S.AQUA"
+	line "dorazila do" ; line "has arrived in"
+	cont "OLIVINE CITY." ; cont "OLIVINE CITY."
 	done
 
 FastShipArrivedVermilionText:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "VERMILION CITY."
+	text "FAST SHIP S.S.AQUA" ; text "FAST SHIP S.S.AQUA"
+	line "dorazila do" ; line "has arrived in"
+	cont "VERMILION CITY." ; cont "VERMILION CITY."
 	done
 
 FastShipCabins_SW_SSW_NW_MapEvents:
