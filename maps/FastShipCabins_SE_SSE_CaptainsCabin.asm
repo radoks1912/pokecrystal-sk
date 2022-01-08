@@ -239,225 +239,227 @@ SSAquaGrandpaApproachesPlayerMovement:
 	step_end
 
 SSAquaCaptainExhaustingText:
-	text "Whew! Thanks for"
-	line "coming along."
+	text "Fuh! Dakujem ti," ; text "Whew! Thanks for"
+	line "ze si prisiel." ; line "coming along."
 
-	para "Keeping that lit-"
-	line "tle girl amused"
-	cont "was exhausting."
+	para "Zabavit to male" ; para "Keeping that lit-"
+	line "dievcatko bolo" ; line "tle girl amused"
+	cont "vycerpavajuce." ; cont "was exhausting."
 	done
 
 SSAquaCaptainHowDoYouLikeText:
-	text "How do you like"
-	line "S.S.AQUA's ride?"
+	text "Ako sa ti paci" ; text "How do you like"
+	line "S.S.AQUA plavba?" ; line "S.S.AQUA's ride?"
 
-	para "She practically"
-	line "skates across the"
-	cont "waves."
+	para "Prakticky sa" ; para "She practically"
+	line "vznasa na vlnach." ; line "skates across the"
+	;cont "waves." ; cont "waves."
 	done
 
 SSAquaCantFindGranddaughterText:
-	text "Oh, hello…"
+	text "Och, ahoj…" ; text "Oh, hello…"
 
-	para "I still can't find"
-	line "my granddaughter."
+	para "Stale nemozem" ; para "I still can't find"
+	line "najst vnucku." ; line "my granddaughter."
 
-	para "If she's on the"
-	line "ship, that's OK."
+	para "Ak je na lodi," ; para "If she's on the"
+	line "vsetko je OK." ; line "ship, that's OK."
 
-	para "She's an energetic"
-	line "child, so she may"
+	para "Je to energicke" ; para "She's an energetic"
+	line "dieta, takze prav-" ; line "child, so she may"
 
-	para "be bugging some-"
-	line "one. I'm worried…"
+	para "depodobne prave" ; para "be bugging some-"
+	line "niekoho otravuje." ; line "one. I'm worried…"
+	cont "Mam strach…"
 	done
 
 SSAquaEntertainedGranddaughterText:
-	text "<PLAY_G>, was it?"
-	line "I heard you enter-"
-	cont "tained my grand-"
-	cont "daughter."
+	text "<PLAY_G>, vsak?" ; text "<PLAY_G>, was it?"
+	line "Vraj si zabaval" ; line "I heard you enter-"
+	cont "moju vnucku." ; cont "tained my grand-"
+	;cont "daughter." ; cont "daughter."
 
-	para "I want to thank"
-	line "you for that."
+	para "Chcem ti za to" ; para "I want to thank"
+	line "podakovat." ; line "you for that."
 	done
 
 SSAquaGrandpaHaveThisText:
-	text "I know! I'd like"
-	line "you to have this!"
+	text "Viem! Vezmi si" ; text "I know! I'd like"
+	line "toto!" ; line "you to have this!"
 	done
 
 SSAquaGrandpaTravellingText:
-	text "We're traveling"
-	line "around the world."
+	text "Cestujem okolo" ; text "We're traveling"
+	line "sveta." ; line "around the world."
 	done
 
 SSAquaGranddaughterCaptainPlayWithMeText:
-	text "CAPTAIN, play with"
-	line "me, please?"
+	text "KAPITAN, hraj sa" ; text "CAPTAIN, play with"
+	line "so mnou, prosim?" ; line "me, please?"
 
-	para "I'm bored! I want"
-	line "to play more!"
+	para "Nudim sa! Chcem sa" ; para "I'm bored! I want"
+	line "este hrat!" ; line "to play more!"
 	done
 
 SSAquaGranddaughterHasToFindGrandpaText:
-	text "Hi! Will you play"
-	line "with me?"
+	text "Ahoj! Zahras sa" ; text "Hi! Will you play"
+	line "so mnou?" ; line "with me?"
 
-	para "…Oh!"
+	para "…Och!" ; para "…Oh!"
 
-	para "Grandpa's worried"
-	line "about me?"
+	para "Dedko sa o mna" ; para "Grandpa's worried"
+	line "boji?" ; line "about me?"
 
-	para "I have to go!"
+	para "Musim ist!" ; para "I have to go!"
 
-	para "I have to go find"
-	line "Grandpa!"
+	para "Musim ist najst" ; para "I have to go find"
+	line "dedka!" ; line "Grandpa!"
 	done
 
 SSAquaGranddaughterWasPlayingMText:
-	text "Grandpa, here I"
-	line "am! I was playing"
+	text "Dedko, tu som!" ; text "Grandpa, here I"
+	line "Hrala som sa s" ; line "am! I was playing"
 
-	para "with the CAPTAIN"
-	line "and this guy!"
+	para "KAPITANOM a tymto" ; para "with the CAPTAIN"
+	line "chlapcom!" ; line "and this guy!"
 	done
 
 SSAquaGranddaughterWasPlayingFText:
-	text "Grandpa, here I"
-	line "am! I was playing"
+	text "Dedko, tu som!" ; text "Grandpa, here I"
+	line "Hrala som sa s" ; line "am! I was playing"
 
-	para "with the CAPTAIN"
-	line "and this big girl!"
+	para "KAPITANOM a tymto" ; para "with the CAPTAIN"
+	line "dievcatom!" ; line "and this big girl!"
 	done
 
 SSAquaGranddaughterHadFunText:
-	text "I had lots of fun"
-	line "playing!"
+	text "Bola to velka" ; text "I had lots of fun"
+	line "zabava!" ; line "playing!"
 	done
 
 PokefanmColinSeenText:
-	text "Hey, kid! Want to"
-	line "battle with me?"
+	text "Hej, synak! Chces" ; text "Hey, kid! Want to"
+	line "zapasit?" ; line "battle with me?"
 	done
 
 PokefanmColinBeatenText:
-	text "You're strong!"
+	text "Si silny!" ; text "You're strong!"
 	done
 
 PokefanmColinAfterBattleText:
-	text "You're traveling"
-	line "all alone?"
+	text "Cestujes sam?" ; text "You're traveling"
+	;line "all alone?" ; line "all alone?"
 
-	para "Isn't your mom"
-	line "worried?"
+	para "Nestrachuje sa" ; para "Isn't your mom"
+	line "tvoja mama?" ; line "worried?"
 	done
 
 TwinsMegandpeg1SeenText:
-	text "You think I'm a"
-	line "baby?"
-	cont "That's not fair!"
+	text "Myslis si, ze som" ; text "You think I'm a"
+	line "dieta?" ; line "baby?"
+	cont "To nie je fer!" ; cont "That's not fair!"
 	done
 
 TwinsMegandpeg1BeatenText:
-	text "Oh! We lost!"
+	text "Och! Prehra!" ; text "Oh! We lost!"
 	done
 
 TwinsMegandpeg1AfterBattleText:
-	text "Baby is a rude"
-	line "name to call us"
-	cont "girls!"
+	text "Nazyvat nas detmi" ; text "Baby is a rude"
+	line "je od teba" ; line "name to call us"
+	cont "drze!" ; cont "girls!"
 	done
 
 TwinsMegandpeg2SeenText:
-	text "I'm not a baby!"
+	text "Nie som dieta!" ; text "I'm not a baby!"
 
-	para "That's not nice to"
-	line "say to a lady!"
+	para "To nie je pekne" ; para "That's not nice to"
+	line "povedat dame!" ; line "say to a lady!"
 	done
 
 TwinsMegandpeg2BeatenText:
-	text "Oh! We lost!"
+	text "Och! Prehra!" ; text "Oh! We lost!"
 	done
 
 TwinsMegandpeg2AfterBattleText:
-	text "Sometimes, kids"
-	line "are smarter than"
-	cont "grown-ups!"
+	text "Niekedy su deti" ; text "Sometimes, kids"
+	line "mudrejsie ako" ; line "are smarter than"
+	cont "dospeli!" ; cont "grown-ups!"
 	done
 
 PsychicRodneySeenText:
-	text "Ssh! My brain is"
-	line "picking up radio"
-	cont "signals!"
+	text "Ssh! Moj mozog" ; text "Ssh! My brain is"
+	line "zachytava radio" ; line "picking up radio"
+	cont "signaly!" ; cont "signals!"
 	done
 
 PsychicRodneyBeatenText:
-	text "…I hear some-"
-	line "thing!"
+	text "…Pocujem" ; text "…I hear some-"
+	line "nieco!" ; line "thing!"
 	done
 
 PsychicRodneyAfterBattleText:
-	text "I get it. You can"
-	line "hear JOHTO's radio"
-	cont "on the FAST SHIP."
+	text "Rozumiem. Pocujes" ; text "I get it. You can"
+	line "JOHTO radio na" ; line "hear JOHTO's radio"
+	cont "lodi FAST SHIP." ; cont "on the FAST SHIP."
 	done
 
 PokefanmJeremySeenText:
-	text "What do you think?"
-	line "My #MON are"
-	cont "beautiful, yes?"
+	text "Co myslis?" ; text "What do you think?"
+	line "Moji #MON" ; line "My #MON are"
+	cont "su krasni, ze?" ; cont "beautiful, yes?"
 	done
 
 PokefanmJeremyBeatenText:
-	text "Oh, no! My beauti-"
-	line "ful #MON!"
+	text "Och, nie! Moji" ; text "Oh, no! My beauti-"
+	line "#MONi!" ; line "ful #MON!"
 	done
 
 PokefanmJeremyAfterBattleText:
-	text "I must go to the"
-	line "#MON SALON and"
-	cont "fix them up nice!"
+	text "Musim is do" ; text "I must go to the"
+	line "#MON SALONu a ne-" ; line "#MON SALON and"
+	cont "chat ich upravit!" ; cont "fix them up nice!"
 	done
 
 PokefanfGeorgiaSeenText:
-	text "I'm going to shop"
-	line "at the DEPT.STORE"
-	cont "and then…"
+	text "Pojdem na nakupy" ; text "I'm going to shop"
+	line "do DEPT.STORE" ; line "at the DEPT.STORE"
+	cont "a potom…" ; cont "and then…"
 	done
 
 PokefanfGeorgiaBeatenText:
-	text "What was I going"
-	line "to do?"
+	text "Co som to chcela?" ; text "What was I going"
+	;line "to do?" ; line "to do?"
 	done
 
 PokefanfGeorgiaAfterBattleText:
-	text "Oh, yes! I have to"
-	line "get my #MON out"
-	cont "of DAY-CARE!"
+	text "Ano! Musim si vy-" ; text "Oh, yes! I have to" 
+	line "zdvihnut mojich" ; line "get my #MON out"
+	cont "#MONov z"
+	cont "DAY-CARE centra!" ; cont "of DAY-CARE!"
 	done
 
 SupernerdShawnSeenText:
-	text "What kinds of #"
-	line "BALLS do you have"
-	cont "with you?"
+	text "Ake #" ; text "What kinds of #"
+	line "BALLS mas" ; line "BALLS do you have"
+	cont "so sebou?" ; cont "with you?"
 	done
 
 SupernerdShawnBeatenText:
-	text "Wait! Stop! Don't!"
-	line "Please!"
+	text "Pockaj! Nerob to!" ; text "Wait! Stop! Don't!"
+	line "Prosim!" ; line "Please!"
 	done
 
 SupernerdShawnAfterBattleText:
-	text "You should use the"
-	line "right BALLS to fit"
-	cont "the situation."
+	text "Mal by si pouzivat" ; text "You should use the"
+	line "spravne BALLS" ; line "right BALLS to fit"
+	cont "podla situacie." ; cont "the situation."
 	done
 
 SSAquaHasArrivedVermilionText:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "VERMILION CITY."
+	text "FAST SHIP S.S.AQUA" ; text "FAST SHIP S.S.AQUA"
+	line "dorazila do" ; line "has arrived in"
+	cont "VERMILION CITY." ; cont "VERMILION CITY."
 	done
 
 FastShipCabins_SE_SSE_CaptainsCabin_MapEvents:

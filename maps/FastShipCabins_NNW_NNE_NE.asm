@@ -132,136 +132,137 @@ FastShipLazySailorLeavesMovement2:
 	step_end
 
 CooltrainermSeanSeenText:
-	text "I'm going to KANTO"
-	line "to test my skills."
+	text "Idem do KANTO" ; text "I'm going to KANTO"
+	line "otestovat moje" ; line "to test my skills."
+	cont "schopnosti."
 	done
 
 CooltrainermSeanBeatenText:
-	text "I wanted to win!"
+	text "Chcel som vyhrat!" ; text "I wanted to win!"
 	done
 
 CooltrainermSeanAfterBattleText:
-	text "Trainers from"
-	line "JOHTO can battle"
+	text "Treneri z" ; text "Trainers from"
+	line "JOHTO mozu zapa-" ; line "JOHTO can battle"
 
-	para "with KANTO GYM"
-	line "LEADERS."
+	para "sit s KANTO GYM" ; para "with KANTO GYM"
+	line "LEADERmi." ; line "LEADERS."
 	done
 
 CooltrainerfCarolSeenText:
-	text "I'm training to"
-	line "become the CHAMP!"
+	text "Trenujem, aby som" ; text "I'm training to"
+	line "sa stal sampionom!" ; line "become the CHAMP!"
 	done
 
 CooltrainerfCarolBeatenText:
-	text "What's so differ-"
-	line "ent between us?"
+	text "Aky je medzi nami" ; text "What's so differ-"
+	line "rozdiel?" ; line "ent between us?"
 	done
 
 CooltrainerfCarolAfterBattleText:
-	text "I'm going to beat"
-	line "you someday!"
+	text "Jedneho dna ta" ; text "I'm going to beat"
+	line "raz porazim!" ; line "you someday!"
 	done
 
 PokemaniacEthanSeenText:
-	text "Do you know LILY?"
-	line "She's a hot DJ in"
-	cont "KANTO."
+	text "Poznas LILY?" ; text "Do you know LILY?"
+	line "Krasna DJ v" ; line "She's a hot DJ in"
+	cont "KANTO." ; cont "KANTO."
 	done
 
 PokemaniacEthanBeatenText:
-	text "Gyaaaah!"
+	text "Gyaaaah!" ; text "Gyaaaah!"
 	done
 
 PokemaniacEthanAfterBattleText:
-	text "LILY's nice, but"
-	line "MARY's the best!"
+	text "LILY je pekna, ale" ; text "LILY's nice, but"
+	line "MARY je najlepsia!" ; line "MARY's the best!"
 
-	para "I want to check"
-	line "out JOHTO's radio"
-	cont "programs!"
+	para "Chcem pocuvat" ; para "I want to check"
+	line "programy z JOHTO" ; line "out JOHTO's radio"
+	cont "radia!" ; cont "programs!"
 	done
 
 HikerNolandSeenText:
-	text "Are you alone?"
-	line "Then let's battle!"
+	text "Si sam?" ; text "Are you alone?"
+	line "Zapasme!" ; line "Then let's battle!"
 	done
 
 HikerNolandBeatenText:
-	text "That's too much to"
-	line "handle!"
+	text "Je toho na mna" ; text "That's too much to"
+	line "prilis vela!" ; line "handle!"
 	done
 
 HikerNolandAfterBattleText:
-	text "I wonder if there"
-	line "are any mountains"
+	text "Som zvedavy, ci v" ; text "I wonder if there"
+	line "KANTO maju nejake" ; line "are any mountains"
 
-	para "worth climbing in"
-	line "KANTO?"
+	para "hory, ktore by" ; para "worth climbing in"
+	line "stali za zmienku." ; line "KANTO?"
 	done
 
 SailorStanlySeenText:
-	text "Yeah, I'm a sail-"
-	line "or, all right."
+	text "Som namornik," ; text "Yeah, I'm a sail-"
+	line "predsa." ; line "or, all right."
 
-	para "I wasn't goofing"
-	line "off!"
+	para "Neflakal som sa!" ; para "I wasn't goofing"
+	;line "off!" ; line "off!"
 
-	para "This cabin was"
-	line "vacant, so I just"
-	cont "took a quick nap!"
+	para "Tato kajuta bola" ; para "This cabin was"
+	line "prazdna, tak som" ; line "vacant, so I just"
+	cont "si zdriemol!" ; cont "took a quick nap!"
 
-	para "Ah, forget it!"
-	line "Let's battle!"
+	para "Ach, zabudni na" ; para "Ah, forget it!"
+	line "to! Zapasme!" ; line "Let's battle!"
 	done
 
 SailorStanlyBeatenText:
-	text "Sorry! It's all my"
-	line "fault!"
+	text "Prepac! Je to" ; text "Sorry! It's all my"
+	line "vsetko moja chyba!" ; line "fault!"
 	done
 
 SailorStanlyAfterBattleText:
-	text "Being a sailor, I"
-	line "have to do phys-"
-	cont "ical labor. It's"
-	cont "exhausting!"
+	text "Byt namornikom" ; text "Being a sailor, I"
+	line "znamena robit" ; line "have to do phys-"
+	cont "fyzicku pracu." ; cont "ical labor. It's"
+	cont "Namahave!" ; cont "exhausting!"
 	done
 
 GentlemanEdwardSeenText:
-	text "Oh, no. I've lost"
-	line "something that's"
-	cont "very important."
+	text "Och, nie. Prehral" ; text "Oh, no. I've lost"
+	line "som nieco velmi" ; line "something that's"
+	cont "dolezite." ; cont "very important."
 	done
 
 GentlemanEdwardBeatenText:
-	text "I… I can't find"
-	line "it…"
+	text "Ja… Neviem to" ; text "I… I can't find"
+	line "najst…" ; line "it…"
 	done
 
 GentlemanEdwardAfterBattleText:
-	text "I give up."
-	line "You don't have to"
+	text "Vzdavam sa." ; text "I give up."
+	line "Nemusis to hladat." ; line "You don't have to"
 
-	para "look. Just forget"
-	line "about it!"
+	para "Zabudni na to!" ; para "look. Just forget"
+	;line "about it!" ; line "about it!"
 	done
 
 BurglarCoreySeenText:
-	text "Yeehaw!"
-	line "Lucky!"
+	text "Jihaaa!" ; text "Yeehaw!"
+	line "Stastie!" ; line "Lucky!"
 	done
 
 BurglarCoreyBeatenText:
-	text "How unlucky!"
-	line "I lost!"
+	text "Ake nestastie!" ; text "How unlucky!"
+	line "Prehral som!" ; line "I lost!"
 	done
 
 BurglarCoreyAfterBattleText:
-	text "I found a pretty"
-	line "coin here."
+	text "Nasiel som tu" ; text "I found a pretty"
+	line "peknu mincu." ; line "coin here."
 
-	para "Someone must have"
-	line "lost it…"
+	para "Niekto ju tu musel" ; para "Someone must have"
+	line "stratit…" ; line "lost it…"
 	done
 
 FastShipCabins_NNW_NNE_NE_MapEvents:

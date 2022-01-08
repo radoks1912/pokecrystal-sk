@@ -219,231 +219,232 @@ FastShipB1FSailorBlocksLeftMovement:
 	step_end
 
 FastShipB1FOnDutySailorText:
-	text "Hey, kid. Could I"
-	line "get you to look"
-	cont "for my buddy?"
+	text "Hej, synak. Mohol" ; text "Hey, kid. Could I"
+	line "by si sa pozriet" ; line "get you to look"
+	cont "po mojom kamosovi?" ; cont "for my buddy?"
 
-	para "He's goofing off"
-	line "somewhere, that"
-	cont "lazy bum!"
+	para "Niekde sa flaka," ; para "He's goofing off"
+	line "lenivec jeden!" ; line "somewhere, that"
+	;cont "lazy bum!" ; cont "lazy bum!"
 
-	para "I want to go find"
-	line "him, but I'm on"
-	cont "duty right now."
+	para "Isiel by som ho" ; para "I want to go find"
+	line "hladat, ale zrovna" ; line "him, but I'm on"
+	cont "mam sluzbu." ; cont "duty right now."
 	done
 
 FastShipB1FOnDutySailorRefusedText:
-	text "Oh, gee…"
+	text "Och, kelu…" ; text "Oh, gee…"
 
-	para "The CAPTAIN will"
-	line "be furious…"
+	para "KAPITAN bude" ; para "The CAPTAIN will"
+	line "zurit…" ; line "be furious…"
 	done
 
 FastShipB1FOnDutySailorThanksText:
-	text "Thanks, kid!"
-	line "I chewed him out"
+	text "Dakujem, synak!" ; text "Thanks, kid!"
+	line "Zgustol som si na" ; line "I chewed him out"
 
-	para "good so he'll quit"
-	line "slacking off!"
+	para "nom, urcite sa" ; para "good so he'll quit"
+	line "prestane flakat!" ; line "slacking off!"
 	done
 
 FastShipB1FOnDutySailorSawLittleGirlText:
-	text "A little girl?"
+	text "Male dievcatko?" ; text "A little girl?"
 
-	para "I may have seen"
-	line "her go by here."
+	para "Tusim som ho videl" ; para "I may have seen"
+	line "tadialto prejst." ; line "her go by here."
 	done
 
 FastShipB1FOnDutySailorDirectionsText:
-	text "The dining room is"
-	line "up ahead."
+	text "Jedalen je smerom" ; text "The dining room is"
+	line "rovno." ; line "up ahead."
 
-	para "The stairs at the"
-	line "end lead to the"
-	cont "CAPTAIN's cabin."
+	para "Schody na konci" ; para "The stairs at the"
+	line "chodby vedu do" ; line "end lead to the"
+	cont "kajuty KAPITANA." ; cont "CAPTAIN's cabin."
 	done
 
 SailorJeffSeenText:
-	text "Nothing beats a"
-	line "battle when I'm"
-	cont "on my break."
+	text "Nie je nic lepsie" ; text "Nothing beats a" 
+	line "ako zapasit pocas" ; line "battle when I'm"
+	cont "prestavky." ; cont "on my break."
 	done
 
 SailorJeffBeatenText:
-	text "Win or lose, my"
-	line "break's over!"
+	text "Vyhra ci prehra," ; text "Win or lose, my"
+	line "prestavka konci!" ; line "break's over!"
 	done
 
 SailorJeffAfterBattleText:
-	text "I guess I can't"
-	line "win if I don't get"
-	cont "serious."
+	text "Nepodari sa mi" ; text "I guess I can't"
+	line "vyhrat, ked to ne-" ; line "win if I don't get"
+	cont "budem brat vazne." ; cont "serious."
 	done
 
 PicnickerDebraSeenText:
-	text "I'm so bored."
-	line "Want to battle?"
+	text "Nudim sa." ; text "I'm so bored."
+	line "Dame zapas?" ; line "Want to battle?"
 	done
 
 PicnickerDebraBeatenText:
-	text "Yow! You're too"
-	line "strong!"
+	text "Jou! Si strasne" ; text "Yow! You're too"
+	line "silny!" ; line "strong!"
 	done
 
 PicnickerDebraAfterBattleText:
-	text "SAFFRON, CELADON…"
-	line "I hear there are"
+	text "SAFFRON, CELADON…" ; text "SAFFRON, CELADON…"
+	line "Pocul som, ze v" ; line "I hear there are"
 
-	para "many big cities"
-	line "in KANTO."
+	para "KANTO je mnoho" ; para "many big cities"
+	line "velkych miest." ; line "in KANTO."
 	done
 
 JugglerFritzSeenText:
-	text "Urrf…"
-	line "I'm seasick!"
+	text "Urrf… Mam morsku" ; text "Urrf…"
+	line "chorobu!" ; line "I'm seasick!"
 	done
 
 JugglerFritzBeatenText:
-	text "I can't move any-"
-	line "more…"
+	text "Nemozem sa uz" ; text "I can't move any-"
+	line "pohnut…" ; line "more…"
 	done
 
 JugglerFritzAfterBattleText:
-	text "No more ships for"
-	line "me. Next time,"
+	text "Uz ziadne lode" ; text "No more ships for"
+	line "pre mna. Nabuduce" ; line "me. Next time,"
 
-	para "I'm taking the"
-	line "MAGNET TRAIN."
+	para "pojdem radsej" ; para "I'm taking the"
+	line "MAGNET VLAKOM." ; line "MAGNET TRAIN."
 	done
 
 SailorGarrettSeenText:
-	text "This is where we"
-	line "sailors work!"
+	text "My namornici pra-" ; text "This is where we"
+	line "cujeme tu!" ; line "sailors work!"
 	done
 
 SailorGarrettBeatenText:
-	text "I lost on my home"
-	line "field…"
+	text "Prehral som na" ; text "I lost on my home"
+	line "vlastnom poli…" ; line "field…"
 	done
 
 SailorGarrettAfterBattleText:
-	text "We get different"
-	line "passengers from"
+	text "Prepravujeme" ; text "We get different"
+	line "roznych cestuju-" ; line "passengers from"
 
-	para "VERMILION CITY to"
-	line "OLIVINE CITY."
+	para "cich z VERMILION" ; para "VERMILION CITY to"
+	line "do OLIVINE." ; line "OLIVINE CITY."
 	done
 
 FisherJonahSeenText:
-	text "Even though we're"
-	line "out on the sea, I"
-	cont "can't fish!"
+	text "Aj ked sme na mori" ; text "Even though we're"
+	line "nemozem rybarcit!" ; line "out on the sea, I"
+	;cont "can't fish!" ; cont "can't fish!"
 
-	para "This is boring!"
-	line "Let's battle!"
+	para "To je nuda!" ; para "This is boring!"
+	line "Podme zapasit!" ; line "Let's battle!"
 	done
 
 FisherJonahBeatenText:
-	text "I… I'm not bored"
-	line "anymore…"
+	text "Ja… Ja sa uz" ; text "I… I'm not bored"
+	line "nenudim…" ; line "anymore…"
 	done
 
 FisherJonahAfterBattleText:
-	text "I plan to fish off"
-	line "VERMILION's pier."
+	text "Planujem chytat" ; text "I plan to fish off"
+	line "ryby z mola vo" ; line "VERMILION's pier."
+	cont "VERMILIONe."
 	done
 
 BlackbeltWaiSeenText:
-	text "I'm building up my"
-	line "legs by bracing"
+	text "Cvicim si nohy" ; text "I'm building up my"
+	line "balansovanim" ; line "legs by bracing"
 
-	para "against the ship's"
-	line "rocking!"
+	para "proti kolisaniu" ; para "against the ship's"
+	line "lode!" ; line "rocking!"
 	done
 
 BlackbeltWaiBeatenText:
-	text "Rocked and rolled"
-	line "over!"
+	text "Dostal si ma!" ; text "Rocked and rolled"
+	;line "over!" ; line "over!"
 	done
 
 BlackbeltWaiAfterBattleText:
-	text "I couldn't find"
-	line "the KARATE KING in"
-	cont "JOHTO."
+	text "Nenasiel som" ; text "I couldn't find"
+	line "KARATE KINGa v" ; line "the KARATE KING in"
+	cont "JOHTO." ; cont "JOHTO."
 
-	para "He's supposed to"
-	line "be training in a"
-	cont "cave somewhere."
+	para "Udajne trenuje" ; para "He's supposed to"
+	line "v nejakej nespeci-" ; line "be training in a"
+	cont "fikovanej jaskyni." ; cont "cave somewhere."
 	done
 
 SailorKennethSeenText:
-	text "I'm a sailor man!"
+	text "Som namornik!" ; text "I'm a sailor man!"
 
-	para "But I'm training"
-	line "#MON, so I can"
-	cont "become the CHAMP!"
+	para "Ale trenujem" ; para "But I'm training"
+	line "#MON, aby som" ; line "#MON, so I can"
+	cont "sa stal sampionom!" ; cont "become the CHAMP!"
 	done
 
 SailorKennethBeatenText:
-	text "My lack of train-"
-	line "ing is obvious…"
+	text "Zjavny nedostatok" ; text "My lack of train-"
+	line "treningu…" ; line "ing is obvious…"
 	done
 
 SailorKennethAfterBattleText:
-	text "Eight BADGES!"
-	line "They must prove"
+	text "Osem ODZNAKOV!" ; text "Eight BADGES!"
+	line "Dokazuju, ze si" ; line "They must prove"
 
-	para "that you've beaten"
-	line "GYM LEADERS."
+	para "porazil" ; para "that you've beaten"
+	line "GYM LEADERov." ; line "GYM LEADERS."
 
-	para "No wonder you're"
-	line "so good!"
+	para "Niet divu, ze si" ; para "No wonder you're"
+	line "tak dobry!" ; line "so good!"
 	done
 
 TeacherShirleySeenText:
-	text "Don't lay a finger"
-	line "on my students!"
+	text "Ani sa nedotkni" ; text "Don't lay a finger"
+	line "mojich studentov!" ; line "on my students!"
 	done
 
 TeacherShirleyBeatenText:
-	text "Aaack!"
+	text "Aaach!" ; text "Aaack!"
 	done
 
 TeacherShirleyAfterBattleText:
-	text "We're on a field"
-	line "trip to the RUINS"
-	cont "outside VIOLET."
+	text "Sme na vylete do" ; text "We're on a field"
+	line "RUIN nedaleko" ; line "trip to the RUINS"
+	cont "mesta VIOLET." ; cont "outside VIOLET."
 	done
 
 SchoolboyNateSeenText:
-	text "Do you know the"
-	line "RUINS OF ALPH?"
+	text "Poznas tieto" ; text "Do you know the"
+	line "RUINS OF ALPH?" ; line "RUINS OF ALPH?"
 	done
 
 SchoolboyNateBeatenText:
-	text "Yaargh!"
+	text "Yaargh!" ; text "Yaargh!"
 	done
 
 SchoolboyNateAfterBattleText:
-	text "Radios pick up"
-	line "strange signals"
-	cont "inside the RUINS."
+	text "V RUINACH za-" ; text "Radios pick up"
+	line "chytavaju radia" ; line "strange signals"
+	cont "zvlastne signaly." ; cont "inside the RUINS."
 	done
 
 SchoolboyRickySeenText:
-	text "There are some odd"
-	line "stone panels in"
-	cont "the RUINS OF ALPH."
+	text "V RUINS OF ALPH sa" ; text "There are some odd"
+	line "nachadzaju akesi" ; line "stone panels in"
+	cont "kamenne panely." ; cont "the RUINS OF ALPH."
 	done
 
 SchoolboyRickyBeatenText:
-	text "I was done in!"
+	text "Som hotovy!" ; text "I was done in!"
 	done
 
 SchoolboyRickyAfterBattleText:
-	text "I read that there"
-	line "are four of those"
-	cont "stone panels."
+	text "Pocul som, ze tam" ; text "I read that there"
+	line "su styri kamenne" ; line "are four of those"
+	cont "panely." ; cont "stone panels."
 	done
 
 FastShipB1F_MapEvents:
