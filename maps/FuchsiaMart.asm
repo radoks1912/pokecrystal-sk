@@ -21,18 +21,18 @@ FuchsiaMartCooltrainerFScript:
 	jumptextfaceplayer FuchsiaMartCooltrainerFText
 
 FuchsiaMartFisherText:
-	text "I was hoping to"
-	line "buy some SAFARI"
+	text "Dufal som, ze si" ; text "I was hoping to"
+	line "kupim suveniry zo" ; line "buy some SAFARI"
 
-	para "ZONE souvenirs,"
-	line "but it's closed…"
+	para "SAFARI ZONY," ; para "ZONE souvenirs,"
+	line "ale je zavreta…" ; line "but it's closed…"
 	done
 
 FuchsiaMartCooltrainerFText:
-	text "The SAFARI ZONE"
-	line "WARDEN's grand-"
-	cont "daughter lives in"
-	cont "town."
+	text "Vnucka SPRAVCU" ; text "The SAFARI ZONE"
+	line "SAFARI ZONY zije" ; line "WARDEN's grand-"
+	cont "v tomto meste." ; cont "daughter lives in"
+	;cont "town." ; cont "town."
 	done
 
 FuchsiaMart_MapEvents:

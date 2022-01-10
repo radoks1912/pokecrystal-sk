@@ -38,41 +38,41 @@ GoldenrodDeptStore4FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore4FCooltrainerMText:
-	text "Hey. I love strong"
-	line "#MON."
+	text "Hej. Milujem sil-" ; text "Hey. I love strong"
+	line "nych #MONov." ; line "#MON."
 
-	para "I feed them PRO-"
-	line "TEIN to crank up"
-	cont "their ATTACK."
+	para "Krmim ich PRO-" ; para "I feed them PRO-"
+	line "TEINom na zvysenie" ; line "TEIN to crank up"
+	cont "ich UTOKU." ; cont "their ATTACK."
 	done
 
 GoldenrodDeptStore4FBugCatcherText:
-	text "IRON adds to your"
-	line "#MON's DEFENSE."
+	text "IRON zvysuje" ; text "IRON adds to your"
+	line "#MON OBRANU." ; line "#MON's DEFENSE."
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
-	text "Some #MON"
-	line "evolve only by"
+	text "Zopar #MONov" ; text "Some #MON"
+	line "sa vyvija iba" ; line "evolve only by"
 
-	para "being traded via a"
-	line "Game Link cable."
+	para "vymenou cez" ; para "being traded via a"
+	line "Game Link kabel." ; line "Game Link cable."
 
-	para "I know of four:"
-	line "MACHOKE, KADABRA,"
+	para "Poznam styroch:" ; para "I know of four:"
+	line "MACHOKE, KADABRA," ; line "MACHOKE, KADABRA,"
 
-	para "HAUNTER and, um,"
-	line "GRAVELER."
+	para "HAUNTER a, um," ; para "HAUNTER and, um,"
+	line "GRAVELER." ; line "GRAVELER."
 
-	para "I heard there are"
-	line "others too."
+	para "Pocul som, ze su" ; para "I heard there are"
+	line "aj dalsi." ; line "others too."
 	done
 
 GoldenrodDeptStore4FDirectoryText:
-	text "Let Us Pump Up"
-	line "Your #MON!"
+	text "Dovol nam vyliecit" ; text "Let Us Pump Up"
+	line "tvojich #MONov!" ; line "Your #MON!"
 
-	para "4F MEDICINE BOX"
+	para "4P LEKAREN" ; para "4F MEDICINE BOX"
 	done
 
 GoldenrodDeptStore4F_MapEvents:

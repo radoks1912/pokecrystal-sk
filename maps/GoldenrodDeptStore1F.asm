@@ -28,52 +28,52 @@ GoldenrodDeptStore1FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore1FReceptionistText:
-	text "Welcome to GOLDEN-"
-	line "ROD DEPT.STORE."
+	text "Vitajte v GOLDEN-" ; text "Welcome to GOLDEN-"
+	line "ROD DEPT.STORE." ; line "ROD DEPT.STORE."
 	done
 
 GoldenrodDeptStore1FGentlemanText:
-	text "The DEPT.STORE"
-	line "has a decent se-"
-	cont "lection."
+	text "DEPT.STORE" ; text "The DEPT.STORE"
+	line "ma skvely vyber." ; line "has a decent se-"
+	;cont "lection." ; cont "lection."
 
-	para "But some items"
-	line "are only available"
+	para "Ale niektore veci" ; para "But some items"
+	line "su dostupne iba" ; line "are only available"
 
-	para "as GAME CORNER"
-	line "prizes."
+	para "ako ceny v" ; para "as GAME CORNER"
+	line "GAME CORNER." ; line "prizes."
 	done
 
 GoldenrodDeptStore1FPokefanFText:
-	text "I'm raring to shop"
-	line "again today!"
+	text "Skocim si dnes" ; text "I'm raring to shop"
+	line "znova do obchodu!" ; line "again today!"
 	done
 
 GoldenrodDeptStore1FBugCatcherText:
-	text "Mom's good at"
-	line "bargain hunting."
+	text "Mama sleduje" ; text "Mom's good at"
+	line "vsetky vypredaje." ; line "bargain hunting."
 
-	para "She always buys"
-	line "stuff at lower"
-	cont "prices."
+	para "Vzdy nakupi za" ; para "She always buys"
+	line "skvele ceny." ; line "stuff at lower"
+	;cont "prices." ; cont "prices."
 	done
 
 GoldenrodDeptStore1FDirectoryText:
-	text "1F SERVICE COUNTER"
+	text "1P OBSLUZNY PULT" ; text "1F SERVICE COUNTER"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "2P TRENERSKY" ; para "2F TRAINER'S"
+	line "   MARKET" ; line "   MARKET"
 
-	para "3F BATTLE"
-	line "   COLLECTION"
+	para "3P ZAPASOVA" ; para "3F BATTLE"
+	line "   KOLEKCIA" ; line "   COLLECTION"
 
-	para "4F MEDICINE BOX"
+	para "4P LEKAREN" ; para "4F MEDICINE BOX"
 
-	para "5F TM CORNER"
+	para "5P TM KUTIK" ; para "5F TM CORNER"
 
-	para "6F TRANQUIL SQUARE"
+	para "6P KLUDNE NAMESTIE" ; para "6F TRANQUIL SQUARE"
 
-	para "ROOFTOP LOOKOUT"
+	para "STRESNA VYHLIADKA" ; para "ROOFTOP LOOKOUT"
 	done
 
 GoldenrodDeptStore1F_MapEvents:

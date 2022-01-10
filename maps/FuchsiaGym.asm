@@ -234,148 +234,148 @@ Movement_NinjaSpin:
 	step_end
 
 JanineText_DisappointYou:
-	text "Fufufufu…"
+	text "Fufufufu…" ; text "Fufufufu…"
 
-	para "I'm sorry to dis-"
-	line "appoint you…"
+	para "Nechcem ta sklamat" ; para "I'm sorry to dis-"
+	line "ale…" ; line "appoint you…"
 
-	para "I'm only joking!"
+	para "Len vtipkujem!" ; para "I'm only joking!"
 
-	para "I'm the real deal!"
+	para "Ja som ta prava!" ; para "I'm the real deal!"
 
-	para "JANINE of FUCHSIA"
-	line "GYM, that's me!"
+	para "JANINE z FUCHSIA" ; para "JANINE of FUCHSIA"
+	line "GYMu, to som ja!" ; line "GYM, that's me!"
 	done
 
 JanineText_ToughOne:
-	text "JANINE: You're a"
-	line "tough one. You"
-	cont "definitely won…"
+	text "JANINE: Si" ; text "JANINE: You're a"
+	line "tvrdas. Jednoducho" ; line "tough one. You"
+	cont "si vyhral…" ; cont "definitely won…"
 
-	para "Here's SOULBADGE."
-	line "Take it."
+	para "Tu mas SOULBADGE." ; para "Here's SOULBADGE."
+	line "Vezmi si ho." ; line "Take it."
 	done
 
 Text_ReceivedSoulBadge:
-	text "<PLAYER> received"
-	line "SOULBADGE."
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
+	line "SOULBADGE." ; line "SOULBADGE."
 	done
 
 JanineText_ToxicSpeech:
-	text "JANINE: You're so"
-	line "tough! I have a"
-	cont "special gift!"
+	text "JANINE: Si taky" ; text "JANINE: You're so"
+	line "sialk! Mam pre" ; line "tough! I have a"
+	cont "teba darcek!" ; cont "special gift!"
 
-	para "It's TOXIC, a pow-"
-	line "erful poison that"
+	para "Je to TOXIC, mocny" ; para "It's TOXIC, a pow-"
+	line "jed postupne" ; line "erful poison that"
 
-	para "steadily saps the"
-	line "victim's HP."
+	para "vysavajuci HP zo" ; para "steadily saps the"
+	line "svojej obete." ; line "victim's HP."
 	done
 
 JanineText_ApplyMyself:
-	text "JANINE: I'm going"
-	line "to really apply"
+	text "JANINE: Budem sa" ; text "JANINE: I'm going"
+	line "odteraz ovela viac" ; line "to really apply"
 
-	para "myself and improve"
-	line "my skills."
+	para "snazit zlepsit" ; para "myself and improve"
+	line "svoje schopnosti." ; line "my skills."
 
-	para "I want to become"
-	line "better than both"
-	cont "Father and you!"
+	para "Chcem byt lepsia" ; para "I want to become"
+	line "ako moj otec a--" ; line "better than both"
+	cont "i ty!" ; cont "Father and you!"
 	done
 
 LassAliceBeforeText:
-	text "Fufufu!"
+	text "Fufufu!" ; text "Fufufu!"
 
-	para "I'm JANINE, the"
-	line "GYM LEADER!"
+	para "Som JANINE," ; para "I'm JANINE, the"
+	line "GYM LEADER!" ; line "GYM LEADER!"
 
-	para "No, I'm not!"
-	line "Gotcha, sucker!"
+	para "Nie, nie som!" ; para "No, I'm not!" 
+	line "Dostala som ta!" ; line "Gotcha, sucker!"
 	done
 
 LassAliceBeatenText:
-	text "I had you fooled…"
+	text "Dostala som ta…" ; text "I had you fooled…"
 	done
 
 LassAliceAfterText:
-	text "How will you dis-"
-	line "tinguish our real"
-	cont "LEADER?"
+	text "Ako odlisis nas" ; text "How will you dis-"
+	line "od pravej GYM" ; line "tinguish our real"
+	cont "LEADERky?" ; cont "LEADER?"
 	done
 
 LassLindaBeforeText:
-	text "Fooled you!"
-	line "Hahaha!"
+	text "Mam ta!" ; text "Fooled you!"
+	line "Hahaha!" ; line "Hahaha!"
 	done
 
 LassLindaBeatenText:
-	text "Ooh… I lost…"
-	line "You're not weak…"
+	text "Ooh… Prehrala som…" ; text "Ooh… I lost…"
+	line "Nie si slaby…" ; line "You're not weak…"
 	done
 
 LassLindaAfterText:
-	text "Well? Wasn't my"
-	line "disguise perfect?"
+	text "Tak? No nebol moj" ; text "Well? Wasn't my"
+	line "prestroj uzasny?" ; line "disguise perfect?"
 	done
 
 PicnickerCindyBeforeText:
-	text "I'm JANINE!"
+	text "Som JANINE!" ; text "I'm JANINE!"
 
-	para "How did you know I"
-	line "was real?"
+	para "Ako si vedel, ze" ; para "How did you know I"
+	line "som ta prava?" ; line "was real?"
 
-	para "Let's battle!"
+	para "Zapasme!" ; para "Let's battle!"
 	done
 
 PicnickerCindyBeatenText:
-	text "Darn it!"
-	line "I wanted to win!"
+	text "Dokelu!" ; text "Darn it!"
+	line "Chcela som vyhrat!" ; line "I wanted to win!"
 	done
 
 PicnickerCindyAfterText:
-	text "You must be"
-	line "getting tired."
+	text "Uz musis byt" ; text "You must be"
+	line "unaveny." ; line "getting tired."
 	done
 
 CamperBarryBeforeText:
-	text "Wahahaha!"
+	text "Wahahaha!" ; text "Wahahaha!"
 
-	para "You betcha!"
-	line "I'm JANINE!"
+	para "Stav sa!" ; para "You betcha!"
+	line "Som JANINE!" ; line "I'm JANINE!"
 	done
 
 CamperBarryBeatenText:
-	text "My disguise was"
-	line "right on! Dang!"
+	text "Moje prestrojenie" ; text "My disguise was"
+	line "bolo skvele! Kelu!" ; line "right on! Dang!"
 	done
 
 CamperBarryAfterText:
-	text "Hey, you. Was my"
-	line "disguise cute or"
-	cont "what, huh?"
+	text "Hej, ty. Moj" ; text "Hey, you. Was my"
+	line "prevlek bol mily," ; line "disguise cute or"
+	cont "ze ano?" ; cont "what, huh?"
 	done
 
 FuchsiaGymGuideText:
-	text "Yo, CHAMP in"
-	line "making!"
+	text "Jo, buduci" ; text "Yo, CHAMP in"
+	line "sampion!" ; line "making!"
 
-	para "Whoops! Take a"
-	line "good look around"
+	para "Ups! Dobre sa" ; para "Whoops! Take a"
+	line "okolo seba roz-" ; line "good look around"
 
-	para "you. The trainers"
-	line "all look like the"
-	cont "LEADER, JANINE."
+	para "hliadni. Vsetci" ; para "you. The trainers"
+	line "treneri vypadaju" ; line "all look like the"
+	cont "ako JANINE." ; cont "LEADER, JANINE."
 
-	para "Which of them is"
-	line "the real JANINE?"
+	para "Ktory z nich je" ; para "Which of them is"
+	line "prava JANINE?" ; line "the real JANINE?"
 	done
 
 FuchsiaGymGuideWinText:
-	text "That was a great"
-	line "battle, trainer"
-	cont "from JOHTO!"
+	text "Bol to skvely" ; text "That was a great"
+	line "zapas, trener" ; line "battle, trainer"
+	cont "z JOHTA!" ; cont "from JOHTO!"
 	done
 
 FuchsiaGym_MapEvents:

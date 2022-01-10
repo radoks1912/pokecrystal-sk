@@ -104,7 +104,7 @@ MoveTutorScript:
 	db "FLAMETHROWER@"
 	db "THUNDERBOLT@"
 	db "ICE BEAM@"
-	db "CANCEL@"
+	db "ZRUSIT@"
 
 .Refused:
 	writetext GoldenrodCityMoveTutorAwwButTheyreAmazingText
@@ -282,266 +282,267 @@ GoldenrodCityMoveTutorWalkAroundPlayerThenEnterGameCornerMovement:
 	step_end
 
 GoldenrodCityPokefanMText:
-	text "They built the new"
-	line "RADIO TOWER to"
+	text "Postavili novu" ; text "They built the new"
+	line "RADIO VEZU a" ; line "RADIO TOWER to"
 
-	para "replace the old,"
-	line "creaky one."
+	para "nahradili nou tu" ; para "replace the old,"
+	line "staru, vrzgajucu." ; line "creaky one."
 	done
 
 GoldenrodCityYoungster1Text:
-	text "I know there's a"
-	line "new BIKE SHOP, but"
+	text "Viem, ze tu je" ; text "I know there's a"
+	line "novy BIKE SHOP," ; line "new BIKE SHOP, but"
 
-	para "I can't find it"
-	line "anywhere."
+	para "ale nikde ho" ; para "I can't find it"
+	line "neviem najst." ; line "anywhere."
 	done
 
 GoldenrodCityCooltrainerF1Text:
-	text "Is that man in"
-	line "black dressed up"
+	text "Je tamten muz" ; text "Is that man in"
+	line "obleceny v ciernom" ; line "black dressed up"
 
-	para "like a TEAM ROCKET"
-	line "member? How silly!"
+	para "ako clen TEAM" ; para "like a TEAM ROCKET"
+	line "ROCKETu? Hlupe!" ; line "member? How silly!"
 	done
 
 GoldenrodCityCooltrainerF1Text_ClearedRadioTower:
-	text "Was that man in"
-	line "black really part"
+	text "Bol ten muz v" ; text "Was that man in"
+	line "ciernom skutocne" ; line "black really part"
 
-	para "of TEAM ROCKET? I"
-	line "can't believe it!"
+	para "clen TEAM ROCKETu?" ; para "of TEAM ROCKET? I"
+	line "Stale tomu nemozem" ; line "can't believe it!"
+	cont "uverit!"
 	done
 
 GoldenrodCityCooltrainerF2Text:
-	text "The RADIO TOWER in"
-	line "GOLDENROD CITY is"
-	cont "a landmark."
+	text "RADIO VEZA v" ; text "The RADIO TOWER in"
+	line "GOLDENROD CITY" ; line "GOLDENROD CITY is"
+	cont "monument." ; cont "a landmark."
 
-	para "They're running a"
-	line "promotional cam- "
-	cont "paign right now."
+	para "Prave tam prebieha" ; para "They're running a"
+	line "propagacna kampan." ; line "promotional cam- "
+	;cont "paign right now." ; cont "paign right now."
 
-	para "They'll modify"
-	line "your #GEAR,"
+	para "Upravia ti tvoj" ; para "They'll modify"
+	line "#GEAR," ; line "your #GEAR,"
 
-	para "so it can also"
-	line "serve as a radio."
+	para "aby si mohol" ; para "so it can also"
+	line "pocuvat radio." ; line "serve as a radio."
 	done
 
 GoldenrodCityCooltrainerF2Text_GotRadioCard:
-	text "Oh, your #GEAR"
-	line "works as a radio!"
+	text "Tvoj #GEAR" ; text "Oh, your #GEAR"
+	line "funguje ako radio!" ; line "works as a radio!"
 	done
 
 GoldenrodCityYoungster2Text:
-	text "E-he-he-he…"
+	text "E-he-he-he…" ; text "E-he-he-he…"
 
-	para "I got in trouble"
-	line "for playing in the"
+	para "Dostal som sa do" ; para "I got in trouble"
+	line "problemov, ked som" ; line "for playing in the"
 
-	para "basement of the"
-	line "DEPT.STORE."
+	para "sa hral v suterene" ; para "basement of the"
+	line "v DEPT.STORE." ; line "DEPT.STORE."
 	done
 
 GoldenrodCityLassText:
-	text "The man at that"
-	line "house rates your"
-	cont "#MON names."
+	text "Muz v tamtom dome" ; text "The man at that"
+	line "hodnoti prezyvky" ; line "house rates your"
+	cont "#MONov." ; cont "#MON names."
 
-	para "He can even rename"
-	line "your #MON."
+	para "Dokaze i premeno-" ; para "He can even rename"
+	line "vat #MONov." ; line "your #MON."
 	done
 
 GoldenrodCityGrampsText:
-	text "Whew! This is one"
-	line "big town. I don't"
+	text "Fuh! Toto je" ; text "Whew! This is one"
+	line "obrovske mesto." ; line "big town. I don't"
 
-	para "know where any-"
-	line "thing is."
+	para "Nikdy neviem, kde" ; para "know where any-"
+	line "co je." ; line "thing is."
 	done
 
 GoldenrodCityRocketScoutText1:
-	text "So this is the"
-	line "RADIO TOWER…"
+	text "Takze toto je ta" ; text "So this is the"
+	line "RADIO VEZA…" ; line "RADIO TOWER…"
 	done
 
 GoldenrodCityRocketScoutText2:
-	text "What do you want,"
-	line "you pest? Scram!"
+	text "Co odo mna chces," ; text "What do you want,"
+	line "zmizni mi z oci!" ; line "you pest? Scram!"
 	done
 
 GoldenrodCityRocket1Text:
-	text "Stay out of the"
-	line "way! Beat it!"
+	text "Prac sa mi z cesty" ; text "Stay out of the"
+	line "okamzite!" ; line "way! Beat it!"
 	done
 
 GoldenrodCityRocket2Text:
-	text "Take over the"
-	line "RADIO TOWER…"
+	text "Zabrat" ; text "Take over the"
+	line "RADIO VEZU…" ; line "RADIO TOWER…"
 
-	para "What? It's none of"
-	line "your business!"
+	para "Co? To vobec nie" ; para "What? It's none of"
+	line "je tvoja vec!" ; line "your business!"
 	done
 
 GoldenrodCityRocket3Text:
-	text "#MON? They're"
-	line "nothing more than"
+	text "#MONi? Nie su" ; text "#MON? They're"
+	line "nic viac ako na-" ; line "nothing more than"
 
-	para "tools for making"
-	line "money!"
+	para "stroje na zara-" ; para "tools for making"
+	line "banie penazi!" ; line "money!"
 	done
 
 GoldenrodCityRocket4Text:
-	text "Our dream will"
-	line "soon come true…"
+	text "Nas sen sa coskoro" ; text "Our dream will"
+	line "naplni…" ; line "soon come true…"
 
-	para "It was such a long"
-	line "struggle…"
+	para "bol to tak dlhy" ; para "It was such a long"
+	line "boj…" ; line "struggle…"
 	done
 
 GoldenrodCityRocket5Text:
-	text "Hey, brat! You"
-	line "don't belong here!"
-	cont "Get lost!"
+	text "Hej, spratek! Ty" ; text "Hey, brat! You"
+	line "sem nepatris!" ; line "don't belong here!"
+	cont "Zmizni!" ; cont "Get lost!"
 	done
 
 GoldenrodCityRocket6Text:
-	text "Come taste the"
-	line "true terror of"
-	cont "TEAM ROCKET!"
+	text "Pod okusit pravy" ; text "Come taste the"
+	line "teror TEAMu" ; line "true terror of"
+	cont "ROCKET!" ; cont "TEAM ROCKET!"
 	done
 
 GoldenrodCityStationSignText:
-	text "GOLDENROD CITY"
-	line "STATION"
+	text "GOLDENROD CITY" ; text "GOLDENROD CITY"
+	line "STANICA" ; line "STATION"
 	done
 
 GoldenrodCityRadioTowerSignText:
-	text "GOLDENROD CITY"
-	line "RADIO TOWER"
+	text "GOLDENROD CITY" ; text "GOLDENROD CITY"
+	line "RADIO VEZA" ; line "RADIO TOWER"
 	done
 
 GoldenrodDeptStoreSignText:
-	text "Full Selection of"
-	line "#MON Goods!"
+	text "Kompletna ponuka" ; text "Full Selection of"
+	line "#MON veci!" ; line "#MON Goods!"
 
-	para "GOLDENROD CITY"
-	line "DEPT.STORE"
+	para "GOLDENROD CITY" ; para "GOLDENROD CITY" 
+	line "DEPT.STORE" ; line "DEPT.STORE"
 	done
 
 GoldenrodGymSignText:
-	text "GOLDENROD CITY"
-	line "#MON GYM"
-	cont "LEADER: WHITNEY"
+	text "GOLDENROD CITY" ; text "GOLDENROD CITY"
+	line "#MON GYM" ; line "#MON GYM"
+	cont "LEADER: WHITNEY" ; cont "LEADER: WHITNEY"
 
-	para "The Incredibly"
-	line "Pretty Girl!"
+	para "Velmi povabna" ; para "The Incredibly"
+	line "slecna!" ; line "Pretty Girl!"
 	done
 
 GoldenrodCitySignText:
-	text "GOLDENROD CITY"
+	text "GOLDENROD CITY" ; text "GOLDENROD CITY"
 
-	para "The Festive City"
-	line "of Opulent Charm"
+	para "Slavnostne mesto" ; para "The Festive City"
+	line "bohateho sarmu" ; line "of Opulent Charm"
 	done
 
 GoldenrodCityBikeShopSignText:
-	text "The World is a"
-	line "Cycle Path!"
-	cont "BIKE SHOP"
+	text "Svet je" ; text "The World is a"
+	line "cyklotrasa!" ; line "Cycle Path!"
+	cont "BIKE SHOP" ; cont "BIKE SHOP"
 	done
 
 GoldenrodCityGameCornerSignText:
-	text "Your Playground!"
+	text "Tvoje ihrisko!" ; text "Your Playground!"
 
-	para "GOLDENROD CITY"
-	line "GAME CORNER"
+	para "GOLDENROD CITY" ; para "GOLDENROD CITY"
+	line "GAME CORNER" ; line "GAME CORNER"
 	done
 
 GoldenrodCityNameRaterSignText:
-	text "NAME RATER"
+	text "NAME RATER" ; text "NAME RATER"
 
-	para "Get Your #MON"
-	line "Nicknames Rated"
+	para "Ohodnot prezyvky" ; para "Get Your #MON"
+	line "svojich #MONov" ; line "Nicknames Rated"
 	done
 
 GoldenrodCityUndergroundSignNorthText:
-	text "UNDERGROUND"
-	line "ENTRANCE"
+	text "PODZEMNY" ; text "UNDERGROUND"
+	line "VCHOD" ; line "ENTRANCE"
 	done
 
 GoldenrodCityUndergroundSignSouthText:
-	text "UNDERGROUND"
-	line "ENTRANCE"
+	text "PODZEMNY" ; text "UNDERGROUND"
+	line "VCHOD" ; line "ENTRANCE"
 	done
 
 GoldenrodCityPokeComCenterSignText: ; unreferenced
-	text "For Mobile Tips!"
-	line "#COM CENTER"
+	text "For Mobile Tips!" ; text "For Mobile Tips!"
+	line "#COM CENTER" ; line "#COM CENTER"
 	done
 
 GoldenrodCityFlowerShopSignText:
-	text "Blooming Beautiful"
-	line "FLOWER SHOP"
+	text "Kvitnuca krasa" ; text "Blooming Beautiful"
+	line "KVETINARSTVO" ; line "FLOWER SHOP"
 	done
 
 GoldenrodCityMoveTutorAskTeachAMoveText:
-	text "I can teach your"
-	line "#MON amazing"
+	text "Mozem naucit tvo-" ; text "I can teach your"
+	line "jich #MONov" ; line "#MON amazing"
 
-	para "moves if you'd"
-	line "like."
+	para "uzasne utoky, ak" ; para "moves if you'd"
+	line "chces." ; line "like."
 
-	para "Should I teach a"
-	line "new move?"
+	para "Mam ich nieco" ; para "Should I teach a"
+	line "naucit?" ; line "new move?"
 	done
 
 GoldenrodCityMoveTutorAsk4000CoinsOkayText:
-	text "It will cost you"
-	line "4000 coins. Okay?"
+	text "Bude to stat" ; text "It will cost you"
+	line "4000. Okej?" ; line "4000 coins. Okay?"
 	done
 
 GoldenrodCityMoveTutorAwwButTheyreAmazingText:
-	text "Aww… But they're"
-	line "amazing…"
+	text "Aww… Oni su" ; text "Aww… But they're"
+	line "uzasni…" ; line "amazing…"
 	done
 
 GoldenrodCityMoveTutorWhichMoveShouldITeachText:
-	text "Wahahah! You won't"
-	line "regret it!"
+	text "Wahahah! Nebudes" ; text "Wahahah! You won't"
+	line "to lutovat!" ; line "regret it!"
 
-	para "Which move should"
-	line "I teach?"
+	para "Ktory utok ho mam" ; para "Which move should"
+	line "naucit?" ; line "I teach?"
 	done
 
 GoldenrodCityMoveTutorHmTooBadText:
-	text "Hm, too bad. I'll"
-	line "have to get some"
-	cont "cash from home…"
+	text "Nic teda. Budem si" ; text "Hm, too bad. I'll"
+	line "musiet doniest" ; line "have to get some"
+	cont "peniaze z domu…" ; cont "cash from home…"
 	done
 
 GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText:
-	text "If you understand"
-	line "what's so amazing"
+	text "Ak by si vedel," ; text "If you understand"
+	line "co je skvele na" ; line "what's so amazing"
 
-	para "about this move,"
-	line "you've made it as"
-	cont "a trainer."
+	para "tomto utoku," ; para "about this move,"
+	line "bol by si skvely" ; line "you've made it as"
+	cont "trener." ; cont "a trainer."
 	done
 
 GoldenrodCityMoveTutorFarewellKidText:
-	text "Wahahah!"
-	line "Farewell, kid!"
+	text "Wahahah!" ; text "Wahahah!"
+	line "Maj sa, synak!" ; line "Farewell, kid!"
 	done
 
 GoldenrodCityMoveTutorBButText:
-	text "B-but…"
+	text "A-ale…" ; text "B-but…"
 	done
 
 GoldenrodCityMoveTutorYouDontHaveEnoughCoinsText:
-	text "…You don't have"
-	line "enough coins here…"
+	text "…Nemas dost" ; text "…You don't have"
+	line "penazi…" ; line "enough coins here…"
 	done
 
 GoldenrodCityMoveTutorMoveText:

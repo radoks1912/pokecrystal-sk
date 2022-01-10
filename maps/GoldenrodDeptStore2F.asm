@@ -59,41 +59,41 @@ GoldenrodDeptStore2FUnusedText2: ; unreferenced
 	done
 
 GoldenrodDeptStore2FYoungsterText:
-	text "#GEAR can store"
-	line "up to ten phone"
-	cont "numbers."
+	text "#GEAR dokaze" ; text "#GEAR can store"
+	line "ulozit az 10" ; line "up to ten phone"
+	cont "cisiel." ; cont "numbers."
 
-	para "It's hard to de-"
-	line "cide which numbers"
-	cont "to keep."
+	para "Je tazke rozhodnut" ; para "It's hard to de-"
+	line "sa, ktore cisla si" ; line "cide which numbers"
+	cont "nechat." ; cont "to keep."
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
-	text "I got my ABRA at"
-	line "the GAME CORNER."
+	text "Ziskal som ABRU v" ; text "I got my ABRA at"
+	line "GAME CORNER." ; line "the GAME CORNER."
 
-	para "Now it's my best"
-	line "partner."
+	para "Teraz je moj naj-" ; para "Now it's my best"
+	line "lepsi priatel." ; line "partner."
 	done
 
 GoldenrodDeptStore2FGentlemanText:
-	text "This DEPT.STORE"
-	line "makes me realize"
+	text "DEPT.STORE" ; text "This DEPT.STORE"
+	line "potvrdzuje, ze" ; line "makes me realize"
 
-	para "that GOLDENROD is"
-	line "a big city."
+	para "GOLDENROD je" ; para "that GOLDENROD is"
+	line "obrovske mesto." ; line "a big city."
 
-	para "The selection here"
-	line "is unmatched any-"
-	cont "where else."
+	para "Tunajsi vyber je" ; para "The selection here"
+	line "bezkonkurencne" ; line "is unmatched any-"
+	cont "najlepsi." ; cont "where else."
 	done
 
 GoldenrodDeptStore2FDirectoryText:
-	text "Your Travel"
-	line "Companion"
+	text "Tvoj spolocnik" ; text "Your Travel"
+	line "na ceste" ; line "Companion"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "2P TRENERSKY" ; para "2F TRAINER'S"
+	line "   MARKET" ; line "   MARKET"
 	done
 
 GoldenrodDeptStore2F_MapEvents:

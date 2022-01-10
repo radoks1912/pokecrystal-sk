@@ -46,56 +46,56 @@ GoldenrodBikeShopBicycle:
 	jumptext GoldenrodBikeShopBicycleText
 
 GoldenrodBikeShopClerkIntroText:
-	text "…sigh… I moved"
-	line "here, but I can't"
+	text "…aach… Prestahoval" ; text "…sigh… I moved"
+	line "som sa sem, ale" ; line "here, but I can't"
 
-	para "sell my BICYCLES."
-	line "Why is that?"
+	para "nedari sa mi pre-." ; para "sell my BICYCLES."
+	line "davat BICYKLE." ; line "Why is that?"
 
-	para "Could you ride a"
-	line "BICYCLE and adver-"
-	cont "tise for me?"
+	para "Mohol by si jazdit" ; para "Could you ride a"
+	line "na BICYKLI a robit" ; line "BICYCLE and adver-"
+	cont "mi reklamu?" ; cont "tise for me?"
 	done
 
 GoldenrodBikeShopClerkAgreedText:
-	text "Really? Great!"
+	text "Fakt? Skvele!" ; text "Really? Great!"
 
-	para "Give me your name"
-	line "and phone number,"
+	para "Daj mi tvoje meno" ; para "Give me your name"
+	line "a telefon a ja ti" ; line "and phone number,"
 
-	para "and I'll loan you"
-	line "a BICYCLE."
+	para "poziciam jeden z" ; para "and I'll loan you"
+	line "mojich BICYKLOV." ; line "a BICYCLE."
 	done
 
 BorrowedABicycleText:
-	text "<PLAYER> borrowed a"
-	line "BICYCLE."
+	text "<PLAYER> si" ; text "<PLAYER> borrowed a"
+	line "pozical BICYKEL." ; line "BICYCLE."
 	done
 
 GoldenrodBikeShopClerkFirstRateBikesText:
-	text "My BICYCLES are"
-	line "first-rate! You"
+	text "Moje BICYKLE su" ; text "My BICYCLES are"
+	line "spicka! Mozes na" ; line "first-rate! You"
 
-	para "can ride them"
-	line "anywhere."
+	para "nich jazdit uplne" ; para "can ride them"
+	line "kdekolvek." ; line "anywhere."
 	done
 
 GoldenrodBikeShopClerkRefusedText:
-	text "…sigh… Oh, for"
-	line "the kindness of"
-	cont "people…"
+	text "…ach… Za dobrotu," ; text "…sigh… Oh, for"
+	line "na zobrotu…" ; line "the kindness of"
+	;cont "people…" ; cont "people…"
 	done
 
 GoldenrodBikeShopJustReleasedCompactBikeText:
-	text "Just released!"
+	text "Prave v predaji!" ; text "Just released!"
 
-	para "First-rate compact"
-	line "BICYCLES!"
+	para "Prvotriedne" ; para "First-rate compact"
+	line "kompaktne BICYKLE!" ; line "BICYCLES!"
 	done
 
 GoldenrodBikeShopBicycleText:
-	text "It's a shiny new"
-	line "BICYCLE!"
+	text "Je to novucicky" ; text "It's a shiny new"
+	line "BICYKEL!" ; line "BICYCLE!"
 	done
 
 GoldenrodBikeShop_MapEvents:
