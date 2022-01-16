@@ -74,33 +74,33 @@ GoldenrodDeptStoreB1FUltraBall:
 	itemball ULTRA_BALL
 
 GoldenrodDeptStoreB1FBlackBelt1Text:
-	text "Hey, kid! You're"
-	line "holding us up!"
+	text "Hej, synak!" ; text "Hey, kid! You're"
+	line "Zdrzujes nas!" ; line "holding us up!"
 
-	para "Our policy is to"
-	line "work behind the"
+	para "Nasou zasadou je" ; para "Our policy is to"
+	line "pracovat v zaku-" ; line "work behind the"
 
-	para "scenes where no"
-	line "one can see us!"
+	para "lisi, kde nas" ; para "scenes where no"
+	line "nikto nevidi!" ; line "one can see us!"
 	done
 
 GoldenrodDeptStoreB1FBlackBelt2Text:
-	text "I lose my passion"
-	line "for work if some-"
-	cont "one's watching."
+	text "Stratim zapalenie" ; text "I lose my passion"
+	line "pre pracu, ked" ; line "for work if some-"
+	cont "ma niekto sleduje." ; cont "one's watching."
 
-	para "Come on, kid,"
-	line "scoot!"
+	para "No tak, synak," ; para "Come on, kid,"
+	line "odid!" ; line "scoot!"
 	done
 
 GoldenrodDeptStoreB1FBlackBelt3Text:
-	text "Oohah! Oohah!"
+	text "Oohah! Oohah!" ; text "Oohah! Oohah!"
 
-	para "The stuff on the"
-	line "ground's junk."
+	para "Veci na zemi" ; para "The stuff on the"
+	line "su odpad." ; line "ground's junk."
 
-	para "Take it if you"
-	line "want it!"
+	para "Vezmi si ich, ak" ; para "Take it if you"
+	line "ich chces!" ; line "want it!"
 	done
 
 GoldenrodDeptStoreB1FMachokeText:

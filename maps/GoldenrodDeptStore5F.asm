@@ -139,80 +139,82 @@ GoldenrodDeptStore5FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
-	text "Hello. Oh, your"
-	line "#MON…"
+	text "Ahoj. Och, tvoji" ; text "Hello. Oh, your"
+	line "#MONi…" ; line "#MON…"
 	done
 
 GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
-	text "It's very attached"
-	line "to you."
+	text "Su na teba velmi" ; text "It's very attached"
+	line "naviazani." ; line "to you."
 
-	para "This move should"
-	line "be perfect for a"
-	cont "pair like you."
+	para "Tento utok by mal" ; para "This move should"
+	line "byt pre vas per-" ; line "be perfect for a"
+	cont "fektny." ; cont "pair like you."
 	done
 
 GoldenrodDeptStore5FReceptionistItsAdorableText:
-	text "It's adorable!"
+	text "Je zlaty!" ; text "It's adorable!"
 
-	para "You should teach"
-	line "it good TM moves."
+	para "Mal by si ho" ; para "You should teach"
+	line "naucit dobre TM" ; line "it good TM moves."
+	cont "utoky."
 	done
 
 GoldenrodDeptStore5FReceptionistItLooksEvilHowAboutThisTMText:
-	text "It looks evil. How"
-	line "about this TM for"
-	cont "it?"
+	text "Vypada zakerne. Co" ; text "It looks evil. How"
+	line "povies na tento TM" ; line "about this TM for"
+	cont "utok prenho?" ; cont "it?"
 	done
 
 GoldenrodDeptStore5FReceptionistThereAreTMsPerfectForMonText:
-	text "There are sure to"
-	line "be TMs that are"
+	text "Urcite existuju" ; text "There are sure to"
+	line "TM utoky, ktore su" ; line "be TMs that are"
 
-	para "just perfect for"
-	line "your #MON."
+	para "stvorene priamo" ; para "just perfect for"
+	line "pre tvojho" ; line "your #MON."
+	cont "#MONa."
 	done
 
 GoldenrodDeptStore5FCarrieMysteryGiftExplanationText:
-	text "MYSTERY GIFT."
+	text "TAJOMNY DARCEK." ; text "MYSTERY GIFT."
 
-	para "With just a"
-	line "little beep, you"
-	cont "get a gift."
+	para "S malym pipnutim" ; para "With just a"
+	line "dostanes darcek." ; line "little beep, you"
+	;cont "get a gift." ; cont "get a gift."
 	done
 
 GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText:
-	text "The MYSTERY GIFT"
-	line "option requires a"
-	cont "Game Boy Color."
+	text "TAJOMNY DARCEK" ; text "The MYSTERY GIFT"
+	line "vyzaduje" ; line "option requires a"
+	cont "Game Boy Color." ; cont "Game Boy Color."
 	done
 
 GoldenrodDeptStore5FLassText:
-	text "On Sundays, a lady"
-	line "comes to check out"
-	cont "#MON."
+	text "V nedele chodi" ; text "On Sundays, a lady"
+	line "slecna kontrolovat" ; line "comes to check out"
+	cont "#MONov." ; cont "#MON."
 
-	para "She even gives"
-	line "away TMs!"
+	para "Niekedy rozdava" ; para "She even gives"
+	line "aj TM utoky!" ; line "away TMs!"
 	done
 
 GoldenrodDeptStore5FPokefanMText:
-	text "You can't rename a"
-	line "#MON you get in"
-	cont "a trade."
+	text "Vymeneneho" ; text "You can't rename a"
+	line "#MONa nemozes" ; line "#MON you get in"
+	cont "premenovat." ; cont "a trade."
 
-	para "The name is a re-"
-	line "flection of the"
+	para "Meno je spomienka" ; para "The name is a re-"
+	line "na povodneho tre-" ; line "flection of the"
 
-	para "original trainer's"
-	line "feelings for it."
+	para "nera a jeho citov" ; para "original trainer's"
+	line "k nemu." ; line "feelings for it."
 	done
 
 GoldenrodDeptStore5FDirectoryText:
-	text "Customize Your"
-	line "#MON"
+	text "Uprav svojich" ; text "Customize Your"
+	line "#MONov" ; line "#MON"
 
-	para "5F TM CORNER"
+	para "5P TM KUTIK" ; para "5F TM CORNER"
 	done
 
 GoldenrodDeptStore5F_MapEvents:

@@ -79,10 +79,10 @@ GoldenrodVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}@"
-	db "SODA POP     ¥{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}@"
-	db "LEMONADE     ¥{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}@"
-	db "CANCEL@"
+	db "CISTA VODA   ¥{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}@" ; FRESH WATER
+	db "SODA         ¥{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}@" ; SODA POP
+	db "LIMONADA     ¥{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}@" ; LEMONADE
+	db "ZRUSIT@" ; CANCEL
 
 GoldenrodDeptStore6FLassScript:
 	jumptextfaceplayer GoldenrodDeptStore6FLassText
@@ -97,56 +97,56 @@ GoldenrodDeptStore6FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodVendingText:
-	text "A vending machine!"
-	line "Here's the menu."
+	text "Automat!" ; text "A vending machine!"
+	line "Toto je menu." ; line "Here's the menu."
 	done
 
 GoldenrodClangText:
-	text "Clang! A can of"
+	text "Kleng! Vypadla" ; text "Clang! A can of"
 	line "@"
 	text_ram wStringBuffer3
 	text_start
-	cont "popped out!"
+	cont "plechovka!" ; cont "popped out!"
 	done
 
 GoldenrodVendingNoMoneyText:
-	text "Oops, not enough"
-	line "money."
+	text "Ups, nedostatok" ; text "Oops, not enough"
+	line "penazi." ; line "money."
 	done
 
 GoldenrodVendingNoSpaceText:
-	text "There's no more"
-	line "room for stuff."
+	text "Nemas miesto" ; text "There's no more"
+	line "v batohu." ; line "room for stuff."
 	done
 
 GoldenrodDeptStore6FLassText:
-	text "Do you listen to"
-	line "LUCKY CHANNEL?"
+	text "Pocuvas" ; text "Do you listen to"
+	line "LUCKY CHANNEL?" ; line "LUCKY CHANNEL?"
 
-	para "If you want to"
-	line "win, trade #MON"
+	para "Ak chces vyhrat," ; para "If you want to"
+	line "vymen co najviac" ; line "win, trade #MON"
 
-	para "with as many peo-"
-	line "ple as possible to"
+	para "#MONov s mno-" ; para "with as many peo-"
+	line "hymi ludmi na zi-" ; line "ple as possible to"
 
-	para "get different ID"
-	line "numbers."
+	para "skanie roznych ID" ; para "get different ID"
+	line "cisiel." ; line "numbers."
 	done
 
 GoldenrodDeptStore6FSuperNerdText:
-	text "If you're tired,"
-	line "try the vending"
-	cont "machine's drinks."
+	text "Ak si unaveny," ; text "If you're tired,"
+	line "skus automat" ; line "try the vending"
+	cont "na napoje." ; cont "machine's drinks."
 
-	para "Your #MON will"
-	line "love them too."
+	para "Tvoji #MONi" ; para "Your #MON will"
+	line "budu tiez radi." ; line "love them too."
 	done
 
 GoldenrodDeptStore6FDirectoryText:
-	text "Take a Break from"
-	line "Shopping!"
+	text "Daj si prestavku" ; text "Take a Break from"
+	line "od nakupovania!" ; line "Shopping!"
 
-	para "6F TRANQUIL SQUARE"
+	para "6P KLUDNE NAMESTIE" ; para "6F TRANQUIL SQUARE"
 	done
 
 GoldenrodDeptStore6F_MapEvents:
