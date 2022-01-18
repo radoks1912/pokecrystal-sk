@@ -83,75 +83,75 @@ FlowerShopRadio: ; unreferenced
 	jumpstd Radio2Script
 
 GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
-	text "Have you seen that"
-	line "wiggly tree that's"
+	text "Videl si ten zvla-" ; text "Have you seen that"
+	line "tny strom, co" ; line "wiggly tree that's"
 
-	para "growing on ROUTE"
-	line "36?"
+	para "rastie na ROUTE" ; para "growing on ROUTE"
+	line "36?" ; line "36?"
 
-	para "My little sister"
-	line "got all excited"
+	para "Moja mala sestra" ; para "My little sister"
+	line "ho s nadsenim sla" ; line "got all excited"
 
-	para "and went to see"
-	line "it…"
+	para "pozriet…" ; para "and went to see"
+	line "Obavam sa…" ; line "it…"
 
-	para "I'm worried… Isn't"
-	line "it dangerous?"
+	para "Nie je predsa len" ; para "I'm worried… Isn't"
+	line "nebezpecny?" ; line "it dangerous?"
 	done
 
 GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
-	text "Do you want to"
-	line "borrow the water"
+	text "Chces si odo mna" ; text "Do you want to"
+	line "pozicat moju" ; line "borrow the water"
 
-	para "bottle too?"
-	line "I don't want you"
+	para "krhlicku?" ; para "bottle too?"
+	line "Nechcem, aby si" ; line "I don't want you"
 
-	para "doing anything"
-	line "dangerous with it."
+	para "s nou robil nieco" ; para "doing anything"
+	line "nebezpecne." ; line "dangerous with it."
 	done
 
 GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
-	text "Oh, you're better"
-	line "than WHITNEY…"
+	text "Och, si lepsi" ; text "Oh, you're better"
+	line "ako WHITNEY…" ; line "than WHITNEY…"
 
-	para "You'll be OK,"
-	line "then. Here's the"
-	cont "SQUIRTBOTTLE!"
+	para "Budes OK." ; para "You'll be OK,"
+	line "Tu mas moju krhlu" ; line "then. Here's the"
+	cont "SQUIRTBOTTLE!" ; cont "SQUIRTBOTTLE!"
 	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
-	text "Don't do anything"
-	line "too dangerous!"
+	text "Nerob s nou nic" ; text "Don't do anything"
+	line "nebezpecne!" ; line "too dangerous!"
 	done
 
 GoldenrodFlowerShopTeacherLalalaHavePlentyOfWaterText:
-	text "Lalala lalalala."
-	line "Have plenty of"
-	cont "water, my lovely!"
+	text "Lalala lalalala." ; text "Lalala lalalala."
+	line "Tu mate vodu," ; line "Have plenty of"
+	cont "kvetiny moje!" ; cont "water, my lovely!"
 	done
 
 GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
-	text "When I told my sis"
-	line "about the jiggly"
+	text "Ked som spomenul" ; text "When I told my sis"
+	line "sestre ten strom," ; line "about the jiggly"
 
-	para "tree, she told me"
-	line "it's dangerous."
+	para "povedala mi, ze je" ; para "tree, she told me"
+	line "nebezpecny." ; line "it's dangerous."
 
-	para "If I beat WHITNEY,"
-	line "I wonder if she'll"
+	para "Porazim WHITNEY a" ; para "If I beat WHITNEY,"
+	line "snad mi pozicia" ; line "I wonder if she'll"
 
-	para "lend me her water"
-	line "bottle…"
+	para "svoju krhlicku…" ; para "lend me her water"
+	;line "bottle" ; line "bottle…"
 	done
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:
-	text "Wow, you beat"
-	line "WHITNEY? Cool!"
+	text "Wau, porazil si" ; text "Wow, you beat"
+	line "WHITNEY? Skvele!" ; line "WHITNEY? Cool!"
 	done
 
 GoldenrodFlowerShopFloriaItReallyWasAMonText:
-	text "So it really was a"
-	line "#MON!"
+	text "Takze to vazne bol" ; text "So it really was a"
+	line "#MON!" ; line "#MON!"
 	done
 
 GoldenrodFlowerShop_MapEvents:

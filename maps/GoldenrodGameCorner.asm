@@ -155,7 +155,7 @@ GoldenrodGameCornerTMVendorMenuHeader:
 	db "TM25    5500@"
 	db "TM14    5500@"
 	db "TM38    5500@"
-	db "CANCEL@"
+	db "ZRUSIT@" ; db "CANCEL@"
 
 GoldenrodGameCornerPrizeMonVendorScript:
 	faceplayer
@@ -241,7 +241,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db "ABRA        100@"
 	db "CUBONE      800@"
 	db "WOBBUFFET  1500@"
-	db "CANCEL@"
+	db "ZRUSIT@" ; db "CANCEL@"
 
 GoldenrodGameCornerPharmacistScript:
 	faceplayer
@@ -320,160 +320,165 @@ GoldenrodGameCornerCardFlipMachineScript:
 	end
 
 GoldenrodGameCornerPrizeVendorIntroText:
-	text "Welcome!"
+	text "Vitajte!" ; text "Welcome!"
 
-	para "We exchange your"
-	line "game coins for"
-	cont "fabulous prizes!"
+	para "Vymenime vase" ; para "We exchange your"
+	line "zetony za" ; line "game coins for"
+	cont "uzasne ceny!" ; cont "fabulous prizes!"
 	done
 
 GoldenrodGameCornerPrizeVendorWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Ktoru cenu si" ; text "Which prize would"
+	line "prajes?" ; line "you like?"
 	done
 
 GoldenrodGameCornerPrizeVendorConfirmPrizeText:
 	text_ram wStringBuffer3
 	text "."
-	line "Is that right?"
+	line "Je to tak?" ; line "Is that right?"
 	done
 
 GoldenrodGameCornerPrizeVendorHereYouGoText:
-	text "Here you go!"
+	text "Nech sa paci!" ; text "Here you go!"
 	done
 
 GoldenrodGameCornerPrizeVendorNeedMoreCoinsText:
-	text "Sorry! You need"
-	line "more coins."
+	text "Prepac! Potrebujes" ; text "Sorry! You need"
+	line "viac zetonov." ; line "more coins."
 	done
 
 GoldenrodGameCornerPrizeVendorNoMoreRoomText:
-	text "Sorry. You can't"
-	line "carry any more."
+	text "Prepac. Nemas" ; text "Sorry. You can't"
+	line "miesto v BATOHU." ; line "carry any more."
 	done
 
 GoldenrodGameCornerPrizeVendorQuitText:
-	text "OK. Please save"
-	line "your coins and"
-	cont "come again!"
+	text "OK. Usetri si" ; text "OK. Please save"
+	line "zetony a vrat sa" ; line "your coins and"
+	cont "neskor!" ; cont "come again!"
 	done
 
 GoldenrodGameCornerPrizeVendorNoCoinCaseText:
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Oh? Nemas penazen-" ; text "Oh? You don't have"
+	line "ku COIN CASE." ; line "a COIN CASE."
 	done
 
 GoldenrodGameCornerPharmacistText:
 if DEF(_CRYSTAL_AU)
-	text "This machine looks"
-	line "the same as the"
-	cont "others."
+	text "Tento automat vy-" ; text "This machine looks"
+	line "pada presne ako" ; line "the same as the"
+	cont "ostatne." ; cont "others."
 	done
 else
-	text "I always play this"
-	line "slot machine. It"
+	text "Vzdy hram na tomto" ; text "I always play this"
+	line "automate. Vyplaca" ; line "slot machine. It"
 
-	para "pays out more than"
-	line "others, I think."
+	para "viac ako ostatne," ; para "pays out more than"
+	line "aspon myslim." ; line "others, I think."
 	done
 endc
 
 GoldenrodGameCornerPokefanM1Text:
 if DEF(_CRYSTAL_AU)
-	text "These machines"
-	line "seem different"
+	text "Tieto automaty" ; text "These machines"
+	line "vypadaju inak ako" ; line "seem different"
 
-	para "from the ones at"
-	line "CELADON CITY!"
+	para "tie z mesta" ; para "from the ones at"
+	line "CELADON CITY!" ; line "CELADON CITY!"
 	done
 else
-	text "I just love this"
-	line "new slot machine."
+	text "Milujem tento" ; text "I just love this"
+	line "novy automat." ; line "new slot machine."
 
-	para "It's more of a"
-	line "challenge than the"
-	cont "ones in CELADON."
+	para "Je narocnejsi ako" ; para "It's more of a"
+	line "tie z mesta" ; line "challenge than the"
+	cont "CELADON." ; cont "ones in CELADON."
 	done
 endc
 
 GoldenrodGameCornerCooltrainerMText:
 if DEF(_CRYSTAL_AU)
-	text "Nothing is certain"
-	line "in this area."
+	text "Nic tu nie je" ; text "Nothing is certain"
+	line "iste." ;line "in this area."
 	done
 else
-	text "Life is a gamble."
-	line "I'm going to flip"
-	cont "cards till I drop!"
+	text "Zivot je risk." ; text "Life is a gamble."
+	line "Budem hrat v karty" ; line "I'm going to flip"
+	cont "do konca zivota!" ; cont "cards till I drop!"
 	done
 endc
 
 GoldenrodGameCornerPokefanFText:
-	text "Card flip…"
+	text "Karty…" ; text "Card flip…"
 
 if DEF(_CRYSTAL_AU)
-	para "Different from the"
-	line "other machines."
+	para "Rozdiel oproti" ; para "Different from the"
+	line "inym automatom." ; line "other machines."
 	done
 else
-	para "I prefer it over"
-	line "the slots because"
+	para "Mam to radsej ako" ; para "I prefer it over"
+	line "automaty, pretoze" ; line "the slots because"
 
-	para "it's easier to"
-	line "figure the odds."
+	para "je jednoduchsie" ; para "it's easier to"
+	line "vypocitat pravde-" ; line "figure the odds."
+	cont "podobnost."
 
-	para "But the payout is"
-	line "much lower."
+	para "Ale vyplata je" ; para "But the payout is"
+	line "omnoho nizsia." ; line "much lower."
 	done
 endc
 
 GoldenrodGameCornerCooltrainerFText:
-	text "I won't quit until"
-	line "I win!"
+	text "Neskoncim, dokym" ; text "I won't quit until"
+	line "nevyhram!" ; line "I win!"
 	done
 
 GoldenrodGameCornerGentlemanText:
-	text "I taught BLIZZARD"
-	line "to my #MON."
+	text "Naucil som mojho" ; text "I taught BLIZZARD"
+	line "#MONa" ; line "to my #MON."
+	cont "BLIZZARD."
 
-	para "It was hard to get"
-	line "enough coins for"
+	para "Trvalo vecnost" ; para "It was hard to get"
+	line "vyhrat dostatok" ; line "enough coins for"
 
-	para "it, but it was"
-	line "worth it."
+	para "zetonov, ale stalo" ; para "it, but it was"
+	line "to zato." ; line "worth it."
 	done
 
 GoldenrodGameCornerPokefanM2Text:
 if DEF(_CRYSTAL_AU)
-	text "COIN CASE? I threw"
-	line "it away in the"
-	cont "UNDERGROUND."
+	text "Penazenka COIN" ; text "COIN CASE? I threw"
+	line "CASE? Zahodil som" ; line "it away in the"
+	cont "v podzemi"
+	cont "UNDERGROUND." ; cont "UNDERGROUND."
 	done
 else
-	text "I couldn't win at"
-	line "the slots, and I"
+	text "Nemohol som vyhrat" ; text "I couldn't win at"
+	line "v automatoch a" ; line "the slots, and I"
 
-	para "blew it on card"
-	line "flipping…"
+	para "nesli mi ani" ; para "blew it on card"
+	line "karty…" ; line "flipping…"
 
-	para "I got so furious,"
-	line "I tossed out my"
+	para "Tak som zuril," ; para "I got so furious,"
+	line "ze som zahodil" ; line "I tossed out my"
 
-	para "COIN CASE in the"
-	line "UNDERGROUND."
+	para "svoju penazenku" 
+	line "COIN CASE" ; para "COIN CASE in the"
+	cont "v podzemi" ; line "UNDERGROUND."
+	cont "v UNDERGROUND."
 	done
 endc
 
 MoveTutorInsideText:
-	text "Wahahah! The coins"
-	line "keep rolling in!"
+	text "Wahahah! Zetony sa" ; text "Wahahah! The coins"
+	line "len tak sypu!" ; line "keep rolling in!"
 	done
 
 GoldenrodGameCornerLeftTheirDrinkText:
-	text "Someone left their"
-	line "drink."
+	text "Niekto si tu" ; text "Someone left their"
+	line "nechal svoj drink." ; line "drink."
 
-	para "It smells sweet."
+	para "Vonia sladko." ; para "It smells sweet."
 	done
 
 GoldenrodGameCorner_MapEvents:

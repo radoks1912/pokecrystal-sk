@@ -93,120 +93,121 @@ PokeDollVendingMachine:
 	jumptext PokeDollVendingMachineText
 
 GoldenrodDeptStoreRoofPokefanFText:
-	text "Whew, I'm tired."
+	text "Fuh, som unaveny." ; text "Whew, I'm tired."
 
-	para "I sometimes come"
-	line "up to the rooftop"
+	para "Sem-tam vybehnem" ; para "I sometimes come"
+	line "hore na strechu" ; line "up to the rooftop"
 
-	para "to take a break"
-	line "from shopping."
+	para "a spravim si pre-" ; para "to take a break"
+	line "stavku od naku-" ; line "from shopping."
+	cont "povania."
 	done
 
 GoldenrodDeptStoreRoofFisherText:
-	text "Pardon? Who says"
-	line "an adult can't get"
-	cont "into this?"
+	text "Pardon? Kto pove-" ; text "Pardon? Who says"
+	line "dal, ze dospeli sa" ; line "an adult can't get"
+	cont "tomuto nevenuju?" ; cont "into this?"
 
-	para "I'm going to be"
-	line "back every day to"
+	para "Budem sa vracat" ; para "I'm going to be"
+	line "kazdy den, aby som" ; line "back every day to"
 
-	para "collect all the"
-	line "dolls!"
+	para "pozbieral vsetky" ; para "collect all the"
+	line "babiky!" ; line "dolls!"
 	done
 
 GoldenrodDeptStoreRoofTwinText:
-	text "They have bargain"
-	line "sales here every"
-	cont "so often."
+	text "Casto tu maju" ; text "They have bargain"
+	line "velmi velke" ; line "sales here every"
+	cont "vypredaje." ; cont "so often."
 	done
 
 GoldenrodDeptStoreRoofSuperNerdOhWowText:
-	text "Oh, wow!"
+	text "Oh, wau!" ; text "Oh, wow!"
 	done
 
 GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
-	text "Will you quit"
-	line "bothering me?"
+	text "Prestanes ma" ; text "Will you quit"
+	line "konecne otravovat?" ; line "bothering me?"
 	done
 
 GoldenrodDeptStoreRoofPokefanMText:
-	text "There's something"
-	line "I really want, but"
+	text "Je nieco, co si" ; text "There's something"
+	line "chcem velmi kupit," ; line "I really want, but"
 
-	para "I don't have the"
-	line "necessary cash…"
+	para "ale nemam dost" ; para "I don't have the"
+	line "penazi…" ; line "necessary cash…"
 
-	para "Maybe I'll sell"
-	line "off the BERRIES"
-	cont "I've collected…"
+	para "Mozno popredavam" ; para "Maybe I'll sell"
+	line "zopar BERRIES," ; line "off the BERRIES"
+	cont "co mam…" ; cont "I've collected…"
 	done
 
 GoldenrodDeptStoreRoofTeacherText:
-	text "Oh, everything is"
-	line "so cheap!"
+	text "Och, vsetko je tak" ; text "Oh, everything is"
+	line "lacne!" ; line "so cheap!"
 
-	para "I bought so much,"
-	line "my PACK's crammed!"
+	para "Mam preplneny cely" ; para "I bought so much,"
+	line "BATOH!" ; line "my PACK's crammed!"
 	done
 
 GoldenrodDeptStoreRoofBugCatcherText:
-	text "My #MON always"
-	line "get paralyzed or"
+	text "Moji #MONi su" ; text "My #MON always"
+	line "vzdy paralyzovani" ; line "get paralyzed or"
 
-	para "poisoned when the"
-	line "chips are down…"
+	para "alebo otraveni," ; para "poisoned when the"
+	line "vskutku…" ; line "chips are down…"
 
-	para "So I came to buy"
-	line "some FULL HEAL."
+	para "Tak som si prisiel" ; para "So I came to buy"
+	line "kupit FULL HEAL." ; line "some FULL HEAL."
 
-	para "I wonder if"
-	line "there's any left?"
+	para "Dufam, ze ho este" ; para "I wonder if"
+	line "maju skladom?" ; line "there's any left?"
 	done
 
 Binoculars1Text:
-	text "These binoculars"
-	line "let me see far"
+	text "Tento dalekohlad" ; text "These binoculars"
+	line "mi umoznuje vidiet" ; line "let me see far"
 
-	para "away. Maybe I can"
-	line "see my own house."
+	para "daleko. Mozno uvi-" ; para "away. Maybe I can"
+	line "dim aj svoj dom." ; line "see my own house."
 
-	para "Is it the one with"
-	line "the green roof?"
+	para "Je to tamten so" ; para "Is it the one with"
+	line "zelenou strechou?" ; line "the green roof?"
 	done
 
 Binoculars2Text:
-	text "Hey! Some trainers"
-	line "are battling on"
-	cont "the road!"
+	text "Hej! Treneri tam" ; text "Hey! Some trainers"
+	line "na ceste prave" ; line "are battling on"
+	cont "zapasia!" ; cont "the road!"
 
-	para "A #MON fired a"
-	line "flurry of leaves!"
+	para "#MON odpalil vir" ; para "A #MON fired a"
+	line "listov!" ; line "flurry of leaves!"
 
-	para "That makes me feel"
-	line "like battling"
-	cont "right now!"
+	para "Vidiac toto sa mi" ; para "That makes me feel"
+	line "chce zapasit!" ; line "like battling"
+	;cont "right now!" ; cont "right now!"
 	done
 
 Binoculars3Text:
-	text "A FISHER caught a"
-	line "lot of MAGIKARP…"
+	text "FISHER chytil" ; text "A FISHER caught a"
+	line "vela MAGIKARPov…" ; line "lot of MAGIKARP…"
 
-	para "They're SPLASHing"
-	line "at the same time!"
+	para "Spliechaju presne" ; para "They're SPLASHing"
+	line "v ten isty cas!" ; line "at the same time!"
 
-	para "Look at the water"
-	line "going everywhere!"
+	para "Pozri na tu vodu," ; para "Look at the water"
+	line "co sa vsade vali!" ; line "going everywhere!"
 	done
 
 PokeDollVendingMachineText:
-	text "A vending machine"
-	line "for #MON dolls?"
+	text "Automat na" ; text "A vending machine"
+	line "#MON babiky?" ; line "for #MON dolls?"
 
-	para "Insert money, then"
-	line "turn the crank…"
+	para "Vloz peniaze," ; para "Insert money, then"
+	line "potom zatoc paku…" ; line "turn the crank…"
 
-	para "But it's almost"
-	line "empty…"
+	para "Ale je takmer" ; para "But it's almost"
+	line "prazdny…" ; line "empty…"
 	done
 
 GoldenrodDeptStoreRoof_MapEvents:

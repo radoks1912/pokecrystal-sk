@@ -183,198 +183,200 @@ BridgetWalksAwayMovement:
 	step_end
 
 WhitneyBeforeText:
-	text "Hi! I'm WHITNEY!"
+	text "Ahoj! Som WHITNEY!" ; text "Hi! I'm WHITNEY!"
 
-	para "Everyone was into"
-	line "#MON, so I got"
-	cont "into it too!"
+	para "Vsetci zacali s" ; para "Everyone was into"
+	line "#MONmi, tak" ; line "#MON, so I got"
+	cont "som zacala aj ja!" ; cont "into it too!"
 
-	para "#MON are"
-	line "super-cute!"
+	para "#MONi su" ; para "#MON are"
+	line "roztomili!" ; line "super-cute!"
 
-	para "You want to bat-"
-	line "tle? I'm warning"
-	cont "you--I'm good!"
+	para "Chces zapasit?" ; para "You want to bat-"
+	line "Varujem ta--som" ; line "tle? I'm warning"
+	cont "dost dobra!" ; cont "you--I'm good!"
 	done
 
 WhitneyShouldntBeSoSeriousText:
-	text "Sob…"
+	text "Fnuk…" ; text "Sob…"
 
-	para "…Waaaaaaah!"
-	line "You're mean!"
+	para "…Waaaaaaah!" ; para "…Waaaaaaah!"
+	line "Si zly!" ; line "You're mean!"
 
-	para "You shouldn't be"
-	line "so serious! You…"
-	cont "you child, you!"
+	para "Nemal by si to" ; para "You shouldn't be"
+	line "brat tak vazne! " ; line "so serious! You…"
+	cont "Ty… Ty dieta!" ; cont "you child, you!"
 	done
 
 WhitneyYouMeanieText:
-	text "Waaaaah!"
+	text "Waaaaah!" ; text "Waaaaah!"
 
-	para "Waaaaah!"
+	para "Waaaaah!" ; para "Waaaaah!"
 
-	para "…Snivel, hic…"
-	line "…You meanie!"
+	para "…Smrk…" ; para "…Snivel, hic…"
+	line "…Ty zloduch!" ; line "…You meanie!"
 	done
 
 WhitneyWhatDoYouWantText:
-	text "…Sniff…"
+	text "…Smrk…" ; text "…Sniff…"
 
-	para "What? What do you"
-	line "want? A BADGE?"
+	para "Coze? Co chces?" ; para "What? What do you"
+	line "Odnzak?" ; line "want? A BADGE?"
 
-	para "Oh, right."
-	line "I forgot. Here's"
-	cont "PLAINBADGE."
+	para "Oh, jasne." ; para "Oh, right."
+	line "Zabudla som. Tu je" ; line "I forgot. Here's"
+	cont "PLAINBADGE." ; cont "PLAINBADGE."
 	done
 
 PlayerReceivedPlainBadgeText:
-	text "<PLAYER> received"
-	line "PLAINBADGE."
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
+	line "PLAINBADGE." ; line "PLAINBADGE."
 	done
 
 WhitneyPlainBadgeText:
-	text "PLAINBADGE lets"
-	line "your #MON use"
+	text "PLAINBADGE umozni" ; text "PLAINBADGE lets"
+	line "#MONom pouzit" ; line "your #MON use"
 
-	para "STRENGTH outside"
-	line "of battle."
+	para "STRENGTH mimo" ; para "STRENGTH outside"
+	line "zapasu." ; line "of battle."
 
-	para "It also boosts"
-	line "your #MON's"
-	cont "SPEED."
+	para "Takisto zvysuje" ; para "It also boosts"
+	line "RYCHLOST tvojich" ; line "your #MON's"
+	cont "#MONov." ; cont "SPEED."
 
-	para "Oh, you can have"
-	line "this too!"
+	para "Och, vezmi si" ; para "Oh, you can have"
+	line "aj toto!" ; line "this too!"
 	done
 
 WhitneyAttractText:
-	text "It's ATTRACT!"
-	line "It makes full use"
+	text "Je to ATTRACT!" ; text "It's ATTRACT!"
+	line "Vydzvihne sarm" ; line "It makes full use"
 
-	para "of a #MON's"
-	line "charm."
+	para "tvojho #MONa." ; para "of a #MON's"
+	;line "charm." ; line "charm."
 
-	para "Isn't it just per-"
-	line "fect for a cutie"
-	cont "like me?"
+	para "No nie je to" ; para "Isn't it just per-"
+	line "uzasny utok pre" ; line "fect for a cutie"
+	cont "niekoho ako ja?" ; cont "like me?"
 	done
 
 WhitneyGoodCryText:
-	text "Ah, that was a"
-	line "good cry!"
+	text "Ah, slzy" ; text "Ah, that was a"
+	line "stastia!" ; line "good cry!"
 
-	para "Come for a visit"
-	line "again! Bye-bye!"
+	para "Zastav sa niekedy" ; para "Come for a visit"
+	line "znova! Ahoj!" ; line "again! Bye-bye!"
 	done
 
 LassCarrieSeenText:
-	text "Don't let my"
-	line "#MON's cute"
+	text "Nedaj sa zmiast" ; text "Don't let my"
+	line "roztomilostou mo-" ; line "#MON's cute"
 
-	para "looks fool you."
-	line "They can whip you!"
+	para "jich #MONov." ; para "looks fool you."
+	line "Zaskocia ta!" ; line "They can whip you!"
 	done
 
 LassCarrieBeatenText:
-	text "Darn… I thought"
-	line "you were weak…"
+	text "Kelu… Myslel som," ; text "Darn… I thought"
+	line "ze si slaby…" ; line "you were weak…"
 	done
 
 LassCarrieAfterBattleText:
-	text "Do my #MON"
-	line "think I'm cute?"
+	text "Myslia si moji" ; text "Do my #MON"
+	line "#MONi, ze som" ; line "think I'm cute?"
+	cont "roztomila?"
 	done
 
 LassBridgetSeenText:
-	text "I like cute #-"
-	line "MON better than"
-	cont "strong #MON."
+	text "Roztomili" ; text "I like cute #-"
+	line "#MONi su lep-" ; line "MON better than"
+	cont "si ako ti silni." ; cont "strong #MON."
 
-	para "But I have strong"
-	line "and cute #MON!"
+	para "Ale ja mam oboje!" ; para "But I have strong"
+	;line "and cute #MON!" ; line "and cute #MON!"
 	done
 
 LassBridgetBeatenText:
-	text "Oh, no, no, no!"
+	text "Och, nie nie nie!" ; text "Oh, no, no, no!"
 	done
 
 LassBridgetAfterBattleText:
-	text "I'm trying to beat"
-	line "WHITNEY, but…"
-	cont "It's depressing."
+	text "Snazim sa porazit" ; text "I'm trying to beat"
+	line "WHITNEY, ale…" ; line "WHITNEY, but…"
+	cont "Je to deprimujuce." ; cont "It's depressing."
 
-	para "I'm okay! If I"
-	line "lose, I'll just"
+	para "Som v poriadku! Ak" ; para "I'm okay! If I"
+	line "prehram, budem sa" ; line "lose, I'll just"
 
-	para "try harder next"
-	line "time!"
+	para "nabuduce jednodu-" ; para "try harder next"
+	line "cho viac snazit!" ; line "time!"
 	done
 
 BridgetWhitneyCriesText:
-	text "Oh, no. You made"
-	line "WHITNEY cry."
+	text "Oh, nie. Kvoli te-" ; text "Oh, no. You made"
+	line "be WHITNEY place." ; line "WHITNEY cry."
 
-	para "It's OK. She'll"
-	line "stop soon. She"
+	para "V poriadku. Zane-" ; para "It's OK. She'll"
+	line "dlho prestane." ; line "stop soon. She"
 
-	para "always cries when"
-	line "she loses."
+	para "Vzdy place po" ; para "always cries when"
+	line "prehre." ; line "she loses."
 	done
 
 BeautyVictoriaSeenText:
-	text "Oh, you are a cute"
-	line "little trainer! "
+	text "Och, vypadas ako" ; text "Oh, you are a cute"
+	line "roztomily trener! " ; line "little trainer! "
 
-	para "I like you, but I"
-	line "won't hold back!"
+	para "Pacis sa mi, ale" ; para "I like you, but I"
+	line "nebudem ta setrit!" ; line "won't hold back!"
 	done
 
 BeautyVictoriaBeatenText:
-	text "Let's see… Oops,"
-	line "it's over?"
+	text "Pozrime sa… Ups," ; text "Let's see… Oops,"
+	line "je koniec?" ; line "it's over?"
 	done
 
 BeautyVictoriaAfterBattleText:
-	text "Wow, you must be"
-	line "good to beat me!"
-	cont "Keep it up!"
+	text "Wau, musis byt do-" ; text "Wow, you must be"
+	line "bry, ked si vy-" ; line "good to beat me!"
+	cont "hral! Len tak" ; cont "Keep it up!"
+	cont "dalej!"
 	done
 
 BeautySamanthaSeenText:
-	text "Give it your best"
-	line "shot, or I'll take"
-	cont "you down!"
+	text "Daj do toho vset-" ; text "Give it your best"
+	line "ko, lebo ta roz-" ; line "shot, or I'll take"
+	cont "drtim!" ; cont "you down!"
 	done
 
 BeautySamanthaBeatenText:
-	text "No! Oh, MEOWTH,"
-	line "I'm so sorry!"
+	text "Nie! Och, MEOWTH," ; text "No! Oh, MEOWTH,"
+	line "je mi to luto!" ; line "I'm so sorry!"
 	done
 
 BeautySamanthaAfterBattleText:
-	text "I taught MEOWTH"
-	line "moves for taking"
-	cont "on any type…"
+	text "MEOWTH ovlada" ; text "I taught MEOWTH"
+	line "utoky kazdeho" ; line "moves for taking"
+	cont "druhu…" ; cont "on any type…"
 	done
 
 GoldenrodGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Jou! Buduci" ; text "Yo! CHAMP in"
+	line "SAMPION!" ; line "making!"
 
-	para "This GYM is home"
-	line "to normal-type"
-	cont "#MON trainers."
+	para "Tento GYM je domov" ; para "This GYM is home"
+	line "pre normal-typ" ; line "to normal-type"
+	cont "#MON trenerov." ; cont "#MON trainers."
 
-	para "I recommend you"
-	line "use fighting-type"
-	cont "#MON."
+	para "Doporucujem pouzit" ; para "I recommend you"
+	line "fighting-typ" ; line "use fighting-type"
+	cont "#MONov." ; cont "#MON."
 	done
 
 GoldenrodGymGuideWinText:
-	text "You won? Great! I"
-	line "was busy admiring"
-	cont "the ladies here."
+	text "Vyhra? Skvele! Ja" ; text "You won? Great! I"
+	line "som obdivoval" ; line "was busy admiring"
+	cont "tunajsie damy." ; cont "the ladies here."
 	done
 
 GoldenrodGym_MapEvents:
