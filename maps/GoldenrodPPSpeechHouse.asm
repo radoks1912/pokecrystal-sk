@@ -23,30 +23,30 @@ GoldenrodPPSpeechHouseRadio:
 	jumpstd Radio2Script
 
 GoldenrodPPSpeechHouseFisherText:
-	text "Once while I was"
-	line "battling, my"
+	text "Raz pri zapase" ; text "Once while I was"
+	line "moj #MON" ; line "battling, my"
 
-	para "#MON couldn't"
-	line "make any moves."
+	para "nemohol pouzit" ; para "#MON couldn't"
+	line "ziaden utok." ; line "make any moves."
 
-	para "The POWER POINTS,"
-	line "or PP, of its"
+	para "POWER POINTY," ; para "The POWER POINTS,"
+	line "alebo PP vsetkych" ; line "or PP, of its"
 
-	para "moves were all"
-	line "gone."
+	para "jeho utokov boli" ; para "moves were all"
+	line "prec." ; line "gone."
 	done
 
 GoldenrodPPSpeechHouseLassText:
-	text "Sometimes, a"
-	line "healthy #MON"
+	text "Niekedy aj zdravy" ; text "Sometimes, a"
+	line "#MON nemoze" ; line "healthy #MON"
 
-	para "may be unable to"
-	line "use its moves."
+	para "utocit." ; para "may be unable to"
+	;line "use its moves." ; line "use its moves."
 
-	para "If that happens,"
-	line "heal it at a #-"
-	cont "MON CENTER or use"
-	cont "an item."
+	para "Ak sa ti to stane," ; para "If that happens,"
+	line "navstiv #-" ; line "heal it at a #-"
+	cont "MON CENTER alebo" ; cont "MON CENTER or use"
+	cont "pouzi predmet." ; cont "an item."
 	done
 
 GoldenrodPPSpeechHouse_MapEvents:

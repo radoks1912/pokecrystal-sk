@@ -661,15 +661,15 @@ GoldenrodPokecomCenterPerson11Text: ; unreferenced
 	done
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "The COLOSSEUM"
-	line "upstairs is for"
-	cont "link battles."
+	text "COLOSSEUM na" ; text "The COLOSSEUM"
+	line "poschodi je pre" ; line "upstairs is for"
+	cont "link-zapasy." ; cont "link battles."
 
-	para "Battle records are"
-	line "posted on the"
+	para "Vysledky zapasov" ; para "Battle records are"
+	line "su na nastenke," ; line "posted on the"
 
-	para "wall, so I can't"
-	line "afford to lose."
+	para "takze si nemozem" ; para "wall, so I can't"
+	line "dovolit prehrat." ; line "afford to lose."
 	done
 
 GoldenrodPokecomCenterPerson12Text: ; unreferenced
@@ -699,36 +699,37 @@ GoldenrodPokecomCenterPerson13Text: ; unreferenced
 	done
 
 GoldenrodPokecenter1FLassText:
-	text "A higher level"
-	line "#MON doesn't"
-	cont "always win."
+	text "A higher level" ; text "A higher level"
+	line "#MON doesn't" ; line "#MON doesn't"
+	cont "always win." ; cont "always win."
 
-	para "After all, it may"
-	line "have a type dis-"
-	cont "advantage."
+	para "After all, it may" ; para "After all, it may"
+	line "have a type dis-" ; line "have a type dis-"
+	cont "advantage." ; cont "advantage."
 
-	para "I don't think"
-	line "there is a single"
+	para "I don't think" ; para "I don't think"
+	line "there is a single" ; line "there is a single"
 
-	para "#MON that is"
-	line "the toughest."
+	para "#MON that is" ; para "#MON that is"
+	line "the toughest." ; line "the toughest."
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:
-	text "<PLAYER>, isn't it?"
+	text "<PLAYER>, vsak?" ; text "<PLAYER>, isn't it?"
 
-	para "Congratulations!"
+	para "Gratulujeme!" ; para "Congratulations!"
 
-	para "As a special deal,"
-	line "a GS BALL has been"
-	cont "sent just for you!"
+	para "V ramci specialnej" ; para "As a special deal,"
+	line "ponuky sme ti po-" ; line "a GS BALL has been"
+	cont "slali GS BALL!" ; cont "sent just for you!"
 
-	para "Please accept it!"
+	para "Prijmite ho," ; para "Please accept it!"
+	cont "prosim!"
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseDoComeAgainText:
-	text "Please do come"
-	line "again!"
+	text "Tesime sa na dal-" ; text "Please do come"
+	line "siu navstevu!" ; line "again!"
 	done
 
 GoldenrodPokecomCenterSignText: ; unreferenced
@@ -754,51 +755,51 @@ GoldenrodPokecomCenterNewsMachineNotYetText: ; unreferenced
 	done
 
 GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
-	text "Oh my, your pack"
-	line "looks so heavy!"
+	text "Ach, tvoj batoh" ; text "Oh my, your pack"
+	line "vypada tazko!" ; line "looks so heavy!"
 
-	para "Oh! Do you happen"
-	line "to have something"
-	cont "named EON MAIL?"
+	para "Oh! Nemas nahodou" ; para "Oh! Do you happen"
+	line "nieco menom" ; line "to have something"
+	cont "EON MAIL?" ; cont "named EON MAIL?"
 
-	para "My daughter is"
-	line "after one."
+	para "Moja dcera ho" ; para "My daughter is"
+	line "zhana." ; line "after one."
 
-	para "You can part with"
-	line "one, can't you?"
+	para "Mozes mi jedno" ; para "You can part with"
+	line "darovat, vsak?" ; line "one, can't you?"
 	done
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
-	text "Give away an EON"
-	line "MAIL?"
+	text "Darovat EON" ; text "Give away an EON"
+	line "MAIL?" ; line "MAIL?"
 	done
 
 GoldenrodPokecenter1FPokefanFThisIsForYouText:
-	text "Oh, that's great!"
-	line "Thank you, honey!"
+	text "Och, to je skvele!" ; text "Oh, that's great!"
+	line "Dakujem, zlato!" ; line "Thank you, honey!"
 
-	para "Here, this is for"
-	line "you in return!"
+	para "Prosim, toto mas" ; para "Here, this is for"
+	line "za odmenu!" ; line "you in return!"
 	done
 
 GoldenrodPokecenter1FPokefanFDaughterWillBeDelightedText:
-	text "My daughter will"
-	line "be delighted!"
+	text "Dcera sa bude" ; text "My daughter will"
+	line "tesit!" ; line "be delighted!"
 	done
 
 GoldenrodPokecenter1FPokefanFTooBadText:
-	text "Oh? You don't have"
-	line "one? Too bad."
+	text "Och? Nemas ho?" ; text "Oh? You don't have"
+	line "No nic." ; line "one? Too bad."
 	done
 
 GoldenrodPokecenter1FPokefanFAnotherTimeThenText:
-	text "Oh… Well, another"
-	line "time, then."
+	text "Och… No niekedy" ; text "Oh… Well, another"
+	line "nabuduce, teda." ; line "time, then."
 	done
 
 GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
-	text "<PLAYER> gave away"
-	line "the EON MAIL."
+	text "<PLAYER> odovzdal" ; text "<PLAYER> gave away"
+	line "EON MAIL." ; line "the EON MAIL."
 	done
 
 GoldenrodPokecenter1F_MapEvents:

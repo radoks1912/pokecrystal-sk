@@ -70,68 +70,71 @@ HappinessRatersHouseRadio:
 	jumpstd Radio2Script
 
 GoldenrodHappinessRaterTeacherText:
-	text "If you treat your"
-	line "#MON nicely,"
+	text "Ak sa budes k svo-" ; text "If you treat your"
+	line "jim #MONom" ; line "#MON nicely,"
+	cont "chovat milo,"
 
-	para "they will love you"
-	line "in return."
+	para "budu ti lasku" ; para "they will love you"
+	line "opatovat." ; line "in return."
 
-	para "Oh? Let me see"
-	line "your @"
+	para "Hm? Ukaz mi" ; para "Oh? Let me see"
+	line "svojho @" ; line "your @"
 	text_ram wStringBuffer3
 	text "…"
 	done
 
 GoldenrodHappinessRatingText_LovesYouALot:
-	text "It looks really"
-	line "happy! It must"
-	cont "love you a lot."
+	text "Vypada velmi" ; text "It looks really"
+	line "stastne! Musi ta" ; line "happy! It must"
+	cont "mat velmi rad." ; cont "love you a lot."
 	done
 
 GoldenrodHappinessRatingText_ReallyTrustsYou:
-	text "I get the feeling"
-	line "that it really"
-	cont "trusts you."
+	text "Mam pocit, ze ti" ; text "I get the feeling"
+	line "naozaj velmi" ; line "that it really"
+	cont "veri." ; cont "trusts you."
 	done
 
 GoldenrodHappinessRatingText_SortOfHappy:
-	text "It's friendly to-"
-	line "ward you. It looks"
-	cont "sort of happy."
+	text "Je k tebe pria-" ; text "It's friendly to-"
+	line "telsky. Vypada" ; line "ward you. It looks"
+	cont "stastny." ; cont "sort of happy."
 	done
 
 GoldenrodHappinessRatingText_QuiteCute:
-	text "It's quite cute."
+	text "Je celkom zlaty." ; text "It's quite cute."
 	done
 
 GoldenrodHappinessRatingText_NotUsedToYou:
-	text "You should treat"
-	line "it better. It's"
-	cont "not used to you."
+	text "Mal by si sa onho" ; text "You should treat"
+	line "lepsie starat." ; line "it better. It's"
+	cont "Nie je na teba" ; cont "not used to you."
+	cont "zvyknuty."
 	done
 
 GoldenrodHappinessRatingText_LooksMean:
-	text "It doesn't seem to"
-	line "like you at all."
-	cont "It looks mean."
+	text "Nema ta vobec rad." ; text "It doesn't seem to"
+	line "Vypada nedover-" ; line "like you at all."
+	cont "civo." ; cont "It looks mean."
 	done
 
 GoldenrodHappinessRaterPokefanMText:
-	text "I keep losing in"
-	line "battles, and my"
+	text "Stale prehravam v" ; text "I keep losing in"
+	line "zapasoch a moji" ; line "battles, and my"
 
-	para "#MON end up"
-	line "fainting…"
+	para "#MONi" ; para "#MON end up"
+	line "odpadnu…" ; line "fainting…"
 
-	para "Maybe that's why"
-	line "my #MON don't"
-	cont "like me much…"
+	para "Mozno prave preto" ; para "Maybe that's why"
+	line "ma nemaju az tak" ; line "my #MON don't"
+	cont "radi…" ; cont "like me much…"
 	done
 
 GoldenrodHappinessRaterTwinText:
-	text "When I use an item"
-	line "on my #MON, it"
-	cont "acts really glad!"
+	text "Ked pouzijem pred-" ; text "When I use an item"
+	line "met na mojho" ; line "on my #MON, it"
+	cont "#MONa, vypada" ; cont "acts really glad!"
+	cont "stastny!"
 	done
 
 GoldenrodHappinessRater_MapEvents:

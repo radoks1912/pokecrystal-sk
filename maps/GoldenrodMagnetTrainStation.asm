@@ -104,62 +104,62 @@ GoldenrodMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 	step_end
 
 GoldenrodMagnetTrainStationOfficerTheTrainHasntComeInText:
-	text "The train hasn't"
-	line "come in…"
+	text "Vlak este nepri-" ; text "The train hasn't"
+	line "siel…" ; line "come in…"
 
-	para "I know! I'll carry"
-	line "the passengers on"
-	cont "my back!"
+	para "Uz viem! Odnesiem" ; para "I know! I'll carry"
+	line "cestujucich na" ; line "the passengers on"
+	cont "na chrbte!" ; cont "my back!"
 
-	para "That won't work."
+	para "To nebude fungovat" ; para "That won't work."
 	done
 
 GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
-	text "We'll soon depart"
-	line "for SAFFRON."
+	text "Zanedlho vyrazime" ; text "We'll soon depart"
+	line "do SAFFRON." ; line "for SAFFRON."
 
-	para "Are you coming"
-	line "aboard?"
+	para "Nastupujete?" ; para "Are you coming"
+	;line "aboard?" ; line "aboard?"
 	done
 
 GoldenrodMagnetTrainStationOfficerRightThisWayText:
-	text "May I see your"
-	line "rail PASS, please?"
+	text "Mozem vidiet vas" ; text "May I see your"
+	line "LISTOK, prosim?" ; line "rail PASS, please?"
 
-	para "OK. Right this"
-	line "way, please."
+	para "OK. Pokracujte" ; para "OK. Right this"
+	line "za mnou, prosim." ; line "way, please."
 	done
 
 GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText:
-	text "Sorry. You don't"
-	line "have a rail PASS."
+	text "Pardon. Nemate" ; text "Sorry. You don't"
+	line "LISTOK." ; line "have a rail PASS."
 	done
 
 GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "Do skoreho" ; text "We hope to see you"
+	line "videnia!" ; line "again!"
 	done
 
 GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
-	text "We have arrived in"
-	line "GOLDENROD."
+	text "Dorazili sme do" ; text "We have arrived in"
+	line "GOLDENROD." ; line "GOLDENROD."
 
-	para "We hope to see you"
-	line "again."
+	para "Do skoreho" ; para "We hope to see you"
+	line "videnia!" ; line "again."
 	done
 
 GoldenrodMagnetTrainStationGentlemanText:
-	text "I'm the PRESIDENT."
+	text "Som PREZIDENT." ; text "I'm the PRESIDENT."
 
-	para "My dream was to"
-	line "build a train that"
+	para "Moj sen je posta-" ; para "My dream was to"
+	line "vit vlak, ktory je" ; line "build a train that"
 
-	para "is faster than any"
-	line "#MON."
+	para "rychlejsi ako kto-" ; para "is faster than any"
+	line "rykolvek #MON." ; line "#MON."
 
-	para "It really brings"
-	line "JOHTO much closer"
-	cont "to KANTO."
+	para "Pomoze to spojit" ; para "It really brings"
+	line "JOHTO a KANTO." ; line "JOHTO much closer"
+	;cont "to KANTO." ; cont "to KANTO."
 	done
 
 GoldenrodMagnetTrainStation_MapEvents:
