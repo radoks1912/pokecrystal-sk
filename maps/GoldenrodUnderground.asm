@@ -419,232 +419,232 @@ GoldenrodUndergroundHiddenAntidote:
 	hiddenitem ANTIDOTE, EVENT_GOLDENROD_UNDERGROUND_HIDDEN_ANTIDOTE
 
 SupernerdEricSeenText:
-	text "I got booted out"
-	line "of the GAME COR-"
-	cont "NER."
+	text "Vyhodili ma z" ; text "I got booted out"
+	line "GAME CORNERU." ; line "of the GAME COR-"
+	;cont "NER." ; cont "NER."
 
-	para "I was trying to"
-	line "cheat using my"
-	cont "#MON…"
+	para "Podvadzal som" ; para "I was trying to"
+	line "pouzivajuc mojich" ; line "cheat using my"
+	cont "#MON…" ; cont "#MON…"
 	done
 
 SupernerdEricBeatenText:
-	text "…Grumble…"
+	text "…Kelu…" ; text "…Grumble…"
 	done
 
 SupernerdEricAfterBattleText:
-	text "I guess I have to"
-	line "do things fair and"
-	cont "square…"
+	text "Budem musiet sku-" ; text "I guess I have to"
+	line "sit robit veci" ; line "do things fair and"
+	cont "poctivo…" ; cont "square…"
 	done
 
 SupernerdTeruSeenText:
-	text "Do you consider"
-	line "type alignments in"
-	cont "battle?"
+	text "Uvazujes nad ty-" ; text "Do you consider"
+	line "povou vyhodou v" ; line "type alignments in"
+	cont "zapase?" ; cont "battle?"
 
-	para "If you know your"
-	line "type advantages,"
+	para "Ak poznas typove" ; para "If you know your"
+	line "vyhody, bude" ; line "type advantages,"
 
-	para "you'll do better"
-	line "in battle."
+	para "sa ti v zapase" ; para "you'll do better"
+	line "lepsie darit." ; line "in battle."
 	done
 
 SupernerdTeruBeatenText:
-	text "Ow, ow, ow!"
+	text "Ou, ou, ou!" ; text "Ow, ow, ow!"
 	done
 
 SupernerdTeruAfterBattleText:
-	text "I know my #MON"
-	line "type alignments."
+	text "Poznam typove vy-" ; text "I know my #MON"
+	line "hody #MONov." ; line "type alignments."
 
-	para "But I only use one"
-	line "type of #MON."
+	para "Ale pouzivam iba 1" ; para "But I only use one"
+	line "typ #MONa." ; line "type of #MON."
 	done
 
 PokemaniacIssacSeenText:
-	text "My #MON just"
-	line "got a haircut!"
+	text "Prave mi ostrihali" ; text "My #MON just"
+	line "#MONa!" ; line "got a haircut!"
 
-	para "I'll show you how"
-	line "strong it is!"
+	para "Ukazem ti, aky je" ; para "I'll show you how"
+	line "silny!" ; line "strong it is!"
 	done
 
 PokemaniacIssacBeatenText:
-	text "Aiyeeee!"
+	text "Aiyeeee!" ; text "Aiyeeee!"
 	done
 
 PokemaniacIssacAfterBattleText:
-	text "Your #MON will"
-	line "like you more if"
+	text "#MONi ta budu" ; text "Your #MON will"
+	line "mat radsej, ak" ; line "like you more if"
 
-	para "you give them"
-	line "haircuts."
+	para "ich nechas ostri-" ; para "you give them"
+	line "hat." ; line "haircuts."
 	done
 
 PokemaniacDonaldSeenText:
-	text "I think you have"
-	line "some rare #MON"
-	cont "with you."
+	text "Myslim, ze mas so" ; text "I think you have"
+	line "sebou vzacneho" ; line "some rare #MON"
+	cont "#MONa." ; cont "with you."
 
-	para "Let me see them!"
+	para "Ukaz mi ho!" ; para "Let me see them!"
 	done
 
 PokemaniacDonaldBeatenText:
-	text "Gaah! I lost!"
-	line "That makes me mad!"
+	text "Gaah! Prehra!" ; text "Gaah! I lost!"
+	line "Som rozzureny!" ; line "That makes me mad!"
 	done
 
 PokemaniacDonaldAfterBattleText:
-	text "Are you making a"
-	line "#DEX? Here's a"
-	cont "hot tip."
+	text "Snazis sa vyplnit" ; text "Are you making a"
+	line "#DEX?" ; line "#DEX? Here's a"
+	cont "Dam ti tip." ; cont "hot tip."
 
-	para "The HIKER on ROUTE"
-	line "33, ANTHONY, is a"
-	cont "good guy."
+	para "HIKER na ROUTE" ; para "The HIKER on ROUTE"
+	line "33, ANTHONY, je" ; line "33, ANTHONY, is a"
+	cont "dobrak." ; cont "good guy."
 
-	para "He'll phone you if"
-	line "he sees any rare"
-	cont "#MON."
+	para "Zavola ti, ak" ; para "He'll phone you if"
+	line "zbada vzacneho" ; line "he sees any rare"
+	cont "#MONa." ; cont "#MON."
 	done
 
 GoldenrodUndergroundTheDoorsLockedText:
-	text "The door's locked…"
+	text "Dvere su zamknute…" ; text "The door's locked…"
 	done
 
 GoldenrodUndergroundTheDoorIsOpenText:
-	text "The door is open."
+	text "Dvere su otvorene." ; text "The door is open."
 	done
 
 GoldenrodUndergroundBasementKeyOpenedDoorText:
-	text "The BASEMENT KEY"
-	line "opened the door."
+	text "BASEMENT KLUC" ; text "The BASEMENT KEY"
+	line "otvoril dvere." ; line "opened the door."
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
-	text "Welcome!"
+	text "Vitajte!" ; text "Welcome!"
 
-	para "I run the #MON"
-	line "SALON!"
+	para "Prevadzkujem" ; para "I run the #MON"
+	line "#MON SALON!" ; line "SALON!"
 
-	para "I'm the older and"
-	line "better of the two"
-	cont "HAIRCUT BROTHERS."
+	para "Som starsi a lep-" ; para "I'm the older and"
+	line "si z bratov" ; line "better of the two"
+	cont "HAIRCUT BROTHERS." ; cont "HAIRCUT BROTHERS."
 
-	para "I can make your"
-	line "#MON beautiful"
-	cont "for just ¥500."
+	para "Ostriham tvojho" ; para "I can make your"
+	line "#MONa iba" ; line "#MON beautiful"
+	cont "za ¥500." ; cont "for just ¥500."
 
-	para "Would you like me"
-	line "to do that?"
+	para "Mam ho ostrihat?" ; para "Would you like me"
+	;line "to do that?" ; line "to do that?"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherAskWhichMonText:
-	text "Which #MON"
-	line "should I work on?"
+	text "Ktoreho #MONa" ; text "Which #MON"
+	line "mam ostrihat?" ; line "should I work on?"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherWatchItBecomeBeautifulText:
-	text "OK! Watch it"
-	line "become beautiful!"
+	text "OK! Pozeraj sa," ; text "OK! Watch it"
+	line "ako ho skraslim!" ; line "become beautiful!
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherAllDoneText:
-	text "There! All done!"
+	text "Hotovo!" ; text "There! All done!"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherThatsAShameText:
-	text "Is that right?"
-	line "That's a shame!"
+	text "Vazne nie?" ; text "Is that right?"
+	line "Aka skoda!" ; line "That's a shame!"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherYoullNeedMoreMoneyText:
-	text "You'll need more"
-	line "money than that."
+	text "Budes potrebovat" ; text "You'll need more"
+	line "viac penazi." ; line "money than that."
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherOneHaircutADayText:
-	text "I do only one"
-	line "haircut a day. I'm"
-	cont "done for today."
+	text "Kazdy den beriem" ; text "I do only one"
+	line "iba jedneho zakaz-" ; line "haircut a day. I'm"
+	cont "nika." ; cont "done for today."
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
-	text "Welcome to the"
-	line "#MON SALON!"
+	text "Vitaj v" ; text "Welcome to the"
+	line "#MON SALONE!" ; line "#MON SALON!"
 
-	para "I'm the younger"
-	line "and less expen-"
-	cont "sive of the two"
-	cont "HAIRCUT BROTHERS."
+	para "Som mladsi a lac-" ; para "I'm the younger"
+	line "nejsi z dvoch" ; line "and less expen-"
+	cont "bratov HAIRCUT" ; cont "sive of the two"
+	cont "BROTHERS." ; cont "HAIRCUT BROTHERS."
 
-	para "I'll spiff up your"
-	line "#MON for just"
-	cont "¥300."
+	para "Skraslim tvojho" ; para "I'll spiff up your"
+	line "#MONa iba" ; line "#MON for just"
+	cont "za ¥300." ; cont "¥300."
 
-	para "So? How about it?"
+	para "Tak? Ako teda?" ; para "So? How about it?"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherAskWhichMonText:
-	text "OK, which #MON"
-	line "should I do?"
+	text "OK, ktoreho" ; text "OK, which #MON"
+	line "#MONa ostriham?" ; line "should I do?"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherIllMakeItLookCoolText:
-	text "OK! I'll make it"
-	line "look cool!"
+	text "OK! Bude vypadat" ; text "OK! I'll make it"
+	line "skvele!" ; line "look cool!"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherAllDoneText:
-	text "There we go!"
-	line "All done!"
+	text "Nech sa paci!" ; text "There we go!"
+	line "Hotovo!" ; line "All done!"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherHowDisappointingText:
-	text "No? "
-	line "How disappointing!"
+	text "Nie? " ; text "No? "
+	line "Ake sklamanie!" ; line "How disappointing!"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherShortOnFundsText:
-	text "You're a little"
-	line "short on funds."
+	text "Nemas dostatok" ; text "You're a little"
+	line "penazi." ; line "short on funds."
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherOneHaircutADayText:
-	text "I can do only one"
-	line "haircut a day."
+	text "Striham denne iba" ; text "I can do only one"
+	line "jedneho zakaznika." ; line "haircut a day."
 
-	para "Sorry, but I'm all"
-	line "done for today."
+	para "Prepac, ale na" ; para "Sorry, but I'm all"
+	line "dnes som skoncil." ; line "done for today."
 	done
 
 HaircutBrosText_SlightlyHappier:
 	text_ram wStringBuffer3
-	text " looks a"
-	line "little happier."
+	text " vypada" ; text " looks a"
+	line "stastnejsie." ; line "little happier."
 	done
 
 HaircutBrosText_Happier:
 	text_ram wStringBuffer3
-	text " looks"
-	line "happy."
+	text " vypada" ; text " looks"
+	line "stastne." ; line "happy."
 	done
 
 HaircutBrosText_MuchHappier:
 	text_ram wStringBuffer3
-	text " looks"
-	line "delighted!"
+	text " vypada" ; text " looks"
+	line "nateseny!" ; line "delighted!"
 	done
 
 GoldenrodUndergroundWeAreNotOpenTodayText:
-	text "We're not open"
-	line "today."
+	text "Dnes mame" ; text "We're not open"
+	line "zatvorene." ; line "today."
 	done
 
 GoldenrodUndergroundNoEntryText:
-	text "NO ENTRY BEYOND"
-	line "THIS POINT"
+	text "ZAKAZ VSTUPU ZA" ; text "NO ENTRY BEYOND"
+	line "TYMTO BODOM" ; line "THIS POINT"
 	done
 
 GoldenrodUnderground_MapEvents:

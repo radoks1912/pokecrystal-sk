@@ -666,267 +666,269 @@ UndergroundSilverRetreatMovement2:
 	step_end
 
 UndergroundSilverBeforeText:
-	text "Hold it!"
+	text "Pockat!" ; text "Hold it!"
 
-	para "I saw you, so I"
-	line "tailed you."
+	para "Videl som ta, tak" ; para "I saw you, so I"
+	line "som ta sledoval." ; line "tailed you."
 
-	para "I don't need you"
-	line "underfoot while I"
+	para "Nepotrebujem ta tu" ; para "I don't need you"
+	line "kym budem riesit" ; line "underfoot while I"
 
-	para "take care of TEAM"
-	line "ROCKET."
+	para "TEAM ROCKET." ; para "take care of TEAM"
+	;line "." ; line "ROCKET."
 
-	para "…Wait a second."
-	line "You beat me be-"
-	cont "fore, didn't you?"
+	para "…Pockat." ; para "…Wait a second."
+	line "Uz si ma raz po-" ; line "You beat me be-"
+	cont "razil, vsak?" ; cont "fore, didn't you?"
 
-	para "That was just a"
-	line "fluke."
+	para "To bola iba" ; para "That was just a"
+	line "nahoda." ; line "fluke."
 
-	para "But I repay my"
-	line "debts!"
+	para "Ale teraz ti to" ; para "But I repay my"
+	line "vratim!" ; line "debts!"
 	done
 
 UndergroundSilverWinText:
-	text "…Why…"
-	line "Why do I lose?"
+	text "…Preco…" ; text "…Why…"
+	line "Preco som prehral?" ; line "Why do I lose?"
 
-	para "I've assembled the"
-	line "toughest #MON."
+	para "Mam v parte naj-" ; para "I've assembled the"
+	line "silnejsich" ; line "toughest #MON."
+	cont "#MONov."
 
-	para "I didn't ease up"
-	line "on the gas."
+	para "Nepolavil som ani" ; para "I didn't ease up"
+	line "na sekundu." ; line "on the gas."
 
-	para "So why do I lose?"
+	para "Preco som prehral?" ; para "So why do I lose?"
 	done
 
 UndergroundSilverAfterText:
-	text "…I don't under-"
-	line "stand…"
+	text "…Rozumiem…" ; text "…I don't under-"
+	;line "stand…" ; line "stand…"
 
-	para "Is what that LANCE"
-	line "guy said true?"
+	para "Hovoril ten LANCE" ; para "Is what that LANCE"
+	line "pravdu?" ; line "guy said true?"
 
-	para "That I don't treat"
-	line "#MON properly?"
+	para "Ze sa nechovam k" ; para "That I don't treat"
+	line "#MONom" ; line "#MON properly?"
+	cont "spravne?"
 
-	para "Love…"
+	para "Laska…" ; para "Love…"
 
-	para "Trust…"
+	para "Dovera…" ; para "Trust…"
 
-	para "Are they really"
-	line "what I lack?"
+	para "Je to to, co mi" ; para "Are they really"
+	line "chyba?" ; line "what I lack?"
 
-	para "Are they keeping"
-	line "me from winning?"
+	para "Kvoli tomu nemozem" ; para "Are they keeping"
+	line "vyhrat?" ; line "me from winning?"
 
-	para "I… I just don't"
-	line "understand."
+	para "Ja… Ja tomu" ; para "I… I just don't"
+	line "nerozumiem." ; line "understand."
 
-	para "But it's not going"
-	line "to end here."
+	para "Ale tymto to" ; para "But it's not going"
+	line "nekonci." ; line "to end here."
 
-	para "Not now. Not"
-	line "because of this."
+	para "Nie teraz. Nie" ; para "Not now. Not"
+	line "takto." ; line "because of this."
 
-	para "I won't give up my"
-	line "dream of becoming"
+	para "Nevzdam moj sen" ; para "I won't give up my"
+	line "byt najlepsi" ; line "dream of becoming"
 
-	para "the world's best"
-	line "#MON trainer!"
+	para "trener #MONov" ; para "the world's best"
+	line "na svete!" ; line "#MON trainer!"
 	done
 
 UndergroundSilverLossText:
-	text "Humph. This is my"
-	line "real power, wimp."
+	text "Hm. Toto je moja" ; text "Humph. This is my"
+	line "skutocna sila." ; line "real power, wimp."
 
-	para "I'll make TEAM"
-	line "ROCKET history."
+	para "TEAM ROCKET bude" ; para "I'll make TEAM"
+	line "minulost." ; line "ROCKET history."
 
-	para "And I'm going to"
-	line "grind that LANCE"
-	cont "under my heels."
+	para "A toho trenera" ; para "And I'm going to"
+	line "LANCEa udupem." ; line "grind that LANCE"
+	;cont "under my heels." ; cont "under my heels."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_SuperNerdText:
-	text "I was challenged"
-	line "to a battle down-"
-	cont "stairs."
+	text "Vyzvali ma na" ; text "I was challenged"
+	line "zapas tu v" ; line "to a battle down-"
+	cont "podzemi." ; cont "stairs."
 
-	para "It's rough down"
-	line "there. You'd"
-	cont "better be careful."
+	para "Je to tam drsne." ; para "It's rough down"
+	line "Radsej si davaj" ; line "there. You'd"
+	cont "pozor." ; cont "better be careful."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_TeacherText:
-	text "There are some"
-	line "shops downstairs…"
+	text "Dole su nejake" ; text "There are some"
+	line "obchody…" ; line "shops downstairs…"
 
-	para "But there are"
-	line "also trainers."
+	para "Ale aj niekolko" ; para "But there are"
+	line "trenerov." ; line "also trainers."
 
-	para "I'm scared to go"
-	line "down there."
+	para "Mam strach ist" ; para "I'm scared to go"
+	line "dole." ; line "down there."
 	done
 
 GruntM11SeenText:
-	text "Open one shutter,"
-	line "another closes."
+	text "Otvoris jeden," ; text "Open one shutter,"
+	line "a druhy sa zavrie." ; line "another closes."
 
-	para "Bet you can't get"
-	line "where you want!"
+	para "Stavim sa, ze sa" ; para "Bet you can't get"
+	line "tam nedostanes!" ; line "where you want!"
 	done
 
 GruntM11BeatenText:
-	text "Drat! I was sunk"
-	line "by indecision!"
+	text "Kelu! To ta moja" ; text "Drat! I was sunk"
+	line "nerozhodnost!" ; line "by indecision!"
 	done
 
 GruntM11AfterBattleText:
-	text "I'm confused too…"
-	line "The switch on the"
+	text "Som zmateny…" ; text "I'm confused too…"
+	line "Vypinac na konci" ; line "The switch on the"
 
-	para "end is the one to"
-	line "press first, but…"
+	para "sa ma stlacit ako" ; para "end is the one to"
+	line "prvy, ale…" ; line "press first, but…"
 	done
 
 GruntM25SeenText:
-	text "Kwahaha!"
+	text "Hahahaha!" ; text "Kwahaha!"
 
-	para "Confounded by the"
-	line "shutters, are we?"
+	para "Ohromeny vypinacmi" ; para "Confounded by the"
+	line "vsakze?" ; line "shutters, are we?"
 
-	para "I'll let you in on"
-	line "a secret if you"
-	cont "can beat me!"
+	para "Ak ma porazis," ; para "I'll let you in on"
+	line "prezradim ti" ; line "a secret if you"
+	cont "tajomstvo!" ; cont "can beat me!"
 	done
 
 GruntM25BeatenText:
-	text "Uwww…"
-	line "I blew it."
+	text "Uhhhh…" ; text "Uwww…"
+	line "Pokazil som to." ; line "I blew it."
 	done
 
 GruntM25AfterBattleText:
-	text "All right. A hint!"
+	text "V poriadku. Rada!" ; text "All right. A hint!"
 
-	para "Change the order"
-	line "of switching."
+	para "Zmen poradie" ; para "Change the order"
+	line "zapinania." ; line "of switching."
 
-	para "That'll change the"
-	line "ways the shutters"
-	cont "open and close."
+	para "To zmeni sposob," ; para "That'll change the"
+	line "akym sa cesty" ; line "ways the shutters"
+	cont "otvaraju." ; cont "open and close."
 	done
 
 BurglarDuncanSeenText:
-	text "Fork over your"
-	line "goodies!"
+	text "Daj mi tvoje" ; text "Fork over your"
+	line "veci!" ; line "goodies!"
 	done
 
 BurglarDuncanBeatenText:
-	text "Mercy!"
+	text "Zmilovanie!" ; text "Mercy!"
 	done
 
 BurglarDuncanAfterBattleText:
-	text "Steal and sell!"
-	line "That's basic in"
-	cont "crime, kid!"
+	text "Ukradni a predaj!" ; text "Steal and sell!"
+	line "To je zaklad zlo-" ; line "That's basic in"
+	cont "cinu, synak!" ; cont "crime, kid!"
 	done
 
 BurglarEddieSeenText:
-	text "They ditched this"
-	line "project before"
-	cont "they finished."
+	text "Ukoncili tento" ; text "They ditched this"
+	line "projekt pred" ; line "project before"
+	cont "dokoncenim." ; cont "they finished."
 
-	para "I'm searching for"
-	line "leftover loot."
+	para "Hladam zvysky" ; para "I'm searching for"
+	line "koristi." ; line "leftover loot."
 	done
 
 BurglarEddieBeatenText:
-	text "Over the top!"
+	text "Hrot!" ; text "Over the top!"
 	done
 
 BurglarEddieAfterBattleText:
-	text "UNDERGROUND WARE-"
-	line "HOUSE?"
+	text "PODZEMNY SKLAD?" ; text "UNDERGROUND WARE-"
+	;line "HOUSE?" ; line "HOUSE?"
 
-	para "What do you want"
-	line "to go there for?"
+	para "Naco tam vlastne" ; para "What do you want"
+	line "chces ist?" ; line "to go there for?"
 
-	para "There's nothing"
-	line "down there."
+	para "Nic tam nie je." ; para "There's nothing"
+	;line "down there." ; line "down there."
 	done
 
 GruntM13SeenText:
-	text "I don't care if"
-	line "you're lost."
+	text "Je mi jedno, ze si" ; text "I don't care if"
+	line "sa stratil." ; line "you're lost."
 
-	para "You show up here,"
-	line "you're nothing but"
-	cont "a victim!"
+	para "Ked sa tu objavis," ; para "You show up here,"
+	line "nie si nic ine ako" ; line "you're nothing but"
+	cont "obet!" ; cont "a victim!"
 	done
 
 GruntM13BeatenText:
-	text "Urk! Yeah, think"
-	line "you're cool, huh?"
+	text "Uch! Ano, si" ; text "Urk! Yeah, think"
+	line "v pohode, co?" ; line "you're cool, huh?"
 	done
 
 GruntM13AfterBattleText:
-	text "You must have ice"
-	line "in your veins to"
-	cont "dis TEAM ROCKET."
+	text "Musis mat lad v" ; text "You must have ice"
+	line "zilach, ked ohova-" ; line "in your veins to"
+	cont "ras TEAM ROCKET." ; cont "dis TEAM ROCKET."
 	done
 
 SwitchRoomText_Switch1:
-	text "It's labeled"
-	line "SWITCH 1."
+	text "Oznaceny ako" ; text "It's labeled"
+	line "VYPINAC 1." ; line "SWITCH 1."
 	done
 
 GruntF3SeenText:
-	text "Are you lost? No,"
-	line "you can't be."
+	text "Si strateny? Nie," ; text "Are you lost? No,"
+	line "urcite nie." ; line "you can't be."
 
-	para "You don't have"
-	line "that scared look."
+	para "Nemas strach v" ; para "You don't have"
+	line "tvari." ; line "that scared look."
 
-	para "I'll give you"
-	line "something to be"
-	cont "scared about!"
+	para "Ja ta vystrasim" ; para "I'll give you"
+	line "raz, dva!" ; line "something to be"
+	;cont "scared about!" ; cont "scared about!"
 	done
 
 GruntF3BeatenText:
-	text "How could you?"
+	text "Ako si len mohol?" ; text "How could you?"
 	done
 
 GruntF3AfterBattleText:
-	text "Go wherever you'd"
-	line "like! Get lost!"
-	cont "See if I care!"
+	text "Chod,kam chces!" ; text "Go wherever you'd"
+	line "Odid! Nezalezi mi" ; line "like! Get lost!"
+	cont "na tom!" ; cont "See if I care!"
 	done
 
 SwitchRoomText_OffTurnOn:
-	text "It's OFF."
-	line "Turn it ON?"
+	text "Je VYPNUTY." ; text "It's OFF."
+	line "ZAPNUT?" ; line "Turn it ON?"
 	done
 
 SwitchRoomText_OnTurnOff:
-	text "It's ON."
-	line "Turn it OFF?"
+	text "Je ZAPNUTY." ; text "It's ON."
+	line "VYPNUT?" ; line "Turn it OFF?"
 	done
 
 SwitchRoomText_Switch2:
-	text "It's labeled"
-	line "SWITCH 2."
+	text "Oznaceny ako" ; text "It's labeled"
+	line "VYPINAC 2." ; line "SWITCH 2."
 	done
 
 SwitchRoomText_Switch3:
-	text "It's labeled"
-	line "SWITCH 3."
+	text "Oznaceny ako" ; text "It's labeled"
+	line "VYPINAC 3." ; line "SWITCH 3."
 	done
 
 SwitchRoomText_Emergency:
-	text "It's labeled"
-	line "EMERGENCY."
+	text "Oznaceny ako" ; text "It's labeled"
+	line "POHOTOVOST." ; line "EMERGENCY."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_MapEvents:

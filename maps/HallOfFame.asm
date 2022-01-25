@@ -63,49 +63,49 @@ HallOfFame_SlowlyApproachMachine:
 	step_end
 
 HallOfFame_LanceText:
-	text "LANCE: It's been a"
-	line "long time since I"
-	cont "last came here."
+	text "LANCE: Uz je to" ; text "LANCE: It's been a"
+	line "nejaka doba, co" ; line "long time since I"
+	cont "som tu bol."  ; cont "last came here."
 
-	para "This is where we"
-	line "honor the LEAGUE"
+	para "Toto je miesto," ; para "This is where we"
+	line "kde si ctime LI-" ; line "honor the LEAGUE"
 
-	para "CHAMPIONS for all"
-	line "eternity."
+	para "GOVYCH SAMPIONOV" ; para "CHAMPIONS for all"
+	line "na vecnost." ; line "eternity."
 
-	para "Their courageous"
-	line "#MON are also"
-	cont "inducted."
+	para "Ich odvazni" ; para "Their courageous"
+	line "#MONi su tam" ; line "#MON are also"
+	cont "tiez uvedeni." ; cont "inducted."
 
-	para "Here today, we"
-	line "witnessed the rise"
+	para "Dnes sme boli" ; para "Here today, we"
+	line "svedkami povstania" ; line "witnessed the rise"
 
-	para "of a new LEAGUE"
-	line "CHAMPION--a"
+	para "noveho LIGOVEHO" ; para "of a new LEAGUE"
+	line "SAMPIONA--a" ; line "CHAMPION--a"
 
-	para "trainer who feels"
-	line "compassion for,"
+	para "trenera sucitiace-" ; para "trainer who feels"
+	line "ho a doverujuceho" ; line "compassion for,"
 
-	para "and trust toward,"
-	line "all #MON."
+	para "ku vsetkym" ; para "and trust toward,"
+	line "#MONom." ; line "all #MON."
 
-	para "A trainer who"
-	line "succeeded through"
+	para "Trener, ktory" ; para "A trainer who"
+	line "uspel kvoli" ; line "succeeded through"
 
-	para "perseverance and"
-	line "determination."
+	para "vytrvalosti a" ; para "perseverance and"
+	line "odhodlaniu." ; line "determination."
 
-	para "The new LEAGUE"
-	line "CHAMPION who has"
+	para "Novy LIGOVY SAM-" ; para "The new LEAGUE"
+	line "PION, ktory ma" ; line "CHAMPION who has"
 
-	para "all the makings"
-	line "of greatness!"
+	para "vsetky predpoklady" ; para "all the makings"
+	line "velikana!" ; line "of greatness!"
 
-	para "<PLAY_G>, allow me"
-	line "to register you"
+	para "<PLAY_G>, dovol mi" ; para "<PLAY_G>, allow me"
+	line "registrovat teba" ; line "to register you"
 
-	para "and your partners"
-	line "as CHAMPIONS!"
+	para "a tvojich partne-" ; para "and your partners"
+	line "rov ako SAMPIONOV!" ; line "as CHAMPIONS!"
 	done
 
 HallOfFame_MapEvents:

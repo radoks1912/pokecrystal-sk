@@ -96,116 +96,116 @@ GoldenrodUndergroundWarehouseUltraBall:
 	itemball ULTRA_BALL
 
 GruntM24SeenText:
-	text "How did you get"
-	line "this far?"
+	text "Ako si sa dostal" ; text "How did you get"
+	line "az sem?" ; line "this far?"
 
-	para "I guess it can't"
-	line "be helped. I'll"
-	cont "dispose of you."
+	para "No nic." ; para "I guess it can't"
+	line "Zbavim sa ta" ; line "be helped. I'll"
+	cont "velmi rychlo." ; cont "dispose of you."
 	done
 
 GruntM24BeatenText:
-	text "I got disposed of…"
+	text "Zbavil si sa ma…" ; text "I got disposed of…"
 	done
 
 GruntM24AfterBattleText:
-	text "TEAM ROCKET will"
-	line "keep going, wait-"
-	cont "ing for the return"
-	cont "of GIOVANNI."
+	text "TEAM ROCKET bude" ; text "TEAM ROCKET will"
+	line "pokracovat, caka-" ; line "keep going, wait-"
+	cont "juc na navrat" ; cont "ing for the return"
+	cont "GIOVANNIho." ; cont "of GIOVANNI."
 
-	para "We'll do whatever"
-	line "it takes."
+	para "Urobim pre to" ; para "We'll do whatever"
+	line "uplne vsetko." ; line "it takes."
 	done
 
 GruntM14SeenText:
-	text "You're not going"
-	line "any farther!"
+	text "Dalej uz" ; text "You're not going"
+	line "nepojdes!" ; line "any farther!"
 
-	para "I don't show mercy"
-	line "to my enemies, not"
-	cont "even brats!"
+	para "Nezlutujem sa nad" ; para "I don't show mercy"
+	line "ziadnym" ; line "to my enemies, not"
+	cont "nepriatelom!" ; cont "even brats!"
 	done
 
 GruntM14BeatenText:
-	text "Blast it!"
+	text "Dokelu!" ; text "Blast it!"
 	done
 
 GruntM14AfterBattleText:
-	text "I lost…"
+	text "Prehra…" ; text "I lost…"
 
-	para "Please forgive me,"
-	line "GIOVANNI!"
+	para "Odpust mi," ; para "Please forgive me,"
+	line "GIOVANNI!" ; line "GIOVANNI!"
 	done
 
 GruntM15SeenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "I remember you!"
+	text "Hik-hik-hik!" ; text "Hyuck-hyuck-hyuck!"
+	line "Pamatam si ta!" ; line "I remember you!"
 
-	para "You got me good"
-	line "at our hideout!"
+	para "Dostal si ma v" ; para "You got me good"
+	line "nasom ukryte!" ; line "at our hideout!"
 	done
 
 GruntM15BeatenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "So, that's how?"
+	text "Hik-hik-hik!" ; text "Hyuck-hyuck-hyuck!"
+	line "So, that's how?" ; line "So, that's how?"
 	done
 
 GruntM15AfterBattleText:
-	text "Hyuck-hyuck-hyuck!"
-	line "That was a blast!"
-	cont "I'll remember you!"
+	text "Hik-hik-hik!" ; text "Hyuck-hyuck-hyuck!"
+	line "To bola jazda!" ; line "That was a blast!"
+	cont "Zapamatam si ta!" ; cont "I'll remember you!"
 	done
 
 DirectorIntroText:
-	text "DIRECTOR: Who?"
-	line "What? You came to"
-	cont "rescue me?"
+	text "RIADITEL: Kto?" ; text "DIRECTOR: Who?"
+	line "Coze? Prisiel si" ; line "What? You came to"
+	cont "ma zachranit?" ; cont "rescue me?"
 
-	para "Thank you!"
+	para "Dakujem!" ; para "Thank you!"
 
-	para "The RADIO TOWER!"
+	para "RADIO VEZA!" ; para "The RADIO TOWER!"
 
-	para "What's happening"
-	line "there?"
+	para "Co sa tam vlastne" ; para "What's happening"
+	line "deje?" ; line "there?"
 
-	para "Taken over by TEAM"
-	line "ROCKET?"
+	para "Obsadena TEAMOM" ; para "Taken over by TEAM"
+	line "ROCKET?" ; line "ROCKET?"
 
-	para "Here. Take this"
-	line "CARD KEY."
+	para "Prosim. Vezmi si" ; para "Here. Take this"
+	line "kluc CARD KEY." ; line "CARD KEY."
 	done
 
 DirectorCardKeyText:
-	text "DIRECTOR: Use that"
-	line "to open the shut-"
-	cont "ters on 3F."
+	text "RIADITEL: Pouzi ho" ; text "DIRECTOR: Use that"
+	line "na tretom pos-" ; line "to open the shut-"
+	cont "chodi." ; cont "ters on 3F."
 	done
 
 DirectorAfterText:
-	text "I'm begging you to"
-	line "help."
+	text "Prosim ta o" ; text "I'm begging you to"
+	line "pomoc." ; line "help."
 
-	para "There's no telling"
-	line "what they'll do if"
+	para "Nevieme, coho su" ; para "There's no telling"
+	line "schopni, keby sa" ; line "what they'll do if"
 
-	para "they control the"
-	line "transmitter."
+	para "zmocnili" ; para "they control the"
+	line "vysielaca." ; line "transmitter."
 
-	para "They may even be"
-	line "able to control"
+	para "Mozno sa im podari" ; para "They may even be"
+	line "ovladnut aj" ; line "able to control"
 
-	para "#MON using a"
-	line "special signal!"
+	para "#MONov pomo-" ; para "#MON using a"
+	line "cou signalu!" ; line "special signal!"
 
-	para "You're the only"
-	line "one I can call on."
+	para "Si jediny, s kym" ; para "You're the only"
+	line "mozem pocitat." ; line "one I can call on."
 
-	para "Please save the"
-	line "RADIO TOWER…"
+	para "Zachran, prosim," ; para "Please save the"
+	line "RADIO VEZU…" ; line "RADIO TOWER…"
 
-	para "And all the #-"
-	line "MON nationwide!"
+	para "A #MONov" ; para "And all the #-"
+	line "celosvetovo!" ; line "MON nationwide!"
 	done
 
 GoldenrodUndergroundWarehouse_MapEvents:

@@ -13,16 +13,16 @@ GuideGentsHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 GuideGentsHouseGuideGentText:
-	text "When I was a wee"
-	line "lad, I was a hot-"
-	cont "shot trainer!"
+	text "Ked som bol mlady," ; text "When I was a wee"
+	line "bol som horuca" ; line "lad, I was a hot-"
+	cont "strela!" ; cont "shot trainer!"
 
-	para "Here's a word of"
-	line "advice: Catch lots"
-	cont "of #MON!"
+	para "Rada odo mna:" ; para "Here's a word of"
+	line "Pochytaj co naj-" ; line "advice: Catch lots"
+	cont "viac #MONov!" ; cont "of #MON!"
 
-	para "Treat them all"
-	line "with kindness!"
+	para "Chovaj sa k nim" ; para "Treat them all"
+	line "ludsky!" ; line "with kindness!"
 	done
 
 GuideGentsHouse_MapEvents:
