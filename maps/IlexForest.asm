@@ -736,202 +736,205 @@ IlexForestPlayerStepsDownMovement:
 	step_end
 
 IlexForestApprenticeIntroText:
-	text "Oh, man… My boss"
-	line "is going to be"
-	cont "steaming…"
+	text "Dokelu… Moj sef" ; text "Oh, man… My boss"
+	line "bude naozaj" ; line "is going to be"
+	cont "zurit…" ; cont "steaming…"
 
-	para "The FARFETCH'D"
-	line "that CUTS trees"
+	para "FARFETCH'D, ktory" ; para "The FARFETCH'D"
+	line "STINA stromy" ; line "that CUTS trees"
 
-	para "for charcoal took"
-	line "off on me."
+	para "na uhlie mi prave" ; para "for charcoal took"
+	line "utiekol." ; line "off on me."
 
-	para "I can't go looking"
-	line "for it here in the"
-	cont "ILEX FOREST."
+	para "Nemozem ho ist" ; para "I can't go looking"
+	line "hladat po celom" ; line "for it here in the"
+	cont "ILEX LESE." ; cont "ILEX FOREST."
 
-	para "It's too big, dark"
-	line "and scary for me…"
+	para "Je pre mna prilis" ; para "It's too big, dark"
+	line "velky, tmavy a " ; line "and scary for me…"
+	cont "strasidelny…"
 	done
 
 IlexForestApprenticeAfterText:
-	text "Wow! Thanks a"
-	line "whole bunch!"
+	text "Vau! Dakujem" ; text "Wow! Thanks a"
+	line "velmi pekne!" ; line "whole bunch!"
 
-	para "My boss's #MON"
-	line "won't obey me be-"
-	cont "cause I don't have"
-	cont "a BADGE."
+	para "#MONi mojho se-" ; para "My boss's #MON"
+	line "fa ma neposlucha-" ; line "won't obey me be-"
+	cont "ju, lebo nemam" ; cont "cause I don't have"
+	cont "ODZNAK." ; cont "a BADGE."
 	done
 
 Text_ItsTheMissingPokemon:
-	text "It's the missing"
-	line "#MON!"
+	text "To je strateny" ; text "It's the missing"
+	line "#MON!" ; line "#MON!"
 	done
 
 Text_Kwaaaa:
-	text "FARFETCH'D: Kwaa!"
+	text "FARFETCH'D: Kvaa!" ; text "FARFETCH'D: Kwaa!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My FARFETCH'D!"
+	text "A! Moj FARFETCH'D!" ; text "Ah! My FARFETCH'D!"
 
-	para "You found it for"
-	line "us, kid?"
+	para "To ty si ho pre" ; para "You found it for"
+	line "nas nasiel, synak?" ; line "us, kid?"
 
-	para "Without it, we"
-	line "wouldn't be able"
+	para "Bez neho by sme" ; para "Without it, we"
+	line "nedokazali STINAT" ; line "wouldn't be able"
 
-	para "to CUT trees for"
-	line "charcoal."
+	para "stromy na vyrobu" ; para "to CUT trees for"
+	line "uhlia." ; line "charcoal."
 
-	para "Thanks, kid!"
+	para "Dakujem, synak!" ; para "Thanks, kid!"
 
-	para "Now, how can I"
-	line "thank you…"
+	para "Hm, ako ti" ; para "Now, how can I"
+	line "podakovate…" ; line "thank you…"
 
-	para "I know! Here, take"
-	line "this."
+	para "Viem! Vezmi si" ; para "I know! Here, take"
+	line "toto." ; line "this."
 	done
 
 Text_CharcoalMasterOutro:
-	text "That's the CUT HM."
-	line "Teach that to a"
+	text "Je to CUT HM." ; text "That's the CUT HM."
+	line "Nauc #MONa" ; line "Teach that to a"
 
-	para "#MON to clear"
-	line "small trees."
+	para "stinat male" ; para "#MON to clear"
+	line "stromy." ; line "small trees."
 
-	para "Of course, you"
-	line "have to have the"
+	para "Avsak musis najprv" ; para "Of course, you"
+	line "ziskat ODZNAK" ; line "have to have the"
 
-	para "GYM BADGE from"
-	line "AZALEA to use it."
+	para "zo GYMU v" ; para "GYM BADGE from"
+	line "AZALEA." ; line "AZALEA to use it."
 	done
 
 Text_CharcoalMasterTalkAfter:
-	text "Do you want to"
-	line "apprentice as a"
+	text "Chces so mnou" ; text "Do you want to"
+	line "pocvicit ako" ; line "apprentice as a"
 
-	para "charcoal maker"
-	line "with me?"
+	para "vyrobca uhlia?" ; para "charcoal maker"
+	;line "with me?" ; line "with me?"
 
-	para "You'll be first-"
-	line "rate in ten years!"
+	para "Bol by si spica" ; para "You'll be first-"
+	line "za 10 rokov!" ; line "rate in ten years!"
 	done
 
 Text_HeadbuttIntro:
-	text "What am I doing?"
+	text "Co robim?" ; text "What am I doing?"
 
-	para "I'm shaking trees"
-	line "using HEADBUTT."
+	para "Trasiem stromy po-" ; para "I'm shaking trees"
+	line "mocou HEADBUTT." ; line "using HEADBUTT."
 
-	para "It's fun. Here,"
-	line "you try it too!"
+	para "Zabava. Skus" ; para "It's fun. Here,"
+	line "to tiez!" ; line "you try it too!"
 	done
 
 Text_HeadbuttOutro:
-	text "Rattle trees with"
-	line "HEADBUTT. Some-"
-	cont "times, sleeping"
-	cont "#MON fall out."
+	text "Potras stromy s" ; text "Rattle trees with"
+	line "HEADBUTT. Nie-" ; line "HEADBUTT. Some-"
+	cont "kedy vypadne spia-" ; cont "times, sleeping"
+	cont "ci #MON." ; cont "#MON fall out."
 	done
 
 Text_IlexForestLass:
-	text "Did something"
-	line "happen to the"
-	cont "forest's guardian?"
+	text "Stalo sa nieco" ; text "Did something"
+	line "strazcovi tohto" ; line "happen to the"
+	cont "lesa?" ; cont "forest's guardian?"
 	done
 
 IlexForestSignpostText:
-	text "ILEX FOREST is"
-	line "so overgrown with"
+	text "ILEX LES je tak" ; text "ILEX FOREST is"
+	line "prerasteny stro-" ; line "so overgrown with"
 
-	para "trees that you"
-	line "can't see the sky."
+	para "mami, ze nevidno" ; para "trees that you"
+	line "oblohu." ; line "can't see the sky."
 
-	para "Please watch out"
-	line "for items that may"
-	cont "have been dropped."
+	para "Davaj pozor na" ; para "Please watch out"
+	line "veci, ktore mohli" ; line "for items that may"
+	cont "ostatnym spadnut." ; cont "have been dropped."
 	done
 
 Text_IlexForestShrine:
-	text "ILEX FOREST"
-	line "SHRINE…"
+	text "SVATYNA ILEX" ; text "ILEX FOREST"
+	line "LESA…" ; line "SHRINE…"
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector…"
+	para "Venovana straz-" ; para "It's in honor of"
+	line "covi lesa…" ; line "the forest's"
+	;cont "protector…" ; cont "protector…"
 	done
 
 Text_ShrineCelebiEvent:
-	text "ILEX FOREST"
-	line "SHRINE…"
+	text "SVATYNA ILEX" ; text "ILEX FOREST"
+	line "LESA…" ; line "SHRINE…"
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector…"
+	para "Venovana straz-" ; para "It's in honor of"
+	line "covi lesa…" ; line "the forest's"
+	;cont "protector…" ; cont "protector…"
 
-	para "Oh? What is this?"
+	para "Hm? Co je toto?" ; para "Oh? What is this?"
 
-	para "It's a hole."
-	line "It looks like the"
+	para "Je to diera." ; para "It's a hole."
+	line "Vypada to, ze by" ; line "It looks like the"
 
-	para "GS BALL would fit"
-	line "inside it."
+	para "sem pasoval" ; para "GS BALL would fit"
+	line "GS BALL." ; line "inside it."
 
-	para "Want to put the GS"
-	line "BALL here?"
+	para "Chces sem vlozit" ; para "Want to put the GS"
+	line "GS BALL?" ; line "BALL here?"
 	done
 
 Text_InsertGSBall:
-	text "<PLAYER> put in the"
-	line "GS BALL."
+	text "<PLAYER> vlozil" ; text "<PLAYER> put in the"
+	line "GS BALL." ; line "GS BALL."
 	done
 
 Text_KurtCaughtCelebi:
-	text "Whew, wasn't that"
-	line "something!"
+	text "Fu, to bolo teda" ; text "Whew, wasn't that"
+	line "nieco!" ; line "something!"
 
-	para "<PLAYER>, that was"
-	line "fantastic. Thanks!"
+	para "<PLAYER>, to bolo" ; para "<PLAYER>, that was"
+	line "skvele. Dakujem!" ; line "fantastic. Thanks!"
 
-	para "The legends about"
-	line "that SHRINE were"
-	cont "real after all."
+	para "Legendy o SVATYNI" ; para "The legends about"
+	line "boli naozaj" ; line "that SHRINE were"
+	cont "pravdive." ; cont "real after all."
 
-	para "I feel inspired by"
-	line "what I just saw."
+	para "Citim sa inspiro-" ; para "I feel inspired by"
+	line "vany tym, co som" ; line "what I just saw."
+	cont "prave videl."
 
-	para "It motivates me to"
-	line "make better BALLS!"
+	para "Motivuje ma to k" ; para "It motivates me to"
+	line "vyrobe lepsich" ; line "make better BALLS!"
+	cont "BALLS!"
 
-	para "I'm going!"
+	para "Uz pojdem!" ; para "I'm going!"
 	done
 
 BugCatcherWayneSeenText:
-	text "Don't sneak up on"
-	line "me like that!"
+	text "Nezakradaj sa tak" ; text "Don't sneak up on"
+	line "za mnou!" ; line "me like that!"
 
-	para "You frightened a"
-	line "#MON away!"
+	para "Odstrasil si" ; para "You frightened a"
+	line "#MONa!" ; line "#MON away!"
 	done
 
 BugCatcherWayneBeatenText:
-	text "I hadn't seen that"
-	line "#MON before…"
+	text "Tohto #MONa som" ; text "I hadn't seen that"
+	line "este nevidel…" ; line "#MON before…"
 	done
 
 BugCatcherWayneAfterBattleText:
-	text "A #MON I've"
-	line "never seen before"
+	text "#MON, ktoreho" ; text "A #MON I've"
+	line "som este nevidel," ; line "never seen before"
 
-	para "fell out of the"
-	line "tree when I used"
-	cont "HEADBUTT."
+	para "spadol zo stromu," ; para "fell out of the"
+	line "ked som pouzil" ; line "tree when I used"
+	cont "HEADBUTT." ; cont "HEADBUTT."
 
-	para "I ought to use"
-	line "HEADBUTT in other"
-	cont "places too."
+	para "Vyskusam HEADBUTT" ; para "I ought to use"
+	line "aj na inych" ; line "HEADBUTT in other"
+	cont "miestach." ; cont "places too."
 	done
 
 IlexForest_MapEvents:
