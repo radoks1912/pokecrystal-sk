@@ -202,98 +202,98 @@ PlateauRivalLeavesMovement:
 	step_end
 
 IndigoPlateauPokecenter1FCooltrainerMText:
-	text "At the #MON"
-	line "LEAGUE, you'll get"
+	text "V #MON" ; text "At the #MON"
+	line "LIGE budes otesto-" ; line "LEAGUE, you'll get"
 
-	para "tested by the"
-	line "ELITE FOUR."
+	para "vany ELITNOU" ; para "tested by the"
+	line "STVORKOU." ; line "ELITE FOUR."
 
-	para "You have to beat"
-	line "them all. If you"
+	para "Musis ju porazit" ; para "You have to beat"
+	line "celu. Ak prehras," ; line "them all. If you"
 
-	para "lose, you have to"
-	line "start all over!"
+	para "musis zacat znova" ; para "lose, you have to"
+	line "od zaciatku!" ; line "start all over!"
 	done
 
 PlateauRivalText1:
-	text "Hold it."
+	text "Pockaj." ; text "Hold it."
 
-	para "You're going to"
-	line "take the #MON"
+	para "Chystas sa prave" ; para "You're going to"
+	line "skusit vyzvu v" ; line "take the #MON"
 
-	para "LEAGUE challenge"
-	line "now?"
+	para "#MON LIGE?" ; para "LEAGUE challenge"
+	;line "now?" ; line "now?"
 
-	para "That's not going"
-	line "to happen."
+	para "To sa ti teda" ; para "That's not going"
+	line "nepodari." ; line "to happen."
 
-	para "My super-well-"
-	line "trained #MON"
+	para "Moji skvelo vytre-" ; para "My super-well-"
+	line "novani #MONi" ; line "trained #MON"
 
-	para "are going to pound"
-	line "you."
+	para "ta zastavia." ; para "are going to pound"
+	;line "you." ; line "you."
 
-	para "<PLAYER>!"
-	line "I challenge you!"
+	para "<PLAYER>!" ; para "<PLAYER>!"
+	line "Vyzyvam ta!" ; line "I challenge you!"
 	done
 
 PlateauRivalWinText:
 	text "…"
 
-	para "OK--I lost…"
+	para "OK--I lost…" ; para "OK--I lost…"
 	done
 
 PlateauRivalText2:
-	text "…Darn… I still"
-	line "can't win…"
+	text "…Dokelu… stale" ; text "…Darn… I still"
+	line "nedokazem vyhrat…" ; line "can't win…"
 
-	para "I… I have to think"
-	line "more about my"
-	cont "#MON…"
+	para "Ja… musim viac" ; para "I… I have to think"
+	line "porozmyslat o mo-" ; line "more about my"
+	cont "jich #MONoch…" ; cont "#MON…"
 
-	para "Humph! Try not to"
-	line "lose!"
+	para "Hmm! Skus teda" ; para "Humph! Try not to"
+	line "neprehrat!" ; line "lose!"
 	done
 
 PlateauRivalLoseText:
 	text "…"
 
-	para "Whew…"
-	line "With my partners,"
+	para "Fuh…" ; para "Whew…"
+	line "S mojimi partnermi" ; line "With my partners,"
 
-	para "I'm going to be"
-	line "the CHAMPION!"
+	para "sa stanem" ; para "I'm going to be"
+	line "SAMPIONOM!" ; line "the CHAMPION!"
 	done
 
 TeleportGuyText1:
-	text "Ah! You're chal-"
-	line "lenging the ELITE"
+	text "Ah! Chystas sa" ; text "Ah! You're chal-"
+	line "vyzvat ELITNU" ; line "lenging the ELITE"
 
-	para "FOUR? Are you sure"
-	line "you're ready?"
+	para "STVORKU? Si na to" ; para "FOUR? Are you sure"
+	line "pripraveny?" ; line "you're ready?"
 
-	para "If you need to"
-	line "train some more,"
+	para "Ak potrebujes este" ; para "If you need to"
+	line "trening, moja" ; line "train some more,"
 
-	para "my ABRA can help"
-	line "you."
+	para "ABRA ti moze" ; para "my ABRA can help"
+	line "pomoct." ; line "you."
 
-	para "It can TELEPORT"
-	line "you home."
+	para "Teleportuje ta" ; para "It can TELEPORT"
+	line "domov." ; line "you home."
 
-	para "Would you like to"
-	line "go home now?"
+	para "Zelas si ist" ; para "Would you like to"
+	line "teraz domov?" ; line "go home now?"
 	done
 
 TeleportGuyYesText:
-	text "OK, OK. Picture"
-	line "your house in your"
-	cont "mind…"
+	text "OK, OK. Predstav" ; text "OK, OK. Picture"
+	line "si v mysli svoj" ; line "your house in your"
+	cont "domov…" ; cont "mind…"
 	done
 
 TeleportGuyNoText:
-	text "OK, OK. The best"
-	line "of luck to you!"
+	text "OK, OK. Zelam ti" ; text "OK, OK. The best"
+	line "vela stastia!" ; line "of luck to you!"
 	done
 
 AbraText:

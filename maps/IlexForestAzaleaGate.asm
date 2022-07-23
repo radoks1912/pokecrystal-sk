@@ -14,18 +14,18 @@ IlexForestAzaleaGateGrannyScript:
 	jumptextfaceplayer IlexForestAzaleaGateGrannyText
 
 IlexForestAzaleaGateOfficerText:
-	text "ILEX FOREST is"
-	line "big. Be careful!"
-	cont "Don't get lost."
+	text "ILEX LES je velky." ; text "ILEX FOREST is"
+	line "Davaj si pozor!" ; line "big. Be careful!"
+	cont "Nestrat sa." ; cont "Don't get lost."
 	done
 
 IlexForestAzaleaGateGrannyText:
-	text "The FOREST is"
-	line "watched over by"
-	cont "its protector."
+	text "LES strazi" ; text "The FOREST is"
+	line "jeho ochranca." ; line "watched over by"
+	;cont "its protector." ; cont "its protector."
 
-	para "Stay out of"
-	line "mischief!"
+	para "Vyhni sa" ;  para "Stay out of"
+	line "darebactvu!" ; line "mischief!"
 	done
 
 IlexForestAzaleaGate_MapEvents:
