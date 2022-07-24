@@ -449,229 +449,229 @@ KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:
 	step_end
 
 KurtsHouseKurtMakingBallsMustWaitText:
-	text "Hm? Who are you?"
+	text "Hm? Kto si?" ; text "Hm? Who are you?"
 
-	para "<PLAYER>, eh? You"
-	line "want me to make"
-	cont "some BALLS?"
+	para "<PLAYER>, hm?" ; para "<PLAYER>, eh? You"
+	line "Chces vyrobit ne-" ; line "want me to make"
+	cont "jake BALLS?" ; cont "some BALLS?"
 
-	para "Sorry, but that'll"
-	line "have to wait."
+	para "Prepac, bude to" ; para "Sorry, but that'll"
+	line "musiet pockat." ; line "have to wait."
 
-	para "Do you know TEAM"
-	line "ROCKET? Ah, don't"
+	para "Poznam TEAM" ; para "Do you know TEAM"
+	line "ROCKET? Nevadi." ; line "ROCKET? Ah, don't"
 
-	para "worry. I'll tell"
-	line "you anyhow."
+	para "Poviem ti, o co" ; para "worry. I'll tell"
+	line "ide." ; line "you anyhow."
 
-	para "TEAM ROCKET's an"
-	line "evil gang that"
+	para "TEAM ROCKET je" ; para "TEAM ROCKET's an"
+	line "zly gang, ktory" ; line "evil gang that"
 
-	para "uses #MON for"
-	line "their dirty work."
+	para "zneuziva #MONov" ; para "uses #MON for"
+	line "na spinavu pracu." ; line "their dirty work."
 
-	para "They're supposed"
-	line "to have disbanded"
-	cont "three years ago."
+	para "Udajne sa rozpadli" ; para "They're supposed"
+	line "priblizne pred" ; line "to have disbanded"
+	cont "tromi rokmi." ; cont "three years ago."
 
-	para "Anyway, they're at"
-	line "the WELL, cutting"
+	para "Kazdopadne, prave" ; para "Anyway, they're at"
+	line "su v STUDNI, a" ; line "the WELL, cutting"
 
-	para "off SLOWPOKETAILS"
-	line "for sale!"
+	para "rezu chvosty" ; para "off SLOWPOKETAILS"
+	line "SLOWPOKEom!" ; line "for sale!"
 
-	para "So I'm going to"
-	line "go give them a"
-	cont "lesson in pain!"
+	para "Preto im pojdem" ; para "So I'm going to"
+	line "dat bolestivu" ; line "go give them a"
+	cont "lekciu!" ; cont "lesson in pain!"
 
-	para "Hang on, SLOWPOKE!"
-	line "Old KURT is on his"
-	cont "way!"
+	para "Drzte sa, SLOWPOKE" ; para "Hang on, SLOWPOKE!"
+	line "Stary KURT je na" ; line "Old KURT is on his"
+	cont "ceste!" ; cont "way!"
 	done
 
 KurtsHouseKurtHonoredToMakeBallsText:
-	text "KURT: Hi, <PLAYER>!"
+	text "KURT: <PLAYER>!" ; text "KURT: Hi, <PLAYER>!"
 
-	para "You handled your-"
-	line "self like a real"
-	cont "hero at the WELL."
+	para "Drzal si sa ako" ; para "You handled your-"
+	line "hrdina tam dole" ; line "self like a real"
+	cont "v STUDNI." ; cont "hero at the WELL."
 
-	para "I like your style!"
+	para "Mas super styl!" ; para "I like your style!"
 
-	para "I would be honored"
-	line "to make BALLS for"
+	para "Bude mi ctou vyro-" ; para "I would be honored"
+	line "bit ti nejake" ; line "to make BALLS for"
 
-	para "a trainer like"
-	line "you."
+	para "BALLS pre trenera," ; para "a trainer like"
+	line "ako si ty." ; line "you."
 
-	para "This is all I have"
-	line "now, but take it."
+	para "Toto je vsetko, co" ; para "This is all I have"
+	line "mam, vezmi si to." ; line "now, but take it."
 	done
 
 KurtsHouseKurtBallsFromApricornsText:
-	text "KURT: I make BALLS"
-	line "from APRICORNS."
+	text "KURT: Robim BALLS" ; text "KURT: I make BALLS"
+	line "z APRICORNS." ; line "from APRICORNS."
 
-	para "Collect them from"
-	line "trees and bring"
-	cont "'em to me."
+	para "Pozbieraj ich zo" ; para "Collect them from"
+	line "stromov a prines" ; line "trees and bring"
+	cont "mi ich." ; cont "'em to me."
 
-	para "I'll make BALLS"
-	line "out of them."
+	para "Urobim ti z nich" ; para "I'll make BALLS"
+	line "BALLS." ; line "out of them."
 	done
 
 KurtsHouseKurtAskYouHaveAnApricornText:
-	text "KURT: You have an"
-	line "APRICORN for me?"
+	text "KURT: Mas pre mna" ; text "KURT: You have an"
+	line "APRICORN?" ; line "APRICORN for me?"
 
-	para "Fine! I'll turn it"
-	line "into a BALL."
+	para "Dobre! Vyrobim z" ; para "Fine! I'll turn it"
+	line "neho BALL." ; line "into a BALL."
 	done
 
 KurtsHouseKurtItWillTakeADayText:
-	text "KURT: It'll take a"
-	line "day to make you a"
+	text "KURT: Bude to" ; text "KURT: It'll take a"
+	line "trvat den." ; line "day to make you a"
 
-	para "BALL. Come back"
-	line "for it later."
+	para "Vrat sa pon" ; para "BALL. Come back"
+	line "neskor." ; line "for it later."
 	done
 
 KurtsHouseKurtThatsALetdownText:
-	text "KURT: Oh…"
-	line "That's a letdown."
+	text "KURT: Och…" ; text "KURT: Oh…"
+	line "Ake sklamanie." ; line "That's a letdown."
 	done
 
 KurtsHouseKurtDontBotherMeText:
-	text "KURT: I'm working!"
-	line "Don't bother me!"
+	text "KURT: Pracujem!" ; text "KURT: I'm working!"
+	line "Nevyrusuj ma!" ; line "Don't bother me!"
 	done
 
 KurtsHouseKurtJustFinishedYourBallText:
-	text "KURT: Ah, <PLAYER>!"
-	line "I just finished"
-	cont "your BALL. Here!"
+	text "KURT: <PLAYER>!" ; text "KURT: Ah, <PLAYER>!"
+	line "Prave som dokoncil" ; line "I just finished"
+	cont "tvoj BALL. Na!" ; cont "your BALL. Here!"
 	done
 
 KurtsHouseKurtTurnedOutGreatText:
-	text "KURT: That turned"
-	line "out great."
+	text "KURT: Skvele sa" ; text "KURT: That turned"
+	line "vydaril." ; line "out great."
 
-	para "Try catching"
-	line "#MON with it."
+	para "Skus nim chytit" ; para "Try catching"
+	line "#MONa." ; line "#MON with it."
 	done
 
 KurtsHouseKurtGranddaughterHelpingWorkFasterText:
-	text "KURT: Now that my"
-	line "granddaughter is"
+	text "KURT: Ked mi teraz" ; text "KURT: Now that my"
+	line "pomaha vnucka," ; line "granddaughter is"
 
-	para "helping me, I can"
-	line "work much faster."
+	para "pracujem ovela" ; para "helping me, I can"
+	line "rychlejsie." ; line "work much faster."
 	done
 
 KurtsHouseKurtWhatIsThatText:
-	text "Wh-what is that?"
+	text "C-co to je?" ; text "Wh-what is that?"
 
-	para "I've never seen"
-	line "one before."
+	para "Nikdy som nic" ; para "I've never seen"
+	line "take nevidel." ; line "one before."
 
-	para "It looks a lot"
-	line "like a # BALL,"
+	para "Vypada to ako" ; para "It looks a lot"
+	line " # BALL," ; line "like a # BALL,"
 
-	para "but it appears to"
-	line "be something else."
+	para "ale je to nieco" ; para "but it appears to"
+	line "ine." ; line "be something else."
 
-	para "Let me check it"
-	line "for you."
+	para "Ukaz, skontrolujem" ; para "Let me check it"
+	line "to." ; line "for you."
 	done
 
 KurtsHouseKurtImCheckingItNowText:
-	text "I'm checking it"
-	line "now."
+	text "Prave to" ; text "I'm checking it"
+	line "kontrolujem." ; line "now."
 	done
 
 KurtsHouseKurtAhHaISeeText:
-	text "Ah-ha! I see!"
-	line "So…"
+	text "Ah-ha! Takze!" ; text "Ah-ha! I see!"
+	line "Hm…" ; line "So…"
 	done
 
 KurtsHouseKurtThisBallStartedToShakeText:
 	text "<PLAYER>!"
 
-	para "This BALL started"
-	line "to shake while I"
-	cont "was checking it."
+	para "Tento BALL sa" ; para "This BALL started"
+	line "zacal triast, ked" ; line "to shake while I"
+	cont "som ho kontroloval" ; cont "was checking it."
 
-	para "There must be"
-	line "something to this!"
+	para "Nieco na tom" ; para "There must be"
+	line "musi byt!" ; line "something to this!"
 	done
 
 KurtsGranddaughterSlowpokeGoneText:
-	text "The SLOWPOKE are"
-	line "gone… Were they"
+	text "SLOWPOKE su prec…" ; text "The SLOWPOKE are"
+	line "Zobrali ich zli" ; line "gone… Were they"
 
-	para "taken away by bad"
-	line "people?"
+	para "ludia?" ; para "taken away by bad"
+	;line "people?" ; line "people?"
 	done
 
 KurtsGranddaughterLonelyText:
-	text "Grandpa's gone…"
-	line "I'm so lonely…"
+	text "Dedko odisiel…" ; text "Grandpa's gone…"
+	line "Som osamela…" ; line "I'm so lonely…"
 	done
 
 KurtsGranddaughterSlowpokeBackText:
-	text "The SLOWPOKE my"
-	line "dad gave me came"
+	text "SLOWPOKE od" ; text "The SLOWPOKE my"
+	line "tatka sa vratil!" ; line "dad gave me came"
 
-	para "back! Its TAIL is"
-	line "growing back too!"
+	para "Jeho CHVOST mu" ; para "back! Its TAIL is"
+	line "rastie spat!" ; line "growing back too!"
 	done
 
 KurtsGranddaughterDadText:
-	text "Dad works at SILPH"
-	line "where he studies"
-	cont "# BALLS."
+	text "Tatko pracuje v" ; text "Dad works at SILPH"
+	line "SILPH, kde studuje" ; line "where he studies"
+	cont "# BALLS." ; cont "# BALLS."
 
-	para "I have to stay"
-	line "home with Grandpa"
-	cont "and SLOWPOKE."
+	para "Musim zostat doma" ; para "I have to stay"
+	line "s dedkom a" ; line "home with Grandpa"
+	cont "SLOWPOKEom." ; cont "and SLOWPOKE."
 	done
 
 KurtsGranddaughterHelpText:
-	text "I get to help"
-	line "Grandpa now!"
+	text "Teraz pomaham" ; text "I get to help"
+	line "dedkovi!" ; line "Grandpa now!"
 
-	para "We'll make good"
-	line "BALLS for you, so"
-	cont "please wait!"
+	para "Vyrobime ti" ; para "We'll make good"
+	line "BALLS, takze" ; line "BALLS for you, so"
+	cont "prosim pockaj!" ; cont "please wait!"
 	done
 
 KurtsGranddaughterFunText:
-	text "It's fun to make"
-	line "BALLS!"
+	text "Vyrabat BALLS je" ; text "It's fun to make"
+	line "zabavne!" ; line "BALLS!"
 	done
 
 KurtsGranddaughterGSBallText:
-	text "Grandpa's checking"
-	line "a BALL right now."
+	text "Dedko prave skuma" ; text "Grandpa's checking"
+	line "BALL." ; line "a BALL right now."
 
-	para "So I'm waiting"
-	line "till he's done."
+	para "Takze cakam, kym" ; para "So I'm waiting"
+	line "skonci." ; line "till he's done."
 	done
 
 KurtsHouseSlowpokeText:
-	text "SLOWPOKE: …"
-	line "Yawn?"
+	text "SLOWPOKE: …" ; text "SLOWPOKE: …"
+	line "Uaaaa?" ; line "Yawn?"
 	done
 
 KurtsHouseOakPhotoText:
-	text "…A young PROF."
-	line "OAK?"
+	text "…Mlady PROF." ; text "…A young PROF."
+	line "OAK?" ; line "OAK?"
 	done
 
 KurtsHouseCelebiStatueText:
-	text "It's a statue of"
-	line "the forest's pro-"
-	cont "tector."
+	text "Je to soska" ; text "It's a statue of"
+	line "ochrancu lesa." ; line "the forest's pro-"
+	;cont "tector." ; cont "tector."
 	done
 
 KurtsHouse_MapEvents:

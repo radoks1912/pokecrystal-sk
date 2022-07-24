@@ -79,55 +79,55 @@ KarensRoom_EnterMovement:
 	step_end
 
 KarenScript_KarenBeforeText:
-	text "I am KAREN of the"
-	line "ELITE FOUR."
+	text "Som KAREN z" ; text "I am KAREN of the"
+	line "ELITNEJ STVORKY." ; line "ELITE FOUR."
 
-	para "You're <PLAYER>?"
-	line "How amusing."
+	para "Ty si <PLAYER>?" ; para "You're <PLAYER>?"
+	line "Zaujimave." ; line "How amusing."
 
-	para "I love dark-type"
-	line "#MON."
+	para "Milujem temny typ" ; para "I love dark-type"
+	line "#MONov." ; line "#MON."
 
-	para "I find their wild,"
-	line "tough image to be"
+	para "Paci sa mi ich di-" ; para "I find their wild,"
+	line "voky imidz. A su" ; line "tough image to be"
 
-	para "so appealing. And"
-	line "they're so strong."
+	para "tak neskutocne" ; para "so appealing. And"
+	line "silni." ; line "they're so strong."
 
-	para "Think you can take"
-	line "them? Just try to"
-	cont "entertain me."
+	para "Myslis, ze sa ti" ; para "Think you can take"
+	line "podari ich pora-" ; line "them? Just try to"
+	cont "zit?." ; cont "entertain me."
 
-	para "Let's go."
+	para "Podme na to." ; para "Let's go."
 	done
 
 KarenScript_KarenBeatenText:
-	text "Well, aren't you"
-	line "good. I like that"
-	cont "in a trainer."
+	text "Ale, ale, si" ; text "Well, aren't you"
+	line "dobry. Takto sa mi" ; line "good. I like that"
+	cont "to paci." ; cont "in a trainer."
 	done
 
 KarenScript_KarenDefeatText:
-	text "Strong #MON."
+	text "Silny #MON." ; text "Strong #MON."
 
-	para "Weak #MON."
+	para "Slaby #MON." ; para "Weak #MON."
 
-	para "That is only the"
-	line "selfish perception"
-	cont "of people."
+	para "Je to iba sebecka" ; para "That is only the"
+	line "predstava ludi." ; line "selfish perception"
+	;cont "of people." ; cont "of people."
 
-	para "Truly skilled"
-	line "trainers should"
+	para "Skuseni treneri" ; para "Truly skilled"
+	line "by sa mali poku-" ; line "trainers should"
 
-	para "try to win with"
-	line "their favorites."
+	para "sat vyhrat s ich" ; para "try to win with"
+	line "favoritmi." ; line "their favorites."
 
-	para "I like your style."
-	line "You understand"
-	cont "what's important."
+	para "Mas skvely styl." ; para "I like your style."
+	line "Rozumies, co je" ; line "You understand"
+	cont "dolezite." ; cont "what's important."
 
-	para "Go on--the CHAM-"
-	line "PION is waiting."
+	para "Chod-- SAMPION" ; para "Go on--the CHAM-"
+	line "ta ocakava." ;  line "PION is waiting."
 	done
 
 KarensRoom_MapEvents:

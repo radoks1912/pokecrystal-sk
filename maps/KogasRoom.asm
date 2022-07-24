@@ -79,52 +79,52 @@ KogasRoom_EnterMovement:
 	step_end
 
 KogaScript_KogaBeforeText:
-	text "Fwahahahaha!"
+	text "Fahahahaha!" ; text "Fwahahahaha!"
 
-	para "I am KOGA of the"
-	line "ELITE FOUR."
+	para "Som KOGA z" ; para "I am KOGA of the"
+	line "ELITNEJ STVORKY." ; line "ELITE FOUR."
 
-	para "I live in shadows,"
-	line "a ninja!"
+	para "Schovavam sa v" ; para "I live in shadows,"
+	line "tienoch, ninja!" ; line "a ninja!"
 
-	para "My intricate style"
-	line "will confound and"
-	cont "destroy you!"
+	para "Moj zlozity styl" ; para "My intricate style"
+	line "ta zmatie a" ; line "will confound and"
+	cont "znici!" ; cont "destroy you!"
 
-	para "Confusion, sleep,"
-	line "poison…"
+	para "Zmatenie, spanok," ; para "Confusion, sleep,"
+	line "otravenie…" ; line "poison…"
 
-	para "Prepare to be the"
-	line "victim of my sin-"
-	cont "ister technique!"
+	para "Stanes sa obetou" ; para "Prepare to be the"
+	line "mojich zlovestnych" ; line "victim of my sin-"
+	cont "technik!" ; cont "ister technique!"
 
-	para "Fwahahahaha!"
+	para "Fahahahaha!" ; para "Fwahahahaha!"
 
-	para "#MON is not"
-	line "merely about brute"
+	para "#MON nie je iba" ; para "#MON is not"
+	line "o tvrdej sile--" ; line "merely about brute"
 
-	para "force--you shall"
-	line "see soon enough!"
+	para "to zanedlho uvidis" ; para "force--you shall"
+	line "sam!" ; line "see soon enough!"
 	done
 
 KogaScript_KogaBeatenText:
-	text "Ah!"
-	line "You have proven"
-	cont "your worth!"
+	text "Ach!" ; text "Ah!"
+	line "Dokazal si, ze si" ; line "You have proven"
+	cont "toho hodny!" ; cont "your worth!"
 	done
 
 KogaScript_KogaDefeatText:
-	text "I subjected you to"
-	line "everything I could"
-	cont "muster."
+	text "Podrobil som ta" ; text "I subjected you to"
+	line "vsetkemu, co som" ; line "everything I could"
+	cont "mal k dispozicii." ; cont "muster."
 
-	para "But my efforts"
-	line "failed. I must"
-	cont "hone my skills."
+	para "Ale moje usilie" ; para "But my efforts"
+	line "bolo zbytocne. Mu-" ; line "failed. I must"
+	cont "sim sa zdokonalit." ; cont "hone my skills."
 
-	para "Go on to the next"
-	line "room, and put your"
-	cont "abilities to test!"
+	para "Chod do dalsej" ; para "Go on to the next"
+	line "miestnosti, a" ; line "room, and put your"
+	cont "otestuj sa!" ; cont "abilities to test!"
 	done
 
 KogasRoom_MapEvents:
