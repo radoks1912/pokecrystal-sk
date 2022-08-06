@@ -243,252 +243,255 @@ LakeOfRageLanceTeleportIntoSkyMovement:
 	step_end
 
 LakeOfRageLanceForcedToEvolveText:
-	text "This lake is full"
-	line "of GYARADOS but"
-	cont "nothing else…"
+	text "Toto jazero je" ; text "This lake is full"
+	line "plne GYARADOSov a" ; line "of GYARADOS but"
+	cont "nicoho ineho…" ; cont "nothing else…"
 
-	para "So the MAGIKARP"
-	line "are being forced"
-	cont "to evolve…"
+	para "MAGIKARPovia su" ; para "So the MAGIKARP"
+	line "nuteni sa" ; line "are being forced"
+	cont "vyvinut…" ; cont "to evolve…"
 	done
 
 LakeOfRageLanceIntroText:
-	text "Did you come here"
-	line "because of the"
-	cont "rumors?"
+	text "Prisiel si sem" ; text "Did you come here"
+	line "prave kvoli tym" ; line "because of the"
+	cont "chyrom?" ; cont "rumors?"
 
-	para "You're <PLAYER>?"
-	line "I'm LANCE, a"
-	cont "trainer like you."
+	para "Ty si <PLAYER>?" ; para "You're <PLAYER>?"
+	line "Som LANCE," ; line "I'm LANCE, a"
+	cont "trener ako ty." ; cont "trainer like you."
 
-	para "I heard some ru-"
-	line "mors, so I came to"
-	cont "investigate…"
+	para "Pocul som chyry," ; para "I heard some ru-"
+	line "tak som to pri-" ; line "mors, so I came to"
+	cont "siel preskumat…" ; cont "investigate…"
 
-	para "I saw the way you"
-	line "battled earlier,"
-	cont "<PLAY_G>."
+	para "Videl som, ako si" ; para "I saw the way you"
+	line "zapasil," ; line "battled earlier,"
+	cont "<PLAY_G>." ; cont "<PLAY_G>."
 
-	para "I can tell that"
-	line "you're a trainer"
+	para "Mozem povedat, ze" ; para "I can tell that"
+	line "si trener s vel-" ; line "you're a trainer"
 
-	para "with considerable"
-	line "skill."
+	para "kymi skusenostami." ; para "with considerable"
+	;line "skill." ; line "skill."
 
-	para "If you don't mind,"
-	line "could you help me"
-	cont "investigate?"
+	para "Ak ti to nevadi," ; para "If you don't mind,"
+	line "pomozes mi to tu" ; line "could you help me"
+	cont "preskumat?" ; cont "investigate?"
 	done
 
 LakeOfRageLanceRadioSignalText:
-	text "LANCE: Excellent!"
+	text "LANCE: Vyborne!" ; text "LANCE: Excellent!"
 
-	para "It seems that the"
-	line "LAKE's MAGIKARP"
+	para "Vypada to, ze" ; para "It seems that the"
+	line "MAGIKARPovia su" ; line "LAKE's MAGIKARP"
 
-	para "are being forced"
-	line "to evolve."
+	para "nuteni sa vyvi-" ; para "are being forced"
+	line "nut." ; line "to evolve."
 
-	para "A mysterious radio"
-	line "broadcast coming"
+	para "Zvlastny signal z" ; para "A mysterious radio"
+	line "radia v MAHOGANY" ; line "broadcast coming"
 
-	para "from MAHOGANY is"
-	line "the cause."
+	para "je prave ta" ; para "from MAHOGANY is"
+	line "pricina." ; line "the cause."
 
-	para "I'll be waiting"
-	line "for you, <PLAY_G>."
+	para "Pockam tam na" ; para "I'll be waiting"
+	line "teba, <PLAY_G>." ; line "for you, <PLAY_G>."
 	done
 
 LakeOfRageLanceRefusedText:
-	text "Oh… Well, if you"
-	line "change your mind,"
-	cont "please help me."
+	text "Oh… Ak teda zmenis" ; text "Oh… Well, if you"
+	line "tak mi prosim ta" ; line "change your mind,"
+	cont "pomoz." ; cont "please help me."
 	done
 
 LakeOfRageLanceAskHelpText:
-	text "LANCE: Hm? Are you"
-	line "going to help me?"
+	text "LANCE: Hm? Tak" ; text "LANCE: Hm? Are you"
+	line "teda mi pomozes?" ; line "going to help me?"
 	done
 
 LakeOfRageGyaradosCryText:
-	text "GYARADOS: Gyashaa!"
+	text "GYARADOS: Gyashaa!" ; text "GYARADOS: Gyashaa!"
 	done
 
 LakeOfRageGotRedScaleText:
-	text "<PLAYER> obtained a"
-	line "RED SCALE."
+	text "<PLAYER> ziskal" ; text "<PLAYER> obtained a"
+	line "CERVENU SUPINU." ; line "RED SCALE."
 	done
 
 LakeOfRageGrampsText:
-	text "The GYARADOS are"
-	line "angry!"
+	text "GYARADOSovia su" ; text "The GYARADOS are"
+	line "nahnevani!" ; line "angry!"
 
-	para "It's a bad omen!"
+	para "Je to zle zname-" ; para "It's a bad omen!"
+	line "nie!"
 	done
 
 LakeOfRageGrampsText_ClearedRocketHideout:
-	text "Hahah! The MAGI-"
-	line "KARP are biting!"
+	text "Haha! MAGIKAR-" ; text "Hahah! The MAGI-"
+	line "POVIA zaberaju!" ; line "KARP are biting!"
 	done
 
 LakeOfRageSuperNerdText:
-	text "I heard this lake"
-	line "was made by ram-"
-	cont "paging GYARADOS."
+	text "Pocul som, ze toto" ; text "I heard this lake"
+	line "jazero vzniklo" ; line "was made by ram-"
+	cont "rozzurenym GYARA-" ; cont "paging GYARADOS."
+	cont "DOSOM."
 
-	para "I wonder if there"
-	line "is any connection"
+	para "Ktovie, ci to " ; para "I wonder if there"
+	line "s tym ma nieco" ; line "is any connection"
 
-	para "to their mass out-"
-	line "break now?"
+	para "spolocne?" ; para "to their mass out-"
+	;line "break now?" ; line "break now?"
 	done
 
 LakeOfRageCooltrainerFText:
-	text "Did my eyes de-"
-	line "ceive me? I saw a"
+	text "Klamu ma moje" ; text "Did my eyes de-"
+	line "oci? videl som" ; line "ceive me? I saw a"
 
-	para "red GYARADOS in"
-	line "the LAKE…"
+	para "cerveneho GYARADO-" ; para "red GYARADOS in"
+	line "SA v jazere…" ; line "the LAKE…"
 
-	para "But I thought"
-	line "GYARADOS were"
-	cont "usually blue?"
+	para "Nie su" ; para "But I thought"
+	line "GYARADOSovia" ; line "GYARADOS were"
+	cont "zvycajne modri?" ; cont "usually blue?"
 	done
 
 FisherAndreSeenText:
-	text "Let me battle with"
-	line "the #MON I just"
-	cont "caught!"
+	text "Dajme si zapas s" ; text "Let me battle with"
+	line "cerstvo chytenymi" ; line "the #MON I just"
+	cont "#MONmi!" ; cont "caught!"
 	done
 
 FisherAndreBeatenText:
-	text "I might be an ex-"
-	line "pert angler, but"
+	text "I might be an ex-" ; text "I might be an ex-"
+	line "pert angler, but" ; line "pert angler, but"
 
-	para "I stink as a #-"
-	line "MON trainer…"
+	para "I stink as a #-" ; para "I stink as a #-"
+	line "MON trainer…" ; line "MON trainer…"
 	done
 
 FisherAndreAfterBattleText:
-	text "I won't lose as an"
-	line "angler! I catch"
-	cont "#MON all day."
+	text "Ako rybar urcite" ; text "I won't lose as an"
+	line "neprehram! Chytam" ; line "angler! I catch"
+	cont "tu cele dni." ; cont "#MON all day."
 	done
 
 FisherRaymondSeenText:
-	text "No matter what I"
-	line "do, all I catch"
+	text "Akokolvek sa sna-" ; text "No matter what I"
+	line "zim, vzdy chytim" ; line "do, all I catch"
 
-	para "are the same #-"
-	line "MON…"
+	para "toho isteho #-" ; para "are the same #-"
+	line "MONa…" ; line "MON…"
 	done
 
 FisherRaymondBeatenText:
-	text "My line's all"
-	line "tangled up…"
+	text "Mam zamotany" ; text "My line's all"
+	line "cely silon…" ; line "tangled up…"
 	done
 
 FisherRaymondAfterBattleText:
-	text "Why can't I catch"
-	line "any good #MON?"
+	text "Preco nechytim do-" ; text "Why can't I catch"
+	line "breho #MONa?" ; line "any good #MON?"
 	done
 
 CooltrainermAaronSeenText:
-	text "If a trainer spots"
-	line "another trainer,"
+	text "Ak trener zoci" ; text "If a trainer spots"
+	line "ineho trenera," ; line "another trainer,"
 
-	para "he has to make a"
-	line "challenge."
+	para "musi navrhnut" ; para "he has to make a"
+	line "zapas." ; line "challenge."
 
-	para "That is our"
-	line "destiny."
+	para "To je nasim" ; para "That is our"
+	line "osudom." ; line "destiny."
 	done
 
 CooltrainermAaronBeatenText:
-	text "Whew…"
-	line "Good battle."
+	text "Fuh…" ; text "Whew…"
+	line "Dobry zapas." ; line "Good battle."
 	done
 
 CooltrainermAaronAfterBattleText:
-	text "#MON and their"
-	line "trainer become"
+	text "#MON a jeho" ; text "#MON and their"
+	line "trener sa zlepsuju" ; line "trainer become"
 
-	para "powerful through"
-	line "constant battling."
+	para "pravidelnym" ; para "powerful through"
+	line "zapasenim." ; line "constant battling."
 	done
 
 CooltrainerfLoisSeenText:
-	text "What happened to"
-	line "the red GYARADOS?"
+	text "Kde je cerveny" ; text "What happened to"
+	line "GYARADOS?" ; line "the red GYARADOS?"
 
-	para "It's gone?"
+	para "Je prec?" ; para "It's gone?"
 
-	para "Oh, darn. I came"
-	line "here for nothing?"
+	para "Och, kelu. Prisiel" ; para "Oh, darn. I came"
+	line "som sem zbytocne?" ; line "here for nothing?"
 
-	para "I know--let's"
-	line "battle!"
+	para "Uz viem--podme" ; para "I know--let's"
+	line "zapasit!" ; line "battle!"
 	done
 
 CooltrainerfLoisBeatenText:
-	text "Good going!"
+	text "Slo to dobre!" ; text "Good going!"
 	done
 
 CooltrainerfLoisAfterBattleText:
-	text "Come to think of"
-	line "it, I've seen a"
-	cont "pink BUTTERFREE."
+	text "Prave ma napadlo," ; text "Come to think of"
+	line "ze som videla i" ; line "it, I've seen a"
+	cont "ruzoveho" ; cont "pink BUTTERFREE."
+	cont "BUTTERFREE."
 	done
 
 MeetWesleyText:
-	text "WESLEY: Well, how"
-	line "do you do?"
+	text "WESLEY: No ako" ; text "WESLEY: Well, how"
+	line "sa mas?" ; line "do you do?"
 
-	para "Seeing as how it's"
-	line "Wednesday today,"
+	para "Kedze dnes je" ; para "Seeing as how it's"
+	line "zase streda," ; line "Wednesday today,"
 
-	para "I'm WESLEY of"
-	line "Wednesday."
+	para "som stredajsi" ; para "I'm WESLEY of"
+	line "WESLEY." ; line "Wednesday."
 	done
 
 WesleyGivesGiftText:
-	text "Pleased to meet"
-	line "you. Please take a"
-	cont "souvenir."
+	text "Tesi ma. Vezmi si" ; text "Pleased to meet"
+	line "prosim ta tento" ; line "you. Please take a"
+	cont "suvenir." ; cont "souvenir."
 	done
 
 WesleyGaveGiftText:
-	text "WESLEY: BLACKBELT"
-	line "beefs up the power"
-	cont "of fighting moves."
+	text "WESLEY: CIERNY PAS" ; text "WESLEY: BLACKBELT"
+	line "zvysi si bojovych" ; line "beefs up the power"
+	cont "utokov." ; cont "of fighting moves."
 	done
 
 WesleyWednesdayText:
-	text "WESLEY: Since you"
-	line "found me, you must"
+	text "WESLEY: Kedze si" ; text "WESLEY: Since you"
+	line "ma nasiel, musel" ; line "found me, you must"
 
-	para "have met my broth-"
-	line "ers and sisters."
+	para "si strenut aj" ; para "have met my broth-"
+	line "mojich surodencov." ; line "ers and sisters."
 
-	para "Or did you just"
-	line "get lucky?"
+	para "Alebo si tu len" ; para "Or did you just"
+	line "nahodou?" ; line "get lucky?"
 	done
 
 WesleyNotWednesdayText:
-	text "WESLEY: Today's"
-	line "not Wednesday."
-	cont "That's too bad."
+	text "WESLEY: Dnes nie" ; text "WESLEY: Today's"
+	line "je streda." ; line "not Wednesday."
+	cont "To je skoda." ; cont "That's too bad."
 	done
 
 LakeOfRageSignText:
-	text "LAKE OF RAGE,"
-	line "also known as"
-	cont "GYARADOS LAKE."
+	text "JAZERO HNEVU," ; text "LAKE OF RAGE,"
+	line "zname aj ako" ; line "also known as"
+	cont "JAZERO GYARADOSov." ; cont "GYARADOS LAKE."
 	done
 
 FishingGurusHouseSignText:
-	text "FISHING GURU'S"
-	line "HOUSE"
+	text "DOM RYBARSKEHO" ; text "FISHING GURU'S"
+	line "GURU" ; line "HOUSE"
 	done
 
 LakeOfRage_MapEvents:

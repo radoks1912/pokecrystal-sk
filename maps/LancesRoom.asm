@@ -205,134 +205,134 @@ LancesRoomMovementData_MaryRunsBackAndForth:
 	step_end
 
 LanceBattleIntroText:
-	text "LANCE: I've been"
-	line "waiting for you."
+	text "LANCE: Ocakaval" ; text "LANCE: I've been"
+	line "som ta." ; line "waiting for you."
 
-	para "<PLAY_G>!"
+	para "<PLAY_G>!" ; para "<PLAY_G>!"
 
-	para "I knew that you,"
-	line "with your skills,"
+	para "Vedel som, ze s" ; para "I knew that you,"
+	line "tvojimi skuseno-" ; line "with your skills,"
 
-	para "would eventually"
-	line "reach me here."
+	para "stami sa ku mne" ; para "would eventually"
+	line "dostanes." ; line "reach me here."
 
-	para "There's no need"
-	line "for words now."
+	para "Nema zmysel nieco" ; para "There's no need"
+	line "hovorit." ; line "for words now."
 
-	para "We will battle to"
-	line "determine who is"
+	para "Budeme zapasit a" ; para "We will battle to"
+	line "zistime, kto z nas" ; line "determine who is"
 
-	para "the stronger of"
-	line "the two of us."
+	para "dvoch je silnejsi" ; para "dvoch je silnejsi"
+	line "trener." ; line superus."
 
-	para "As the most power-"
-	line "ful trainer and as"
+	para "Ako najsilnejsi" ; para "As the most power-"
+	line "trener a ako" ; line "ful trainer and as"
 
-	para "the #MON LEAGUE"
-	line "CHAMPION…"
+	para "#MON LEAGUE" ; para "the #MON LEAGUE"
+	line "SAMPION…" ; line "CHAMPION…"
 
-	para "I, LANCE the drag-"
-	line "on master, accept"
-	cont "your challenge!"
+	para "Ja, LANCE draci" ; para "I, LANCE the drag-"
+	line "majster, prijimam" ; line "on master, accept"
+	cont "tvoju vyzvu!" ; cont "your challenge!"
 	done
 
 LanceBattleWinText:
-	text "…It's over."
+	text "…Je koniec." ; text "…It's over."
 
-	para "But it's an odd"
-	line "feeling."
+	para "Ale je to zvlastny" ; para "But it's an odd"
+	line "pocit." ; line "feeling."
 
-	para "I'm not angry that"
-	line "I lost. In fact, I"
-	cont "feel happy."
+	para "Nehnevam sa, ze" ; para "I'm not angry that"
+	line "som prehral." ; line "I lost. In fact, I"
+	cont "Vlastne som rad." ; cont "feel happy."
 
-	para "Happy that I"
-	line "witnessed the rise"
+	para "Stastny, ze som" ; para "Happy that I"
+	line "bol svedkom" ; line "witnessed the rise"
 
-	para "of a great new"
-	line "CHAMPION!"
+	para "vzostupu noveho" ; para "of a great new"
+	line "SAMPIONA!" ; line "CHAMPION!"
 	done
 
 LanceBattleAfterText:
-	text "…Whew."
+	text "…Fuh." ; text "…Whew."
 
-	para "You have become"
-	line "truly powerful,"
-	cont "<PLAY_G>."
+	para "Stal si sa skutoc-" ; para "You have become"
+	line "cne silnym," ; line "truly powerful,"
+	cont "<PLAY_G>." ; cont "<PLAY_G>."
 
-	para "Your #MON have"
-	line "responded to your"
+	para "Tvoji #MONi" ; para "Your #MON have"
+	line "ta posluchali" ; line "responded to your"
 
-	para "strong and up-"
-	line "standing nature."
+	para "kvoli tvojej" ; para "strong and up-"
+	line "silnej povahe." ; line "standing nature."
 
-	para "As a trainer, you"
-	line "will continue to"
+	para "Ako trener budes" ; para "As a trainer, you"
+	line "stale silnejsim" ; line "will continue to"
 
-	para "grow strong with"
-	line "your #MON."
+	para "spolu s tvojimi" ; para "grow strong with"
+	line "#MONmi." ; line "your #MON."
 	done
 
 LancesRoomMaryOhNoOakText:
-	text "MARY: Oh, no!"
-	line "It's all over!"
+	text "MARY: Ach, nie!" ; text "MARY: Oh, no!"
+	line "Je koniec!" ; line "It's all over!"
 
-	para "PROF.OAK, if you"
-	line "weren't so slow…"
+	para "PROF.OAK, keby ste" ; para "PROF.OAK, if you"
+	line "neboli tak pomaly…" ; line "weren't so slow…"
 	done
 
 LancesRoomOakCongratulationsText:
-	text "PROF.OAK: Ah,"
-	line "<PLAY_G>!"
+	text "PROF.OAK: Ach," ; text "PROF.OAK: Ah,"
+	line "<PLAY_G>!" ; line "<PLAY_G>!"
 
-	para "It's been a long"
-	line "while."
+	para "Uz je to" ; para "It's been a long"
+	line "davno." ; line "while."
 
-	para "You certainly look"
-	line "more impressive."
+	para "Vypadas velmi" ; para "You certainly look"
+	line "posobivo." ; line "more impressive."
 
-	para "Your conquest of"
-	line "the LEAGUE is just"
-	cont "fantastic!"
+	para "Tvoje dobytie" ; para "Your conquest of"
+	line "LIGY je skratka" ; line "the LEAGUE is just"
+	cont "fantasticke!" ; cont "fantastic!"
 
-	para "Your dedication,"
-	line "trust and love for"
+	para "Tvoja obetavost," ; para "Your dedication,"
+	line "dovera a laska" ; line "trust and love for"
 
-	para "your #MON made"
-	line "this happen."
+	para "pre #MONov" ; para "your #MON made"
+	line "to prave umoznila." ; line "this happen."
 
-	para "Your #MON were"
-	line "outstanding too."
+	para "Mas skvelych" ; para "Your #MON were"
+	line "#MONov." ; line "outstanding too."
 
-	para "Because they be-"
-	line "lieved in you as a"
+	para "Pretoze ti verili" ; para "Because they be-"
+	line "ako trenerovi," ; line "lieved in you as a"
 
-	para "trainer, they per-"
-	line "severed."
+	para "vytrvali s tebou." ; para "trainer, they per-"
+	;line "severed." ; line "severed."
 
-	para "Congratulations,"
+	para "Gratulujem," ; para "Congratulations,"
 	line "<PLAY_G>!"
 	done
 
 LancesRoomMaryInterviewText:
-	text "MARY: Let's inter-"
-	line "view the brand new"
-	cont "CHAMPION!"
+	text "MARY: Spravme s" ; text "MARY: Let's inter-"
+	line "novym SAMPIONOM" ; line "view the brand new"
+	cont "rozhovor!" ; cont "CHAMPION!"
 	done
 
 LancesRoomNoisyText:
-	text "LANCE: This is"
-	line "getting to be a"
-	cont "bit too noisy…"
+	text "LANCE: Zacina" ; text "LANCE: This is"
+	line "tu byt troska" ; line "getting to be a"
+	cont "hlucno…" ; cont "bit too noisy…"
 
-	para "<PLAY_G>, could you"
-	line "come with me?"
+	para "<PLAY_G>, mozes" ; para "<PLAY_G>, could you"
+	line "ist so mnou?" ; line "come with me?"
 	done
 
 LancesRoomMaryNoInterviewText:
-	text "MARY: Oh, wait!"
-	line "We haven't done"
-	cont "the interview!"
+	text "MARY: Ach, nie!" ; text "MARY: Oh, wait!"
+	line "Nestihli sme" ; line "We haven't done"
+	cont "spravit rozhovor!" ; cont "the interview!"
 	done
 
 LancesRoom_MapEvents:

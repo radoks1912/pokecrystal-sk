@@ -90,116 +90,117 @@ MagikarpHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 MagikarpLengthRaterText_LakeOfRageHistory:
-	text "LAKE OF RAGE is"
-	line "actually a crater"
+	text "JAZERO HNEVU je" ; text "LAKE OF RAGE is"
+	line "vlastne krater" ; line "actually a crater"
 
-	para "made by rampaging"
-	line "GYARADOS."
+	para "vytvoreny zurivymi" ; para "made by rampaging"
+	line "GYARADOSmi." ; line "GYARADOS."
 
-	para "The crater filled"
-	line "up with rainwater"
+	para "Krater sa naplnil" ; para "The crater filled"
+	line "dazdovou vodou a" ; line "up with rainwater"
 
-	para "and the LAKE was"
-	line "formed."
+	para "vzniklo jazero." ; para "and the LAKE was"
+	;line "formed." ; line "formed."
 
-	para "That's the story"
-	line "passed on from my"
+	para "To je pribeh od" ; para "That's the story"
+	line "mojho pra-pra-pra-" ; line "passed on from my"
 
-	para "Grandpa's great-"
-	line "great-grandpa."
+	para "dedka." ; para "Grandpa's great-"
+	;line "great-grandpa." ; line "great-grandpa."
 
-	para "It used to be that"
-	line "you could catch"
+	para "Zvycajne si tam" ; para "It used to be that"
+	line "mohol chytit" ; line "you could catch"
 
-	para "lively MAGIKARP"
-	line "there, but…"
+	para "MAGIKARPov, ale" ; para "lively MAGIKARP"
+	line "teraz nerozmiem," ; line "there, but…"
 
-	para "I don't understand"
-	line "what's happening."
+	para "co presne sa tam" ; para "I don't understand"
+	line "deje." ; line "what's happening."
 	done
 
 MagikarpLengthRaterText_MenInBlack:
-	text "The LAKE hasn't"
-	line "been normal since"
+	text "Jazero nebolo v" ; text "The LAKE hasn't"
+	line "normale, odkedy sa" ; line "been normal since"
 
-	para "those men wearing"
-	line "black arrived."
+	para "tu objavili muzi" ; para "those men wearing"
+	line "v ciernom." ; line "black arrived."
 	done
 
 MagikarpLengthRaterText_WorldsLargestMagikarp:
-	text "LAKE OF RAGE is"
-	line "back to normal."
+	text "JAZERO HNEVU je" ; text "LAKE OF RAGE is"
+	line "opat v normale." ; line "back to normal."
 
-	para "The MAGIKARP have"
-	line "returned."
+	para "MAGIKARPovia sa" ; para "The MAGIKARP have"
+	line "vratili." ; line "returned."
 
-	para "I may yet realize"
-	line "my dream of see-"
-	cont "ing the world's"
-	cont "largest MAGIKARP."
+	para "Mozno sa mi podari" ; para "I may yet realize"
+	line "dohnat sen vidiet" ; line "my dream of see-"
+	cont "najvacsieho MAGI-" ; cont "ing the world's"
+	cont "KARPa na svete." ; cont "largest MAGIKARP."
 
-	para "Do you have a ROD?"
-	line "Please help me if"
-	cont "you do."
+	para "Mas UDICU?" ; para "Do you have a ROD?"
+	line "Ak ano, tak mi" ; line "Please help me if"
+	cont "prosim pomoz." ; cont "you do."
 	done
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
-	text "Ah, you have a"
-	line "MAGIKARP! Let's"
+	text "Ah, mas" ; text "Ah, you have a"
+	line "MAGIKARPa! Pozrime" ; line "MAGIKARP! Let's"
 
-	para "see how big that"
-	line "baby is."
+	para "sa, aky je velky." ; para "see how big that"
+	;line "baby is." ; line "baby is."
 	done
 
 MagikarpLengthRaterText_Memento:
-	text "Wow! This one is"
-	line "outstanding!"
+	text "Waw! Tento je" ; text "Wow! This one is"
+	line "skvely!" ; line "outstanding!"
 
-	para "I tip my hat to"
-	line "you!"
+	para "Klobuk dole," ; para "I tip my hat to"
+	line "pane!" ; line "you!"
 
-	para "Take this as a"
-	line "memento!"
+	para "Vezmi si toto ako" ; para "Take this as a"
+	line "pamiatku!" ; line "memento!"
 	done
 
 MagikarpLengthRaterText_Bonus:
-	text "The record is the"
-	line "important thing."
+	text "Rekord je velim" ; text "The record is the"
+	line "dolezity." ; line "important thing."
 
-	para "Think of that as"
-	line "a bonus!"
+	para "Je to taky" ; para "Think of that as"
+	line "bonus!" ; line "a bonus!"
 	done
 
 MagikarpLengthRaterText_TooShort:
-	text "Wow! This one is"
-	line "outstanding!"
+	text "Waw! Tento je" ; text "Wow! This one is"
+	line "skvely!" ; line "outstanding!"
 
-	para "…I wish I could"
-	line "say that, but I've"
+	para "…Kiezby som" ; para "…I wish I could"
+	line "to mohol povedat," ; line "say that, but I've"
 
-	para "seen a bigger one"
-	line "before."
+	para "ale videl som uz" ; para "seen a bigger one"
+	line "vacsieho." ; line "before."
 	done
 
 MagikarpLengthRaterText_NotMagikarp:
-	text "What? That's not a"
-	line "MAGIKARP!"
+	text "Coze? To nie je" ; text "What? That's not a"
+	line "MAGIKARP!" ; line "MAGIKARP!"
 	done
 
 MagikarpLengthRaterText_Refused:
-	text "Oh… So you didn't"
-	line "get one good"
+	text "Oh… Takze si nena-" ; text "Oh… So you didn't"
+	line "siel dostatocne" ; line "get one good"
 
-	para "enough to show me?"
-	line "Maybe next time."
+	para "dobreho, aby si mi" ; para "enough to show me?"
+	line "ho ukazal?" ; line "Maybe next time."
+	cont "Mozno nabuduce."
 	done
 
 LakeOfRageMagikarpHouseUnusedRecordText:
-	text "CURRENT RECORD"
+	text "AKTUALNY REKORD" ; text "CURRENT RECORD"
 
 	para "@"
 	text_ram wStringBuffer3
-	text " caught by"
+	text " chyteny" ; text " caught by"
 	line "@"
 	text_ram wStringBuffer4
 	text_end
