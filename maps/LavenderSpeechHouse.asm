@@ -13,17 +13,17 @@ LavenderSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 LavenderSpeechHousePokefanFText:
-	text "LAVENDER is a"
-	line "tiny, quiet town"
+	text "LAVENDER je male," ; text "LAVENDER is a"
+	line "tiche mestecko" ; line "tiny, quiet town"
 
-	para "at the foot of the"
-	line "mountains."
+	para "na upati hory." ; para "at the foot of the"
+	;line "mountains." ; line "mountains."
 
-	para "It's gotten a bit"
-	line "busier since the"
+	para "Je tu trosku" ; para "It's gotten a bit"
+	line "rusnejsie, odkedy" ; line "busier since the"
 
-	para "RADIO TOWER was"
-	line "built."
+	para "sa postavila" ; para "RADIO TOWER was"
+	line "RADIO VEZA." ; line "built."
 	done
 
 LavenderSpeechHouse_MapEvents:

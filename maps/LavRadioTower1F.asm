@@ -76,147 +76,147 @@ LavRadioTower1FReferenceLibrary: ; unreferenced
 	jumptext LavRadioTower1FReferenceLibraryText
 
 LavRadioTower1FReceptionistText:
-	text "Welcome!"
-	line "Feel free to look"
+	text "Vitaj!" ; text "Welcome!"
+	line "Pokojne sa poroz-" ; line "Feel free to look"
 
-	para "around anywhere on"
-	line "this floor."
+	para "hliadni po celom" ; para "around anywhere on"
+	line "tomto poschodi." ; line "this floor."
 	done
 
 LavRadioTower1FOfficerText:
-	text "Sorry, but you can"
-	line "only tour the"
-	cont "ground floor."
+	text "Pardon, ale dos-" ; text "Sorry, but you can"
+	line "tupne je iba" ; line "only tour the"
+	cont "prizemie." ; cont "ground floor."
 
-	para "Ever since JOHTO's"
-	line "RADIO TOWER was"
+	para "Odkedy JOHTO RADIO" ; para "Ever since JOHTO's"
+	line "VEZA bola obsadena" ; line "RADIO TOWER was"
 
-	para "taken over by a"
-	line "criminal gang, we"
+	para "kriminalnym gangom" ; para "taken over by a"
+	line "museli sme zvysit" ; line "criminal gang, we"
 
-	para "have had to step"
-	line "up our security."
+	para "nase bezpecnostne" ; para "have had to step"
+	line "standardy." ; line "up our security."
 	done
 
 LavRadioTower1FSuperNerd1Text:
-	text "Many people are"
-	line "hard at work here"
+	text "V RADIO VEZI je" ; text "Many people are"
+	line "mnoho tazko" ; line "hard at work here"
 
-	para "in the RADIO"
-	line "TOWER."
+	para "pracujucich ludi." ; para "in the RADIO"
+	;line "TOWER." ; line "TOWER."
 
-	para "They must be doing"
-	line "their best to put"
-	cont "on good shows."
+	para "Snazia sa, ako" ; para "They must be doing"
+	line "najviac vedia, aby" ; line "their best to put"
+	cont "bola skvela show." ; cont "on good shows."
 	done
 
 LavRadioTower1FGentlemanText:
-	text "Oh, no, no, no!"
+	text "Oh, nie, nie, nie!" ; text "Oh, no, no, no!"
 
-	para "We've been off the"
-	line "air ever since the"
+	para "Vobec nevysielame" ; para "We've been off the"
+	line "od vypnutia" ; line "air ever since the"
 
-	para "POWER PLANT shut"
-	line "down."
+	para "ELEKTRARNE!" ; para "POWER PLANT shut"
+	;line "down." ; line "down."
 
-	para "All my efforts to"
-	line "start this station"
+	para "Vsetko moje usilie" ; para "All my efforts to"
+	line "udrzat tuto stani-" ; line "start this station"
 
-	para "would be wasted if"
-	line "I can't broadcast."
+	para "cu nad vodou vyjdu" ; para "would be wasted if"
+	line "navnivoc." ; line "I can't broadcast."
 
-	para "I'll be ruined!"
+	para "Budem zniceny!" ; para "I'll be ruined!"
 	done
 
 LavRadioTower1FGentlemanText_ReturnedMachinePart:
-	text "Ah! So you're the"
-	line "<PLAY_G> who solved"
+	text "Ah! Ty si ten" ; text "Ah! So you're the"
+	line "<PLAY_G> co" ; line "<PLAY_G> who solved"
 
-	para "the POWER PLANT's"
-	line "problem?"
+	para "vyriesil problem" ; para "the POWER PLANT's"
+	line "v ELEKTRARNI?" ; line "problem?"
 
-	para "Thanks to you, I"
-	line "never lost my job."
+	para "Vdaka tebe som ne-" ; para "Thanks to you, I"
+	line "stratil pracu." ; line "never lost my job."
 
-	para "I tell you, you're"
-	line "a real lifesaver!"
+	para "Poviem ti, si moj" ; para "I tell you, you're"
+	line "zachranca!" ; line "a real lifesaver!"
 
-	para "Please take this"
-	line "as my thanks."
+	para "Vezmi si prosim" ; para "Please take this"
+	line "toto." ; line "as my thanks."
 	done
 
 LavRadioTower1FGentlemanText_GotExpnCard:
-	text "With that thing,"
-	line "you can tune into"
+	text "S tou vecou budes" ; text "With that thing,"
+	line "moct naladit na" ; line "you can tune into"
 
-	para "the radio programs"
-	line "here in KANTO."
+	para "radiu aj stanice" ; para "the radio programs"
+	line "z KANTO." ; line "here in KANTO."
 
-	para "Gahahahaha!"
+	para "Hahahahaha!" ; para "Gahahahaha!"
 	done
 
 LavRadioTower1FSuperNerd2Text:
-	text "Hey there!"
+	text "Ahoj!" ; text "Hey there!"
 
-	para "I am the super"
-	line "MUSIC DIRECTOR!"
+	para "Som super" ; para "I am the super"
+	line "MUSIC RIADITEL!" ; line "MUSIC DIRECTOR!"
 
-	para "Huh? Your #GEAR"
-	line "can't tune into my"
+	para "Hm? Tvoj #GEAR" ; para "Huh? Your #GEAR"
+	line "nedokaze naladit" ; line "can't tune into my"
 
-	para "music programs."
-	line "How unfortunate!"
+	para "moje stanice." ; para "music programs."
+	line "Ake nestastie!" ; line "How unfortunate!"
 
-	para "If you get an EXPN"
-	line "CARD upgrade, you"
+	para "Ak ziskas EXPN" ; para "If you get an EXPN"
+	line "KARTU, budes to" ; line "CARD upgrade, you"
 
-	para "can tune in. You'd"
-	line "better get one!"
+	para "moct naladit." ; para "can tune in. You'd"
+	line "Zozen si ju!" ; line "better get one!"
 	done
 
 LavRadioTower1FSuperNerd2Text_GotExpnCard:
-	text "Hey there!"
+	text "Ahoj!" ; text "Hey there!"
 
-	para "I am the super"
-	line "MUSIC DIRECTOR!"
+	para "Som super" ; para "I am the super"
+	line "MUSIC RIADITEL!" ; line "MUSIC DIRECTOR!"
 
-	para "I'm responsible"
-	line "for the gorgeous"
+	para "Som zodpovedny za" ; para "I'm responsible"
+	line "uzasne melodie," ; line "for the gorgeous"
 
-	para "melodies that go"
-	line "out over the air."
+	para "ktore vysielame" ; para "melodies that go"
+	line "na vlnach." ; line "out over the air."
 
-	para "Don't be square."
-	line "Grab your music"
-	cont "off the air!"
+	para "Nebud labut." ; para "Don't be square."
+	line "Uchop svoju hudbu" ; line "Grab your music"
+	cont "zo vzduchu!" ; cont "off the air!"
 	done
 
 LavRadioTower1FDirectoryText:
-	text "1F RECEPTION"
-	line "2F SALES"
+	text "1P RECEPCIA" ; text "1F RECEPTION"
+	line "2P PREDAJ" ; line "2F SALES"
 
-	para "3F PERSONNEL"
-	line "4F PRODUCTION"
+	para "3P OSOBNE" ; para "3F PERSONNEL"
+	line "4P PRODUKCIA" ; line "4F PRODUCTION"
 
-	para "5F DIRECTOR'S"
-	line "   OFFICE"
+	para "5P RIADITELOVA" ; para "5F DIRECTOR'S"
+	line "KANCELARIA" ; line "   OFFICE"
 	done
 
 LavRadioTower1FPokeFluteSignText:
-	text "Perk Up #MON"
-	line "with Mellow Sounds"
+	text "Upokoj #MON" ; text "Perk Up #MON"
+	line "jemnymi zvukmi" ; line "with Mellow Sounds"
 
-	para "of the # FLUTE"
-	line "on CHANNEL 20"
+	para "POKEFLAUTY na" ; para "of the # FLUTE"
+	line "kanali 20" ; line "on CHANNEL 20"
 	done
 
 LavRadioTower1FReferenceLibraryText:
-	text "Wow! A full rack"
-	line "of #MON CDs and"
-	cont "videos."
+	text "Wau! Plny stojan" ; text "Wow! A full rack"
+	line "#MON CDciek a" ; line "of #MON CDs and"
+	cont "videi." ; cont "videos."
 
-	para "This must be the"
-	line "reference library."
+	para "Musi to byt refe-" ; para "This must be the"
+	line "rencna kniznica." ; line "reference library."
 	done
 
 LavRadioTower1F_MapEvents:

@@ -21,28 +21,28 @@ LavenderMartRockerScript:
 	jumptextfaceplayer LavenderMartRockerText
 
 LavenderMartPokefanMText:
-	text "REPEL is a neces-"
-	line "sity if you are"
+	text "REPEL je nevy-" ; text "REPEL is a neces-"
+	line "hnutnost, ak sa" ; line "sity if you are"
 
-	para "going to explore a"
-	line "cave."
+	para "chystas skumat" ; para "going to explore a"
+	line "jaskyne." ; line "cave."
 
-	para "Even though I like"
-	line "exploring, I still"
+	para "Aj ked mam rad" ; para "Even though I like"
+	line "skumanie, stale" ; line "exploring, I still"
 
-	para "haven't made it to"
-	line "all the caves."
+	para "som nebol vo vset-" ; para "haven't made it to"
+	line "kych jaskyniach." ; line "all the caves."
 	done
 
 LavenderMartRockerText:
-	text "I heard about a"
-	line "craftsman who"
+	text "Pocul som o maj-" ; text "I heard about a"
+	line "strovi, ktory" ; line "craftsman who"
 
-	para "makes custom BALLS"
-	line "in the JOHTO town"
+	para "vyraba BALLS" ; para "makes custom BALLS"
+	line "na mieru v" ; line "in the JOHTO town"
 
-	para "of AZALEA. I wish"
-	line "I had some."
+	para "AZALEA. Kiezby som" ; para "of AZALEA. I wish"
+	line "nejake mal." ; line "I had some."
 	done
 
 LavenderMart_MapEvents:

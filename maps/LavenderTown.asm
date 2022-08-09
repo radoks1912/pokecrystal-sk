@@ -45,62 +45,63 @@ LavenderMartSignText:
 	jumpstd MartSignScript
 
 LavenderTownPokefanMText:
-	text "That's quite some"
-	line "building, eh?"
+	text "To je teda budova," ; text "That's quite some"
+	line "vsak?" ; line "building, eh?"
 
-	para "It's KANTO's RADIO"
-	line "TOWER."
+	para "Je to KANTO RADIO" ; para "It's KANTO's RADIO"
+	line "VEZA." ; line "TOWER."
 	done
 
 LavenderTownTeacherText:
-	text "KANTO has many"
-	line "good radio shows."
+	text "KANTO ma mnoho" ; text "KANTO has many"
+	line "dobrych radii." ; line "good radio shows."
 	done
 
 LavenderTownGrampsText:
-	text "People come from"
-	line "all over to pay"
+	text "Ludia prichadzaju" ; text "People come from"
+	line "odvsadial, aby si" ; line "all over to pay"
 
-	para "their respects to"
-	line "the departed souls"
-	cont "of #MON."
+	para "uctili pamiatku" ; para "their respects to"
+	line "zosnulych dusi" ; line "the departed souls"
+	cont "#MONov." ; cont "of #MON."
 	done
 
 LavenderTownYoungsterText:
-	text "You need a #"
-	line "FLUTE to wake"
-	cont "sleeping #MON."
+	text "Potrebujes #" ; text "You need a #"
+	line "FLUTE na prebratie" ; line "FLUTE to wake"
+	cont "spiaceho #MON." ; cont "sleeping #MON."
 
-	para "Every trainer has"
-	line "to know that!"
+	para "To snad kazdy" ; para "Every trainer has"
+	line "trener vie!" ; line "to know that!"
 	done
 
 LavenderTownSignText:
-	text "LAVENDER TOWN"
+	text "LAVENDER TOWN" ; text "LAVENDER TOWN"
 
-	para "The Noble Purple"
-	line "Town"
+	para "Uslachtile fialove" ; para "The Noble Purple"
+	line "mesto" ; line "Town"
 	done
 
 KantoRadioStationSignText:
-	text "KANTO RADIO"
-	line "STATION"
+	text "KANTO RADIO" ; text "KANTO RADIO" 
+	line "STANICA" ; line "STATION"
 
-	para "Your Favorite"
-	line "Programs On-Air"
-	cont "Around the Clock!"
+	para "Tvoje oblubene" ; para "Your Favorite"
+	line "programy nazivo a" ; line "Programs On-Air"
+	cont "nepretrzite!"
 	done
 
 VolunteerPokemonHouseSignText:
-	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	text "LAVENDER DOBROVOL-" ; text "LAVENDER VOLUNTEER"
+	line "NICKY #MON" ; line "#MON HOUSE"
+	cont "dom."
 	done
 
 SoulHouseSignText:
-	text "SOUL HOUSE"
+	text "DOM DUSI" ; text "SOUL HOUSE"
 
-	para "May the Souls of"
-	line "#MON Rest Easy"
+	para "Nech duse odpoci-" ; para "May the Souls of"
+	line "vaju v pokoji" ; line "#MON Rest Easy"
 	done
 
 LavenderTown_MapEvents:
