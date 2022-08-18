@@ -22,33 +22,33 @@ MahoganyPokecenter1FCooltrainerFScript:
 	jumptextfaceplayer MahoganyPokecenter1FCooltrainerFText
 
 MahoganyPokecenter1FPokefanMText:
-	text "What's this? TEAM"
-	line "ROCKET has come"
-	cont "back?"
+	text "Coze? TEAM" ; text "What's this? TEAM"
+	line "ROCKET sa vratil" ; line "ROCKET has come"
+	cont "spat?" ; cont "back?"
 
-	para "I saw some men in"
-	line "black at LAKE OF"
-	cont "RAGE…"
+	para "Videl som ciernych" ; para "I saw some men in"
+	line "muzov na JAZERE" ; line "black at LAKE OF"
+	cont "HNEVU…" ; cont "RAGE…"
 	done
 
 MahoganyPokecenter1FYoungsterText:
-	text "I stop my #MON"
-	line "from evolving too"
-	cont "early."
+	text "Mojich #MONov" ; text "I stop my #MON"
+	line "vyvijam az" ; line "from evolving too"
+	cont "neskor." ; cont "early."
 
-	para "I make them learn"
-	line "certain moves be-"
-	cont "fore I let them"
-	cont "evolve."
+	para "Najprv ich necham" ; para "I make them learn"
+	line "naucit sa niektore" ; line "certain moves be-"
+	cont "utoky." ; cont "fore I let them"
+	;cont "evolve." ; cont "evolve."
 	done
 
 MahoganyPokecenter1FCooltrainerFText:
-	text "#MON do become"
-	line "stronger when they"
+	text "#MON su s vyvinom" ; text "#MON do become"
+	line "silnejsi, ale" ; line "stronger when they"
 
-	para "evolve, but they"
-	line "also learn moves"
-	cont "more slowly."
+	para "nove utoky sa ucia" ; para "evolve, but they"
+	line "potom pomalsie." ; line "also learn moves"
+	;cont "more slowly." ; cont "more slowly."
 	done
 
 MahoganyPokecenter1F_MapEvents:

@@ -165,57 +165,57 @@ MahoganyMart1FRageCandyBarText: ; unreferenced
 	done
 
 MahoganyMart1FPharmacistText_LanceEntered:
-	text "Arrgh… You found"
-	line "the secret stair-"
-	cont "way…"
+	text "Aaach… Nasli ste" ; text "Arrgh… You found"
+	line "tajne schodisko…" ; line "the secret stair-"
+	;cont "way…" ; cont "way…"
 	done
 
 MahoganyMart1FBlackBeltText:
-	text "Heheh! The experi-"
-	line "ment worked like a"
-	cont "charm."
+	text "Hehe! Experiment" ; text "Heheh! The experi-"
+	line "fungoval uplne" ; line "ment worked like a"
+	cont "dokonale." ; cont "charm."
 
-	para "MAGIKARP are just"
-	line "worthless, but"
+	para "MAGIKARP je" ; para "MAGIKARP are just"
+	line "zbytocny, ale" ; line "worthless, but"
 
-	para "GYARADOS are big"
-	line "moneymakers."
+	para "GYARADOS je" ; para "GYARADOS are big"
+	line "jackpot." ; line "moneymakers."
 	done
 
 MahoganyMart1FBlackBeltText_LanceEntered:
-	text "Urrgh…"
+	text "Aaaah…" ; text "Urrgh…"
 
-	para "That guy's dragon"
-	line "#MON are tough…"
+	para "Draci #MONi" ; para "That guy's dragon"
+	line "su huzevnati…" ; line "#MON are tough…"
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
-	text "LANCE: DRAGONITE,"
-	line "HYPER BEAM."
+	text "LANCE: DRAGONITE," ; text "LANCE: DRAGONITE,"
+	line "HYPER BEAM." ; line "HYPER BEAM."
 	done
 
 MahoganyMart1FLanceRadioText:
-	text "What took you,"
-	line "<PLAY_G>?"
+	text "Kde si bol," ; text "What took you,"
+	line "<PLAY_G>?" ; line "<PLAY_G>?"
 
-	para "Just as I thought,"
-	line "that strange radio"
+	para "Presne ako som si" ; para "Just as I thought,"
+	line "myslel, signal" ; line "that strange radio"
 
-	para "signal is coming"
-	line "from here."
+	para "vychadza priamo" ; para "signal is coming"
+	line "odtialto." ; line "from here."
 	done
 
 MahoganyMart1FLanceStairsText:
-	text "The stairs are"
-	line "right here."
+	text "Schodisko je" ; text "The stairs are"
+	line "tu." ; line "right here."
 	done
 
 MahoganyMart1FLanceSplitUpText:
-	text "LANCE: <PLAY_G>, we"
-	line "should split up to"
+	text "LANCE: <PLAY_G>," ; text "LANCE: <PLAY_G>, we"
+	line "rozdelme sa a" ; line "should split up to"
 
-	para "check this place."
-	line "I'll go first."
+	para "preskumajme to tu." ; para "check this place."
+	line "Idem prvy." ; line "I'll go first."
 	done
 
 MahoganyMart1F_MapEvents:

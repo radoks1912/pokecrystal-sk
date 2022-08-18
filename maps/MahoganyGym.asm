@@ -148,226 +148,228 @@ MahoganyGymStatue:
 	jumpstd GymStatue2Script
 
 PryceText_Intro:
-	text "#MON have many"
-	line "experiences in"
+	text "#MON maju vela" ; text "#MON have many"
+	line "zazitkov v ich" ; line "experiences in"
 
-	para "their lives, just "
-	line "like we do. "
+	para "zivotoch, presne " ; para "their lives, just "
+	line "ako my. " ; line "like we do. "
 
-	para "I, too, have seen"
-	line "and suffered much"
-	cont "in my life."
+	para "Ja som tiez videl" ; para "I, too, have seen"
+	line "mnoho a trpel v" ; line "and suffered much"
+	cont "mojom zivote." ; cont "in my life."
 
-	para "Since I am your"
-	line "elder, let me show"
-	cont "you what I mean."
+	para "Kedze som starsi," ; para "Since I am your"
+	line "ukazem ti, co tym" ; line "elder, let me show"
+	cont "myslim." ; cont "you what I mean."
 
-	para "I have been with"
-	line "#MON since"
+	para "Bol som s" ; para "I have been with"
+	line "#MON este" ; line "#MON since"
 
-	para "before you were"
-	line "born."
+	para "pred tvojim naro-" ; para "before you were"
+	line "denim." ; line "born."
 
-	para "I do not lose"
-	line "easily."
+	para "Lahko neprehram." ; para "I do not lose"
+	;line "easily." ; line "easily."
 
-	para "I, PRYCE--the"
-	line "winter trainer--"
+	para "Ja, PRYCE--" ; para "I, PRYCE--the"
+	line "zimny trener--" ; line "winter trainer--"
 
-	para "shall demonstrate"
-	line "my power!"
+	para "ti ukazem moje" ; para "shall demonstrate"
+	line "sily!" ; line "my power!"
 	done
 
 PryceText_Impressed:
-	text "Ah, I am impressed"
-	line "by your prowess."
+	text "Ah, som ohromeny" ; text "Ah, I am impressed"
+	line "tvojou udatnostou." ; line "by your prowess."
 
-	para "With your strong"
-	line "will, I know you"
+	para "S tvojou silnou" ; para "With your strong"
+	line "volou verim, ze" ; line "will, I know you"
 
-	para "will overcome all"
-	line "life's obstacles."
+	para "urcite prekonas" ; para "will overcome all" 
+	line "vsetky prekazky." ; line "life's obstacles."
 
-	para "You are worthy of"
-	line "this BADGE!"
+	para "Si hodny tohto" ; para "You are worthy of"
+	line "ODZNAKU!" ; line "this BADGE!"
 	done
 
 Text_ReceivedGlacierBadge:
-	text "<PLAYER> received"
-	line "GLACIERBADGE."
+	text "<PLAYER> dostal" ; text "<PLAYER> received"
+	line "GLACIERBADGE." ; line "GLACIERBADGE."
 	done
 
 PryceText_GlacierBadgeSpeech:
-	text "That BADGE will"
-	line "raise the SPECIAL"
-	cont "stats of #MON."
+	text "Ten ODZNAK ti" ; text "That BADGE will"
+	line "zvysi SPECIAL" ; line "raise the SPECIAL"
+	cont "staty #MONov." ; cont "stats of #MON."
 
-	para "It also lets your"
-	line "#MON use WHIRL-"
-	cont "POOL to get across"
-	cont "real whirlpools."
+	para "Takisto umozni" ; para "It also lets your"
+	line "#MON pouzit" ; line "#MON use WHIRL-"
+	cont "WHIRLPOOL, aby si" ; cont "POOL to get across"
+	cont "sa dostal cez" ; cont "real whirlpools."
+	cont "vodne viry."
 
-	para "And this… This is"
-	line "a gift from me!"
+	para "A toto… Toto je" ; para "And this… This is"
+	line "darcek odo mna!" ; line "a gift from me!"
 	done
 
 PryceText_IcyWindSpeech:
-	text "That TM contains"
-	line "ICY WIND."
+	text "To TM obsahuje" ; text "That TM contains"
+	line "ICY WIND." ; line "ICY WIND."
 
-	para "It inflicts damage"
-	line "and lowers speed."
+	para "Sposobuje posko-" ; para "It inflicts damage"
+	line "denie a znizuje" ; line "and lowers speed."
+	cont "rychlost."
 
-	para "It demonstrates"
-	line "the harshness of"
-	cont "winter."
+	para "Znazornuje prave" ; para "It demonstrates"
+	line "drsnost zimy." ; line "the harshness of"
+	;cont "winter." ; cont "winter."
 	done
 
 PryceText_CherishYourPokemon:
-	text "When the ice and"
-	line "snow melt, spring"
-	cont "arrives."
+	text "Ked sa lad a sneh" ; text "When the ice and"
+	line "roztopia, pride" ; line "snow melt, spring"
+	cont "jar." ; cont "arrives."
 
-	para "You and your #-"
-	line "MON will be to-"
+	para "Ty a tvoji #-" ; para "You and your #-"
+	line "MON budete" ; line "MON will be to-"
 
-	para "gether for many"
-	line "years to come."
+	para "spolu mnoho" ; para "gether for many"
+	line "rokov." ; line "years to come."
 
-	para "Cherish your time"
-	line "together!"
+	para "Vazte si ten cas" ; para "Cherish your time"
+	line "spolu!" ; line "together!"
 	done
 
 BoarderRonaldSeenText:
-	text "I'll freeze your"
-	line "#MON, so you"
-	cont "can't do a thing!"
+	text "Zamrazim tvojich" ; text "I'll freeze your"
+	line "#MONov, a nic" ; line "#MON, so you"
+	cont "nezmozes!" ; cont "can't do a thing!"
 	done
 
 BoarderRonaldBeatenText:
-	text "Darn. I couldn't"
-	line "do a thing."
+	text "Kelu. Na nic som" ; text "Darn. I couldn't"
+	line "sa nezmohol." ; line "do a thing."
 	done
 
 BoarderRonaldAfterBattleText:
-	text "I think there's a"
-	line "move a #MON"
+	text "Myslim, ze existu-" ; text "I think there's a"
+	line "je utok #MON" ; line "move a #MON"
 
-	para "can use while it's"
-	line "frozen."
+	para "moze pouzit pocas" ; para "can use while it's"
+	line "zmrazenia." ; line "frozen."
 	done
 
 BoarderBradSeenText:
-	text "This GYM has a"
-	line "slippery floor."
+	text "Tato TELOCVICNA ma" ; text "This GYM has a"
+	line "smyklavu podlahu." ; line "slippery floor."
 
-	para "It's fun, isn't"
-	line "it?"
+	para "Je to zabava," ; para "It's fun, isn't"
+	line "vsak?" ; line "it?"
 
-	para "But hey--we're"
-	line "not playing games"
-	cont "here!"
+	para "Ale ale--tu sa" ; para "But hey--we're"
+	line "nehrame ziadne" ; line "not playing games"
+	cont "hry!" ; cont "here!"
 	done
 
 BoarderBradBeatenText:
-	text "Do you see how"
-	line "serious we are?"
+	text "Vidis, ako vazne" ; text "Do you see how"
+	line "to berieme?" ; line "serious we are?"
 	done
 
 BoarderBradAfterBattleText:
-	text "This GYM is great."
-	line "I love boarding"
-	cont "with my #MON!"
+	text "Skvela TELOCVICNA." ; text "This GYM is great."
+	line "Milujem snowboar-" ; line "I love boarding"
+	cont "dovat s #MON!" ; cont "with my #MON!"
 	done
 
 BoarderDouglasSeenText:
-	text "I know PRYCE's"
-	line "secret."
+	text "Viem PRYCEove" ; text "I know PRYCE's"
+	line "tajomstvo." ; line "secret."
 	done
 
 BoarderDouglasBeatenText:
-	text "OK. I'll tell you"
-	line "PRYCE's secret."
+	text "OK. Poviem tajom-" ; text "OK. I'll tell you"
+	line "stvo PRYCEa." ; line "PRYCE's secret."
 	done
 
 BoarderDouglasAfterBattleText:
-	text "The secret behind"
-	line "PRYCE's power…"
+	text "Tajomstvo sily" ; text "The secret behind"
+	line "PRYCEa je…" ; line "PRYCE's power…"
 
-	para "He meditates under"
-	line "a waterfall daily"
+	para "Meditovanie pod" ; para "He meditates under"
+	line "vodopadom na zvy-" ; line "a waterfall daily"
 
-	para "to strengthen his"
-	line "mind and body."
+	para "senie sily tela" ; para "to strengthen his"
+	line "a duse." ; line "mind and body."
 	done
 
 SkierRoxanneSeenText:
-	text "To get to PRYCE,"
-	line "our GYM LEADER,"
+	text "Aby si sa dostal" ; text "To get to PRYCE,"
+	line "k PRYCEovi," ; line "our GYM LEADER,"
 
-	para "you need to think"
-	line "before you skate."
+	para "musis rozmyslat" ; para "you need to think"
+	line "pred korculovanim." ; line "before you skate."
 	done
 
 SkierRoxanneBeatenText:
-	text "I wouldn't lose to"
-	line "you in skiing!"
+	text "V lyzovani by si" ; text "I wouldn't lose to"
+	line "ma neporazil!" ; line "you in skiing!"
 	done
 
 SkierRoxanneAfterBattleText:
-	text "If you don't skate"
-	line "with precision,"
+	text "Ak nekorculujes" ; text "If you don't skate"
+	line "presne, daleko sa" ; line "with precision,"
 
-	para "you won't get far"
-	line "in this GYM."
+	para "v tejto TELOCVIC-" ; para "you won't get far"
+	line "NI nedostanes." ; line "in this GYM."
 	done
 
 SkierClarissaSeenText:
-	text "Check out my"
-	line "parallel turn!"
+	text "Pozri ako vyberiem" ; text "Check out my"
+	line "zakrutu!" ; line "parallel turn!"
 	done
 
 SkierClarissaBeatenText:
-	text "No! You made me"
-	line "wipe out!"
+	text "Nie! Uplne si ma" ; text "No! You made me"
+	line "rozdrvil!" ; line "wipe out!"
 	done
 
 SkierClarissaAfterBattleText:
-	text "I shouldn't have"
-	line "been bragging"
-	cont "about my skiing…"
+	text "Nemal som sa" ; text "I shouldn't have"
+	line "chvastat mojim" ; line "been bragging"
+	cont "lyzovanim…" ; cont "about my skiing…"
 	done
 
 MahoganyGymGuideText:
-	text "PRYCE is a veteran"
-	line "who has trained"
+	text "PRYCE je veteran," ; text "PRYCE is a veteran"
+	line "ktory trenuje" ; line "who has trained"
 
-	para "#MON for some"
-	line "50 years."
+	para "#MONov uz" ; para "#MON for some"
+	line "50 rokov." ; line "50 years."
 
-	para "He's said to be"
-	line "good at freezing"
+	para "Udajne je dobry" ; para "He's said to be"
+	line "v zamrazovani" ; line "good at freezing"
 
-	para "opponents with"
-	line "ice-type moves."
+	para "oponenta s lado-" ; para "opponents with"
+	line "vymi utokmi." ; line "ice-type moves."
 
-	para "That means you"
-	line "should melt him"
+	para "Mal by si ho" ; para "That means you"
+	line "roztopit svojou" ; line "should melt him"
 
-	para "with your burning"
-	line "ambition!"
+	para "ohnivou ambiciou!" ; para "with your burning"
+	;line "ambition!" ; line "ambition!"
 	done
 
 MahoganyGymGuideWinText:
-	text "PRYCE is some-"
-	line "thing, but you're"
-	cont "something else!"
+	text "PRYCE je teda" ; text "PRYCE is some-"
+	line "niekto, ale ty si" ; line "thing, but you're"
+	cont "ina trieda!" ; cont "something else!"
 
-	para "That was a hot"
-	line "battle that"
+	para "Bol to horuci" ; para "That was a hot"
+	line "zapas, ktory" ; line "battle that"
 
-	para "bridged the gen-"
-	line "eration gap!"
+	para "spojil generacny" ; para "bridged the gen-"
+	line "rozdiel!" ; line "eration gap!"
 	done
 
 MahoganyGym_MapEvents:

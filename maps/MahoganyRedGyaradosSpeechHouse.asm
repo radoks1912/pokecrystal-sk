@@ -33,29 +33,29 @@ MahoganyRedGyaradosSpeechHouseUnusedBookshelf2: ; unreferenced
 	jumpstd MagazineBookshelfScript
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
-	text "I heard that a red"
-	line "GYARADOS appeared"
-	cont "at the LAKE."
+	text "Pocul som, ze sa v" ; text "I heard that a red"
+	line "jazere objavil" ; line "GYARADOS appeared"
+	cont "cerveny GYARADOS." ; cont "at the LAKE."
 
-	para "That's odd, since"
-	line "even ordinary"
+	para "Je to zvlastne," ; para "That's odd, since"
+	line "pretoze ani oby-" ; line "even ordinary"
 
-	para "GYARADOS are rare"
-	line "in that lake…"
+	para "cajni GYARADOSovia" ; para "GYARADOS are rare"
+	line "tam nebyvaju…" ; line "in that lake…"
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText:
-	text "My favorite radio"
-	line "program? I'd say"
-	cont "#MON MUSIC."
+	text "Moja oblubeny ra-" ; text "My favorite radio"
+	line "dioprogram? Urcite" ; line "program? I'd say"
+	cont "#MON MUSIC." ; cont "#MON MUSIC."
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
-	text "I've been hearing"
-	line "laughter on the"
+	text "Pocul som v radiu" ; text "I've been hearing"
+	line "smiech…" ; line "laughter on the"
 
-	para "radio…"
-	line "It's creepy."
+	para "Strasidelne." ; para "radio…"
+	;line "It's creepy." ; line "It's creepy."
 	done
 
 MahoganyRedGyaradosSpeechHouse_MapEvents:
